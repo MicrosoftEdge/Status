@@ -1,0 +1,82 @@
+/* Basic Theming */
+@font-face {
+    font-family: Segoe Custom;
+    src: url(https://www.modern.ie/cdn/fonts/West-European/Normal/latest.eot);
+    src: local("Segoe UI");
+}
+
+@font-face {
+    font-family: Icons;
+    src: url(https://www.modern.ie/cdn/fonts/icons-v3/modern-icons.woff);
+}
+html, body {
+    font-family: Segoe Custom;
+    margin: 0px;
+}
+
+/* Header */
+.masthead {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 75px;
+    width: 100%;
+    background-color: rgb(0,0,0);
+    border-bottom: 10px solid #00aeef;
+}
+
+.masthead .logo {
+    width: 150px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.masthead .menu {
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    height: 100%;
+}
+
+.masthead .menu  ul {
+    display: table;
+    list-style-type: none;
+    height: inherit;
+    margin: 0px;
+}
+
+.masthead .menu  li {
+    display: table-cell;
+    height: inherit;
+    vertical-align: middle;
+    padding-right: 20px;
+}
+
+.masthead .menu a {
+    text-decoration: none;
+    color: rgb(255,255,255);
+    transition: color 200ms;
+}
+
+.masthead .menu a:hover {
+    color: #00aeef;
+}
+
+.masthead .share {
+    text-decoration: none;
+}
+
+.masthead .share::before  {
+    font-family: Icons;
+    font-size: 18pt;
+    content: attr(data-icon);
+    color: rgb(109,110,113);
+    transition: color 200ms;
+}
+ 
+ .masthead .share:hover::before  {
+    font-family: Icons;
+    content: attr(data-icon);
+    color: #00aeef;
+}
