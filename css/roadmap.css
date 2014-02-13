@@ -14,57 +14,57 @@
 }
 
 .roadmap_data .category.Device {
-    background-image: url(../resources/css3.png);
+    background-image: url(../resources/category_devices.png);
 }
 
 .roadmap_data .category.Graphics {
-    background-image: url(../resources/css3.png);
+    background-image: url(../resources/category_graphics.png);
 }
 
 .roadmap_data .category.DOM {
-    background-image: url(../resources/css3.png);
+    background-image: url(../resources/category_semantics.png);
 }
 
 .roadmap_data .category.HTML {
-    background-image: url(../resources/css3.png);
+    background-image: url(../resources/category_semantics.png);
 }
 
 .roadmap_data .category.JavaScript {
-    background-image: url(../resources/css3.png);
+    background-image: url(../resources/category_semantics.png);
 }
 
 .roadmap_data .category.FileAPIs {
-    background-image: url(../resources/css3.png);
+    background-image: url(../resources/category_offline.png);
 }
 
 .roadmap_data .category.Multimedia {
-    background-image: url(../resources/css3.png);
+    background-image: url(../resources/category_multimedia.png);
 }
 
 .roadmap_data .category.RealtimeCommunication {
-    background-image: url(../resources/css3.png);
+    background-image: url(../resources/category_connectivity.png);
 }
 
 .roadmap_data .category.NetworkConnectivity {
-    background-image: url(../resources/css3.png);
+    background-image: url(../resources/category_connectivity.png);
 }
 
 .roadmap_data .category.Performance {
-    background-image: url(../resources/css3.png);
+    background-image: url(../resources/category_performance.png);
 }
 
 .roadmap_data .category.Security {
-    background-image: url(../resources/css3.png);
+    background-image: url(../resources/category_devices.png);
 }
 
 .roadmap_data .category.Userinput {
-    background-image: url(../resources/css3.png);
+    background-image: url(../resources/category_devices.png);
 }
 
 .roadmap_data .category.WebComponents {
-    background-image: url(../resources/css3.png);
+    background-image: url(../resources/category_semantics.png);
 }
 
 .roadmap_data .category.Misc {
-    background-image: url(../resources/css3.png);
+    background-image: url(../resources/category_semantics.png);
 }
