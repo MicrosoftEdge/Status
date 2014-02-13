@@ -1,9 +1,11 @@
 ﻿<!doctype html>
-<html>
+<html ng-app="statusApp">
 <head>
     <title>Internet Explorer Web Platform Roadmap | Status.IE</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/roadmap.css">
     <link rel="shortcut icon" href="resources/favicon.ico" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.12/angular.min.js"></script>
 </head>
 <body>
 <header class="masthead">
@@ -18,6 +20,24 @@
             <li role="menuitem"><a href="http://www.microsoft.com/" target="_blank"><img src="resources/microsoft-logo.png" alt="Microsoft"></a></li>
         </ul>
     </nav>
-</header> 
+</header>
+<section>
+	<table class="roadmap_data" ng-controller="statusController">
+		<tr>
+			<th>Category</th>
+			<th>Name</th>
+			<th>Chrome Status</th>
+			<th>IE View</th>
+		</tr>
+		<tr ng-repeat="feature in chromeStatus | orderBy:'name' | orderBy:'category'">
+			<td class="category {{feature.category}}"></td>
+			<td><a href="{{feature.spec_link}}">{{feature.name}}</a></td>
+			<td>{{feature.impl_status_chrome}}</td>
+			<td>{{feature.ie_views.text}}</td>
+		</tr>
+	</table>
+</section>
+
+<script src="script/roadmap_data.js"></script>
 </body>
 </html>

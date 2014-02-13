@@ -1,0 +1,70 @@
+.roadmap_data {
+    margin-top: 125px;
+    margin-left: 100px;
+}
+
+.roadmap_data .category {
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+
+.roadmap_data .category.CSS {
+    background-image: url(../resources/css3.png);
+}
+
+.roadmap_data .category.Device {
+    background-image: url(../resources/css3.png);
+}
+
+.roadmap_data .category.Graphics {
+    background-image: url(../resources/css3.png);
+}
+
+.roadmap_data .category.DOM {
+    background-image: url(../resources/css3.png);
+}
+
+.roadmap_data .category.HTML {
+    background-image: url(../resources/css3.png);
+}
+
+.roadmap_data .category.JavaScript {
+    background-image: url(../resources/css3.png);
+}
+
+.roadmap_data .category.FileAPIs {
+    background-image: url(../resources/css3.png);
+}
+
+.roadmap_data .category.Multimedia {
+    background-image: url(../resources/css3.png);
+}
+
+.roadmap_data .category.RealtimeCommunication {
+    background-image: url(../resources/css3.png);
+}
+
+.roadmap_data .category.NetworkConnectivity {
+    background-image: url(../resources/css3.png);
+}
+
+.roadmap_data .category.Performance {
+    background-image: url(../resources/css3.png);
+}
+
+.roadmap_data .category.Security {
+    background-image: url(../resources/css3.png);
+}
+
+.roadmap_data .category.Userinput {
+    background-image: url(../resources/css3.png);
+}
+
+.roadmap_data .category.WebComponents {
+    background-image: url(../resources/css3.png);
+}
+
+.roadmap_data .category.Misc {
+    background-image: url(../resources/css3.png);
+}
