@@ -1,0 +1,29 @@
+<header class="masthead">
+    <img class="logo" src="images/logo_150.png" alt="status.IE">
+    <nav class="menu" role="navigation">
+        <ul role="menubar">
+            <li role="menuitem"><a href="#featured">Featured</a></li>
+            <li role="menuitem"><a href="#standards">Standards</a></li>
+            <li role="menuitem"><a href="#releases">IE Releases</a></li>
+            <li role="menuitem"><a class="share" href="https://www.twitter.com/iedevchat" target="_blank" data-icon=""></a></li>
+            <li role="menuitem"><a class="share" href="https://www.facebook.com/internetexplorer" target="_blank" data-icon=""></a></li>
+            <li role="menuitem"><a href="http://www.microsoft.com/" target="_blank"><img src="images/microsoft-logo.png" alt="Microsoft"></a></li>
+        </ul>
+    </nav>
+</header>
+<section>
+    <table class="roadmap_data" ng-controller="MainCtrl">
+        <tr>
+            <th>Category</th>
+            <th>Name</th>
+            <th>Chrome Status</th>
+            <th>IE View</th>
+        </tr>
+        <tr ng-repeat="feature in chromeStatus | orderBy:'name' | orderBy:'category'">
+            <td class="category {{feature.category}}"></td>
+            <td><a href="{{feature.spec_link}}">{{feature.name}}</a></td>
+            <td>{{feature.impl_status_chrome}}</td>
+            <td>{{feature.ie_views.text}}</td>
+        </tr>
+    </table>
+</section>

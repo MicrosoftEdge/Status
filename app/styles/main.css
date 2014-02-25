@@ -75,8 +75,8 @@ html, body {
     color: rgb(109,110,113);
     transition: color 200ms;
 }
- 
- .masthead .share:hover::before  {
+
+.masthead .share:hover::before  {
     font-family: Icons;
     content: attr(data-icon);
     color: #00aeef;
