@@ -1,29 +1,73 @@
 <header class="masthead">
-    <img class="logo" src="images/logo_150.png" alt="status.IE">
     <nav class="menu" role="navigation">
-        <ul role="menubar">
-            <li role="menuitem"><a href="#featured">Featured</a></li>
-            <li role="menuitem"><a href="#standards">Standards</a></li>
-            <li role="menuitem"><a href="#releases">IE Releases</a></li>
-            <li role="menuitem"><a class="share" href="https://www.twitter.com/iedevchat" target="_blank" data-icon=""></a></li>
-            <li role="menuitem"><a class="share" href="https://www.facebook.com/internetexplorer" target="_blank" data-icon=""></a></li>
-            <li role="menuitem"><a href="http://www.microsoft.com/" target="_blank"><img src="images/microsoft-logo.png" alt="Microsoft"></a></li>
+        <img class="logo" src="images/logo_150.png" alt="status.IE">
+        <ul class="main-menu" role="menubar">
+            <li role="search"><input type="text" placeholder="&#57710; filter" style="font-family: 'Segoe UI Symbol'" ng-model="query.name"></li>
+        </ul>
+        <ul class="social">
+            <li role="menuitem"><a class="share tw" href="https://www.twitter.com/iedevchat" target="_blank" data-icon=""></a></li>
+            <li role="menuitem"><a class="share fb" href="https://www.facebook.com/internetexplorer" target="_blank" data-icon=""></a></li>
+            <li role="menuitem" class="msft_logo"><a href="http://www.microsoft.com/" target="_blank"><img src="images/microsoft-logo.png" alt="Microsoft"></a></li>
         </ul>
     </nav>
 </header>
-<section>
-    <table class="roadmap_data" ng-controller="MainCtrl">
-        <tr>
-            <th>Category</th>
-            <th>Name</th>
-            <th>Chrome Status</th>
-            <th>IE View</th>
-        </tr>
-        <tr ng-repeat="feature in chromeStatus | orderBy:'name' | orderBy:'category'">
-            <td class="category {{feature.category}}"></td>
-            <td><a href="{{feature.spec_link}}">{{feature.name}}</a></td>
-            <td>{{feature.impl_status_chrome}}</td>
-            <td>{{feature.ie_views.text}}</td>
-        </tr>
-    </table>
-</section>
+
+<article ng-controller="MainCtrl">
+    <section class="feature category_CSS">
+        <h1 class="feature_name">CSS Gradients (TEMPLATE)</h1>
+        <p>Gradients provide a method to, over a customizable amount of space, transition from one color to another.</p>
+        <ul class="feature_status">
+            <li class="docs">
+                <a href="http://www.webplatform.org/" target="_blank">Docs</a>
+            </li>
+            <li class="standard">
+                <a href="http://w3.org" target="_blank">Standard</a>
+            </li>
+            <li class="chrome impl_status_1">
+                <a href="http://chromestatus.com" target="_blank">&nbsp;</a>
+            </li>
+            <li class="firefox impl_status_1">
+                <a href="http://mozilla.org" target="_blank">&nbsp;</a>
+            </li>
+            <li class="safari impl_status_2">
+                <a href="http://apple.com" target="_blank">&nbsp;</a>
+            </li>
+            <li class="opera impl_status_2">
+                <a href="http://opera.com" target="_blank">&nbsp;</a>
+            </li>
+        </ul>
+        <footer>
+            <div class="ie-status">IE9+</div>
+            <button class="collapsebtn" onclick="this.parentNode.parentNode.classList.toggle('show')"></button>
+        </footer>
+    </section>
+
+    <section ng-repeat="feature in chromeStatus | orderBy:'name' | orderBy:'category' | filter: query" ng-class="tableClass(feature)" class="feature category_{{feature.category}}">
+        <h1 class="feature_name">{{feature.name}}</h1>
+        <p>{{feature.summary}}</p>
+        <ul class="feature_status">
+            <li class="docs">
+                <a href="http://www.webplatform.org/" target="_blank">Docs</a>
+            </li>
+            <li class="standard">
+                <a ng-if="feature.spec_link" ng-href="{{feature.spec_link}}" target="_blank" title="{{feature.standardization.text}}">Standard</a>
+            </li>
+            <li class="chrome impl_status_1">
+                <a href="{{feature.bug_url}}#" title="{{feature.impl_status_chrome}}">&nbsp;</a>
+            </li>
+            <li class="firefox impl_status_{{feature.ff_views.value}}">
+                <a href="{{feature.ff_views_link}}#" title="{{feature.ff_views.text}}">&nbsp;</a>
+            </li>
+            <li class="safari impl_status_{{feature.safari_views.value}}">
+                <a href="{{feature.safari_views_link}}#" title="{{feature.safari_views.text}}">&nbsp;</a>
+            </li>
+            <li class="opera impl_status_{{feature.opera_views.value}}">
+                <a href="{{feature.opera_views_link}}#" title="{{feature.opera_views.text}}">&nbsp;</a>
+            </li>
+        </ul>
+        <footer>
+            <div class="ie-status">{{feature.ie_views.text}}</div>
+            <button class="collapsebtn" onclick="this.parentNode.parentNode.classList.toggle('show')"></button>
+        </footer>
+    </section>
+</article>

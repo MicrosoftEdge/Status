@@ -1,4 +1,37 @@
 /* Basic Theming */
+@-ms-viewport {
+    width: device-width;
+}
+@viewport {
+    width: device-width;
+}
+
+@media screen and (min-width: 650px) {
+    .masthead .menu {
+        max-width: 800px;
+    }
+}
+
+@media screen and (min-width: 525px) and (max-width: 649px) {
+    .masthead .menu {
+        max-width: 650px;
+    }
+
+    .masthead .social .msft_logo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 524px) {
+    .masthead .menu {
+        max-width: 650px;
+    }
+
+    .masthead .menu ul.social {
+        display: none;
+    }
+}
+
 @font-face {
     font-family: Segoe Custom;
     src: url(https://www.modern.ie/cdn/fonts/West-European/Normal/latest.eot);
@@ -9,38 +42,64 @@
     font-family: Icons;
     src: url(https://www.modern.ie/cdn/fonts/icons-v3/modern-icons.woff);
 }
+
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a:link img {
+    border: 0px;
+}
+
 html, body {
     font-family: Segoe Custom;
     margin: 0px;
     background-color: rgb(234, 235, 236);
 }
 
+body {
+    padding-top: 100px;
+}
+
 /* Header */
 .masthead {
     position: fixed;
+    z-index: 3;
     left: 0px;
     right: 0px;
     top: 0px;
     height: 75px;
     width: 100%;
-    background-color: rgb(0,0,0);
-    border-bottom: 10px solid #00aeef;
-}
-
-.masthead .logo {
-    width: 150px;
-    margin-left: 100px;
-    margin-top: 10px;
+    background-color: #282828;
+    border-bottom: 10px solid #6d6e71;
 }
 
 .masthead .menu {
-    position: absolute;
-    top: 0px;
-    left: 300px;
+    position: relative;
     height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.masthead .menu .logo {
+    width: 150px;
+    margin-top: 5px;
+}
+
+.masthead .menu .main-menu {
+    position: absolute;
+    left: 160px;
+}
+
+.masthead .menu .social {
+    position: absolute;
+    right: 0px;
 }
 
 .masthead .menu  ul {
+
+    top: 0px;
     display: table;
     list-style-type: none;
     height: inherit;
@@ -76,8 +135,10 @@ html, body {
     transition: color 200ms;
 }
 
-.masthead .share:hover::before  {
-    font-family: Icons;
-    content: attr(data-icon);
+.masthead .share.tw:hover::before {
     color: #00aeef;
+}
+
+.masthead .share.fb:hover::before {
+    color: #4c66a4;
 }

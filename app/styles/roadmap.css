@@ -1,70 +1,266 @@
-.roadmap_data {
-    margin-top: 125px;
-    margin-left: 100px;
+@media screen and (min-width: 800px) {
+    .feature {
+        width: 800px;
+    }
+    .feature .feature_name {
+        font-size: 20pt;
+    }
+    .feature footer .ie-status {
+        position: absolute;
+        text-align: right;
+        right: 45px;
+        top: 10px;
+        font-size: 15pt;
+    }
 }
 
-.roadmap_data .category {
-    background-position: center;
+@media screen and (min-width: 625px) and (max-width: 799px) {
+    .feature .feature_name {
+        font-size: 15pt;
+    }
+    .feature {
+        width: calc(100% - 20px);
+    }
+    .feature footer .ie-status {
+        position: absolute;
+        text-align: right;
+        right: 45px;
+        top: 10px;
+        font-size: 14pt;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 625px) {
+    .feature .feature_name {
+        font-size: 12pt;
+    }
+    .feature {
+        width: calc(100% - 20px);
+    }
+    .feature footer .ie-status {
+        position: absolute;
+        text-align: right;
+        right: 45px;
+        top: 10px;
+        font-size: 10pt;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .feature .feature_name {
+        font-size: 12pt;
+    }
+    .feature {
+        width: calc(100% - 20px);
+    }
+    .feature footer .ie-status {
+        position: absolute;
+        top: calc(12pt + 10px);
+        left: 45px;
+        text-align: left;
+        font-size: 10pt;
+    }
+}
+
+.feature {
+    position: relative;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding:20pt 0px 0px 45px;
+    transition: height 500ms;
+    overflow: hidden;
+}
+
+.feature.show {
+    height: 225px;
+}
+
+.feature .feature_name {
+    margin: 0px;
+    position: absolute;
+    top: 5px;
+    left: 45px;
+    z-index: 2;
+}
+
+.feature .feature_status {
+    list-style-type: none;
+    padding: 0px;
+    display: table;
+    border-spacing: 10px;
+    background-color: rgba(255,255,255,.2);
+    box-shadow: 0px 0px 5px 0px rgba(255,255,255,0.2)
+}
+
+.feature .feature_status li {
+    display: table-cell;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 0px 50%;
+    width: 25px;
+}
+
+.feature .feature_status .docs {
+    padding-left: 25px;
+    background-image: url(../images/webplatform.png);
+}
+
+.feature .feature_status .standard {
+    padding-left: 25px;
+    background-image: url(../images/w3c.png);
+}
+
+.feature .feature_status .chrome {
+    background-image: url(../images/chrome.png);
+}
+.feature .feature_status .firefox {
+    background-image: url(../images/firefox.png);
+}
+.feature .feature_status .safari {
+    background-image: url(../images/safari.png);
+}
+.feature .feature_status .opera {
+    background-image: url(../images/opera.png);
+}
+
+.feature .feature_status .impl_status_1 {
+    opacity: 1;
+}
+
+.feature .feature_status .impl_status_2 {
+    opacity: 0.2;
+}
+
+.feature .feature_status .impl_status_,
+.feature .feature_status .impl_status_3,
+.feature .feature_status .impl_status_4,
+.feature .feature_status .impl_status_5 {
+    opacity: 0;
+}
+
+.feature .feature_status a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+
+.feature .feature_status a:hover {
+    cursor: pointer;
+}
+.feature .feature_status .docs a:hover, .feature .feature_status .standard a:hover {
+    text-decoration: underline;
+}
+
+.feature footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    margin: 0px;
+    background-position: 10px 50%;
     background-repeat:no-repeat;
-    background-size: contain;
+    background-size: 25px;
 }
 
-.roadmap_data .category.CSS {
+.feature footer .ie-status {
+    color: white;
+}
+
+.feature .collapsebtn {
+    font-family: "Segoe UI Symbol";
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    padding: 0px;
+    color: rgb(255,255,255);
+    background-color: transparent;
+    border: 2px solid rgb(255,255,255);
+    border-radius: 50%;
+}
+
+.feature .collapsebtn::before {
+    content: '\E109';
+}
+
+.feature.show .collapsebtn::before {
+    content: '\E108';
+}
+
+.feature .collapsebtn:hover {
+    background-color: rgba(255,255,255,0.2);
+    cursor: pointer;
+
+}
+
+/* API Category Styles */
+
+.feature.category_CSS {
+    background-color: #00aeef;
+}
+.feature.category_CSS footer{
+    background-color: rgb(21, 112, 166);
     background-image: url(../images/css3.png);
 }
 
-.roadmap_data .category.Device {
+.feature.category_Device, .feature.category_Security, .feature.category_Userinput {
+    background-color: #fe9f22;
+}
+.feature.category_Device footer, .feature.category_Security footer, .feature.category_Userinput footer{
+    background-color: #fec52c;
     background-image: url(../images/category_devices.png);
 }
 
-.roadmap_data .category.Graphics {
+.feature.category_Graphics {
+    background-color: #00dcd5;
+}
+.feature.category_Graphics footer{
+    background-color: #06c6f2;
     background-image: url(../images/category_graphics.png);
 }
 
-.roadmap_data .category.DOM {
+.feature.category_DOM, .feature.category_HTML, .feature.category_JavaScript, .feature.category_WebComponents, .feature.category_Misc {
+    background-color: #00dcd5;
+}
+.feature.category_DOM footer, .feature.category_HTML footer, .feature.category_JavaScript footer, .feature.category_WebComponents footer, .feature.category_Misc footer {
+    background-color: #06c6f2;
     background-image: url(../images/category_semantics.png);
 }
 
-.roadmap_data .category.HTML {
-    background-image: url(../images/category_semantics.png);
+.feature.category_FileAPIs, .feature.category_OfflineStorage {
+    background-color: #c1dc34;
 }
-
-.roadmap_data .category.JavaScript {
-    background-image: url(../images/category_semantics.png);
-}
-
-.roadmap_data .category.FileAPIs {
+.feature.category_FileAPIs footer, .feature.category_OfflineStorage footer{
+    background-color: #89c32b;
     background-image: url(../images/category_offline.png);
 }
 
-.roadmap_data .category.Multimedia {
+.feature.category_Multimedia {
+    background-color: #00dcd5;
+}
+.feature.category_Multimedia footer{
+    background-color: #06c6f2;
     background-image: url(../images/category_multimedia.png);
 }
 
-.roadmap_data .category.RealtimeCommunication {
+.feature.category_RealtimeCommunication, .feature.category_NetworkConnectivity {
+    background-color: #fc8bd5;
+}
+.feature.category_RealtimeCommunication footer, .feature.category_NetworkConnectivity footer{
+    background-color: #af66a4;
     background-image: url(../images/category_connectivity.png);
 }
 
-.roadmap_data .category.NetworkConnectivity {
-    background-image: url(../images/category_connectivity.png);
+.feature.category_Performance {
+    background-color: #ff5245;
 }
-
-.roadmap_data .category.Performance {
+.feature.category_Performance footer{
+    background-color: #f32f2f;
     background-image: url(../images/category_performance.png);
-}
-
-.roadmap_data .category.Security {
-    background-image: url(../images/category_devices.png);
-}
-
-.roadmap_data .category.Userinput {
-    background-image: url(../images/category_devices.png);
-}
-
-.roadmap_data .category.WebComponents {
-    background-image: url(../images/category_semantics.png);
-}
-
-.roadmap_data .category.Misc {
-    background-image: url(../images/category_semantics.png);
 }
