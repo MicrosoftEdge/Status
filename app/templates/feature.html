@@ -1,4 +1,5 @@
-<section ng-class="tableClass(feature)" class="feature category_{{feature.category}}">
+<section  class="feature category_{{feature.category}}" ng-class="{'show': show}">
+    <!--ng-class="tableClass(feature)"-->
     <h1 class="feature_name">{{feature.name}}</h1>
 
     <p>{{feature.summary}}</p>
@@ -25,6 +26,6 @@
     </ul>
     <footer>
         <div class="ie-status">{{feature.ie_views.text}}</div>
-        <button class="collapsebtn"></button>
+        <button class="collapsebtn" ng-click="show = !show"></button>
     </footer>
 </section>
