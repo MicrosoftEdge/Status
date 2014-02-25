@@ -104,25 +104,25 @@
 
 .feature .feature_status .docs {
     padding-left: 25px;
-    background-image: url(../images/webplatform.png);
+    background-image: url(/images/webplatform.png);
 }
 
 .feature .feature_status .standard {
     padding-left: 25px;
-    background-image: url(../images/w3c.png);
+    background-image: url(/images/w3c.png);
 }
 
 .feature .feature_status .chrome {
-    background-image: url(../images/chrome.png);
+    background-image: url(/images/chrome.png);
 }
 .feature .feature_status .firefox {
-    background-image: url(../images/firefox.png);
+    background-image: url(/images/firefox.png);
 }
 .feature .feature_status .safari {
-    background-image: url(../images/safari.png);
+    background-image: url(/images/safari.png);
 }
 .feature .feature_status .opera {
-    background-image: url(../images/opera.png);
+    background-image: url(/images/opera.png);
 }
 
 .feature .feature_status .impl_status_1 {
@@ -206,7 +206,7 @@
 }
 .feature.category_CSS footer{
     background-color: rgb(21, 112, 166);
-    background-image: url(../images/css3.png);
+    background-image: url(/images/css3.png);
 }
 
 .feature.category_Device, .feature.category_Security, .feature.category_Userinput {
@@ -214,7 +214,7 @@
 }
 .feature.category_Device footer, .feature.category_Security footer, .feature.category_Userinput footer{
     background-color: #fec52c;
-    background-image: url(../images/category_devices.png);
+    background-image: url(/images/category_devices.png);
 }
 
 .feature.category_Graphics {
@@ -222,7 +222,7 @@
 }
 .feature.category_Graphics footer{
     background-color: #06c6f2;
-    background-image: url(../images/category_graphics.png);
+    background-image: url(/images/category_graphics.png);
 }
 
 .feature.category_DOM, .feature.category_HTML, .feature.category_JavaScript, .feature.category_WebComponents, .feature.category_Misc {
@@ -230,7 +230,7 @@
 }
 .feature.category_DOM footer, .feature.category_HTML footer, .feature.category_JavaScript footer, .feature.category_WebComponents footer, .feature.category_Misc footer {
     background-color: #06c6f2;
-    background-image: url(../images/category_semantics.png);
+    background-image: url(/images/category_semantics.png);
 }
 
 .feature.category_FileAPIs, .feature.category_OfflineStorage {
@@ -238,7 +238,7 @@
 }
 .feature.category_FileAPIs footer, .feature.category_OfflineStorage footer{
     background-color: #89c32b;
-    background-image: url(../images/category_offline.png);
+    background-image: url(/images/category_offline.png);
 }
 
 .feature.category_Multimedia {
@@ -246,7 +246,7 @@
 }
 .feature.category_Multimedia footer{
     background-color: #06c6f2;
-    background-image: url(../images/category_multimedia.png);
+    background-image: url(/images/category_multimedia.png);
 }
 
 .feature.category_RealtimeCommunication, .feature.category_NetworkConnectivity {
@@ -254,7 +254,7 @@
 }
 .feature.category_RealtimeCommunication footer, .feature.category_NetworkConnectivity footer{
     background-color: #af66a4;
-    background-image: url(../images/category_connectivity.png);
+    background-image: url(/images/category_connectivity.png);
 }
 
 .feature.category_Performance {
@@ -262,5 +262,5 @@
 }
 .feature.category_Performance footer{
     background-color: #f32f2f;
-    background-image: url(../images/category_performance.png);
+    background-image: url(/images/category_performance.png);
 }

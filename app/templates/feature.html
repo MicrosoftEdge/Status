@@ -1,0 +1,30 @@
+<section ng-class="tableClass(feature)" class="feature category_{{feature.category}}">
+    <h1 class="feature_name">{{feature.name}}</h1>
+
+    <p>{{feature.summary}}</p>
+    <ul class="feature_status">
+        <li class="docs">
+            <a href="http://www.webplatform.org/" target="_blank">Docs</a>
+        </li>
+        <li class="standard">
+            <a ng-if="feature.spec_link" ng-href="{{feature.spec_link}}" target="_blank"
+               title="{{feature.standardization.text}}">Standard</a>
+        </li>
+        <li class="chrome impl_status_1">
+            <a href="{{feature.bug_url}}#" title="{{feature.impl_status_chrome}}">&nbsp;</a>
+        </li>
+        <li class="firefox impl_status_{{feature.ff_views.value}}">
+            <a href="{{feature.ff_views_link}}#" title="{{feature.ff_views.text}}">&nbsp;</a>
+        </li>
+        <li class="safari impl_status_{{feature.safari_views.value}}">
+            <a href="{{feature.safari_views_link}}#" title="{{feature.safari_views.text}}">&nbsp;</a>
+        </li>
+        <li class="opera impl_status_{{feature.opera_views.value}}">
+            <a href="{{feature.opera_views_link}}#" title="{{feature.opera_views.text}}">&nbsp;</a>
+        </li>
+    </ul>
+    <footer>
+        <div class="ie-status">{{feature.ie_views.text}}</div>
+        <button class="collapsebtn" onclick="this.parentNode.parentNode.classList.toggle('show')"></button>
+    </footer>
+</section>
