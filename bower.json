@@ -10,7 +10,8 @@
     "angular-cookies": "1.2.6",
     "angular-sanitize": "1.2.6",
     "angular-route": "1.2.6",
-    "lodash": "~2.4.1"
+    "lodash": "~2.4.1",
+    "angular-bootstrap": "~0.10.0"
   },
   "devDependencies": {
     "angular-mocks": "1.2.6",

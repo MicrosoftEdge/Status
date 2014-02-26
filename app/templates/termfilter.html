@@ -1,0 +1,6 @@
+<div role="search"><input type="text" placeholder="&#57710; filter" style="font-family: 'Segoe UI Symbol'"
+                          ng-model="inputTerm"><button ng-click="addTerm(inputTerm)">add</button>
+    <ul class="terms">
+        <li ng-repeat="term in terms">{{term.text}} <button ng-click="removeTerm(term)">remove</button></li>
+    </ul>
+</div>

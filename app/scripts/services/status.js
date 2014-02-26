@@ -7,15 +7,24 @@ angular.module('statusieApp')
         var ieStatusURL = "/static/ie-status.json";
         var chromeStatus ;
         var ieStatus;
+        var categories;
 
         var getChromeStatus = function () {
             return $http.get(chromeStatusURL).then(function (response) {
                 var data = response.data;
                 chromeStatus = {};
+                var tempCategories = {};
+
                 _.forEach(data,function (item) {
                     item.category = item.category.replace(/[^a-zA-Z0-9]/g, ''); //Remove Whitespace
                     chromeStatus[item.name] = item;
+                    tempCategories[item.category] = {
+                        name: item.category,
+                        selected: false
+                    };
                 });
+
+                categories = _.toArray(tempCategories);
 
                 return chromeStatus;
             });
@@ -37,7 +46,11 @@ angular.module('statusieApp')
                         chromeStatus[key].ie_status = val;
                     }
                 });
-                deferred.resolve(chromeStatus);
+
+                deferred.resolve({
+                    features: chromeStatus,
+                    categories: categories
+                });
             }, 0);
 
             return deferred.promise;
