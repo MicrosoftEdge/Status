@@ -6,7 +6,7 @@
             <input ng-model="allCategories" type="checkbox" />All
         </li>
         <li ng-repeat="category in categories">
-            <input ng-disabled="allCategories" name="{{category.name}}" value="{{category.name}}" ng-checked="category.selected" type="checkbox" />{{category.name}}
+            <input ng-disabled="allCategories" name="{{category.name}}" value="{{category.name}}" ng-model="category.selected" type="checkbox" />{{category.name}}
         </li>
     </ul>
 </div>

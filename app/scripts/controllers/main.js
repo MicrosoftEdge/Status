@@ -14,11 +14,14 @@ angular.module('statusieApp')
 
         $scope.$watch('filters', function (newValue) {
             //We stop watching because there is a new category going on
-            if(!features){
+            if (!features) {
                 return;
             }
             var filteredFeatures = _.clone(features);
             _.forOwn($scope.filters, function (categoryFilters) {
+                if (!Array.isArray(categoryFilters)) {
+                    return;
+                }
                 _.forEach(categoryFilters, function (value) {
                     filteredFeatures = _.reduce(features, value);
                     console.log(filteredFeatures);
