@@ -1,6 +1,14 @@
-<div role="search"><input type="text" placeholder="&#57710; filter" style="font-family: 'Segoe UI Symbol'"
-                          ng-model="inputTerm"><button ng-click="addTerm(inputTerm)">add</button>
-    <ul class="terms">
-        <li ng-repeat="term in terms">{{term.text}} <button ng-click="removeTerm(term)">remove</button></li>
-    </ul>
+<div role="search" class="col-md-8">
+    <form class="form-inline float" role="form">
+        <div class="form-group">
+            <label class="sr-only" for="termInput">New term</label>
+            <input type="text" class="form-control" id="termInput" placeholder="&#57710; filter" style="font-family: 'Segoe UI Symbol'"
+                   ng-model="inputTerm">
+        </div>
+        <button class="btn btn-default" ng-click="addTerm(inputTerm)">add</button>
+    </form>
+
+    <button class="btn btn-default" ng-repeat="term in terms">{{term.text}}
+        <span ng-click="removeTerm(term)" class="glyphicon glyphicon-remove"></span>
+    </button>
 </div>

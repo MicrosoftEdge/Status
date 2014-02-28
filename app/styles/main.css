@@ -69,7 +69,6 @@ body {
     left: 0px;
     right: 0px;
     top: 0px;
-    height: 75px;
     width: 100%;
     background-color: #282828;
     border-bottom: 10px solid #6d6e71;
@@ -80,6 +79,7 @@ body {
     height: 100%;
     margin-left: auto;
     margin-right: auto;
+    height:75px;
 }
 
 .masthead .menu .logo {
@@ -141,4 +141,26 @@ body {
 
 .masthead .share.fb:hover::before {
     color: #4c66a4;
+}
+
+.center {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.term-filter{
+    min-height: 20px;
+}
+
+.filter-group {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.float {
+    float:left;
+}
+
+div.term {
+    float:left;
 }

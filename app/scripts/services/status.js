@@ -4,7 +4,10 @@ angular.module('statusieApp')
     .service('Status', ['$http', '$q', function Status($http, $q) {
         var chromeStatusURL = 'http://www.chromestatus.com/features.json';
         //TODO: load this from a remote url
-        var ieStatusURL = "/static/ie-status.json";
+        var ieStatusURL = '/static/ie-status.json';
+        var observedBrowsers = _.map(['Chrome', 'Firefox', 'Safari', 'Opera'], function(browser){
+            return {name: browser, selected: false};
+        });
         var chromeStatus ;
         var ieStatus;
         var categories;
@@ -12,8 +15,9 @@ angular.module('statusieApp')
         var getChromeStatus = function () {
             return $http.get(chromeStatusURL).then(function (response) {
                 var data = response.data;
-                chromeStatus = {};
                 var tempCategories = {};
+
+                chromeStatus = {};
 
                 _.forEach(data,function (item) {
                     item.category = item.category.replace(/[^a-zA-Z0-9]/g, ''); //Remove Whitespace
@@ -49,7 +53,8 @@ angular.module('statusieApp')
 
                 deferred.resolve({
                     features: chromeStatus,
-                    categories: categories
+                    categories: categories,
+                    browsers: observedBrowsers
                 });
             }, 0);
 

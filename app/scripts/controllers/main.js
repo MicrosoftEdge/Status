@@ -10,6 +10,7 @@ angular.module('statusieApp')
 
                 $scope.features = _.clone(features);
                 $scope.categories = data.categories;
+                $scope.browsers = data.browsers;
             });
 
         $scope.$watch('filters', function (newValue) {
@@ -24,11 +25,12 @@ angular.module('statusieApp')
                 }
                 _.forEach(categoryFilters, function (value) {
                     filteredFeatures = _.reduce(features, value);
-                    console.log(filteredFeatures);
                 });
             });
 
-            $scope.features = filteredFeatures;
+            $scope.features = _.sortBy(filteredFeatures, function(feature){
+                return feature.name;
+            });
 
         }, true);
     });
