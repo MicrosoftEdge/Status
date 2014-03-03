@@ -2,7 +2,9 @@
 
 angular.module('statusieApp')
     .service('Status', ['$http', '$q', function Status($http, $q) {
+        //We can load it locally using /static/features.json
         var chromeStatusURL = 'http://www.chromestatus.com/features.json';
+
         //TODO: load this from a remote url
         var ieStatusURL = '/static/ie-status.json';
         var observedBrowsers = _.map(['Chrome', 'Firefox', 'Safari', 'Opera'], function(browser){

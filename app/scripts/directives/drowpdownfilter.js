@@ -30,18 +30,27 @@ angular.module('statusieApp')
                     return acum;
                 };
 
-                $scope.allOptions = true;
                 filters.areas = [selectorFilter];
 
-                $scope.$watch('allCategories', function (newValue) {
+                $scope.$watch('allOptions', function (newValue) {
                     if (newValue) {
                         filters.selectedCategories = 0;
-                    }else{
+                    } else {
                         filters.selectedCategories = selectedOptions.length;
                     }
                 });
 
-                $scope.$watch('options.selections', function (newValue) {
+                $scope.$watch('options.selections', function (newValue, oldValue) {
+                    if (!newValue) {
+                        return;
+                    }
+
+                    if (newValue && !oldValue) {
+                        //We need to assign it at this moment because if not the dropdown is not populated
+                        $scope.selections = newValue;
+                        $scope.allOptions = true;
+                    }
+
                     selectedOptions = _.pluck(_.filter(newValue, function (category) {
                         return category.selected;
                     }), 'name');

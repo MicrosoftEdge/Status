@@ -1,14 +1,13 @@
 <div class="col-md-2">
     <div class="dropdown">
-        <a class="dropdown-toggle">something</a>
-
+        <a class="dropdown-toggle">{{options.name}}</a>
         <ul class="dropdown-menu">
             <li>
-                <input ng-model="allCategories" type="checkbox"/>All
+                <input ng-model="allOptions" type="checkbox"/>All
             </li>
             <li ng-repeat="option in selections">
-                <input ng-disabled="allCategories" name="{{option.name}}" value="{{option.name}}"
-                       ng-model="category.selected" type="checkbox"/>{{option.name}}
+                <input ng-disabled="allOptions" name="{{option.name}}" value="{{option.name}}"
+                       ng-model="option.selected" type="checkbox"/>{{option.name}}
             </li>
         </ul>
     </div>
