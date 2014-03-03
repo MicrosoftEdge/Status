@@ -13,24 +13,20 @@ angular.module('statusieApp')
                 $scope.browsers = data.browsers;
             });
 
-        $scope.$watch('filters', function (newValue) {
-            //We stop watching because there is a new category going on
-            if (!features) {
-                return;
-            }
+        $scope.$on('filtersUpdated', function () {
             var filteredFeatures = _.clone(features);
+            //TODO: optimize these iterations, maybe do it over features and apply all rules?
             _.forOwn($scope.filters, function (categoryFilters) {
                 if (!Array.isArray(categoryFilters)) {
                     return;
                 }
                 _.forEach(categoryFilters, function (value) {
-                    filteredFeatures = _.reduce(features, value);
+                    filteredFeatures = _.reduce(filteredFeatures, value);
                 });
             });
 
             $scope.features = _.sortBy(filteredFeatures, function(feature){
                 return feature.name;
             });
-
-        }, true);
+        });
     });

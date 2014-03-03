@@ -39,6 +39,7 @@ angular.module('statusieApp')
                     filters.terms.push(filterFunction(term));
 
                     $scope.inputTerm = '';
+                    $scope.$broadcast('filtersUpdated');
                 };
 
                 $scope.removeTerm = function (term) {
@@ -49,6 +50,7 @@ angular.module('statusieApp')
                     });
 
                     filters.terms = newFilters;
+                    $scope.$broadcast('filtersUpdated');
                 }
             },
             link: function postLink(scope, element, attrs) {
