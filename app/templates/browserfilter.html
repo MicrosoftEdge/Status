@@ -1,0 +1,15 @@
+<div class="col-md-2">
+    <div class="dropdown">
+        <a class="dropdown-toggle">Cross browser support</a>
+
+        <ul class="dropdown-menu">
+            <li>
+                <input ng-model="allCategories" type="checkbox"/>All
+            </li>
+            <li ng-repeat="category in categories">
+                <input ng-disabled="allCategories" name="{{category.name}}" value="{{category.name}}"
+                       ng-model="category.selected" type="checkbox"/>{{category.name}}
+            </li>
+        </ul>
+    </div>
+</div>

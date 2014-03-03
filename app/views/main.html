@@ -1,18 +1,20 @@
-<header class="masthead">
-    <nav class="menu" role="navigation">
-        <img class="logo" src="images/logo_150.png" alt="status.IE">
-        <ul class="main-menu" role="menubar">
-            <li role="search"><input type="text" placeholder="&#57710; filter" style="font-family: 'Segoe UI Symbol'" ng-model="query.name"></li>
-        </ul>
-        <ul class="social">
-            <li role="menuitem"><a class="share tw" href="https://www.twitter.com/iedevchat" target="_blank" data-icon=""></a></li>
-            <li role="menuitem"><a class="share fb" href="https://www.facebook.com/internetexplorer" target="_blank" data-icon=""></a></li>
-            <li role="menuitem" class="msft_logo"><a href="http://www.microsoft.com/" target="_blank"><img src="images/microsoft-logo.png" alt="Microsoft"></a></li>
-        </ul>
-    </nav>
+<header>
+    <div class="masthead">
+        <nav class="menu" role="navigation">
+            <img class="logo" src="images/logo_150.png" alt="status.IE">
+            <ul class="social">
+                <li role="menuitem"><a class="share tw" href="https://www.twitter.com/iedevchat" target="_blank"
+                                       data-icon=""></a></li>
+                <li role="menuitem"><a class="share fb" href="https://www.facebook.com/internetexplorer" target="_blank"
+                                       data-icon=""></a></li>
+                <li role="menuitem" class="msft_logo"><a href="http://www.microsoft.com/" target="_blank"><img
+                        src="images/microsoft-logo.png" alt="Microsoft"></a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
-
-<article ng-controller="MainCtrl">
-    <feature ng-repeat="feature in features | orderBy:'name' | orderBy:'category' | filter: query">
+<filter></filter>
+<article>
+    <feature ng-repeat="feature in features">
     </feature>
 </article>
