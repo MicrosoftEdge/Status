@@ -99,6 +99,7 @@ call :SelectNodeVersion
 
 :: 3. Install bower packages
 IF /I "%DEPLOYMENT_SOURCE/bower.json%" NEQ "1" (
+  echo %NPM_CMD%
   call :ExecuteCmd "%NPM_CMD% install bower"
   IF !ERRORLEVEL! NEQ "0" echo Failed bower installation
 
