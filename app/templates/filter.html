@@ -1,6 +1,10 @@
-<div class="center filter-group row">
-    <termfilter></termfilter>
-    <!--<areafilter></areafilter>-->
-    <drowpdownfilter areafilter options="{selections: categories, name: 'Areas'}"></drowpdownfilter>
-    <drowpdownfilter options="{selections: browsers, name: 'Cross-browser'}"></drowpdownfilter>
+<div class="filter-wrapper">
+    <div class="center filter-group row">
+        <termfilter></termfilter>
+        <!--<areafilter></areafilter>-->
+        <div class="col-md-4 filter-switchs-wrapper">
+            <drowpdownfilter areafilter options="{selections: categories, name: 'Areas'}"></drowpdownfilter>
+            <drowpdownfilter options="{selections: browsers, name: 'Cross-browser'}"></drowpdownfilter>
+        </div>
+    </div>
 </div>
