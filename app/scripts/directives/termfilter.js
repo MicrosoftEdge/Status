@@ -28,6 +28,10 @@ angular.module('statusieApp')
                 $scope.addTerm = function () {
                     var term = $scope.inputTerm;
 
+                    if(term === ''){
+                        return;
+                    }
+
                     if (!Array.isArray(filters.terms)) {
                         filters.terms = [];
                     }

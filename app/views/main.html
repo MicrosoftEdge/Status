@@ -26,7 +26,8 @@
         <img src="/images/info-img.png" />
     </button>
 </div>
+        {{limit}}
 <article>
-    <feature ng-repeat="feature in features">
+    <feature ng-repeat="feature in features | limitTo: limit">
     </feature>
 </article>
