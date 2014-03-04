@@ -56,11 +56,12 @@ echo Handling Basic Web Site deployment.
 
 :: 3. Install bower packages
 IF /I "%DEPLOYMENT_SOURCE/bower.json% NEQ "1" (
+  echo %NPM_CMD%
   call :ExecuteCmd "%NPM_CMD% install bower"
-  IF !ERRORLEVEL! NEQ 0 goto error
+  IF !ERRORLEVEL! NEQ "0" echo Failed bower installation
 
   call :ExecuteCmd "./node_modules/.bin/bower install"
-  IF !ERRORLEVEL! NEQ 0 goto error
+  IF !ERRORLEVEL! NEQ "0" echo Failed bower install
 )
 
 :: 1. KuduSync
