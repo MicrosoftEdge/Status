@@ -1,62 +1,47 @@
-<section  class="feature category_{{feature.category}}" ng-class="{'show': show}">
-    <!--ng-class="tableClass(feature)"
+<section class="feature category_{{feature.category}}" ng-class="{'show': show}">
+    <!--<h1 class="feature_name">{{feature.name}}</h1>-->
+    <header>
+        <h1 class="feature_name">{{feature.name}}</h1>
+        <div class="feature-info">
+            <div class="ie-status">{{feature.ie_views.text}}</div>
+            <button class="collapsebtn" ng-click="show = !show"></button>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </header>
+    <div class="feature-body-wrapper">
+        <p>{{feature.summary}}</p>
 
-    <section class="feature category_CSS">
-        <h1 class="feature_name">CSS Gradients (TEMPLATE)</h1>
-        <p>Gradients provide a method to, over a customizable amount of space, transition from one color to another.</p>
-        <ul class="feature_status">
-            <li class="docs">
-                <a href="http://www.webplatform.org/" target="_blank">Docs</a>
-            </li>
-            <li class="standard">
-                <a href="http://w3.org" target="_blank">Standard</a>
-            </li>
-            <li class="chrome impl_status_1">
-                <a href="http://chromestatus.com" target="_blank">&nbsp;</a>
-            </li>
-            <li class="firefox impl_status_1">
-                <a href="http://mozilla.org" target="_blank">&nbsp;</a>
-            </li>
-            <li class="safari impl_status_2">
-                <a href="http://apple.com" target="_blank">&nbsp;</a>
-            </li>
-            <li class="opera impl_status_2">
-                <a href="http://opera.com" target="_blank">&nbsp;</a>
-            </li>
-        </ul>
-        <footer>
-            <div class="ie-status">IE9+</div>
-            <button class="collapsebtn" onclick="this.parentNode.parentNode.classList.toggle('show')"></button>
-        </footer>
-    </section>
+        <div class="feature-status-wrapper">
+            <ul class="feature_status info">
+                <li class="docs">
+                    <a href="http://www.webplatform.org/" target="_blank">Docs</a>
+                </li>
+                <li class="standard">
+                    <a ng-if="feature.spec_link" ng-href="{{feature.spec_link}}" target="_blank"
+                       title="{{feature.standardization.text}}">Standard</a>
+                </li>
+                <li class="demo">
+                    <a ng-if="feature.spec_link" ng-href="{{feature.spec_link}}" target="_blank"
+                       title="Demo">Demo</a>
+                </li>
+            </ul>
+            <ul class="feature_status browsers">
+                <li class="chrome impl_status_1">
+                    <a href="{{feature.bug_url}}#" title="{{feature.impl_status_chrome}}">&nbsp;</a>
+                </li>
+                <li class="firefox impl_status_{{feature.ff_views.value}}">
+                    <a href="{{feature.ff_views_link}}#" title="{{feature.ff_views.text}}">&nbsp;</a>
+                </li>
+                <li class="safari impl_status_{{feature.safari_views.value}}">
+                    <a href="{{feature.safari_views_link}}#" title="{{feature.safari_views.text}}">&nbsp;</a>
+                </li>
+                <li class="opera impl_status_{{feature.opera_views.value}}">
+                    <a href="{{feature.opera_views_link}}#" title="{{feature.opera_views.text}}">&nbsp;</a>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
 
-    -->
-    <h1 class="feature_name">{{feature.name}}</h1>
-
-    <p>{{feature.summary}}</p>
-    <ul class="feature_status">
-        <li class="docs">
-            <a href="http://www.webplatform.org/" target="_blank">Docs</a>
-        </li>
-        <li class="standard">
-            <a ng-if="feature.spec_link" ng-href="{{feature.spec_link}}" target="_blank"
-               title="{{feature.standardization.text}}">Standard</a>
-        </li>
-        <li class="chrome impl_status_1">
-            <a href="{{feature.bug_url}}#" title="{{feature.impl_status_chrome}}">&nbsp;</a>
-        </li>
-        <li class="firefox impl_status_{{feature.ff_views.value}}">
-            <a href="{{feature.ff_views_link}}#" title="{{feature.ff_views.text}}">&nbsp;</a>
-        </li>
-        <li class="safari impl_status_{{feature.safari_views.value}}">
-            <a href="{{feature.safari_views_link}}#" title="{{feature.safari_views.text}}">&nbsp;</a>
-        </li>
-        <li class="opera impl_status_{{feature.opera_views.value}}">
-            <a href="{{feature.opera_views_link}}#" title="{{feature.opera_views.text}}">&nbsp;</a>
-        </li>
-    </ul>
-    <footer>
-        <div class="ie-status">{{feature.ie_views.text}}</div>
-        <button class="collapsebtn" ng-click="show = !show"></button>
-    </footer>
 </section>

@@ -1,266 +1,368 @@
-@media screen and (min-width: 800px) {
-    .feature {
-        width: 800px;
-    }
-    .feature .feature_name {
-        font-size: 20pt;
-    }
-    .feature footer .ie-status {
-        position: absolute;
-        text-align: right;
-        right: 45px;
-        top: 10px;
-        font-size: 15pt;
-    }
-}
-
-@media screen and (min-width: 625px) and (max-width: 799px) {
-    .feature .feature_name {
-        font-size: 15pt;
-    }
-    .feature {
-        width: calc(100% - 20px);
-    }
-    .feature footer .ie-status {
-        position: absolute;
-        text-align: right;
-        right: 45px;
-        top: 10px;
-        font-size: 14pt;
-    }
-}
-
-@media screen and (min-width: 500px) and (max-width: 625px) {
-    .feature .feature_name {
-        font-size: 12pt;
-    }
-    .feature {
-        width: calc(100% - 20px);
-    }
-    .feature footer .ie-status {
-        position: absolute;
-        text-align: right;
-        right: 45px;
-        top: 10px;
-        font-size: 10pt;
-    }
-}
-
-@media screen and (max-width: 499px) {
-    .feature .feature_name {
-        font-size: 12pt;
-    }
-    .feature {
-        width: calc(100% - 20px);
-    }
-    .feature footer .ie-status {
-        position: absolute;
-        top: calc(12pt + 10px);
-        left: 45px;
-        text-align: left;
-        font-size: 10pt;
-    }
-}
-
 .feature {
     position: relative;
     height: 50px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-    padding:20pt 0px 0px 45px;
+    padding: 0;
+    -moz-transition: height 500ms;
+    -o-transition: height 500ms;
+    -webkit-transition: height 500ms;
     transition: height 500ms;
     overflow: hidden;
 }
 
-.feature.show {
-    height: 225px;
+    .feature.show {
+        height: 225px;
+    }
+
+    .feature header {
+        height: 50px;
+        margin: 0px;
+        background-position: 10px 50%;
+        background-repeat: no-repeat;
+        -moz-background-size: 25px;
+        -o-background-size: 25px;
+        -webkit-background-size: 25px;
+        background-size: 25px;
+        background-color: #eef0f6;
+        border-radius: 0 50px 50px 0;
+        -moz-transition: background-color 200ms;
+        -o-transition: background-color 200ms;
+        -webkit-transition: background-color 200ms;
+        transition: background-color 200ms;
+        border-left: 10px solid;
+    }
+
+    .feature.show header {
+        background-color: #d8dbe9;
+    }
+
+    .feature header .feature_name {
+        margin: 0px;
+        padding: 10px 0 0 60px;
+        float: left;
+        height: 42px;
+        overflow: hidden;
+        white-space: nowrap;
+        -ms-text-overflow: ellipsis;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+    }
+
+    .feature header .feature-info {
+        float: right;
+        margin: 0 5px 0 0;
+    }
+
+    .feature header .ie-status {
+        color: black;
+        float: left;
+        margin: 12px 10px 0 0;
+        text-align: right;
+        font-weight: 600;
+    }
+
+    .feature .collapsebtn {
+        font-family: "Segoe UI Symbol";
+        width: 40px;
+        height: 40px;
+        padding: 0px;
+        color: black;
+        border-radius: 50%;
+        float: left;
+        border: 0;
+        margin-top: 5px;
+        background: #fff url("/images/arrow.png") no-repeat center 10px;
+        -moz-transform: rotate(-180deg);
+        -ms-transform: rotate(-180deg);
+        -o-transform: rotate(-180deg);
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+        -moz-transition: all 500ms;
+        -o-transition: all 500ms;
+        -webkit-transition: all 500ms;
+        transition: all 500ms;
+    }
+
+    .feature.show .collapsebtn {
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    .feature .collapsebtn:hover {
+        cursor: pointer;
+    }
+
+    .feature .feature-body-wrapper {
+        padding: 10px;
+        position: relative;
+        border-left: solid 10px;
+    }
+
+        .feature .feature-body-wrapper p {
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+    .feature .feature-status-wrapper {
+        margin-top: 20px;
+        /*position: absolute;
+        bottom: 0;
+        left: 0;*/
+    }
+
+    .feature .feature_status {
+        list-style-type: none;
+        padding: 0px;
+        display: table;
+        border-spacing: 10px;
+        background-color: rgba(255,255,255,.2);
+        box-shadow: 0px 0px 5px 0px rgba(255,255,255,0.2);
+        border-bottom: 0;
+    }
+
+        .feature .feature_status li {
+            display: table-cell;
+            background-repeat: no-repeat;
+            -moz-background-size: auto;
+            -o-background-size: auto;
+            -webkit-background-size: auto;
+            background-size: auto;
+            background-position: 0px 50%;
+            width: 30px;
+            height: 30px;
+        }
+
+        .feature .feature_status .chrome {
+            background-image: url(/images/chrome.png);
+        }
+
+        .feature .feature_status .firefox {
+            background-image: url(/images/firefox.png);
+        }
+
+        .feature .feature_status .safari {
+            background-image: url(/images/safari.png);
+        }
+
+        .feature .feature_status .opera {
+            background-image: url(/images/opera.png);
+        }
+
+        .feature .feature_status .impl_status_1 {
+            opacity: 1;
+        }
+
+        .feature .feature_status .impl_status_2 {
+            opacity: 0.2;
+        }
+
+        .feature .feature_status .impl_status_,
+        .feature .feature_status .impl_status_3,
+        .feature .feature_status .impl_status_4,
+        .feature .feature_status .impl_status_5 {
+            /*opacity: 0;*/
+            display: none;
+        }
+
+        .feature .feature_status a {
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            color: rgb(255,255,255);
+            text-decoration: none;
+        }
+
+            .feature .feature_status a:hover {
+                cursor: pointer;
+            }
+
+        .feature .feature_status .docs a,
+        .feature .feature_status .standard a {
+            color: #000;
+        }
+
+        .feature .feature_status.info {
+            float: left;
+        }
+
+            .feature .feature_status.info li {
+                background-color: #d8dbe9;
+                padding: 10px 10px 10px 40px;
+                border-left: solid 5px #a4a5ab;
+                background-position-x: 5px;
+            }
+
+                .feature .feature_status.info li.docs {
+                    background-image: url(/images/webplatform.png);
+                }
+
+                .feature .feature_status.info li.standard {
+                    background-image: url(/images/clip.png);
+                }
+
+                .feature .feature_status.info li.demo {
+                    background-image: url(/images/demo.png);
+                    background-color: #376a7c;
+                    border-color: #18414f;
+                }
+
+        .feature .feature_status.browsers {
+            float: right;
+            padding-top: 5px;
+        }
+
+    /* API Category Styles */
+
+    .feature.category_CSS .feature-body-wrapper {
+        border-color: #f7b294;
+    }
+
+    .feature.category_Device .feature-body-wrapper,
+    .feature.category_Security .feature-body-wrapper,
+    .feature.category_Userinput .feature-body-wrapper {
+        border-color: #89b6e0;
+    }
+
+    .feature.category_Graphics .feature-body-wrapper {
+        border-color: #f38891;
+    }
+
+    .feature.category_DOM .feature-body-wrapper,
+    .feature.category_HTML .feature-body-wrapper,
+    .feature.category_JavaScript .feature-body-wrapper,
+    .feature.category_WebComponents .feature-body-wrapper,
+    .feature.category_Misc .feature-body-wrapper {
+        border-color: #fecf90;
+    }
+
+    .feature.category_FileAPIs .feature-body-wrapper,
+    .feature.category_OfflineStorage .feature-body-wrapper {
+        border-color: #b390bc;
+    }
+
+    .feature.category_Multimedia .feature-body-wrapper {
+        border-color: #ffe086;
+    }
+
+    .feature.category_RealtimeCommunication .feature-body-wrapper,
+    .feature.category_NetworkConnectivity .feature-body-wrapper {
+        border-color: #c6d362;
+    }
+
+    .feature.category_Performance .feature-body-wrapper {
+        border-color: #7fedea;
+    }
+
+    .feature.category_CSS header {
+        background-image: url(/images/css3.png);
+        border-color: #ef6529;
+    }
+
+    .feature.category_Device header,
+    .feature.category_Security header,
+    .feature.category_Userinput header {
+        background-image: url(/images/category_devices.png);
+        border-color: #136dc1;
+    }
+
+    .feature.category_Graphics header {
+        background-image: url(/images/category_graphics.png);
+        border-color: #e81123;
+    }
+
+    .feature.category_DOM header,
+    .feature.category_HTML header,
+    .feature.category_JavaScript header,
+    .feature.category_WebComponents header,
+    .feature.category_Misc header {
+        background-image: url(/images/category_semantics.png);
+        border-color: #fe9f22;
+    }
+
+    .feature.category_FileAPIs header,
+    .feature.category_OfflineStorage header {
+        background-image: url(/images/category_offline.png);
+        border-color: #68217a;
+    }
+
+    .feature.category_Multimedia header {
+        background-image: url(/images/category_multimedia.png);
+        border-color: #ffc20e;
+    }
+
+    .feature.category_RealtimeCommunication header,
+    .feature.category_NetworkConnectivity header {
+        background-image: url(/images/category_connectivity.png);
+        border-color: #8dc63f;
+    }
+
+    .feature.category_Performance header {
+        background-image: url(/images/category_performance.png);
+        border-color: #00dcd5;
+    }
+
+
+@media screen and (min-width: 800px) {
+    .feature {
+        width: 800px;
+    }
+
+        .feature .feature_name {
+            font-size: 20pt;
+            width: 580px;
+        }
+
+        .feature header .ie-status {
+            font-size: 13pt;
+        }
 }
 
-.feature .feature_name {
-    margin: 0px;
-    position: absolute;
-    top: 5px;
-    left: 45px;
-    z-index: 2;
+@media screen and (min-width: 625px) and (max-width: 799px) {
+    .feature .feature_name {
+        font-size: 15pt;
+    }
+
+    .feature {
+        width: calc(100% - 20px);
+    }
+
+        .feature header .ie-status {
+            font-size: 14pt;
+        }
 }
 
-.feature .feature_status {
-    list-style-type: none;
-    padding: 0px;
-    display: table;
-    border-spacing: 10px;
-    background-color: rgba(255,255,255,.2);
-    box-shadow: 0px 0px 5px 0px rgba(255,255,255,0.2)
+@media screen and (min-width: 500px) and (max-width: 625px) {
+    .feature .feature_name {
+        font-size: 12pt;
+    }
+
+    .feature {
+        width: calc(100% - 20px);
+    }
+
+        .feature header .ie-status {
+            font-size: 10pt;
+        }
 }
 
-.feature .feature_status li {
-    display: table-cell;
-    background-repeat: no-repeat;
-    background-size: 20px;
-    background-position: 0px 50%;
-    width: 25px;
-}
+@media screen and (max-width: 499px) {
+    .feature .feature_name {
+        font-size: 12pt;
+    }
 
-.feature .feature_status .docs {
-    padding-left: 25px;
-    background-image: url(/images/webplatform.png);
-}
+    .feature {
+        width: calc(100% - 20px);
+    }
 
-.feature .feature_status .standard {
-    padding-left: 25px;
-    background-image: url(/images/w3c.png);
-}
-
-.feature .feature_status .chrome {
-    background-image: url(/images/chrome.png);
-}
-.feature .feature_status .firefox {
-    background-image: url(/images/firefox.png);
-}
-.feature .feature_status .safari {
-    background-image: url(/images/safari.png);
-}
-.feature .feature_status .opera {
-    background-image: url(/images/opera.png);
-}
-
-.feature .feature_status .impl_status_1 {
-    opacity: 1;
-}
-
-.feature .feature_status .impl_status_2 {
-    opacity: 0.2;
-}
-
-.feature .feature_status .impl_status_,
-.feature .feature_status .impl_status_3,
-.feature .feature_status .impl_status_4,
-.feature .feature_status .impl_status_5 {
-    opacity: 0;
-}
-
-.feature .feature_status a {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    color: rgb(255,255,255);
-    text-decoration: none;
-}
-
-.feature .feature_status a:hover {
-    cursor: pointer;
-}
-.feature .feature_status .docs a:hover, .feature .feature_status .standard a:hover {
-    text-decoration: underline;
-}
-
-.feature footer {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    height: 50px;
-    margin: 0px;
-    background-position: 10px 50%;
-    background-repeat:no-repeat;
-    background-size: 25px;
-}
-
-.feature footer .ie-status {
-    color: white;
-}
-
-.feature .collapsebtn {
-    font-family: "Segoe UI Symbol";
-    position: absolute;
-    top: 12px;
-    right: 10px;
-    width: 25px;
-    height: 25px;
-    padding: 0px;
-    color: rgb(255,255,255);
-    background-color: transparent;
-    border: 2px solid rgb(255,255,255);
-    border-radius: 50%;
-}
-
-.feature .collapsebtn::before {
-    content: '\E109';
-}
-
-.feature.show .collapsebtn::before {
-    content: '\E108';
-}
-
-.feature .collapsebtn:hover {
-    background-color: rgba(255,255,255,0.2);
-    cursor: pointer;
-
-}
-
-/* API Category Styles */
-
-.feature.category_CSS {
-    background-color: #00aeef;
-}
-.feature.category_CSS footer{
-    background-color: rgb(21, 112, 166);
-    background-image: url(/images/css3.png);
-}
-
-.feature.category_Device, .feature.category_Security, .feature.category_Userinput {
-    background-color: #fe9f22;
-}
-.feature.category_Device footer, .feature.category_Security footer, .feature.category_Userinput footer{
-    background-color: #fec52c;
-    background-image: url(/images/category_devices.png);
-}
-
-.feature.category_Graphics {
-    background-color: #00dcd5;
-}
-.feature.category_Graphics footer{
-    background-color: #06c6f2;
-    background-image: url(/images/category_graphics.png);
-}
-
-.feature.category_DOM, .feature.category_HTML, .feature.category_JavaScript, .feature.category_WebComponents, .feature.category_Misc {
-    background-color: #00dcd5;
-}
-.feature.category_DOM footer, .feature.category_HTML footer, .feature.category_JavaScript footer, .feature.category_WebComponents footer, .feature.category_Misc footer {
-    background-color: #06c6f2;
-    background-image: url(/images/category_semantics.png);
-}
-
-.feature.category_FileAPIs, .feature.category_OfflineStorage {
-    background-color: #c1dc34;
-}
-.feature.category_FileAPIs footer, .feature.category_OfflineStorage footer{
-    background-color: #89c32b;
-    background-image: url(/images/category_offline.png);
-}
-
-.feature.category_Multimedia {
-    background-color: #00dcd5;
-}
-.feature.category_Multimedia footer{
-    background-color: #06c6f2;
-    background-image: url(/images/category_multimedia.png);
-}
-
-.feature.category_RealtimeCommunication, .feature.category_NetworkConnectivity {
-    background-color: #fc8bd5;
-}
-.feature.category_RealtimeCommunication footer, .feature.category_NetworkConnectivity footer{
-    background-color: #af66a4;
-    background-image: url(/images/category_connectivity.png);
-}
-
-.feature.category_Performance {
-    background-color: #ff5245;
-}
-.feature.category_Performance footer{
-    background-color: #f32f2f;
-    background-image: url(/images/category_performance.png);
+        .feature header .ie-status {
+            top: calc(12pt + 10px);
+            left: 45px;
+            text-align: left;
+            font-size: 10pt;
+        }
 }
