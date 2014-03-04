@@ -56,7 +56,7 @@ echo Handling Basic Web Site deployment.
 
 :: 3. Install bower packages
 IF /I "%DEPLOYMENT_SOURCE/bower.json% NEQ "1" (
-  call :ExecuteCmd "%NPM_CMD install bower"
+  call :ExecuteCmd "%NPM_CMD% install bower"
   IF !ERRORLEVEL! NEQ 0 goto error
 
   call :ExecuteCmd "./node_modules/.bin/bower install"
