@@ -5,12 +5,12 @@
             <input type="text" class="form-control" id="termInput" placeholder="Filter..." style="font-family: 'Segoe UI Symbol';" ng-model="inputTerm">
             <!--placeholder="&#57710; filter"-->
         </div>
-        <button class="btn btn-default btn-add-filter" ng-click="addTerm(inputTerm)">add</button>
+        <button class="btn btn-default btn-add-filter" data-ng-click="addTerm(inputTerm)">add</button>
     </form>
     <div class="single-filters-wrapper">
-        <button class="btn btn-default btn-single-filter" ng-repeat="term in terms">
+        <button class="btn btn-default btn-single-filter" data-ng-repeat="term in terms">
             <div class="single-filter-text">{{term.text}}</div>
-            <i ng-click="removeTerm(term)" class="glyphicon glyphicon-remove remove-icon"></i>
+            <i data-ng-click="removeTerm(term)" class="glyphicon glyphicon-remove remove-icon"></i>
         </button>
     </div>
     <div class="clear"></div>
