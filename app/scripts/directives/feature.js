@@ -5,8 +5,6 @@ angular.module('statusieApp')
         return {
             templateUrl: '/templates/feature.html',
             restrict: 'E',
-            replace: true,
-            link: function postLink(scope, element, attrs) {
-            }
+            replace: true
         };
     });

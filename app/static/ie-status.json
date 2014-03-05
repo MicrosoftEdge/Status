@@ -1,6 +1,5 @@
 {
-    "name": "Device Orientation",
-    "ie_status": {
+    "Device Orientation" :{
         "text": "Shipped",
         "value": 1,
         "link": "http://msdn.microsoft.com/en-us/library/ie/dn433240(v=vs.85).aspx"
