@@ -1,9 +1,9 @@
-<section class="feature {{feature.normalized_category}}" ng-class="{'show' : show}">
-    <header>
+<section class="feature {{feature.normalized_category}}" data-ng-class="{'show' : show}">
+    <header data-ng-click="show = !show">
         <h1 class="feature_name">{{feature.name}}</h1>
         <div class="feature-info">
             <div class="ie-status">{{feature.position}}</div>
-            <button class="collapsebtn" ng-click="show = !show"></button>
+            <button class="collapsebtn"></button>
             <div class="clear"></div>
         </div>
         <div class="clear"></div>
@@ -13,25 +13,24 @@
 
         <div class="feature-status-wrapper">
             <ul class="feature_status info">
-                <li class="docs {{doc.organization}}" ng-repeat="doc in feature.docs">
-                    <a ng-href="doc.link" target="_blank">{{doc.organization}}</a>
+                <li class="docs {{doc.organization}}" data-ng-repeat="doc in feature.docs">
+                    <a data-ng-href="doc.link" target="_blank">{{doc.organization}}</a>
                 </li>
-                <li class="standard" ng-class="feature.spec.organization">
-                    <a ng-if="feature.spec.link" ng-href="{{feature.spec.link}}" target="_blank"
+                <li class="standard" data-ng-class="feature.spec.organization">
+                    <a data-ng-if="feature.spec.link" data-ng-href="{{feature.spec.link}}" target="_blank"
                        title="{{feature.spec.status}}">{{feature.spec.status}}</a>
                 </li>
-                <li class="demo" ng-repeat="demo in feature.demos">
-                    <a ng-href="{{demo.link}}" target="_blank"
+                <li class="demo" data-ng-repeat="demo in feature.demos">
+                    <a data-ng-href="{{demo.link}}" target="_blank"
                        title="Demo">{{demo.title}}</a>
                 </li>
             </ul>
             <ul class="feature_status browsers">
-                <li class="{{browser.name}}" ng-class="{'implemented': browser.status}" ng-repeat="browser in feature.browsers">
-                    <a ng-href="{{browser.link}}#" title="{{browser.status ? 'Implemented' : 'Not Implemented'}}">&nbsp;</a>
+                <li class="{{browser.name}}" data-ng-class="{'implemented': browser.status}" data-ng-repeat="browser in feature.browsers">
+                    <a data-ng-href="{{browser.link}}#" title="{{browser.status ? 'Implemented' : 'Not Implemented'}}">&nbsp;</a>
                 </li>
             </ul>
             <div class="clear"></div>
         </div>
     </div>
-
 </section>

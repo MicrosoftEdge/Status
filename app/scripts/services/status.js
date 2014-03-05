@@ -10,6 +10,9 @@ angular.module('statusieApp')
         var observedBrowsers = _.map(['Internet Explorer', 'Chrome', 'Firefox', 'Safari', 'Opera'], function (browser) {
             return {name: browser, selected: false};
         });
+        var ieVersions = _.map(['IE6+', 'IE7+', 'IE8+', 'IE9+', 'IE10+', 'IE11+'], function (version) {
+            return {name: version, selected: false};
+        });
         var chromeStatus;
         var ieStatus;
         var categories;
@@ -149,7 +152,8 @@ angular.module('statusieApp')
                 deferred.resolve({
                     features: mergedData,
                     categories: categories,
-                    browsers: observedBrowsers
+                    browsers: observedBrowsers,
+                    ieVersions: ieVersions
                 });
             }, 0);
 
