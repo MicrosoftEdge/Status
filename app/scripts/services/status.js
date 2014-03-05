@@ -7,7 +7,7 @@ angular.module('statusieApp')
 
         //TODO: load this from a remote url
         var ieStatusURL = '/static/ie-status.json';
-        var observedBrowsers = _.map(['Chrome', 'Firefox', 'Safari', 'Opera'], function (browser) {
+        var observedBrowsers = _.map(['Internet Explorer', 'Chrome', 'Firefox', 'Safari', 'Opera'], function (browser) {
             return {name: browser, selected: false};
         });
         var chromeStatus;
