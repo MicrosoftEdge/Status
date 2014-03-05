@@ -448,7 +448,7 @@ button:focus {
 }
 
 .info-row .total-features:before {
-    content: 'Found features: ';
+    content: 'Features found: ';
     font-weight: 400;
     font-size: 16px;
     color: #000;
