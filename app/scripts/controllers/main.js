@@ -13,6 +13,8 @@ angular.module('statusieApp')
                 $scope.browsers = data.browsers;
             });
 
+        $scope.limit = 0;
+
         $scope.$on('filtersUpdated', function () {
             var filteredFeatures = _.clone(features);
             //TODO: optimize these iterations, maybe do it over features and apply all rules?
@@ -28,5 +30,7 @@ angular.module('statusieApp')
             $scope.features = _.sortBy(filteredFeatures, function(feature){
                 return feature.name;
             });
+
+            $scope.limit = $scope.features.length;
         });
     });
