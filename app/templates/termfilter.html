@@ -1,4 +1,4 @@
-<div role="search" class="col-md-8 search-form-wrapper">
+<div role="search" class="col-md-7 search-form-wrapper">
     <form class="form-inline float" role="form">
         <div class="form-group">
             <label class="sr-only" for="termInput">New term</label>
@@ -6,6 +6,13 @@
             <!--placeholder="&#57710; filter"-->
         </div>
         <button class="btn btn-default btn-add-filter" ng-click="addTerm(inputTerm)">add</button>
+        <div class="browser-support">
+            <div class="custom-check">
+                <input type="checkbox" id="browserSupport" checked="" />
+                <label class="check" for="browserSupport"></label>
+            </div>
+            <label for="browserSupport">Crossbrowser support</label>
+        </div>
     </form>
     <div class="single-filters-wrapper">
         <button class="btn btn-default btn-single-filter" ng-repeat="term in terms">
@@ -13,4 +20,5 @@
             <i ng-click="removeTerm(term)" class="glyphicon glyphicon-remove remove-icon"></i>
         </button>
     </div>
+    <div class="clear"></div>
 </div>

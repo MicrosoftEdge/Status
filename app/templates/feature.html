@@ -1,5 +1,4 @@
 <section class="feature {{feature.normalized_category}}" ng-class="{'show' : show}">
-    <!--<h1 class="feature_name">{{feature.name}}</h1>-->
     <header>
         <h1 class="feature_name">{{feature.name}}</h1>
         <div class="feature-info">
@@ -14,10 +13,10 @@
 
         <div class="feature-status-wrapper">
             <ul class="feature_status info">
-                <li class="docs" ng-repeat="doc in feature.docs">
+                <li class="docs {{doc.organization}}" ng-repeat="doc in feature.docs">
                     <a ng-href="doc.link" target="_blank">{{doc.organization}}</a>
                 </li>
-                <li class="standard">
+                <li class="standard {{feature.spec.organization}}">
                     <a ng-if="feature.spec.link" ng-href="{{feature.spec.link}}" target="_blank"
                        title="{{feature.spec.status}}">{{feature.spec.organization}} - {{feature.spec.status}}</a>
                 </li>

@@ -51,11 +51,6 @@ label {
 
 /* Header */
 header.ng-scope {
-    /*position: fixed;
-    z-index: 3;
-    left: 0px;
-    right: 0px;
-    top: 0px;*/
     width: 100%;
 }
 
@@ -192,7 +187,7 @@ button:focus {
 
                 .filter-wrapper .center .search-form-wrapper button.btn-single-filter {
                     height: 19px;
-                    width: 100px;
+                    width: 78px;
                     margin: 0 0 4px 4px;
                     text-align: left;
                     padding: 0 4px;
@@ -226,7 +221,7 @@ button:focus {
             .filter-wrapper .center .search-form-wrapper .single-filters-wrapper {
                 height: 86px;
                 width: auto;
-                max-width: 328px;
+                width: 246px;
                 overflow-y: hidden;
             }
 
@@ -245,13 +240,31 @@ button:focus {
             .filter-wrapper .center .filter-switchs-wrapper .switch-filters-column {
                 padding-right: 0;
                 padding-left: 5px;
-                width: 50%;
+                width: auto;
+                text-align: right;
             }
 
                 .filter-wrapper .center .filter-switchs-wrapper .switch-filters-column .dropdown a {
                     font-size: 20px;
                     cursor: pointer;
                 }
+
+                .filter-wrapper .center .filter-switchs-wrapper .switch-filters-column:first-child {
+                    width: 35%;
+                }
+
+                .filter-wrapper .center .filter-switchs-wrapper .switch-filters-column:last-child {
+                    width: 65%;
+                }
+
+        .filter-wrapper .center .browser-support {
+            margin-top: 10px;
+        }
+
+            .filter-wrapper .center .browser-support label {
+                font-size: 16px;
+                color: #fff;
+            }
 
 
 /* Dropdown menu */
@@ -262,38 +275,152 @@ button:focus {
     padding: 0;
     color: #fff;
     width: 160px;
+    left: auto;
+    right: 0;
+    margin-top: -2px;
 }
 
-    .dropdown .dropdown-menu li {
-        padding: 0 10px;
-        border-bottom: solid 1px #19404c;
-        height: 36px;
+.dropdown .dropdown-toggle span.dropdown-arrow {
+    display: inline-block;
+    height: 20px;
+    width: 24px;
+    background: rgba(8, 62, 81, 0.5);
+    margin: -3px 0 0 10px;
+    vertical-align: middle;
+}
+
+    .dropdown .dropdown-toggle span.dropdown-arrow i {
+        display: block;
+        height: 100%;
+        width: 100%;
+        background: url("/images/little-arrow.png") no-repeat center center;
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        -moz-transition: all 500ms;
+        -o-transition: all 500ms;
+        -webkit-transition: all 500ms;
+        transition: all 500ms;
     }
+
+.dropdown.open .dropdown-toggle .dropdown-arrow i {
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.dropdown .dropdown-menu li {
+    padding: 0 10px;
+    border-bottom: solid 1px #19404c;
+    height: 36px;
+}
 
     .dropdown .dropdown-menu li:hover {
         background-color: #19404c;
     }
 
-        .dropdown .dropdown-menu li:last-child {
-            border-bottom: none;
-        }
+    .dropdown .dropdown-menu li:last-child {
+        border-bottom: none;
+    }
 
-        .dropdown .dropdown-menu li input {
-            vertical-align: top;
+    .dropdown .dropdown-menu li input {
+        vertical-align: top;
+        margin-top: 12px;
+    }
+
+    .dropdown .dropdown-menu li label:not(.check) {
+        width: 112px;
+        height: 36px;
+        overflow: hidden;
+        white-space: nowrap;
+        -ms-text-overflow: ellipsis;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        line-height: 36px;
+        cursor: pointer;
+    }
+
+    .dropdown .dropdown-menu li .custom-check {
+        margin-top: 10px;
+    }
+
+/* Info Keys */
+.features-keys {
+    width: 100%;
+    height: 0;
+    background-color: #eef0f6;
+    overflow: hidden;
+    display: none;
+    -moz-transition: height 300ms;
+    -o-transition: height 300ms;
+    -webkit-transition: height 300ms;
+    transition: height 300ms;
+    border: 0;
+}
+
+    .features-keys.visible {
+        height: 100px;
+        border-bottom: solid 10px #d8dbe9;
+    }
+
+    .features-keys .keys-wrapper {
+        width: 800px;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+        .features-keys .keys-wrapper .key {
+            width: 25%;
+            height: 30px;
+            line-height: 30px;
+            float: left;
+            padding-left: 40px;
+            -moz-background-size: auto 20px;
+            -o-background-size: auto 20px;
+            -webkit-background-size: auto 20px;
+            background-size: auto 20px;
+            background-position: left center;
+            background-repeat: no-repeat;
             margin-top: 12px;
+            font-size: 16px;
         }
 
-        .dropdown .dropdown-menu li label {
-            width: 121px;
-            height: 36px;
-            overflow: hidden;
-            white-space: nowrap;
-            -ms-text-overflow: ellipsis;
-            -o-text-overflow: ellipsis;
-            text-overflow: ellipsis;
-            line-height: 36px;
-            cursor: pointer;
-        }
+            .features-keys .keys-wrapper .key.conectivity {
+                background-image: url("/images/category_connectivity.png");
+            }
+
+            .features-keys .keys-wrapper .key.devices {
+                background-image: url("/images/category_devices.png");
+                background-position: 5px center;
+            }
+
+            .features-keys .keys-wrapper .key.graphics {
+                background-image: url("/images/category_graphics.png");
+            }
+
+            .features-keys .keys-wrapper .key.multimedia {
+                background-image: url("/images/category_multimedia.png");
+            }
+
+            .features-keys .keys-wrapper .key.offline {
+                background-image: url("/images/category_offline.png");
+            }
+
+            .features-keys .keys-wrapper .key.performance {
+                background-image: url("/images/category_performance.png");
+            }
+
+            .features-keys .keys-wrapper .key.semantics {
+                background-image: url("/images/category_semantics.png");
+            }
+
+            .features-keys .keys-wrapper .key.css {
+                background-image: url("/images/css3.png");
+            }
 
 /* Info ROW */
 .info-row {
@@ -302,16 +429,33 @@ button:focus {
     margin: 0 auto;
 }
 
-.info-row .info-btn {
-    border: none;
-    outline: none;
-    background: transparent;
-    padding: 0;
-    margin: 0;
-    height: 32px;
-    width: 32px;
-    margin-top: 14px;
-}
+    .info-row .info-btn {
+        border: none;
+        outline: none;
+        background: transparent;
+        padding: 0;
+        margin: 0;
+        height: 32px;
+        width: 32px;
+        margin-top: 14px;
+    }
+
+    .info-row .total-features {
+        float: right;
+        height: 100%;
+        line-height: 60px;
+        padding-right: 10px;
+        font-weight: 600;
+        font-size: 24px;
+        color: #444e7b;
+    }
+
+        .info-row .total-features:before {
+            content: 'Found features: ';
+            font-weight: 400;
+            font-size: 16px;
+            color: #000;
+        }
 
 .term-filter {
     min-height: 20px;
@@ -327,6 +471,79 @@ button:focus {
 
 div.term {
     float: left;
+}
+
+/* Custom checkboxes */
+.custom-check {
+    height: 15px;
+    width: 15px;
+    position: relative;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 3px 10px 0 0;
+}
+
+    .custom-check input {
+        display: none;
+    }
+
+    .custom-check label.check {
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 0;
+        width: 15px;
+        height: 15px;
+        display: block;
+        background-image: none;
+        background-color: #363f5d;
+        border: 1px solid #fff;
+    }
+
+    .custom-check input[type=checkbox]:checked + label.check {
+        background-image: url("/images/check.png");
+    }
+
+footer {
+    width: 100%;
+    height: 145px;
+    background-color: #404040;
+}
+
+footer .foot-center {
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.ie-logo {
+    padding-top: 20px;
+    width: 50%;
+    float: left;
+}
+
+header .ie-logo {
+    padding-top: 8px;
+}
+
+.ie-logo img {
+    float: left;
+}
+
+.ie-logo .status-ie {
+    font-size: 21px;
+    color: #fff;
+    margin: 13px 0 0 10px;
+    display: block;
+    float: left;
+}
+
+footer .foot-center .ms-logo {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+    text-align: right;
 }
 
 @media screen and (min-width: 650px) {

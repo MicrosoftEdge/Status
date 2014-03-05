@@ -27,10 +27,23 @@ angular.module('statusieApp')
                 });
             });
 
-            $scope.features = _.sortBy(filteredFeatures, function(feature){
+            $scope.features = _.sortBy(filteredFeatures, function (feature) {
                 return feature.name;
             });
 
             $scope.limit = $scope.features.length;
+        });
+
+        //Animation for info keys
+        $('#infoButton').click(function () {
+            if ($('.features-keys').css('display') == 'none') {
+                $('.features-keys').show(0);
+                $('.features-keys').addClass('visible');
+            } else {
+                $('.features-keys').removeClass('visible');
+                setTimeout(function () {
+                    $('.features-keys').hide(0);
+                }, 300);
+            }
         });
     });
