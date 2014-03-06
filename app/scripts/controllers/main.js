@@ -11,7 +11,7 @@ angular.module('statusieApp')
                 $scope.features = _.clone(features);
                 $scope.categories = data.categories;
                 $scope.browsers = data.browsers;
-                $scope.ieVersions = data.ieVersions;
+                $scope.featureStatus = data.ieVersions;
             });
 
         $scope.limit = 0;

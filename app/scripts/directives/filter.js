@@ -40,7 +40,8 @@ angular.module('statusieApp')
 
                 $scope.filters = {
                     areas: [selectorFilter('categories', 'category')],
-                    browsers: [selectorFilter('browsers', 'category')]
+                    browsers: [selectorFilter('browsers', 'category')],
+                    status: [selectorFilter('featureStatus', 'position')]
                 };
             }
         };
