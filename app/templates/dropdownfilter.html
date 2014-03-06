@@ -1,4 +1,4 @@
-<div class="switch-filters-column col-md-1">
+<div class="switch-filters-column float">
     <div class="dropdown">
         <a class="dropdown-toggle">
             {{options.name}}
@@ -13,7 +13,7 @@
                 </div>
                 <label for="{{options.name}}">All</label>
             </li>
-            <li class="dynamic-option" data-ng-repeat="option in selections" title="{{option.name}}">
+            <li class="dynamic-option" data-ng-repeat="option in selections" data-ng-class="{'disabled' : allOptions}" title="{{option.name}}">
                 <!--<input ng-disabled="allOptions" name="{{option.name}}" id="{{option.name}}" value="{{option.name}}" ng-model="option.selected" type="checkbox" />-->
                 <div class="custom-check">
                     <input type="checkbox" data-ng-disabled="allOptions" name="{{option.name}}" id="{{option.name}}" value="{{option.name}}" ng-model="option.selected" checked="" />
