@@ -83,8 +83,7 @@ button:focus {
         }
 
         .masthead .menu .social {
-            position: absolute;
-            right: 0px;
+            float: right;
         }
 
         .masthead .menu ul {
@@ -93,18 +92,22 @@ button:focus {
             list-style-type: none;
             height: inherit;
             margin: 0px;
+            padding-left: 0;
         }
 
         .masthead .menu li {
             display: table-cell;
             height: inherit;
             vertical-align: middle;
-            padding-right: 20px;
+            padding-left: 30px;
         }
 
         .masthead .menu a {
             text-decoration: none;
             color: rgb(255,255,255);
+            -moz-transition: color 200ms;
+            -o-transition: color 200ms;
+            -webkit-transition: color 200ms;
             transition: color 200ms;
         }
 
@@ -154,15 +157,28 @@ button:focus {
 
         .filter-wrapper .center .search-form-wrapper {
             padding-left: 0;
-            padding-right: 8px;
+            padding-right: 0;
         }
 
-            .filter-wrapper .center .search-form-wrapper .form-group input.form-control {
-                border: none;
-                border-radius: 0;
-                width: 166px;
-                height: 42px;
+            .filter-wrapper .center .search-form-wrapper > .col-md-5 {
+                padding: 0;
             }
+
+            .filter-wrapper .center .search-form-wrapper > .col-md-7 {
+                padding: 0 0 0 4px;
+            }
+
+            .filter-wrapper .center .search-form-wrapper .form-group {
+                width: 100%;
+            }
+
+                .filter-wrapper .center .search-form-wrapper .form-group input.form-control {
+                    border: none;
+                    border-radius: 0;
+                    width: calc(100% - 39px);
+                    height: 35px;
+                    display: inline-block;
+                }
 
             .filter-wrapper .center .search-form-wrapper button {
                 padding: 0;
@@ -179,26 +195,33 @@ button:focus {
 
 
                 .filter-wrapper .center .search-form-wrapper button.btn-add-filter {
-                    width: 42px;
-                    height: 42px;
-                    line-height: 42px;
+                    width: 35px;
+                    height: 35px;
+                    line-height: 35px;
                     background-color: rgba(8, 62, 81, 0.8);
                 }
 
                 .filter-wrapper .center .search-form-wrapper button.btn-single-filter {
-                    height: 19px;
-                    width: 78px;
+                    height: 35px;
+                    width: auto;
+                    max-width: calc(50% - 4px);
                     margin: 0 0 4px 4px;
                     text-align: left;
-                    padding: 0 4px;
+                    padding: 0 32px 0 8px;
+                    position: relative;
                 }
 
                     .filter-wrapper .center .search-form-wrapper button.btn-single-filter .single-filter-text {
                         float: left;
                         height: 100%;
-                        max-width: 84px;
-                        line-height: 1;
+                        width: 100%;
+                        line-height: 30px;
                         padding-top: 2px;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        -ms-text-overflow: ellipsis;
+                        -o-text-overflow: ellipsis;
+                        text-overflow: ellipsis;
                     }
 
                     .filter-wrapper .center .search-form-wrapper button.btn-single-filter i.remove-icon {
@@ -206,8 +229,9 @@ button:focus {
                         height: 8px;
                         background-image: none;
                         background: url("/images/remove-icon.png") no-repeat center top;
-                        float: right;
-                        margin-top: 4px;
+                        position: absolute;
+                        right: 8px;
+                        top: 14px;
                     }
 
                         .filter-wrapper .center .search-form-wrapper button.btn-single-filter i.remove-icon:hover {
@@ -219,11 +243,11 @@ button:focus {
                         }
 
             .filter-wrapper .center .search-form-wrapper .single-filters-wrapper {
-                height: 86px;
-                width: auto;
-                width: 246px;
+                height: 74px;
                 overflow-y: hidden;
             }
+
+
 
         .filter-wrapper .center .filter-switchs-wrapper {
             padding: 0;
@@ -237,32 +261,12 @@ button:focus {
                     text-decoration: none;
                 }
 
-            .filter-wrapper .center .filter-switchs-wrapper .switch-filters-column {
-                padding-right: 0;
-                padding-left: 5px;
-                width: auto;
-                text-align: right;
-            }
-
-                .filter-wrapper .center .filter-switchs-wrapper .switch-filters-column .dropdown a {
-                    font-size: 20px;
-                    cursor: pointer;
-                }
-
-                .filter-wrapper .center .filter-switchs-wrapper .switch-filters-column:first-child {
-                    width: 35%;
-                }
-
-                .filter-wrapper .center .filter-switchs-wrapper .switch-filters-column:last-child {
-                    width: 65%;
-                }
-
         .filter-wrapper .center .browser-support {
-            margin-top: 10px;
+            margin-top: 15px;
         }
 
             .filter-wrapper .center .browser-support label {
-                font-size: 16px;
+                font-size: 18px;
                 color: #fff;
             }
 
@@ -270,13 +274,13 @@ button:focus {
 /* Dropdown menu */
 .dropdown .dropdown-menu {
     text-align: left;
-    background-color: #276274;
+    background-color: #434e7b;
     border-radius: 0;
     padding: 0;
     color: #fff;
     width: 160px;
     left: auto;
-    right: 0;
+    right: -1px;
     margin-top: -2px;
 }
 
@@ -284,7 +288,7 @@ button:focus {
     display: inline-block;
     height: 20px;
     width: 24px;
-    background: rgba(8, 62, 81, 0.5);
+    background: #434e7b;
     margin: -3px 0 0 10px;
     vertical-align: middle;
 }
@@ -315,12 +319,17 @@ button:focus {
 
 .dropdown .dropdown-menu li {
     padding: 0 10px;
-    border-bottom: solid 1px #19404c;
+    border-bottom: solid 1px #37406b;
     height: 36px;
 }
 
+.dropdown .dropdown-menu li.disabled .custom-check,
+.dropdown .dropdown-menu li.disabled label {
+    opacity: .5;
+}
+
     .dropdown .dropdown-menu li:hover {
-        background-color: #19404c;
+        background-color: #37406b;
     }
 
     .dropdown .dropdown-menu li:last-child {
@@ -347,6 +356,30 @@ button:focus {
     .dropdown .dropdown-menu li .custom-check {
         margin-top: 10px;
     }
+
+.switch-filters-column {
+    padding-right: 0;
+    padding-left: 20px;
+    width: auto;
+    text-align: right;
+}
+
+    .switch-filters-column .dropdown a {
+        font-size: 20px;
+        cursor: pointer;
+        color: #000;
+    }
+
+        .switch-filters-column .dropdown a:hover {
+            text-decoration: none;
+            color: #434e7b;
+        }
+
+.filter-switchs-wrapper {
+    float: right;
+    max-width: 100%;
+    margin-top: 15px;
+}
 
 /* Info Keys */
 .features-keys {
@@ -429,6 +462,10 @@ button:focus {
     margin: 0 auto;
 }
 
+    .info-row > div {
+        padding: 0;
+    }
+
     .info-row .info-btn {
         border: none;
         outline: none;
@@ -438,13 +475,14 @@ button:focus {
         height: 32px;
         width: 32px;
         margin-top: 14px;
+        float: left;
     }
 
     .info-row .total-features {
-        float: right;
-        height: 100%;
-        line-height: 60px;
-        padding-right: 10px;
+        float: left;
+        height: 60px;
+        line-height: 56px;
+        padding-left: 25px;
         font-weight: 600;
         font-size: 24px;
         color: #444e7b;
@@ -481,7 +519,7 @@ div.term {
     display: block;
     float: left;
     overflow: hidden;
-    margin: 3px 10px 0 0;
+    margin: 6px 10px 0 0;
 }
 
     .custom-check input {
@@ -511,11 +549,11 @@ footer {
     background-color: #404040;
 }
 
-footer .foot-center {
-    width: 800px;
-    height: 100%;
-    margin: 0 auto;
-}
+    footer .foot-center {
+        width: 800px;
+        height: 100%;
+        margin: 0 auto;
+    }
 
 .ie-logo {
     padding-top: 20px;
@@ -546,6 +584,38 @@ footer .foot-center .ms-logo {
     text-align: right;
 }
 
+/* Overriding col-md styles */
+.search-form-wrapper .col-md-7,
+.info-row .col-md-7 {
+    width: 58.333333333333336%;
+}
+
+.search-form-wrapper .col-md-5,
+.info-row .col-md-5 {
+    width: 41.66666666666667%;
+}
+
+@media screen and (min-width: 800px) {
+    .info-row,
+    footer .foot-center,
+    .filter-wrapper .center {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .info-row,
+    footer .foot-center,
+    .filter-wrapper .center,
+    .features-keys .keys-wrapper {
+        width: calc(100% - 20px);
+    }
+
+    .masthead .menu {
+        padding: 0 20px;
+    }
+}
+
 @media screen and (min-width: 650px) {
     .masthead .menu {
         max-width: 800px;
@@ -560,6 +630,54 @@ footer .foot-center .ms-logo {
     .masthead .social .msft_logo {
         display: none;
     }
+
+    .filter-wrapper .center .browser-support label {
+        font-size: 12pt;
+    }
+
+    .filter-wrapper .center .browser-support .custom-check {
+        margin: 4px 6px 0 0;
+    }
+
+    .features-keys.visible {
+        height: 150px;
+    }
+
+    .features-keys .keys-wrapper .key {
+        width: 33.3332%;
+    }
+
+    .info-row .col-md-5,
+    .info-row .col-md-7 {
+        width: 100%;
+        float: none;
+    }
+
+    .info-row .total-features {
+        float: right;
+    }
+
+    .info-row .filter-switchs-wrapper {
+        float: left;
+        margin-top: 0;
+    }
+
+        .info-row .filter-switchs-wrapper .switch-filters-column {
+            text-align: left;
+            margin-top: 0;
+            margin-bottom: 20px;
+            padding-left: 0;
+            padding-right: 20px;
+        }
+
+    .switch-filters-column:first-child .dropdown .dropdown-menu {
+        right: auto;
+        left: calc(100% - 25px);
+    }
+
+    .info-row {
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 524px) {
@@ -570,4 +688,56 @@ footer .foot-center .ms-logo {
         .masthead .menu ul.social {
             display: none;
         }
+
+    .filter-wrapper .center .browser-support {
+        min-width: 160px;
+    }
+
+        .filter-wrapper .center .browser-support label {
+            font-size: 10pt;
+        }
+
+        .filter-wrapper .center .browser-support .custom-check {
+            margin: 2px 4px 0 0;
+        }
+
+    .features-keys.visible {
+        height: 200px;
+    }
+
+    .features-keys .keys-wrapper .key {
+        width: 50%;
+    }
+
+    .info-row .col-md-5,
+    .info-row .col-md-7 {
+        width: 100%;
+        float: none;
+    }
+
+    .info-row .total-features {
+        float: right;
+    }
+
+    .info-row .filter-switchs-wrapper {
+        float: left;
+        margin-top: 0;
+    }
+
+        .info-row .filter-switchs-wrapper .switch-filters-column {
+            text-align: left;
+            margin-top: 0;
+            margin-bottom: 20px;
+            padding-left: 0;
+            padding-right: 20px;
+        }
+
+    .switch-filters-column:first-child .dropdown .dropdown-menu {
+        right: auto;
+        left: calc(100% - 25px);
+    }
+
+    .info-row {
+        height: auto;
+    }
 }

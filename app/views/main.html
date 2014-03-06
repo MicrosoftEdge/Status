@@ -38,11 +38,23 @@
     </div>
 </div>
 <div class="info-row">
-    <button class="info-btn" title="Info" id="infoButton">
-        <img src="/images/info-img.png" />
-    </button>
-    <div class="total-features">{{limit}}</div>
+    <div class="col-md-5 float">
+        <button class="info-btn" title="Info" id="infoButton">
+            <img src="/images/info-img.png" />
+        </button>
+        <div class="total-features">{{limit}}</div>
+        <div class="clear"></div>
+    </div>
+    <div class="col-md-7 float">
+        <div class="filter-switchs-wrapper">
+            <drowpdownfilter areafilter options="{selections: categories, name: 'Areas'}"></drowpdownfilter>
+            <drowpdownfilter options="{selections: browsers, name: 'Cross-browser'}"></drowpdownfilter>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
 </div>
+
 
 <article>
     <feature ng-repeat="feature in features | limitTo: limit">

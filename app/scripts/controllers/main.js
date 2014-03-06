@@ -11,6 +11,7 @@ angular.module('statusieApp')
                 $scope.features = _.clone(features);
                 $scope.categories = data.categories;
                 $scope.browsers = data.browsers;
+
             });
 
         $scope.limit = 0;
