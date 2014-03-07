@@ -47,7 +47,7 @@
     </div>
     <div class="col-md-8 float">
         <div class="filter-switchs-wrapper">
-            <drowpdownfilter data-options="{selections: categories, name: 'Sort by'}"></drowpdownfilter>
+            <!--<drowpdownfilter data-options="{selections: categories, name: 'Sort by'}"></drowpdownfilter>-->
             <drowpdownfilter data-options="{selections: categories, name: 'Technologies'}"></drowpdownfilter>
             <drowpdownfilter data-options="{selections: browsers, name: 'Browsers'}"></drowpdownfilter>
             <drowpdownfilter data-options="{selections: featureStatus, name: 'Status'}"></drowpdownfilter>
@@ -59,7 +59,7 @@
 
 
 <article>
-    <feature data-ng-repeat="feature in features | limitTo: limit">
+    <feature data-ng-repeat="feature in features">
     </feature>
 </article>
 

@@ -4,9 +4,15 @@ angular.module('statusieApp')
 
         var features;
 
+        var nameSort = function(feature){
+            return feature.name;
+        };
+
         Status.load()
             .then(function (data) {
-                features = data.features;
+                features = _.sortBy(_.forEach(data.features, function(feature){
+                    feature.visible = true;
+                }), nameSort);
 
                 $scope.features = _.clone(features);
                 $scope.categories = data.categories;
@@ -28,10 +34,14 @@ angular.module('statusieApp')
                 });
             });
 
-            $scope.features = _.sortBy(filteredFeatures, function (feature) {
-                return feature.name;
+            filteredFeatures = _.sortBy(filteredFeatures, nameSort);
+
+            var names = _.pluck(filteredFeatures, 'name');
+
+            _.forEach($scope.features, function(feature){
+                feature.visible =_.contains(names, feature.name);
             });
 
-            $scope.limit = $scope.features.length;
+            $scope.limit = filteredFeatures.length;
         });
     });
