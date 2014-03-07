@@ -12,6 +12,11 @@
         <p>{{feature.summary}}</p>
 
         <div class="feature-status-wrapper">
+            <ul class="feature_status browsers">
+                <li class="{{browser.name}}" ng-class="{'implemented': browser.status}" ng-repeat="browser in feature.browsers">
+                    <a ng-href="{{browser.link}}#" title="{{browser.status ? 'Implemented' : 'Not Implemented'}}">&nbsp;</a>
+                </li>
+            </ul>
             <ul class="feature_status info">
                 <li class="docs {{doc.organization}}" data-ng-repeat="doc in feature.docs">
                     <a data-ng-href="doc.link" target="_blank">{{doc.organization}}</a>
@@ -25,12 +30,7 @@
                        title="Demo">{{demo.title}}</a>
                 </li>
             </ul>
-            <ul class="feature_status browsers">
-                <li class="{{browser.name}}" data-ng-class="{'implemented': browser.status}" data-ng-repeat="browser in feature.browsers">
-                    <a data-ng-href="{{browser.link}}#" title="{{browser.status ? 'Implemented' : 'Not Implemented'}}">&nbsp;</a>
-                </li>
-            </ul>
-            <div class="clear"></div>
-        </div>
+        <div class="clear"></div>
+    </div>
     </div>
 </section>

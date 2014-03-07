@@ -38,11 +38,24 @@
     </div>
 </div>
 <div class="info-row">
-    <button class="info-btn" title="Info" id="infoButton">
-        <img src="/images/info-img.png" />
-    </button>
-    <div class="total-features">{{limit}}</div>
+    <div class="col-md-4 float">
+        <button class="info-btn" title="Info" id="infoButton">
+            <img src="/images/info-img.png" />
+        </button>
+        <div class="total-features">{{limit}}</div>
+        <div class="clear"></div>
+    </div>
+    <div class="col-md-8 float">
+        <div class="filter-switchs-wrapper">
+            <drowpdownfilter data-options="{selections: categories, name: 'Technologies'}"></drowpdownfilter>
+            <drowpdownfilter data-options="{selections: browsers, name: 'Browsers'}"></drowpdownfilter>
+            <drowpdownfilter data-options="{selections: ieVersions, name: 'IE Minimum Version'}"></drowpdownfilter>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
 </div>
+
 
 <article>
     <feature data-ng-repeat="feature in features | limitTo: limit">
