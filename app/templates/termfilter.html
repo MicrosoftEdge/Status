@@ -5,13 +5,6 @@
             <input type="text" class="form-control" id="termInput" placeholder="Filter..." style="font-family: 'Segoe UI Symbol';" ng-model="inputTerm">
             <button class="btn btn-default btn-add-filter" ng-click="addTerm(inputTerm)">add</button>
         </div>
-        <div class="browser-support">
-            <div class="custom-check">
-                <input type="checkbox" id="browserSupport" checked="" />
-                <label class="check" for="browserSupport"></label>
-            </div>
-            <label for="browserSupport">Crossbrowser support</label>
-        </div>
     </form>
     <div class="col-md-7  single-filters-wrapper float">
         <button class="btn btn-default btn-single-filter" ng-repeat="term in terms">

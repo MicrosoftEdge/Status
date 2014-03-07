@@ -330,7 +330,6 @@
 
     .feature.dom header,
     .feature.html header,
-    .feature.javascript header,
     .feature.webcomponents header,
     .feature.misc header {
         background-image: url(/images/category_semantics.png);
