@@ -25,30 +25,31 @@
     </div>
 </header>
 <filter></filter>
-<div class="features-keys">
-    <div class="keys-wrapper">
-        <div class="key conectivity">Conectivity</div>
-        <div class="key graphics">Graphics</div>
-        <div class="key offline">Offline</div>
-        <div class="key semantics">Semantics</div>
-        <div class="key devices">Devices</div>
-        <div class="key multimedia">Multimedia</div>
-        <div class="key performance">Performance</div>
-        <div class="key css">Css</div>
-    </div>
-</div>
+<!--<div class="features-keys">-->
+    <!--<div class="keys-wrapper">-->
+        <!--<div class="key conectivity">Conectivity</div>-->
+        <!--<div class="key graphics">Graphics</div>-->
+        <!--<div class="key offline">Offline</div>-->
+        <!--<div class="key semantics">Semantics</div>-->
+        <!--<div class="key devices">Devices</div>-->
+        <!--<div class="key multimedia">Multimedia</div>-->
+        <!--<div class="key performance">Performance</div>-->
+        <!--<div class="key css">CSS</div>-->
+    <!--</div>-->
+<!--</div>-->
 <div class="info-row">
-    <div class="col-md-5 float">
-        <button class="info-btn" title="Info" id="infoButton">
-            <img src="/images/info-img.png" />
-        </button>
+    <div class="col-md-4 float">
+        <!--<button class="info-btn" title="Info" id="infoButton">-->
+            <!--<img src="/images/info-img.png" />-->
+        <!--</button>-->
         <div class="total-features">{{limit}}</div>
         <div class="clear"></div>
     </div>
-    <div class="col-md-7 float">
+    <div class="col-md-8 float">
         <div class="filter-switchs-wrapper">
-            <drowpdownfilter areafilter options="{selections: categories, name: 'Areas'}"></drowpdownfilter>
-            <drowpdownfilter options="{selections: browsers, name: 'Cross-browser'}"></drowpdownfilter>
+            <drowpdownfilter data-options="{selections: categories, name: 'Technologies'}"></drowpdownfilter>
+            <drowpdownfilter data-options="{selections: browsers, name: 'Browsers'}"></drowpdownfilter>
+            <drowpdownfilter data-options="{selections: featureStatus, name: 'Status'}"></drowpdownfilter>
         </div>
         <div class="clear"></div>
     </div>
@@ -57,7 +58,7 @@
 
 
 <article>
-    <feature ng-repeat="feature in features | limitTo: limit">
+    <feature data-ng-repeat="feature in features | limitTo: limit">
     </feature>
 </article>
 

@@ -4,11 +4,11 @@
 
         <ul class="dropdown-menu">
             <li>
-                <input ng-model="allCategories" type="checkbox" id="allOption" />
+                <input data-ng-model="allCategories" type="checkbox" id="allOption" />
                 <label for="allOption">All</label>
             </li>
             <li ng-repeat="category in categories">
-                <input ng-disabled="allCategories" id="{{category.name}}" name="{{category.name}}" value="{{category.name}}" ng-model="category.selected" type="checkbox" />
+                <input data-ng-disabled="allCategories" id="{{category.name}}" name="{{category.name}}" value="{{category.name}}" data-ng-model="category.selected" type="checkbox" />
                 <label for="{{category.name}}">{{category.name}}</label>
             </li>
         </ul>

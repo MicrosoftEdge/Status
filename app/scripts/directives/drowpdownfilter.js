@@ -11,7 +11,6 @@ angular.module('statusieApp')
             priority: 10,
             replace: true,
             controller: function ($scope) {
-
                 $scope.$watch('options.selections', function (newValue, oldValue) {
                     if (!newValue) {
                         return;
@@ -23,12 +22,48 @@ angular.module('statusieApp')
                         $scope.allOptions = true;
                     }
                 }, true);
+
+                $scope.stopPropagation = function (evt) {
+                    $event.stopProgation();
+                };
+
+                $scope.selectAll = function (evt) {
+                    if (evt.target.tagName.toLowerCase() === 'input') {
+                        $scope.allOptions = !$scope.allOptions;
+                    }
+                    evt.stopPropagation();
+                };
             },
             link: function postLink(scope, element, attrs) {
-                element.find('.dropdown-menu').click(function (evt) {
-                    //The dropdown closes automatically on any click, we don't want this
+                element.find('.dropdown-menu').on('click', 'li.dynamic-option', function (evt) {
+
+                    scope.$apply(function () {
+                        if (scope.allOptions) {
+                            scope.allOptions = false;
+                        }
+                    });
+
                     evt.stopPropagation();
                 });
+
+                element.find('.dropdown-menu').on('click', 'li.dynamic-all', function (evt) {
+
+                    scope.$apply(function () {
+                        scope.allOptions = !scope.allOptions;
+                        if(scope.allOptions){
+                            _.forEach(scope.options.selections, function(option){
+                                option.selected = false;
+                            });
+                        }
+                    });
+
+                    evt.stopPropagation();
+                });
+
+//                element.find('.dropdown-menu').click(function (evt) {
+//                    //The dropdown closes automatically on any click, we don't want this
+//                    evt.stopPropagation();
+//                });
             }
         };
     });

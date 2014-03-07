@@ -7,8 +7,11 @@ angular.module('statusieApp')
 
         //TODO: load this from a remote url
         var ieStatusURL = '/static/ie-status.json';
-        var observedBrowsers = _.map(['Chrome', 'Firefox', 'Safari', 'Opera'], function (browser) {
+        var observedBrowsers = _.map(['Internet Explorer', 'Chrome', 'Firefox', 'Safari', 'Opera'], function (browser) {
             return {name: browser, selected: false};
+        });
+        var status = _.map(['Investigating','Implementing','Opposed','IE6', 'IE7', 'IE8', 'IE9', 'IE10', 'IE11'], function (version) {
+            return {name: version, selected: false};
         });
         var chromeStatus;
         var ieStatus;
@@ -70,7 +73,7 @@ angular.module('statusieApp')
                 };
 
                 var iePositions = {
-                    1: (Math.ceil(Math.random() * 6) + 5) + '+', //This should be the real IE version
+                    1: 'IE' + (Math.ceil(Math.random() * 6) + 5), //This should be the real IE version
                     2: "In Development",
                     3: "Investigating",
                     5: "Opposed"
@@ -149,7 +152,8 @@ angular.module('statusieApp')
                 deferred.resolve({
                     features: mergedData,
                     categories: categories,
-                    browsers: observedBrowsers
+                    browsers: observedBrowsers,
+                    ieVersions: status
                 });
             }, 0);
 
