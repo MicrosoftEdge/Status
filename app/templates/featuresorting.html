@@ -1,0 +1,15 @@
+<div class="switch-filters-column float">
+    <div class="dropdown">
+        <a class="dropdown-toggle">
+            Sorting
+            <span class="dropdown-arrow"><i></i></span>
+        </a>
+        <ul class="dropdown-menu">
+            <li class="dynamic-option" data-ng-repeat="sort in sorts" title="{{option.name}}">
+                    <input type="radio" name="sorts" id="{{sort.name}}" value="{{sort.name}}" ng-model="selectedSort.name" />
+
+                <label for="{{sort.name}}">{{sort.name}}</label>
+            </li>
+        </ul>
+    </div>
+</div>
