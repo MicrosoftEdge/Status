@@ -156,63 +156,6 @@ button:focus {
 
         .filter-wrapper .center .search-form-wrapper {
             padding-left: 0;
-            padding-right: 8px;
-        }
-
-            .filter-wrapper .center .search-form-wrapper .form-group input.form-control {
-                border: none;
-                border-radius: 0;
-                width: 166px;
-                height: 42px;
-            }
-
-            .filter-wrapper .center .search-form-wrapper button {
-                padding: 0;
-                border: none;
-                outline: none;
-                border-radius: 0;
-                color: #fff;
-                background-color: rgba(8, 62, 81, 0.5);
-            }
-
-                .filter-wrapper .center .search-form-wrapper button:active {
-                    box-shadow: none;
-                }
-
-                .filter-wrapper .center .search-form-wrapper button.btn-add-filter {
-                    width: 42px;
-                    height: 42px;
-                    line-height: 42px;
-                    background-color: rgba(8, 62, 81, 0.8);
-                }
-
-                .filter-wrapper .center .search-form-wrapper button.btn-single-filter {
-                    height: 19px;
-                    width: 78px;
-                    margin: 0 0 4px 4px;
-                    text-align: left;
-                    padding: 0 4px;
-                }
-
-                    .filter-wrapper .center .search-form-wrapper button.btn-single-filter .single-filter-text {
-                        float: left;
-                        height: 100%;
-                        max-width: 84px;
-                        line-height: 1;
-                        padding-top: 2px;
-                    }
-
-                    .filter-wrapper .center .search-form-wrapper button.btn-single-filter i.remove-icon {
-                        width: 8px;
-                        height: 8px;
-                        background-image: none;
-                        background: url("/images/remove-icon.png") no-repeat center top;
-                        float: right;
-                        margin-top: 4px;
-                    }
-
-        .filter-wrapper .center .search-form-wrapper {
-            padding-left: 0;
             padding-right: 0;
         }
 
@@ -317,38 +260,25 @@ button:focus {
                     text-decoration: none;
                 }
 
-        .filter-wrapper .center .browser-support {
-            margin-top: 15px;
-        }
-
-            .filter-wrapper .center .browser-support label {
-                font-size: 18px;
-                color: #fff;
+            .filter-wrapper .center .filter-switchs-wrapper .switch-filters-column {
+                padding-right: 0;
+                padding-left: 5px;
+                width: auto;
+                text-align: right;
             }
 
-        .filter-wrapper .center .filter-switchs-wrapper a:hover {
-            text-decoration: none;
-        }
+                .filter-wrapper .center .filter-switchs-wrapper .switch-filters-column .dropdown a {
+                    font-size: 20px;
+                    cursor: pointer;
+                }
 
-        .filter-wrapper .center .filter-switchs-wrapper .switch-filters-column {
-            padding-right: 0;
-            padding-left: 5px;
-            width: auto;
-            text-align: right;
-        }
+                .filter-wrapper .center .filter-switchs-wrapper .switch-filters-column:first-child {
+                    width: 35%;
+                }
 
-            .filter-wrapper .center .filter-switchs-wrapper .switch-filters-column .dropdown a {
-                font-size: 20px;
-                cursor: pointer;
-            }
-
-            .filter-wrapper .center .filter-switchs-wrapper .switch-filters-column:first-child {
-                width: 35%;
-            }
-
-            .filter-wrapper .center .filter-switchs-wrapper .switch-filters-column:last-child {
-                width: 65%;
-            }
+                .filter-wrapper .center .filter-switchs-wrapper .switch-filters-column:last-child {
+                    width: 65%;
+                }
 
         .filter-wrapper .center .browser-support {
             margin-top: 10px;
@@ -570,14 +500,13 @@ button:focus {
         float: left;
         height: 60px;
         line-height: 56px;
-        padding-left: 25px;
         font-weight: 600;
         font-size: 24px;
         color: #444e7b;
     }
 
         .info-row .total-features:before {
-            content: 'Found features: ';
+            content: 'Features founded: ';
             font-weight: 400;
             font-size: 16px;
             color: #000;
@@ -715,26 +644,17 @@ footer .foot-center .ms-logo {
         float: none;
     }
 
-    .info-row .total-features {
-        float: right;
-    }
-
     .info-row .filter-switchs-wrapper {
-        float: left;
         margin-top: 0;
     }
 
         .info-row .filter-switchs-wrapper .switch-filters-column {
-            text-align: left;
             margin-top: 0;
             margin-bottom: 20px;
-            padding-left: 0;
-            padding-right: 20px;
         }
 
-    .switch-filters-column:first-child .dropdown .dropdown-menu {
-        right: auto;
-        left: calc(100% - 25px);
+    .dropdown .dropdown-toggle span.dropdown-arrow {
+        margin-left: 5px;
     }
 
     .info-row {
@@ -779,26 +699,19 @@ footer .foot-center .ms-logo {
         float: none;
     }
 
-    .info-row .total-features {
-        float: right;
-    }
-
     .info-row .filter-switchs-wrapper {
-        float: left;
         margin-top: 0;
     }
 
         .info-row .filter-switchs-wrapper .switch-filters-column {
-            text-align: left;
             margin-top: 0;
             margin-bottom: 20px;
-            padding-left: 0;
-            padding-right: 20px;
         }
 
-    .switch-filters-column:first-child .dropdown .dropdown-menu {
-        right: auto;
-        left: calc(100% - 25px);
+    .dropdown .dropdown-toggle span.dropdown-arrow {
+        margin-left: 3px;
+        height: 16px;
+        width: 17px;
     }
 
     .info-row {
@@ -845,26 +758,25 @@ footer .foot-center .ms-logo {
         float: none;
     }
 
-    .info-row .total-features {
-        float: right;
-    }
-
     .info-row .filter-switchs-wrapper {
-        float: left;
         margin-top: 0;
     }
 
         .info-row .filter-switchs-wrapper .switch-filters-column {
-            text-align: left;
             margin-top: 0;
             margin-bottom: 20px;
-            padding-left: 0;
-            padding-right: 20px;
         }
+
+    .dropdown .dropdown-toggle span.dropdown-arrow {
+        margin-left: 1px;
+        height: 16px;
+        width: 17px;
+    }
+
 
     .switch-filters-column:first-child .dropdown .dropdown-menu {
         right: auto;
-        left: calc(100% - 25px);
+        left: calc(100% - 18px);
     }
 
     .info-row {

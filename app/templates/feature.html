@@ -1,5 +1,5 @@
-<section class="feature {{feature.normalized_category}}" data-ng-class="{'show' : show}">
-    <header data-ng-click="show = !show">
+<section class="feature {{feature.normalized_category}}" data-ng-class="{'show' : show}" data-ng-show="feature.visible">
+    <header data-ng-click="show = !show" class="feature-header">
         <h1 class="feature_name">{{feature.name}}</h1>
         <div class="feature-info">
             <div class="ie-status">{{feature.position}}</div>
@@ -13,7 +13,7 @@
 
         <div class="feature-status-wrapper">
             <ul class="feature_status browsers">
-                <li class="{{browser.name}}" ng-class="{'implemented': browser.status}" ng-repeat="browser in feature.browsers">
+                <li class="{{browser.name}}" ng-class="{'implemented': browser.status}" data-ng-repeat="browser in feature.browsers">
                     <a ng-href="{{browser.link}}#" title="{{browser.status ? 'Implemented' : 'Not Implemented'}}">&nbsp;</a>
                 </li>
             </ul>
