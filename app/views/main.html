@@ -77,13 +77,3 @@
         </div>
     </div>
 </footer>
-
-<script type="text/javascript">
-    $('section.feature').each(function () {
-        console.log("jaja");
-        var featureName = $(this).find('h1.feature_name');
-        var featureInfoWidth = $(this).find('.feature-info').width();
-
-        featureName.css('max-width', 'calc(100% - ' + (featureInfoWidth + 10) + 'px)');
-    });
-</script>
