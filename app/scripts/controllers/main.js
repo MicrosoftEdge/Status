@@ -11,7 +11,7 @@ angular.module('statusieApp')
                 $scope.features = _.clone(features);
                 $scope.categories = data.categories;
                 $scope.browsers = data.browsers;
-                $scope.ieVersions = data.ieVersions;
+                $scope.featureStatus = data.ieVersions;
             });
 
         $scope.limit = 0;
@@ -33,18 +33,5 @@ angular.module('statusieApp')
             });
 
             $scope.limit = $scope.features.length;
-        });
-
-        //Animation for info keys
-        $('#infoButton').click(function () {
-            if ($('.features-keys').css('display') == 'none') {
-                $('.features-keys').show(0);
-                $('.features-keys').addClass('visible');
-            } else {
-                $('.features-keys').removeClass('visible');
-                setTimeout(function () {
-                    $('.features-keys').hide(0);
-                }, 300);
-            }
         });
     });
