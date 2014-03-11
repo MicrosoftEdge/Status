@@ -359,7 +359,7 @@ button:focus {
         margin-top: 12px;
     }
 
-    .dropdown .dropdown-menu li label:not(.check) {
+    .dropdown .dropdown-menu li label:not(.check):not(.radio) {
         width: 112px;
         height: 36px;
         overflow: hidden;
@@ -369,6 +369,7 @@ button:focus {
         text-overflow: ellipsis;
         line-height: 36px;
         cursor: pointer;
+        text-transform: capitalize;
     }
 
     .dropdown .dropdown-menu li .custom-check {
@@ -539,11 +540,18 @@ div.term {
     margin: 6px 10px 0 0;
 }
 
+.custom-check.radio-btn label.radio {
+    border-radius: 50%;
+    min-height: 0;
+    padding: 0;
+}
+
     .custom-check input {
         display: none;
     }
 
-    .custom-check label.check {
+    .custom-check label.check,
+    .custom-check label.radio {
         position: absolute;
         left: 0;
         top: 0;
@@ -554,10 +562,16 @@ div.term {
         background-image: none;
         background-color: #363f5d;
         border: 1px solid #fff;
+        cursor: pointer;
     }
 
     .custom-check input[type=checkbox]:checked + label.check {
         background-image: url("/images/check.png");
+    }
+
+    .custom-check input[type=radio]:checked + label.radio {
+        background-color: #fff;
+        box-shadow: 0 0 0 3px #363f5d inset;
     }
 
 footer {

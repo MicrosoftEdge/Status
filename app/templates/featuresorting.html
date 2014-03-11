@@ -6,8 +6,11 @@
         </a>
         <ul class="dropdown-menu">
             <li class="dynamic-option" data-ng-repeat="sort in sorts" title="{{option.name}}">
+                    <!--<input type="radio" name="sorts" id="{{sort.name}}" value="{{sort.name}}" ng-model="selectedSort.name" />-->
+                <div class="custom-check radio-btn">
                     <input type="radio" name="sorts" id="{{sort.name}}" value="{{sort.name}}" ng-model="selectedSort.name" />
-
+                    <label class="radio" for="{{sort.name}}"></label>
+                </div>
                 <label for="{{sort.name}}">{{sort.name}}</label>
             </li>
         </ul>
