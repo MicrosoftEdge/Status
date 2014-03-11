@@ -47,7 +47,8 @@
     </div>
     <div class="col-md-8 float">
         <div class="filter-switchs-wrapper">
-            <drowpdownfilter data-options="{selections: categories, name: 'Sort by'}"></drowpdownfilter>
+            <featuresorting></featuresorting>
+            <!--<drowpdownfilter data-options="{selections: categories, name: 'Sort by'}"></drowpdownfilter>-->
             <drowpdownfilter data-options="{selections: categories, name: 'Technologies'}"></drowpdownfilter>
             <drowpdownfilter data-options="{selections: browsers, name: 'Browsers'}"></drowpdownfilter>
             <drowpdownfilter data-options="{selections: featureStatus, name: 'Status'}"></drowpdownfilter>
@@ -59,7 +60,7 @@
 
 
 <article>
-    <feature data-ng-repeat="feature in features | limitTo: limit">
+    <feature data-ng-repeat="feature in features">
     </feature>
 </article>
 
@@ -77,13 +78,3 @@
         </div>
     </div>
 </footer>
-
-<script type="text/javascript">
-    $('section.feature').each(function () {
-        console.log("jaja");
-        var featureName = $(this).find('h1.feature_name');
-        var featureInfoWidth = $(this).find('.feature-info').width();
-
-        featureName.css('max-width', 'calc(100% - ' + (featureInfoWidth + 10) + 'px)');
-    });
-</script>

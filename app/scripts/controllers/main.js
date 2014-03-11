@@ -4,9 +4,15 @@ angular.module('statusieApp')
 
         var features;
 
+        $scope.$watch('sort', function(sortFunction){
+               $scope.features = _.sortBy(features, sortFunction);
+        });
+
         Status.load()
             .then(function (data) {
-                features = data.features;
+                features = _.sortBy(_.forEach(data.features, function(feature){
+                    feature.visible = true;
+                }), $scope.sort);
 
                 $scope.features = _.clone(features);
                 $scope.categories = data.categories;
@@ -18,20 +24,24 @@ angular.module('statusieApp')
 
         $scope.$on('filtersUpdated', function () {
             var filteredFeatures = _.clone(features);
-            //TODO: optimize these iterations, maybe do it over features and apply all rules?
+
             _.forOwn($scope.filters, function (categoryFilters) {
                 if (!Array.isArray(categoryFilters)) {
                     return;
                 }
-                _.forEach(categoryFilters, function (value) {
-                    filteredFeatures = _.reduce(filteredFeatures, value);
+                _.forEach(categoryFilters, function (filter) {
+                    filteredFeatures = _.reduce(filteredFeatures, filter);
                 });
             });
 
-            $scope.features = _.sortBy(filteredFeatures, function (feature) {
-                return feature.name;
+//            filteredFeatures = _.sortBy(filteredFeatures, sorts.technology);
+
+            var names = _.pluck(filteredFeatures, 'name');
+
+            _.forEach($scope.features, function(feature){
+                feature.visible =_.contains(names, feature.name);
             });
 
-            $scope.limit = $scope.features.length;
+            $scope.limit = (filteredFeatures || []).length;
         });
     });
