@@ -25,9 +25,6 @@ angular.module('statusieApp')
                     }, true);
 
                     return function (acum, item) {
-                        if (!Array.isArray(acum)) {
-                            acum = [];
-                        }
                         if (selectedOptions && selectedOptions.length === 0) {
                             acum.push(item);
                         } else if (_.contains(selectedOptions, item[property])) {

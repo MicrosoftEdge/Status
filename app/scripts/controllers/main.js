@@ -30,7 +30,7 @@ angular.module('statusieApp')
                     return;
                 }
                 _.forEach(categoryFilters, function (filter) {
-                    filteredFeatures = _.reduce(filteredFeatures, filter);
+                    filteredFeatures = _.reduce(filteredFeatures, filter, []);
                 });
             });
 

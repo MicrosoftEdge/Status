@@ -588,7 +588,7 @@ footer {
 
 .ie-logo {
     padding-top: 20px;
-    width: 50%;
+    /*width: 50%;*/
     float: left;
 }
 
@@ -609,10 +609,25 @@ header .ie-logo {
 }
 
 footer .foot-center .ms-logo {
-    padding-top: 30px;
-    width: 50%;
+    padding-top: 38px;
+    padding-left: 10px;
     float: right;
     text-align: right;
+}
+
+footer .foot-center .links {
+    padding-top: 42px;
+    float: right;
+    text-align: right;
+}
+
+footer .foot-center .links a{
+    color:white;
+    margin-left:10px;
+}
+
+footer .foot-center .links a:hover{
+    text-decoration: none;
 }
 
 /* Overriding col-md styles */

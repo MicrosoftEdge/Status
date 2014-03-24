@@ -12,9 +12,6 @@ angular.module('statusieApp')
 
                 var filterFunction = function (term){
                     return function (acum, item){
-                        if(!Array.isArray(acum)){
-                            acum = [];
-                        }
                         var termRegex = new RegExp(term, 'gi');
 
                         if(termRegex.test(item.name) || termRegex.test(item.summary)){
