@@ -664,6 +664,14 @@ footer .foot-center .links a:hover{
     width: 33.33333333333333%;
 }
 
+.fixed{
+    position: fixed;
+    top: 0;
+    width:100%;
+    z-index:10;
+    background-color: #fff;
+}
+
 @media screen and (min-width: 800px) {
     .info-row,
     footer .foot-center,
