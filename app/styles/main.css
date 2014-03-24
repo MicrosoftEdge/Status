@@ -24,6 +24,19 @@
     box-sizing: border-box;
 }
 
+/*So we can use calc for the height*/
+html{
+    height: 100%;
+}
+
+body{
+    height:100%;
+}
+
+.content{
+    height:100%;
+}
+
 a:link img {
     border: 0px;
 }
@@ -606,6 +619,10 @@ header .ie-logo {
     margin: 13px 0 0 10px;
     display: block;
     float: left;
+}
+
+article {
+    min-height: calc(100% - 386px);
 }
 
 footer .foot-center .ms-logo {
