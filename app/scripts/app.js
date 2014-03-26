@@ -1,11 +1,12 @@
 'use strict';
 
 angular.module('statusieApp', [
-        'ngCookies',
-        'ngSanitize',
-        'ngRoute',
-        'ui.bootstrap'
-    ])
+    'ngCookies',
+    'ngSanitize',
+    'ngRoute',
+    'pasvaz.bindonce',
+    'ui.bootstrap'
+])
     .config(function ($routeProvider) {
         $routeProvider
             .when('/', {

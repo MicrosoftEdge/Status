@@ -1,34 +1,51 @@
-<section class="feature {{feature.normalized_category}}" data-ng-class="{'show' : show}" data-ng-show="feature.visible">
+<section bindonce data-bo-class="feature.normalized_category" class="feature" data-ng-class="{'show' : show}" data-ng-show="feature.visible">
     <header data-ng-click="show = !show" class="feature-header">
-        <h1 class="feature_name">{{feature.name}}</h1>
+        <h1 class="feature_name" data-bo-text="feature.name"></h1>
         <div class="feature-info">
-            <div class="ie-status">{{feature.position}}</div>
+            <div class="ie-status" data-bo-text="feature.position"></div>
             <button class="collapsebtn"></button>
             <div class="clear"></div>
         </div>
         <div class="clear"></div>
     </header>
     <div class="feature-body-wrapper">
-        <p>{{feature.summary}}</p>
+        <p data-bo-text="feature.summary"></p>
 
         <div class="feature-status-wrapper">
             <ul class="feature_status browsers">
-                <li class="{{browser.name}}" ng-class="{'implemented': browser.status}" data-ng-repeat="browser in feature.browsers">
-                    <a ng-href="{{browser.link}}#" title="{{browser.status ? 'Implemented' : 'Not Implemented'}}">&nbsp;</a>
+                <li class="chrome" data-bo-class="{'implemented': feature.browsers[0].status}">
+                    <a data-bo-href="feature.browsers[0].link">&nbsp;</a>
+                </li>
+                <li class="firefox" data-bo-class="{'implemented': feature.browsers[1].status}">
+                    <a data-bo-href="feature.browsers[1].link">&nbsp;</a>
+                </li>
+                <li class="ie" data-bo-class="{'implemented': feature.browsers[2].status}">
+                    <a data-bo-href="feature.browsers[2].link">&nbsp;</a>
+                </li>
+                <li class="safari" data-bo-class="{'implemented': feature.browsers[3].status}">
+                    <a data-bo-href="feature.browsers[3].link">&nbsp;</a>
+                </li>
+                <li class="opera" data-bo-class="{'implemented': feature.browsers[4].status}">
+                    <a data-bo-href="feature.browsers[4].link">&nbsp;</a>
                 </li>
             </ul>
             <ul class="feature_status info">
-                <li class="docs {{doc.organization}}" data-ng-repeat="doc in feature.docs">
-                    <a data-ng-href="doc.link" target="_blank">{{doc.organization}}</a>
+                <li data-bo-class="doc.organization" class="docs" data-ng-repeat="doc in feature.docs">
+                    <a data-bo-href="doc.link" target="_blank" data-bo-text="doc.organization"></a>
                 </li>
-                <li class="standard" data-ng-class="feature.spec.organization">
-                    <a data-ng-if="feature.spec.link" data-ng-href="{{feature.spec.link}}" target="_blank"
-                       title="{{feature.spec.status}}">{{feature.spec.status}}</a>
+                <li class="standard" data-bo-class="feature.spec.organization">
+                    <a data-bo-if="feature.spec.link" data-bo-href="feature.spec.link" target="_blank"
+                       data-bo-text="feature.spec.status"></a>
                 </li>
-                <li class="demo" data-ng-repeat="demo in feature.demos">
-                    <a data-ng-href="{{demo.link}}" target="_blank"
-                       title="Demo">{{demo.title}}</a>
+                <li class="demo">
+                    <a data-bo-href="feature.demos[0].link" target="_blank"
+                       title="Demo" data-bo-text="feature.demos[0].title"></a>
                 </li>
+
+                <!--<li class="demo" data-ng-repeat="demo in feature.demos">-->
+                    <!--<a data-bo-href="demo.link" target="_blank"-->
+                       <!--title="Demo" data-bo-text="demo.title"></a>-->
+                <!--</li>-->
             </ul>
         <div class="clear"></div>
     </div>

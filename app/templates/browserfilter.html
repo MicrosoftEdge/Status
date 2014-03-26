@@ -8,8 +8,8 @@
                 <label for="allOption">All</label>
             </li>
             <li ng-repeat="category in categories">
-                <input data-ng-disabled="allCategories" id="{{category.name}}" name="{{category.name}}" value="{{category.name}}" data-ng-model="category.selected" type="checkbox" />
-                <label for="{{category.name}}">{{category.name}}</label>
+                <input data-ng-disabled="allCategories" data-bo-id="category.name" data-bo-name="category.name" data-bo-value="category.name" data-ng-model="category.selected" type="checkbox" />
+                <label data-bo-attr data-bo-attr-for="category.name" data-bo-text="category.name"></label>
             </li>
         </ul>
     </div>
