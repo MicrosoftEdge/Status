@@ -9,12 +9,9 @@ angular.module('statusieApp')
         var observedBrowsers = _.map(['Internet Explorer', 'Chrome', 'Firefox', 'Safari', 'Opera'], function (browser) {
             return {name: browser, selected: false};
         });
-        var status = _.map(['Investigating', 'Implementing', 'Opposed', 'IE6', 'IE7', 'IE8', 'IE9', 'IE10', 'IE11'], function (version) {
-            return {name: version, selected: false};
-        });
+        
         var chromeStatus;
         var ieStatus;
-        var categories;
 
         var getIEStatus = function () {
             return $http.get(ieStatusURL).then(function (response) {
@@ -30,21 +27,6 @@ angular.module('statusieApp')
                 _.forEach(chromeStatus, function (item) {
                     item.id = item.id.toString();
                 });
-
-//                var tempCategories = {};
-//
-//                chromeStatus = {};
-//
-//                _.forEach(data, function (item) {
-////                    item.category = item.category.replace(/[^a-zA-Z0-9]/g, ''); //Remove Whitespace
-//                    chromeStatus[item.name] = item;
-//                    tempCategories[item.category] = {
-//                        name: item.category,
-//                        selected: false
-//                    };
-//                });
-//
-//                categories = _.toArray(tempCategories);
 
                 return chromeStatus;
             });
@@ -73,17 +55,9 @@ angular.module('statusieApp')
                     } else {
                         return '';
                     }
-                    //TODO: Complete with all the organizations
                 };
 
-                var iePositions = {
-                    1: 'IE' + (Math.ceil(Math.random() * 6) + 5), //This should be the real IE version
-                    2: "In Development",
-                    3: "Investigating",
-                    5: "Opposed"
-                };
-
-                var transformFeature = function (feature) {
+                var normalizeFeature = function (feature) {
                     var finalFeature = {
                         name: feature.name,
                         summary: feature.summary,
@@ -95,7 +69,7 @@ angular.module('statusieApp')
                                 status: (feature.impl_status_chrome && feature.impl_status_chrome.toLowerCase() === 'enabled by default') || false,
                                 link: feature.bug_url
                             },
-                            firefox:{
+                            firefox: {
                                 status: feature.ff_views.value === 1,
                                 link: feature.ff_views_link
                             },
@@ -105,7 +79,7 @@ angular.module('statusieApp')
                                 prefixed: feature.ieStatus.iePrefixed,
                                 unprefixed: feature.ieStatus.ieUnprefixed
                             },
-                            safari:{
+                            safari: {
                                 status: feature.safari_views.value === 1,
                                 link: feature.safari_views_link
                             },
@@ -130,32 +104,39 @@ angular.module('statusieApp')
                 };
 
                 var tempCategories = {};
+                var statuses = {};
 
                 var mergedData = _.map(ieStatus, function (ieStatusFeature) {
                     var chromeFeature = _.find(chromeStatus, function (chromeStatusFeature) {
                         return chromeStatusFeature.id === ieStatusFeature.id;
                     });
 
-                    var mergedFeature = _.defaults(ieStatusFeature, chromeFeature);
+                    var mergedFeature = normalizeFeature(_.defaults(ieStatusFeature, chromeFeature));
                     var featureCategory = mergedFeature.category;
+                    var featureStatus = mergedFeature.position;
 
-                    if(!tempCategories[featureCategory]){
+                    if (!tempCategories[featureCategory]) {
                         tempCategories[featureCategory] = {
                             name: featureCategory,
                             selected: false
                         };
                     }
 
-                    return transformFeature(mergedFeature);
-                });
+                    if (!statuses[featureStatus]) {
+                        statuses[featureStatus] = {
+                            name: featureStatus,
+                            selected: false
+                        };
+                    }
 
-                categories = _.toArray(tempCategories);
+                    return mergedFeature;
+                });
 
                 deferred.resolve({
                     features: mergedData,
-                    categories: categories,
+                    categories: _.values(tempCategories),
                     browsers: observedBrowsers,
-                    ieVersions: status
+                    ieVersions: _.values(statuses)
                 });
             }, 0);
 
