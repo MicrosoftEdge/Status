@@ -79,7 +79,7 @@
         float: left;
         border: 0;
         margin-top: 5px;
-        background: #fff url("/images/arrow.png") no-repeat center 10px;
+        background: #fff url("/images/arrow.svg") no-repeat center 10px;
         -moz-transform: rotate(-180deg);
         -ms-transform: rotate(-180deg);
         -o-transform: rotate(-180deg);

@@ -340,12 +340,12 @@ button:focus {
     display: block;
     height: 100%;
     width: 100%;
-    background: url("/images/little-arrow.png") no-repeat center center;
-    -moz-transform: rotate(0);
-    -ms-transform: rotate(0);
-    -o-transform: rotate(0);
-    -webkit-transform: rotate(0);
-    transform: rotate(0);
+    background: url("/images/little-arrow.svg") no-repeat center center;
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
     -moz-transition: all 500ms;
     -o-transition: all 500ms;
     -webkit-transition: all 500ms;
@@ -353,11 +353,11 @@ button:focus {
 }
 
 .dropdown.open .dropdown-toggle .dropdown-arrow i {
-    -moz-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
 }
 
 .dropdown .dropdown-menu li {
