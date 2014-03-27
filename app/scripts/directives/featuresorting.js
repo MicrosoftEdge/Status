@@ -6,6 +6,16 @@ angular.module('statusieApp')
             templateUrl: 'templates/featuresorting.html',
             restrict: 'E',
             controller: function ($scope) {
+                var statusOrder = {
+                    "in development": 0,
+                    shipped: 1,
+                    "prefixed": 2,
+                    "under consideration": 3,
+                    researching: 4,
+                    "not currently planned": 5,
+                    "no plans to support": 6
+                };
+
                 var sorts = [
                     {
                         name: 'name',
@@ -22,7 +32,7 @@ angular.module('statusieApp')
                     {
                         name: 'status',
                         sortFunction: function (feature) {
-                            return feature.position;
+                            return statusOrder[feature.position.toLowerCase()];
                         }
                     }
                 ];
