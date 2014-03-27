@@ -144,12 +144,24 @@ button:focus {
     transition: color 200ms;
 }
 
+.masthead .share.tw{
+    position:relative;
+    top:4px;
+}
+
 .masthead .share.tw:hover::before {
     color: #00aeef;
 }
 
 .masthead .share.fb:hover::before {
     color: #4c66a4;
+}
+
+.masthead .feedback{
+    color: #fff;
+    margin-right: 10px;
+    display: inline-block;
+    margin-bottom: 11px;
 }
 
 /* Filters */
