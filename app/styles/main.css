@@ -153,9 +153,13 @@ button:focus {
 }
 
 /* Filters */
+.filter-container{
+    background-color: rgb(0, 186, 240);
+    margin-bottom: 10px;
+}
+
 .filter-wrapper {
     width: 100%;
-    height: 106px;
     -moz-background-size: cover;
     -o-background-size: cover;
     -webkit-background-size: cover;
@@ -198,7 +202,7 @@ button:focus {
     outline: none;
     border-radius: 0;
     color: #fff;
-    background-color: rgba(8, 62, 81, 0.5);
+    background-color: #0079c2;
 }
 
 .filter-wrapper .center .search-form-wrapper button:active {
@@ -209,7 +213,7 @@ button:focus {
     width: 35px;
     height: 35px;
     line-height: 35px;
-    background-color: rgba(8, 62, 81, 0.8);
+    background-color: #0079c2;
 }
 
 .filter-wrapper .center .search-form-wrapper button.btn-single-filter {
@@ -254,7 +258,6 @@ button:focus {
 }
 
 .filter-wrapper .center .search-form-wrapper .single-filters-wrapper {
-    height: 74px;
     overflow-y: hidden;
 }
 
@@ -316,7 +319,7 @@ button:focus {
     display: inline-block;
     height: 20px;
     width: 24px;
-    background: #434e7b;
+    background: #0079c2;
     margin: -3px 0 0 10px;
     vertical-align: middle;
 }
@@ -396,7 +399,7 @@ button:focus {
 .switch-filters-column .dropdown a {
     font-size: 20px;
     cursor: pointer;
-    color: #000;
+    color: #FFF;
 }
 
 .switch-filters-column .dropdown a:hover {
@@ -513,14 +516,14 @@ button:focus {
     line-height: 56px;
     font-weight: 600;
     font-size: 24px;
-    color: #444e7b;
+    color: #fff;
 }
 
 .info-row .total-features:before {
     content: 'Features found: ';
     font-weight: 400;
     font-size: 16px;
-    color: #000;
+    color: #fff;
 }
 
 .term-filter {
@@ -666,7 +669,6 @@ footer .foot-center .links a:hover {
     top: 0;
     width: 100%;
     z-index: 10;
-    background-color: #fff;
 }
 
 progress {
@@ -853,7 +855,7 @@ progress {
 
 .ribbon-wrapper {
     overflow: hidden;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     font: bold 15px Sans-Serif;
