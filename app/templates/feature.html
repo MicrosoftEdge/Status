@@ -41,18 +41,13 @@
                 <li data-bo-if="feature.docs.msdn" class="docs msdn">
                     <a data-bo-href="feature.docs.msdn" target="_blank">MSDN</a>
                 </li>
-                <li class="standard" data-bo-class="feature.spec.organization">
-                    <a data-bo-if="feature.spec.link" data-bo-href="feature.spec.link" target="_blank"
+                <li class="standard" data-bo-if="feature.spec.link" data-bo-class="feature.spec.organization">
+                    <a data-bo-href="feature.spec.link" target="_blank"
                        data-bo-text="feature.spec.status"></a>
                 </li>
-                <li class="demo" data-bo-if="feature.demo">
-                    <a data-bo-href="feature.demos[0].link" target="_blank"
-                       title="Demo" data-bo-text="feature.demos[0].title"></a>
-                </li>
-
-                <!--<li class="demo" data-ng-repeat="demo in feature.demos">-->
-                    <!--<a data-bo-href="demo.link" target="_blank"-->
-                       <!--title="Demo" data-bo-text="demo.title"></a>-->
+                <!--<li class="demo" data-bo-if="feature.demo">-->
+                    <!--<a data-bo-href="feature.demos[0].link" target="_blank"-->
+                       <!--title="Demo" data-bo-text="feature.demos[0].title"></a>-->
                 <!--</li>-->
             </ul>
         <div class="clear"></div>

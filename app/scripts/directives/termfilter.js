@@ -33,6 +33,10 @@ angular.module('statusieApp')
                         filters.terms = [];
                     }
 
+                    if($scope.terms.length >= 14){
+                        return;
+                    }
+
                     $scope.terms.push({
                         text: term
                     });

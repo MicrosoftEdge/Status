@@ -12,7 +12,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "6090950820495360"
+        "id": 6090950820495360
     },
     {
         "name": "<details>/<summary>",
@@ -27,7 +27,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5348024557502464"
+        "id": 5348024557502464
     },
     {
         "name": "<img srcset>",
@@ -42,7 +42,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "4644337115725824"
+        "id": 4644337115725824
     },
     {
         "name": "<picture> Element",
@@ -57,7 +57,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5910974510923776"
+        "id": 5910974510923776
     },
     {
         "name": "<template> Element",
@@ -72,7 +72,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5207287069147136"
+        "id": 5207287069147136
     },
     {
         "name": "a[download] attribute",
@@ -87,7 +87,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "6473924464345088"
+        "id": 6473924464345088
     },
     {
         "name": "Animated WebP",
@@ -102,7 +102,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "4785074604081152"
+        "id": 4785074604081152
     },
     {
         "name": "Application Cache",
@@ -117,7 +117,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "6192449487634432"
+        "id": 6192449487634432
     },
     {
         "name": "Audio and video tracks",
@@ -132,7 +132,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh772592",
         "wpd": "",
-        "id": "5748496434987008"
+        "id": 5748496434987008
     },
     {
         "name": "Blending of background images",
@@ -147,7 +147,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5768037999312896"
+        "id": 5768037999312896
     },
     {
         "name": "Blob",
@@ -162,7 +162,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5328783104016384"
+        "id": 5328783104016384
     },
     {
         "name": "Block bindings (let, const, function)",
@@ -177,7 +177,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/dn263046",
         "wpd": "",
-        "id": "5891733057437696"
+        "id": 5891733057437696
     },
     {
         "name": "Canvas",
@@ -192,7 +192,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5100084685438976"
+        "id": 5100084685438976
     },
     {
         "name": "Canvas context \"alpha\" attribute",
@@ -207,7 +207,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "6454683010859008"
+        "id": 6454683010859008
     },
     {
         "name": "Canvas focus ring",
@@ -222,7 +222,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "6413769152397312"
+        "id": 6413769152397312
     },
     {
         "name": "Canvas rendering from workers",
@@ -237,7 +237,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5610258080727040"
+        "id": 5610258080727040
     },
     {
         "name": "Compositing and Blending in Canvas 2D",
@@ -252,7 +252,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "6119881720201216"
+        "id": 6119881720201216
     },
     {
         "name": "Content Security Policy",
@@ -267,7 +267,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5205088045891584"
+        "id": 5205088045891584
     },
     {
         "name": "CSS calc()",
@@ -282,7 +282,7 @@
         },
         "msdn": "http://msdn.microsoft.com/library/ms537660#calc",
         "wpd": "",
-        "id": "5765241438732288"
+        "id": 5765241438732288
     },
     {
         "name": "CSS Device Adaptation",
@@ -297,7 +297,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh708740",
         "wpd": "",
-        "id": "4737164243894272"
+        "id": 4737164243894272
     },
     {
         "name": "CSS touch-action",
@@ -312,7 +312,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5912074022551552"
+        "id": 5912074022551552
     },
     {
         "name": "CSS Variables",
@@ -327,13 +327,13 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "6401356696911872"
+        "id": 6401356696911872
     },
     {
         "name": "CSS Will Change",
         "category": "CSS",
         "link": "http://tabatkins.github.io/specs/css-will-change/",
-        "summary": "Adds a will-change CSS property, that can be used to signal that a particular property is likely to be changed in the future, or that an elementÃ¯Â¿Â½s content is likely to change.",
+        "summary": "Adds a will-change CSS property, that can be used to signal that a particular property is likely to be changed in the future, or that an elementÃƒÂ¯Ã‚Â¿Ã‚Â½s content is likely to change.",
         "standardStatus": "Editor's draft",
         "ieStatus": {
             "text": "Researching",
@@ -342,7 +342,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5954199330226176"
+        "id": 5954199330226176
     },
     {
         "name": "CSSOM View smooth scroll API",
@@ -357,7 +357,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5812155903377408"
+        "id": 5812155903377408
     },
     {
         "name": "Custom Elements",
@@ -372,7 +372,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "4642138092470272"
+        "id": 4642138092470272
     },
     {
         "name": "Dart VM",
@@ -387,7 +387,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "6682831673622528"
+        "id": 6682831673622528
     },
     {
         "name": "Device Motion",
@@ -402,7 +402,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5556931766779904"
+        "id": 5556931766779904
     },
     {
         "name": "Device Orientation",
@@ -417,7 +417,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/dn433240",
         "wpd": "",
-        "id": "5874690627207168"
+        "id": 5874690627207168
     },
     {
         "name": "devicePixelRatio on zoom",
@@ -432,7 +432,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5269993591668736"
+        "id": 5269993591668736
     },
     {
         "name": "DirectWrite on Windows",
@@ -447,7 +447,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "4725550652325888"
+        "id": 4725550652325888
     },
     {
         "name": "DOM3 Keyboard Events",
@@ -462,7 +462,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "4748790720364544"
+        "id": 4748790720364544
     },
     {
         "name": "DOM3 mouseenter & mouseleave Events",
@@ -477,7 +477,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "4889528208719872"
+        "id": 4889528208719872
     },
     {
         "name": "DOM3 Wheel Events",
@@ -492,7 +492,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/ff974352",
         "wpd": "",
-        "id": "5388191091654656"
+        "id": 5388191091654656
     },
     {
         "name": "Drag and Drop Directories",
@@ -507,7 +507,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5733953138851840"
+        "id": 5733953138851840
     },
     {
         "name": "Encoding API",
@@ -522,7 +522,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5714368087982080"
+        "id": 5714368087982080
     },
     {
         "name": "Encrypted Media Extensions",
@@ -537,7 +537,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/bg182646#eme",
         "wpd": "",
-        "id": "6578378068983808"
+        "id": 6578378068983808
     },
     {
         "name": "Exclusions",
@@ -552,7 +552,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh772711",
         "wpd": "",
-        "id": "6296903092273152"
+        "id": 6296903092273152
     },
     {
         "name": "Filters",
@@ -567,7 +567,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5822463824887808"
+        "id": 5822463824887808
     },
     {
         "name": "Flexbox",
@@ -582,7 +582,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/bg124109",
         "wpd": "",
-        "id": "4837301406400512"
+        "id": 4837301406400512
     },
     {
         "name": "Fullscreen API",
@@ -597,7 +597,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/dn265028",
         "wpd": "",
-        "id": "5259513871466496"
+        "id": 5259513871466496
     },
     {
         "name": "GamePad API",
@@ -612,7 +612,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5118776383111168"
+        "id": 5118776383111168
     },
     {
         "name": "Generated Content for Paged Media Module",
@@ -627,7 +627,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5400251359821824"
+        "id": 5400251359821824
     },
     {
         "name": "Geolocation",
@@ -642,7 +642,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-in/ie/hh410106#_HTML5_geolocation",
         "wpd": "",
-        "id": "6348855016685568"
+        "id": 6348855016685568
     },
     {
         "name": "getUserMedia",
@@ -657,7 +657,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "6067380039974912"
+        "id": 6067380039974912
     },
     {
         "name": "Gradients",
@@ -672,7 +672,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh673532",
         "wpd": "",
-        "id": "5785905063264256"
+        "id": 5785905063264256
     },
     {
         "name": "Grid",
@@ -687,7 +687,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh673533",
         "wpd": "",
-        "id": "4589636412243968"
+        "id": 4589636412243968
     },
     {
         "name": "HTML Imports",
@@ -702,7 +702,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5144752345317376"
+        "id": 5144752345317376
     },
     {
         "name": "HTTP Client Hints",
@@ -717,7 +717,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5504430086553600"
+        "id": 5504430086553600
     },
     {
         "name": "HTTP Strict Transport Security (HSTS)",
@@ -732,7 +732,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "4941480133132288"
+        "id": 4941480133132288
     },
     {
         "name": "HTTP/2 (SPDY)",
@@ -747,7 +747,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5152586365665280"
+        "id": 5152586365665280
     },
     {
         "name": "iframe[sandbox] attribute",
@@ -762,7 +762,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh673561",
         "wpd": "",
-        "id": "5715536319086592"
+        "id": 5715536319086592
     },
     {
         "name": "iframe[seamless] attribute",
@@ -777,7 +777,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "6630329993396224"
+        "id": 6630329993396224
     },
     {
         "name": "iframe[srcdoc] attribute",
@@ -792,7 +792,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5222955109842944"
+        "id": 5222955109842944
     },
     {
         "name": "IME API",
@@ -807,7 +807,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "6366722080636928"
+        "id": 6366722080636928
     },
     {
         "name": "IndexedDB",
@@ -822,7 +822,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh673548",
         "wpd": "",
-        "id": "6507459568992256"
+        "id": 6507459568992256
     },
     {
         "name": "Map",
@@ -837,7 +837,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/dn263029",
         "wpd": "",
-        "id": "4818609708728320"
+        "id": 4818609708728320
     },
     {
         "name": "Masks",
@@ -852,7 +852,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5381559662149632"
+        "id": 5381559662149632
     },
     {
         "name": "matchMedia",
@@ -867,7 +867,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh772743",
         "wpd": "",
-        "id": "4677872220372992"
+        "id": 4677872220372992
     },
     {
         "name": "MathML",
@@ -882,7 +882,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5240822173794304"
+        "id": 5240822173794304
     },
     {
         "name": "Media Queries: resolution feature",
@@ -897,7 +897,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-in/ie/hh393506#_CSS3_Media_Queries",
         "wpd": "",
-        "id": "5944509615570944"
+        "id": 5944509615570944
     },
     {
         "name": "Media Source Extensions",
@@ -912,7 +912,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/bg182646#mse",
         "wpd": "",
-        "id": "4563797888991232"
+        "id": 4563797888991232
     },
     {
         "name": "MediaRecorder",
@@ -927,7 +927,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5929649028726784"
+        "id": 5929649028726784
     },
     {
         "name": "Microdata",
@@ -942,7 +942,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "6428569609699328"
+        "id": 6428569609699328
     },
     {
         "name": "mix-blend-mode",
@@ -957,7 +957,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "6362616360337408"
+        "id": 6362616360337408
     },
     {
         "name": "Multi-column (full support)",
@@ -972,7 +972,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh673534",
         "wpd": "",
-        "id": "6526151266664448"
+        "id": 6526151266664448
     },
     {
         "name": "Mutation Observers",
@@ -987,7 +987,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/dn265034",
         "wpd": "",
-        "id": "5021194726146048"
+        "id": 5021194726146048
     },
     {
         "name": "Navigation Timing API",
@@ -1002,13 +1002,13 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh673552",
         "wpd": "",
-        "id": "5584144679567360"
+        "id": 5584144679567360
     },
     {
         "name": "NPAPI plug-in support",
         "category": "Misc",
         "link": "",
-        "summary": "NPAPIÃ¯Â¿Â½s 90s-era architecture has become a leading cause of hangs, crashes, security incidents, and code complexity in Chrome. Because of this, Chrome will be phasing out NPAPI support in 2013.",
+        "summary": "NPAPIs 90s-era architecture has become a leading cause of hangs, crashes, security incidents, and code complexity in Chrome. Because of this, Chrome will be phasing out NPAPI support in 2013.",
         "standardStatus": "Editor's draft",
         "ieStatus": {
             "text": "No plans to support",
@@ -1017,7 +1017,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5316559090221056"
+        "id": 5316559090221056
     },
     {
         "name": "Opus in MSE and <video>",
@@ -1032,7 +1032,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "4891189287321600"
+        "id": 4891189287321600
     },
     {
         "name": "Page Visibility API",
@@ -1047,7 +1047,7 @@
         },
         "msdn": "http://msdn.microsoft.com/library/ie/hh673553",
         "wpd": "",
-        "id": "5689697795833856"
+        "id": 5689697795833856
     },
     {
         "name": "Parse SVG as HTML",
@@ -1062,7 +1062,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5630599045840896"
+        "id": 5630599045840896
     },
     {
         "name": "Pointer Events",
@@ -1077,7 +1077,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "4504699138998272"
+        "id": 4504699138998272
     },
     {
         "name": "Pointer Lock (Mouse Lock)",
@@ -1092,7 +1092,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "6753200417800192"
+        "id": 6753200417800192
     },
     {
         "name": "Portable Native Client (PNaCl)",
@@ -1107,7 +1107,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "6193548999262208"
+        "id": 6193548999262208
     },
     {
         "name": "position: sticky",
@@ -1122,7 +1122,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "6190250464378880"
+        "id": 6190250464378880
     },
     {
         "name": "postMessage",
@@ -1137,7 +1137,22 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "4786174115708928"
+        "id": 4786174115708928
+    },
+    {
+        "name": "Push API",
+        "category": "Realtime / Communication",
+        "link": "https://dvcs.w3.org/hg/push/raw-file/tip/index.html",
+        "summary": "Push API",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Not currently planned",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "id": 5416033485586432
     },
     {
         "name": "QUIC",
@@ -1152,7 +1167,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5338403830759424"
+        "id": 5338403830759424
     },
     {
         "name": "Quota Management API",
@@ -1167,7 +1182,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "6218562888794112"
+        "id": 6218562888794112
     },
     {
         "name": "Regions",
@@ -1182,7 +1197,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5655612935372800"
+        "id": 5655612935372800
     },
     {
         "name": "requestAnimationFrame()",
@@ -1197,7 +1212,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh920765",
         "wpd": "",
-        "id": "5233400470306816"
+        "id": 5233400470306816
     },
     {
         "name": "requestAutocomplete()",
@@ -1212,7 +1227,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5092662981951488"
+        "id": 5092662981951488
     },
     {
         "name": "Resource Timing API",
@@ -1227,7 +1242,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5796350423728128"
+        "id": 5796350423728128
     },
     {
         "name": "Sending Messages to Extensions",
@@ -1242,7 +1257,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "4670450516885504"
+        "id": 4670450516885504
     },
     {
         "name": "Service Worker",
@@ -1257,7 +1272,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "6561526227927040"
+        "id": 6561526227927040
     },
     {
         "name": "Set",
@@ -1272,7 +1287,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/dn263029",
         "wpd": "",
-        "id": "4916191365693440"
+        "id": 4916191365693440
     },
     {
         "name": "Shadow DOM",
@@ -1287,7 +1302,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5479141319114752"
+        "id": 5479141319114752
     },
     {
         "name": "SrcN",
@@ -1302,7 +1317,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "4582090154704896"
+        "id": 4582090154704896
     },
     {
         "name": "Streams API",
@@ -1317,7 +1332,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "6605041225957376"
+        "id": 6605041225957376
     },
     {
         "name": "Subpixel font scaling",
@@ -1332,7 +1347,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "6259163214643200"
+        "id": 6259163214643200
     },
     {
         "name": "SVG2",
@@ -1347,7 +1362,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5760616295825408"
+        "id": 5760616295825408
     },
     {
         "name": "TLS 1.2",
@@ -1362,7 +1377,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5197666342404096"
+        "id": 5197666342404096
     },
     {
         "name": "Track element",
@@ -1377,7 +1392,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/bg123962",
         "wpd": "",
-        "id": "6719115557339136"
+        "id": 6719115557339136
     },
     {
         "name": "Transforms",
@@ -1392,7 +1407,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "6437640580628480"
+        "id": 6437640580628480
     },
     {
         "name": "Typed Arrays",
@@ -1407,7 +1422,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5135818813341696"
+        "id": 5135818813341696
     },
     {
         "name": "UIEvents (DOM4) Keyboard Events",
@@ -1422,7 +1437,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5593215650496512"
+        "id": 5593215650496512
     },
     {
         "name": "URL",
@@ -1437,7 +1452,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5675829346435072"
+        "id": 5675829346435072
     },
     {
         "name": "User Timing API",
@@ -1452,7 +1467,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5066549580791808"
+        "id": 5066549580791808
     },
     {
         "name": "Vibration API",
@@ -1467,7 +1482,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5698768766763008"
+        "id": 5698768766763008
     },
     {
         "name": "VP9",
@@ -1482,7 +1497,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "6362186595172352"
+        "id": 6362186595172352
     },
     {
         "name": "WeakMap",
@@ -1497,7 +1512,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/dn251546",
         "wpd": "",
-        "id": "4572868859920384"
+        "id": 4572868859920384
     },
     {
         "name": "Web Animations JavaScript API",
@@ -1512,7 +1527,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "4854343836631040"
+        "id": 4854343836631040
     },
     {
         "name": "Web Crypto API",
@@ -1527,7 +1542,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5030265697075200"
+        "id": 5030265697075200
     },
     {
         "name": "Web MIDI API",
@@ -1542,7 +1557,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "4923613069180928"
+        "id": 4923613069180928
     },
     {
         "name": "Web Notifications",
@@ -1557,7 +1572,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5064350557536256"
+        "id": 5064350557536256
     },
     {
         "name": "Web Speech API (input)",
@@ -1572,7 +1587,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5908775487668224"
+        "id": 5908775487668224
     },
     {
         "name": "Web Speech API (synthesis)",
@@ -1587,7 +1602,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "4782875580825600"
+        "id": 4782875580825600
     },
     {
         "name": "Web SQL Database",
@@ -1602,7 +1617,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "6330987952734208"
+        "id": 6330987952734208
     },
     {
         "name": "Web Storage",
@@ -1617,7 +1632,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "5345825534246912"
+        "id": 5345825534246912
     },
     {
         "name": "WebGL  (Canvas 3D)",
@@ -1632,7 +1647,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/bg182648",
         "wpd": "",
-        "id": "6049512976023552"
+        "id": 6049512976023552
     },
     {
         "name": "WebP image format support",
@@ -1647,7 +1662,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "6471725441089536"
+        "id": 6471725441089536
     },
     {
         "name": "WebRTC",
@@ -1662,7 +1677,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "6612462929444864"
+        "id": 6612462929444864
     },
     {
         "name": "WebSocket",
@@ -1677,7 +1692,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "6555138000945152"
+        "id": 6555138000945152
     },
     {
         "name": "WOFF 2.0 (improved font compression)",
@@ -1692,7 +1707,7 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "6718644721549312"
+        "id": 6718644721549312
     },
     {
         "name": "XMLHttpRequest timeout",
@@ -1707,6 +1722,6 @@
         },
         "msdn": "",
         "wpd": "",
-        "id": "6290890138058752"
+        "id": 6290890138058752
     }
 ]

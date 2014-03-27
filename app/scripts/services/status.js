@@ -24,9 +24,9 @@ angular.module('statusieApp')
             return $http.get(chromeStatusURL).then(function (response) {
                 chromeStatus = response.data;
 
-                _.forEach(chromeStatus, function (item) {
-                    item.id = item.id.toString();
-                });
+//                _.forEach(chromeStatus, function (item) {
+//                    item.id = item.id.toString();
+//                });
 
                 return chromeStatus;
             });
