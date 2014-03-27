@@ -9,7 +9,7 @@ angular.module('statusieApp')
         var observedBrowsers = _.map(['Internet Explorer', 'Chrome', 'Firefox', 'Safari', 'Opera'], function (browser) {
             return {name: browser, selected: false};
         });
-        
+
         var chromeStatus;
         var ieStatus;
 
@@ -41,17 +41,17 @@ angular.module('statusieApp')
                     if (!spec) {
                         return '';
                     } else if (_.contains(spec, 'w3.org')) {
-                        return 'W3C';
+                        return 'w3c';
                     } else if (_.contains(spec, 'ecmascript.org')) {
-                        return 'ECMA';
+                        return 'ecma';
                     } else if (_.contains(spec, 'khronos.org')) {
-                        return 'Khronos';
+                        return 'khronos';
                     } else if (_.contains(spec, 'whatwg.org')) {
                         return 'whatwg';
                     } else if (_.contains(spec, 'xiph.org')) {
-                        return 'XIPH';
+                        return 'xiph';
                     } else if (_.contains(spec, 'ietf.org')) {
-                        return 'IETF';
+                        return 'ietf';
                     } else {
                         return '';
                     }

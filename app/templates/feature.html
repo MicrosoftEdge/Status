@@ -10,7 +10,12 @@
     </header>
     <div class="feature-body-wrapper">
         <p data-bo-text="feature.summary"></p>
-
+        <p data-bo-if="feature.browsers.ie.prefixed">
+            <b>Prefixed version: </b> IE<span data-bo-text="feature.browsers.ie.prefixed"></span>
+        </p>
+        <p data-bo-if="feature.browsers.ie.unprefixed">
+            <b>Unprefixed version: </b> IE<span data-bo-text="feature.browsers.ie.unprefixed"></span>
+        </p>
         <div class="feature-status-wrapper">
             <ul class="feature_status browsers">
                 <li class="chrome" data-bo-class="{'implemented': feature.browsers.chrome.status}">
@@ -33,7 +38,7 @@
                 <li data-bo-if="feature.docs.wpd" class="docs webplatform">
                     <a data-bo-href="feature.docs.wpd" target="_blank">WebPlatform</a>
                 </li>
-                <li data-bo-if="feature.docs.msdn" class="docs MSDN">
+                <li data-bo-if="feature.docs.msdn" class="docs msdn">
                     <a data-bo-href="feature.docs.msdn" target="_blank">MSDN</a>
                 </li>
                 <li class="standard" data-bo-class="feature.spec.organization">

@@ -220,7 +220,7 @@
                     background-image: url(/images/webplatform.png);
                 }
 
-                .feature .feature_status.info li.docs.MSDN {
+                .feature .feature_status.info li.docs.msdn {
                     background-image: url(/images/msdn.png);
                 }
 
@@ -228,7 +228,7 @@
                     background-image: url(/images/clip.png);
                 }
 
-                    .feature .feature_status.info li.standard.W3C {
+                    .feature .feature_status.info li.standard.w3c {
                         background-image: url(/images/w3c.jpg);
                     }
 
