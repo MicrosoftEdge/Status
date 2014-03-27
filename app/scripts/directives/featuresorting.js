@@ -8,10 +8,10 @@ angular.module('statusieApp')
             controller: function ($scope) {
                 var statusOrder = {
                     "in development": 0,
-                    shipped: 1,
-                    "prefixed": 2,
-                    "under consideration": 3,
-                    researching: 4,
+                    shipped: 3,
+                    "prefixed": 4,
+                    "under consideration": 1,
+                    researching: 2,
                     "not currently planned": 5,
                     "no plans to support": 6
                 };
