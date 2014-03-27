@@ -2,7 +2,8 @@
     <header data-ng-click="show = !show" class="feature-header">
         <h1 class="feature_name" data-bo-text="feature.name"></h1>
         <div class="feature-info">
-            <div class="ie-status" data-bo-text="feature.position"></div>
+            <div class="ie-status" data-bo-if="feature.browsers.ie.prefixed || feature.browsers.ie.unprefixed" data-bo-text="'IE' + (feature.browsers.ie.prefixed || feature.browsers.ie.unprefixed) + '+'"></div>
+            <div class="ie-status" data-bo-if="!(feature.browsers.ie.prefixed || feature.browsers.ie.unprefixed)" data-bo-text="feature.position"></div>
             <button class="collapsebtn"></button>
             <div class="clear"></div>
         </div>
