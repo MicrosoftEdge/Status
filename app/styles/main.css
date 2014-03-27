@@ -851,23 +851,24 @@ progress {
     }
 }
 
-.ribbon-green {
+.beta-ribbon {
     overflow: hidden;
     position: absolute;
     top: 15px;
     right: -30px;
     font: bold 15px Sans-Serif;
     text-align: center;
-    text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;
+    text-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px;
     -webkit-transform: rotate(45deg);
-    -moz-transform:    rotate(45deg);
-    -ms-transform:     rotate(45deg);
-    -o-transform:      rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
     padding: 7px 0;
     width: 120px;
     background-color: #B33232;
     color: #fff;
-    -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
-    -moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);
-    box-shadow:         0px 0px 3px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+    z-index: 100;
 }
