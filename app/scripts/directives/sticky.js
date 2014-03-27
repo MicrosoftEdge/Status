@@ -7,7 +7,8 @@ angular.module('statusieApp')
             link: function postLink(scope, element) {
                 var topOffset = element.offset().top;
                 var $win = angular.element($window);
-                var locked = false;
+                var locked = false,
+                    calculated = false;
 
                 var fill = $('<div class="hide"></div>').insertBefore(element);
 
@@ -16,7 +17,11 @@ angular.module('statusieApp')
                     if (needsLock !== locked) {
                         locked = needsLock;
                         if (locked) {
-                            fill.height(element.height());
+                            if(!calculated){
+                                fill.height(element.height());
+                                calculated = true;
+                            }
+
                             element.addClass('fixed');
                             fill.removeClass('hide');
                         } else {
