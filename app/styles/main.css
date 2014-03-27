@@ -867,13 +867,13 @@ progress {
     font: bold 15px Sans-Serif;
     text-align: center;
     width: 120px;
-    height: 80px;
+    height: 85px;
     z-index: 100;
 }
 
 .beta-ribbon {
     position: relative;
-    font: bold 15px Sans-Serif;
+    font: bold 17px Sans-Serif;
     text-align: center;
     text-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px;
     -webkit-transform: rotate(45deg);
