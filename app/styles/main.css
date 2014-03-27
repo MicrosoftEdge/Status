@@ -27,6 +27,7 @@
 /*So we can use calc for the height*/
 html {
     height: 100%;
+    overflow-y: scroll;
 }
 
 body {
