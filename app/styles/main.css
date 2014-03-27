@@ -317,7 +317,7 @@ button:focus {
 /* Dropdown menu */
 .dropdown .dropdown-menu {
     text-align: left;
-    background-color: #434e7b;
+    background-color: #00BAF0;
     border-radius: 0;
     padding: 0;
     color: #fff;
@@ -362,7 +362,7 @@ button:focus {
 
 .dropdown .dropdown-menu li {
     padding: 0 10px;
-    border-bottom: solid 1px #37406b;
+    border-bottom: solid 1px #0079c2;
     height: 36px;
 }
 
