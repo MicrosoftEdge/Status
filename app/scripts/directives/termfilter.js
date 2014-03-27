@@ -10,11 +10,11 @@ angular.module('statusieApp')
                 var filters = $scope.filters;
                 $scope.terms = [];
 
-                var filterFunction = function (term){
-                    return function (acum, item){
-                        var termRegex = new RegExp(term, 'gi');
+                var filterFunction = function (term) {
+                    return function (acum, item) {
+                        var termRegex = new RegExp(term.text, 'gi');
 
-                        if(termRegex.test(item.name) || termRegex.test(item.summary)){
+                        if (termRegex.test(item.name) || termRegex.test(item.summary)) {
                             acum.push(item);
                         }
 
@@ -25,7 +25,7 @@ angular.module('statusieApp')
                 $scope.addTerm = function () {
                     var term = $scope.inputTerm;
 
-                    if(term === ''){
+                    if (term === '') {
                         return;
                     }
 
@@ -33,15 +33,16 @@ angular.module('statusieApp')
                         filters.terms = [];
                     }
 
-                    if($scope.terms.length >= 14){
+                    if ($scope.terms.length >= 14) {
                         return;
                     }
 
-                    $scope.terms.push({
+                    var termObject = {
                         text: term
-                    });
+                    };
+                    $scope.terms.push(termObject);
 
-                    filters.terms.push(filterFunction(term));
+                    filters.terms.push(filterFunction(termObject));
 
                     $scope.inputTerm = '';
                     $scope.$broadcast('filtersUpdated');
@@ -50,7 +51,7 @@ angular.module('statusieApp')
                 $scope.removeTerm = function (term) {
                     var index = $scope.terms.indexOf(term);
                     $scope.terms.splice(index, 1);
-                    var newFilters = _.map($scope.terms, function(term){
+                    var newFilters = _.map($scope.terms, function (term) {
                         return filterFunction(term);
                     });
 
