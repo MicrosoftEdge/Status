@@ -12,36 +12,39 @@
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 6090950820495360
     },
     {
         "name": "<details>/<summary>",
         "category": "Misc",
-        "link": "http://whatwg.org/html#the-details-element",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/interactive-elements.html#the-details-element",
         "summary": "Interactive widget to show/hide content.",
         "standardStatus": "Established standard",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5348024557502464
     },
     {
         "name": "<img srcset>",
         "category": "Misc",
-        "link": "http://whatwg.org/html#attr-img-srcset",
+        "link": "http://www.w3.org/html/wg/drafts/srcset/w3c-srcset/",
         "summary": "Enable a responsive images solution by providing the browser multiple resources in varying resolutions for a single image.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 4644337115725824
     },
     {
@@ -51,63 +54,51 @@
         "summary": "Enable a responsive images solution by declaring multiple resources for an image using CSS media queries.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5910974510923776
     },
     {
         "name": "<template> Element",
         "category": "Web Components",
-        "link": "http://www.whatwg.org/specs/web-apps/current-work/multipage/scripting-1.html#the-template-element",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/scripting-1.html#the-template-element",
         "summary": "HTML template element to allow creating fragment of inert HTML as a prototype for stamping out DOM.",
         "standardStatus": "Established standard",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5207287069147136
     },
     {
         "name": "a[download] attribute",
         "category": "File APIs",
-        "link": "http://whatwg.org/html#downloading-resources",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/links.html#attr-hyperlink-download",
         "summary": "When used on an <a>, this attribute signifies that the resource it points to should be downloaded by the browser rather than navigating to it.",
         "standardStatus": "Established standard",
         "ieStatus": {
-            "text": "Not currently planned",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 6473924464345088
     },
     {
-        "name": "Animated WebP",
-        "category": "Graphics",
-        "link": "https://developers.google.com/speed/webp/docs/riff_container",
-        "summary": "Support for animated WebP images",
-        "standardStatus": "Public discussion",
-        "ieStatus": {
-            "text": "Not currently planned",
-            "iePrefixed": "",
-            "ieUnprefixed": ""
-        },
-        "msdn": "",
-        "wpd": "",
-        "id": 4785074604081152
-    },
-    {
         "name": "Application Cache",
-        "category": "Graphics",
-        "link": "http://whatwg.org/html/#applicationcache",
+        "category": "Network / Connectivity",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/browsers.html#offline",
         "summary": "Enables web pages to work without the user being connected to the internet",
         "standardStatus": "Established standard",
         "ieStatus": {
@@ -117,21 +108,23 @@
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 6192449487634432
     },
     {
         "name": "Audio and video tracks",
         "category": "Multimedia",
         "link": "http://www.w3.org/html/wg/drafts/html/CR/",
-        "summary": "This adds the ability to get information about multiple audio and video tracks, and switch between them using the AudioTrack.enabled and VideoTrack.selected attributes.",
+        "summary": "Adds the ability to get information about multiple audio and video tracks, and switch between them using the AudioTrack.enabled and VideoTrack.selected attributes.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Shipped",
             "iePrefixed": "",
-            "ieUnprefixed": "11"
+            "ieUnprefixed": "10"
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh772592",
         "wpd": "",
+        "demo": "",
         "id": 5748496434987008
     },
     {
@@ -141,12 +134,13 @@
         "summary": "Offers more ways to blend between background images and background color.",
         "standardStatus": "Established standard",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5768037999312896
     },
     {
@@ -162,6 +156,7 @@
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5328783104016384
     },
     {
@@ -177,12 +172,13 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/dn263046",
         "wpd": "",
+        "demo": "",
         "id": 5891733057437696
     },
     {
         "name": "Canvas",
         "category": "Graphics",
-        "link": "http://whatwg.org/html#2dcontext",
+        "link": "http://www.w3.org/TR/2dcontext/",
         "summary": "Provides an API to draw 2D graphics",
         "standardStatus": "Established standard",
         "ieStatus": {
@@ -192,52 +188,24 @@
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5100084685438976
-    },
-    {
-        "name": "Canvas context \"alpha\" attribute",
-        "category": "Graphics",
-        "link": "http://wiki.whatwg.org/wiki/CanvasOpaque",
-        "summary": "Allow the specification of a 2D canvas with an opaque backing store (alpha: false). Speeds up compositing. Enables LCD text anti-aliasing.",
-        "standardStatus": "Public discussion",
-        "ieStatus": {
-            "text": "Researching",
-            "iePrefixed": "",
-            "ieUnprefixed": ""
-        },
-        "msdn": "",
-        "wpd": "",
-        "id": 6454683010859008
     },
     {
         "name": "Canvas focus ring",
         "category": "Graphics",
-        "link": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-canvas-element.html#dom-context-2d-drawsystemfocusring",
+        "link": "http://www.w3.org/html/wg/drafts/2dcontext/html5_canvas/",
         "summary": "Adds APIs to the canvas 2D context that make it possible to draw a focus ring around a canvas path and notify the operating system of the bounding box of the focused object for accessibility.",
         "standardStatus": "Editor's draft",
         "ieStatus": {
-            "text": "Under consideration",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 6413769152397312
-    },
-    {
-        "name": "Canvas rendering from workers",
-        "category": "Graphics",
-        "link": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-canvas-element.html#proxying-canvases-to-workers",
-        "summary": "Render a Canvas object (2D or WebGL) from a web worker.",
-        "standardStatus": "Public discussion",
-        "ieStatus": {
-            "text": "Researching",
-            "iePrefixed": "",
-            "ieUnprefixed": ""
-        },
-        "msdn": "",
-        "wpd": "",
-        "id": 5610258080727040
     },
     {
         "name": "Compositing and Blending in Canvas 2D",
@@ -246,12 +214,13 @@
         "summary": "The canvas 2d context has the globalCompositeOperation attribute that is used to set the current compositing and blending operator.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 6119881720201216
     },
     {
@@ -261,12 +230,13 @@
         "summary": "Allows you to create a whitelist of sources of trusted content, and instructs the browser to only execute or render resources from those sourcesA.",
         "standardStatus": "Established standard",
         "ieStatus": {
-            "text": "Under consideration",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5205088045891584
     },
     {
@@ -282,6 +252,7 @@
         },
         "msdn": "http://msdn.microsoft.com/library/ms537660#calc",
         "wpd": "",
+        "demo": "",
         "id": 5765241438732288
     },
     {
@@ -297,6 +268,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh708740",
         "wpd": "",
+        "demo": "",
         "id": 4737164243894272
     },
     {
@@ -312,36 +284,23 @@
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5912074022551552
-    },
-    {
-        "name": "CSS Variables",
-        "category": "CSS",
-        "link": "http://www.w3.org/TR/css-variables/",
-        "summary": "Introduces cascading variables as a new primitive value type that is accepted by all CSS properties, and custom properties for defining them.",
-        "standardStatus": "Working draft or equivalent",
-        "ieStatus": {
-            "text": "Researching",
-            "iePrefixed": "",
-            "ieUnprefixed": ""
-        },
-        "msdn": "",
-        "wpd": "",
-        "id": 6401356696911872
     },
     {
         "name": "CSS Will Change",
         "category": "CSS",
         "link": "http://tabatkins.github.io/specs/css-will-change/",
-        "summary": "Adds a will-change CSS property, that can be used to signal that a particular property is likely to be changed in the future, or that an elementÃƒÂ¯Ã‚Â¿Ã‚Â½s content is likely to change.",
-        "standardStatus": "Editor's draft",
+        "summary": "Adds a will-change CSS property, that can be used to signal that a particular property is likely to be changed in the future, or that an elementÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¿Ãƒâ€šÃ‚Â½s content is likely to change.",
+        "standardStatus": "Public Proposal",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5954199330226176
     },
     {
@@ -351,12 +310,13 @@
         "summary": "Adds an optional argument to existing scroll APIs that specifies whether scrolling should be smooth. Also adds a CSS property for this.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5812155903377408
     },
     {
@@ -366,12 +326,13 @@
         "summary": "Method for registering (creating) custom elements in script.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 4642138092470272
     },
     {
@@ -387,6 +348,7 @@
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 6682831673622528
     },
     {
@@ -402,6 +364,7 @@
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5556931766779904
     },
     {
@@ -417,6 +380,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/dn433240",
         "wpd": "",
+        "demo": "",
         "id": 5874690627207168
     },
     {
@@ -432,22 +396,8 @@
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5269993591668736
-    },
-    {
-        "name": "DirectWrite on Windows",
-        "category": "Graphics",
-        "link": "",
-        "summary": "Use DirectWrite instead of GDI for text on Windows.",
-        "standardStatus": "De-facto standard",
-        "ieStatus": {
-            "text": "Shipped",
-            "iePrefixed": "",
-            "ieUnprefixed": "9"
-        },
-        "msdn": "",
-        "wpd": "",
-        "id": 4725550652325888
     },
     {
         "name": "DOM3 Keyboard Events",
@@ -462,13 +412,14 @@
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 4748790720364544
     },
     {
         "name": "DOM3 mouseenter & mouseleave Events",
         "category": "User input",
         "link": "https://dvcs.w3.org/hg/pointerevents/raw-file/tip/pointerEvents.html#the-touch-action-css-property",
-        "summary": "New CSS property to enable websites to declaratively state how touches should be handled for purposes of scrolling and zooming.",
+        "summary": "DOM event analog of CSS :hover psuedo-selector that fires as the mouse enters and exits the bounding box of an element (including its children).",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Shipped",
@@ -477,6 +428,7 @@
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 4889528208719872
     },
     {
@@ -492,6 +444,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/ff974352",
         "wpd": "",
+        "demo": "",
         "id": 5388191091654656
     },
     {
@@ -501,28 +454,14 @@
         "summary": "Allows dragging and dropping entire folders using HTML5 Drag and Drop. Extends the DataTransferItem with a method to get a FileEntry/DirectoryEntry.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Under consideration",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5733953138851840
-    },
-    {
-        "name": "Encoding API",
-        "category": "Misc",
-        "link": "http://encoding.spec.whatwg.org/",
-        "summary": "Script API to allow encoding/decoding of strings from binary data. Common scenario: decoding a binary data file fetched via XHR into an ArrayBuffer that contains strings encoded as UTF-8.",
-        "standardStatus": "Editor's draft",
-        "ieStatus": {
-            "text": "Not currently planned",
-            "iePrefixed": "",
-            "ieUnprefixed": ""
-        },
-        "msdn": "",
-        "wpd": "",
-        "id": 5714368087982080
     },
     {
         "name": "Encrypted Media Extensions",
@@ -537,6 +476,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/bg182646#eme",
         "wpd": "",
+        "demo": "",
         "id": 6578378068983808
     },
     {
@@ -552,6 +492,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh772711",
         "wpd": "",
+        "demo": "",
         "id": 6296903092273152
     },
     {
@@ -561,12 +502,13 @@
         "summary": "Apply (SVG-like) filter effects to arbitrary DOM elements.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5822463824887808
     },
     {
@@ -582,6 +524,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/bg124109",
         "wpd": "",
+        "demo": "",
         "id": 4837301406400512
     },
     {
@@ -592,11 +535,12 @@
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Shipped",
-            "iePrefixed": "",
-            "ieUnprefixed": "11"
+            "iePrefixed": "11",
+            "ieUnprefixed": ""
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/dn265028",
         "wpd": "",
+        "demo": "",
         "id": 5259513871466496
     },
     {
@@ -606,27 +550,29 @@
         "summary": "Gives JS access to a game controller via USB.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5118776383111168
     },
     {
         "name": "Generated Content for Paged Media Module",
         "category": "CSS",
         "link": "http://dev.w3.org/csswg/css3-gcpm/",
-        "summary": "CSS properties helpful for printed publication. We only implement paged-x / paged-y from the whole spec.",
+        "summary": "CSS properties helpful for printed publication.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5400251359821824
     },
     {
@@ -642,21 +588,23 @@
         },
         "msdn": "http://msdn.microsoft.com/en-in/ie/hh410106#_HTML5_geolocation",
         "wpd": "",
+        "demo": "",
         "id": 6348855016685568
     },
     {
         "name": "getUserMedia",
         "category": "Multimedia",
         "link": "http://dev.w3.org/2011/webrtc/editor/getusermedia.html",
-        "summary": "Local component of WebRTC",
+        "summary": "Provides access to the user's local audio and video input/output devices.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Under consideration",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 6067380039974912
     },
     {
@@ -672,6 +620,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh673532",
         "wpd": "",
+        "demo": "",
         "id": 5785905063264256
     },
     {
@@ -687,6 +636,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh673533",
         "wpd": "",
+        "demo": "",
         "id": 4589636412243968
     },
     {
@@ -696,27 +646,29 @@
         "summary": "Import HTML documents into other HTML documents.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5144752345317376
     },
     {
         "name": "HTTP Client Hints",
         "category": "Network / Connectivity",
-        "link": "https://github.com/igrigorik/http-client-hints/blob/master/draft-grigorik-http-client-hints-00.txt",
+        "link": "http://tools.ietf.org/html/draft-grigorik-http-client-hints",
         "summary": "Header for proactive content negotiation; just as the Accept header allowed clients to indicate what formats they prefer, Client Hints allow clients to indicate a list of device and agent specific preferences.",
         "standardStatus": "Editor's draft",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5504430086553600
     },
     {
@@ -726,33 +678,19 @@
         "summary": "Header to inform the browser to always request a given domain over SSL, reducing MITM attack surface area.",
         "standardStatus": "Established standard",
         "ieStatus": {
-            "text": "Under consideration",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 4941480133132288
-    },
-    {
-        "name": "HTTP/2 (SPDY)",
-        "category": "Network / Connectivity",
-        "link": "http://http2.github.io/http2-spec",
-        "summary": "A fast, open protocol for transporting web content.",
-        "standardStatus": "Working draft or equivalent",
-        "ieStatus": {
-            "text": "Shipped",
-            "iePrefixed": "",
-            "ieUnprefixed": "11"
-        },
-        "msdn": "",
-        "wpd": "",
-        "id": 5152586365665280
     },
     {
         "name": "iframe[sandbox] attribute",
         "category": "Misc",
-        "link": "http://whatwg.org/html#attr-iframe-sandbox",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#attr-iframe-sandbox",
         "summary": "Method of running external site pages with reduced privileges (i.e. no JavaScript) in iframes (<iframe sandbox=\"allow-same-origin allow-forms\" src=\"...\"></iframe>)",
         "standardStatus": "Established standard",
         "ieStatus": {
@@ -762,43 +700,46 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh673561",
         "wpd": "",
+        "demo": "",
         "id": 5715536319086592
     },
     {
         "name": "iframe[seamless] attribute",
         "category": "Misc",
-        "link": "http://whatwg.org/html#attr-iframe-seamless",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#attr-iframe-seamless",
         "summary": "The seamless attribute is used to embed and <iframe> in the calling page without scrollbars or borders (e.g. seamlessly)",
         "standardStatus": "Established standard",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 6630329993396224
     },
     {
         "name": "iframe[srcdoc] attribute",
         "category": "Misc",
-        "link": "http://whatwg.org/html#attr-iframe-srcdoc",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#attr-iframe-srcdoc",
         "summary": "Gives the content of an iframe as a src context to embed (e.g. <iframe seamless srcdoc=\"<b>Hello World</b>\"></iframe>).",
         "standardStatus": "Established standard",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5222955109842944
     },
     {
         "name": "IME API",
         "category": "User input",
-        "link": "https://dvcs.w3.org/hg/dom3events/raw-file/tip/html/DOM3-Events.html#events-mouseevents",
-        "summary": "MouseEvents dispatched when a pointing device is moved onto or off of an Element or one of its descendents. Similar to mouseover and mouseout respectively, but are not cancelable and are not dispatched more than one \"round-trip\" into an Element's boundary.",
+        "link": "https://dvcs.w3.org/hg/ime-api/raw-file/default/Overview.html",
+        "summary": "Provides Web applications with scripted access to an IME (input-method editor) .",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Shipped",
@@ -807,6 +748,7 @@
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 6366722080636928
     },
     {
@@ -822,7 +764,24 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh673548",
         "wpd": "",
+        "demo": "",
         "id": 6507459568992256
+    },
+    {
+        "name": "WebGL Instancing Extension",
+        "category": "Graphics",
+        "link": "https://www.opengl.org/wiki/Vertex_Rendering#Instancing",
+        "summary": "a way to use the GPU to quickly draw a lot of copies of a single object ï¿½ in some scenes (like a forest with a lot of trees) it is a great way to get a huge performance improvement.",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null
     },
     {
         "name": "Map",
@@ -837,6 +796,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/dn263029",
         "wpd": "",
+        "demo": "",
         "id": 4818609708728320
     },
     {
@@ -846,12 +806,13 @@
         "summary": "Allows hiding of portions of a visible elements.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5381559662149632
     },
     {
@@ -867,6 +828,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh772743",
         "wpd": "",
+        "demo": "",
         "id": 4677872220372992
     },
     {
@@ -882,6 +844,7 @@
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5240822173794304
     },
     {
@@ -897,6 +860,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-in/ie/hh393506#_CSS3_Media_Queries",
         "wpd": "",
+        "demo": "",
         "id": 5944509615570944
     },
     {
@@ -912,6 +876,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/bg182646#mse",
         "wpd": "",
+        "demo": "",
         "id": 4563797888991232
     },
     {
@@ -921,18 +886,19 @@
         "summary": "Encode audio and video streams in the browser.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5929649028726784
     },
     {
         "name": "Microdata",
         "category": "Misc",
-        "link": "http://whatwg.org/html#microdata-dom-api",
+        "link": "http://www.w3.org/TR/microdata/",
         "summary": "Microdata is used to nest semantics within existing content on web pages.",
         "standardStatus": "Established standard",
         "ieStatus": {
@@ -942,7 +908,24 @@
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 6428569609699328
+    },
+    {
+        "name": "CSS Transforms - preserve-3d",
+        "category": "CSS",
+        "link": "http://www.w3.org/TR/css3-transforms/#transform-style-property",
+        "summary": "Augments existing CSS 3d transforms by facilitating the construction of complex 3d scenes.",
+        "standardStatus": "Established standard",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null
     },
     {
         "name": "mix-blend-mode",
@@ -951,13 +934,30 @@
         "summary": "Provides a way to blend an HTML or SVG element with its backdrop",
         "standardStatus": "Established standard",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 6362616360337408
+    },
+    {
+        "name": "Cross-Domain Font Loading",
+        "category": "CSS",
+        "link": "http://www.w3.org/TR/WOFF/",
+        "summary": "Increases interoperability with the web by relaxing metadata restrictions for EOT, WOFF, and TrueType fonts.",
+        "standardStatus": "Established standard",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null
     },
     {
         "name": "Multi-column (full support)",
@@ -972,12 +972,13 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh673534",
         "wpd": "",
+        "demo": "",
         "id": 6526151266664448
     },
     {
         "name": "Mutation Observers",
         "category": "DOM",
-        "link": "http://dom.spec.whatwg.org/#mutation-observers",
+        "link": "https://dvcs.w3.org/hg/domcore/raw-file/tip/Overview.html#mutation-observers",
         "summary": "Provides notifications when DOM nodes are rearranged or modified.",
         "standardStatus": "Established standard",
         "ieStatus": {
@@ -987,6 +988,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/dn265034",
         "wpd": "",
+        "demo": "",
         "id": 5021194726146048
     },
     {
@@ -1002,37 +1004,8 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh673552",
         "wpd": "",
+        "demo": "",
         "id": 5584144679567360
-    },
-    {
-        "name": "NPAPI plug-in support",
-        "category": "Misc",
-        "link": "",
-        "summary": "NPAPIs 90s-era architecture has become a leading cause of hangs, crashes, security incidents, and code complexity in Chrome. Because of this, Chrome will be phasing out NPAPI support in 2013.",
-        "standardStatus": "Editor's draft",
-        "ieStatus": {
-            "text": "No plans to support",
-            "iePrefixed": "",
-            "ieUnprefixed": ""
-        },
-        "msdn": "",
-        "wpd": "",
-        "id": 5316559090221056
-    },
-    {
-        "name": "Opus in MSE and <video>",
-        "category": "Multimedia",
-        "link": "http://wiki.xiph.org/MatroskaOpus",
-        "summary": "Ability to play the open source WebRTC preferred audio codec - Opus in MSE and <video> tags on the for the webM and matroska containers. Please note that we have had Opus support in chromium since M25. This change enables Opus playback on MSE and <video> tags.",
-        "standardStatus": "Established standard",
-        "ieStatus": {
-            "text": "Researching",
-            "iePrefixed": "",
-            "ieUnprefixed": ""
-        },
-        "msdn": "",
-        "wpd": "",
-        "id": 4891189287321600
     },
     {
         "name": "Page Visibility API",
@@ -1047,29 +1020,15 @@
         },
         "msdn": "http://msdn.microsoft.com/library/ie/hh673553",
         "wpd": "",
+        "demo": "",
         "id": 5689697795833856
-    },
-    {
-        "name": "Parse SVG as HTML",
-        "category": "Multimedia",
-        "link": "http://www.w3.org/TR/SVG/implnote.html#ErrorProcessing",
-        "summary": "Switch all SVG parsing to use the HTML parser.",
-        "standardStatus": "No public standards discussion",
-        "ieStatus": {
-            "text": "Not currently planned",
-            "iePrefixed": "",
-            "ieUnprefixed": ""
-        },
-        "msdn": "",
-        "wpd": "",
-        "id": 5630599045840896
     },
     {
         "name": "Pointer Events",
         "category": "User input",
         "link": "http://www.w3.org/html/wg/drafts/html/master/forms.html#attr-fe-inputmode",
-        "summary": "The inputmode content attribute is an enumerated attribute that specifies what kind of input mechanism would be most helpful for users entering content into the form control.",
-        "standardStatus": "Working draft or equivalent",
+        "summary": "Unified pointer input API (e.g. mouse, pen, touch input) which addresses several existing problems (especially on touchscreen laptops) and provides future extensibility.",
+        "standardStatus": "Established standard",
         "ieStatus": {
             "text": "Shipped",
             "iePrefixed": "10",
@@ -1077,6 +1036,7 @@
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 4504699138998272
     },
     {
@@ -1086,28 +1046,14 @@
         "summary": "Gives access to raw mouse movement, locks the target of mouse events to a single element, eliminates limits of how far mouse movement can go in a single direction, and removes the cursor from view. Obvious use cases are for first person or real time strategy games.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 6753200417800192
-    },
-    {
-        "name": "Portable Native Client (PNaCl)",
-        "category": "Multimedia",
-        "link": "",
-        "summary": "Run C/C++ code compiled to LLVM bitcode on any web page. The code runs inside the Native Client sandbox and has access to the same capabilities as JavaScript via the Pepper APIs.",
-        "standardStatus": "Public discussion",
-        "ieStatus": {
-            "text": "No plans to support",
-            "iePrefixed": "",
-            "ieUnprefixed": ""
-        },
-        "msdn": "",
-        "wpd": "",
-        "id": 6193548999262208
     },
     {
         "name": "position: sticky",
@@ -1116,18 +1062,19 @@
         "summary": "position: sticky is a new way to position elements and is conceptually similar to position: fixed. The difference is that a stickily positioned element behaves like position: relative within its parent, until a given offset threshold is met.",
         "standardStatus": "Public discussion",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 6190250464378880
     },
     {
         "name": "postMessage",
         "category": "Multimedia",
-        "link": "http://whatwg.org/html#dom-window-postmessage",
+        "link": "http://www.w3.org/TR/webmessaging/",
         "summary": "Safely enables cross-origin communication.",
         "standardStatus": "Established standard",
         "ieStatus": {
@@ -1137,37 +1084,8 @@
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 4786174115708928
-    },
-    {
-        "name": "Push API",
-        "category": "Realtime / Communication",
-        "link": "https://dvcs.w3.org/hg/push/raw-file/tip/index.html",
-        "summary": "Push API",
-        "standardStatus": "Working draft or equivalent",
-        "ieStatus": {
-            "text": "Not currently planned",
-            "iePrefixed": "",
-            "ieUnprefixed": ""
-        },
-        "msdn": "",
-        "wpd": "",
-        "id": 5416033485586432
-    },
-    {
-        "name": "QUIC",
-        "category": "Network / Connectivity",
-        "link": "https://docs.google.com/a/chromium.org/document/d/1RNHkx_VvKWyWg6Lr8SZ-saqsQx7rFV-ev2jRFUoVD34/edit",
-        "summary": "An experimental, UDP-based QUIC transport protocol",
-        "standardStatus": "No public standards discussion",
-        "ieStatus": {
-            "text": "Not currently planned",
-            "iePrefixed": "",
-            "ieUnprefixed": ""
-        },
-        "msdn": "",
-        "wpd": "",
-        "id": 5338403830759424
     },
     {
         "name": "Quota Management API",
@@ -1182,6 +1100,7 @@
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 6218562888794112
     },
     {
@@ -1197,6 +1116,7 @@
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5655612935372800
     },
     {
@@ -1212,52 +1132,24 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh920765",
         "wpd": "",
+        "demo": "",
         "id": 5233400470306816
-    },
-    {
-        "name": "requestAutocomplete()",
-        "category": "Misc",
-        "link": "http://lists.whatwg.org/htdig.cgi/whatwg-whatwg.org/2012-October/037711.html",
-        "summary": "Allows a form to be filled out on demand by the browser's autofill. Particularly for mobile applications, this solves the problem of working with long or even multi-page forms. For merchants, this results in improved conversion rates, sorely needed in mobile purchase scenarios.",
-        "standardStatus": "Editor's draft",
-        "ieStatus": {
-            "text": "Not currently planned",
-            "iePrefixed": "",
-            "ieUnprefixed": ""
-        },
-        "msdn": "",
-        "wpd": "",
-        "id": 5092662981951488
     },
     {
         "name": "Resource Timing API",
         "category": "Performance",
-        "link": "http://www.w3c-test.org/webperf/specs/ResourceTiming/",
+        "link": "http://www.w3.org/TR/resource-timing/",
         "summary": "Allows web applications to access timing information related to HTML elements.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Shipped",
             "iePrefixed": "",
-            "ieUnprefixed": ""
+            "ieUnprefixed": "10"
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5796350423728128
-    },
-    {
-        "name": "Sending Messages to Extensions",
-        "category": "Misc",
-        "link": "",
-        "summary": "Expose a Chrome-specific API to allow websites to send messages to extensions. Only exposed to websites whitelisted by an installed extension.",
-        "standardStatus": "No public standards discussion",
-        "ieStatus": {
-            "text": "Not currently planned",
-            "iePrefixed": "",
-            "ieUnprefixed": ""
-        },
-        "msdn": "",
-        "wpd": "",
-        "id": 4670450516885504
     },
     {
         "name": "Service Worker",
@@ -1266,12 +1158,13 @@
         "summary": "ServiceWorkers (formerly Navigation Controllers) are a new system that provides event-driven scripts that run independent of web pages. They are similar to SharedWorkers except that their lifetime is different and they have access to domain-wide events such as network fetches.",
         "standardStatus": "Public discussion",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 6561526227927040
     },
     {
@@ -1287,6 +1180,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/dn263029",
         "wpd": "",
+        "demo": "",
         "id": 4916191365693440
     },
     {
@@ -1296,12 +1190,13 @@
         "summary": "Enables DOM tree encapsulation. Without it, widgets may inadvertently break pages by using conflicting CSS selectors, class or id names, or JavaScript variables.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5479141319114752
     },
     {
@@ -1317,6 +1212,7 @@
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 4582090154704896
     },
     {
@@ -1332,6 +1228,7 @@
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 6605041225957376
     },
     {
@@ -1347,6 +1244,7 @@
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 6259163214643200
     },
     {
@@ -1356,12 +1254,13 @@
         "summary": "Implement the new SVG2 features.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5760616295825408
     },
     {
@@ -1373,41 +1272,12 @@
         "ieStatus": {
             "text": "Shipped",
             "iePrefixed": "",
-            "ieUnprefixed": ""
+            "ieUnprefixed": "8"
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5197666342404096
-    },
-    {
-        "name": "Track element",
-        "category": "Multimedia",
-        "link": "http://whatwg.org/html#the-track-element",
-        "summary": "Add subtitles, captions, screen reader descriptions, chapters and other types of timed metadata to video and audio. Chrome currently supports the WebVTT format for track data.",
-        "standardStatus": "Established standard",
-        "ieStatus": {
-            "text": "Shipped",
-            "iePrefixed": "",
-            "ieUnprefixed": "10"
-        },
-        "msdn": "http://msdn.microsoft.com/en-us/library/ie/bg123962",
-        "wpd": "",
-        "id": 6719115557339136
-    },
-    {
-        "name": "Transforms",
-        "category": "CSS",
-        "link": "http://dev.w3.org/csswg/css3-transforms/",
-        "summary": "Enables changing the position of content in 3D space without disrupting the normal flow.",
-        "standardStatus": "Established standard",
-        "ieStatus": {
-            "text": "Shipped",
-            "iePrefixed": "",
-            "ieUnprefixed": "9"
-        },
-        "msdn": "",
-        "wpd": "",
-        "id": 6437640580628480
     },
     {
         "name": "Typed Arrays",
@@ -1422,36 +1292,39 @@
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5135818813341696
     },
     {
-        "name": "UIEvents (DOM4) Keyboard Events",
+        "name": "UIEvents - Keyboard Query APIs",
         "category": "Multimedia",
         "link": "https://dvcs.w3.org/hg/d4e/raw-file/tip/source_respec.htm",
         "summary": "Identify the physical key being pressed; Query key from layout.",
         "standardStatus": "Editor's draft",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Not currently planned",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5593215650496512
     },
     {
         "name": "URL",
         "category": "DOM",
-        "link": "http://url.spec.whatwg.org/",
+        "link": "https://dvcs.w3.org/hg/url/raw-file/tip/Overview.html",
         "summary": "Expose constructible URL objects that can be manipulated and combined.",
         "standardStatus": "Established standard",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5675829346435072
     },
     {
@@ -1467,37 +1340,24 @@
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5066549580791808
     },
     {
         "name": "Vibration API",
         "category": "Device",
         "link": "http://dev.w3.org/2009/dap/vibration/",
-        "summary": "This specification defines an API that provides access to the vibration mechanism of the hosting device. Vibration is a form of tactile feedback. Note this feature is only available on Android.",
+        "summary": "This specification defines an API that provides access to the vibration mechanism of the hosting device. Vibration is a form of tactile feedback. ",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5698768766763008
-    },
-    {
-        "name": "VP9",
-        "category": "Multimedia",
-        "link": "http://tools.ietf.org/html/draft-grange-vp9-bitstream",
-        "summary": "VP9 is an open and royalty free video compression standard.",
-        "standardStatus": "Editor's draft",
-        "ieStatus": {
-            "text": "Not currently planned",
-            "iePrefixed": "",
-            "ieUnprefixed": ""
-        },
-        "msdn": "",
-        "wpd": "",
-        "id": 6362186595172352
     },
     {
         "name": "WeakMap",
@@ -1512,6 +1372,7 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/dn251546",
         "wpd": "",
+        "demo": "",
         "id": 4572868859920384
     },
     {
@@ -1521,12 +1382,13 @@
         "summary": "A unified model for supporting animation and synchronization on the Web platform.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 4854343836631040
     },
     {
@@ -1542,6 +1404,7 @@
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5030265697075200
     },
     {
@@ -1557,6 +1420,7 @@
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 4923613069180928
     },
     {
@@ -1566,12 +1430,13 @@
         "summary": "An API for displaying simple notifications to the user.",
         "standardStatus": "Established standard",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5064350557536256
     },
     {
@@ -1581,27 +1446,29 @@
         "summary": "Enables web developers to incorporate speech recognition into their web pages.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5908775487668224
     },
     {
         "name": "Web Speech API (synthesis)",
         "category": "Multimedia",
         "link": "https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html",
-        "summary": "Enables web developers to incorporate speech synthesis into their web pages. Uses whatever the platform provides for synthesis.",
+        "summary": "Enables web developers to incorporate speech synthesis into their web pages. ",
         "standardStatus": "Editor's draft",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 4782875580825600
     },
     {
@@ -1617,6 +1484,7 @@
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 6330987952734208
     },
     {
@@ -1632,6 +1500,7 @@
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 5345825534246912
     },
     {
@@ -1647,13 +1516,14 @@
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/bg182648",
         "wpd": "",
+        "demo": "",
         "id": 6049512976023552
     },
     {
         "name": "WebP image format support",
         "category": "Graphics",
         "link": "https://developers.google.com/speed/webp/docs/riff_container",
-        "summary": "WebP is an image format that provides lossless and lossy compression for images on the web. WebP lossless images are 26% smaller in size compared to PNGs; lossy is 35% smaller than JPEG.",
+        "summary": "WebP is an image format that provides lossless and lossy compression for images on the web. ",
         "standardStatus": "Public discussion",
         "ieStatus": {
             "text": "Not currently planned",
@@ -1662,22 +1532,8 @@
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 6471725441089536
-    },
-    {
-        "name": "WebRTC",
-        "category": "Multimedia",
-        "link": "http://dev.w3.org/2011/webrtc/editor/webrtc.html",
-        "summary": "Real-time communication in the browser.",
-        "standardStatus": "Working draft or equivalent",
-        "ieStatus": {
-            "text": "Researching",
-            "iePrefixed": "",
-            "ieUnprefixed": ""
-        },
-        "msdn": "",
-        "wpd": "",
-        "id": 6612462929444864
     },
     {
         "name": "WebSocket",
@@ -1692,6 +1548,7 @@
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 6555138000945152
     },
     {
@@ -1699,14 +1556,15 @@
         "category": "Misc",
         "link": "https://code.google.com/p/font-compression-reference/source/browse/brotli/brotlispec.txt",
         "summary": "WOFF 2.0 significantly improves font compression. We are seeing average gains of 24% with peaks above 50% in particular for the larger fonts such as those typically used by CJK languages (analysis ran on the whole Google Fonts corpus). M33: switching to Brotli Compression Algorithm (instead of LZMA). M35: sent web facing change PSA prior to enabling by default.",
-        "standardStatus": "Editor's draft",
+        "standardStatus": "Public discussion",
         "ieStatus": {
-            "text": "Researching",
+            "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 6718644721549312
     },
     {
@@ -1722,6 +1580,391 @@
         },
         "msdn": "",
         "wpd": "",
+        "demo": "",
         "id": 6290890138058752
+    },
+    {
+        "name": "Arrow function",
+        "category": "JavaScript",
+        "link": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts",
+        "summary": "The arrow (=>) takes the place of the function keyword",
+        "standardStatus": "Editor's draft",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 5047308127305728
+    },
+    {
+        "name": "Box Alignment",
+        "category": "CSS",
+        "link": "http://dev.w3.org/csswg/css3-align/",
+        "summary": "CSS properties for aligning boxes within their container. Allows for true vertical centering among other features.",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 6173208034148352
+    },
+    {
+        "name": "CSS filter() image function",
+        "category": "CSS",
+        "link": "http://www.w3.org/TR/filter-effects/#FilterCSSImageValue",
+        "summary": "The function allows filtering an CSS input image with a set of filter functions. The used filter functions are the same as for the CSS filter property. The filter() function can be animated as well.",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 5425136400334848
+    },
+    {
+        "name": "Default parameter",
+        "category": "JavaScript",
+        "link": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts",
+        "summary": "Allows formal parameters to be initialized with default values if no value is passed.",
+        "standardStatus": "Editor's draft",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 5275456790069248
+    },
+    {
+        "name": "Destructuring",
+        "category": "JavaScript",
+        "link": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts",
+        "summary": "Destructuring assignment allows extracting data from arrays or objects using a syntax that mirrors array and object literals.\r\n\r\n",
+        "standardStatus": "Editor's draft",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 4588790303686656
+    },
+    {
+        "name": "Rest parameters",
+        "category": "JavaScript",
+        "link": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts",
+        "summary": "Allows representation of an indefinite number of arguments as an array.",
+        "standardStatus": "Editor's draft",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 5937087912083456
+    },
+    {
+        "name": "Ambient Light Events",
+        "category": "Device",
+        "link": "http://www.w3.org/TR/ambient-light/",
+        "summary": "Ambient Light Event API which is a handy way to make a web page or web app aware of any change in light intensity.\r\n",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 5298357018820608
+    },
+    {
+        "name": "Battery Status API",
+        "category": "Device",
+        "link": "https://dvcs.w3.org/hg/dap/raw-file/default/battery/Overview.html",
+        "summary": "Allows access to see the battery level of the device's battery",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 4537134732017664
+    },
+    {
+        "name": "Push API",
+        "category": "Realtime / Communication",
+        "link": "https://dvcs.w3.org/hg/push/raw-file/tip/index.html",
+        "summary": "Provides webapps with scripted access to server-sent notifications.",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 5416033485586432
+    },
+    {
+        "name": "Subresource Integrity",
+        "category": "Security",
+        "link": "http://w3c.github.io/webappsec/specs/subresourceintegrity/",
+        "summary": "Subresource Integrity defines a mechanism by which user agents may verify that a fetched resource has been delivered without unexpected manipulation. In a nutshell, metadata inlined into HTML elements allows the browser to determine whether the resource that was downloaded matches the resource the page's author expected to download.",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 6183089948590080
+    },
+    {
+        "name": "CSS Intrinsic Sizing",
+        "category": "CSS",
+        "link": "http://dev.w3.org/csswg/css3-sizing/",
+        "summary": "Extends the CSS sizing properties with keywords that represent content-based \"intrinsic\" sizes and context-based \"extrinsic\" sizes, allowing CSS to more easily describe boxes that fit their content or fit into a particular layout context.",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 5901353784180736
+    },
+    {
+        "name": "Canvas2D text decoration",
+        "category": "Graphics",
+        "link": "http://www.w3.org/html/wg/drafts/2dcontext/html5_canvas/#textmetrics",
+        "summary": "Add a textDecoration attribute to canvas 2D contexts, behavior similar to existing \"font\" attribute: It's a DOMString, parsed the same way as corresponding CSS property (text-decoration).",
+        "standardStatus": "Editor's draft",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 5663034638860288
+    },
+    {
+        "name": "JS iterators (i.e. the for-of feature)",
+        "category": "JavaScript",
+        "link": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts",
+        "summary": "Iterates over iterable objects (including arrays, array-like objects, iterators and generators), invoking a custom iteration hook with statements to be executed for the value of each distinct property.",
+        "standardStatus": "Editor's draft",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 4696563918045184
+    },
+    {
+        "name": "Navigation Error Logging",
+        "category": "Performance",
+        "link": "https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/NavigationErrorLogging/Overview.html",
+        "summary": "This specification defines an interface to store and retrieve error data related to the previous navigations of a document.\r\n",
+        "standardStatus": "Editor's draft",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 5391249376804864
+    },
+    {
+        "name": "Shapes",
+        "category": "CSS",
+        "link": "http://dev.w3.org/csswg/css-shapes/",
+        "summary": "Define arbitrary shapes inside and around which inline content can flow.",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 5163890719588352
+    },
+    {
+        "name": "Symbols aka private names",
+        "category": "JavaScript",
+        "link": "http://wiki.ecmascript.org/doku.php?id=strawman:private_names",
+        "summary": "Allows properties to be added to existing objects without the possibility of interference with the existing properties, unintended visibility, or with other uncoordinated additions by any other code.",
+        "standardStatus": "Editor's draft",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 6042091272536064
+    },
+    {
+        "name": "WebGL Shared Resources",
+        "category": "Graphics",
+        "link": "http://www.khronos.org/registry/webgl/extensions/WEBGL_shared_resources/",
+        "summary": "Allow sharing resources between 2 or more WebGL contexts",
+        "standardStatus": "Established standard",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 5486563022602240
+    },
+    {
+        "name": "High Resolution Time",
+        "category": "Performance",
+        "link": "https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/HighResolutionTime/Overview.html",
+        "summary": "Enables reliable, high-resolution timing of client-side performance.",
+        "standardStatus": "Established standard",
+        "ieStatus": {
+            "text": "Shipped",
+            "iePrefixed": "",
+            "ieUnprefixed": "10"
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 5349124069130240
+    },
+    {
+        "name": "Message Channels",
+        "category": "Realtime / Communication",
+        "link": "http://www.w3.org/TR/webmessaging/",
+        "summary": "A messaging system that allows documents to communicate with each other regardless of their source domain, in a way designed to not enable cross-site scripting attacks.",
+        "standardStatus": "Established standard",
+        "ieStatus": {
+            "text": "Shipped",
+            "iePrefixed": "",
+            "ieUnprefixed": "10"
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 6710044586409984
+    },
+    {
+        "name": "Efficient Script Yielding - setImmediate()",
+        "category": "Performance",
+        "link": "https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/setImmediate/Overview.html",
+        "summary": "Allows web applications to flush the browser event queue and receive an immediate callback.",
+        "standardStatus": "Editor's draft",
+        "ieStatus": {
+            "text": "Shipped",
+            "iePrefixed": "",
+            "ieUnprefixed": "10"
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null
+    },
+    {
+        "name": "Resource Priorities",
+        "category": "Performance",
+        "link": "http://www.w3.org/TR/resource-priorities/",
+        "summary": "Defines a means for site developers to programmatically give the User Agent hints on the download priority of a resource.",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null
+    },
+    {
+        "name": "Beacon",
+        "category": "Performance",
+        "link": "http://www.w3.org/TR/beacon/",
+        "summary": "Enables web applications to asynchronously transfer data from the user agent to a web server, with the user agent taking the responsibility to eventually send the data.",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null
+    },
+    {
+        "name": "Prefetch attribute",
+        "category": "Performance",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/links.html#link-type-prefetch",
+        "summary": "Indicates the browser should preemptively fetche and cache the specified resource.",
+        "standardStatus": "Established standard",
+        "ieStatus": {
+            "text": "Shipped",
+            "iePrefixed": "",
+            "ieUnprefixed": "11"
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null
+    },
+    {
+        "name": "Prerender attribute",
+        "category": "Performance",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/links.html#link-type-prefetch",
+        "summary": "",
+        "standardStatus": "Established standard",
+        "ieStatus": {
+            "text": "Shipped",
+            "iePrefixed": "",
+            "ieUnprefixed": "11"
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null
     }
 ]

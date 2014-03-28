@@ -103,6 +103,61 @@ angular.module('statusieApp')
                     return finalFeature;
                 };
 
+                var defaultFeature = {
+                    "shipped_opera_milestone": "",
+                    "shipped_milestone": "",
+                    "meta": {
+                        "needsflag": false,
+                        "milestone_str": "No active development"
+                    },
+                    "comments": "",
+                    "owner": [],
+                    "ff_views": {
+                        "text": "",
+                        "value": 0
+                    },
+                    "id": 0,
+                    "shipped_webview_milestone": null,
+                    "category": "",
+                    "ie_views": {
+                        "text": "",
+                        "value": 0
+                    }, "prefixed": false,
+                    "safari_views": {
+                        "text": "",
+                        "value": 0
+                    },
+                    "spec_link": "",
+                    "created_by": {
+                        "nickname": "",
+                        "email": ""
+                    },
+                    "shipped_ios_milestone": null,
+                    "web_dev_views": {
+                        "text": "", "value": 0
+                    },
+                    "impl_status_chrome": "",
+                    "ff_views_link": null,
+                    "updated": "",
+                    "updated_by": {
+                        "nickname": "",
+                        "email": ""
+                    }, "visibility": "",
+                    "safari_views_link": null,
+                    "footprint": 0,
+                    "ie_views_link": null,
+                    "shipped_android_milestone": null,
+                    "shipped_opera_android_milestone": null,
+                    "first_of_milestone": true,
+                    "name": "",
+                    "standardization": {
+                        "text": "", "value": 0
+                    },
+                    "created": "",
+                    "summary": "",
+                    "bug_url": null
+                };
+
                 var tempCategories = {};
                 var statuses = {};
 
@@ -111,7 +166,7 @@ angular.module('statusieApp')
                         return chromeStatusFeature.id === ieStatusFeature.id;
                     });
 
-                    var mergedFeature = normalizeFeature(_.defaults(ieStatusFeature, chromeFeature));
+                    var mergedFeature = normalizeFeature(_.defaults(ieStatusFeature, _.defaults(chromeFeature || {}, defaultFeature)));
                     var featureCategory = mergedFeature.category;
                     var featureStatus = mergedFeature.position;
 
