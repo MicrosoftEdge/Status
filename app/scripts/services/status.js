@@ -74,7 +74,7 @@ angular.module('statusieApp')
                                 link: feature.ff_views_link
                             },
                             ie: {
-                                status: (feature.ie_status && feature.ie_status.value === 1) || feature.ie_views.value === 1,
+                                status: !!(feature.ieStatus.iePrefixed || feature.ieStatus.ieUnprefixed),
                                 link: feature.ie_views_link,
                                 prefixed: feature.ieStatus.iePrefixed,
                                 unprefixed: feature.ieStatus.ieUnprefixed
