@@ -32,6 +32,7 @@
         -webkit-transition: background-color 200ms;
         transition: background-color 200ms;
         border-left: 10px solid;
+        cursor: pointer;
     }
 
     .feature.show header {

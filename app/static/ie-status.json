@@ -771,7 +771,7 @@
         "name": "WebGL Instancing Extension",
         "category": "Graphics",
         "link": "https://www.opengl.org/wiki/Vertex_Rendering#Instancing",
-        "summary": "a way to use the GPU to quickly draw a lot of copies of a single object ï¿½ in some scenes (like a forest with a lot of trees) it is a great way to get a huge performance improvement.",
+        "summary": "A way to use the GPU to quickly draw a lot of copies of a single object: in some scenes (like a forest with a lot of trees) it is a great way to get a huge performance improvement.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "In Development",
