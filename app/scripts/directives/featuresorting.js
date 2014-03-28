@@ -21,7 +21,8 @@ angular.module('statusieApp')
                         name: 'name',
                         sortFunction: function (feature) {
                             return feature.name.toLowerCase().replace(/</g, '');
-                        }
+                        },
+                        selected: true
                     },
                     {
                         name: 'technology',
@@ -32,14 +33,13 @@ angular.module('statusieApp')
                         name: 'status',
                         sortFunction: function (feature) {
                             return statusOrder[feature.position.toLowerCase()];
-                        },
-                        selected: true
+                        }
                     }
                 ];
                 $scope.sorts = sorts;
 
                 $scope.selectedSort = {
-                    name: 'status'
+                    name: 'name'
                 };
 
                 $scope.$watch('selectedSort.name', function(newValue,oldValue){
