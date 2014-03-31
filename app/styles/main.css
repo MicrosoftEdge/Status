@@ -146,7 +146,7 @@ button:focus {
 
 .masthead .share.tw {
     position: relative;
-    top: 4px;
+    top: -2px;
 }
 
 .masthead .share.tw:hover::before {
