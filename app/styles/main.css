@@ -693,7 +693,10 @@ footer .foot-center .links a:hover {
     position: absolute;
     width: 100%;
     height: 100%;
+    display: -webkit-flex;
     display: -ms-flexbox;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
     -ms-flex-align: center;
     -ms-flex-pack: center;
     display: flex;
