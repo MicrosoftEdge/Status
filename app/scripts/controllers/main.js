@@ -4,23 +4,12 @@ angular.module('statusieApp')
 
         var features;
 
+        $scope.limit = 0;
+        $scope.loading = true;
+
         $scope.$watch('sort', function(sortFunction){
                $scope.features = _.sortBy(features, sortFunction);
         });
-
-        Status.load()
-            .then(function (data) {
-                features = _.sortBy(_.forEach(data.features, function(feature){
-                    feature.visible = true;
-                }), $scope.sort);
-
-                $scope.features = _.clone(features);
-                $scope.categories = data.categories;
-                $scope.browsers = data.browsers;
-                $scope.featureStatus = data.ieVersions;
-            });
-
-        $scope.limit = 0;
 
         $scope.$on('filtersUpdated', function () {
             var filteredFeatures = _.clone(features);
@@ -44,4 +33,17 @@ angular.module('statusieApp')
 
             $scope.limit = (filteredFeatures || []).length;
         });
+
+        Status.load()
+            .then(function (data) {
+                features = _.sortBy(_.forEach(data.features, function(feature){
+                    feature.visible = true;
+                }), $scope.sort);
+
+                $scope.features = _.clone(features);
+                $scope.categories = data.categories;
+                $scope.browsers = data.browsers;
+                $scope.featureStatus = data.ieVersions;
+                $scope.loading = false;
+            });
     });
