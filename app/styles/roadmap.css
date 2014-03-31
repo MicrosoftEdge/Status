@@ -368,7 +368,6 @@
 
     .feature header .feature_name {
         font-size: 20pt;
-        width: 580px;
     }
 
     .feature header .ie-status {
@@ -433,8 +432,12 @@
 }
 
 @media screen and (max-width: 499px) {
-    .feature header{
+    .feature header {
         background-image: none !important;
+    }
+
+    .feature .ie-status {
+        display: none;
     }
 
     .feature header .feature_name {
@@ -445,10 +448,6 @@
 
     .feature {
         width: calc(100% - 20px);
-    }
-
-    .feature-info {
-        display: none;
     }
 
     .feature header .ie-status {
