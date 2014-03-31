@@ -10,6 +10,10 @@ angular.module('statusieApp')
             return {name: browser, selected: false};
         });
 
+        var statuses = _.map(['Shipped', 'Prefixed', 'In Development', 'Under Consideration', 'Not Currently Planned'], function (browser) {
+            return {name: browser, selected: false};
+        });
+
         var chromeStatus;
         var ieStatus;
 
@@ -79,6 +83,10 @@ angular.module('statusieApp')
                     }
 
                     return status;
+                };
+
+                var sortStatuses = function(statuses){
+                    return 1;
                 };
 
                 var normalizeFeature = function (feature) {
@@ -183,7 +191,6 @@ angular.module('statusieApp')
                 };
 
                 var tempCategories = {};
-                var statuses = {};
 
                 var mergedData = _.map(ieStatus, function (ieStatusFeature) {
                     var chromeFeature = _.find(chromeStatus, function (chromeStatusFeature) {
@@ -201,13 +208,6 @@ angular.module('statusieApp')
                         };
                     }
 
-                    if (!statuses[featureStatus]) {
-                        statuses[featureStatus] = {
-                            name: featureStatus,
-                            selected: false
-                        };
-                    }
-
                     return mergedFeature;
                 });
 
@@ -215,7 +215,7 @@ angular.module('statusieApp')
                     features: mergedData,
                     categories: _.values(tempCategories),
                     browsers: observedBrowsers,
-                    ieVersions: _.values(statuses)
+                    ieVersions: statuses
                 });
             }, 0);
 
