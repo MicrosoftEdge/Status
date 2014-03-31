@@ -203,6 +203,7 @@ button:focus {
 .filter-wrapper .center .search-form-wrapper .form-group input.form-control {
     border: solid 1px #c7c7c7;
     border-radius: 0;
+    min-width: 200px;
     width: calc(100% - 39px);
     height: 35px;
     display: inline-block;
