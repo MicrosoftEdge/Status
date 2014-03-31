@@ -102,7 +102,7 @@ angular.module('statusieApp')
                                 link: feature.bug_url
                             },
                             firefox: {
-                                status: normalizeBrowserStatus(feature.ff_views.value),
+                                status: normalizeBrowserStatus(feature.ff_views.text),
                                 link: feature.ff_views_link
                             },
                             ie: {
@@ -112,7 +112,7 @@ angular.module('statusieApp')
                                 unprefixed: feature.ieStatus.ieUnprefixed
                             },
                             safari: {
-                                status: normalizeBrowserStatus(feature.safari_views.value),
+                                status: normalizeBrowserStatus(feature.safari_views.text),
                                 link: feature.safari_views_link
                             },
                             opera: {
