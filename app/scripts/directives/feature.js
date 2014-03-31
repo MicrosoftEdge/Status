@@ -12,9 +12,9 @@ angular.module('statusieApp')
                 });
             },
             link: function (scope, element, attrs) {
-                var featureName = $(element).find('h1.feature_name');
-                var featureInfoWidth = $(element).find('.feature-info').width();
-                featureName.css('max-width', 'calc(100% - ' + (featureInfoWidth + 10) + 'px)');
+//                var featureName = $(element).find('h1.feature_name');
+//                var featureInfoWidth = $(element).find('.feature-info').width();
+//                featureName.css('max-width', 'calc(100% - ' + (featureInfoWidth + 10) + 'px)');
             }
         };
     });

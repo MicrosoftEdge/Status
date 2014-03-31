@@ -144,9 +144,9 @@ button:focus {
     transition: color 200ms;
 }
 
-.masthead .share.tw{
-    position:relative;
-    top:4px;
+.masthead .share.tw {
+    position: relative;
+    top: 4px;
 }
 
 .masthead .share.tw:hover::before {
@@ -157,7 +157,7 @@ button:focus {
     color: #4c66a4;
 }
 
-.masthead .feedback{
+.masthead .feedback {
     color: #fff;
     margin-right: 10px;
     display: inline-block;
@@ -203,6 +203,7 @@ button:focus {
 .filter-wrapper .center .search-form-wrapper .form-group input.form-control {
     border: solid 1px #c7c7c7;
     border-radius: 0;
+    min-width: 200px;
     width: calc(100% - 39px);
     height: 35px;
     display: inline-block;
@@ -652,7 +653,7 @@ footer .foot-center .links {
     padding-top: 12px;
 }
 
-footer .foot-center .links li{
+footer .foot-center .links li {
     list-style-type: none;
 }
 
@@ -872,6 +873,10 @@ progress {
 
     .switch-filters-column .dropdown a {
         font-size: 10pt;
+    }
+
+    footer .foot-center .links {
+        display: none;
     }
 }
 
