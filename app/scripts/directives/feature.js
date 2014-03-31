@@ -6,6 +6,11 @@ angular.module('statusieApp')
             templateUrl: '/templates/feature.html',
             restrict: 'E',
             replace: true,
+            controller: function($scope){
+                $scope.$on('filtersUpdated', function () {
+                    $scope.show = false;
+                });
+            },
             link: function (scope, element, attrs) {
 //                var featureName = $(element).find('h1.feature_name');
 //                var featureInfoWidth = $(element).find('.feature-info').width();

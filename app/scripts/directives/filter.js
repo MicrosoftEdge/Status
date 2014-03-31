@@ -57,7 +57,7 @@ angular.module('statusieApp')
                     var itemBrowsers = item.browsers;
 
                     _.forEach(selectedBrowser, function(browser){
-                        if(!itemBrowsers[browser].status){
+                        if(itemBrowsers[browser].status !== 'Shipped'){
                             add = false;
                         }
                     });

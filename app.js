@@ -3,6 +3,7 @@ var express = require('express'),
     port = process.env.PORT || 9000,
     app = express();
 
+app.use(express.compress());
 app.use(express.basicAuth('admin','IE11Rocks!'));
 app.use(express.bodyParser());
 app.use(express.static(path.join(__dirname, 'app')));

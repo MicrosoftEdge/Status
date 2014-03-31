@@ -322,7 +322,7 @@ button:focus {
     border-radius: 0;
     padding: 0;
     color: #fff;
-    width: 160px;
+    width: 200px;
     left: auto;
     right: -1px;
     margin-top: -2px;
@@ -386,7 +386,7 @@ button:focus {
 }
 
 .dropdown .dropdown-menu li label:not(.check):not(.radio) {
-    width: 112px;
+    width: 140px;
     height: 36px;
     overflow: hidden;
     white-space: nowrap;
@@ -602,7 +602,7 @@ div.term {
 
 footer {
     width: 100%;
-    height: 145px;
+    height: 110px;
     background-color: #404040;
 }
 
@@ -635,7 +635,7 @@ header .ie-logo {
 }
 
 article {
-    min-height: calc(100% - 348px);
+    min-height: calc(100% - 310px);
     position: relative;
 }
 
@@ -647,14 +647,18 @@ footer .foot-center .ms-logo {
 }
 
 footer .foot-center .links {
-    padding-top: 42px;
     float: right;
     text-align: right;
+    color: white;
+    padding-top: 12px;
+}
+
+footer .foot-center .links li{
+    list-style-type: none;
 }
 
 footer .foot-center .links a {
     color: white;
-    margin-left: 10px;
 }
 
 footer .foot-center .links a:hover {
