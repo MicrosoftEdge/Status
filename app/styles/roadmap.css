@@ -168,8 +168,12 @@
         }
 
         .feature .feature_status.browsers li {
-            opacity: 0.2;
+            opacity: 0.1;
         }
+
+            .feature .feature_status.browsers li.indevelopment {
+                opacity: 0.5;
+            }
 
             .feature .feature_status.browsers li.implemented {
                 opacity: 1;
