@@ -601,7 +601,7 @@ div.term {
 
 footer {
     width: 100%;
-    height: 145px;
+    height: 110px;
     background-color: #404040;
 }
 
@@ -634,7 +634,7 @@ header .ie-logo {
 }
 
 article {
-    min-height: calc(100% - 348px);
+    min-height: calc(100% - 310px);
     position: relative;
 }
 
@@ -646,14 +646,18 @@ footer .foot-center .ms-logo {
 }
 
 footer .foot-center .links {
-    padding-top: 42px;
     float: right;
     text-align: right;
+    color: white;
+    padding-top: 12px;
+}
+
+footer .foot-center .links li{
+    list-style-type: none;
 }
 
 footer .foot-center .links a {
     color: white;
-    margin-left: 10px;
 }
 
 footer .foot-center .links a:hover {
