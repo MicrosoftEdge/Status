@@ -7,9 +7,9 @@
         </div>
     </form>
     <div class="col-md-7  single-filters-wrapper float">
-        <button class="btn btn-default btn-single-filter" data-ng-repeat="term in terms">
+        <button class="btn btn-default btn-single-filter" data-ng-repeat="term in terms" data-ng-click="removeTerm(term)">
             <div class="single-filter-text">{{term.text}}</div>
-            <i data-ng-click="removeTerm(term)" class="glyphicon glyphicon-remove remove-icon"></i>
+            <i class="glyphicon glyphicon-remove remove-icon"></i>
         </button>
     </div>
     <div class="clear"></div>
