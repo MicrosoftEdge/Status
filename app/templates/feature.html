@@ -19,25 +19,25 @@
         </p>
         <div class="feature-status-wrapper">
             <ul class="feature_status browsers">
-                <li data-bo-class="{'implemented': feature.browsers.chrome.status}">
-                    <a data-bo-if="feature.browsers.chrome.link" data-bo-href="feature.browsers.chrome.link"><img src="/images/chrome.png" data-bo-alt="(feature.browsers.chrome.status && 'Supported by Chrome') || 'Not supported by Chrome'"/></a>
-                    <img data-bo-if="!feature.browsers.chrome.link" data-bo-alt="(feature.browsers.chrome.status && 'Supported by Chrome') || 'Not supported by Chrome'" src="/images/chrome.png" />
+                <li data-bo-class="{'implemented': feature.browsers.chrome.status === 'Shipped', 'indevelopment' : feature.browsers.chrome.status === 'In Development'}">
+                    <a data-bo-if="feature.browsers.chrome.link" data-bo-href="feature.browsers.chrome.link"><img src="/images/chrome.png" data-bo-alt="feature.browsers.chrome.status + ' by Chrome'"/></a>
+                    <img data-bo-if="!feature.browsers.chrome.link" data-bo-alt="feature.browsers.chrome.status + ' by Chrome'" src="/images/chrome.png" />
                 </li>
-                <li data-bo-class="{'implemented': feature.browsers.firefox.status}">
-                    <a data-bo-if="feature.browsers.firefox.link" data-bo-href="feature.browsers.firefox.link"><img src="/images/firefox.png" data-bo-alt="(feature.browsers.firefox.status && 'Supported by Firefox') || 'Not supported by Firefox'"/></a>
-                    <img data-bo-if="!feature.browsers.firefox.link" data-bo-alt="(feature.browsers.firefox.status && 'Supported by Firefox') || 'Not supported by Firefox'" src="/images/firefox.png" />
+                <li data-bo-class="{'implemented': feature.browsers.firefox.status === 'Shipped', 'indevelopment' : feature.browsers.firefox.status === 'In Development'}">
+                    <a data-bo-if="feature.browsers.firefox.link" data-bo-href="feature.browsers.firefox.link"><img src="/images/firefox.png" data-bo-alt="feature.browsers.firefox.status + ' by Firefox'"/></a>
+                    <img data-bo-if="!feature.browsers.firefox.link" data-bo-alt="feature.browsers.firefox.status + ' by Firefox'" src="/images/firefox.png" />
                 </li>
-                <li data-bo-class="{'implemented': feature.browsers.ie.status}">
-                    <a data-bo-if="feature.browsers.ie.link" data-bo-href="feature.browsers.ie.link"><img src="/images/explorer.png" data-bo-alt="(feature.browsers.ie.status && 'Supported by Internet Explorer') || 'Not supported by Internet Explorer'"/></a>
-                    <img data-bo-if="!feature.browsers.ie.link" data-bo-alt="(feature.browsers.ie.status && 'Supported by Internet Explorer') || 'Not supported by Internet Explorer'" src="/images/explorer.png" />
+                <li data-bo-class="{'implemented': feature.browsers.ie.status === 'Shipped', 'indevelopment' : feature.browsers.ie.status === 'In Development'}">
+                    <a data-bo-if="feature.browsers.ie.link" data-bo-href="feature.browsers.ie.link"><img src="/images/explorer.png" data-bo-alt="feature.browsers.ie.status + ' by Internet Explorer'"/></a>
+                    <img data-bo-if="!feature.browsers.ie.link" data-bo-alt="feature.browsers.ie.status + ' by Internet Explorer'" src="/images/explorer.png" />
                 </li>
-                <li data-bo-class="{'implemented': feature.browsers.safari.status}">
-                    <a data-bo-if="feature.browsers.safari.link" data-bo-href="feature.browsers.safari.link"><img src="/images/safari.png" data-bo-alt="(feature.browsers.safari.status && 'Supported by Safari') || 'Not supported by Safari'"/></a>
-                    <img data-bo-if="!feature.browsers.safari.link" data-bo-alt="(feature.browsers.safari.status && 'Supported by Safari') || 'Not supported by Safari'" src="/images/safari.png" />
+                <li data-bo-class="{'implemented': feature.browsers.safari.status === 'Shipped', 'indevelopment' : feature.browsers.safari.status === 'In Development'}">
+                    <a data-bo-if="feature.browsers.safari.link" data-bo-href="feature.browsers.safari.link"><img src="/images/safari.png" data-bo-alt="feature.browsers.safari.status + ' by Safari'"/></a>
+                    <img data-bo-if="!feature.browsers.safari.link" data-bo-alt="feature.browsers.safari.status + ' by Safari'" src="/images/safari.png" />
                 </li>
-                <li data-bo-class="{'implemented': feature.browsers.opera.status}">
-                    <a data-bo-if="feature.browsers.opera.link" data-bo-href="feature.browsers.opera.link"><img src="/images/opera.png" data-bo-alt="(feature.browsers.opera.status && 'Supported by Opera') || 'Not supported by Opera'"/></a>
-                    <img data-bo-if="!feature.browsers.opera.link" data-bo-alt="(feature.browsers.opera.status && 'Supported by Opera') || 'Not supported by Opera'" src="/images/opera.png" />
+                <li data-bo-class="{'implemented': feature.browsers.opera.status === 'Shipped', 'indevelopment' : feature.browsers.opera.status === 'In Development'}">
+                    <a data-bo-if="feature.browsers.opera.link" data-bo-href="feature.browsers.opera.link"><img src="/images/opera.png" data-bo-alt="feature.browsers.opera.status + ' by Opera'"/></a>
+                    <img data-bo-if="!feature.browsers.opera.link" data-bo-alt="feature.browsers.opera.status + ' by Opera'" src="/images/opera.png" />
                 </li>
             </ul>
             <ul class="feature_status info">

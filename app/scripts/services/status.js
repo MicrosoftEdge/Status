@@ -57,6 +57,30 @@ angular.module('statusieApp')
                     }
                 };
 
+                var normalizeBrowserStatus = function(featureStatus){
+                    var status;
+
+                    // The following checks are for opera, chromestatus only returns null or the version number
+                    if(_.isNull(featureStatus)){
+                        return 'Not Supported';
+                    }
+                    if(_.isNumber(featureStatus) && featureStatus > 2){
+                        return 'Shipped';
+                    }
+
+                    switch(featureStatus){
+                        case 'Enabled by default': status = 'Shipped'; break;
+                        case 'In development': status = 'In Development'; break;
+                        case 'Shipped': break;
+                        case 'In Development': break;
+                        case 1: status = 'Shipped'; break;
+                        case 2: status = 'In Development'; break;
+                        default: status = 'Not Supported';
+                    }
+
+                    return status;
+                };
+
                 var normalizeFeature = function (feature) {
                     var finalFeature = {
                         name: feature.name,
@@ -66,25 +90,25 @@ angular.module('statusieApp')
                         position: feature.ieStatus.text,
                         browsers: {
                             chrome: {
-                                status: (feature.impl_status_chrome && feature.impl_status_chrome.toLowerCase() === 'enabled by default') || false,
+                                status: normalizeBrowserStatus(feature.impl_status_chrome),
                                 link: feature.bug_url
                             },
                             firefox: {
-                                status: feature.ff_views.value === 1,
+                                status: normalizeBrowserStatus(feature.ff_views.value),
                                 link: feature.ff_views_link
                             },
                             ie: {
-                                status: (feature.ie_status && feature.ie_status.value === 1) || feature.ie_views.value === 1,
+                                status: feature.ieStatus.text,
                                 link: feature.ie_views_link,
                                 prefixed: feature.ieStatus.iePrefixed,
                                 unprefixed: feature.ieStatus.ieUnprefixed
                             },
                             safari: {
-                                status: feature.safari_views.value === 1,
+                                status: normalizeBrowserStatus(feature.safari_views.value),
                                 link: feature.safari_views_link
                             },
                             opera: {
-                                status: !!feature.shipped_opera_milestone,
+                                status: normalizeBrowserStatus(feature.shipped_opera_milestone),
                                 //Chrome status doesn't return a link for opera tracking :(
                                 link: null
                             }
