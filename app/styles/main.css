@@ -321,7 +321,7 @@ button:focus {
     border-radius: 0;
     padding: 0;
     color: #fff;
-    width: 160px;
+    width: 200px;
     left: auto;
     right: -1px;
     margin-top: -2px;
@@ -385,7 +385,7 @@ button:focus {
 }
 
 .dropdown .dropdown-menu li label:not(.check):not(.radio) {
-    width: 112px;
+    width: 140px;
     height: 36px;
     overflow: hidden;
     white-space: nowrap;
