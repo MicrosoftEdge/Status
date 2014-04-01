@@ -109,7 +109,11 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6192449487634432
+        "id": 6192449487634432,
+        "opera_views": {
+            "text": "Shipped",
+            "value": 1
+        }
     },
     {
         "name": "Audio and video tracks",
@@ -126,22 +130,6 @@
         "wpd": "",
         "demo": "",
         "id": 5748496434987008
-    },
-    {
-        "name": "Blending of background images",
-        "category": "CSS",
-        "link": "http://www.w3.org/TR/compositing-1/#background-blend-mode",
-        "summary": "Offers more ways to blend between background images and background color.",
-        "standardStatus": "Established standard",
-        "ieStatus": {
-            "text": "Under Consideration",
-            "iePrefixed": "",
-            "ieUnprefixed": ""
-        },
-        "msdn": "",
-        "wpd": "",
-        "demo": "",
-        "id": 5768037999312896
     },
     {
         "name": "Blob",
@@ -288,10 +276,26 @@
         "id": 5912074022551552
     },
     {
+        "name": "CSS Variables",
+        "category": "CSS",
+        "link": "http://www.w3.org/TR/css-variables/",
+        "summary": "Introduces cascading variables as a new primitive value type that is accepted by all CSS properties, and custom properties for defining them.",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 6401356696911872
+    },
+    {
         "name": "CSS Will Change",
         "category": "CSS",
         "link": "http://tabatkins.github.io/specs/css-will-change/",
-        "summary": "Adds a will-change CSS property, that can be used to signal that a particular property is likely to be changed in the future, or that an elementÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¿Ãƒâ€šÃ‚Â½s content is likely to change.",
+        "summary": "Adds a will-change CSS property, that can be used to signal that a particular property is likely to be changed in the future, or that an element's content is likely to change.",
         "standardStatus": "Public Proposal",
         "ieStatus": {
             "text": "Under Consideration",
@@ -334,22 +338,6 @@
         "wpd": "",
         "demo": "",
         "id": 4642138092470272
-    },
-    {
-        "name": "Dart VM",
-        "category": "Misc",
-        "link": "http://www.dartlang.org/docs/spec/latest/dart-language-specification.html",
-        "summary": "Dart is a new web programming language with libraries, a virtual machine, and tools. It's designed to help developers build fast, structured modern web apps. Dart compiles to JavaScript to run across the entire modern web. The VM is a Chrome feature to optimize Dart's performance.",
-        "standardStatus": "Editor's draft",
-        "ieStatus": {
-            "text": "Not currently planned",
-            "iePrefixed": "",
-            "ieUnprefixed": ""
-        },
-        "msdn": "",
-        "wpd": "",
-        "demo": "",
-        "id": 6682831673622528
     },
     {
         "name": "Device Motion",
@@ -403,7 +391,7 @@
         "name": "DOM3 Keyboard Events",
         "category": "Graphics",
         "link": "http://www.w3.org/TR/DOM-Level-3-Events/",
-        "summary": "KeyboardEvent: keydown, keyup",
+        "summary": "KeyboardEvent: keydown, keyup, keypress",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Shipped",
@@ -435,7 +423,7 @@
         "name": "DOM3 Wheel Events",
         "category": "DOM",
         "link": "https://dvcs.w3.org/hg/dom3events/raw-file/tip/html/DOM3-Events.html#events-wheelevents",
-        "summary": "Implementation of the standard DOM Level 3 WheelEvent. Currently Blink implements a non standard mousewheel event with a very similar but incompatible API.",
+        "summary": "Implementation of the standard DOM Level 3 WheelEvent for mouse wheel rotation.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Shipped",
@@ -515,7 +503,7 @@
         "name": "Flexbox",
         "category": "CSS",
         "link": "http://dev.w3.org/csswg/css-flexbox/",
-        "summary": "A CSS box model optimized for user interface design. In the flex layout model, the children of a flex container can be laid out in any direction, and can \"flex\" their sizes, either growing to fill unused space or shrinking to avoid overflowing the parent.",
+        "summary": "A CSS box model optimized for user interface design. The children of a flex container can be laid out in any direction and can \"flex\" their sizes to fill unused space and  avoid overflowing the parent.",
         "standardStatus": "Established standard",
         "ieStatus": {
             "text": "Shipped",
@@ -534,7 +522,7 @@
         "summary": "Programmatically instruct content on the page to be presented in the browser's full screen (kiosk) mode.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Shipped",
+            "text": "Prefixed",
             "iePrefixed": "11",
             "ieUnprefixed": ""
         },
@@ -550,7 +538,7 @@
         "summary": "Gives JS access to a game controller via USB.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Under Consideration",
+            "text": "In Development",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -673,7 +661,7 @@
     },
     {
         "name": "HTTP Strict Transport Security (HSTS)",
-        "category": "Network / Connectivity",
+        "category": "Security",
         "link": "http://tools.ietf.org/html/rfc6797",
         "summary": "Header to inform the browser to always request a given domain over SSL, reducing MITM attack surface area.",
         "standardStatus": "Established standard",
@@ -686,6 +674,51 @@
         "wpd": "",
         "demo": "",
         "id": 4941480133132288
+    },
+    {
+        "name": "SPDY/3",
+        "category": "Network / Connectivity",
+        "link": "http://www.chromium.org/spdy/spdy-protocol ï¿½ï¿½ï¿½ï¿½ ",
+        "summary": "A faster protocol for transporting web content.",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Shipped",
+            "iePrefixed": "",
+            "ieUnprefixed": "11"
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 5152586365665280
+    },
+    {
+        "name": "HTTP/2.0",
+        "category": "Network / Connectivity",
+        "link": "http://datatracker.ietf.org/wg/httpbis/",
+        "summary": "A faster protocol for transporting web content being standardized by the IETF.",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null,
+        "impl_status_chrome": "In development",
+        "ff_views": {
+            "text": "In development",
+            "value": 2
+        },
+        "opera_views": {
+            "text": "In development",
+            "value": 2
+        },
+        "safari_views": {
+            "text": "In development",
+            "value": 2
+        }
     },
     {
         "name": "iframe[sandbox] attribute",
@@ -707,7 +740,7 @@
         "name": "iframe[seamless] attribute",
         "category": "Misc",
         "link": "http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#attr-iframe-seamless",
-        "summary": "The seamless attribute is used to embed and <iframe> in the calling page without scrollbars or borders (e.g. seamlessly)",
+        "summary": "The seamless attribute is used to embed an <iframe> in the calling page without scrollbars or borders (e.g. seamlessly) and with the parent document's styles applying to the embedded seamless iframe.",
         "standardStatus": "Established standard",
         "ieStatus": {
             "text": "Under Consideration",
@@ -742,7 +775,7 @@
         "summary": "Provides Web applications with scripted access to an IME (input-method editor) .",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Shipped",
+            "text": "Prefixed",
             "iePrefixed": "11",
             "ieUnprefixed": ""
         },
@@ -753,7 +786,7 @@
     },
     {
         "name": "IndexedDB",
-        "category": "Misc",
+        "category": "Offline / Storage",
         "link": "https://dvcs.w3.org/hg/IndexedDB/raw-file/tip/Overview.html",
         "summary": "An asynchronous client-side storage API offering fast access to large amounts of structured data",
         "standardStatus": "Established standard",
@@ -771,7 +804,7 @@
         "name": "WebGL Instancing Extension",
         "category": "Graphics",
         "link": "https://www.opengl.org/wiki/Vertex_Rendering#Instancing",
-        "summary": "A way to use the GPU to quickly draw a lot of copies of a single object: in some scenes (like a forest with a lot of trees) it is a great way to get a huge performance improvement.",
+        "summary": "A way to use the GPU to quickly draw a lot of copies of a single object. In some scenes (like a forest with a lot of trees) it is a great way to get a huge performance improvement. Requires a compatible GPU.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "In Development",
@@ -781,7 +814,20 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": null
+        "id": null,
+        "impl_status_chrome": "Enabled by default",
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "opera_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "Shipped",
+            "value": 1
+        }
     },
     {
         "name": "Map",
@@ -902,7 +948,7 @@
         "summary": "Microdata is used to nest semantics within existing content on web pages.",
         "standardStatus": "Established standard",
         "ieStatus": {
-            "text": "No plans to support",
+            "text": "Not currently planned",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -925,7 +971,20 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": null
+        "id": null,
+        "impl_status_chrome": "Enabled by default",
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "opera_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "Shipped",
+            "value": 1
+        }
     },
     {
         "name": "mix-blend-mode",
@@ -947,7 +1006,7 @@
         "name": "Cross-Domain Font Loading",
         "category": "CSS",
         "link": "http://www.w3.org/TR/WOFF/",
-        "summary": "Increases interoperability with the web by relaxing metadata restrictions for EOT, WOFF, and TrueType fonts.",
+        "summary": "Increases interoperability with the web by relaxing domain and licensing metadata restrictions for EOT, WOFF, and TrueType fonts.",
         "standardStatus": "Established standard",
         "ieStatus": {
             "text": "In Development",
@@ -957,13 +1016,26 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": null
+        "id": null,
+        "impl_status_chrome": "Enabled by default",
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "opera_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "Shipped",
+            "value": 1
+        }
     },
     {
         "name": "Multi-column (full support)",
         "category": "CSS",
         "link": "http://dev.w3.org/csswg/css-multicol/",
-        "summary": "Bring Blink's multicol support to a level that matches other engines' (Presto and Trident)",
+        "summary": "Allows content to be flowed into multiple columns with a gap and a rule between them using CSS.",
         "standardStatus": "Established standard",
         "ieStatus": {
             "text": "Shipped",
@@ -1011,7 +1083,7 @@
         "name": "Page Visibility API",
         "category": "DOM",
         "link": "https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/PageVisibility/Overview.html",
-        "summary": "Provides an API to ask whether the current tab is visible or not. If you, you might want to throttle back action or set an idle state.",
+        "summary": "Provides an API to ask whether the current tab is visible or not. If so, you might want to throttle back action or set an idle state.",
         "standardStatus": "Established standard",
         "ieStatus": {
             "text": "Shipped",
@@ -1073,7 +1145,7 @@
     },
     {
         "name": "postMessage",
-        "category": "Multimedia",
+        "category": "Realtime / Communication",
         "link": "http://www.w3.org/TR/webmessaging/",
         "summary": "Safely enables cross-origin communication.",
         "standardStatus": "Established standard",
@@ -1184,38 +1256,6 @@
         "id": 4916191365693440
     },
     {
-        "name": "Shadow DOM",
-        "category": "Web Components",
-        "link": "https://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/shadow/index.html",
-        "summary": "Enables DOM tree encapsulation. Without it, widgets may inadvertently break pages by using conflicting CSS selectors, class or id names, or JavaScript variables.",
-        "standardStatus": "Working draft or equivalent",
-        "ieStatus": {
-            "text": "Under Consideration",
-            "iePrefixed": "",
-            "ieUnprefixed": ""
-        },
-        "msdn": "",
-        "wpd": "",
-        "demo": "",
-        "id": 5479141319114752
-    },
-    {
-        "name": "SrcN",
-        "category": "Misc",
-        "link": "http://tabatkins.github.io/specs/respimg/Overview.html",
-        "summary": "SrcN is a responsive images solution which addresses all 3 major use-cases within a single syntax. It addresses DPR switching (like srcset), art-direction (like picture) and viewport dimensions based switching.",
-        "standardStatus": "Editor's draft",
-        "ieStatus": {
-            "text": "Not currently planned",
-            "iePrefixed": "",
-            "ieUnprefixed": ""
-        },
-        "msdn": "",
-        "wpd": "",
-        "demo": "",
-        "id": 4582090154704896
-    },
-    {
         "name": "Streams API",
         "category": "File APIs",
         "link": "https://dvcs.w3.org/hg/streams-api/raw-file/tip/Overview.htm",
@@ -1267,7 +1307,7 @@
         "name": "TLS 1.2",
         "category": "Network / Connectivity",
         "link": "http://tools.ietf.org/html/rfc5246",
-        "summary": "The latest version of the Transport Layer Security (TLS) protocol. Uses asymmetric cryptography to assure who is communicating, and to exchange a symmetric key. This session key is then used to encrypt data flowing between the parties. This allows for data/message confidentiality, and message authentication codes for message integrity and as a by-product message authentication.",
+        "summary": "The latest version of the Transport Layer Security (TLS) protocol. Allows for data/message confidentiality, and message authentication codes for message integrity and as a by-product message authentication.",
         "standardStatus": "Established standard",
         "ieStatus": {
             "text": "Shipped",
@@ -1278,6 +1318,38 @@
         "wpd": "",
         "demo": "",
         "id": 5197666342404096
+    },
+    {
+        "name": "Track element",
+        "category": "Multimedia",
+        "link": "http://whatwg.org/html#the-track-element",
+        "summary": "Add subtitles, captions, screen reader descriptions, chapters and other types of timed metadata to video and audio. ",
+        "standardStatus": "Established standard",
+        "ieStatus": {
+            "text": "Shipped",
+            "iePrefixed": "",
+            "ieUnprefixed": "10"
+        },
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/bg123962",
+        "wpd": "",
+        "demo": "",
+        "id": 6719115557339136
+    },
+    {
+        "name": "Transforms",
+        "category": "CSS",
+        "link": "http://dev.w3.org/csswg/css3-transforms/",
+        "summary": "Enables changing the position of content in 3D space without disrupting the normal flow. See also preserve-3d.",
+        "standardStatus": "Established standard",
+        "ieStatus": {
+            "text": "Shipped",
+            "iePrefixed": "",
+            "ieUnprefixed": "9"
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 6437640580628480
     },
     {
         "name": "Typed Arrays",
@@ -1312,7 +1384,7 @@
         "id": 5593215650496512
     },
     {
-        "name": "URL",
+        "name": "URL API",
         "category": "DOM",
         "link": "https://dvcs.w3.org/hg/url/raw-file/tip/Overview.html",
         "summary": "Expose constructible URL objects that can be manipulated and combined.",
@@ -1478,7 +1550,7 @@
         "summary": "API exposing an SQLite database",
         "standardStatus": "No public standards discussion",
         "ieStatus": {
-            "text": "No plans to support",
+            "text": "Not currently planned",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -1489,7 +1561,7 @@
     },
     {
         "name": "Web Storage",
-        "category": "Multimedia",
+        "category": "Offline / Storage",
         "link": "http://whatwg.org/html#webstorage",
         "summary": "Refers to both localStorage and sessionStorage",
         "standardStatus": "Established standard",
@@ -1536,10 +1608,55 @@
         "id": 6471725441089536
     },
     {
+        "name": "WebRTC",
+        "category": "Realtime / Communication",
+        "link": "http://dev.w3.org/2011/webrtc/editor/webrtc.html",
+        "summary": "Real-time communication in the browser. See also \"Web Object RTC\" feature.",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Not currently planned",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 6612462929444864
+    },
+    {
+        "name": "Web Object RTC",
+        "category": "Realtime / Communication",
+        "link": "http://ortc.org/",
+        "summary": "Enables mobile endpoints to talk to servers and web browsers with Real-Time Communications (RTC) capabilities via native and simple Javascript APIs",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null,
+        "impl_status_chrome": "No active development",
+        "ff_views": {
+            "text": "No public signals",
+            "value": 5
+        },
+        "opera_views": {
+            "text": "No public signals",
+            "value": 5
+        },
+        "safari_views": {
+            "text": "No public signals",
+            "value": 5
+        }
+    },
+    {
         "name": "WebSocket",
         "category": "Network / Connectivity",
         "link": "http://dev.w3.org/html5/websockets/",
-        "summary": "The WebSocket JavaScript API provides a simple API for bi-directional communication with web servers. The WebSocket network protocol enables low overhead bi-directional communication with web servers over a persistent TCP connection.",
+        "summary": "The WebSockets JavaScript API provides a simple API for bi-directional communication with web servers. The WebSocket network protocol enables low overhead bi-directional communication with web servers over a persistent TCP connection.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Shipped",
@@ -1549,23 +1666,11 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6555138000945152
-    },
-    {
-        "name": "WOFF 2.0 (improved font compression)",
-        "category": "Misc",
-        "link": "https://code.google.com/p/font-compression-reference/source/browse/brotli/brotlispec.txt",
-        "summary": "WOFF 2.0 significantly improves font compression. We are seeing average gains of 24% with peaks above 50% in particular for the larger fonts such as those typically used by CJK languages (analysis ran on the whole Google Fonts corpus). M33: switching to Brotli Compression Algorithm (instead of LZMA). M35: sent web facing change PSA prior to enabling by default.",
-        "standardStatus": "Public discussion",
-        "ieStatus": {
-            "text": "Under Consideration",
-            "iePrefixed": "",
-            "ieUnprefixed": ""
-        },
-        "msdn": "",
-        "wpd": "",
-        "demo": "",
-        "id": 6718644721549312
+        "id": 6555138000945152,
+        "opera_views": {
+            "text": "Shipped",
+            "value": 1
+        }
     },
     {
         "name": "XMLHttpRequest timeout",
@@ -1856,6 +1961,134 @@
         "id": 5486563022602240
     },
     {
+        "name": "inputmode",
+        "category": "User input",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/forms.html#attr-fe-inputmode",
+        "summary": "The inputmode content attribute is an enumerated attribute that specifies what kind of input mechanism would be most helpful for users entering content into the form control.",
+        "standardStatus": "Editor's draft",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 6225984592281600
+    },
+    {
+        "name": "Object.observe()",
+        "category": "JavaScript",
+        "link": "http://wiki.ecmascript.org/doku.php?id=harmony:observe",
+        "summary": "Observe changes to JS objects.",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 6147094632988672
+    },
+    {
+        "name": "Shadow DOM (unprefixed)",
+        "category": "Web Components",
+        "link": "http://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/shadow/index.html",
+        "summary": "Enables DOM tree encapsulation. Without it, widgets may inadvertently break pages by using conflicting CSS selectors, class or id names, or JavaScript variables.\r\n\r\n",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 4507242028072960
+    },
+    {
+        "name": "Web Audio API (unprefixed)",
+        "category": "Multimedia",
+        "link": "https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html",
+        "summary": "A high-level JavaScript API for processing and synthesizing audio in web applications",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 6261718720184320
+    },
+    {
+        "name": "object-fit and object-position",
+        "category": "CSS",
+        "link": "http://dev.w3.org/csswg/css-images-3/#the-object-fit",
+        "summary": "CSS properties that control the position and size of replaced content within the content box",
+        "standardStatus": "Established standard",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 5302669702856704
+    },
+    {
+        "name": "Conditional Rules",
+        "category": "CSS",
+        "link": "http://dev.w3.org/csswg/css-conditional/",
+        "summary": "Support for the @supports at-rule and the \"window.DOM.supports()\" API",
+        "standardStatus": "Established standard",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 4993981813358592
+    },
+    {
+        "name": "Generators",
+        "category": "JavaScript",
+        "link": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts",
+        "summary": "A generator is a special type of function that works as a factory for iterators.",
+        "standardStatus": "Editor's draft",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 4959347197083648
+    },
+    {
+        "name": "Custom filters (shaders)",
+        "category": "CSS",
+        "link": "https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#custom-filter",
+        "summary": "Apply GLSL shaders to arbitrary DOM elements.",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 5838406743490560
+    },
+    {
         "name": "High Resolution Time",
         "category": "Performance",
         "link": "https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/HighResolutionTime/Overview.html",
@@ -1872,10 +2105,122 @@
         "id": 5349124069130240
     },
     {
+        "name": "Scoped Styles",
+        "category": "CSS",
+        "link": "http://whatwg.org/html#attr-style-scoped",
+        "summary": "Boolean attribute for the <style> element (<style scoped>). When present, its styles only apply to the parent element.",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Not currently planned",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 5374137958662144
+    },
+    {
+        "name": "Proxies",
+        "category": "JavaScript",
+        "link": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts",
+        "summary": "Proxies are objects for which the programmer has to define the semantics in JavaScript. ",
+        "standardStatus": "Editor's draft",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 4811188005240832
+    },
+    {
+        "name": "Touch Events",
+        "category": "User input",
+        "link": "http://www.w3.org/TR/touch-events/",
+        "summary": "Touchscreen input API, originally introduced by Apple on iOS",
+        "standardStatus": "Established standard",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 6156165603917824
+    },
+    {
+        "name": "Runtime error reporting: ErrorEvent.",
+        "category": "JavaScript",
+        "link": "http://www.whatwg.org/specs/web-apps/current-work/multipage/webappapis.html#runtime-script-errors",
+        "summary": "Unhandled exceptions trigger the 'window.onerror' callback (or 'self.onerror' inside Workers) for centralized handling.",
+        "standardStatus": "Established standard",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 6416612420747264
+    },
+    {
+        "name": "FileWriter",
+        "category": "File APIs",
+        "link": "http://dev.w3.org/2009/dap/file-system/file-writer.html",
+        "summary": "Enables writing to files from web applications.",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 5963201313243136
+    },
+    {
+        "name": "FileReader",
+        "category": "File APIs",
+        "link": "http://dev.w3.org/2006/webapi/FileAPI/#dfn-filereader",
+        "summary": "The FileReader object lets web applications asynchronously read the contents of files (or raw data buffers) stored on the user's computer, using File or Blob objects to specify the file or data to read.",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Shipped",
+            "iePrefixed": "",
+            "ieUnprefixed": "10"
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 5171003185430528
+    },
+    {
+        "name": "Server-Sent Events (EventSource)",
+        "category": "DOM",
+        "link": "http://dev.w3.org/html5/eventsource/",
+        "summary": "Enables push notifications from the server received as DOM events.",
+        "standardStatus": "Established standard",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 5311740673785856
+    },
+    {
         "name": "Message Channels",
         "category": "Realtime / Communication",
         "link": "http://www.w3.org/TR/webmessaging/",
-        "summary": "A messaging system that allows documents to communicate with each other regardless of their source domain, in a way designed to not enable cross-site scripting attacks.",
+        "summary": "A messaging system that allows documents to communicate with each other regardless of their source domain, in a way designed to avoid cross-site scripting attacks.",
         "standardStatus": "Established standard",
         "ieStatus": {
             "text": "Shipped",
@@ -1901,7 +2246,20 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": null
+        "id": null,
+        "impl_status_chrome": "No active development",
+        "ff_views": {
+            "text": "No public signals",
+            "value": 5
+        },
+        "opera_views": {
+            "text": "No public signals",
+            "value": 5
+        },
+        "safari_views": {
+            "text": "No public signals",
+            "value": 5
+        }
     },
     {
         "name": "Resource Priorities",
@@ -1917,7 +2275,20 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": null
+        "id": null,
+        "impl_status_chrome": "No active development",
+        "ff_views": {
+            "text": "No public signals",
+            "value": 5
+        },
+        "opera_views": {
+            "text": "No public signals",
+            "value": 5
+        },
+        "safari_views": {
+            "text": "No public signals",
+            "value": 5
+        }
     },
     {
         "name": "Beacon",
@@ -1933,7 +2304,20 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": null
+        "id": null,
+        "impl_status_chrome": "No active development",
+        "ff_views": {
+            "text": "No public signals",
+            "value": 5
+        },
+        "opera_views": {
+            "text": "No public signals",
+            "value": 5
+        },
+        "safari_views": {
+            "text": "No public signals",
+            "value": 5
+        }
     },
     {
         "name": "Prefetch attribute",
@@ -1949,13 +2333,26 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": null
+        "id": null,
+        "impl_status_chrome": "No active development",
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "opera_views": {
+            "text": "No public signals",
+            "value": 5
+        },
+        "safari_views": {
+            "text": "No public signals",
+            "value": 5
+        }
     },
     {
         "name": "Prerender attribute",
         "category": "Performance",
         "link": "http://www.w3.org/html/wg/drafts/html/master/links.html#link-type-prefetch",
-        "summary": "",
+        "summary": "Provides a hint to the browser that another page is likely to be loaded by the user (such as the first result of a search) such that it may be prerendered for better performance.",
         "standardStatus": "Established standard",
         "ieStatus": {
             "text": "Shipped",
@@ -1965,6 +2362,135 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": null
+        "id": null,
+        "impl_status_chrome": "Enabled by default",
+        "ff_views": {
+            "text": "No public signals",
+            "value": 5
+        },
+        "opera_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "No public signals",
+            "value": 5
+        }
+    },
+    {
+        "name": "CSS Scrolling Snap Points",
+        "category": "CSS",
+        "link": "http://dev.w3.org/csswg/css-snappoints/",
+        "summary": "Enables rich, customizable, and performant scrolling experiences like pagination of carousels by using snap points that enforce the scroll offsets that a scroll container may end at after a scrolling operation has completed. ",
+        "standardStatus": "Editor's draft",
+        "ieStatus": {
+            "text": "Prefixed",
+            "iePrefixed": "10",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null,
+        "impl_status_chrome": "No active development",
+        "ff_views": {
+            "text": "No public signals",
+            "value": 5
+        },
+        "opera_views": {
+            "text": "No public signals",
+            "value": 5
+        },
+        "safari_views": {
+            "text": "No public signals",
+            "value": 5
+        }
+    },
+    {
+        "name": "DOM Level 3 Xpath",
+        "category": "DOM",
+        "link": "http://www.w3.org/TR/DOM-Level-3-XPath/",
+        "summary": "Provides simple functionalities to access a DOM tree using the XPath syntax.",
+        "standardStatus": "Established standard",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null,
+        "impl_status_chrome": "Enabled by default",
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "opera_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "Shipped",
+            "value": 1
+        }
+    },
+    {
+        "name": "Screen Orientation API",
+        "category": "CSS",
+        "link": "https://dvcs.w3.org/hg/screen-orientation/raw-file/tip/Overview.html",
+        "summary": "Provides the ability to read the screen orientation state, to be informed when this state changes, and to be able to lock the screen orientation to a specific state. ",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Prefixed",
+            "iePrefixed": "11",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null,
+        "impl_status_chrome": "No active development",
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "opera_views": {
+            "text": "No public signals",
+            "value": 5
+        },
+        "safari_views": {
+            "text": "No public signals",
+            "value": 5
+        }
+    },
+    {
+        "name": "CSS pointer-events",
+        "category": "CSS",
+        "link": "",
+        "summary": "Enables control of whether an element can receive input events from a pointing device using an API similar to the existing pointer-events property from SVG.",
+        "standardStatus": "De-facto standard",
+        "ieStatus": {
+            "text": "Shipped",
+            "iePrefixed": "",
+            "ieUnprefixed": "11"
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null,
+        "impl_status_chrome": "Enabled by default",
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "opera_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "Shipped",
+            "value": 1
+        }
     }
 ]
