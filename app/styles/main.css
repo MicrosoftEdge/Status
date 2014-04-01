@@ -116,6 +116,10 @@ button:focus {
     padding-left: 30px;
 }
 
+.masthead .menu .msft_logo {
+	padding-top: 1px;
+}
+
 .masthead .menu a {
     text-decoration: none;
     color: rgb(255, 255, 255);
