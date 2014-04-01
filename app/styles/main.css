@@ -142,7 +142,7 @@ button:focus {
     font-family: Icons;
     font-size: 23px;
     content: attr(data-icon);
-    color: rgb(109, 110, 113);
+    color: #6D6E71;
     -webkit-transition: color 200ms;
     -o-transition: color 200ms;
     transition: color 200ms;
@@ -170,7 +170,7 @@ button:focus {
 
 /* Filters */
 .filter-container {
-    background-color: rgb(0, 186, 240);
+    background-color: #00BAF0;
     margin-bottom: 10px;
 }
 
