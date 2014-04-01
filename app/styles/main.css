@@ -138,8 +138,10 @@ button:focus {
 }
 
 .masthead .share::before {
+	position: relative;
+	top: 3px;
     font-family: Icons;
-    font-size: 18pt;
+    font-size: 23px;
     content: attr(data-icon);
     color: rgb(109, 110, 113);
     -moz-transition: color 200ms;
