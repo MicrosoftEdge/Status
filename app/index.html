@@ -26,6 +26,17 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/roadmap.css">
     <!-- endbuild -->
+    <script>
+        (function() {
+            if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+                var msViewportStyle = document.createElement("style");
+                msViewportStyle.appendChild(
+                        document.createTextNode("@-ms-viewport{width:auto!important}")
+                );
+                document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+            }
+        })();
+    </script>
 </head>
 <body data-ng-app="statusieApp">
 
@@ -89,6 +100,7 @@
 <script src="scripts/directives/drowpdownfilter.js"></script>
 <script src="scripts/directives/featuresorting.js"></script>
 <script src="scripts/directives/sticky.js"></script>
+<script src="scripts/directives/notmobile.js"></script>
 <!-- endbuild -->
 </body>
 </html>
