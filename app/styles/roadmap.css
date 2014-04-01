@@ -17,7 +17,7 @@
 
 .feature header {
     height: 50px;
-    margin: 0px;
+    margin: 0;
     background-position: 10px 50%;
     background-repeat: no-repeat;
     background-size: 25px;
@@ -66,7 +66,7 @@
     font-family: "Segoe UI Symbol";
     width: 40px;
     height: 40px;
-    padding: 0px;
+    padding: 0;
     color: black;
     border-radius: 50%;
     float: left;
@@ -116,7 +116,7 @@
 
 .feature .feature_status {
     list-style-type: none;
-    padding: 0px;
+    padding: 0;
     display: table;
     border-spacing: 10px;
     border-bottom: 0;
@@ -128,7 +128,7 @@
     display: table-cell;
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: 0px 50%;
+    background-position: 0 50%;
     width: 30px;
     height: 30px;
 }
@@ -154,11 +154,11 @@
 }
 
 .feature .feature_status.browsers li {
-    opacity: 0.1;
+    opacity: .1;
 }
 
 .feature .feature_status.browsers li.indevelopment {
-    opacity: 0.5;
+    opacity: .5;
 }
 
 .feature .feature_status.browsers li.implemented {
@@ -412,7 +412,7 @@
 
     .feature .feature_status a {
         font-size: 8pt;
-        line-height: 0.8;
+        line-height: .8;
         max-width: 120px;
     }
 
@@ -454,7 +454,7 @@
     .feature .feature_status a {
         font-size: 8pt;
         max-width: 100px;
-        line-height: 0.8;
+        line-height: .8;
     }
 
     .feature.show {

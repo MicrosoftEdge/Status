@@ -39,12 +39,12 @@ body {
 }
 
 a:link img {
-    border: 0px;
+    border: 0;
 }
 
 html, body {
     font-family: Segoe Custom;
-    margin: 0px;
+    margin: 0;
     /*background-color: rgb(234, 235, 236);*/
     background-color: #fff;
 }
@@ -101,11 +101,11 @@ button:focus {
 }
 
 .masthead .menu ul {
-    top: 0px;
+    top: 0;
     display: table;
     list-style-type: none;
     height: inherit;
-    margin: 0px;
+    margin: 0;
     padding-left: 0;
 }
 
@@ -185,8 +185,7 @@ button:focus {
 }
 
 .filter-wrapper .center .search-form-wrapper {
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
 }
 
 .filter-wrapper .center .search-form-wrapper > .col-md-5 {
@@ -889,7 +888,7 @@ progress {
     position: relative;
     font: bold 17px Sans-Serif;
     text-align: center;
-    text-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px;
+    text-shadow: rgba(255, 255, 255, .5) 0 1px 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
@@ -898,7 +897,7 @@ progress {
     padding: 7px 0 7px 30px;
     background-color: #FFE763;
     background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #444 10px, #444 20px);
-    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, .3);
     color: #fff;
     text-shadow: 0 0 5px #000;
 }
