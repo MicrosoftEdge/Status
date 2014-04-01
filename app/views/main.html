@@ -30,7 +30,7 @@
     <filter></filter>
     <div class="info-row">
         <div class="col-md-4 float">
-            <div class="total-features">{{limit}}</div>
+            <div class="total-features" aria-live="polite">{{limit}}</div>
             <div class="clear"></div>
         </div>
         <div class="col-md-8 float">
@@ -46,7 +46,7 @@
     </div>
 </div>
 
-<article role="article">
+<article role="article" aria-live="polite">
     <div class="progress-wrapper" data-ng-show="loading">
         <progress max="100">
         </progress>
