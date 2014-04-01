@@ -75,8 +75,8 @@ angular.module('statusieApp')
                     switch(featureStatus){
                         case 'Enabled by default': status = 'Shipped'; break;
                         case 'In development': status = 'In Development'; break;
-                        case 'Shipped': break;
-                        case 'In Development': break;
+                        case 'Shipped': status = featureStatus; break;
+                        case 'In Development': status = featureStatus; break;
                         case 1: status = 'Shipped'; break;
                         case 2: status = 'In Development'; break;
                         default: status = 'Not Supported';
