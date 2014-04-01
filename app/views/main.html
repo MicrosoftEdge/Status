@@ -1,22 +1,21 @@
 <div class="ribbon-wrapper">
     <div class="beta-ribbon">beta</div>
 </div>
-<header>
+<header role="banner">
     <div class="masthead">
         <nav class="menu" role="navigation">
             <div class="ie-logo">
                 <a href="http://modern.ie" target="_blank">
                     <img src="images/ie-logo.png" alt="status.IE">
+                    <span class="status-ie"> IE Platform Status</span>
                 </a>
-                <span class="status-ie">| IE Platform Status</span>
 
                 <div class="clear"></div>
             </div>
             <ul class="social">
                 <li role="menuitem">
-                    <a class="feedback" href="https://www.twitter.com/iedevchat" target="_blank">Have Feedback?</a>
                     <a class="share tw" href="https://www.twitter.com/iedevchat" target="_blank"
-                       data-icon=""></a>
+                       data-icon=""> Have Feedback?</a>
                 </li>
                 <li role="menuitem" class="msft_logo">
                     <a href="http://www.microsoft.com/" target="_blank">
@@ -31,7 +30,7 @@
     <filter></filter>
     <div class="info-row">
         <div class="col-md-4 float">
-            <div class="total-features">{{limit}}</div>
+            <div class="total-features" aria-live="polite">{{limit}}</div>
             <div class="clear"></div>
         </div>
         <div class="col-md-8 float">
@@ -47,7 +46,7 @@
     </div>
 </div>
 
-<article>
+<article role="article" aria-live="polite">
     <div class="progress-wrapper" data-ng-show="loading">
         <progress max="100">
         </progress>
@@ -57,13 +56,13 @@
     </feature>
 </article>
 
-<footer>
+<footer role="contentinfo">
     <div class="foot-center">
         <div class="ie-logo">
             <a href="http://modern.ie" target="_blank">
                 <img src="images/ie-logo.png" alt="IE Platform Status">
+                <span class="status-ie"> IE Platform Status</span>
             </a>
-            <span class="status-ie">| IE Platform Status</span>
 
             <div class="clear"></div>
         </div>

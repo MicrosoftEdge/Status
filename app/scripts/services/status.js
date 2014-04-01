@@ -108,8 +108,8 @@ angular.module('statusieApp')
                             ie: {
                                 status: feature.ieStatus.text,
                                 link: feature.ie_views_link,
-                                prefixed: feature.ieStatus.iePrefixed,
-                                unprefixed: feature.ieStatus.ieUnprefixed
+                                prefixed: parseInt(feature.ieStatus.iePrefixed),
+                                unprefixed: parseInt(feature.ieStatus.ieUnprefixed)
                             },
                             safari: {
                                 status: normalizeBrowserStatus(feature.safari_views.text),

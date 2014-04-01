@@ -209,7 +209,6 @@
 
 .feature .feature_status.info li {
     background-color: #d8dbe9;
-    padding: 10px 10px 10px 40px;
     border-left: solid 5px #a4a5ab;
     background-position-x: 5px;
     width: auto;
@@ -217,6 +216,10 @@
     display: block;
     height: 40px;
     margin: 0 4px 4px 0;
+}
+
+.feature .feature_status.info a {
+    padding: 10px 10px 10px 40px;
 }
 
 .feature .feature_status.info li.docs.webplatform {
