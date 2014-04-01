@@ -5,9 +5,8 @@
     margin-right: auto;
     margin-bottom: 20px;
     padding: 0;
-    -moz-transition: height 500ms;
-    -o-transition: height 500ms;
     -webkit-transition: height 500ms;
+    -o-transition: height 500ms;
     transition: height 500ms;
     overflow: hidden;
 }
@@ -21,15 +20,11 @@
     margin: 0px;
     background-position: 10px 50%;
     background-repeat: no-repeat;
-    -moz-background-size: 25px;
-    -o-background-size: 25px;
-    -webkit-background-size: 25px;
     background-size: 25px;
     background-color: #eef0f6;
     border-radius: 0 50px 50px 0;
-    -moz-transition: background-color 200ms;
-    -o-transition: background-color 200ms;
     -webkit-transition: background-color 200ms;
+    -o-transition: background-color 200ms;
     transition: background-color 200ms;
     border-left: 10px solid;
     cursor: pointer;
@@ -46,8 +41,6 @@
     height: 42px;
     overflow: hidden;
     white-space: nowrap;
-    -ms-text-overflow: ellipsis;
-    -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
     /* 	make sure disclosure triangle doesn’t drop to next line */
     max-width: calc(100% - 45px);
@@ -66,8 +59,6 @@
     font-weight: 600;
     overflow: hidden;
     white-space: nowrap;
-    -ms-text-overflow: ellipsis;
-    -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
 }
 
@@ -82,22 +73,19 @@
     border: 0;
     margin-top: 5px;
     background: #fff url("/images/arrow.svg") no-repeat center 10px;
-    -moz-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
     -ms-transform: rotate(-180deg);
     -o-transform: rotate(-180deg);
-    -webkit-transform: rotate(-180deg);
     transform: rotate(-180deg);
-    -moz-transition: all 500ms;
-    -o-transition: all 500ms;
     -webkit-transition: all 500ms;
+    -o-transition: all 500ms;
     transition: all 500ms;
 }
 
 .feature.show .collapsebtn {
-    -moz-transform: rotate(0);
+	-webkit-transform: rotate(0);
     -ms-transform: rotate(0);
     -o-transform: rotate(0);
-    -webkit-transform: rotate(0);
     transform: rotate(0);
 }
 
@@ -139,9 +127,6 @@
 .feature .feature_status li {
     display: table-cell;
     background-repeat: no-repeat;
-    -moz-background-size: auto;
-    -o-background-size: auto;
-    -webkit-background-size: auto;
     background-size: auto;
     background-position: 0px 50%;
     width: 30px;
@@ -188,8 +173,6 @@
     text-decoration: none;
     overflow: hidden;
     white-space: nowrap;
-    -ms-text-overflow: ellipsis;
-    -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
 }
 
@@ -435,9 +418,6 @@
 
     .feature .feature_status.info li {
         height: 30px;
-        -moz-background-size: 20px;
-        -o-background-size: 20px;
-        -webkit-background-size: 20px;
         background-size: 20px;
         padding-left: 30px;
     }
@@ -487,9 +467,6 @@
 
     .feature .feature_status.info li {
         height: 30px;
-        -moz-background-size: 20px;
-        -o-background-size: 20px;
-        -webkit-background-size: 20px;
         background-size: 20px;
         padding-left: 30px;
     }
