@@ -49,7 +49,8 @@
     -ms-text-overflow: ellipsis;
     -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
-    /*max-width: calc(100% - 125px);*/
+    /* 	make sure disclosure triangle doesn’t drop to next line */
+    max-width: calc(100% - 45px);
 }
 
 .feature header .feature-info {
@@ -364,6 +365,13 @@
     border-color: #00dcd5;
 }
 
+@media screen and (min-width: 500px) {
+	.feature header .feature_name {
+		/* stop long labels from pushing status to next line */
+        max-width: 60%;
+    }
+}
+
 @media screen and (min-width: 800px) {
     .feature {
         width: 800px;
@@ -371,6 +379,7 @@
 
     .feature header .feature_name {
         font-size: 20pt;
+        max-width: 70%;
     }
 
     .feature header .ie-status {
