@@ -2,7 +2,8 @@
   "name": "statusie",
   "version": "0.1.0",
   "dependencies": {
-    "express": "^3.4.8"
+    "express": "^3.4.8",
+    "cors": "^2.2.0"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
