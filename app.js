@@ -14,7 +14,7 @@ app.get('/features', cors(), function(req, res, next){
     res.write(content);
     res.end();
 });
-app.use(express.basicAuth('admin','IE11Rocks!'));
+//app.use(express.basicAuth('admin','IE11Rocks!'));
 app.use(express.bodyParser());
 app.use(express.static(path.join(__dirname, 'app')));
 
