@@ -182,14 +182,12 @@
 }
 
 .feature_status.info {
-	display: block;
     float: left;
     max-width: 560px;
     overflow: hidden;
 }
 
 .feature_status.info li {
-	display: block;
 	float: left;
 	width: auto;
 	height: 40px;

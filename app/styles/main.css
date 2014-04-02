@@ -413,7 +413,6 @@ div.term {
 .custom-check {
 	position: relative;
 	float: left;
-    display: block;
     width: 15px;
     height: 15px;
     margin: 6px 10px 0 0;
@@ -481,7 +480,6 @@ header .ie-logo {
 
 .status-ie {
 	float: left;
-	display: block;
     margin: 13px 0 0 10px;
     color: #fff;  
     font-size: 21px;
