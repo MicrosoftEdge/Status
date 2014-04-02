@@ -85,9 +85,14 @@ angular.module('statusieApp')
                     return status;
                 };
 
-                var sortStatuses = function(statuses){
-                    return 1;
+                var statusDescriptions = {
+                    'Shipped': 'The feature is on by default in a stable release of the browser. Unless noted otherwise, all or near all of the feature is supported.',
+                    'Prefixed': 'The feature is on by default in a stable release of the browser and may not be complete. All or some of the relevant API names have a vendor prefix (or other experimental prefix, like X- or experimental-). API signatures and behavior may not necessarily match the latest iteration of the standard.',
+                    'In Development': 'This feature is currently in development or coming soon.',
+                    'Under Consideration': 'The feature is under consideration for implementation in a future release.',
+                    'Not currently planned': 'This feature is not under active consideration for implementation in a future release.'
                 };
+
 
                 var normalizeFeature = function (feature) {
                     var finalFeature = {
@@ -96,6 +101,7 @@ angular.module('statusieApp')
                         category: feature.category,
                         normalized_category: feature.category.replace(/[^a-zA-Z0-9]/g, '').toLowerCase(),
                         position: feature.ieStatus.text,
+                        statusDescription: statusDescriptions[feature.ieStatus.text],
                         browsers: {
                             chrome: {
                                 status: normalizeBrowserStatus(feature.impl_status_chrome),

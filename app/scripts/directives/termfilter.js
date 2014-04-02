@@ -1,5 +1,3 @@
-'use strict';
-
 angular.module('statusieApp')
     .directive('termfilter', function () {
         return {
@@ -7,6 +5,8 @@ angular.module('statusieApp')
             restrict: 'E',
             replace: true,
             controller: function ($scope) {
+                'use strict';
+
                 var filters = $scope.filters;
                 $scope.terms = [];
 

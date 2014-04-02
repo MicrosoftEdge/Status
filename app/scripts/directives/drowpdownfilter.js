@@ -1,5 +1,3 @@
-'use strict';
-
 angular.module('statusieApp')
     .directive('drowpdownfilter', function () {
         return {
@@ -11,6 +9,8 @@ angular.module('statusieApp')
             priority: 10,
             replace: true,
             controller: function ($scope) {
+                'use strict';
+
                 $scope.$watch('options.selections', function (newValue, oldValue) {
                     if (!newValue) {
                         return;

@@ -462,7 +462,7 @@ div.term {
 
 footer {
     width: 100%;
-    height: 110px;
+    height: 35px;
     background-color: #404040;
 }
 
@@ -503,7 +503,8 @@ article {
     float: right;
     text-align: right;
     color: white;
-    padding-top: 12px;
+    padding-top: 8px;
+    line-height: 20px;
 }
 
 .links li {
@@ -512,6 +513,8 @@ article {
 
 .links a {
     color: white;
+    font-size: 12px;
+    margin-left: 25px;
 }
 
 .links a:hover {

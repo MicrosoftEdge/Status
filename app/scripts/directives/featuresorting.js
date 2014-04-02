@@ -1,11 +1,11 @@
-'use strict';
-
 angular.module('statusieApp')
     .directive('featuresorting', function () {
         return {
             templateUrl: 'templates/featuresorting.html',
             restrict: 'E',
             controller: function ($scope) {
+                'use strict';
+
                 var statusOrder = {
                     "in development": 0,
                     "under consideration": 1,

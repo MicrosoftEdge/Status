@@ -1,5 +1,3 @@
-'use strict';
-
 angular.module('statusieApp', [
     'ngCookies',
     'ngSanitize',
@@ -8,6 +6,7 @@ angular.module('statusieApp', [
     'ui.bootstrap'
 ])
     .config(function ($routeProvider) {
+        'use strict';
         $routeProvider
             .when('/', {
                 templateUrl: 'views/main.html',
