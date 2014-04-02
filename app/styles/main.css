@@ -495,7 +495,7 @@ header .ie-logo {
 }
 
 article {
-    min-height: calc(100% - 310px);
+    min-height: calc(100% - 235px);
     position: relative;
 }
 
