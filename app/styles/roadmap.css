@@ -361,18 +361,18 @@ li.demo {
     }
 
     .feature header .feature_name {
-        font-size: 20pt;
+        font-size: 27px;
         max-width: 70%;
     }
 
     .feature header .ie-status {
-        font-size: 13pt;
+        font-size: 17px;
     }
 }
 
 @media screen and (min-width: 625px) and (max-width: 799px) {
     .feature header .feature_name {
-        font-size: 15pt;
+        font-size: 20px;
         padding-top: 14px;
     }
 
@@ -381,13 +381,13 @@ li.demo {
     }
 
     .feature header .ie-status {
-        font-size: 13pt;
+        font-size: 17px;
     }
 }
 
 @media screen and (min-width: 500px) and (max-width: 625px) {
     .feature header .feature_name {
-        font-size: 12pt;
+        font-size: 16px;
         padding-top: 17px;
         padding-left: 48px;
     }
@@ -397,7 +397,7 @@ li.demo {
     }
 
     .feature header .ie-status {
-        font-size: 10pt;
+        font-size: 13px;
         font-weight: normal;
         margin-top: 15px;
     }
@@ -411,7 +411,7 @@ li.demo {
     }
 
     .feature_status a {
-        font-size: 8pt;
+        font-size: 11px;
         line-height: .8;
         max-width: 120px;
     }
@@ -433,7 +433,7 @@ li.demo {
     }
 
     .feature header .feature_name {
-        font-size: 12pt;
+        font-size: 16px;
         padding-top: 17px;
         padding-left: 5px;
     }
@@ -443,16 +443,16 @@ li.demo {
     }
 
     .feature header .ie-status {
-        top: calc(12pt + 10px);
+        top: 26px;
         left: 45px;
         text-align: left;
-        font-size: 10pt;
+        font-size: 13px;
         font-weight: normal;
         margin-top: 16px;
     }
 
     .feature_status a {
-        font-size: 8pt;
+        font-size: 11px;
         max-width: 100px;
         line-height: .8;
     }
