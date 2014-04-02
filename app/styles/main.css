@@ -43,12 +43,7 @@ html,
 body {
     font-family: Segoe Custom;
     margin: 0;
-    /*background-color: rgb(234, 235, 236);*/
     background-color: #fff;
-}
-
-body {
-    /*padding-top: 75px;*/
 }
 
 .clear {
@@ -74,7 +69,6 @@ button:focus {
 .masthead {
     width: 100%;
     background-color: #282828;
-    /*border-bottom: 10px solid #6d6e71;*/
 }
 
 .menu {
@@ -474,7 +468,6 @@ footer {
 
 .ie-logo {
     padding-top: 20px;
-    /*width: 50%;*/
     float: left;
 }
 
