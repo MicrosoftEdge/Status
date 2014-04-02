@@ -37,7 +37,7 @@
 	/* 	make sure disclosure triangle doesn’t drop to next line */
     max-width: calc(100% - 45px);
 	height: 42px;
-    margin: 0px;
+    margin: 0;
     padding: 10px 0 0 60px;  
     overflow: hidden;
     white-space: nowrap;
