@@ -1,9 +1,7 @@
 .feature {
     position: relative;
     height: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
+    margin:  0 auto 20px;
     padding: 0;
     -webkit-transition: height 500ms;
     -o-transition: height 500ms;
@@ -388,8 +386,7 @@ li.demo {
 @media screen and (min-width: 500px) and (max-width: 625px) {
     .feature header .feature_name {
         font-size: 16px;
-        padding-top: 17px;
-        padding-left: 48px;
+        padding: 17px 0 0 48px;
     }
 
     .feature {
@@ -434,8 +431,7 @@ li.demo {
 
     .feature header .feature_name {
         font-size: 16px;
-        padding-top: 17px;
-        padding-left: 5px;
+        padding: 17px 0 0 5px;
     }
 
     .feature {
