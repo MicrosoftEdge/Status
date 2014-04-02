@@ -114,7 +114,7 @@
     width: 100%;
 }
 
-.feature .feature_status {
+.feature_status {
     list-style-type: none;
     padding: 0;
     display: table;
@@ -124,7 +124,7 @@
     height: auto;
 }
 
-.feature .feature_status li {
+.feature_status li {
     display: table-cell;
     background-repeat: no-repeat;
     background-size: auto;
@@ -133,39 +133,39 @@
     height: 30px;
 }
 
-.feature .feature_status .chrome {
+.feature_status .chrome {
     background-image: url(/images/chrome.png);
 }
 
-.feature .feature_status .ie {
+.feature_status .ie {
     background-image: url(/images/explorer.png);
 }
 
-.feature .feature_status .firefox {
+.feature_status .firefox {
     background-image: url(/images/firefox.png);
 }
 
-.feature .feature_status .safari {
+.feature_status .safari {
     background-image: url(/images/safari.png);
 }
 
-.feature .feature_status .opera {
+.feature_status .opera {
     background-image: url(/images/opera.png);
 }
 
-.feature .feature_status.browsers li {
+.feature_status.browsers li {
     opacity: .1;
 }
 
-.feature .feature_status.browsers li.indevelopment {
+.feature_status.browsers .indevelopment {
     opacity: .5;
 }
 
-.feature .feature_status.browsers li.implemented {
+.feature_status.browsers .implemented {
     opacity: 1;
 }
 
-.feature .feature_status a {
+.feature_status a {
     display: block;
     width: 100%;
     height: 100%;
@@ -176,22 +176,22 @@
     text-overflow: ellipsis;
 }
 
-.feature .feature_status a:hover {
+.feature_status a:hover {
     cursor: pointer;
 }
 
-.feature .feature_status .demo a {
+.feature_status .demo a {
     color: #fff;
 }
 
-.feature .feature_status.info {
+.feature_status.info {
     float: left;
     max-width: 560px;
     display: block;
     overflow: hidden;
 }
 
-.feature .feature_status.info li {
+.feature_status.info li {
     background-color: #d8dbe9;
     border-left: solid 5px #a4a5ab;
     background-position-x: 5px;
@@ -202,143 +202,143 @@
     margin: 0 4px 4px 0;
 }
 
-.feature .feature_status.info a {
+.feature_status.info a {
     padding: 10px 10px 10px 40px;
 }
 
-.feature .feature_status.info li.docs.webplatform {
+.docs.webplatform {
     background-image: url(/images/webplatform.png);
 }
 
-.feature .feature_status.info li.docs.msdn {
+.docs.msdn {
     background-image: url(/images/msdn.png);
 }
 
-.feature .feature_status.info li.standard {
+.standard {
     background-image: url(/images/clip.png);
 }
 
-.feature .feature_status.info li.standard.w3c {
+.standard.w3c {
     background-image: url(/images/w3c.jpg);
 }
 
-.feature .feature_status.info li.standard.ecma {
+.standard.ecma {
     background-image: url(/images/ecma.jpg);
 }
 
-.feature .feature_status.info li.standard.khronos {
+.standard.khronos {
     background-image: url(/images/khronos.jpg);
 }
 
-.feature .feature_status.info li.standard.whatwg {
+.standard.whatwg {
     background-image: url(/images/whatwg.jpg);
 }
 
-.feature .feature_status.info li.standard.xiph {
+.standard.xiph {
     background-image: url(/images/xiph.jpg);
 }
 
-.feature .feature_status.info li.standard.ietf {
+.standard.ietf {
     background-image: url(/images/ietf.jpg);
 }
 
-.feature .feature_status.info li.demo {
+li.demo {
     background-image: url(/images/demo.png);
     background-color: #376a7c;
     border-color: #18414f;
 }
 
-.feature .feature_status.browsers {
+.feature_status.browsers {
     float: right;
     margin-top: -5px;
 }
 
 /* API Category Styles */
 
-.feature.css .feature-body-wrapper {
+.css .feature-body-wrapper {
     border-color: #f7b294;
 }
 
-.feature.device .feature-body-wrapper,
-.feature.security .feature-body-wrapper,
-.feature.userinput .feature-body-wrapper {
+.device .feature-body-wrapper,
+.security .feature-body-wrapper,
+.userinput .feature-body-wrapper {
     border-color: #89b6e0;
 }
 
-.feature.graphics .feature-body-wrapper {
+.graphics .feature-body-wrapper {
     border-color: #f38891;
 }
 
 /*Semantics*/
-.feature.dom .feature-body-wrapper,
-.feature.html .feature-body-wrapper,
-.feature.javascript .feature-body-wrapper,
-.feature.webcomponents .feature-body-wrapper,
-.feature.misc .feature-body-wrapper {
+.dom .feature-body-wrapper,
+.html .feature-body-wrapper,
+.javascript .feature-body-wrapper,
+.webcomponents .feature-body-wrapper,
+.misc .feature-body-wrapper {
     border-color: #fecf90;
 }
 
-.feature.fileapis .feature-body-wrapper,
-.feature.offlinestorage .feature-body-wrapper {
+.fileapis .feature-body-wrapper,
+.offlinestorage .feature-body-wrapper {
     border-color: #b390bc;
 }
 
-.feature.multimedia .feature-body-wrapper {
+.multimedia .feature-body-wrapper {
     border-color: #ffe086;
 }
 
-.feature.realtimecommunication .feature-body-wrapper,
-.feature.networkconnectivity .feature-body-wrapper {
+.realtimecommunication .feature-body-wrapper,
+.networkconnectivity .feature-body-wrapper {
     border-color: #c6d362;
 }
 
-.feature.performance .feature-body-wrapper {
+.performance .feature-body-wrapper {
     border-color: #7fedea;
 }
 
-.feature.css header {
+.css header {
     background-image: url(/images/css3.png);
     border-color: #ef6529;
 }
 
-.feature.device header,
-.feature.security header,
-.feature.userinput header {
+.device header,
+.security header,
+.userinput header {
     background-image: url(/images/category_devices.png);
     border-color: #136dc1;
 }
 
-.feature.graphics header {
+.graphics header {
     background-image: url(/images/category_graphics.png);
     border-color: #e81123;
 }
 
-.feature.javascript header {
+.javascript header {
     background-image: url(/images/category_javascript.png);
     border-color: #f0db4f;
 }
 
-.feature.dom header,
-.feature.html header,
-.feature.webcomponents header,
-.feature.misc header {
+.dom header,
+.html header,
+.webcomponents header,
+.misc header {
     background-image: url(/images/category_semantics.png);
     border-color: #fe9f22;
 }
 
-.feature.fileapis header,
-.feature.offlinestorage header {
+.fileapis header,
+.offlinestorage header {
     background-image: url(/images/category_offline.png);
     border-color: #68217a;
 }
 
-.feature.multimedia header {
+.multimedia header {
     background-image: url(/images/category_multimedia.png);
     border-color: #ffc20e;
 }
 
-.feature.realtimecommunication header,
-.feature.networkconnectivity header {
+.realtimecommunication header,
+.networkconnectivity header {
     background-image: url(/images/category_connectivity.png);
     border-color: #8dc63f;
 }
@@ -410,13 +410,13 @@
         height: 275px;
     }
 
-    .feature .feature_status a {
+    .feature_status a {
         font-size: 8pt;
         line-height: .8;
         max-width: 120px;
     }
 
-    .feature .feature_status.info li {
+    .feature_status.info li {
         height: 30px;
         background-size: 20px;
         padding-left: 30px;
@@ -451,7 +451,7 @@
         margin-top: 16px;
     }
 
-    .feature .feature_status a {
+    .feature_status a {
         font-size: 8pt;
         max-width: 100px;
         line-height: .8;
@@ -465,7 +465,7 @@
         height: 275px;
     }
 
-    .feature .feature_status.info li {
+    .feature_status.info li {
         height: 30px;
         background-size: 20px;
         padding-left: 30px;
