@@ -11,7 +11,7 @@ angular.module('statusieApp')
                 //This is the filter used in the dropdown selectors
                 var selectorFilter = function (category, property) {
                     var selectedOptions;
-                    $scope.$watch(category, function (newValue) {
+                    $scope.$watch(category, function (newValue, oldValue) {
                         if (!newValue) {
                             return;
                         }
@@ -20,7 +20,9 @@ angular.module('statusieApp')
                             return category.selected;
                         }), 'name'), _.identity);
 
-                        $scope.$broadcast('filtersUpdated');
+                        if (oldValue) {
+                            $scope.$broadcast('filtersUpdated');
+                        }
 
                     }, true);
 
@@ -29,7 +31,7 @@ angular.module('statusieApp')
                             acum.push(item);
                         } else if (_.contains(selectedOptions, item[property])) {
                             acum.push(item);
-                        }else if(typeof property === 'function'){
+                        } else if (typeof property === 'function') {
                             property(selectedOptions, acum, item);
                         }
 
@@ -37,17 +39,17 @@ angular.module('statusieApp')
                     };
                 };
 
-                var browserFilter = function(selectedBrowser, acum, item){
+                var browserFilter = function (selectedBrowser, acum, item) {
                     var add = true;
 
-                    if(!selectedBrowser){
+                    if (!selectedBrowser) {
                         return;
                     }
 
-                    selectedBrowser = _.map(selectedBrowser, function(option){
-                        var optionLowerCase =option.toLowerCase();
+                    selectedBrowser = _.map(selectedBrowser, function (option) {
+                        var optionLowerCase = option.toLowerCase();
 
-                        if(optionLowerCase === 'internet explorer'){
+                        if (optionLowerCase === 'internet explorer') {
                             optionLowerCase = 'ie';
                         }
 
@@ -56,12 +58,12 @@ angular.module('statusieApp')
 
                     var itemBrowsers = item.browsers;
 
-                    _.forEach(selectedBrowser, function(browser){
-                        if(itemBrowsers[browser].status !== 'Shipped'){
+                    _.forEach(selectedBrowser, function (browser) {
+                        if (itemBrowsers[browser].status !== 'Shipped') {
                             add = false;
                         }
                     });
-                    if(add){
+                    if (add) {
                         acum.push(item);
                     }
                 };

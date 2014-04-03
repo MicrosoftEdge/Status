@@ -5,7 +5,7 @@ angular.module('statusieApp', [
     'pasvaz.bindonce',
     'ui.bootstrap'
 ])
-    .config(function ($routeProvider) {
+    .config(function ($routeProvider, $locationProvider) {
         'use strict';
         $routeProvider
             .when('/', {
@@ -13,6 +13,9 @@ angular.module('statusieApp', [
                 controller: 'MainCtrl'
             })
             .otherwise({
-                redirectTo: '/'
+                templateUrl: 'views/main.html',
+                controller: 'MainCtrl'
             });
+
+        $locationProvider.html5Mode(true);
     });

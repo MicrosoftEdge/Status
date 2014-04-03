@@ -45,5 +45,6 @@ angular.module('statusieApp')
                 $scope.browsers = data.browsers;
                 $scope.featureStatus = data.ieVersions;
                 $scope.loading = false;
+                $scope.limit = features.length;
             });
     });
