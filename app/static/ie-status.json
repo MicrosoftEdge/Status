@@ -1338,7 +1338,7 @@
     {
         "name": "Track element",
         "category": "Multimedia",
-        "link": "http://whatwg.org/html#the-track-element",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#the-track-element",
         "summary": "Add subtitles, captions, screen reader descriptions, chapters and other types of timed metadata to video and audio. ",
         "standardStatus": "Established standard",
         "ieStatus": {
@@ -1578,7 +1578,7 @@
     {
         "name": "Web Storage",
         "category": "Offline / Storage",
-        "link": "http://whatwg.org/html#webstorage",
+        "link": "http://www.w3.org/TR/webstorage/",
         "summary": "Refers to both localStorage and sessionStorage",
         "standardStatus": "Established standard",
         "ieStatus": {
@@ -2139,7 +2139,7 @@
     {
         "name": "Scoped Styles",
         "category": "CSS",
-        "link": "http://whatwg.org/html#attr-style-scoped",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/document-metadata.html#attr-style-scoped",
         "summary": "Boolean attribute for the <style> element (<style scoped>). When present, its styles only apply to the parent element.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
@@ -2187,7 +2187,7 @@
     {
         "name": "Runtime error reporting: ErrorEvent.",
         "category": "JavaScript",
-        "link": "http://www.whatwg.org/specs/web-apps/current-work/multipage/webappapis.html#runtime-script-errors",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/webappapis.html#runtime-script-errors",
         "summary": "Unhandled exceptions trigger the 'window.onerror' callback (or 'self.onerror' inside Workers) for centralized handling.",
         "standardStatus": "Established standard",
         "ieStatus": {
