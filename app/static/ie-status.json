@@ -1582,9 +1582,9 @@
         "summary": "3D rendering via the <canvas> element. ",
         "standardStatus": "Established standard",
         "ieStatus": {
-            "text": "Shipped",
-            "iePrefixed": "",
-            "ieUnprefixed": "11"
+            "text": "Prefixed",
+            "iePrefixed": "11",
+            "ieUnprefixed": ""
         },
         "msdn": "http://msdn.microsoft.com/library/ie/bg182648",
         "wpd": "http://docs.webplatform.org/wiki/webgl",
