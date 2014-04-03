@@ -2025,7 +2025,7 @@
         "id": 4507242028072960
     },
     {
-        "name": "Web Audio API (unprefixed)",
+        "name": "Web Audio API",
         "category": "Multimedia",
         "link": "http://webaudio.github.io/web-audio-api/",
         "summary": "A high-level JavaScript API for processing and synthesizing audio in web applications",
