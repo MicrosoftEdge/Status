@@ -10,8 +10,8 @@
             "iePrefixed": "",
             "ieUnprefixed": "10"
         },
-        "msdn": "",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh772925(v=vs.85).aspx",
+        "wpd": "http://docs.webplatform.org/wiki/html/elements/datalist",
         "demo": "",
         "id": 6090950820495360
     },
@@ -27,7 +27,7 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "",
+        "wpd": "http://docs.webplatform.org/wiki/html/elements/details\nhttp://docs.webplatform.org/wiki/html/elements/summary",
         "demo": "",
         "id": 5348024557502464
     },
@@ -43,7 +43,7 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "",
+        "wpd": "http://docs.webplatform.org/wiki/concepts/mobile_web/highdpi",
         "demo": "",
         "id": 4644337115725824
     },
@@ -75,7 +75,7 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "",
+        "wpd": "http://docs.webplatform.org/wiki/html/elements/template",
         "demo": "",
         "id": 5207287069147136
     },
@@ -91,7 +91,7 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "",
+        "wpd": "http://docs.webplatform.org/wiki/html/elements/a",
         "demo": "",
         "id": 6473924464345088
     },
@@ -106,7 +106,7 @@
             "iePrefixed": "",
             "ieUnprefixed": "10"
         },
-        "msdn": "",
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh673545(v=vs.85).aspx",
         "wpd": "",
         "demo": "",
         "id": 6192449487634432,
@@ -142,8 +142,8 @@
             "iePrefixed": "",
             "ieUnprefixed": "10"
         },
-        "msdn": "",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh772298(v=vs.85).aspx",
+        "wpd": "http://docs.webplatform.org/wiki/apis/file/Blob",
         "demo": "",
         "id": 5328783104016384
     },
@@ -158,7 +158,7 @@
             "iePrefixed": "",
             "ieUnprefixed": "11"
         },
-        "msdn": "http://msdn.microsoft.com/en-us/library/ie/dn263046",
+        "msdn": "http://msdn.microsoft.com/library/ie/dn263046",
         "wpd": "",
         "demo": "",
         "id": 5891733057437696
@@ -174,8 +174,8 @@
             "iePrefixed": "",
             "ieUnprefixed": "9"
         },
-        "msdn": "",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/bg124101(v=vs.85).aspx",
+        "wpd": "http://docs.webplatform.org/wiki/apis/canvas",
         "demo": "",
         "id": 5100084685438976
     },
@@ -191,7 +191,7 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "",
+        "wpd": "http://docs.webplatform.org/wiki/apis/canvas/CanvasRenderingContext2D/drawSystemFocusRing",
         "demo": "",
         "id": 6413769152397312
     },
@@ -223,7 +223,7 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "",
+        "wpd": "http://docs.webplatform.org/wiki/tutorials/content-security-policy",
         "demo": "",
         "id": 5205088045891584
     },
@@ -239,7 +239,7 @@
             "ieUnprefixed": "9"
         },
         "msdn": "http://msdn.microsoft.com/library/ms537660#calc",
-        "wpd": "",
+        "wpd": "http://docs.webplatform.org/wiki/css/functions/calc",
         "demo": "",
         "id": 5765241438732288
     },
@@ -254,8 +254,8 @@
             "iePrefixed": "10",
             "ieUnprefixed": ""
         },
-        "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh708740",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/library/ie/hh708740",
+        "wpd": "http://docs.webplatform.org/wiki/concepts/mobile_web/responsive_design",
         "demo": "",
         "id": 4737164243894272
     },
@@ -270,8 +270,8 @@
             "iePrefixed": "10",
             "ieUnprefixed": "11"
         },
-        "msdn": "",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh772044(v=vs.85).aspx",
+        "wpd": "http://docs.webplatform.org/wiki/css/properties/touch-action",
         "demo": "",
         "id": 5912074022551552
     },
@@ -366,8 +366,8 @@
             "iePrefixed": "",
             "ieUnprefixed": "11"
         },
-        "msdn": "http://msdn.microsoft.com/en-us/library/ie/dn433240",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/dn342897(v=vs.85).aspx",
+        "wpd": "http://docs.webplatform.org/wiki/tutorials/device_orientation",
         "demo": "",
         "id": 5874690627207168
     },
@@ -382,7 +382,7 @@
             "iePrefixed": "",
             "ieUnprefixed": "11"
         },
-        "msdn": "",
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/dn255104(v=vs.85).aspx",
         "wpd": "",
         "demo": "",
         "id": 5269993591668736
@@ -414,8 +414,8 @@
             "iePrefixed": "",
             "ieUnprefixed": "8"
         },
-        "msdn": "",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/ms536945(v=vs.85).aspx\nhttp://msdn.microsoft.com/en-us/library/ie/ms536946(v=vs.85).aspx",
+        "wpd": "http://docs.webplatform.org/wiki/dom/MouseEvent/mouseenter\nhttp://docs.webplatform.org/wiki/dom/MouseEvent/mouseleave",
         "demo": "",
         "id": 4889528208719872
     },
@@ -430,8 +430,8 @@
             "iePrefixed": "",
             "ieUnprefixed": "9"
         },
-        "msdn": "http://msdn.microsoft.com/en-us/library/ie/ff974352",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/library/ie/ff974352",
+        "wpd": "http://docs.webplatform.org/wiki/dom/WheelEvent",
         "demo": "",
         "id": 5388191091654656
     },
@@ -462,7 +462,7 @@
             "iePrefixed": "11",
             "ieUnprefixed": ""
         },
-        "msdn": "http://msdn.microsoft.com/en-us/library/ie/bg182646#eme",
+        "msdn": "http://msdn.microsoft.com/library/ie/bg182646#eme",
         "wpd": "",
         "demo": "",
         "id": 6578378068983808
@@ -494,8 +494,8 @@
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
-        "msdn": "",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/ms537452(v=vs.85).aspx",
+        "wpd": "http://docs.webplatform.org/wiki/tutorials/css_filters",
         "demo": "",
         "id": 5822463824887808
     },
@@ -510,8 +510,8 @@
             "iePrefixed": "10",
             "ieUnprefixed": "11"
         },
-        "msdn": "http://msdn.microsoft.com/en-us/library/ie/bg124109",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/library/ie/bg124109",
+        "wpd": "http://docs.webplatform.org/wiki/css/flexbox",
         "demo": "",
         "id": 4837301406400512
     },
@@ -526,8 +526,8 @@
             "iePrefixed": "11",
             "ieUnprefixed": ""
         },
-        "msdn": "http://msdn.microsoft.com/en-us/library/ie/dn265028",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/library/ie/dn265028",
+        "wpd": "http://docs.webplatform.org/wiki/tutorials/using_the_full-screen_api",
         "demo": "",
         "id": 5259513871466496
     },
@@ -543,12 +543,12 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "",
+        "wpd": "http://docs.webplatform.org/wiki/apis/gamepad/Gamepad",
         "demo": "",
         "id": 5118776383111168
     },
     {
-        "name": "Generated Content for Paged Media Module",
+        "name": "Generated Content for Paged Media",
         "category": "CSS",
         "link": "http://dev.w3.org/csswg/css3-gcpm/",
         "summary": "CSS properties helpful for printed publication.",
@@ -574,8 +574,8 @@
             "iePrefixed": "",
             "ieUnprefixed": "9"
         },
-        "msdn": "http://msdn.microsoft.com/en-in/ie/hh410106#_HTML5_geolocation",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/ie/hh410106#_HTML5_geolocation",
+        "wpd": "http://docs.webplatform.org/wiki/apis/geolocation",
         "demo": "",
         "id": 6348855016685568
     },
@@ -591,7 +591,7 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "",
+        "wpd": "http://docs.webplatform.org/wiki/dom/Navigator/getUserMedia",
         "demo": "",
         "id": 6067380039974912
     },
@@ -606,8 +606,8 @@
             "iePrefixed": "",
             "ieUnprefixed": "10"
         },
-        "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh673532",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/library/ie/hh673532",
+        "wpd": "http://docs.webplatform.org/wiki/tutorials/CSS_gradients",
         "demo": "",
         "id": 5785905063264256
     },
@@ -623,7 +623,7 @@
             "ieUnprefixed": ""
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh673533",
-        "wpd": "",
+        "wpd": "http://docs.webplatform.org/wiki/css/properties/grid",
         "demo": "",
         "id": 4589636412243968
     },
@@ -731,8 +731,8 @@
             "iePrefixed": "",
             "ieUnprefixed": "10"
         },
-        "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh673561",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/library/ie/hh673561",
+        "wpd": "http://docs.webplatform.org/wiki/html/attributes/sandbox",
         "demo": "",
         "id": 5715536319086592
     },
@@ -779,7 +779,7 @@
             "iePrefixed": "11",
             "ieUnprefixed": ""
         },
-        "msdn": "",
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/dn385696(v=vs.85).aspx",
         "wpd": "",
         "demo": "",
         "id": 6366722080636928
@@ -795,8 +795,8 @@
             "iePrefixed": "",
             "ieUnprefixed": "10"
         },
-        "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh673548",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/library/ie/hh673548",
+        "wpd": "http://docs.webplatform.org/wiki/apis/indexeddb",
         "demo": "",
         "id": 6507459568992256
     },
@@ -840,8 +840,8 @@
             "iePrefixed": "",
             "ieUnprefixed": "11"
         },
-        "msdn": "http://msdn.microsoft.com/en-us/library/ie/dn263029",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/library/ie/dn263029",
+        "wpd": "http://docs.webplatform.org/wiki/javascript/Array/map",
         "demo": "",
         "id": 4818609708728320
     },
@@ -856,8 +856,8 @@
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
-        "msdn": "",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/ff972267(v=vs.85).aspx",
+        "wpd": "http://docs.webplatform.org/wiki/css/properties/mask",
         "demo": "",
         "id": 5381559662149632
     },
@@ -872,8 +872,8 @@
             "iePrefixed": "",
             "ieUnprefixed": "10"
         },
-        "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh772743",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/library/ie/hh772743",
+        "wpd": "http://docs.webplatform.org/wiki/css/media_queries/apis/matchMedia",
         "demo": "",
         "id": 4677872220372992
     },
@@ -889,7 +889,7 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "",
+        "wpd": "http://docs.webplatform.org/wiki/mathml",
         "demo": "",
         "id": 5240822173794304
     },
@@ -904,8 +904,8 @@
             "iePrefixed": "",
             "ieUnprefixed": "9"
         },
-        "msdn": "http://msdn.microsoft.com/en-in/ie/hh393506#_CSS3_Media_Queries",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/ie/hh393506#_CSS3_Media_Queries",
+        "wpd": "http://docs.webplatform.org/wiki/css/atrules/%40media",
         "demo": "",
         "id": 5944509615570944
     },
@@ -920,8 +920,8 @@
             "iePrefixed": "",
             "ieUnprefixed": "11"
         },
-        "msdn": "http://msdn.microsoft.com/en-us/library/ie/bg182646#mse",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/library/ie/bg182646#mse",
+        "wpd": "http://docs.webplatform.org/wiki/apis/media_source_extensions",
         "demo": "",
         "id": 4563797888991232
     },
@@ -1042,8 +1042,8 @@
             "iePrefixed": "",
             "ieUnprefixed": "10"
         },
-        "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh673534",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/library/ie/hh673534",
+        "wpd": "http://docs.webplatform.org/wiki/css/properties/column-count",
         "demo": "",
         "id": 6526151266664448
     },
@@ -1058,7 +1058,7 @@
             "iePrefixed": "",
             "ieUnprefixed": "11"
         },
-        "msdn": "http://msdn.microsoft.com/en-us/library/ie/dn265034",
+        "msdn": "http://msdn.microsoft.com/library/ie/dn265034",
         "wpd": "",
         "demo": "",
         "id": 5021194726146048
@@ -1074,8 +1074,8 @@
             "iePrefixed": "",
             "ieUnprefixed": "9"
         },
-        "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh673552",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/library/ie/hh673552",
+        "wpd": "http://docs.webplatform.org/wiki/apis/navigation_timing",
         "demo": "",
         "id": 5584144679567360
     },
@@ -1091,7 +1091,7 @@
             "ieUnprefixed": "10"
         },
         "msdn": "http://msdn.microsoft.com/library/ie/hh673553",
-        "wpd": "",
+        "wpd": "http://docs.webplatform.org/wiki/dom/Document/visibilitychange",
         "demo": "",
         "id": 5689697795833856
     },
@@ -1106,8 +1106,8 @@
             "iePrefixed": "10",
             "ieUnprefixed": "11"
         },
-        "msdn": "",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/dn433244(v=vs.85).aspx",
+        "wpd": "http://docs.webplatform.org/wiki/PointerEvents",
         "demo": "",
         "id": 4504699138998272
     },
@@ -1154,8 +1154,8 @@
             "iePrefixed": "",
             "ieUnprefixed": "8"
         },
-        "msdn": "",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/cc197015(v=vs.85).aspx",
+        "wpd": "http://docs.webplatform.org/wiki/dom/Window/postMessage",
         "demo": "",
         "id": 4786174115708928
     },
@@ -1171,7 +1171,7 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "",
+        "wpd": "http://docs.webplatform.org/wiki/apis/quota_management",
         "demo": "",
         "id": 6218562888794112
     },
@@ -1186,8 +1186,8 @@
             "iePrefixed": "10",
             "ieUnprefixed": ""
         },
-        "msdn": "",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh772715(v=vs.85).aspx",
+        "wpd": "http://docs.webplatform.org/wiki/apis/css-regions",
         "demo": "",
         "id": 5655612935372800
     },
@@ -1202,8 +1202,8 @@
             "iePrefixed": "",
             "ieUnprefixed": "10"
         },
-        "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh920765",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/library/ie/hh920765",
+        "wpd": "http://docs.webplatform.org/wiki/dom/Window/requestAnimationFrame",
         "demo": "",
         "id": 5233400470306816
     },
@@ -1218,8 +1218,8 @@
             "iePrefixed": "",
             "ieUnprefixed": "10"
         },
-        "msdn": "",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh772738(v=vs.85).aspx",
+        "wpd": "http://docs.webplatform.org/wiki/apis/resource_timing",
         "demo": "",
         "id": 5796350423728128
     },
@@ -1250,7 +1250,7 @@
             "iePrefixed": "",
             "ieUnprefixed": "11"
         },
-        "msdn": "http://msdn.microsoft.com/en-us/library/ie/dn263029",
+        "msdn": "http://msdn.microsoft.com/library/ie/dn263029",
         "wpd": "",
         "demo": "",
         "id": 4916191365693440
@@ -1266,7 +1266,7 @@
             "iePrefixed": "10",
             "ieUnprefixed": ""
         },
-        "msdn": "",
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh772328(v=vs.85).aspx",
         "wpd": "",
         "demo": "",
         "id": 6605041225957376
@@ -1330,7 +1330,7 @@
             "iePrefixed": "",
             "ieUnprefixed": "10"
         },
-        "msdn": "http://msdn.microsoft.com/en-us/library/ie/bg123962",
+        "msdn": "http://msdn.microsoft.com/library/ie/bg123962",
         "wpd": "",
         "demo": "",
         "id": 6719115557339136
@@ -1346,8 +1346,8 @@
             "iePrefixed": "",
             "ieUnprefixed": "9"
         },
-        "msdn": "",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh772059(v=vs.85).aspx",
+        "wpd": "http://docs.webplatform.org/wiki/tutorials/css_transforms",
         "demo": "",
         "id": 6437640580628480
     },
@@ -1362,7 +1362,7 @@
             "iePrefixed": "",
             "ieUnprefixed": "10"
         },
-        "msdn": "",
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh869304(v=vs.85).aspx",
         "wpd": "",
         "demo": "",
         "id": 5135818813341696
@@ -1410,8 +1410,8 @@
             "iePrefixed": "",
             "ieUnprefixed": "10"
         },
-        "msdn": "",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh772738(v=vs.85).aspx",
+        "wpd": "http://docs.webplatform.org/wiki/apis/user_timing",
         "demo": "",
         "id": 5066549580791808
     },
@@ -1427,7 +1427,7 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "",
+        "wpd": "http://docs.webplatform.org/wiki/apis/vibration",
         "demo": "",
         "id": 5698768766763008
     },
@@ -1442,7 +1442,7 @@
             "iePrefixed": "",
             "ieUnprefixed": "11"
         },
-        "msdn": "http://msdn.microsoft.com/en-us/library/ie/dn251546",
+        "msdn": "http://msdn.microsoft.com/library/ie/dn251546",
         "wpd": "",
         "demo": "",
         "id": 4572868859920384
@@ -1474,7 +1474,7 @@
             "iePrefixed": "11",
             "ieUnprefixed": ""
         },
-        "msdn": "",
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/dn265046(v=vs.85).aspx",
         "wpd": "",
         "demo": "",
         "id": 5030265697075200
@@ -1570,8 +1570,8 @@
             "iePrefixed": "",
             "ieUnprefixed": "8"
         },
-        "msdn": "",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/bg142799(v=vs.85).aspx",
+        "wpd": "http://docs.webplatform.org/wiki/apis/web-storage",
         "demo": "",
         "id": 5345825534246912
     },
@@ -1586,8 +1586,8 @@
             "iePrefixed": "",
             "ieUnprefixed": "11"
         },
-        "msdn": "http://msdn.microsoft.com/en-us/library/ie/bg182648",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/library/ie/bg182648",
+        "wpd": "http://docs.webplatform.org/wiki/webgl",
         "demo": "",
         "id": 6049512976023552
     },
@@ -1611,7 +1611,7 @@
         "name": "WebRTC",
         "category": "Realtime / Communication",
         "link": "http://dev.w3.org/2011/webrtc/editor/webrtc.html",
-        "summary": "Real-time communication in the browser. See also \"Web Object RTC\" feature.",
+        "summary": "Real-time communication in the browser. See also the \"Object RTC\" feature.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Not currently planned",
@@ -1619,12 +1619,12 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "",
+        "wpd": "http://docs.webplatform.org/wiki/apis/webrtc",
         "demo": "",
         "id": 6612462929444864
     },
     {
-        "name": "Web Object RTC",
+        "name": "Object RTC",
         "category": "Realtime / Communication",
         "link": "http://ortc.org/",
         "summary": "Enables mobile endpoints to talk to servers and web browsers with Real-Time Communications (RTC) capabilities via native and simple Javascript APIs",
@@ -1663,8 +1663,8 @@
             "iePrefixed": "",
             "ieUnprefixed": "10"
         },
-        "msdn": "",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh673567(v=vs.85).aspx",
+        "wpd": "http://docs.webplatform.org/wiki/concepts/protocols/websocket",
         "demo": "",
         "id": 6555138000945152,
         "opera_views": {
@@ -1683,8 +1683,8 @@
             "iePrefixed": "",
             "ieUnprefixed": "10"
         },
-        "msdn": "",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/cc304105(v=vs.85).aspx",
+        "wpd": "http://docs.webplatform.org/wiki/apis/xhr/XMLHttpRequest/timeout",
         "demo": "",
         "id": 6290890138058752
     },
@@ -1692,7 +1692,7 @@
         "name": "Arrow function",
         "category": "JavaScript",
         "link": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts",
-        "summary": "The arrow (=>) takes the place of the function keyword",
+        "summary": "The arrow (=>) provides a shorthand for the function keyword with lexical 'this' binding.",
         "standardStatus": "Editor's draft",
         "ieStatus": {
             "text": "Under Consideration",
@@ -1715,7 +1715,7 @@
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
-        "msdn": "",
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/bg124109(v=vs.85).aspx#setting_flexbox_alignment_",
         "wpd": "",
         "demo": "",
         "id": 6173208034148352
@@ -1812,7 +1812,7 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "",
+        "wpd": "http://docs.webplatform.org/wiki/apis/battery_status",
         "demo": "",
         "id": 4537134732017664
     },
@@ -1865,6 +1865,22 @@
         "id": 5901353784180736
     },
     {
+        "name": "CSS font-stretch",
+        "category": "CSS",
+        "link": "http://dev.w3.org/csswg/css-fonts/#propdef-font-stretch",
+        "summary": "Add support the the CSS font-stretch property.",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Shipped",
+            "iePrefixed": "",
+            "ieUnprefixed": "9"
+        },
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/jj127324(v=vs.85).aspx",
+        "wpd": "",
+        "demo": "",
+        "id": 4598830058176512
+    },
+    {
         "name": "Canvas2D text decoration",
         "category": "Graphics",
         "link": "http://www.w3.org/html/wg/drafts/2dcontext/html5_canvas/#textmetrics",
@@ -1892,7 +1908,7 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "",
+        "wpd": "http://docs.webplatform.org/wiki/concepts/programming/javascript/iterators",
         "demo": "",
         "id": 4696563918045184
     },
@@ -2020,7 +2036,7 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "",
+        "wpd": "http://docs.webplatform.org/wiki/apis/webaudio",
         "demo": "",
         "id": 6261718720184320
     },
@@ -2036,7 +2052,7 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "",
+        "wpd": "http://docs.webplatform.org/wiki/css/properties/object-fit\n",
         "demo": "",
         "id": 5302669702856704
     },
@@ -2076,7 +2092,7 @@
         "name": "Custom filters (shaders)",
         "category": "CSS",
         "link": "https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#custom-filter",
-        "summary": "Apply GLSL shaders to arbitrary DOM elements.",
+        "summary": "Filter effects are a way of processing an element’s rendering before it is displayed in the document.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Under Consideration",
@@ -2195,8 +2211,8 @@
             "iePrefixed": "",
             "ieUnprefixed": "10"
         },
-        "msdn": "",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh772310(v=vs.85).aspx",
+        "wpd": "http://docs.webplatform.org/wiki/apis/file/FileReader",
         "demo": "",
         "id": 5171003185430528
     },
@@ -2212,7 +2228,7 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "",
+        "wpd": "http://docs.webplatform.org/wiki/tutorials/eventsource_basics",
         "demo": "",
         "id": 5311740673785856
     },
@@ -2227,8 +2243,8 @@
             "iePrefixed": "",
             "ieUnprefixed": "10"
         },
-        "msdn": "",
-        "wpd": "",
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh673525(v=vs.85).aspx",
+        "wpd": "http://docs.webplatform.org/wiki/apis/web-messaging/MessageChannel",
         "demo": "",
         "id": 6710044586409984
     },
@@ -2407,7 +2423,7 @@
         }
     },
     {
-        "name": "DOM Level 3 Xpath",
+        "name": "DOM Level 3 XPath",
         "category": "DOM",
         "link": "http://www.w3.org/TR/DOM-Level-3-XPath/",
         "summary": "Provides simple functionalities to access a DOM tree using the XPath syntax.",
@@ -2483,6 +2499,64 @@
         "ff_views": {
             "text": "Shipped",
             "value": 1
+        },
+        "opera_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "Shipped",
+            "value": 1
+        }
+    },
+    {
+        "name": "ES6 Array, Math, Number and String methods",
+        "category": "JavaScript",
+        "link": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts",
+        "summary": "Adds a set of new Array, Math, Number and String helper methods. ",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null,
+        "impl_status_chrome": "In development",
+        "ff_views": {
+            "text": "In development",
+            "value": 2
+        },
+        "opera_views": {
+            "text": "In development",
+            "value": 2
+        },
+        "safari_views": {
+            "text": "In development",
+            "value": 2
+        }
+    },
+    {
+        "name": "Web Driver",
+        "category": "Misc",
+        "link": "http://www.w3.org/TR/webdriver/",
+        "summary": "A platform and language-neutral interface and associated wire protocol that allows programs or scripts to introspect into, and control the behaviour of, a web browser.",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null,
+        "impl_status_chrome": "Enabled by default",
+        "ff_views": {
+            "text": "In development",
+            "value": 2
         },
         "opera_views": {
             "text": "Shipped",

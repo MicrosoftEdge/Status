@@ -10,7 +10,7 @@ angular.module('statusieApp')
             return {name: browser, selected: false};
         });
 
-        var statuses = _.map(['Shipped', 'Prefixed', 'In Development', 'Under Consideration', 'Not Currently Planned'], function (browser) {
+        var statuses = _.map(['Shipped', 'Prefixed', 'In Development', 'Under Consideration', 'Not currently planned'], function (browser) {
             return {name: browser, selected: false};
         });
 
