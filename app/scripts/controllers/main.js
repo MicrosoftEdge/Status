@@ -40,7 +40,7 @@ angular.module('statusieApp')
                 var id = path.substr(1);
                 var ele = document.getElementById(id);
                 ele.scrollIntoView();
-                window.scrollTo(0, window.scrollY - 130);
+                window.scrollTo(0, document.documentElement.scrollTop - 130);
             }
         });
 
