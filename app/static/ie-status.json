@@ -116,10 +116,10 @@
         }
     },
     {
-        "name": "Audio and video tracks",
+        "name": "Audio tracks",
         "category": "Multimedia",
         "link": "http://www.w3.org/html/wg/drafts/html/CR/",
-        "summary": "Adds the ability to get information about multiple audio and video tracks, and switch between them using the AudioTrack.enabled and VideoTrack.selected attributes.",
+        "summary": "Adds the ability to get information about multiple audio tracks, and switch between them using the AudioTrack.enabled attributes.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Shipped",
@@ -131,6 +131,22 @@
         "demo": "",
         "id": 5748496434987008
     },
+	{
+        "name": "Video tracks",
+        "category": "Multimedia",
+        "link": "http://www.w3.org/html/wg/drafts/html/CR/",
+        "summary": "Adds the ability to get information about multiple video tracks, and switch between them using the VideoTrack.selected attributes.",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 5748496434987008
+    },	
     {
         "name": "Blob",
         "category": "File APIs",
