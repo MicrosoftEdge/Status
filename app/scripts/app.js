@@ -8,11 +8,7 @@ angular.module('statusieApp', [
     .config(function ($routeProvider, $locationProvider) {
         'use strict';
         $routeProvider
-            .when('/', {
-                templateUrl: 'views/main.html',
-                controller: 'MainCtrl'
-            })
-            .otherwise({
+            .when('/:id', {
                 templateUrl: 'views/main.html',
                 controller: 'MainCtrl'
             });
