@@ -1,4 +1,4 @@
-<div class="ribbon-wrapper">
+<div class="ribbon-wrapper" data-ng-controller="MainCtrl">
     <div class="beta-ribbon">beta</div>
 </div>
 <header role="banner">
@@ -51,7 +51,7 @@
         </progress>
     </div>
 
-    <feature data-ng-repeat="feature in features">
+    <feature data-ng-repeat="feature in features" onfinishrender>
     </feature>
 </article>
 
