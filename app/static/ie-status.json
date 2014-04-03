@@ -884,7 +884,7 @@
         "summary": "An application of XML for describing mathematical notations and capturing both its structure and content.",
         "standardStatus": "Established standard",
         "ieStatus": {
-            "text": "Not Currently Planned",
+            "text": "Not currently planned",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -948,7 +948,7 @@
         "summary": "Microdata is used to nest semantics within existing content on web pages.",
         "standardStatus": "Established standard",
         "ieStatus": {
-            "text": "Not Currently Planned",
+            "text": "Not currently planned",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -1166,7 +1166,7 @@
         "summary": "This API can be used to check how much quota an app/origin is using.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Not Currently Planned",
+            "text": "Not currently planned",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -1374,7 +1374,7 @@
         "summary": "Identify the physical key being pressed; Query key from layout.",
         "standardStatus": "Editor's draft",
         "ieStatus": {
-            "text": "Not Currently Planned",
+            "text": "Not currently planned",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -1486,7 +1486,7 @@
         "summary": "Defines an API supporting the MIDI protocol, enabling web applications to enumerate and select MIDI input and output devices on the client system and send and receive MIDI messages.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Not Currently Planned",
+            "text": "Not currently planned",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -1550,7 +1550,7 @@
         "summary": "API exposing an SQLite database",
         "standardStatus": "No public standards discussion",
         "ieStatus": {
-            "text": "Not Currently Planned",
+            "text": "Not currently planned",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -1598,7 +1598,7 @@
         "summary": "WebP is an image format that provides lossless and lossy compression for images on the web. ",
         "standardStatus": "Public discussion",
         "ieStatus": {
-            "text": "Not Currently Planned",
+            "text": "Not currently planned",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -1614,7 +1614,7 @@
         "summary": "Real-time communication in the browser. See also the \"Object RTC\" feature.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Not Currently Planned",
+            "text": "Not currently planned",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -2127,7 +2127,7 @@
         "summary": "Boolean attribute for the <style> element (<style scoped>). When present, its styles only apply to the parent element.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Not Currently Planned",
+            "text": "Not currently planned",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
