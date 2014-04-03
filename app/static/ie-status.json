@@ -708,7 +708,7 @@
         "id": 5152586365665280
     },
     {
-        "name": "HTTP/2.0",
+        "name": "HTTP/2",
         "category": "Network / Connectivity",
         "link": "http://datatracker.ietf.org/wg/httpbis/",
         "summary": "A faster protocol for transporting web content being standardized by the IETF.",
