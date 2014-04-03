@@ -1692,7 +1692,7 @@
         "name": "Arrow function",
         "category": "JavaScript",
         "link": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts",
-        "summary": "The arrow (=>) takes the place of the function keyword",
+        "summary": "The arrow (=>) provides a shorthand for the function keyword with lexical 'this' binding.",
         "standardStatus": "Editor's draft",
         "ieStatus": {
             "text": "Under Consideration",
@@ -2092,7 +2092,7 @@
         "name": "Custom filters (shaders)",
         "category": "CSS",
         "link": "https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#custom-filter",
-        "summary": "Apply GLSL shaders to arbitrary DOM elements.",
+        "summary": "Filter effects are a way of processing an element’s rendering before it is displayed in the document.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Under Consideration",
