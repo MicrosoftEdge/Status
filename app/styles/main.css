@@ -41,8 +41,8 @@ a:link img {
 
 html,
 body {
-	margin: 0;
-	background-color: #fff;
+    margin: 0;
+    background-color: #fff;
     font-family: Segoe Custom;
 }
 
@@ -83,7 +83,7 @@ button:focus {
 }
 
 .masthead ul {
-	display: table;
+    display: table;
     top: 0;
     height: inherit;
     margin: 0;
@@ -99,7 +99,7 @@ button:focus {
 }
 
 .masthead .msft_logo {
-	padding-top: 1px;
+    padding-top: 1px;
 }
 
 .masthead a {
@@ -119,9 +119,9 @@ button:focus {
 }
 
 .share::before {
-	position: relative;
-	top: 3px;
-	color: #6D6E71;
+    position: relative;
+    top: 3px;
+    color: #6D6E71;
     font-family: Icons;
     font-size: 23px;
     content: attr(data-icon);
@@ -144,8 +144,8 @@ button:focus {
 }
 
 .feedback {
-	display: inline-block;
-	margin-right: 10px;
+    display: inline-block;
+    margin-right: 10px;
     margin-bottom: 11px;
     color: #fff;
 }
@@ -182,8 +182,8 @@ button:focus {
 .form-control {
     display: inline-block;
     width: calc(100% - 39px);
-	min-width: 200px;
-	height: 35px;
+    min-width: 200px;
+    height: 35px;
     border: solid 1px #c7c7c7;
     border-radius: 0;
 }
@@ -282,7 +282,7 @@ button:focus {
     -ms-transform: rotate(180deg);
     -o-transform: rotate(180deg);
     transform: rotate(180deg);
-	-webkit-transition: all 500ms;
+    -webkit-transition: all 500ms;
     -o-transition: all 500ms;
     transition: all 500ms;
 }
@@ -370,7 +370,7 @@ button:focus {
 
 .info-row .info-btn {
     float: left;
-	width: 32px;
+    width: 32px;
     height: 32px;
     margin: 0;
     margin-top: 14px;
@@ -411,8 +411,8 @@ div.term {
 
 /* Custom checkboxes */
 .custom-check {
-	position: relative;
-	float: left;
+    position: relative;
+    float: left;
     width: 15px;
     height: 15px;
     margin: 6px 10px 0 0;
@@ -479,7 +479,7 @@ header .ie-logo {
 }
 
 .status-ie {
-	float: left;
+    float: left;
     margin: 13px 0 0 10px;
     color: #fff;
     font-size: 21px;
@@ -682,7 +682,7 @@ progress {
 
 @media screen and (max-width: 524px) {
     .ribbon-wrapper {
-    	position: absolute;
+        position: absolute;
     }
 
     .menu {
@@ -732,8 +732,20 @@ progress {
     }
 }
 
-@media screen and (max-width: 569px){
-    .filter-container{
-        display:none;
+.banner {
+    width: 728px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 569px) {
+    .filter-container {
+        display: none;
+    }
+
+    .banner {
+        display: none;
     }
 }
