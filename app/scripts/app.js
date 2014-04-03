@@ -1,18 +1,10 @@
 angular.module('statusieApp', [
     'ngCookies',
     'ngSanitize',
-    'ngRoute',
     'pasvaz.bindonce',
     'ui.bootstrap'
 ])
-    .config(function ($routeProvider) {
+    .config(function ($locationProvider) {
         'use strict';
-        $routeProvider
-            .when('/', {
-                templateUrl: 'views/main.html',
-                controller: 'MainCtrl'
-            })
-            .otherwise({
-                redirectTo: '/'
-            });
+        $locationProvider.html5Mode(true);
     });

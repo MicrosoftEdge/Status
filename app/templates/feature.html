@@ -1,6 +1,6 @@
 <section bindonce data-bo-class="feature.normalized_category" class="feature" data-ng-class="{'show' : show}" data-ng-show="feature.visible">
-    <header data-ng-click="show = !show" class="feature-header" data-bo-title="feature.category">
-        <h1 class="feature_name" data-bo-text="feature.name"></h1>
+    <header data-ng-click="expand()" class="feature-header" data-bo-title="feature.category">
+        <h1 data-bo-id="feature.normalized_name" class="feature_name" data-bo-text="feature.name"></h1>
         <div class="feature-info">
             <div class="ie-status" data-bo-if="feature.browsers.ie.prefixed || feature.browsers.ie.unprefixed" data-bo-text="'IE' + (feature.browsers.ie.prefixed || feature.browsers.ie.unprefixed) + '+'" data-bo-title="feature.statusDescription"></div>
             <div class="ie-status" data-bo-if="!(feature.browsers.ie.prefixed || feature.browsers.ie.unprefixed)" data-bo-text="feature.position" data-bo-title="feature.statusDescription"></div>
