@@ -1608,10 +1608,10 @@
         "id": 6471725441089536
     },
     {
-        "name": "WebRTC",
+        "name": "WebRTC – WebRTC v1.0 API",
         "category": "Realtime / Communication",
         "link": "http://dev.w3.org/2011/webrtc/editor/webrtc.html",
-        "summary": "Real-time communication in the browser. See also the \"Object RTC\" feature.",
+        "summary": "Real-time communication in the browser. See also \"Web RTC - Object RTC API\".",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Not currently planned",
@@ -1624,9 +1624,9 @@
         "id": 6612462929444864
     },
     {
-        "name": "Object RTC",
+        "name": "WebRTC – Object RTC API",
         "category": "Realtime / Communication",
-        "link": "http://ortc.org/",
+        "link": "http://www.w3.org/community/ortc/",
         "summary": "Enables mobile endpoints to talk to servers and web browsers with Real-Time Communications (RTC) capabilities via native and simple Javascript APIs",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
@@ -2557,6 +2557,34 @@
         "ff_views": {
             "text": "In development",
             "value": 2
+        },
+        "opera_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "Shipped",
+            "value": 1
+        }
+    },
+   {
+        "name": "SVG foreignobject element",
+        "category": "Graphics",
+        "link": "http://www.w3.org/TR/SVG/extend.html#EmbeddingForeignObjects",
+        "summary": "Allows for inclusion of a foreign namespace (such as HTML) which has its graphical content drawn by a different user agent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "http://docs.webplatform.org/wiki/tutorials/external_content_in_svg#Embedding_arbitrary_XML",
+        "demo": "",
+        "id": null,
+        "impl_status_chrome": "Enabled by default",
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
         },
         "opera_views": {
             "text": "Shipped",
