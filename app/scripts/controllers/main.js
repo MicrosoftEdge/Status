@@ -1,5 +1,5 @@
 angular.module('statusieApp')
-    .controller('MainCtrl', function ($scope, Status) {
+    .controller('MainCtrl', function ($scope, $location, Status) {
         'use strict';
 
         var features;
@@ -34,6 +34,16 @@ angular.module('statusieApp')
             $scope.limit = (filteredFeatures || []).length;
         });
 
+        $scope.$on('ngRepeatFinished', function(){
+            var path = $location.path();
+            if(path){
+                var id = path.substr(1);
+                var ele = document.getElementById(id);
+                ele.scrollIntoView();
+                window.scrollTo(0, (window.scrollY || document.documentElement.scrollTop) - 130);
+            }
+        });
+
         Status.load()
             .then(function (data) {
                 features = _.sortBy(_.forEach(data.features, function(feature){
@@ -45,5 +55,6 @@ angular.module('statusieApp')
                 $scope.browsers = data.browsers;
                 $scope.featureStatus = data.ieVersions;
                 $scope.loading = false;
+                $scope.limit = features.length;
             });
     });

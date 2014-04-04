@@ -14,6 +14,11 @@ app.get('/features', cors(), function(req, res, next){
     res.write(content);
     res.end();
 });
+
+app.get('/:id', function(req, res){
+   res.sendfile(path.join(__dirname, 'app', 'index.html'));
+});
+
 //app.use(express.basicAuth('admin','IE11Rocks!'));
 app.use(express.bodyParser());
 app.use(express.static(path.join(__dirname, 'app')));

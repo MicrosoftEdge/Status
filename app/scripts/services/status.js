@@ -97,6 +97,7 @@ angular.module('statusieApp')
                 var normalizeFeature = function (feature) {
                     var finalFeature = {
                         name: feature.name,
+                        normalized_name: feature.name.replace(/[^a-zA-Z0-9]/g, '').toLowerCase(),
                         summary: feature.summary,
                         category: feature.category,
                         normalized_category: feature.category.replace(/[^a-zA-Z0-9]/g, '').toLowerCase(),
