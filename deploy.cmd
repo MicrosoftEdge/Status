@@ -105,9 +105,15 @@ goto :EOF
 :CleanDistAndTemp
 
 IF EXIST "%DEPLOYMENT_SOURCE%\node_modules" (
-  echo Deleting dist
+  echo Deleting node modules
   call rmdir /s /q "%DEPLOYMENT_SOURCE%\node_modules"
 )
+
+IF EXIST "%DEPLOYMENT_TARGET%\node_modules" (
+  echo Deleting dist
+  call rmdir /s /q "%DEPLOYMENT_TARGET%\node_modules"
+)
+
 
 IF EXIST "%DEPLOYMENT_SOURCE%\app\bower_components" (
   echo Deleting bower components
