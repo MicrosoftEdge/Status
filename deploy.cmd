@@ -110,7 +110,7 @@ IF EXIST "%DEPLOYMENT_SOURCE%\node_modules" (
 )
 
 IF EXIST "%DEPLOYMENT_TARGET%\node_modules" (
-  echo Deleting dist
+  echo Deleting node modules in target
   call rmdir /s /q "%DEPLOYMENT_TARGET%\node_modules"
 )
 
