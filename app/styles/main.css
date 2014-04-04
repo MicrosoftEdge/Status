@@ -624,10 +624,6 @@ progress {
     display: none;
 }
 
-.sticky {
-	display: none !important;
-}
-
 @media screen and (min-width: 960px) {
 	.microsoft-logo {
 		display: block;
@@ -762,6 +758,9 @@ progress {
     .filter-container {
         display: none;
     }
+    .sticky {
+		display: none !important;
+	}
 }
 
 @media screen and (min-width: 540px) {

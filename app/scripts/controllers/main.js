@@ -39,8 +39,10 @@ angular.module('statusieApp')
             if(path){
                 var id = path.substr(1);
                 var ele = document.getElementById(id);
-                ele.scrollIntoView();
-                window.scrollTo(0, (window.scrollY || document.documentElement.scrollTop) - 130);
+                if(ele){
+                	ele.scrollIntoView();
+                	window.scrollTo(0, (window.scrollY || document.documentElement.scrollTop) - 130);
+                }
             }
         });
 
