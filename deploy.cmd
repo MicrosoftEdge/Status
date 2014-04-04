@@ -111,7 +111,7 @@ IF /I "%DEPLOYMENT_SOURCE%\bower.json" NEQ "1" (
 )
 
 :: 4. Run grunt
-IF /I "%DEPLOYMENT_SOURCE%/Gruntfile.js" NEQ "1" (
+IF /I "%DEPLOYMENT_SOURCE%\Gruntfile.js" NEQ "1" (
   pushd "%DEPLOYMENT_SOURCE%"
   echo Installing grunt
   call :ExecuteCmd !NPM_CMD! install grunt-cli --silent
