@@ -198,7 +198,7 @@
 }
 
 .feature_status.info a {
-    padding: 10px 10px 10px 40px;
+    padding: 10px 10px 10px 0;
 }
 
 .docs.webplatform {
@@ -362,6 +362,12 @@ li.demo {
 
     .feature header .ie-status {
         font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 625px) {
+	.feature_status.info a {
+    	padding-left: 40px;
     }
 }
 
