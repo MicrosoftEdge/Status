@@ -624,14 +624,6 @@ progress {
     display: none;
 }
 
-.banner {
-    width: 728px;
-    height: 90px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 15px;
-}
-
 .sticky {
 	display: none !important;
 }
@@ -768,10 +760,6 @@ progress {
 
 @media screen and (max-width: 569px) {
     .filter-container {
-        display: none;
-    }
-
-    .banner {
         display: none;
     }
 }
