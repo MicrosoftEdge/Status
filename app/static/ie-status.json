@@ -116,10 +116,10 @@
         }
     },
     {
-        "name": "Audio and video tracks",
+        "name": "Audio tracks",
         "category": "Multimedia",
         "link": "http://www.w3.org/html/wg/drafts/html/CR/",
-        "summary": "Adds the ability to get information about multiple audio and video tracks, and switch between them using the AudioTrack.enabled and VideoTrack.selected attributes.",
+        "summary": "Adds the ability to get information about multiple audio tracks, and switch between them using the AudioTrack.enabled attributes.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Shipped",
@@ -131,6 +131,22 @@
         "demo": "",
         "id": 5748496434987008
     },
+	{
+        "name": "Video tracks",
+        "category": "Multimedia",
+        "link": "http://www.w3.org/html/wg/drafts/html/CR/",
+        "summary": "Adds the ability to get information about multiple video tracks, and switch between them using the VideoTrack.selected attributes.",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 5748496434987008
+    },	
     {
         "name": "Blob",
         "category": "File APIs",
@@ -692,7 +708,7 @@
         "id": 5152586365665280
     },
     {
-        "name": "HTTP/2.0",
+        "name": "HTTP/2",
         "category": "Network / Connectivity",
         "link": "http://datatracker.ietf.org/wg/httpbis/",
         "summary": "A faster protocol for transporting web content being standardized by the IETF.",
@@ -1322,7 +1338,7 @@
     {
         "name": "Track element",
         "category": "Multimedia",
-        "link": "http://whatwg.org/html#the-track-element",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#the-track-element",
         "summary": "Add subtitles, captions, screen reader descriptions, chapters and other types of timed metadata to video and audio. ",
         "standardStatus": "Established standard",
         "ieStatus": {
@@ -1562,7 +1578,7 @@
     {
         "name": "Web Storage",
         "category": "Offline / Storage",
-        "link": "http://whatwg.org/html#webstorage",
+        "link": "http://www.w3.org/TR/webstorage/",
         "summary": "Refers to both localStorage and sessionStorage",
         "standardStatus": "Established standard",
         "ieStatus": {
@@ -1582,9 +1598,9 @@
         "summary": "3D rendering via the <canvas> element. ",
         "standardStatus": "Established standard",
         "ieStatus": {
-            "text": "Shipped",
-            "iePrefixed": "",
-            "ieUnprefixed": "11"
+            "text": "Prefixed",
+            "iePrefixed": "11",
+            "ieUnprefixed": ""
         },
         "msdn": "http://msdn.microsoft.com/library/ie/bg182648",
         "wpd": "http://docs.webplatform.org/wiki/webgl",
@@ -1608,10 +1624,10 @@
         "id": 6471725441089536
     },
     {
-        "name": "WebRTC",
+        "name": "WebRTC – WebRTC v1.0 API",
         "category": "Realtime / Communication",
         "link": "http://dev.w3.org/2011/webrtc/editor/webrtc.html",
-        "summary": "Real-time communication in the browser. See also the \"Object RTC\" feature.",
+        "summary": "Real-time communication in the browser. See also \"Web RTC - Object RTC API\".",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Not currently planned",
@@ -1624,9 +1640,9 @@
         "id": 6612462929444864
     },
     {
-        "name": "Object RTC",
+        "name": "WebRTC – Object RTC API",
         "category": "Realtime / Communication",
-        "link": "http://ortc.org/",
+        "link": "http://www.w3.org/community/ortc/",
         "summary": "Enables mobile endpoints to talk to servers and web browsers with Real-Time Communications (RTC) capabilities via native and simple Javascript APIs",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
@@ -2025,9 +2041,9 @@
         "id": 4507242028072960
     },
     {
-        "name": "Web Audio API (unprefixed)",
+        "name": "Web Audio API",
         "category": "Multimedia",
-        "link": "https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html",
+        "link": "http://webaudio.github.io/web-audio-api/",
         "summary": "A high-level JavaScript API for processing and synthesizing audio in web applications",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
@@ -2123,7 +2139,7 @@
     {
         "name": "Scoped Styles",
         "category": "CSS",
-        "link": "http://whatwg.org/html#attr-style-scoped",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/document-metadata.html#attr-style-scoped",
         "summary": "Boolean attribute for the <style> element (<style scoped>). When present, its styles only apply to the parent element.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
@@ -2171,7 +2187,7 @@
     {
         "name": "Runtime error reporting: ErrorEvent.",
         "category": "JavaScript",
-        "link": "http://www.whatwg.org/specs/web-apps/current-work/multipage/webappapis.html#runtime-script-errors",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/webappapis.html#runtime-script-errors",
         "summary": "Unhandled exceptions trigger the 'window.onerror' callback (or 'self.onerror' inside Workers) for centralized handling.",
         "standardStatus": "Established standard",
         "ieStatus": {
@@ -2539,7 +2555,7 @@
         }
     },
     {
-        "name": "Web Driver",
+        "name": "WebDriver",
         "category": "Misc",
         "link": "http://www.w3.org/TR/webdriver/",
         "summary": "A platform and language-neutral interface and associated wire protocol that allows programs or scripts to introspect into, and control the behaviour of, a web browser.",
@@ -2557,6 +2573,34 @@
         "ff_views": {
             "text": "In development",
             "value": 2
+        },
+        "opera_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "In Development",
+            "value": 2
+        }
+    },
+   {
+        "name": "SVG foreignobject element",
+        "category": "Graphics",
+        "link": "http://www.w3.org/TR/SVG/extend.html#EmbeddingForeignObjects",
+        "summary": "Allows for inclusion of a foreign namespace (such as HTML) which has its graphical content drawn by a different user agent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "http://docs.webplatform.org/wiki/tutorials/external_content_in_svg#Embedding_arbitrary_XML",
+        "demo": "",
+        "id": null,
+        "impl_status_chrome": "Enabled by default",
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
         },
         "opera_views": {
             "text": "Shipped",
