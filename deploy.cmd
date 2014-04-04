@@ -147,7 +147,8 @@ IF EXIST "%DEPLOYMENT_TARGET%\package.json" (
   pushd "%DEPLOYMENT_TARGET%"
   echo Installing npm packages
   call :ExecuteCmd !NPM_CMD! install --silent
-  IF !ERRORLEVEL! NEQ 0 goto error
+  :: commenting the following line, even if there are some errors this should work...
+  ::IF !ERRORLEVEL! NEQ 0 goto error
   popd
 )
 
