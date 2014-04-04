@@ -7,8 +7,8 @@ angular.module('statusieApp')
         $scope.limit = 0;
         $scope.loading = true;
 
-        $scope.$watch('sort', function(sortFunction){
-               $scope.features = _.sortBy(features, sortFunction);
+        $scope.$watch('sort', function (sortFunction) {
+            $scope.features = _.sortBy(features, sortFunction);
         });
 
         $scope.$on('filtersUpdated', function () {
@@ -27,26 +27,28 @@ angular.module('statusieApp')
 
             var names = _.pluck(filteredFeatures, 'name');
 
-            _.forEach($scope.features, function(feature){
-                feature.visible =_.contains(names, feature.name);
+            _.forEach($scope.features, function (feature) {
+                feature.visible = _.contains(names, feature.name);
             });
 
             $scope.limit = (filteredFeatures || []).length;
         });
 
-        $scope.$on('ngRepeatFinished', function(){
+        $scope.$on('ngRepeatFinished', function () {
             var path = $location.path();
-            if(path){
+            if (path) {
                 var id = path.substr(1);
                 var ele = document.getElementById(id);
-                ele.scrollIntoView();
-                window.scrollTo(0, (window.scrollY || document.documentElement.scrollTop) - 130);
+                if (ele) {
+                    ele.scrollIntoView();
+                    window.scrollTo(0, (window.scrollY || document.documentElement.scrollTop) - 130);
+                }
             }
         });
 
         Status.load()
             .then(function (data) {
-                features = _.sortBy(_.forEach(data.features, function(feature){
+                features = _.sortBy(_.forEach(data.features, function (feature) {
                     feature.visible = true;
                 }), $scope.sort);
 
