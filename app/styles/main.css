@@ -761,6 +761,10 @@ progress {
     .sticky {
 		display: none !important;
 	}
+	
+	.header {
+		margin-bottom: 10px;
+	}
 }
 
 @media screen and (min-width: 540px) {
