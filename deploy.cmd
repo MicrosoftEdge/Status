@@ -102,6 +102,20 @@ IF DEFINED KUDU_SELECT_NODE_VERSION_CMD (
 
 goto :EOF
 
+:CleanDistAndTemp
+
+IF EXIST "%DEPLOYMENT_SOURCE%\node_modules" (
+  echo Deleting dist
+  call rmdir /s /q "%DEPLOYMENT_SOURCE%\dist"
+)
+
+IF EXIST "%DEPLOYMENT_SOURCE%\app\bower_components" (
+  echo Deleting bower components
+  call rmdir /s /q "%DEPLOYMENT_SOURCE%\app\bower_components"
+)
+
+goto :EOF
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :: Deployment
 :: ----------
