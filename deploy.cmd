@@ -155,7 +155,7 @@ IF /I "%DEPLOYMENT_TARGET%\bower.json" NEQ "1" (
 IF /I "%DEPLOYMENT_TARGET%\Gruntfile.js" NEQ "1" (
   pushd "%DEPLOYMENT_TARGET%"  
   echo Running Grunt build
-  call :ExecuteCmd !BOWER_CMD! --no-color build
+  call :ExecuteCmd !GRUNT_CMD! --no-color build
   IF !ERRORLEVEL! NEQ 0 goto error
   popd
 )
