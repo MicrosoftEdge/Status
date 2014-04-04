@@ -30,7 +30,7 @@ html {
     overflow-y: scroll;
 }
 
-body, 
+body,
 .content {
     height: 100%;
 }
@@ -39,11 +39,11 @@ a:link img {
     border: 0;
 }
 
-html, 
+html,
 body {
-	margin: 0;
-	background-color: #fff;
-    font-family: Segoe Custom;    
+    margin: 0;
+    background-color: #fff;
+    font-family: Segoe Custom;
 }
 
 .clear {
@@ -61,67 +61,87 @@ header.ng-scope {
     width: 100%;
 }
 
+.header {
+	background-color: #454545;
+	padding: 1.3em 0 1.1em .8em;
+	box-sizing: content-box;
+}
+
 button:active,
 button:focus {
     outline: 0;
 }
 
-.masthead {
-    width: 100%;
-    background-color: #282828;
-}
-
 .menu {
-    position: relative;
-    height: 75px;
-    margin-left: auto;
-    margin-right: auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+	font-size: .9em;
 }
 
-.social {
-    float: right;
+.menu-bar {
+	margin: 0;
+	padding: 0;
+	background-color: #454545;
+	display: inline-block;
 }
 
-.masthead ul {
-	display: table;
-    top: 0;
-    height: inherit;
-    margin: 0;
-    padding-left: 0;
-    list-style-type: none;
+.menu-item {
+	display: none;
+	padding: .6em 0;
+	zoom: 1;
+	border-bottom: 1px solid #fff;
 }
 
-.masthead li {
-    display: table-cell;
-    height: inherit;
-    padding-left: 30px;
-    vertical-align: middle;
+.menu-anchor a, .menu-bar .active a, .menu-item a:hover {
+	color: #00abe1;
 }
 
-.masthead .msft_logo {
-	padding-top: 1px;
+.menu-item a {
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	border-left: 3em solid #fff;
+	line-height: 1.5em;
+	padding: .2em 1em;
+	box-sizing: content-box;
 }
 
-.masthead a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    -webkit-transition: color 200ms;
-    -o-transition: color 200ms;
-    transition: color 200ms;
+.menu-item-tools a {
+	border-color: #0079c2;
 }
 
-.masthead a:hover {
-    color: #00aeef;
+.menu-item-articles a {
+	border-color: #7fba00;
 }
 
+.menu-item-demos a {
+	border-color: #833885;
+}
+
+.menu-item-involved a {
+	border-color: #ff8c00;
+}
+.microsoft-logo {
+	display: none;
+}
+.icon-social {
+	float: right;
+	margin: 1.2em 5.8em 1.2em 0;
+}
 .share {
     text-decoration: none;
 }
+.share:hover {
+	text-decoration: none;
+}
 
 .share::before {
-	position: relative;
-	top: 3px;
-	color: #6D6E71;
+    position: relative;
+    top: 3px;
+    color: #6D6E71;
     font-family: Icons;
     font-size: 23px;
     content: attr(data-icon);
@@ -132,7 +152,7 @@ button:focus {
 
 .share.tw {
     position: relative;
-    top: -2px;
+    top: -3px;
 }
 
 .share.tw:hover::before {
@@ -144,10 +164,10 @@ button:focus {
 }
 
 .feedback {
-	display: inline-block;
-	margin-right: 10px;
+    display: inline-block;
+    margin-right: 10px;
     margin-bottom: 11px;
-    color: #fff;  
+    color: #fff;
 }
 
 /* Filters */
@@ -182,10 +202,10 @@ button:focus {
 .form-control {
     display: inline-block;
     width: calc(100% - 39px);
-	min-width: 200px;
-	height: 35px;
+    min-width: 200px;
+    height: 35px;
     border: solid 1px #c7c7c7;
-    border-radius: 0; 
+    border-radius: 0;
 }
 
 .search-form-wrapper .btn {
@@ -282,7 +302,7 @@ button:focus {
     -ms-transform: rotate(180deg);
     -o-transform: rotate(180deg);
     transform: rotate(180deg);
-	-webkit-transition: all 500ms;
+    -webkit-transition: all 500ms;
     -o-transition: all 500ms;
     transition: all 500ms;
 }
@@ -370,7 +390,7 @@ button:focus {
 
 .info-row .info-btn {
     float: left;
-	width: 32px;
+    width: 32px;
     height: 32px;
     margin: 0;
     margin-top: 14px;
@@ -404,15 +424,15 @@ button:focus {
     padding: 15px 0 5px 0;
 }
 
-.float, 
+.float,
 div.term {
     float: left;
 }
 
 /* Custom checkboxes */
 .custom-check {
-	position: relative;
-	float: left;
+    position: relative;
+    float: left;
     width: 15px;
     height: 15px;
     margin: 6px 10px 0 0;
@@ -465,29 +485,41 @@ footer {
     margin: 0 auto;
 }
 
-.ie-logo {
-    padding-top: 20px;
-    float: left;
-}
-
-header .ie-logo {
-    padding-top: 8px;
-}
-
-.ie-logo img {
-    float: left;
-}
-
 .status-ie {
+    float: left;
+	margin: 0;
+    padding: 0 0 .2em .4em;
+	border-left: 1px solid #fff;
+    color: #fff;
+	font-size: 20px;   
+	line-height: 1em;
+}
+
+.siteLogo {
+	margin: 0 auto;
+	max-width: 1180px;
+}
+
+.siteLogo:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.siteLogo a {
 	float: left;
-    margin: 13px 0 0 10px;
-    color: #fff;  
-    font-size: 21px;
+}
+
+.sitelogoImage {
+	float: left; 
+	margin: -.2em .8em 0 0;
+	width: 28px;
+	height: 28px;
 }
 
 article {
+    min-height: calc(100% - 235px);
     position: relative;
-    min-height: calc(100% - 310px);
 }
 
 .links {
@@ -543,7 +575,7 @@ article {
     display: flex;
     width: 100%;
     height: 100%;
-    
+
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
@@ -580,7 +612,7 @@ progress {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
-    transform: rotate(45deg);   
+    transform: rotate(45deg);
     background-color: #FFE763;
     background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #444 10px, #444 20px);
     box-shadow: 0px 0px 3px rgba(0, 0, 0, .3);
@@ -592,12 +624,24 @@ progress {
     display: none;
 }
 
+@media screen and (min-width: 960px) {
+	.microsoft-logo {
+		display: block;
+		float: right;
+		margin: 1.4em 0 1em 2em;
+	}
+	.icon-social {
+		margin-right: 0;
+	}
+}
+
 @media screen and (min-width: 800px) {
     .info-row,
     .foot-center,
     .filter-wrapper .center {
         width: 800px;
     }
+
 }
 
 @media screen and (max-width: 799px) {
@@ -605,10 +649,6 @@ progress {
     .foot-center,
     .filter-wrapper .center {
         width: calc(100% - 20px);
-    }
-
-    .menu {
-        padding: 0 20px;
     }
 
     .info-row .col-md-4,
@@ -635,21 +675,7 @@ progress {
     }
 }
 
-@media screen and (min-width: 650px) {
-    .menu {
-        max-width: 800px;
-    }
-}
-
 @media screen and (min-width: 525px) and (max-width: 649px) {
-    .menu {
-        max-width: 650px;
-    }
-
-    .menu .msft_logo {
-        display: none;
-    }
-
     .info-row .col-md-4,
     .info-row .col-md-8 {
         float: none;
@@ -682,15 +708,11 @@ progress {
 
 @media screen and (max-width: 524px) {
     .ribbon-wrapper {
-    	position: absolute;
-    }
-    
-    .menu {
-        max-width: 650px;
+        position: absolute;
     }
 
-    .masthead .social {
-        display: none;
+    .menu {
+        max-width: 650px;
     }
 
     .info-row .col-md-4,
@@ -730,4 +752,98 @@ progress {
     .links {
         display: none;
     }
+}
+
+@media screen and (max-width: 569px) {
+    .filter-container {
+        display: none;
+    }
+    .sticky {
+		display: none !important;
+	}
+}
+
+@media screen and (min-width: 540px) {
+	.header {
+		height: 51px;
+		border-bottom: 10px solid #6d6e71;
+		padding-left: 4%;
+	}
+	.menu .siteLogo {
+		position: relative;
+	}
+
+	.menu-bar {
+		position: absolute;
+		top: 59px;
+		width: 100%;
+		left: 0;
+		background: #282828;
+	}
+	.menu-item:first-child {
+	margin-left: 4%;
+	}
+	.menu-item {
+		float: left;
+		padding: 0;
+		border-bottom: none;
+	}
+	.menu-item {
+	display: -moz-inline-stack;
+	display: inline-block;
+	}
+	.site-header-togglers {
+	display: none;
+	}
+
+	.menu-item a {
+	padding: .5em 1.5em;
+	margin-bottom: -5px;
+	border-left: none;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	}	
+} 
+
+@media screen and (min-width: 1080px) {
+	.header {
+		height: 42px;
+		background: -webkit-linear-gradient(left, #454545 50%, #282828 50%);
+		background: -moz-linear-gradient(left, #454545 50%, #282828 50%);
+		background: -o-linear-gradient(left, #454545 50%, #282828 50%);
+		background: linear-gradient(to right, #454545 50%, #282828 50%);
+		padding-left: 10px;
+		padding-bottom: 0;
+	}
+	.menu {
+        max-width: 800px;
+        position: relative;
+		top: -43px;
+    }
+	.menu-bar {
+			height: 59px;
+			position: static;
+			width: inherit;
+	}
+
+	.menu-item:first-child {
+		margin-left: 0;
+	}
+
+	li.menu-item a {
+		font-size: .8em;
+		min-width: 7.5em;
+		padding: 1.4em 1.5em 1.5em 1.5em;
+		border-bottom-width: 10px;
+	}
+	.menu-item span {
+		font-size: 2.1em;
+		display: block;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	.icon-social {
+		display: none;
+	}
 }

@@ -10,7 +10,7 @@ angular.module('statusieApp')
             return {name: browser, selected: false};
         });
 
-        var statuses = _.map(['Shipped', 'Prefixed', 'In Development', 'Under Consideration', 'Not Currently Planned'], function (browser) {
+        var statuses = _.map(['Shipped', 'Prefixed', 'In Development', 'Under Consideration', 'Not currently planned'], function (browser) {
             return {name: browser, selected: false};
         });
 
@@ -97,6 +97,7 @@ angular.module('statusieApp')
                 var normalizeFeature = function (feature) {
                     var finalFeature = {
                         name: feature.name,
+                        normalized_name: feature.name.replace(/[^a-zA-Z0-9]/g, '').toLowerCase(),
                         summary: feature.summary,
                         category: feature.category,
                         normalized_category: feature.category.replace(/[^a-zA-Z0-9]/g, '').toLowerCase(),

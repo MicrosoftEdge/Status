@@ -10,7 +10,7 @@ angular.module('statusieApp')
                 var locked = false,
                     calculated = false;
 
-                var fill = $('<div class="hide"></div>').insertBefore(element);
+                var fill = $('<div class="hide sticky"></div>').insertBefore(element);
 
                 var process = function () {
                     var needsLock = $win.scrollTop() >= topOffset;
