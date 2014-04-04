@@ -145,6 +145,9 @@ call :ExecuteCmd !NPM_CMD! version
 :: 2. Install npm packages
 IF EXIST "%DEPLOYMENT_TARGET%\package.json" (
   pushd "%DEPLOYMENT_TARGET%"
+  ::We need to clear the cache because of this https://github.com/gruntjs/grunt-contrib-imagemin/issues/183
+  echo Cleaning npm cache  
+  call :ExecuteCmd !NPM_CMD! cache clear
   echo Installing npm packages
   call :ExecuteCmd !NPM_CMD! install --silent
   :: commenting the following line, even if there are some errors this should work...
