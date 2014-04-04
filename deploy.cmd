@@ -106,7 +106,7 @@ goto :EOF
 
 IF EXIST "%DEPLOYMENT_SOURCE%\node_modules" (
   echo Deleting dist
-  call rmdir /s /q "%DEPLOYMENT_SOURCE%\dist"
+  call rmdir /s /q "%DEPLOYMENT_SOURCE%\node_modules"
 )
 
 IF EXIST "%DEPLOYMENT_SOURCE%\app\bower_components" (
@@ -131,6 +131,8 @@ IF /I "%IN_PLACE_DEPLOYMENT%" NEQ "1" (
 
 :: 1. Select node version
 call :SelectNodeVersion
+
+call :CleanDistAndTemp
 
 :: 2. Install npm packages
 IF EXIST "%DEPLOYMENT_TARGET%\package.json" (
