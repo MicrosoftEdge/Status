@@ -131,8 +131,10 @@ IF /I "%IN_PLACE_DEPLOYMENT%" NEQ "1" (
   IF !ERRORLEVEL! NEQ 0 goto error
 )
 
-:: 1. Select node version
+:: 1. Select node version and print it
 call :SelectNodeVersion
+
+call :ExecuteCmd !NPM_CMD! version
 
 :: 2. Install npm packages
 IF EXIST "%DEPLOYMENT_TARGET%\package.json" (
