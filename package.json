@@ -31,7 +31,8 @@
     "load-grunt-tasks": "~0.2.0",
     "time-grunt": "~0.2.1",
     "requirejs": "~2.1.11",
-    "jpegtran-bin": "^0.2.6"
+    "jpegtran-bin": "^0.2.6",
+    "optipng-bin": "^0.3.3"
   },
   "engines": {
     "node": ">=0.8.0"
