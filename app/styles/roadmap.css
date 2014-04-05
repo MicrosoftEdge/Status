@@ -130,26 +130,6 @@
     background-size: auto;
 }
 
-.feature_status .chrome {
-    background-image: url(/images/chrome.png);
-}
-
-.feature_status .ie {
-    background-image: url(/images/explorer.png);
-}
-
-.feature_status .firefox {
-    background-image: url(/images/firefox.png);
-}
-
-.feature_status .safari {
-    background-image: url(/images/safari.png);
-}
-
-.feature_status .opera {
-    background-image: url(/images/opera.png);
-}
-
 .feature_status.browsers li {
     opacity: .1;
 }
@@ -175,10 +155,6 @@
 
 .feature_status a:hover {
     cursor: pointer;
-}
-
-.feature_status .demo a {
-    color: #fff;
 }
 
 .feature_status.info {
