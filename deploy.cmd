@@ -156,7 +156,7 @@ IF /I "%DEPLOYMENT_SOURCE%\Gruntfile.js" NEQ "1" (
   pushd "%DEPLOYMENT_SOURCE%"  
   echo Running Grunt build
   call :ExecuteCmd !GRUNT_CMD! --no-color build
-  IF !ERRORLEVEL! NEQ 0 goto error
+  ::IF !ERRORLEVEL! NEQ 0 goto error
   popd
 )
 
