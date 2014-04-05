@@ -109,12 +109,6 @@ IF EXIST "%DEPLOYMENT_SOURCE%\node_modules" (
   call rmdir /s /q "%DEPLOYMENT_SOURCE%\node_modules"
 )
 
-IF EXIST "%DEPLOYMENT_TARGET%\node_modules" (
-  echo Deleting node modules in target
-  call rmdir /s /q "%DEPLOYMENT_TARGET%\node_modules"
-)
-
-
 IF EXIST "%DEPLOYMENT_SOURCE%\app\bower_components" (
   echo Deleting bower components
   call rmdir /s /q "%DEPLOYMENT_SOURCE%\app\bower_components"
@@ -131,20 +125,14 @@ echo Handling node.js deployment.
 
 call :CleanDistAndTemp
 
-:: 1. KuduSync
-IF /I "%IN_PLACE_DEPLOYMENT%" NEQ "1" (
-  call :ExecuteCmd "%KUDU_SYNC_CMD%" -v 50 -f "%DEPLOYMENT_SOURCE%" -t "%DEPLOYMENT_TARGET%" -n "%NEXT_MANIFEST_PATH%" -p "%PREVIOUS_MANIFEST_PATH%" -i ".git;.hg;.deployment;deploy.cmd"
-  IF !ERRORLEVEL! NEQ 0 goto error
-)
-
 :: 1. Select node version and print it
 call :SelectNodeVersion
 
 call :ExecuteCmd !NPM_CMD! version
 
 :: 2. Install npm packages
-IF EXIST "%DEPLOYMENT_TARGET%\package.json" (
-  pushd "%DEPLOYMENT_TARGET%"
+IF EXIST "%DEPLOYMENT_SOURCE%\package.json" (
+  pushd "%DEPLOYMENT_SOURCE%"
   ::We need to clear the cache because of this https://github.com/gruntjs/grunt-contrib-imagemin/issues/183
   echo Cleaning npm cache  
   call :ExecuteCmd !NPM_CMD! cache clear
@@ -156,22 +144,33 @@ IF EXIST "%DEPLOYMENT_TARGET%\package.json" (
 )
 
 :: 3. Install bower packages
-IF /I "%DEPLOYMENT_TARGET%\bower.json" NEQ "1" (
-  pushd "%DEPLOYMENT_TARGET%"
+IF /I "%DEPLOYMENT_SOURCE%\bower.json" NEQ "1" (
+  pushd "%DEPLOYMENT_SOURCE%"
   echo Installing bower packages
   call :ExecuteCmd !BOWER_CMD! install --silent  
   popd
 )
 
 :: 4. Run grunt
-IF /I "%DEPLOYMENT_TARGET%\Gruntfile.js" NEQ "1" (
-  pushd "%DEPLOYMENT_TARGET%"  
+IF /I "%DEPLOYMENT_SOURCE%\Gruntfile.js" NEQ "1" (
+  pushd "%DEPLOYMENT_SOURCE%"  
   echo Running Grunt build
   call :ExecuteCmd !GRUNT_CMD! --no-color build
   IF !ERRORLEVEL! NEQ 0 goto error
   popd
 )
 
+echo Cleaning node modules in target
+IF EXIST "%DEPLOYMENT_TARGET%\node_modules" (
+  echo Deleting node modules in target
+  call rmdir /s /q "%DEPLOYMENT_TARGET%\node_modules"
+)
+
+:: 1. KuduSync
+IF /I "%IN_PLACE_DEPLOYMENT%" NEQ "1" (
+  call :ExecuteCmd "%KUDU_SYNC_CMD%" -v 50 -f "%DEPLOYMENT_SOURCE%" -t "%DEPLOYMENT_TARGET%" -n "%NEXT_MANIFEST_PATH%" -p "%PREVIOUS_MANIFEST_PATH%" -i ".git;.hg;.deployment;deploy.cmd"
+  IF !ERRORLEVEL! NEQ 0 goto error
+)
 
 
 echo End
