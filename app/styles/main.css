@@ -57,10 +57,6 @@ label {
 }
 
 /* Header */
-header.ng-scope {
-    width: 100%;
-}
-
 .header {
 	background-color: #454545;
 	padding: 1.3em 0 1.1em .8em;
@@ -159,17 +155,6 @@ button:focus {
     color: #00aeef;
 }
 
-.share.fb:hover::before {
-    color: #4c66a4;
-}
-
-.feedback {
-    display: inline-block;
-    margin-right: 10px;
-    margin-bottom: 11px;
-    color: #fff;
-}
-
 /* Filters */
 .filter-container {
     margin-bottom: 10px;
@@ -257,10 +242,6 @@ button:focus {
     height: 8px;
     background-image: none;
     background: url("/images/remove-icon.png") no-repeat center top;
-}
-
-.remove-icon:hover {
-    background-position: center bottom;
 }
 
 .remove-icon:before {
@@ -388,18 +369,6 @@ button:focus {
     padding: 0;
 }
 
-.info-row .info-btn {
-    float: left;
-    width: 32px;
-    height: 32px;
-    margin: 0;
-    margin-top: 14px;
-    border: none;
-    padding: 0;
-    outline: none;
-    background: transparent;
-}
-
 .total-features {
     float: left;
     height: 60px;
@@ -414,10 +383,6 @@ button:focus {
     color: #fff;
     font-weight: 400;
     font-size: 16px;
-}
-
-.term-filter {
-    min-height: 20px;
 }
 
 .filter-group {
@@ -530,10 +495,6 @@ article {
     line-height: 20px;
 }
 
-.links li {
-    list-style-type: none;
-}
-
 .links a {
     margin-left: 25px;
     color: white;
@@ -564,7 +525,7 @@ article {
 .fixed {
     position: fixed;
     top: 0;
-    z-index: 10;
+    z-index: 1;
     width: 100%;
 }
 
@@ -773,9 +734,6 @@ progress {
 		border-bottom: 10px solid #6d6e71;
 		padding-left: 4%;
 	}
-	.menu .siteLogo {
-		position: relative;
-	}
 
 	.menu-bar {
 		position: absolute;
@@ -785,7 +743,7 @@ progress {
 		background: #282828;
 	}
 	.menu-item:first-child {
-	margin-left: 4%;
+		margin-left: 4%;
 	}
 	.menu-item {
 		float: left;
@@ -793,19 +751,15 @@ progress {
 		border-bottom: none;
 	}
 	.menu-item {
-	display: -moz-inline-stack;
-	display: inline-block;
-	}
-	.site-header-togglers {
-	display: none;
+		display: inline-block;
 	}
 
 	.menu-item a {
-	padding: .5em 1.5em;
-	margin-bottom: -5px;
-	border-left: none;
-	border-bottom-width: 5px;
-	border-bottom-style: solid;
+		padding: .5em 1.5em;
+		margin-bottom: -5px;
+		border-left: none;
+		border-bottom-width: 5px;
+		border-bottom-style: solid;
 	}	
 } 
 
