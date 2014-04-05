@@ -138,6 +138,9 @@ IF EXIST "%DEPLOYMENT_SOURCE%\package.json" (
   call :ExecuteCmd !NPM_CMD! cache clear
   echo Installing npm packages
   call :ExecuteCmd !NPM_CMD! install --silent
+  :: Installing again because of issue with grunt-contrib-min
+  echo Installing npm packages
+  call :ExecuteCmd !NPM_CMD! install --silent
   :: commenting the following line, even if there are some errors this should work...
   ::IF !ERRORLEVEL! NEQ 0 goto error
   popd
@@ -160,7 +163,6 @@ IF /I "%DEPLOYMENT_SOURCE%\Gruntfile.js" NEQ "1" (
   popd
 )
 
-echo Cleaning node modules in target
 IF EXIST "%DEPLOYMENT_TARGET%\node_modules" (
   echo Deleting node modules in target
   call rmdir /s /q "%DEPLOYMENT_TARGET%\node_modules"
