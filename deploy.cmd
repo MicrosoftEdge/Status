@@ -47,6 +47,27 @@ IF NOT DEFINED KUDU_SYNC_CMD (
   :: Locally just running "kuduSync" would also work
   SET KUDU_SYNC_CMD=%appdata%\npm\kuduSync.cmd
 )
+
+IF NOT DEFINED BOWER_CMD (
+  :: Install bower
+  echo Installing bower
+  call npm install bower -g --silent
+  IF !ERRORLEVEL! NEQ 0 goto error
+
+  :: Locally just running "bower" would also work
+  SET BOWER_CMD=node "%appdata%\npm\node_modules\bower\bin\bower"
+)
+
+IF NOT DEFINED GRUNT_CMD (
+  :: Install grunt
+  echo Installing grunt-cli
+  call npm install grunt-cli -g --silent
+  IF !ERRORLEVEL! NEQ 0 goto error
+
+  :: Locally just running "grunt" would also work
+  SET GRUNT_CMD=node "%appdata%\npm\node_modules\grunt-cli\bin\grunt"
+)
+
 goto Deployment
 
 :: Utility Functions
@@ -81,6 +102,20 @@ IF DEFINED KUDU_SELECT_NODE_VERSION_CMD (
 
 goto :EOF
 
+:CleanDistAndTemp
+
+IF EXIST "%DEPLOYMENT_SOURCE%\node_modules" (
+  echo Deleting node modules
+  call rmdir /s /q "%DEPLOYMENT_SOURCE%\node_modules"
+)
+
+IF EXIST "%DEPLOYMENT_SOURCE%\app\bower_components" (
+  echo Deleting bower components
+  call rmdir /s /q "%DEPLOYMENT_SOURCE%\app\bower_components"
+)
+
+goto :EOF
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :: Deployment
 :: ----------
@@ -88,45 +123,57 @@ goto :EOF
 :Deployment
 echo Handling node.js deployment.
 
+call :CleanDistAndTemp
+
+:: 1. Select node version and print it
+call :SelectNodeVersion
+
+call :ExecuteCmd !NPM_CMD! version
+
+:: 2. Install npm packages
+IF EXIST "%DEPLOYMENT_SOURCE%\package.json" (
+  pushd "%DEPLOYMENT_SOURCE%"
+  ::We need to clear the cache because of this https://github.com/gruntjs/grunt-contrib-imagemin/issues/183
+  echo Cleaning npm cache  
+  call :ExecuteCmd !NPM_CMD! cache clear
+  echo Installing npm packages
+  call :ExecuteCmd !NPM_CMD! install --silent
+  :: Installing again because of issue with grunt-contrib-min
+  echo Installing npm packages
+  call :ExecuteCmd !NPM_CMD! install --silent
+  :: commenting the following line, even if there are some errors this should work...
+  ::IF !ERRORLEVEL! NEQ 0 goto error
+  popd
+)
+
+:: 3. Install bower packages
+IF /I "%DEPLOYMENT_SOURCE%\bower.json" NEQ "1" (
+  pushd "%DEPLOYMENT_SOURCE%"
+  echo Installing bower packages
+  call :ExecuteCmd !BOWER_CMD! install --silent  
+  popd
+)
+
+:: 4. Run grunt
+IF /I "%DEPLOYMENT_SOURCE%\Gruntfile.js" NEQ "1" (
+  pushd "%DEPLOYMENT_SOURCE%"  
+  echo Running Grunt build
+  call :ExecuteCmd !GRUNT_CMD! --no-color build
+  ::IF !ERRORLEVEL! NEQ 0 goto error
+  popd
+)
+
+IF EXIST "%DEPLOYMENT_TARGET%\node_modules" (
+  echo Deleting node modules in target
+  call rmdir /s /q "%DEPLOYMENT_TARGET%\node_modules"
+)
+
 :: 1. KuduSync
 IF /I "%IN_PLACE_DEPLOYMENT%" NEQ "1" (
   call :ExecuteCmd "%KUDU_SYNC_CMD%" -v 50 -f "%DEPLOYMENT_SOURCE%" -t "%DEPLOYMENT_TARGET%" -n "%NEXT_MANIFEST_PATH%" -p "%PREVIOUS_MANIFEST_PATH%" -i ".git;.hg;.deployment;deploy.cmd"
   IF !ERRORLEVEL! NEQ 0 goto error
 )
 
-:: 1. Select node version
-call :SelectNodeVersion
-
-:: 2. Install npm packages
-IF EXIST "%DEPLOYMENT_TARGET%\package.json" (
-  pushd "%DEPLOYMENT_TARGET%"
-  echo Installing npm packages
-  call :ExecuteCmd !NPM_CMD! install --silent
-  IF !ERRORLEVEL! NEQ 0 goto error
-  popd
-)
-
-:: 3. Install bower packages
-IF /I "%DEPLOYMENT_TARGET%\bower.json" NEQ "1" (
-  pushd "%DEPLOYMENT_TARGET%"
-  echo Installing bower
-  call :ExecuteCmd !NPM_CMD! install bower --silent
-  echo Installing bower packages
-  call :ExecuteCmd ".\node_modules\.bin\bower.cmd" install --silent
-  popd
-)
-
-:: 4. Run grunt
-IF /I "%DEPLOYMENT_TARGET/Gruntfile.js" NEQ "1" (
-  pushd "%DEPLOYMENT_TARGET%"
-  echo Installing grunt
-  call :ExecuteCmd !NPM_CMD! install grunt-cli --silent
-  IF !ERRORLEVEL! NEQ 0 goto error
-  echo Running Grunt build
-  call :ExecuteCmd ".\node_modules\.bin\grunt.cmd" --no-color build
-  IF !ERRORLEVEL! NEQ 0 goto error
-  popd
-)
 
 echo End
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

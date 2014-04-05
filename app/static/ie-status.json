@@ -682,7 +682,7 @@
         "summary": "Header to inform the browser to always request a given domain over SSL, reducing MITM attack surface area.",
         "standardStatus": "Established standard",
         "ieStatus": {
-            "text": "Under Consideration",
+            "text": "In Development",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
