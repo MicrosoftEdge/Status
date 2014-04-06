@@ -123,7 +123,7 @@ goto :EOF
 :Deployment
 echo Handling node.js deployment.
 
-call :CleanDistAndTemp
+::call :CleanDistAndTemp
 
 :: 1. Select node version and print it
 call :SelectNodeVersion
