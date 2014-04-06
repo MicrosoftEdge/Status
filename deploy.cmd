@@ -137,10 +137,7 @@ IF EXIST "%DEPLOYMENT_SOURCE%\package.json" (
   echo Cleaning npm cache  
   call :ExecuteCmd !NPM_CMD! cache clear
   echo Installing npm packages
-  call :ExecuteCmd !NPM_CMD! install --silent
-  :: Installing again because of issue with grunt-contrib-min
-  echo Installing npm packages
-  call :ExecuteCmd !NPM_CMD! install --silent
+  call :ExecuteCmd !NPM_CMD! install --silent  
   :: commenting the following line, even if there are some errors this should work...
   ::IF !ERRORLEVEL! NEQ 0 goto error
   popd
