@@ -123,6 +123,15 @@ button:focus {
 .microsoft-logo {
 	display: none;
 }
+.microsoft-logo a {
+	background: url("../images/microsoft-logo.png") no-repeat;
+	display: inline-block;
+	width: 112px;
+	height: 24px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
 .icon-social {
 	float: right;
 	margin: 1.2em 5.8em 1.2em 0;
@@ -148,7 +157,7 @@ button:focus {
 
 .share.tw {
     position: relative;
-    top: -3px;
+    top: -4px;
 }
 
 .share.tw:hover::before {
