@@ -459,19 +459,19 @@ footer {
     margin: 0 auto;
 }
 
-.status-ie {
-    float: left;
-	margin: 0;
-    padding: 0 0 .2em .4em;
-	border-left: 1px solid #fff;
-    color: #fff;
-	font-size: 20px;   
-	line-height: 1em;
-}
-
 .siteLogo {
 	margin: 0 auto;
-	max-width: 1180px;
+	max-width: 1180px;	
+}
+.siteLogo:before {
+	position: absolute;
+	width: 28px; 
+	height: 28px;
+	margin-top: -.2em;
+	background: url("../images/ie-logo.png") no-repeat;
+	background-size: 28px;
+	content: "";
+	pointer-events: none;
 }
 
 .siteLogo:after {
@@ -482,13 +482,17 @@ footer {
 
 .siteLogo a {
 	float: left;
+	padding-left: 2.8em;
 }
 
-.sitelogoImage {
-	float: left; 
-	margin: -.2em .8em 0 0;
-	width: 28px;
-	height: 28px;
+.status-ie {
+    float: left;
+	margin: 0;
+    padding: 0 0 .2em .4em;
+	border-left: 1px solid #fff;
+    color: #fff;
+	font-size: 20px;   
+	line-height: 1em;
 }
 
 article {
@@ -785,7 +789,7 @@ progress {
 	.menu {
         max-width: 800px;
         position: relative;
-		top: -43px;
+		top: -41px;
     }
 	.menu-bar {
 			height: 59px;
