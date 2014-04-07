@@ -40,7 +40,7 @@ IF NOT DEFINED NEXT_MANIFEST_PATH (
 
 IF NOT DEFINED KUDU_SYNC_CMD (
   :: Install kudu sync
-  echo Installing Kudu Sync
+  echo %time% - Installing Kudu Sync
   call npm install kudusync -g --silent
   IF !ERRORLEVEL! NEQ 0 goto error
 
@@ -50,7 +50,7 @@ IF NOT DEFINED KUDU_SYNC_CMD (
 
 IF NOT DEFINED BOWER_CMD (
   :: Install bower
-  echo Installing bower
+  echo %time% - Installing bower
   call npm install bower -g --silent
   IF !ERRORLEVEL! NEQ 0 goto error
 
@@ -59,7 +59,7 @@ IF NOT DEFINED BOWER_CMD (
 )
 
 IF NOT DEFINED GRUNT_CMD (
-  :: Install grunt
+  :: %time% - Install grunt
   echo Installing grunt-cli
   call npm install grunt-cli -g --silent
   IF !ERRORLEVEL! NEQ 0 goto error
@@ -134,9 +134,9 @@ call :ExecuteCmd !NPM_CMD! version
 IF EXIST "%DEPLOYMENT_SOURCE%\package.json" (
   pushd "%DEPLOYMENT_SOURCE%"
   ::We need to clear the cache because of this https://github.com/gruntjs/grunt-contrib-imagemin/issues/183
-  echo Cleaning npm cache  
+  echo %time% - Cleaning npm cache
   call :ExecuteCmd !NPM_CMD! cache clear
-  echo Installing npm packages
+  echo %time% - Installing npm packages
   call :ExecuteCmd !NPM_CMD! install --silent  
   :: commenting the following line, even if there are some errors this should work...
   ::IF !ERRORLEVEL! NEQ 0 goto error
@@ -146,7 +146,7 @@ IF EXIST "%DEPLOYMENT_SOURCE%\package.json" (
 :: 3. Install bower packages
 IF /I "%DEPLOYMENT_SOURCE%\bower.json" NEQ "1" (
   pushd "%DEPLOYMENT_SOURCE%"
-  echo Installing bower packages
+  echo %time% - Installing bower packages
   call :ExecuteCmd !BOWER_CMD! install --silent  
   popd
 )
@@ -154,25 +154,25 @@ IF /I "%DEPLOYMENT_SOURCE%\bower.json" NEQ "1" (
 :: 4. Run grunt
 IF /I "%DEPLOYMENT_SOURCE%\Gruntfile.js" NEQ "1" (
   pushd "%DEPLOYMENT_SOURCE%"  
-  echo Running Grunt build
+  echo %time% - Running Grunt build
   call :ExecuteCmd !GRUNT_CMD! --no-color build
   ::IF !ERRORLEVEL! NEQ 0 goto error
   popd
 )
 
 IF EXIST "%DEPLOYMENT_TARGET%\node_modules" (
-  echo Deleting node modules in target
+  echo %time% - Deleting node modules in target
   call rmdir /s /q "%DEPLOYMENT_TARGET%\node_modules"
 )
 
 :: 1. KuduSync
 IF /I "%IN_PLACE_DEPLOYMENT%" NEQ "1" (
+  echo %time% - Executing KudySync
   call :ExecuteCmd "%KUDU_SYNC_CMD%" -v 50 -f "%DEPLOYMENT_SOURCE%" -t "%DEPLOYMENT_TARGET%" -n "%NEXT_MANIFEST_PATH%" -p "%PREVIOUS_MANIFEST_PATH%" -i ".git;.hg;.deployment;deploy.cmd"
   IF !ERRORLEVEL! NEQ 0 goto error
 )
 
-
-echo End
+echo %time% - End
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :: Post deployment stub
