@@ -178,44 +178,44 @@
 }
 
 .docs.webplatform {
-    background-image: url(/images/webplatform.png);
+    background-image: url(/images/icons/webplatform.png);
 }
 
 .docs.msdn {
-    background-image: url(/images/msdn.png);
+    background-image: url(/images/icons/msdn.png);
 }
 
 .standard {
-    background-image: url(/images/clip.png);
+    background-image: url(/images/icons/clip.png);
 }
 
 .standard.w3c {
-    background-image: url(/images/w3c.jpg);
+    background-image: url(/images/icons/w3c.png);
 }
 
 .standard.ecma {
-    background-image: url(/images/ecma.jpg);
+    background-image: url(/images/icons/ecma.png);
 }
 
 .standard.khronos {
-    background-image: url(/images/khronos.jpg);
+    background-image: url(/images/icons/khronos.png);
 }
 
 .standard.whatwg {
-    background-image: url(/images/whatwg.jpg);
+    background-image: url(/images/icons/whatwg.png);
 }
 
 .standard.xiph {
-    background-image: url(/images/xiph.jpg);
+    background-image: url(/images/icons/xiph.png);
 }
 
 .standard.ietf {
-    background-image: url(/images/ietf.jpg);
+    background-image: url(/images/icons/ietf.png);
 }
 
 li.demo {
 	border-color: #18414f;
-    background-image: url(/images/demo.png);
+    background-image: url(/images/icons/demo.png);
     background-color: #376a7c;
 }
 
@@ -269,24 +269,24 @@ li.demo {
 
 .css header {
 	border-color: #ef6529;
-    background-image: url(/images/css3.png);
+    background-image: url(/images/icons/css3.png);
 }
 
 .device header,
 .security header,
 .userinput header {
 	border-color: #136dc1;
-    background-image: url(/images/category_devices.png);
+    background-image: url(/images/icons/category_devices.png);
 }
 
 .graphics header {
 	border-color: #e81123;
-    background-image: url(/images/category_graphics.png);
+    background-image: url(/images/icons/category_graphics.png);
 }
 
 .javascript header {
 	border-color: #f0db4f;
-    background-image: url(/images/category_javascript.png);
+    background-image: url(/images/icons/category_javascript.png);
 }
 
 .dom header,
@@ -294,29 +294,29 @@ li.demo {
 .webcomponents header,
 .misc header {
 	border-color: #fe9f22;
-    background-image: url(/images/category_semantics.png);
+    background-image: url(/images/icons/category_semantics.png);
 }
 
 .fileapis header,
 .offlinestorage header {
 	border-color: #68217a;
-    background-image: url(/images/category_offline.png);
+    background-image: url(/images/icons/category_offline.png);
 }
 
 .multimedia header {
     border-color: #ffc20e;
-    background-image: url(/images/category_multimedia.png);
+    background-image: url(/images/icons/category_multimedia.png);
 }
 
 .realtimecommunication header,
 .networkconnectivity header {
     border-color: #8dc63f;
-    background-image: url(/images/category_connectivity.png);
+    background-image: url(/images/icons/category_connectivity.png);
 }
 
 .feature.performance header {
     border-color: #00dcd5;
-    background-image: url(/images/category_performance.png);
+    background-image: url(/images/icons/category_performance.png);
 }
 
 @media screen and (min-width: 500px) {

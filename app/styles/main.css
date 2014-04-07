@@ -241,7 +241,7 @@ button:focus {
     width: 8px;
     height: 8px;
     background-image: none;
-    background: url("/images/remove-icon.png") no-repeat center top;
+    background: url("/images/icons/remove-icon.png") no-repeat center top;
 }
 
 .remove-icon:before {
@@ -430,7 +430,7 @@ div.term {
 }
 
 [type=checkbox]:checked + .check {
-    background-image: url("/images/check.png");
+    background-image: url("/images/icons/check.png");
 }
 
 [type=radio]:checked + .radio {

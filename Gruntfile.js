@@ -288,6 +288,15 @@ module.exports = function (grunt) {
             }
         },
 
+        sprite:{
+            all: {
+                algorithm: 'binary-tree',
+                src: '<%= yeoman.app %>/images/icons/*.png',
+                destImg: '<%= yeoman.app %>/images/dist/spritesheet.png',
+                destCSS: '<%= yeoman.app %>/styles/sprites.css'
+            }
+        },
+
         // Run some tasks in parallel to speed up the build process
         concurrent: {
             server: [
@@ -370,6 +379,7 @@ module.exports = function (grunt) {
     grunt.registerTask('build', [
         'clean:dist',
         'bower-install',
+        'sprite',
         'useminPrepare',
         'concurrent:dist',
         'autoprefixer',
