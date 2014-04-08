@@ -522,11 +522,11 @@ article {
 
 /* Overriding col-md styles */
 .search-form-wrapper .col-md-7 {
-    width: 58.333333333333336%;
+    width: 56%;
 }
 
 .search-form-wrapper .col-md-5 {
-    width: 41.66666666666667%;
+    width: 44%;
 }
 
 .info-row .col-md-8 {
