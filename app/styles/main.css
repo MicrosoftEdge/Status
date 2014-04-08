@@ -461,7 +461,7 @@ footer {
 
 .siteLogo {
 	margin: 0 auto;
-	max-width: 1180px;	
+	max-width: 1230px;	
 }
 .siteLogo:before {
 	position: absolute;
@@ -776,7 +776,7 @@ progress {
 	}	
 } 
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1220px) {
 	.header {
 		height: 42px;
 		background: -webkit-linear-gradient(left, #454545 50%, #282828 50%);
