@@ -130,10 +130,6 @@
     background-size: auto;
 }
 
-.feature_status.info li {
-    background-position: 6px 50%;
-}
-
 .browsers {
     float: right;
 }
@@ -176,6 +172,7 @@
 }
 
 .info li {
+    position: relative;
     float: left;
     width: auto;
     height: 40px;
@@ -191,6 +188,9 @@
 
 .icon {
     display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 5px;
 }
 
 .docs.webplatform {
@@ -358,9 +358,9 @@ li.demo {
 }
 
 @media screen and (min-width: 625px) {
-    /*.feature_status.info a {*/
-        /*padding-left: 40px;*/
-    /*}*/
+    .feature_status.info a {
+        padding-left: 40px;
+    }
 }
 
 @media screen and (min-width: 625px) and (max-width: 799px) {
@@ -411,7 +411,15 @@ li.demo {
     .feature_status.info li {
         height: 30px;
         padding-left: 30px;
-        background-size: 20px;
+    }
+    
+    .icon {
+    	-webkit-transform: scale(.66);
+    	-ms-transform: scale(.66);
+    	-o-transform: scale(.66);
+    	transform: scale(.66);
+    	top: 0;
+    	left: 0;
     }
 }
 
@@ -459,12 +467,20 @@ li.demo {
     .feature_status.info li {
         height: 30px;
         padding-left: 30px;
-        background-size: 20px;
     }
 
     .feature .feature-body-wrapper p {
         max-height: calc(100% - 105px);
         overflow: hidden;
+    }
+    
+    .icon {
+    	-webkit-transform: scale(.66);
+    	-ms-transform: scale(.66);
+    	-o-transform: scale(.66);
+    	transform: scale(.66);
+    	top: 0;
+    	left: 0;
     }
 }
 
