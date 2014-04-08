@@ -1,7 +1,7 @@
 .feature {
     position: relative;
     height: 50px;
-    margin:  0 auto 20px;
+    margin: 0 auto 20px;
     padding: 0;
     overflow: hidden;
     -webkit-transition: height 500ms;
@@ -17,15 +17,16 @@
     height: 50px;
     margin: 0;
     border-left: 10px solid;
-    background-position: 10px 50%;
-    background-repeat: no-repeat;
-    background-size: 25px;
+    /*background-position: 10px 50%;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 25px;*/
     background-color: #eef0f6;
     border-radius: 0 50px 50px 0;
     -webkit-transition: background-color 200ms;
     -o-transition: background-color 200ms;
     transition: background-color 200ms;
     cursor: pointer;
+    padding-left: 5px;
 }
 
 .feature.show header {
@@ -33,15 +34,15 @@
 }
 
 .feature header .feature_name {
-	float: left;
-	/* 	make sure disclosure triangle doesn’t drop to next line */
+    float: left;
+    /* 	make sure disclosure triangle doesn’t drop to next line */
     max-width: calc(100% - 45px);
-	height: 42px;
+    height: 42px;
     margin: 0;
-    padding: 10px 0 0 60px;  
+    padding: 10px 0 0 5px;
     overflow: hidden;
     white-space: nowrap;
-    text-overflow: ellipsis;  
+    text-overflow: ellipsis;
 }
 
 .feature header .feature-info {
@@ -61,8 +62,8 @@
 }
 
 .feature .collapsebtn {
-	float: left;
-	width: 40px;
+    float: left;
+    width: 40px;
     height: 40px;
     margin-top: 5px;
     border: 0;
@@ -81,7 +82,7 @@
 }
 
 .feature.show .collapsebtn {
-	-webkit-transform: rotate(0);
+    -webkit-transform: rotate(0);
     -ms-transform: rotate(0);
     -o-transform: rotate(0);
     transform: rotate(0);
@@ -104,11 +105,11 @@
 }
 
 .feature .feature-status-wrapper {
-	position: absolute;
+    position: absolute;
     bottom: 0;
-	width: 100%;
+    width: 100%;
     margin-top: 20px;
-    margin-bottom: -5px;  
+    margin-bottom: -5px;
 }
 
 .feature_status {
@@ -125,9 +126,12 @@
     display: inline-block;
     width: 30px;
     height: 30px;
-    background-position: 0 50%;
     background-repeat: no-repeat;
     background-size: auto;
+}
+
+.feature_status.info li {
+    background-position: 6px 50%;
 }
 
 .browsers {
@@ -135,11 +139,11 @@
 }
 
 .browsers li {
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	margin: 10px 3px;
-	opacity: .1;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 10px 3px;
+    opacity: .1;
 }
 
 .browsers .indevelopment {
@@ -151,14 +155,14 @@
 }
 
 .feature_status a {
-    display: block;
+    display: inline-block;
     width: 100%;
     height: 100%;
     overflow: hidden;
     color: #000;
     white-space: nowrap;
     text-overflow: ellipsis;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 .feature_status a:hover {
@@ -172,10 +176,10 @@
 }
 
 .info li {
-	float: left;
-	width: auto;
-	height: 40px;
-	margin: 0 4px 4px 0;
+    float: left;
+    width: auto;
+    height: 40px;
+    margin: 0 4px 4px 0;
     border-left: solid 5px #a4a5ab;
     background-color: #d8dbe9;
     background-position-x: 5px;
@@ -183,6 +187,10 @@
 
 .info a {
     padding: 10px 10px 10px 0;
+}
+
+.icon {
+    display: inline-block;
 }
 
 .docs.webplatform {
@@ -193,9 +201,9 @@
     background-image: url(/images/icons/msdn.png);
 }
 
-.standard {
-    background-image: url(/images/icons/clip.png);
-}
+/*.standard {*/
+    /*background-image: url(/images/icons/clip.png);*/
+/*}*/
 
 .standard.w3c {
     background-image: url(/images/icons/w3c.png);
@@ -222,28 +230,9 @@
 }
 
 li.demo {
-	border-color: #18414f;
+    border-color: #18414f;
     background-image: url(/images/icons/demo.png);
     background-color: #376a7c;
-}
-
-.ie {
-	background-image: url("/images/explorer.png");
-}
-.chrome { 
-	background-image: url("/images/chrome.png");
-}
-
-.opera {
-	background-image: url("/images/opera.png");
-}
-
-.firefox {
-	background-image: url("/images/firefox.png");
-}
-
-.safari {
-	background-image: url("/images/safari.png");
 }
 
 /* API Category Styles */
@@ -290,60 +279,65 @@ li.demo {
 }
 
 .css header {
-	border-color: #ef6529;
-    background-image: url(/images/icons/css3.png);
+    border-color: #ef6529;
+    /*background-image: url(/images/icons/css3.png);*/
+}
+
+.feature-icon {
+    display: inline-block;
+    float: left;
 }
 
 .device header,
 .security header,
 .userinput header {
-	border-color: #136dc1;
-    background-image: url(/images/icons/category_devices.png);
+    border-color: #136dc1;
+    /*background-image: url(/images/icons/category_devices.png);*/
 }
 
 .graphics header {
-	border-color: #e81123;
-    background-image: url(/images/icons/category_graphics.png);
+    border-color: #e81123;
+    /*background-image: url(/images/icons/category_graphics.png);*/
 }
 
 .javascript header {
-	border-color: #f0db4f;
-    background-image: url(/images/icons/category_javascript.png);
+    border-color: #f0db4f;
+    /*background-image: url(/images/icons/category_javascript.png);*/
 }
 
 .dom header,
 .html header,
 .webcomponents header,
 .misc header {
-	border-color: #fe9f22;
-    background-image: url(/images/icons/category_semantics.png);
+    border-color: #fe9f22;
+    /*background-image: url(/images/icons/category_semantics.png);*/
 }
 
 .fileapis header,
 .offlinestorage header {
-	border-color: #68217a;
-    background-image: url(/images/icons/category_offline.png);
+    border-color: #68217a;
+    /*background-image: url(/images/icons/category_offline.png);*/
 }
 
 .multimedia header {
     border-color: #ffc20e;
-    background-image: url(/images/icons/category_multimedia.png);
+    /*background-image: url(/images/icons/category_multimedia.png);*/
 }
 
 .realtimecommunication header,
 .networkconnectivity header {
     border-color: #8dc63f;
-    background-image: url(/images/icons/category_connectivity.png);
+    /*background-image: url(/images/icons/category_connectivity.png);*/
 }
 
 .feature.performance header {
     border-color: #00dcd5;
-    background-image: url(/images/icons/category_performance.png);
+    /*background-image: url(/images/icons/category_performance.png);*/
 }
 
 @media screen and (min-width: 500px) {
-	.feature header .feature_name {
-		/* stop long labels from pushing status to next line */
+    .feature header .feature_name {
+        /* stop long labels from pushing status to next line */
         max-width: 60%;
     }
 }
@@ -364,9 +358,9 @@ li.demo {
 }
 
 @media screen and (min-width: 625px) {
-	.feature_status.info a {
-    	padding-left: 40px;
-    }
+    /*.feature_status.info a {*/
+        /*padding-left: 40px;*/
+    /*}*/
 }
 
 @media screen and (min-width: 625px) and (max-width: 799px) {
@@ -386,7 +380,7 @@ li.demo {
 
 @media screen and (min-width: 500px) and (max-width: 625px) {
     .feature header .feature_name {
-    	padding: 17px 0 0 48px;
+        padding: 17px 0 0 48px;
         font-size: 16px;
     }
 
@@ -395,7 +389,7 @@ li.demo {
     }
 
     .feature header .ie-status {
-    	margin-top: 15px;
+        margin-top: 15px;
         font-size: 13px;
         font-weight: normal;
     }
@@ -409,7 +403,7 @@ li.demo {
     }
 
     .feature_status a {
-    	max-width: 120px;
+        max-width: 120px;
         font-size: 11px;
         line-height: .8;
     }
@@ -432,7 +426,7 @@ li.demo {
 
     .feature header .feature_name {
         padding: 17px 0 0 5px;
-		font-size: 16px;
+        font-size: 16px;
     }
 
     .feature {
@@ -449,7 +443,7 @@ li.demo {
     }
 
     .feature_status a {
-    	max-width: 100px;
+        max-width: 100px;
         font-size: 11px;
         line-height: .8;
     }
