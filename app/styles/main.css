@@ -43,7 +43,7 @@ html,
 body {
     margin: 0;
     background-color: #fff;
-    font-family: Segoe Custom;
+    font-family: "Segoe Custom";
 }
 
 .clear {
@@ -123,6 +123,15 @@ button:focus {
 .microsoft-logo {
 	display: none;
 }
+.microsoft-logo a {
+	background: url("/images/microsoft-logo.png") no-repeat;
+	display: inline-block;
+	width: 112px;
+	height: 24px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
 .icon-social {
 	float: right;
 	margin: 1.2em 5.8em 1.2em 0;
@@ -148,7 +157,7 @@ button:focus {
 
 .share.tw {
     position: relative;
-    top: -3px;
+    top: -4px;
 }
 
 .share.tw:hover::before {
@@ -159,6 +168,8 @@ button:focus {
 .filter-container {
     margin-bottom: 10px;
     background-color: #00BAF0;
+    overflow: auto;
+	width: 100%;
 }
 
 .filter-wrapper {
@@ -450,19 +461,19 @@ footer {
     margin: 0 auto;
 }
 
-.status-ie {
-    float: left;
-	margin: 0;
-    padding: 0 0 .2em .4em;
-	border-left: 1px solid #fff;
-    color: #fff;
-	font-size: 20px;   
-	line-height: 1em;
-}
-
 .siteLogo {
 	margin: 0 auto;
-	max-width: 1180px;
+	max-width: 1230px;	
+}
+.siteLogo:before {
+	position: absolute;
+	width: 28px; 
+	height: 28px;
+	margin-top: -.2em;
+	background: url("/images/ie-logo.png") no-repeat;
+	background-size: 28px;
+	content: "";
+	pointer-events: none;
 }
 
 .siteLogo:after {
@@ -473,13 +484,17 @@ footer {
 
 .siteLogo a {
 	float: left;
+	padding-left: 2.8em;
 }
 
-.sitelogoImage {
-	float: left; 
-	margin: -.2em .8em 0 0;
-	width: 28px;
-	height: 28px;
+.status-ie {
+    float: left;
+	margin: 0;
+    padding: 0 0 .2em .4em;
+	border-left: 1px solid #fff;
+    color: #fff;
+	font-size: 20px;   
+	line-height: 1em;
 }
 
 article {
@@ -507,11 +522,11 @@ article {
 
 /* Overriding col-md styles */
 .search-form-wrapper .col-md-7 {
-    width: 58.333333333333336%;
+    width: 56%;
 }
 
 .search-form-wrapper .col-md-5 {
-    width: 41.66666666666667%;
+    width: 44%;
 }
 
 .info-row .col-md-8 {
@@ -618,10 +633,6 @@ progress {
         width: 100%;
     }
 
-    .filter-switchs-wrapper {
-        margin-top: 0;
-    }
-
     .switch-filters-column {
         margin-top: 0;
         margin-bottom: 20px;
@@ -636,7 +647,7 @@ progress {
     }
 }
 
-@media screen and (min-width: 525px) and (max-width: 649px) {
+@media screen and (min-width: 525px) and (max-width: 667px) {
     .info-row .col-md-4,
     .info-row .col-md-8 {
         float: none;
@@ -644,7 +655,7 @@ progress {
     }
 
     .filter-switchs-wrapper {
-        margin-top: 0;
+        margin-top: 20px;
     }
 
     .switch-filters-column {
@@ -763,7 +774,7 @@ progress {
 	}	
 } 
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1220px) {
 	.header {
 		height: 42px;
 		background: -webkit-linear-gradient(left, #454545 50%, #282828 50%);
@@ -775,8 +786,8 @@ progress {
 	}
 	.menu {
         max-width: 800px;
-        position: relative;
-		top: -43px;
+        position: absolute;
+		top: 1px;
     }
 	.menu-bar {
 			height: 59px;
