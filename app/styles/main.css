@@ -168,6 +168,8 @@ button:focus {
 .filter-container {
     margin-bottom: 10px;
     background-color: #00BAF0;
+    overflow: auto;
+	width: 100%;
 }
 
 .filter-wrapper {
@@ -631,10 +633,6 @@ progress {
         width: 100%;
     }
 
-    .filter-switchs-wrapper {
-        margin-top: 0;
-    }
-
     .switch-filters-column {
         margin-top: 0;
         margin-bottom: 20px;
@@ -649,7 +647,7 @@ progress {
     }
 }
 
-@media screen and (min-width: 525px) and (max-width: 649px) {
+@media screen and (min-width: 525px) and (max-width: 667px) {
     .info-row .col-md-4,
     .info-row .col-md-8 {
         float: none;
@@ -657,7 +655,7 @@ progress {
     }
 
     .filter-switchs-wrapper {
-        margin-top: 0;
+        margin-top: 20px;
     }
 
     .switch-filters-column {
@@ -788,8 +786,8 @@ progress {
 	}
 	.menu {
         max-width: 800px;
-        position: relative;
-		top: -41px;
+        position: absolute;
+		top: 1px;
     }
 	.menu-bar {
 			height: 59px;
