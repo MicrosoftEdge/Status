@@ -122,7 +122,7 @@
 }
 
 .feature_status li {
-    display: table-cell;
+    display: inline-block;
     width: 30px;
     height: 30px;
     background-position: 0 50%;
@@ -130,15 +130,23 @@
     background-size: auto;
 }
 
-.feature_status.browsers li {
-    opacity: .1;
+.browsers {
+    float: right;
 }
 
-.feature_status.browsers .indevelopment {
+.browsers li {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	margin: 10px 3px;
+	opacity: .1;
+}
+
+.browsers .indevelopment {
     opacity: .5;
 }
 
-.feature_status.browsers .implemented {
+.browsers .implemented {
     opacity: 1;
 }
 
@@ -157,13 +165,13 @@
     cursor: pointer;
 }
 
-.feature_status.info {
+.info {
     float: left;
     max-width: 560px;
     overflow: hidden;
 }
 
-.feature_status.info li {
+.info li {
 	float: left;
 	width: auto;
 	height: 40px;
@@ -173,7 +181,7 @@
     background-position-x: 5px;
 }
 
-.feature_status.info a {
+.info a {
     padding: 10px 10px 10px 0;
 }
 
@@ -219,9 +227,23 @@ li.demo {
     background-color: #376a7c;
 }
 
-.feature_status.browsers {
-    float: right;
-    margin-top: -5px;
+.ie {
+	background-image: url("/images/explorer.png");
+}
+.chrome { 
+	background-image: url("/images/chrome.png");
+}
+
+.opera {
+	background-image: url("/images/opera.png");
+}
+
+.firefox {
+	background-image: url("/images/firefox.png");
+}
+
+.safari {
+	background-image: url("/images/safari.png");
 }
 
 /* API Category Styles */
@@ -451,3 +473,4 @@ li.demo {
         overflow: hidden;
     }
 }
+
