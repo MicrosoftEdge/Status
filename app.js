@@ -18,6 +18,10 @@ app.get('/features', function(req, res){
    res.sendfile(path.join(__dirname, root, 'static', 'ie-status.json'));
 });
 
+app.get('/favicon.ico', function(req, res){
+    res.sendfile(path.join(__dirname, root, 'favicon.ico'));
+});
+
 app.get('/:id', function(req, res){
    res.sendfile(path.join(__dirname, root, 'index.html'));
 });
