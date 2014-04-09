@@ -785,7 +785,7 @@ progress {
 	.menu {
         max-width: 800px;
         position: relative;
-		margin-top: -42px;
+		margin-top: -41px;
     }
 	.menu-bar {
 			height: 59px;
@@ -800,7 +800,7 @@ progress {
 	li.menu-item a {
 		font-size: .8em;
 		min-width: 7.5em;
-		padding: 1.4em 1.5em 1.5em 1.5em;
+		padding: 1.4em 1.5em 1.45em 1.5em;
 		border-bottom-width: 10px;
 	}
 	.menu-item span {
@@ -808,13 +808,9 @@ progress {
 		display: block;
 	}
 
-    .icon-social{
-        margin: 0.2em 5.8em 1.2em 0;
-    }
-
-    .microsoft-logo{
-        margin: 0.4em 0 1em 2em;
-    }
+ 	.microsoft-logo, .icon-social {
+ 		margin-top: 0px;
+ 	}
 }
 
 @media screen and (max-width: 300px) {
