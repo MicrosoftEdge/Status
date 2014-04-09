@@ -58,6 +58,7 @@ label {
 
 /* Header */
 .header {
+	height: 25px;
 	background-color: #454545;
 	padding: 1.3em 0 1.1em .8em;
 	-moz-box-sizing: content-box;
@@ -168,8 +169,6 @@ button:focus {
 .filter-container {
     margin-bottom: 10px;
     background-color: #00BAF0;
-    overflow: auto;
-	width: 100%;
 }
 
 .filter-wrapper {
@@ -782,8 +781,8 @@ progress {
 	}
 	.menu {
         max-width: 800px;
-        position: absolute;
-		top: 1px;
+        position: relative;
+		margin-top: -17px;
     }
 	.menu-bar {
 			height: 59px;
@@ -798,13 +797,17 @@ progress {
 	li.menu-item a {
 		font-size: .8em;
 		min-width: 7.5em;
-		padding: 1.4em 1.5em 1.5em 1.5em;
+		padding: 1.4em 1.5em 1.46em 1.5em;
 		border-bottom-width: 10px;
 	}
 	.menu-item span {
 		font-size: 2.1em;
 		display: block;
 	}
+
+ 	.microsoft-logo, .icon-social {
+ 		margin-top: 0px;
+ 	}
 }
 
 @media screen and (max-width: 300px) {
