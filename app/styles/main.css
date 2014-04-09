@@ -784,8 +784,8 @@ progress {
 	}
 	.menu {
         max-width: 800px;
-        position: absolute;
-		top: 1px;
+        position: relative;
+		margin-top: -42px;
     }
 	.menu-bar {
 			height: 59px;
@@ -807,6 +807,14 @@ progress {
 		font-size: 2.1em;
 		display: block;
 	}
+
+    .icon-social{
+        margin: 0.2em 5.8em 1.2em 0;
+    }
+
+    .microsoft-logo{
+        margin: 0.4em 0 1em 2em;
+    }
 }
 
 @media screen and (max-width: 300px) {
