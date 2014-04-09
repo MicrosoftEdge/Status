@@ -23,7 +23,6 @@
     -o-transition: background-color 200ms;
     transition: background-color 200ms;
     cursor: pointer;
-    padding-left: 5px;
 }
 
 .feature.show header {
@@ -36,7 +35,7 @@
     max-width: calc(100% - 45px);
     height: 42px;
     margin: 0;
-    padding: 10px 0 0 5px;
+    padding: 10px 0 0 60px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -237,13 +236,10 @@
 }
 
 .feature-icon {
-    display: inline-block;
-    float: left;
-    margin: 0 8px 0 -8px;
-    -webkit-transform: scale(.5);
-    -ms-transform: scale(.5);
-    -o-transform: scale(.5);
-    transform: scale(.5);
+   display: block;
+   position: absolute;
+   left: 20px;
+   top: 13px;
 }
 
 .device header,
@@ -330,7 +326,7 @@
 
 @media screen and (min-width: 500px) and (max-width: 625px) {
     .feature header .feature_name {
-        padding: 17px 0 0 0;
+        padding: 17px 0 0 48px;
         font-size: 16px;
     }
 
