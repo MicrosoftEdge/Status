@@ -168,8 +168,6 @@ button:focus {
 .filter-container {
     margin-bottom: 10px;
     background-color: #00BAF0;
-    overflow: auto;
-	width: 100%;
 }
 
 .filter-wrapper {
