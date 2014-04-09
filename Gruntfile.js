@@ -301,6 +301,7 @@ module.exports = function (grunt) {
                 src: '<%= yeoman.app %>/images/icons/*.png',
                 destImg: '<%= yeoman.app %>/images/dist/spritesheet.png',
                 destCSS: '<%= yeoman.app %>/styles/sprites.css',
+                padding: 2,
                 imgPath: '/images/dist/spritesheet.png'
             }
         },

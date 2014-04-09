@@ -58,7 +58,6 @@ label {
 
 /* Header */
 .header {
-	height: 25px;
 	background-color: #454545;
 	padding: 1.3em 0 1.1em .8em;
 	-moz-box-sizing: content-box;
@@ -135,7 +134,7 @@ button:focus {
 }
 .icon-social {
 	float: right;
-	margin: 1.2em 5.8em 1.2em 0;
+	margin: 1.4em 5.8em 1.2em 0;
 }
 .share {
     text-decoration: none;
@@ -158,7 +157,7 @@ button:focus {
 
 .share.tw {
     position: relative;
-    top: -4px;
+    top: -7px;
 }
 
 .share.tw:hover::before {
@@ -477,6 +476,12 @@ footer {
 	pointer-events: none;
 }
 
+.siteLogo:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
 .siteLogo a {
 	float: left;
 	padding-left: 2.8em;
@@ -780,9 +785,9 @@ progress {
 		padding-bottom: 0;
 	}
 	.menu {
-        max-width: 800px;
+        max-width: 810px;
         position: relative;
-		margin-top: -17px;
+		margin-top: -41px;
     }
 	.menu-bar {
 			height: 59px;
