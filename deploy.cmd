@@ -49,22 +49,25 @@ IF NOT DEFINED KUDU_SYNC_CMD (
 )
 
 IF NOT DEFINED BOWER_CMD (
-  :: Install bower
-  echo %time% - Installing bower
-  call npm install bower -g --silent
-  IF !ERRORLEVEL! NEQ 0 goto error
-
-  :: Locally just running "bower" would also work
+  :: Check if bower installed
+  IF NOT EXIST "%appdata%\npm\node_modules\bower\bin\bower" (
+    :: Install bower  
+    echo %time% - Installing bower
+    call npm install bower -g --silent
+    IF !ERRORLEVEL! NEQ 0 goto error
+  )
+    
   SET BOWER_CMD=node "%appdata%\npm\node_modules\bower\bin\bower"
 )
 
 IF NOT DEFINED GRUNT_CMD (
-  :: %time% - Install grunt
-  echo Installing grunt-cli
-  call npm install grunt-cli -g --silent
-  IF !ERRORLEVEL! NEQ 0 goto error
-
-  :: Locally just running "grunt" would also work
+  :: Check if grunt installed
+  IF NOT EXIST "%appdata%\npm\node_modules\grunt-cli\bin\grunt" (
+    echo %time% Installing grunt-cli
+    call npm install grunt-cli -g --silent
+    IF !ERRORLEVEL! NEQ 0 goto error
+  )
+  
   SET GRUNT_CMD=node "%appdata%\npm\node_modules\grunt-cli\bin\grunt"
 )
 
@@ -130,9 +133,16 @@ call :SelectNodeVersion
 
 call :ExecuteCmd !NPM_CMD! version
 
+:: 1. KuduSync
+IF /I "%IN_PLACE_DEPLOYMENT%" NEQ "1" (
+  echo %time% - Executing KudySync
+  call :ExecuteCmd "%KUDU_SYNC_CMD%" -v 50 -f "%DEPLOYMENT_SOURCE%" -t "%DEPLOYMENT_TARGET%" -n "%NEXT_MANIFEST_PATH%" -p "%PREVIOUS_MANIFEST_PATH%" -i ".git;.hg;.deployment;deploy.cmd"
+  IF !ERRORLEVEL! NEQ 0 goto error
+)
+
 :: 2. Install npm packages
-IF EXIST "%DEPLOYMENT_SOURCE%\package.json" (
-  pushd "%DEPLOYMENT_SOURCE%"
+IF EXIST "%DEPLOYMENT_TARGET%\package.json" (
+  pushd "%DEPLOYMENT_TARGET%"
   ::We need to clear the cache because of this https://github.com/gruntjs/grunt-contrib-imagemin/issues/183
   echo %time% - Cleaning npm cache
   call :ExecuteCmd !NPM_CMD! cache clear
@@ -144,32 +154,20 @@ IF EXIST "%DEPLOYMENT_SOURCE%\package.json" (
 )
 
 :: 3. Install bower packages
-IF /I "%DEPLOYMENT_SOURCE%\bower.json" NEQ "1" (
-  pushd "%DEPLOYMENT_SOURCE%"
+IF /I "%DEPLOYMENT_TARGET%%\bower.json" NEQ "1" (
+  pushd "%DEPLOYMENT_TARGET%"
   echo %time% - Installing bower packages
   call :ExecuteCmd !BOWER_CMD! install --silent  
   popd
 )
 
 :: 4. Run grunt
-IF /I "%DEPLOYMENT_SOURCE%\Gruntfile.js" NEQ "1" (
-  pushd "%DEPLOYMENT_SOURCE%"  
+IF /I "%DEPLOYMENT_TARGET%\Gruntfile.js" NEQ "1" (
+  pushd "%DEPLOYMENT_TARGET%"  
   echo %time% - Running Grunt build
   call :ExecuteCmd !GRUNT_CMD! --no-color build
   ::IF !ERRORLEVEL! NEQ 0 goto error
   popd
-)
-
-IF EXIST "%DEPLOYMENT_TARGET%\node_modules" (
-  echo %time% - Deleting node modules in target
-  call rmdir /s /q "%DEPLOYMENT_TARGET%\node_modules"
-)
-
-:: 1. KuduSync
-IF /I "%IN_PLACE_DEPLOYMENT%" NEQ "1" (
-  echo %time% - Executing KudySync
-  call :ExecuteCmd "%KUDU_SYNC_CMD%" -v 50 -f "%DEPLOYMENT_SOURCE%" -t "%DEPLOYMENT_TARGET%" -n "%NEXT_MANIFEST_PATH%" -p "%PREVIOUS_MANIFEST_PATH%" -i ".git;.hg;.deployment;deploy.cmd"
-  IF !ERRORLEVEL! NEQ 0 goto error
 )
 
 echo %time% - End
