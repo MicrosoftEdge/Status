@@ -43,7 +43,7 @@ angular.module('statusieApp')
 
                 var specFinder = function (spec) {
                     if (!spec) {
-                        return '';
+                        return 'clip';
                     } else if (_.contains(spec, 'w3.org')) {
                         return 'w3c';
                     } else if (_.contains(spec, 'ecmascript.org')) {
@@ -57,7 +57,7 @@ angular.module('statusieApp')
                     } else if (_.contains(spec, 'ietf.org')) {
                         return 'ietf';
                     } else {
-                        return '';
+                        return 'clip';
                     }
                 };
 
