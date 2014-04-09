@@ -170,6 +170,12 @@ button:focus {
     background-color: #00BAF0;
 }
 
+.filter-container::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
 .filter-wrapper {
     width: 100%;
     background-size: cover;
