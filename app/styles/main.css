@@ -58,8 +58,10 @@ label {
 
 /* Header */
 .header {
+	height: 25px;
 	background-color: #454545;
 	padding: 1.3em 0 1.1em .8em;
+	-moz-box-sizing: content-box;
 	box-sizing: content-box;
 }
 
@@ -124,7 +126,6 @@ button:focus {
 	display: none;
 }
 .microsoft-logo a {
-	background: url("/images/microsoft-logo.png") no-repeat;
 	display: inline-block;
 	width: 112px;
 	height: 24px;
@@ -250,7 +251,7 @@ button:focus {
     width: 8px;
     height: 8px;
     background-image: none;
-    background: url("/images/remove-icon.png") no-repeat center top;
+    background: url("/images/icons/remove-icon.png") no-repeat center top;
 }
 
 .remove-icon:before {
@@ -439,7 +440,7 @@ div.term {
 }
 
 [type=checkbox]:checked + .check {
-    background-image: url("/images/check.png");
+    background-image: url("/images/icons/check.png");
 }
 
 [type=radio]:checked + .radio {
@@ -460,24 +461,20 @@ footer {
 }
 
 .siteLogo {
+	position: relative;
 	margin: 0 auto;
 	max-width: 1230px;	
 }
 .siteLogo:before {
 	position: absolute;
+	top: -.2em;
+	left: 0;
 	width: 28px; 
 	height: 28px;
-	margin-top: -.2em;
 	background: url("/images/ie-logo.png") no-repeat;
 	background-size: 28px;
 	content: "";
 	pointer-events: none;
-}
-
-.siteLogo:after {
-	content: "";
-	display: table;
-	clear: both;
 }
 
 .siteLogo a {
@@ -784,8 +781,8 @@ progress {
 	}
 	.menu {
         max-width: 800px;
-        position: absolute;
-		top: 1px;
+        position: relative;
+		margin-top: -17px;
     }
 	.menu-bar {
 			height: 59px;
@@ -800,13 +797,17 @@ progress {
 	li.menu-item a {
 		font-size: .8em;
 		min-width: 7.5em;
-		padding: 1.4em 1.5em 1.5em 1.5em;
+		padding: 1.4em 1.5em 1.46em 1.5em;
 		border-bottom-width: 10px;
 	}
 	.menu-item span {
 		font-size: 2.1em;
 		display: block;
 	}
+
+ 	.microsoft-logo, .icon-social {
+ 		margin-top: 0px;
+ 	}
 }
 
 @media screen and (max-width: 300px) {
