@@ -244,6 +244,13 @@ module.exports = function (grunt) {
             }
         },
 
+        nginline: {
+            dist: {
+                templates: ['app/templates/'],
+                src: ['.tmp/concat/scripts/scripts.js']
+            }
+        },
+
         // Replace Google CDN references
         cdnify: {
             dist: {
@@ -385,6 +392,7 @@ module.exports = function (grunt) {
         'autoprefixer',
         'concat',
         'ngmin',
+        'nginline',
         'copy:dist',
         'cdnify',
         'cssmin',
