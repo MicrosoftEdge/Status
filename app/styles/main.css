@@ -462,24 +462,20 @@ footer {
 }
 
 .siteLogo {
+	position: relative;
 	margin: 0 auto;
 	max-width: 1230px;	
 }
 .siteLogo:before {
 	position: absolute;
+	top: -.2em;
+	left: 0;
 	width: 28px; 
 	height: 28px;
-	margin-top: -.2em;
 	background: url("/images/ie-logo.png") no-repeat;
 	background-size: 28px;
 	content: "";
 	pointer-events: none;
-}
-
-.siteLogo:after {
-	content: "";
-	display: table;
-	clear: both;
 }
 
 .siteLogo a {
