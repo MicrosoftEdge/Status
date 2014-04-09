@@ -300,7 +300,8 @@ module.exports = function (grunt) {
                 algorithm: 'binary-tree',
                 src: '<%= yeoman.app %>/images/icons/*.png',
                 destImg: '<%= yeoman.app %>/images/dist/spritesheet.png',
-                destCSS: '<%= yeoman.app %>/styles/sprites.css'
+                destCSS: '<%= yeoman.app %>/styles/sprites.css',
+                imgPath: '/images/dist/spritesheet.png'
             }
         },
 
