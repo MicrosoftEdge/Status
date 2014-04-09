@@ -60,6 +60,7 @@ label {
 .header {
 	background-color: #454545;
 	padding: 1.3em 0 1.1em .8em;
+	-moz-box-sizing: content-box;
 	box-sizing: content-box;
 }
 
