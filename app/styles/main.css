@@ -9,13 +9,13 @@
 
 @font-face {
     font-family: "Segoe Custom";
-    src: url("https://www.modern.ie/cdn/fonts/West-European/Normal/latest.eot");
-    src: local("Segoe UI"), url("https://www.modern.ie/cdn/fonts/West-European/Normal/latest.woff") format("woff");
+    src: url("http://www.modern.ie/cdn/fonts/West-European/Normal/latest.eot");
+    src: local("Segoe UI"), url("http://www.modern.ie/cdn/fonts/West-European/Normal/latest.woff") format("woff");
 }
 
 @font-face {
     font-family: Icons;
-    src: url("https://www.modern.ie/cdn/fonts/icons-v3/modern-icons.woff");
+    src: url("http://www.modern.ie/cdn/fonts/icons-v3/modern-icons.woff");
 }
 
 * {
