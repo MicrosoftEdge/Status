@@ -218,6 +218,7 @@ button:focus {
 
 .form-group {
     width: 100%;
+    margin-bottom: 4px; /* Fixes #15 */ 
 }
 
 .form-control {
