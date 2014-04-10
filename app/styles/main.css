@@ -118,6 +118,7 @@ button:focus {
 	border-left: 3em solid #fff;
 	line-height: 1.5em;
 	padding: .2em 1em;
+	-moz-box-sizing: content-box;
 	box-sizing: content-box;
 }
 
