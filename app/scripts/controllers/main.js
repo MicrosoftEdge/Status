@@ -63,16 +63,17 @@ angular.module('statusieApp')
 
         Status.load()
             .then(function (data) {
-                features = _.sortBy(_.forEach(data.features, function (feature) {
-                    feature.visible = true;
-                }), $scope.sort);
-
-                //$scope.features = _.clone(features);
-                insertFeatures(features, true);
                 $scope.categories = data.categories;
                 $scope.browsers = data.browsers;
                 $scope.featureStatus = data.ieVersions;
                 $scope.loading = false;
+
+                features = _.sortBy(_.forEach(data.features, function (feature) {
+                    feature.visible = true;
+                }), $scope.sort);
                 $scope.limit = features.length;
+
+                //$scope.features = _.clone(features);
+                insertFeatures(features, true);
             });
     });
