@@ -232,22 +232,12 @@ button:focus {
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
 }
 
-.btn {
-	vertical-align: middle;
-	cursor: pointer;
-}
-
 .search-form-wrapper .btn {
     border: none;
-    padding: 0;
-    outline: none;
-    border-radius: 0;
     color: #fff;
     background-color: #0079c2;
-}
-
-.search-form-wrapper button:active {
-    box-shadow: none;
+    vertical-align: middle;
+	cursor: pointer;
 }
 
 .btn-add-filter {
@@ -425,10 +415,6 @@ button:focus {
     margin: 0 auto;
 }
 
-.info-row > div {
-    padding: 0;
-}
-
 .total-features {
     float: left;
     height: 60px;
@@ -467,7 +453,6 @@ div.term {
 .radio {
     border-radius: 50%;
     min-height: 0;
-    padding: 0;
 }
 
 .custom-check input {
@@ -482,7 +467,6 @@ div.term {
     display: block;
     width: 15px;
     height: 15px;
-    margin: 0;
     border: 1px solid #fff;
     background-image: none;
     background-color: #363f5d;
@@ -571,7 +555,6 @@ article {
     text-decoration: none;
 }
 
-/* Overriding col-md styles */
 .search-form-wrapper .col-md-7 {
     width: 56%;
 }
