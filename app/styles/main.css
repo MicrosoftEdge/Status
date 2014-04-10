@@ -18,16 +18,25 @@
     src: url("http://www.modern.ie/cdn/fonts/icons-v3/modern-icons.woff");
 }
 
-* {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
 
 /*So we can use calc for the height*/
 html {
     height: 100%;
     overflow-y: scroll;
+    background-color: #fff;
+	font-family: "Segoe Custom";
+}
+
+body {
+	font-size: 14px;
+	line-height: 1.428571429;
 }
 
 body,
@@ -35,30 +44,31 @@ body,
     height: 100%;
 }
 
-a:link img {
-    border: 0;
-}
-
-html,
-body {
-    margin: 0;
-    background-color: #fff;
-    font-family: "Segoe Custom";
-}
-
 h1 {
 	font-family: "Segoe Custom";
 	font-weight: normal;
+  	line-height: 1.1;
+}
+
+p {
+	margin: 0 0 10px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .clear {
     clear: both;
 }
 
-/* Overrides */
 label {
-    font-weight: normal;
-    margin-bottom: 0;
+	display: inline-block;
+}
+
+.sr-only {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
 }
 
 /* Header */
@@ -191,6 +201,11 @@ button:focus {
     margin: 0 auto;
 }
 
+.row:after, .row:before {
+	display: table;
+	content: " ";
+}
+
 .search-form-wrapper,
 .search-form-wrapper > .col-md-5 {
     padding: 0;
@@ -210,7 +225,15 @@ button:focus {
     min-width: 200px;
     height: 35px;
     border: solid 1px #c7c7c7;
-    border-radius: 0;
+    padding: 6px 12px;
+    vertical-align: middle;
+  	font-size: 14px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+.btn {
+	vertical-align: middle;
+	cursor: pointer;
 }
 
 .search-form-wrapper .btn {
@@ -273,16 +296,32 @@ button:focus {
 }
 
 /* Dropdown menu */
+.dropdown {
+  position: relative;
+}
+
 .dropdown-menu {
+	display: none;
+	position: absolute;
+	top: 100%;
     left: auto;
     right: -1px;
+    z-index: 1;
     width: 200px;
     margin-top: -2px;
+    border: 1px solid #ccc;
+	border: 1px solid rgba(0, 0, 0, 0.15);
     padding: 0;
+    font-size: 14px;
     text-align: left;
     background-color: #00BAF0;
-    border-radius: 0;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
     color: #fff;
+    list-style: none;
+}
+
+.open > .dropdown-menu {
+  display: block;
 }
 
 .dropdown-arrow {
