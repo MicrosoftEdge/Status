@@ -46,6 +46,11 @@ body {
     font-family: "Segoe Custom";
 }
 
+h1 {
+	font-family: "Segoe Custom";
+	font-weight: normal;
+}
+
 .clear {
     clear: both;
 }
