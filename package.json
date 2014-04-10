@@ -34,7 +34,8 @@
     "jpegtran-bin": "^0.2.6",
     "optipng-bin": "^0.3.3",
     "grunt-spritesmith": "^1.24.0",
-    "grunt-nginline": "git+https://git@github.com/molant/grunt-inline-angular-template.git"
+    "grunt-nginline": "git+https://git@github.com/molant/grunt-inline-angular-template.git",
+    "grunt-json-minify": "^0.4.0"
   },
   "engines": {
     "node": ">=0.8.0"

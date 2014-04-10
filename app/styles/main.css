@@ -9,13 +9,13 @@
 
 @font-face {
     font-family: "Segoe Custom";
-    src: url("https://www.modern.ie/cdn/fonts/West-European/Normal/latest.eot");
-    src: local("Segoe UI"), url("https://www.modern.ie/cdn/fonts/West-European/Normal/latest.woff") format("woff");
+    src: url("http://www.modern.ie/cdn/fonts/west-european/normal/latest.eot");
+    src: local("Segoe UI"), url("http://www.modern.ie/cdn/fonts/west-european/normal/latest.woff") format("woff");
 }
 
 @font-face {
     font-family: Icons;
-    src: url("https://www.modern.ie/cdn/fonts/icons-v3/modern-icons.woff");
+    src: url("http://www.modern.ie/cdn/fonts/icons-v3/modern-icons.woff");
 }
 
 * {
@@ -44,6 +44,11 @@ body {
     margin: 0;
     background-color: #fff;
     font-family: "Segoe Custom";
+}
+
+h1 {
+	font-family: "Segoe Custom";
+	font-weight: normal;
 }
 
 .clear {
@@ -793,10 +798,10 @@ progress {
 	.menu {
         max-width: 810px;
         position: relative;
-		margin-top: -41px;
+		margin-top: -42px;
     }
 	.menu-bar {
-			height: 59px;
+			height: 60px;
 			position: static;
 			width: inherit;
 	}
@@ -806,11 +811,12 @@ progress {
 	}
 
 	li.menu-item a {
-		font-size: .8em;
+		font-size: 10px;
 		min-width: 7.5em;
-		padding: 1.4em 1.5em 1.46em 1.5em;
+		padding: 15px;
 		border-bottom-width: 10px;
 	}
+	
 	.menu-item span {
 		font-size: 2.1em;
 		display: block;
