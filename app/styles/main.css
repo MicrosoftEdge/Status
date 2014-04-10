@@ -793,10 +793,10 @@ progress {
 	.menu {
         max-width: 810px;
         position: relative;
-		margin-top: -41px;
+		margin-top: -42px;
     }
 	.menu-bar {
-			height: 59px;
+			height: 60px;
 			position: static;
 			width: inherit;
 	}
@@ -806,11 +806,12 @@ progress {
 	}
 
 	li.menu-item a {
-		font-size: .8em;
+		font-size: 10px;
 		min-width: 7.5em;
-		padding: 1.4em 1.5em 1.46em 1.5em;
+		padding: 15px;
 		border-bottom-width: 10px;
 	}
+	
 	.menu-item span {
 		font-size: 2.1em;
 		display: block;
