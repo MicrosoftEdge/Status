@@ -333,9 +333,9 @@ button:focus {
     -ms-transform: rotate(180deg);
     -o-transform: rotate(180deg);
     transform: rotate(180deg);
-    -webkit-transition: all 500ms;
-    -o-transition: all 500ms;
-    transition: all 500ms;
+    -webkit-transition: -webkit-transform 300ms;
+    -o-transition: -o-transform 300ms;
+    transition: transform 300ms;
 }
 
 .dropdown.open .dropdown-arrow i {

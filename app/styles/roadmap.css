@@ -4,9 +4,9 @@
     margin: 0 auto 20px;
     padding: 0;
     overflow: hidden;
-    -webkit-transition: height 500ms;
-    -o-transition: height 500ms;
-    transition: height 500ms;
+    -webkit-transition: height 300ms;
+    -o-transition: height 300ms;
+    transition: height 300ms;
 }
 
 .feature.show {
@@ -72,9 +72,9 @@
     -ms-transform: rotate(-180deg);
     -o-transform: rotate(-180deg);
     transform: rotate(-180deg);
-    -webkit-transition: all 500ms;
-    -o-transition: all 500ms;
-    transition: all 500ms;
+    -webkit-transition: -webkit-transform 300ms;
+    -o-transition: -o-transform 300ms;
+    transition: transform 300ms;
 }
 
 .feature.show .collapsebtn {
