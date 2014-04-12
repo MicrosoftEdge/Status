@@ -19,7 +19,7 @@ app.get('/features', function(req, res){
 });
 
 app.get('/favicon.ico', function(req, res){
-    res.sendfile(path.join(__dirname, root, 'favicon.ico'));
+    res.sendfile(path.join(__dirname, root, 'favicon.ico'), { maxAge: 31557600000 });
 });
 
 app.get('/:id', function(req, res){
