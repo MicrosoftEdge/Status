@@ -15,12 +15,12 @@ angular.module('statusieApp')
                 var ele = document.getElementById(id);
                 if (ele) {
                     ele.scrollIntoView();
-                    window.scrollTo(0, (window.scrollY || document.documentElement.scrollTop) - 130);
+                    window.scrollTo(0, (window.scrollY || document.documentElement.scrollTop) - 135);
                 }
             }
         };
 
-        var insertFeatures = function (features, scroll) {
+        var insertFeatures = function (features, callback) {
             var featuresCp = _.clone(features);
             $scope.features = [];
 
@@ -28,8 +28,8 @@ angular.module('statusieApp')
                 if (featuresCp.length > 0) {
                     $scope.features.push.apply($scope.features, featuresCp.splice(0, 5));
                     $timeout(insertFeature, 0);
-                }else if(scroll){
-                    scrollToFeature();
+                }else if(callback){
+                    callback();
                 }
             };
 
@@ -74,6 +74,9 @@ angular.module('statusieApp')
                 $scope.limit = features.length;
 
                 //$scope.features = _.clone(features);
-                insertFeatures(features, true);
+                insertFeatures(features, function(){
+                    $scope.$on('$locationChangeSuccess', scrollToFeature);
+                    scrollToFeature();
+                });
             });
     });
