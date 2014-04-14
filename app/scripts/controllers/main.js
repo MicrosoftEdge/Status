@@ -1,5 +1,5 @@
 angular.module('statusieApp')
-    .controller('MainCtrl', function ($scope, $location, $timeout, Status) {
+    .controller('MainCtrl', function ($scope, $location, $timeout, $window, Status) {
         'use strict';
 
         var features;
@@ -12,8 +12,10 @@ angular.module('statusieApp')
             if (id) {
                 var ele = document.getElementById(id);
                 if (ele) {
-                    ele.scrollIntoView();
-                    window.scrollTo(0, (window.scrollY || document.documentElement.scrollTop) - 135);
+                    $timeout(function(){
+                        ele.scrollIntoView();
+                        window.scrollTo(0, (window.scrollY || document.documentElement.scrollTop) - 135);
+                    }, 0);
                 }
             }
         };
@@ -82,11 +84,19 @@ angular.module('statusieApp')
 
                 //$scope.features = _.clone(features);
                 insertFeatures(features, function(){
+                    var historyLength = 0;
+
                     $scope.$on('$locationChangeSuccess', function(){
                         var featureId = getFeatureId();
                         trackFeature(featureId);
-                        scrollToFeature(featureId);
                     });
+
+                    // We only want to autoscroll if navigating directly to a feature or in back navigation
+                    $window.onpopstate = function(){
+                        var featureId = getFeatureId();
+                        scrollToFeature(featureId);
+                    };
+
                     var featureId = getFeatureId();
                     trackFeature(featureId);
                     scrollToFeature(featureId);
