@@ -65,7 +65,7 @@ angular.module('statusieApp')
         };
 
         var trackFeature = function(id){
-            _gaq = ['_trackPageview', '/status/' + id];
+            _gaq.push(['_trackPageview', '/status/' + id]);
         };
 
         Status.load()
