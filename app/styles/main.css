@@ -762,7 +762,7 @@ progress {
         display: none;
     }
     .sticky {
-		display: none !important;
+		display: none;
 	}
 	
 	.header {
