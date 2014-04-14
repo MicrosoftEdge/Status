@@ -615,8 +615,8 @@ progress {
     width: 160px;
     padding: 7px 0 7px 30px;
     font: bold 17px Sans-Serif;
+    text-shadow: 0 0 5px #000;
     text-align: center;
-    text-shadow: rgba(255, 255, 255, .5) 0 1px 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
@@ -625,7 +625,6 @@ progress {
     background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #444 10px, #444 20px);
     box-shadow: 0 0 3px rgba(0, 0, 0, .3);
     color: #fff;
-    text-shadow: 0 0 5px #000;
 }
 
 .hide {
