@@ -8,10 +8,8 @@ angular.module('statusieApp')
         $scope.limit = 0;
         $scope.loading = true;
 
-        var scrollToFeature = function(){
-            var path = $location.path();
-            if (path) {
-                var id = path.substr(1);
+        var scrollToFeature = function(id){
+            if (id) {
                 var ele = document.getElementById(id);
                 if (ele) {
                     ele.scrollIntoView();
@@ -61,6 +59,15 @@ angular.module('statusieApp')
             $scope.limit = (filteredFeatures || []).length;
         });
 
+        var getFeatureId  = function(){
+            var path = $location.path();
+            return path.substr(1) || "";
+        };
+
+        var trackFeature = function(id){
+            _gaq.push(['_trackPageview', '/status/' + id]);
+        };
+
         Status.load()
             .then(function (data) {
                 $scope.categories = data.categories;
@@ -75,8 +82,14 @@ angular.module('statusieApp')
 
                 //$scope.features = _.clone(features);
                 insertFeatures(features, function(){
-                    $scope.$on('$locationChangeSuccess', scrollToFeature);
-                    scrollToFeature();
+                    $scope.$on('$locationChangeSuccess', function(){
+                        var featureId = getFeatureId();
+                        trackFeature(featureId);
+                        scrollToFeature(featureId);
+                    });
+                    var featureId = getFeatureId();
+                    trackFeature(featureId);
+                    scrollToFeature(featureId);
                 });
             });
     });
