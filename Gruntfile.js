@@ -189,6 +189,7 @@ module.exports = function (grunt) {
         imagemin: {
             dist: {
                 options: {
+                    optimizationLevel: 0,
                     pngquant: true
                 },
                 files: [
