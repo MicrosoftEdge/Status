@@ -79,9 +79,13 @@ label {
 	box-sizing: content-box;
 }
 
+a:active,
+a:focus,
+input:active,
+input:focus,
 button:active,
 button:focus {
-    outline: 0;
+    outline: 2px solid rgba(102,204,255,.6);
 }
 
 .menu {
