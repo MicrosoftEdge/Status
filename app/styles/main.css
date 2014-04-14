@@ -171,12 +171,12 @@ button:focus {
     transition: color 200ms;
 }
 
-.share.tw {
+.tw {
     position: relative;
     top: -7px;
 }
 
-.share.tw:hover::before {
+.tw:hover::before {
     color: #00aeef;
 }
 
@@ -245,7 +245,7 @@ button:focus {
     width: 35px;
 }
 
-.btn.btn-single-filter {
+.btn-single-filter {
     position: relative;
     max-width: calc(50% - 4px);
     margin: 0 0 4px 4px;
@@ -333,7 +333,7 @@ button:focus {
     transition: transform 300ms;
 }
 
-.dropdown.open .dropdown-arrow i {
+.open .dropdown-arrow i {
     -webkit-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     -o-transform: rotate(360deg);
@@ -430,8 +430,7 @@ button:focus {
     padding: 15px 0 5px 0;
 }
 
-.float,
-div.term {
+.float {
     float: left;
 }
 
