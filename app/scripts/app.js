@@ -1,6 +1,4 @@
 angular.module('statusieApp', [
-    'ngCookies',
-    'ngSanitize',
     'pasvaz.bindonce',
     'ui.bootstrap'
 ])
