@@ -67,16 +67,14 @@
 	<div class="filter-container" data-notmobile data-sticky>
 		<filter></filter>
 		<div class="info-row">
-			<div class="col-md-4 float">
+			<div class="col-md-4">
 				<div class="total-features" aria-live="polite">{{limit}}</div>
 			</div>
-			<div class="col-md-8 float">
-				<div class="filter-switchs-wrapper">
-					<featuresorting></featuresorting>
-					<drowpdownfilter data-options="{selections: categories, name: 'Technologies'}"></drowpdownfilter>
-					<drowpdownfilter data-options="{selections: browsers, name: 'Browsers'}"></drowpdownfilter>
-					<drowpdownfilter data-options="{selections: featureStatus, name: 'Status'}"></drowpdownfilter>
-				</div>
+			<div class="col-md-8">
+				<featuresorting></featuresorting>
+				<drowpdownfilter data-options="{selections: categories, name: 'Technologies'}"></drowpdownfilter>
+				<drowpdownfilter data-options="{selections: browsers, name: 'Browsers'}"></drowpdownfilter>
+				<drowpdownfilter data-options="{selections: featureStatus, name: 'Status'}"></drowpdownfilter>
 			</div>
 		</div>
 	</div>
