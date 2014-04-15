@@ -77,6 +77,7 @@ angular.module('statusieApp')
                         case 'In development': status = 'In Development'; break;
                         case 'Shipped': status = featureStatus; break;
                         case 'In Development': status = featureStatus; break;
+                        case 'Behind a flag': status = 'In Development'; break;
                         case 1: status = 'Shipped'; break;
                         case 2: status = 'In Development'; break;
                         default: status = 'Not Supported';
