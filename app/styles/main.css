@@ -81,10 +81,10 @@ button:focus {
 
 /* Header */
 .header {
-	background-color: #454545;
 	padding: 1.3em 0 1.1em .8em;
 	-moz-box-sizing: content-box;
 	box-sizing: content-box;
+	background-color: #454545;
 }
 
 .siteLogo {
@@ -92,6 +92,7 @@ button:focus {
 	margin: 0 auto;
 	max-width: 1230px;	
 }
+
 .siteLogo:before {
 	position: absolute;
 	top: -.2em;
@@ -105,9 +106,9 @@ button:focus {
 }
 
 .siteLogo:after {
-	content: "";
 	display: table;
 	clear: both;
+	content: "";
 }
 
 .siteLogo a {
@@ -134,8 +135,8 @@ button:focus {
 }
 
 .menu-bar {
-	background-color: #454545;
 	display: inline-block;
+	background-color: #454545;
 }
 
 .menu-item {
@@ -152,9 +153,9 @@ button:focus {
 	display: block;
 	-moz-box-sizing: content-box;
 	box-sizing: content-box;
+	padding: .2em 1em;
 	color: #fff;
 	line-height: 1.5em;
-	padding: .2em 1em;
 }
 
 .menu-item-tools a {
@@ -179,9 +180,9 @@ button:focus {
 	display: inline-block;
 	width: 112px;
 	height: 24px;
+	overflow: hidden;
 	text-indent: 100%;
 	white-space: nowrap;
-	overflow: hidden;
 }
 .icon-social {
 	position: relative;
@@ -404,8 +405,8 @@ button:focus {
 }
 
 .dropdown-menu li input {
-    vertical-align: top;
     margin-top: 12px;
+    vertical-align: top;
 }
 
 .dropdown-menu li label:not(.check):not(.radio) {
@@ -445,8 +446,8 @@ button:focus {
 }
 
 .radio {
+	min-height: 0;
     border-radius: 50%;
-    min-height: 0;
 }
 
 .custom-check input {
