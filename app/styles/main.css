@@ -1,4 +1,4 @@
-/* Basic Theming */
+/* COMMON STYLING */
 @-ms-viewport {
     width: device-width;
 }
@@ -39,6 +39,11 @@ body,
     height: 100%;
 }
 
+article {
+    min-height: calc(100% - 235px);
+    position: relative;
+}
+
 h1 {
 	font-weight: normal;
   	line-height: 1.1;
@@ -52,12 +57,30 @@ a {
   text-decoration: none;
 }
 
-.clear {
-    clear: both;
+a:focus,
+input:focus,
+button:focus {
+    outline: 2px solid rgba(102,204,255,.6);
 }
 
 label {
 	display: inline-block;
+}
+
+/* UTILITY CLASSES */
+.clear {
+    clear: both;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.hide {
+    display: none;
 }
 
 .sr-only {
@@ -65,13 +88,30 @@ label {
   clip: rect(0, 0, 0, 0);
 }
 
-a:focus,
-input:focus,
-button:focus {
-    outline: 2px solid rgba(102,204,255,.6);
+/* LOADING SCREEN */
+.progress-wrapper {
+    position: absolute;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
-/* Header */
+progress {
+    width: 200px;
+    height: 10px;
+    border: none;
+}
+
+/* HEADER */
 .header {
 	padding: 1.3em 0 1.1em .8em;
 	-moz-box-sizing: content-box;
@@ -79,6 +119,7 @@ button:focus {
 	background-color: #454545;
 }
 
+/* HEADER: Logo */
 .siteLogo {
 	position: relative;
 	margin: 0 auto;
@@ -110,6 +151,7 @@ button:focus {
 	line-height: 1em;
 }
 
+/* HEADER: Menu */
 .menu {
 	position: absolute;
 	top: 0;
@@ -124,10 +166,6 @@ button:focus {
 	background-color: #454545;
 }
 
-.menu-anchor a, .menu-bar .active a, .menu-item a:hover {
-	color: #00abe1;
-}
-
 .menu-item a {
 	display: block;
 	-moz-box-sizing: content-box;
@@ -136,6 +174,10 @@ button:focus {
 	padding: .2em 1em;
 	color: #fff;
 	line-height: 1.5em;
+}
+
+.menu-item a:hover {
+	color: #00abe1;
 }
 
 .menu-item-tools a {
@@ -153,6 +195,8 @@ button:focus {
 .menu-item-involved a {
 	border-color: #ff8c00;
 }
+
+/* HEADER: Other links */
 .microsoft-logo {
 	display: none;
 }
@@ -179,7 +223,7 @@ button:focus {
 	background-size: 29px auto;
 }
 
-/* Filters */
+/* FILTERS */
 .filter-container {
     margin-bottom: 10px;
     background-color: #00BAF0;
@@ -197,12 +241,76 @@ button:focus {
     padding: 15px 0 5px 0;
 }
 
+/* FILTERS: Search */
+.search-form-wrapper .btn {
+	float: left;
+	height: 35px;
+    border: none;
+    color: #fff;
+    background-color: #0079c2;
+	cursor: pointer;
+}
+
+/* FILTERS: Search: form */
+.form-group {
+    width: 44%;
+}
+
+.form-control {
+	float: left;
+	width: calc(100% - 39px);
+    min-width: 200px;
+    height: 35px;
+    margin: 0 4px 4px 0; /* Bottom margin fixes #15 */ 
+    border: solid 1px #c7c7c7;
+    padding: 6px 12px;
+  	font-size: inherit;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+.btn-add-filter {
+    width: 35px;
+}
+
+/* FILTERS: Search: tags */
 .single-filters-wrapper {
     width: 56%;
     padding-left: 4px;
     overflow-y: hidden;
 }
 
+.btn-single-filter {
+    position: relative;
+    max-width: calc(50% - 4px);
+    margin: 0 0 4px 4px;
+    padding: 0 32px 0 8px;
+}
+
+.single-filter-text {
+    height: 100%;
+    width: 100%;
+    padding-top: 2px;
+    overflow: hidden;
+    line-height: 30px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.remove-icon {
+    position: absolute;
+    top: 14px;
+    right: 8px;
+    width: 8px;
+    height: 8px;
+    background-image: none;
+    background: url("/images/icons/remove-icon.png") no-repeat center top;
+}
+
+.remove-icon:before {
+    content: none;
+}
+
+/* FILTERS: Filter selection */
 .info-row {
 	display: table;
     width: 800px;
@@ -238,69 +346,20 @@ button:focus {
     padding-left: 12px;
 }
 
-.form-group {
-    width: 44%;
-}
-
-.form-control {
-	float: left;
-	width: calc(100% - 39px);
-    min-width: 200px;
-    height: 35px;
-    margin: 0 4px 4px 0; /* Bottom margin fixes #15 */ 
-    border: solid 1px #c7c7c7;
-    padding: 6px 12px;
-  	font-size: inherit;
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-}
-
-.search-form-wrapper .btn {
-	float: left;
-	height: 35px;
-    border: none;
-    color: #fff;
-    background-color: #0079c2;
-	cursor: pointer;
-}
-
-.btn-add-filter {
-    width: 35px;
-}
-
-.btn-single-filter {
-    position: relative;
-    max-width: calc(50% - 4px);
-    margin: 0 0 4px 4px;
-    padding: 0 32px 0 8px;
-}
-
-.single-filter-text {
-    height: 100%;
-    width: 100%;
-    padding-top: 2px;
-    overflow: hidden;
-    line-height: 30px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-
-.btn .remove-icon {
-    position: absolute;
-    top: 14px;
-    right: 8px;
-    width: 8px;
-    height: 8px;
-    background-image: none;
-    background: url("/images/icons/remove-icon.png") no-repeat center top;
-}
-
-.remove-icon:before {
-    content: none;
-}
-
-/* Dropdown menu */
+/* FILTERS: Filter selection: dropdown */
 .dropdown {
   position: relative;
+}
+
+.dropdown-toggle {
+    font-size: 20px;
+    cursor: pointer;
+    color: #FFF;
+}
+
+.dropdown-toggle:hover {
+    text-decoration: none;
+    color: #434e7b;
 }
 
 .dropdown-menu {
@@ -320,10 +379,6 @@ button:focus {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
     color: #fff;
     list-style: none;
-}
-
-.open > .dropdown-menu {
-  display: block;
 }
 
 .dropdown-arrow {
@@ -356,28 +411,31 @@ button:focus {
     transform: rotate(360deg);
 }
 
+.open > .dropdown-menu {
+  display: block;
+}
+
 .dropdown-menu li {
     height: 36px;
     border-bottom: solid 1px #0079c2;
     padding: 0 10px;
 }
 
-.dropdown-menu .disabled .custom-check,
-.dropdown-menu .disabled label {
-    opacity: .5;
+.dropdown-menu li:last-child {
+    border-bottom: none;
 }
 
 .dropdown-menu li:hover {
     background-color: #0079c2;
 }
 
-.dropdown-menu li:last-child {
-    border-bottom: none;
-}
-
 .dropdown-menu li input {
     margin-top: 12px;
     vertical-align: top;
+}
+
+.dropdown-menu li .custom-check {
+    margin-top: 10px;
 }
 
 .dropdown-menu li label:not(.check):not(.radio) {
@@ -391,22 +449,12 @@ button:focus {
     cursor: pointer;
 }
 
-.dropdown-menu li .custom-check {
-    margin-top: 10px;
+.dropdown-menu .disabled .custom-check,
+.dropdown-menu .disabled label {
+    opacity: .5;
 }
 
-.dropdown a {
-    font-size: 20px;
-    cursor: pointer;
-    color: #FFF;
-}
-
-.dropdown a:hover {
-    text-decoration: none;
-    color: #434e7b;
-}
-
-/* Custom checkboxes */
+/* CUSTOM CONTROLS */
 .custom-check {
     position: relative;
     float: left;
@@ -414,11 +462,6 @@ button:focus {
     height: 15px;
     margin: 6px 10px 0 0;
     overflow: hidden;
-}
-
-.radio {
-	min-height: 0;
-    border-radius: 50%;
 }
 
 .custom-check input {
@@ -439,6 +482,11 @@ button:focus {
     cursor: pointer;
 }
 
+.radio {
+	min-height: 0;
+    border-radius: 50%;
+}
+
 [type=checkbox]:checked + .check {
     background-image: url("/images/icons/check.png");
 }
@@ -448,40 +496,7 @@ button:focus {
     box-shadow: 0 0 0 3px #363f5d inset;
 }
 
-article {
-    min-height: calc(100% - 235px);
-    position: relative;
-}
-
-.fixed {
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    width: 100%;
-}
-
-.progress-wrapper {
-    position: absolute;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    height: 100%;
-
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-}
-
-progress {
-    width: 200px;
-    height: 10px;
-    border: none;
-}
-
+/* BETA RIBBON */
 .ribbon-wrapper {
     position: fixed;
     top: 0;
@@ -511,6 +526,8 @@ progress {
     color: #fff;
 }
 
+/* FOOTER */
+
 footer {
     width: 100%;
     min-height: 35px;
@@ -533,10 +550,6 @@ footer {
 
 .links a:hover {
     text-decoration: none;
-}
-
-.hide {
-    display: none;
 }
 
 @media screen and (min-width: 960px) {

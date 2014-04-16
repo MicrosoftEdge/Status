@@ -1,3 +1,4 @@
+/* FEATURE */
 .feature {
     position: relative;
     width: calc(100% - 20px);
@@ -10,11 +11,24 @@
     transition: height 300ms;
 }
 
+/* FEATURE: Reveal states */
 .show {
     height: 225px;
 }
 
-.feature header {
+.show header {
+    background-color: #d8dbe9;
+}
+
+.show .collapsebtn {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0);
+}
+
+/* FEATURE: Header */
+.feature-header {
     height: 50px;
     margin: 0;
     border-left: 10px solid;
@@ -24,10 +38,6 @@
     -o-transition: background-color 200ms;
     transition: background-color 200ms;
     cursor: pointer;
-}
-
-.show header {
-    background-color: #d8dbe9;
 }
 
 .feature_name {
@@ -60,7 +70,7 @@
     text-align: right;
 }
 
-.feature .collapsebtn {
+.collapsebtn {
     float: left;
     width: 40px;
     height: 40px;
@@ -78,19 +88,17 @@
     -webkit-transition: -webkit-transform 300ms;
     -o-transition: -o-transform 300ms;
     transition: transform 300ms;
-}
-
-.show .collapsebtn {
-    -webkit-transform: rotate(0);
-    -ms-transform: rotate(0);
-    -o-transform: rotate(0);
-    transform: rotate(0);
-}
-
-.feature .collapsebtn:hover {
     cursor: pointer;
 }
 
+.feature-icon {
+   display: block;
+   position: absolute;
+   left: 20px;
+   top: 13px;
+}
+
+/* FEATURE: Body */
 .feature-body-wrapper {
     position: relative;
     height: 175px;
@@ -103,6 +111,7 @@
     line-height: 1.6;
 }
 
+/* FEATURE: Body: status */
 .feature-status-wrapper {
     position: absolute;
     bottom: 0;
@@ -129,6 +138,22 @@
     background-size: auto;
 }
 
+.feature_status a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: #000;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none;
+}
+
+.feature_status a:hover {
+    cursor: pointer;
+}
+
+/* FEATURE: Body: status: browsers */
 .browsers {
     float: right;
 }
@@ -149,21 +174,7 @@
     opacity: 1;
 }
 
-.feature_status a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    color: #000;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    text-decoration: none;
-}
-
-.feature_status a:hover {
-    cursor: pointer;
-}
-
+/* FEATURE: Body: status: information */
 .info {
     float: left;
     max-width: 560px;
@@ -191,7 +202,7 @@
     left: 5px;
 }
 
-/* API Category Styles */
+/* FEATURE: API Category Styles */
 
 .css .feature-body-wrapper {
     border-color: #f7b294;
@@ -236,13 +247,6 @@
 
 .css header {
     border-color: #ef6529;
-}
-
-.feature-icon {
-   display: block;
-   position: absolute;
-   left: 20px;
-   top: 13px;
 }
 
 .device header,
