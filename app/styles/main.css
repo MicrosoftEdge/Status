@@ -13,11 +13,6 @@
     src: local("Segoe UI"), url("http://www.modern.ie/cdn/fonts/west-european/normal/latest.woff") format("woff");
 }
 
-@font-face {
-    font-family: Icons;
-    src: url("http://www.modern.ie/cdn/fonts/icons-v3/modern-icons.woff");
-}
-
 *, *::before, *::after {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -161,31 +156,27 @@ button:focus {
 .microsoft-logo {
 	display: none;
 }
-.microsoft-logo a {
+
+.microsoft-logo a,
+.tw {
 	display: inline-block;
-	width: 112px;
-	height: 24px;
 	overflow: hidden;
 	text-indent: 100%;
 	white-space: nowrap;
 }
+.microsoft-logo a {
+	width: 112px;
+	height: 24px;
+}
 .icon-social {
     float: right;
-	margin: 1.1em 5.8em 1.1em 0;
+	margin-top: 1.45em;
 }
-
-.tw::before {
-    color: #6D6E71;
-    font-family: Icons;
-    font-size: 23px;
-    content: attr(data-icon);
-    -webkit-transition: color 200ms;
-    -o-transition: color 200ms;
-    transition: color 200ms;
-}
-
-.tw:hover::before {
-    color: #00aeef;
+.tw {
+	width: 30px;
+	height: 26px;
+	background: url("/images/twitter-logo.svg") no-repeat;
+	background-size: 29px auto;
 }
 
 /* Filters */
@@ -552,7 +543,7 @@ footer {
 	.microsoft-logo {
 		display: block;
 		float: right;
-		margin: 1.4em 0 1em 2em;
+		margin: 1.4em 0 0 1.9em;
 	}
 	.icon-social {
 		margin-right: 0;
