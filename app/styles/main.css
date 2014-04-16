@@ -68,10 +68,6 @@ label {
 }
 
 /* UTILITY CLASSES */
-.clear {
-    clear: both;
-}
-
 .fixed {
     position: fixed;
     top: 0;
@@ -229,7 +225,8 @@ progress {
     background-color: #00BAF0;
 }
 
-.filter-container::after {
+.filter-container::after,
+.search-form-wrapper::after {
 	display: table;
 	content: "";
 	clear: both;
