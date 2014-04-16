@@ -331,6 +331,26 @@ module.exports = function (grunt) {
             }
         },
 
+        htmlSnapshot: {
+            debug: {
+                options: {
+                    snapshotPath: 'snapshots/',
+                    sitePath: 'http://127.0.0.1:9000/',
+                    msWaitForPages: 3000,
+                    removeScripts: true,
+                    //set `removeLinkTags` to true. It's false by default
+                    removeLinkTags: true,
+                    urls: [
+                        '/'
+                    ]
+                }
+            },
+            prod: {
+                options: {}
+            }
+        },
+
+
         // By default, your `index.html`'s <!-- Usemin block --> will take care of
         // minification. These next options are pre-configured if you do not wish
         // to use the Usemin blocks.

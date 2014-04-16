@@ -2,10 +2,29 @@ var express = require('express'),
     cors = require('cors'),
     path = require('path'),
     fs = require('fs'),
+    os = require('os'),
+    snapshot = require('./lib/snapshot.js'),
     port = process.env.PORT || 9000,
     app = express(),
     root = 'dist',
     debug = false;
+
+var interfaces = os.networkInterfaces();
+var addresses = [];
+for (var k in interfaces) {
+    for (var k2 in interfaces[k]) {
+        var address = interfaces[k][k2];
+        if (address.family == 'IPv4' && !address.internal) {
+            addresses.push(address.address)
+        }
+    }
+}
+
+var localUrl = 'http://' + addresses[0];
+if (!process.env.PORT) {
+    localUrl += ':9000';
+}
+
 
 if(process.argv[2] === 'debug'){
     root = 'app';
@@ -37,3 +56,4 @@ if(debug){
 
 app.listen(port);
 
+snapshot.take(localUrl);
