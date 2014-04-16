@@ -485,7 +485,7 @@ progress {
 }
 
 [type=checkbox]:checked + .check {
-    background-image: url("/images/icons/check.png");
+    background-image: url("/images/check.png");
 }
 
 [type=radio]:checked + .radio {

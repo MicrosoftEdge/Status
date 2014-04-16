@@ -5,28 +5,37 @@ angular.module('statusieApp')
         return {
             restrict: 'A',
             link: function postLink(scope, element) {
-                var topOffset = element.offset().top;
+                element = element[0];
+                var topOffset = element.offsetTop;
                 var $win = angular.element($window);
+                var originalClasses = element.className;
                 var locked = false,
                     calculated = false;
 
-                var fill = $('<div class="hide sticky"></div>').insertBefore(element);
+
+
+                var div = document.createElement('div');
+                div.className = "hide sticky";
+
+                var parent = element.parentNode;
+
+                var fill = parent.insertBefore(div, element);
 
                 var process = function () {
-                    var needsLock = $win.scrollTop() >= topOffset;
+                    var needsLock = $win[0].scrollY >= topOffset;
                     if (needsLock !== locked) {
                         locked = needsLock;
                         if (locked) {
                             if(!calculated){
-                                fill.height(element.height());
+                                fill.style.height = element.offsetHeight + 'px';
                                 calculated = true;
                             }
 
-                            element.addClass('fixed');
-                            fill.removeClass('hide');
+                            element.className = originalClasses + ' fixed';
+                            fill.className = "sticky";
                         } else {
-                            element.removeClass('fixed');
-                            fill.addClass('hide');
+                            element.className = originalClasses;
+                            fill.className = "hide sticky";
                         }
                     }
                 };

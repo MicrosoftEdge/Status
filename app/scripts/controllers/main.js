@@ -1,5 +1,5 @@
 angular.module('statusieApp')
-    .controller('MainCtrl', function ($scope, $location, $timeout, Status) {
+    .controller('MainCtrl', function ($scope, $location, $timeout, $window, Status) {
         'use strict';
 
         var features;
@@ -8,14 +8,14 @@ angular.module('statusieApp')
         $scope.limit = 0;
         $scope.loading = true;
 
-        var scrollToFeature = function(){
-            var path = $location.path();
-            if (path) {
-                var id = path.substr(1);
+        var scrollToFeature = function(id){
+            if (id) {
                 var ele = document.getElementById(id);
                 if (ele) {
-                    ele.scrollIntoView();
-                    window.scrollTo(0, (window.scrollY || document.documentElement.scrollTop) - 135);
+                    $timeout(function(){
+                        ele.scrollIntoView();
+                        window.scrollTo(0, (window.scrollY || document.documentElement.scrollTop) - 135);
+                    }, 0);
                 }
             }
         };
@@ -61,6 +61,15 @@ angular.module('statusieApp')
             $scope.limit = (filteredFeatures || []).length;
         });
 
+        var getFeatureId  = function(){
+            var path = $location.path();
+            return path.substr(1) || "";
+        };
+
+        var trackFeature = function(id){
+            _gaq.push(['_trackPageview', '/status/' + id]);
+        };
+
         Status.load()
             .then(function (data) {
                 $scope.categories = data.categories;
@@ -75,8 +84,22 @@ angular.module('statusieApp')
 
                 //$scope.features = _.clone(features);
                 insertFeatures(features, function(){
-                    $scope.$on('$locationChangeSuccess', scrollToFeature);
-                    scrollToFeature();
+                    var historyLength = 0;
+
+                    $scope.$on('$locationChangeSuccess', function(){
+                        var featureId = getFeatureId();
+                        trackFeature(featureId);
+                    });
+
+                    // We only want to autoscroll if navigating directly to a feature or in back navigation
+                    $window.onpopstate = function(){
+                        var featureId = getFeatureId();
+                        scrollToFeature(featureId);
+                    };
+
+                    var featureId = getFeatureId();
+                    trackFeature(featureId);
+                    scrollToFeature(featureId);
                 });
             });
     });

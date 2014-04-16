@@ -188,11 +188,15 @@ module.exports = function (grunt) {
         // The following *-min tasks produce minified files in the dist folder
         imagemin: {
             dist: {
+//                options: {
+//                    optimizationLevel: 0,
+//                    pngquant: true
+//                },
                 files: [
                     {
                         expand: true,
                         cwd: '<%= yeoman.app %>/images',
-                        src: '{,*/}*.{png,jpg,jpeg,gif}',
+                        src: '{,dist/}*.{png,jpg,jpeg,gif}',
                         dest: '<%= yeoman.dist %>/images'
                     }
                 ]
@@ -396,7 +400,10 @@ module.exports = function (grunt) {
         'bower-install',
         'sprite',
         'useminPrepare',
-        'concurrent:dist',
+//        'concurrent:dist',
+        'copy:styles',
+        'imagemin',
+        'svgmin',
         'autoprefixer',
         'concat',
         'ngmin',
