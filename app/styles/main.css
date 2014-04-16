@@ -228,15 +228,12 @@ button:focus {
 .total-features {
 	width: 33.33%;
     color: #fff;
-    font-weight: 600;
-    font-size: 24px;
+    font-size: 16px;
 }
 
-.total-features:before {
-    content: 'Features found: ';
-    color: #fff;
-    font-weight: 400;
-    font-size: 16px;
+.total-features span {
+	font-weight: 600;
+    font-size: 24px;
 }
 
 .switch-fiters {
