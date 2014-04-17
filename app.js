@@ -2,42 +2,12 @@ var express = require('express'),
     cors = require('cors'),
     path = require('path'),
     fs = require('fs'),
-    os = require('os'),
     port = process.env.PORT || 9000,
+    snapshotPath = path.join(__dirname, 'snapshots', 'snapshot.html'),
+    snapshot = require('./lib/snapshot')(port, snapshotPath),
     app = express(),
     root = 'dist',
     debug = false;
-
-var path = require('path'),
-    childProcess = require('child_process'),
-    phantomjs = require('phantomjs'),
-    tmp = require('temporary'),
-    binPath = phantomjs.path;
-
-var interfaces = os.networkInterfaces();
-var addresses = [];
-for (var k in interfaces) {
-    for (var k2 in interfaces[k]) {
-        var address = interfaces[k][k2];
-        if (address.family == 'IPv4' && !address.internal) {
-            addresses.push(address.address)
-        }
-    }
-}
-
-var localUrl = 'http://' + addresses[0] + ':' + port;
-
-var phantomScript = "var page = require('webpage').create();" +
-    "var fs = require('fs');" +
-    "page.open('"+ localUrl + "', function () {" +
-    "setTimeout(function(){" +
-    "fs.write('snapshots/snapshot.html', page.content, 'w');" +
-    "phantom.exit()"+
-    "}, 5000);" +
-    "});";
-
-var phantomScriptFile = new tmp.File();
-phantomScriptFile.writeFileSync(phantomScript, 'utf8');
 
 if (process.argv[2] === 'debug') {
     root = 'app';
@@ -54,11 +24,19 @@ app.get('/favicon.ico', function (req, res) {
     res.sendfile(path.join(__dirname, root, 'favicon.ico'));
 });
 
-app.get('/:id', function (req, res) {
-    res.sendfile(path.join(__dirname, root, 'index.html'));
-});
+var sendMainPage = function(req, res){
+    var ua =req.headers['user-agent'].toLowerCase();
 
-//app.use(express.basicAuth('admin','IE11Rocks!'));
+    if(ua.indexOf('googlebot') !== -1 || ua.indexOf('bingbot') !== -1){
+        res.sendfile(snapshotPath);
+    }else {
+        res.sendfile(path.join(__dirname, root, 'index.html'));
+    }
+};
+
+app.get('/', sendMainPage);
+app.get('/:id', sendMainPage);
+
 app.use(express.bodyParser());
 
 if (debug) {
@@ -69,10 +47,4 @@ if (debug) {
 
 app.listen(port);
 
-var childArgs = [
-    phantomScriptFile.path
-];
-
-childProcess.execFile(binPath, childArgs, function (err, stdout, stderr) {
-    // handle results
-});
+snapshot.take();
