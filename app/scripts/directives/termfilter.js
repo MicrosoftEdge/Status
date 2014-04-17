@@ -60,7 +60,15 @@ angular.module('statusieApp')
                 }
             },
             link: function postLink(scope, element, attrs) {
-//        element.text('this is the termFilter directive');
+                //This fixes #22
+                var input = element.find('input');
+                var submit = element.find('button');
+
+                submit.on('click', function () {
+                    setTimeout(function () {
+                        input[0].focus();
+                    }, 0);
+                });
             }
         };
     });
