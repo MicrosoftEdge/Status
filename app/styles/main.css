@@ -293,7 +293,7 @@ progress {
     text-overflow: ellipsis;
 }
 
-.remove-icon {
+.icon-remove-icon {
     position: absolute;
     top: 14px;
     right: 8px;
@@ -303,7 +303,7 @@ progress {
     background: url("/images/icons/remove-icon.png") no-repeat center top;
 }
 
-.remove-icon:before {
+.icon-remove-icon:before {
     content: none;
 }
 
