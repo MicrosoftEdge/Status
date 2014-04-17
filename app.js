@@ -8,10 +8,11 @@ var express = require('express'),
     root = 'dist',
     debug = false;
 
-var path = require('path');
-var childProcess = require('child_process');
-var phantomjs = require('phantomjs');
-var binPath = phantomjs.path;
+var path = require('path'),
+    childProcess = require('child_process'),
+    phantomjs = require('phantomjs'),
+    tmp = require('temporary'),
+    binPath = phantomjs.path;
 
 var interfaces = os.networkInterfaces();
 var addresses = [];
@@ -26,40 +27,52 @@ for (var k in interfaces) {
 
 var localUrl = 'http://' + addresses[0] + ':' + port;
 
-if(process.argv[2] === 'debug'){
+var phantomScript = "var page = require('webpage').create();" +
+    "var fs = require('fs');" +
+    "page.open('"+ localUrl + "', function () {" +
+    "setTimeout(function(){" +
+    "fs.write('snapshots/snapshot.html', page.content, 'w');" +
+    "phantom.exit()"+
+    "}, 5000);" +
+    "});";
+
+var phantomScriptFile = new tmp.File();
+phantomScriptFile.writeFileSync(phantomScript, 'utf8');
+
+if (process.argv[2] === 'debug') {
     root = 'app';
     debug = true;
 }
 
 app.use(express.compress());
 app.options('/features', cors());
-app.get('/features', function(req, res){
-   res.sendfile(path.join(__dirname, root, 'static', 'ie-status.json'));
+app.get('/features', function (req, res) {
+    res.sendfile(path.join(__dirname, root, 'static', 'ie-status.json'));
 });
 
-app.get('/favicon.ico', function(req, res){
+app.get('/favicon.ico', function (req, res) {
     res.sendfile(path.join(__dirname, root, 'favicon.ico'));
 });
 
-app.get('/:id', function(req, res){
-   res.sendfile(path.join(__dirname, root, 'index.html'));
+app.get('/:id', function (req, res) {
+    res.sendfile(path.join(__dirname, root, 'index.html'));
 });
 
 //app.use(express.basicAuth('admin','IE11Rocks!'));
 app.use(express.bodyParser());
 
-if(debug){
+if (debug) {
     app.use(express.static(path.join(__dirname, root)));
-}else{
+} else {
     app.use(express.static(path.join(__dirname, root), { maxAge: 31557600000 }));
 }
 
 app.listen(port);
 
 var childArgs = [
-    path.join(__dirname, 'phantomjs-script.js')
+    phantomScriptFile.path
 ];
 
-childProcess.execFile(binPath, childArgs, function(err, stdout, stderr) {
+childProcess.execFile(binPath, childArgs, function (err, stdout, stderr) {
     // handle results
 });
