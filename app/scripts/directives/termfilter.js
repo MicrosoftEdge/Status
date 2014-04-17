@@ -25,7 +25,7 @@ angular.module('statusieApp')
                 $scope.addTerm = function () {
                     var term = $scope.inputTerm;
 
-                    if (term === '') {
+                    if (!term || term === '') {
                         return;
                     }
 
