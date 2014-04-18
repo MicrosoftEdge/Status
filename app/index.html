@@ -113,20 +113,16 @@
     }(document, 'script'));
 </script>
 
-<!--[if lt IE 9]>
-<script src="bower_components/es5-shim/es5-shim.js"></script>
-<script src="bower_components/json3/lib/json3.min.js"></script>
-<![endif]-->
-
 <!-- build:js scripts/vendor.js -->
-<script defer src="bower_components/angular/angular.js"></script>
+<script defer src="scripts/vendorBanner.js"></script>
+<script defer src="bower_components/angular/angular.min.js"></script>
 <script defer src="bower_components/lodash/dist/lodash.compat.min.js"></script>
-<script defer src="bower_components/angular-bindonce/bindonce.js"></script>
+<script defer src="bower_components/angular-bindonce/bindonce.min.js"></script>
 <!-- endbuild -->
 
 <!-- build:js({.tmp,app}) scripts/scripts.js -->
-<script defer src="scripts/lib/bootstrap-custom/ui-bootstrap-custom-0.10.0.js"></script>
-<script defer src="scripts/lib/bootstrap-custom/ui-bootstrap-custom-tpls-0.10.0.js"></script>
+<script defer src="scripts/scriptBanner.js"></script>
+<script defer src="scripts/lib/bootstrap-custom/ui-bootstrap-custom-0.10.0.min.js"></script>
 <script defer src="scripts/app.js"></script>
 <script defer src="scripts/controllers/main.js"></script>
 <script defer src="scripts/directives/feature.js"></script>
