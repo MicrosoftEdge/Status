@@ -2107,11 +2107,11 @@
     {
         "name": "Custom filters (shaders)",
         "category": "CSS",
-        "link": "https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#custom-filter",
+        "link": "",
         "summary": "Filter effects are a way of processing an element’s rendering before it is displayed in the document.",
-        "standardStatus": "Working draft or equivalent",
+        "standardStatus": "Public discussion",
         "ieStatus": {
-            "text": "Under Consideration",
+            "text": "Not currently planned",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
