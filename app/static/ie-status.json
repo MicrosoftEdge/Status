@@ -2107,7 +2107,7 @@
     {
         "name": "Custom filters (shaders)",
         "category": "CSS",
-        "link": "#",
+        "link": "http://www.w3.org/Graphics/fx/wiki/CSS_Shaders_Security",
         "summary": "Filter effects are a way of processing an element’s rendering before it is displayed in the document.",
         "standardStatus": "Public discussion",
         "ieStatus": {
