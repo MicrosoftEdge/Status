@@ -3,37 +3,48 @@ var express = require('express'),
     path = require('path'),
     fs = require('fs'),
     port = process.env.PORT || 9000,
+    snapshotPath = path.join(__dirname, 'snapshots', 'snapshot.html'),
+    snapshot = require('./lib/snapshot')(port, snapshotPath),
     app = express(),
     root = 'dist',
     debug = false;
 
-if(process.argv[2] === 'debug'){
+if (process.argv[2] === 'debug') {
     root = 'app';
     debug = true;
 }
 
 app.use(express.compress());
 app.options('/features', cors());
-app.get('/features', function(req, res){
-   res.sendfile(path.join(__dirname, root, 'static', 'ie-status.json'));
+app.get('/features', function (req, res) {
+    res.sendfile(path.join(__dirname, root, 'static', 'ie-status.json'));
 });
 
-app.get('/favicon.ico', function(req, res){
+app.get('/favicon.ico', function (req, res) {
     res.sendfile(path.join(__dirname, root, 'favicon.ico'));
 });
 
-app.get('/:id', function(req, res){
-   res.sendfile(path.join(__dirname, root, 'index.html'));
-});
+var sendMainPage = function(req, res){
+    var ua =req.headers['user-agent'].toLowerCase();
 
-//app.use(express.basicAuth('admin','IE11Rocks!'));
+    if(ua.indexOf('googlebot') !== -1 || ua.indexOf('bingbot') !== -1){
+        res.sendfile(snapshotPath);
+    }else {
+        res.sendfile(path.join(__dirname, root, 'index.html'));
+    }
+};
+
+app.get('/', sendMainPage);
+app.get('/:id', sendMainPage);
+
 app.use(express.bodyParser());
 
-if(debug){
+if (debug) {
     app.use(express.static(path.join(__dirname, root)));
-}else{
+} else {
     app.use(express.static(path.join(__dirname, root), { maxAge: 31557600000 }));
 }
 
 app.listen(port);
 
+snapshot.take();
