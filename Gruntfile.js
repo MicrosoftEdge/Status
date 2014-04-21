@@ -12,6 +12,7 @@ module.exports = function (grunt) {
     // Load grunt tasks automatically
     require('load-grunt-tasks')(grunt);
 
+
     // Time how long tasks take. Can help when optimizing build times
     require('time-grunt')(grunt);
 
@@ -173,6 +174,13 @@ module.exports = function (grunt) {
             html: '<%= yeoman.app %>/index.html',
             options: {
                 dest: '<%= yeoman.dist %>'
+            }
+        },
+
+        // We want to keep the licenses we add in vendorBanner and scriptBanner
+        uglify:{
+            options: {
+                preserveComments: 'some'
             }
         },
 

@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "dependencies": {
     "express": "^3.4.8",
-    "cors": "^2.2.0"
+    "cors": "^2.2.0",
+    "phantomjs": "^1.9.7-3",
+    "temporary": "0.0.8"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
