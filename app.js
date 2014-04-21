@@ -25,13 +25,13 @@ app.get('/favicon.ico', function (req, res) {
 });
 
 var sendMainPage = function(req, res){
-    var ua =req.headers['user-agent'].toLowerCase();
-
-    if(ua.indexOf('googlebot') !== -1 || ua.indexOf('bingbot') !== -1){
-        res.sendfile(snapshotPath);
-    }else {
+//    var ua =req.headers['user-agent'].toLowerCase();
+//
+//    if(ua.indexOf('googlebot') !== -1 || ua.indexOf('bingbot') !== -1){
+//        res.sendfile(snapshotPath);
+//    }else {
         res.sendfile(path.join(__dirname, root, 'index.html'));
-    }
+//    }
 };
 
 app.get('/', sendMainPage);
@@ -47,4 +47,4 @@ if (debug) {
 
 app.listen(port);
 
-snapshot.take();
+//snapshot.take();
