@@ -174,7 +174,7 @@ IF /I "%DEPLOYMENT_TARGET%\Gruntfile.js" NEQ "1" (
 IF /I "%DEPLOYMENT_TARGET%\Gruntfile.js" NEQ "1" (
   pushd "%DEPLOYMENT_TARGET%"
   echo %time% - Running Grunt htmlSnapshot
-  start :ExecuteCmd !GRUNT_CMD! --no-color htmlSnapshot
+  start !GRUNT_CMD! --no-color htmlSnapshot
   popd
 )
 
