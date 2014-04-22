@@ -1146,9 +1146,9 @@
     {
         "name": "position: sticky",
         "category": "CSS",
-        "link": "http://lists.w3.org/Archives/Public/www-style/2012Jun/0627.html",
+        "link": "http://dev.w3.org/csswg/css-position/#sticky-positioning",
         "summary": "position: sticky is a new way to position elements and is conceptually similar to position: fixed. The difference is that a stickily positioned element behaves like position: relative within its parent, until a given offset threshold is met.",
-        "standardStatus": "Public discussion",
+        "standardStatus": "Editor's Draft",
         "ieStatus": {
             "text": "Under Consideration",
             "iePrefixed": "",
@@ -2107,11 +2107,11 @@
     {
         "name": "Custom filters (shaders)",
         "category": "CSS",
-        "link": "https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#custom-filter",
+        "link": "http://www.w3.org/Graphics/fx/wiki/CSS_Shaders_Security",
         "summary": "Filter effects are a way of processing an element’s rendering before it is displayed in the document.",
-        "standardStatus": "Working draft or equivalent",
+        "standardStatus": "Public discussion",
         "ieStatus": {
-            "text": "Under Consideration",
+            "text": "Not currently planned",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
