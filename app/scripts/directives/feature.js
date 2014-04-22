@@ -23,7 +23,7 @@ angular.module('statusieApp')
                 }
             },
             link : function postLink(scope, element){
-                //The following code is for accesibility
+                //The following code is for accessibility
                 //We do it by code instead of binds because it will add lots of watchers and we will be over the
                 //recommended number
                 var header = element[0].querySelector('header');
@@ -38,6 +38,13 @@ angular.module('statusieApp')
                     }
                 });
 
+                header.addEventListener('focus', function(){
+                    header.setAttribute('aria-selected', 'true');
+                });
+
+                header.addEventListener('blur', function(){
+                    header.setAttribute('aria-selected', 'false');
+                });
             }
         };
     });
