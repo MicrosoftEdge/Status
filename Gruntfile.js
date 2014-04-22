@@ -358,7 +358,7 @@ module.exports = function (grunt) {
                 options: {
                     snapshotPath: 'snapshots/',
                     sitePath: 'http://' + ip + ':' + port,
-                    msWaitForPages: 3000,
+                    msWaitForPages: 6000,
                     removeScripts: true,
                     //set `removeLinkTags` to true. It's false by default
                     removeLinkTags: true,
