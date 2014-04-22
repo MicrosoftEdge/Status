@@ -2,9 +2,10 @@ var express = require('express'),
     cors = require('cors'),
     path = require('path'),
     fs = require('fs'),
+    os = require('os'),
+    snapshot = require('./lib/snapshot.js'),
     port = process.env.PORT || 9000,
-    snapshotPath = path.join(__dirname, 'snapshots', 'snapshot.html'),
-    snapshot = require('./lib/snapshot')(port, snapshotPath),
+    snapshotPath = path.join(__dirname, 'snapshots', 'snapshot__.html'),
     app = express(),
     root = 'dist',
     debug = false;
@@ -46,5 +47,3 @@ if (debug) {
 }
 
 app.listen(port);
-
-snapshot.take();
