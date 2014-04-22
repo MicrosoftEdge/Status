@@ -15,6 +15,20 @@ module.exports = function (grunt) {
     // Time how long tasks take. Can help when optimizing build times
     require('time-grunt')(grunt);
 
+    var os = require('os');
+    var interfaces = os.networkInterfaces();
+    var addresses = [];
+    for (var k in interfaces) {
+        for (var k2 in interfaces[k]) {
+            var address = interfaces[k][k2];
+            if (address.family == 'IPv4' && !address.internal) {
+                addresses.push(address.address)
+            }
+        }
+    }
+    var ip = addresses[0];
+    var port = process.env.PORT || 9000;
+
     // Define the configuration for all the tasks
     grunt.initConfig({
 
@@ -332,10 +346,10 @@ module.exports = function (grunt) {
         },
 
         htmlSnapshot: {
-            debug: {
+            dist: {
                 options: {
                     snapshotPath: 'snapshots/',
-                    sitePath: 'http://127.0.0.1:9000/',
+                    sitePath: 'http://' + ip + ':' + port,
                     msWaitForPages: 3000,
                     removeScripts: true,
                     //set `removeLinkTags` to true. It's false by default
@@ -344,9 +358,6 @@ module.exports = function (grunt) {
                         '/'
                     ]
                 }
-            },
-            prod: {
-                options: {}
             }
         },
 

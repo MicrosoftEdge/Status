@@ -41,7 +41,8 @@
     "semver": "^2.2.1",
     "temporary": "0.0.8",
     "eventemitter2": "^0.4.13",
-    "phantomjs": "^1.9.7-3"
+    "phantomjs": "^1.9.7-3",
+    "grunt-html-snapshot": "^0.6.1"
   },
   "engines": {
     "node": ">=0.8.0"
