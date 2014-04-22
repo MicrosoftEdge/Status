@@ -21,6 +21,23 @@ angular.module('statusieApp')
                 if (id === '/' + $scope.feature.normalized_name) {
                     $scope.show = true;
                 }
+            },
+            link : function postLink(scope, element){
+                //The following code is for accesibility
+                //We do it by code instead of binds because it will add lots of watchers and we will be over the
+                //recommended number
+                var header = element[0].querySelector('header');
+                var featureWrapper = element[0].querySelector('.feature-body-wrapper');
+                scope.$watch('show', function(newValue, oldValue){
+                    if(newValue){
+                        header.setAttribute('aria-expanded','true');
+                        featureWrapper.setAttribute('aria-hidden','false');
+                    }else{
+                        header.setAttribute('aria-expanded','false');
+                        featureWrapper.setAttribute('aria-hidden','true');
+                    }
+                });
+
             }
         };
     });
