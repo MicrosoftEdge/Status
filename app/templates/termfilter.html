@@ -6,7 +6,7 @@
     </form>
     <div class="single-filters-wrapper">
         <button class="btn btn-default btn-single-filter" data-ng-repeat="term in terms" data-ng-click="removeTerm(term)">
-            <div class="single-filter-text">{{term.text}}</div>
+            <div bindonce class="single-filter-text" data-bo-text="term.text" data-bo-title="'Remove ' + term.text"></div>
             <i class="icon-remove-icon"></i>
         </button>
     </div>
