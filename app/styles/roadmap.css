@@ -4,7 +4,6 @@
     width: calc(100% - 20px);
     height: 50px;
     margin: 0 auto 20px;
-    padding: 0;
     overflow: hidden;
     -webkit-transition: height 300ms;
     -o-transition: height 300ms;
@@ -20,7 +19,7 @@
     background-color: #d8dbe9;
 }
 
-.show .collapsebtn {
+.show .feature-header::after {
     -webkit-transform: rotate(0);
     -ms-transform: rotate(0);
     -o-transform: rotate(0);
@@ -30,10 +29,10 @@
 /* FEATURE: Header */
 .feature-header {
     height: 50px;
-    margin: 0;
     border-left: 10px solid;
     background-color: #eef0f6;
     border-radius: 0 50px 50px 0;
+    overflow: hidden;
     -webkit-transition: background-color 200ms;
     -o-transition: background-color 200ms;
     transition: background-color 200ms;
@@ -55,30 +54,25 @@
 
 .feature-info {
     float: right;
-    margin: 0 5px 0 0;
+    margin-right: 45px;
 }
 
 .ie-status {
-    float: left;
     margin: 12px 10px 0 0;
     overflow: hidden;
-    color: black;
     font-size: 13px;
     font-weight: 400;
     white-space: nowrap;
     text-overflow: ellipsis;
-    text-align: right;
 }
 
-.collapsebtn {
-    float: left;
+.feature-header::after {
+	position: absolute;
+	top: 5px;
+	right: 5px;
     width: 40px;
     height: 40px;
-    margin-top: 5px;
-    border: 0;
-    padding: 0;
-    color: black;
-    font-family: "Segoe UI Symbol";
+    content: "";
     border-radius: 50%;
     background: #fff url("/images/arrow.svg") no-repeat center 10px;
     -webkit-transform: rotate(-180deg);
@@ -88,7 +82,6 @@
     -webkit-transition: -webkit-transform 300ms;
     -o-transition: -o-transform 300ms;
     transition: transform 300ms;
-    cursor: pointer;
 }
 
 .feature-icon {
@@ -125,7 +118,6 @@
     height: auto;
     margin-bottom: 0;
     border-bottom: 0;
-    padding: 0;
     list-style-type: none;
     border-spacing: 10px;
 }
