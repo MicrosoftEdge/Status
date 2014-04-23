@@ -170,6 +170,14 @@ IF /I "%DEPLOYMENT_TARGET%\Gruntfile.js" NEQ "1" (
   popd
 )
 
+:: 5. Run snapshot
+IF /I "%DEPLOYMENT_TARGET%\Gruntfile.js" NEQ "1" (
+  pushd "%DEPLOYMENT_TARGET%"
+  echo %time% - Running Grunt htmlSnapshot
+  start !GRUNT_CMD! --no-color htmlSnapshot
+  popd
+)
+
 echo %time% - End
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
