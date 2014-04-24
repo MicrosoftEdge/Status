@@ -16,6 +16,10 @@
     height: 225px;
 }
 
+.show .feature-body-wrapper {
+	display: block;
+}
+
 .show header {
     background-color: #d8dbe9;
 }
@@ -101,6 +105,7 @@
 /* FEATURE: Body */
 .feature-body-wrapper {
     position: relative;
+    display: none;
     height: 175px;
     border-left: solid 10px;
     padding: 10px;

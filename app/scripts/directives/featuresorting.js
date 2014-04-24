@@ -3,6 +3,7 @@ angular.module('statusieApp')
         return {
             templateUrl: 'templates/featuresorting.html',
             restrict: 'E',
+            replace: true,
             controller: function ($scope) {
                 'use strict';
 
