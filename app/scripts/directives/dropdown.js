@@ -14,7 +14,6 @@ angular.module('statusieApp')
                     }
 
                     if (evt) {
-                        evt.preventDefault();
                         evt.stopPropagation();
                     }
 

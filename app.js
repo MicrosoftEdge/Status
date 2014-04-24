@@ -1,10 +1,10 @@
 var express = require('express'),
     cors = require('cors'),
     path = require('path'),
-    fs = require('fs'),
+    bots = require(path.join(__dirname, 'lib', 'bots.js')),
+    botsLength = bots.length,
     port = process.env.PORT || 9000,
-    snapshotPath = path.join(__dirname, 'snapshots', 'snapshot.html'),
-    snapshot = require('./lib/snapshot')(port, snapshotPath),
+    snapshotPath = path.join(__dirname, 'snapshots', 'snapshot__.html'),
     app = express(),
     root = 'dist',
     debug = false;
@@ -25,13 +25,15 @@ app.get('/favicon.ico', function (req, res) {
 });
 
 var sendMainPage = function(req, res){
-//    var ua =req.headers['user-agent'].toLowerCase();
-//
-//    if(ua.indexOf('googlebot') !== -1 || ua.indexOf('bingbot') !== -1){
-//        res.sendfile(snapshotPath);
-//    }else {
-        res.sendfile(path.join(__dirname, root, 'index.html'));
-//    }
+    var ua =req.headers['user-agent'].toLowerCase();
+    for(var i = 0; i < botsLength; i++){
+        if(ua.indexOf(bots[i]) !== -1){
+            res.sendfile(snapshotPath);
+            return;
+        }
+    }
+
+    res.sendfile(path.join(__dirname, root, 'index.html'));
 };
 
 app.get('/', sendMainPage);
@@ -46,5 +48,3 @@ if (debug) {
 }
 
 app.listen(port);
-
-//snapshot.take();

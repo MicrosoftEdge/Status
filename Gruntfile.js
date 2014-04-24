@@ -16,6 +16,20 @@ module.exports = function (grunt) {
     // Time how long tasks take. Can help when optimizing build times
     require('time-grunt')(grunt);
 
+    var os = require('os');
+    var interfaces = os.networkInterfaces();
+    var addresses = [];
+    for (var k in interfaces) {
+        for (var k2 in interfaces[k]) {
+            var address = interfaces[k][k2];
+            if (address.family == 'IPv4' && !address.internal) {
+                addresses.push(address.address)
+            }
+        }
+    }
+    var ip = addresses[0];
+    var port = process.env.PORT || 9000;
+
     // Define the configuration for all the tasks
     grunt.initConfig({
 
@@ -338,6 +352,23 @@ module.exports = function (grunt) {
                 files: 'dist/static/*.json'
             }
         },
+
+        htmlSnapshot: {
+            dist: {
+                options: {
+                    snapshotPath: 'snapshots/',
+                    sitePath: 'http://' + ip + ':' + port,
+                    msWaitForPages: 6000,
+                    removeScripts: true,
+                    //set `removeLinkTags` to true. It's false by default
+                    removeLinkTags: true,
+                    urls: [
+                        '/'
+                    ]
+                }
+            }
+        },
+
 
         // By default, your `index.html`'s <!-- Usemin block --> will take care of
         // minification. These next options are pre-configured if you do not wish
