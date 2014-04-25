@@ -1,28 +1,28 @@
-<section bindonce data-bo-class="feature.normalized_category" class="feature" data-ng-class="{'show' : show}"
+<section role="tablist" aria-multiselectable="true" 
+ bindonce data-bo-class="feature.normalized_category" class="feature" data-ng-class="{'show' : show}"
          data-ng-show="feature.visible">
-    <header data-ng-click="expand()" class="feature-header" data-bo-title="feature.category">
+    <header tabindex="0" role="tab" aria-selected="false" data-bo-attr data-bo-attr-aria-controls="feature.normalized_name + '_wrapper'" aria-selected="" aria-expanded="false" data-ng-click="expand()" class="feature-header" data-bo-title="feature.category">
         <span class="feature-icon" data-bo-class="'icon-' + feature.normalized_category"></span>
 
         <h1 data-bo-id="feature.normalized_name" class="feature_name" data-bo-text="feature.name"></h1>
 
         <div class="feature-info">
-            <div class="ie-status" data-bo-if="feature.browsers.ie.prefixed || feature.browsers.ie.unprefixed"
+            <p class="ie-status" data-bo-if="feature.browsers.ie.prefixed || feature.browsers.ie.unprefixed"
                  data-bo-text="'IE' + (feature.browsers.ie.prefixed || feature.browsers.ie.unprefixed) + '+'"
-                 data-bo-title="feature.statusDescription"></div>
-            <div class="ie-status" data-bo-if="!(feature.browsers.ie.prefixed || feature.browsers.ie.unprefixed)"
-                 data-bo-text="feature.position" data-bo-title="feature.statusDescription"></div>
-            <button class="collapsebtn"></button>
+                 data-bo-title="feature.statusDescription"></p>
+            <p class="ie-status" data-bo-if="!(feature.browsers.ie.prefixed || feature.browsers.ie.unprefixed)"
+                 data-bo-text="feature.position" data-bo-title="feature.statusDescription"></p>
         </div>
     </header>
-    <div class="feature-body-wrapper">
+    <div role="tabpanel" aria-hidden="true" data-bo-attr data-bo-attr-aria-labelledby="feature.normalized_name" class="feature-body-wrapper" data-bo-id="feature.normalized_name + '_wrapper'">
         <p data-bo-text="feature.summary"></p>
 
         <p data-bo-if="feature.browsers.ie.prefixed">
-            <b>Prefixed version: </b> IE<span data-bo-text="feature.browsers.ie.prefixed"></span>
+            <strong>Prefixed version:</strong> IE<span data-bo-text="feature.browsers.ie.prefixed"></span>
         </p>
 
         <p data-bo-if="feature.browsers.ie.unprefixed">
-            <b>Unprefixed version: </b> IE<span data-bo-text="feature.browsers.ie.unprefixed"></span>
+            <strong>Unprefixed version:</strong> IE<span data-bo-text="feature.browsers.ie.unprefixed"></span>
         </p>
 
         <div class="feature-status-wrapper">

@@ -19,6 +19,7 @@ angular.module('statusieApp')
 
                     opened = false;
                     parent.removeClass('open');
+                    element[0].setAttribute('aria-pressed', 'false');
                     $document.off('click', close);
                 };
 
@@ -31,6 +32,7 @@ angular.module('statusieApp')
                         $timeout(function () {
                             $document.on('click', close);
                         }, 0);
+                        element[0].setAttribute('aria-pressed', 'true');
                     }
                 };
 

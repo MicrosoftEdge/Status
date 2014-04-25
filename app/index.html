@@ -41,10 +41,10 @@
 		</div>
 		<nav role="navigation" class="menu">
 				<ul class="menu-bar" role="menubar">
-					<li role="menuitem" class="menu-item menu-item-tools " data-content-type="tool"><a href="http://modern.ie/en-us/tools">Get <span>Tools</span></a></li>
-					<li role="menuitem" class="menu-item menu-item-articles " data-content-type="article"><a href="http://modern.ie/en-us/articles">Read <span>Articles</span></a></li>
-					<li role="menuitem" class="menu-item menu-item-demos " data-content-type="demo"><a href="http://modern.ie/en-us/demos">See <span>Demos</span></a></li>
-					<li role="menuitem" class="menu-item menu-item-involved " data-content-type="meet-developers"><a href="http://modern.ie/en-us/meet-developers">Meet <span>Developers</span></a></li>
+					<li role="presentation" class="menu-item menu-item-tools " data-content-type="tool"><a role="menuitem" href="http://modern.ie/en-us/tools">Get <span>Tools</span></a></li>
+					<li role="presentation" class="menu-item menu-item-articles " data-content-type="article"><a role="menuitem" href="http://modern.ie/en-us/articles">Read <span>Articles</span></a></li>
+					<li role="presentation" class="menu-item menu-item-demos " data-content-type="demo"><a role="menuitem" href="http://modern.ie/en-us/demos">See <span>Demos</span></a></li>
+					<li role="presentation" class="menu-item menu-item-involved " data-content-type="meet-developers"><a role="menuitem" href="http://modern.ie/en-us/meet-developers">Meet <span>Developers</span></a></li>
 				</ul>
 				<div class="microsoft-logo">
 					<a class="icon-microsoft-logo" href="http://www.microsoft.com" title="Microsoft" target="_blank">Microsoft</a>
@@ -57,7 +57,7 @@
 	<div class="filter-container" data-notmobile data-sticky>
 		<filter></filter>
 		<div class="info-row">
-			<div class="total-features" aria-live="polite">Features found: <span>{{limit}}</span></div>
+			<div class="total-features" aria-live="polite" role="status" aria-atomic="true">Features found: <span>{{limit}}</span></div>
 			<div class="switch-fiters">
 				<featuresorting></featuresorting>
 				<drowpdownfilter data-options="{selections: categories, name: 'Technologies'}"></drowpdownfilter>
@@ -66,7 +66,7 @@
 			</div>
 		</div>
 	</div>
-    <article role="article" aria-live="polite">
+    <article role="article">
         <div class="progress-wrapper" data-ng-show="loading">
             <progress max="100">
             </progress>
