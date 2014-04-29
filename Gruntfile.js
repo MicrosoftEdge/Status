@@ -16,6 +16,8 @@ module.exports = function (grunt) {
     // Time how long tasks take. Can help when optimizing build times
     require('time-grunt')(grunt);
 
+    var pngquant = require('imagemin-pngquant');
+
     var os = require('os');
     var interfaces = os.networkInterfaces();
     var addresses = [];
@@ -210,10 +212,9 @@ module.exports = function (grunt) {
         // The following *-min tasks produce minified files in the dist folder
         imagemin: {
             dist: {
-//                options: {
-//                    optimizationLevel: 0,
-//                    pngquant: true
-//                },
+                options: {
+                    use: [pngquant()]
+                },
                 files: [
                     {
                         expand: true,
