@@ -1,23 +1,12 @@
 ﻿<!doctype html>
-<!--[if lt IE 7]>
-<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>
-<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>
-<html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="en">
-<!--<![endif]-->
+<html lang="en">
 <head>
-    <!--Portions of the content in this page from chromestatus.com, used under Creative Commons Attribution 2.5 License
-    (see http://creativecommons.org/licenses/by/2.5/legalcode).-->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Internet Explorer Web Platform Status and Roadmap - status.modern.IE</title>
-	<base href="/">
+    <base href="/">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <!-- build:css({.tmp,app}) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
@@ -35,6 +24,8 @@
             }
         })();
     </script>
+    <!--Portions of the content in this page from chromestatus.com, used under Creative Commons Attribution 2.5 License
+    (see http://creativecommons.org/licenses/by/2.5/legalcode).-->
 </head>
 <body data-ng-app="statusieApp">
 
@@ -43,44 +34,39 @@
         <div class="beta-ribbon">beta</div>
     </div>
     <header role="banner" class="header">
-		<div class="siteLogo">
-				<a href="http://status.modern.ie">
-					<h1 class="status-ie">Platform Status</h1>
-				</a>
-		</div>
-		<nav role="navigation" class="menu">
-				<ul class="menu-bar" role="menubar">
-					<li role="menuitem" class="menu-item menu-item-tools " data-content-type="tool"><a href="http://modern.ie/tools">Get <span>Tools</span></a></li>
-					<li role="menuitem" class="menu-item menu-item-articles " data-content-type="article"><a href="http://modern.ie/articles">Read <span>Articles</span></a></li>
-					<li role="menuitem" class="menu-item menu-item-demos " data-content-type="demo"><a href="http://modern.ie/demos">See <span>Demos</span></a></li>
-					<li role="menuitem" class="menu-item menu-item-involved " data-content-type="meet-developers"><a href="http://modern.ie/meet-developers">Meet <span>Developers</span></a></li>
-				</ul>
-				<div class="microsoft-logo">
-					<a class="icon-microsoft-logo" href="http://www.microsoft.com" title="Microsoft" target="_blank">Microsoft</a>
-				</div>
-				<div class="icon-social">
-					<a class="share tw"  aria-hidden="true" href="https://www.twitter.com/iedevchat" target="_blank"
-					data-icon=""></a>
-				</div>
-		</nav>
-	</header>
-	<div class="filter-container" data-notmobile data-sticky>
-		<filter></filter>
-		<div class="info-row">
-			<div class="col-md-4 float">
-				<div class="total-features" aria-live="polite">{{limit}}</div>
-			</div>
-			<div class="col-md-8 float">
-				<div class="filter-switchs-wrapper">
-					<featuresorting></featuresorting>
-					<drowpdownfilter data-options="{selections: categories, name: 'Technologies'}"></drowpdownfilter>
-					<drowpdownfilter data-options="{selections: browsers, name: 'Browsers'}"></drowpdownfilter>
-					<drowpdownfilter data-options="{selections: featureStatus, name: 'Status'}"></drowpdownfilter>
-				</div>
-			</div>
-		</div>
-	</div>
-    <article role="article" aria-live="polite">
+        <div class="siteLogo">
+            <a href="http://status.modern.ie">
+                <h1 class="status-ie">Platform Status</h1>
+            </a>
+        </div>
+        <nav role="navigation" class="menu">
+            <ul class="menu-bar" role="menubar">
+                <li role="presentation" class="menu-item menu-item-tools " data-content-type="tool"><a role="menuitem" href="http://modern.ie/en-us/tools">Get <span>Tools</span></a></li>
+                <li role="presentation" class="menu-item menu-item-articles " data-content-type="article"><a role="menuitem" href="http://modern.ie/en-us/articles">Read <span>Articles</span></a></li>
+                <li role="presentation" class="menu-item menu-item-demos " data-content-type="demo"><a role="menuitem" href="http://modern.ie/en-us/demos">See <span>Demos</span></a></li>
+                <li role="presentation" class="menu-item menu-item-involved " data-content-type="meet-developers"><a role="menuitem" href="http://modern.ie/en-us/meet-developers">Meet <span>Developers</span></a></li>
+            </ul>
+            <div class="microsoft-logo">
+                <a class="icon-microsoft-logo" href="http://www.microsoft.com" title="Microsoft" target="_blank">Microsoft</a>
+            </div>
+            <div class="icon-social">
+                <a class="share tw"  aria-hidden="true" href="https://www.twitter.com/iedevchat" title="Give feedback on Twitter" target="_blank">Twitter</a>
+            </div>
+        </nav>
+    </header>
+    <div class="filter-container" data-notmobile data-sticky>
+        <filter></filter>
+        <div class="info-row">
+            <div class="total-features" aria-live="polite" role="status" aria-atomic="true">Features found: <span>{{limit}}</span></div>
+            <div class="switch-fiters">
+                <featuresorting></featuresorting>
+                <drowpdownfilter data-options="{selections: categories, name: 'Technologies'}"></drowpdownfilter>
+                <drowpdownfilter data-options="{selections: browsers, name: 'Browsers'}"></drowpdownfilter>
+                <drowpdownfilter data-options="{selections: featureStatus, name: 'Status'}"></drowpdownfilter>
+            </div>
+        </div>
+    </div>
+    <article role="article">
         <div class="progress-wrapper" data-ng-show="loading">
             <progress max="100">
             </progress>
@@ -91,27 +77,22 @@
     </article>
 
     <footer role="contentinfo">
-        <div class="foot-center">
-            <div class="links">
-                <a href="http://creativecommons.org/licenses/by/2.5/legalcode"
-                   target="_blank">IE status data is licensed under a Creative Commons Attribution 2.5 License</a>
-                <a href="http://www.microsoft.com/library/toolbar/3.0/trademarks/en-us.mspx"
-                   target="_blank">Trademarks</a>
-                <a href="http://msdn.microsoft.com/windows/apps/cc300389" target="_blank">Terms of Use</a>
-                <a href="http://www.microsoft.com/info/privacy.mspx" target="_blank">Privacy and Cookies</a>
-            </div>
+        <div class="links">
+            <a href="http://creativecommons.org/licenses/by/2.5/legalcode"
+               target="_blank">IE status data is licensed under a Creative Commons Attribution 2.5 License</a>
+            <a href="http://www.microsoft.com/library/toolbar/3.0/trademarks/en-us.mspx"
+               target="_blank">Trademarks</a>
+            <a href="http://msdn.microsoft.com/windows/apps/cc300389" target="_blank">Terms of Use</a>
+            <a href="http://www.microsoft.com/info/privacy.mspx" target="_blank">Privacy and Cookies</a>
         </div>
     </footer>
-
 </div>
 
-<!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
 <script>
     var _gaq = [
         ['_setAccount', 'UA-37396709-1'],
         ['_setDomainName', 'modern.ie'],
-        ['_setAllowLinker', true],
-        ['_trackPageview', '/status/']
+        ['_setAllowLinker', true]
     ];
     (function (d, t) {
         var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
@@ -121,24 +102,16 @@
     }(document, 'script'));
 </script>
 
-<!--[if lt IE 9]>
-<script src="bower_components/es5-shim/es5-shim.js"></script>
-<script src="bower_components/json3/lib/json3.min.js"></script>
-<![endif]-->
-
 <!-- build:js scripts/vendor.js -->
-<script defer src="bower_components/jquery/dist/jquery.js"></script>
-<script defer src="bower_components/angular/angular.js"></script>
-<script defer src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-<script defer src="bower_components/angular-cookies/angular-cookies.js"></script>
-<script defer src="bower_components/angular-sanitize/angular-sanitize.js"></script>
-<script defer src="bower_components/lodash/dist/lodash.compat.js"></script>
-<script defer src="bower_components/angular-bindonce/bindonce.js"></script>
+<script defer src="scripts/vendorBanner.js"></script>
+<script defer src="bower_components/angular/angular.min.js"></script>
+<script defer src="bower_components/lodash/dist/lodash.compat.min.js"></script>
+<script defer src="bower_components/angular-bindonce/bindonce.min.js"></script>
 <!-- endbuild -->
 
 <!-- build:js({.tmp,app}) scripts/scripts.js -->
-<script defer src="scripts/lib/bootstrap-custom/ui-bootstrap-custom-0.10.0.js"></script>
-<script defer src="scripts/lib/bootstrap-custom/ui-bootstrap-custom-tpls-0.10.0.js"></script>
+<script defer src="scripts/scriptBanner.js"></script>
+<!--<script defer src="scripts/lib/bootstrap-custom/ui-bootstrap-custom-0.10.0.js"></script>-->
 <script defer src="scripts/app.js"></script>
 <script defer src="scripts/controllers/main.js"></script>
 <script defer src="scripts/directives/feature.js"></script>
@@ -150,6 +123,7 @@
 <script defer src="scripts/directives/sticky.js"></script>
 <script defer src="scripts/directives/notmobile.js"></script>
 <script defer src="scripts/directives/onfinishrender.js"></script>
+<script defer src="scripts/directives/dropdown.js"></script>
 <!-- endbuild -->
 </body>
 </html>

@@ -12,8 +12,23 @@ module.exports = function (grunt) {
     // Load grunt tasks automatically
     require('load-grunt-tasks')(grunt);
 
+
     // Time how long tasks take. Can help when optimizing build times
     require('time-grunt')(grunt);
+
+    var os = require('os');
+    var interfaces = os.networkInterfaces();
+    var addresses = [];
+    for (var k in interfaces) {
+        for (var k2 in interfaces[k]) {
+            var address = interfaces[k][k2];
+            if (address.family == 'IPv4' && !address.internal) {
+                addresses.push(address.address)
+            }
+        }
+    }
+    var ip = addresses[0];
+    var port = process.env.PORT || 9000;
 
     // Define the configuration for all the tasks
     grunt.initConfig({
@@ -176,6 +191,13 @@ module.exports = function (grunt) {
             }
         },
 
+        // We want to keep the licenses we add in vendorBanner and scriptBanner
+        uglify:{
+            options: {
+                preserveComments: 'some'
+            }
+        },
+
         // Performs rewrites based on rev and the useminPrepare configuration
         usemin: {
             html: ['<%= yeoman.dist %>/{,*/}*.html'],
@@ -188,9 +210,10 @@ module.exports = function (grunt) {
         // The following *-min tasks produce minified files in the dist folder
         imagemin: {
             dist: {
-                options: {
-                    pngquant: true
-                },
+//                options: {
+//                    optimizationLevel: 0,
+//                    pngquant: true
+//                },
                 files: [
                     {
                         expand: true,
@@ -330,6 +353,23 @@ module.exports = function (grunt) {
             }
         },
 
+        htmlSnapshot: {
+            dist: {
+                options: {
+                    snapshotPath: 'snapshots/',
+                    sitePath: 'http://' + ip + ':' + port,
+                    msWaitForPages: 6000,
+                    removeScripts: true,
+                    //set `removeLinkTags` to true. It's false by default
+                    removeLinkTags: true,
+                    urls: [
+                        '/'
+                    ]
+                }
+            }
+        },
+
+
         // By default, your `index.html`'s <!-- Usemin block --> will take care of
         // minification. These next options are pre-configured if you do not wish
         // to use the Usemin blocks.
@@ -399,7 +439,10 @@ module.exports = function (grunt) {
         'bower-install',
         'sprite',
         'useminPrepare',
-        'concurrent:dist',
+//        'concurrent:dist',
+        'copy:styles',
+        'imagemin',
+        'svgmin',
         'autoprefixer',
         'concat',
         'ngmin',

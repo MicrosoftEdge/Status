@@ -23,10 +23,6 @@ angular.module('statusieApp')
                     }
                 }, true);
 
-                $scope.stopPropagation = function (evt) {
-                    $event.stopProgation();
-                };
-
                 $scope.selectAll = function (evt) {
                     if (evt.target.tagName.toLowerCase() === 'input') {
                         $scope.allOptions = !$scope.allOptions;
@@ -35,35 +31,42 @@ angular.module('statusieApp')
                 };
             },
             link: function postLink(scope, element, attrs) {
-                element.find('.dropdown-menu').on('click', 'li.dynamic-option', function (evt) {
-
-                    scope.$apply(function () {
-                        if (scope.allOptions) {
-                            scope.allOptions = false;
-                        }
-                    });
-
-                    evt.stopPropagation();
-                });
-
-                element.find('.dropdown-menu').on('click', 'li.dynamic-all', function (evt) {
-
-                    scope.$apply(function () {
-                        scope.allOptions = !scope.allOptions;
-                        if(scope.allOptions){
-                            _.forEach(scope.options.selections, function(option){
-                                option.selected = false;
+                //find in jqLite only supports tagname search
+                element.find('ul').on('click', function (evt) {
+                    var tagName = evt.target.tagName.toLowerCase();
+                    var classList = evt.target.parentElement.classList;
+                    if (tagName === 'label') {
+                        if (classList.contains('dynamic-option')) {
+                            scope.$apply(function () {
+                                if (scope.allOptions) {
+                                    scope.allOptions = false;
+                                }
+                            });
+                        }else if (classList.contains('dynamic-all')) {
+                            scope.$apply(function () {
+                                scope.allOptions = !scope.allOptions;
+                                if (scope.allOptions) {
+                                    _.forEach(scope.options.selections, function (option) {
+                                        option.selected = false;
+                                    });
+                                }
                             });
                         }
-                    });
-
-                    evt.stopPropagation();
+                        evt.stopPropagation();
+                    }else if(tagName === 'input') {
+                        if (evt.target.parentElement.parentElement.classList.contains('dynamic-all')) {
+                            scope.$apply(function () {
+                                scope.allOptions = !scope.allOptions;
+                                if (scope.allOptions) {
+                                    _.forEach(scope.options.selections, function (option) {
+                                        option.selected = false;
+                                    });
+                                }
+                            });
+                        }
+                        evt.stopPropagation();
+                    }
                 });
-
-//                element.find('.dropdown-menu').click(function (evt) {
-//                    //The dropdown closes automatically on any click, we don't want this
-//                    evt.stopPropagation();
-//                });
             }
         };
     });

@@ -1,71 +1,82 @@
+/* FEATURE */
 .feature {
     position: relative;
+    width: calc(100% - 20px);
     height: 50px;
     margin: 0 auto 20px;
-    padding: 0;
     overflow: hidden;
     -webkit-transition: height 300ms;
     -o-transition: height 300ms;
     transition: height 300ms;
 }
 
-.feature.show {
+/* FEATURE: Reveal states */
+.show {
     height: 225px;
 }
 
-.feature header {
+.show .feature-body-wrapper {
+	display: block;
+}
+
+.show header {
+    background-color: #d8dbe9;
+}
+
+.show .feature-header::after {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0);
+}
+
+/* FEATURE: Header */
+.feature-header {
     height: 50px;
-    margin: 0;
     border-left: 10px solid;
     background-color: #eef0f6;
     border-radius: 0 50px 50px 0;
+    overflow: hidden;
     -webkit-transition: background-color 200ms;
     -o-transition: background-color 200ms;
     transition: background-color 200ms;
     cursor: pointer;
 }
 
-.feature.show header {
-    background-color: #d8dbe9;
-}
-
-.feature header .feature_name {
+.feature_name {
     float: left;
     /* 	make sure disclosure triangle doesn’t drop to next line */
-    max-width: calc(100% - 45px);
+    max-width: 60%;
     height: 42px;
     margin: 0;
-    padding: 10px 0 0 60px;
+    padding: 17px 0 0 48px;
     overflow: hidden;
+    font-size: 16px;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 
-.feature header .feature-info {
+.feature-info {
     float: right;
-    margin: 0 5px 0 0;
+    margin-right: 45px;
 }
 
-.feature header .ie-status {
-    float: left;
+.ie-status {
     margin: 12px 10px 0 0;
     overflow: hidden;
-    color: black;
+    font-size: 13px;
+    font-weight: 400;
     white-space: nowrap;
     text-overflow: ellipsis;
-    text-align: right;
-    font-weight: 600;
 }
 
-.feature .collapsebtn {
-    float: left;
+.feature-header::after {
+	position: absolute;
+	top: 5px;
+	right: 5px;
     width: 40px;
     height: 40px;
-    margin-top: 5px;
-    border: 0;
-    padding: 0;
-    color: black;
-    font-family: "Segoe UI Symbol";
+    content: "";
     border-radius: 50%;
     background: #fff url("/images/arrow.svg") no-repeat center 10px;
     -webkit-transform: rotate(-180deg);
@@ -77,30 +88,29 @@
     transition: transform 300ms;
 }
 
-.feature.show .collapsebtn {
-    -webkit-transform: rotate(0);
-    -ms-transform: rotate(0);
-    -o-transform: rotate(0);
-    transform: rotate(0);
+.feature-icon {
+   display: block;
+   position: absolute;
+   left: 20px;
+   top: 13px;
 }
 
-.feature .collapsebtn:hover {
-    cursor: pointer;
-}
-
-.feature .feature-body-wrapper {
+/* FEATURE: Body */
+.feature-body-wrapper {
     position: relative;
+    display: none;
     height: 175px;
     border-left: solid 10px;
     padding: 10px;
 }
 
-.feature .feature-body-wrapper p {
+.feature-body-wrapper p {
     font-size: 16px;
     line-height: 1.6;
 }
 
-.feature .feature-status-wrapper {
+/* FEATURE: Body: status */
+.feature-status-wrapper {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -113,7 +123,6 @@
     height: auto;
     margin-bottom: 0;
     border-bottom: 0;
-    padding: 0;
     list-style-type: none;
     border-spacing: 10px;
 }
@@ -126,6 +135,22 @@
     background-size: auto;
 }
 
+.feature_status a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: #000;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none;
+}
+
+.feature_status a:hover {
+    cursor: pointer;
+}
+
+/* FEATURE: Body: status: browsers */
 .browsers {
     float: right;
 }
@@ -146,21 +171,7 @@
     opacity: 1;
 }
 
-.feature_status a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    color: #000;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    text-decoration: none;
-}
-
-.feature_status a:hover {
-    cursor: pointer;
-}
-
+/* FEATURE: Body: status: information */
 .info {
     float: left;
     max-width: 560px;
@@ -188,7 +199,7 @@
     left: 5px;
 }
 
-/* API Category Styles */
+/* FEATURE: API Category Styles */
 
 .css .feature-body-wrapper {
     border-color: #f7b294;
@@ -235,13 +246,6 @@
     border-color: #ef6529;
 }
 
-.feature-icon {
-   display: block;
-   position: absolute;
-   left: 20px;
-   top: 13px;
-}
-
 .device header,
 .security header,
 .userinput header {
@@ -277,93 +281,67 @@
     border-color: #8dc63f;
 }
 
-.feature.performance header {
+.performance header {
     border-color: #00dcd5;
 }
 
-@media screen and (min-width: 500px) {
-    .feature header .feature_name {
-        /* stop long labels from pushing status to next line */
-        max-width: 60%;
+@media screen and (min-width: 625px) {
+	.info a {
+        padding-left: 40px;
+    }
+    
+    .feature_name {
+        padding: 14px 0 0 60px;
+        font-size: 20px;
+    }
+
+    .ie-status {
+        font-size: 17px;
+        font-weight: 600;
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 820px) {
     .feature {
         width: 800px;
     }
 
-    .feature header .feature_name {
+    .feature_name {
         max-width: 70%;
+        padding-top: 10px;
         font-size: 27px;
     }
-
-    .feature header .ie-status {
-        font-size: 17px;
-    }
 }
 
-@media screen and (min-width: 625px) {
-    .feature_status.info a {
-        padding-left: 40px;
-    }
-}
-
-@media screen and (min-width: 625px) and (max-width: 799px) {
-    .feature header .feature_name {
-        padding-top: 14px;
-        font-size: 20px;
-    }
-
-    .feature {
-        width: calc(100% - 20px);
-    }
-
-    .feature header .ie-status {
-        font-size: 17px;
-    }
-}
-
-@media screen and (min-width: 500px) and (max-width: 625px) {
-    .feature header .feature_name {
-        padding: 17px 0 0 48px;
-        font-size: 16px;
-    }
-
-    .feature {
-        width: calc(100% - 20px);
-    }
-
-    .feature header .ie-status {
-        margin-top: 15px;
-        font-size: 13px;
-        font-weight: normal;
-    }
-
-    .feature.show {
+@media screen and (max-width: 625px) {
+	.show {
         height: 325px;
     }
-
-    .feature .feature-body-wrapper {
-        height: 275px;
-    }
-
-    .feature_status a {
-        max-width: 120px;
-        font-size: 11px;
-        line-height: .8;
-    }
-
-    .feature_status.info li {
-        height: 30px;
-        padding-left: 30px;
+    
+    .ie-status {
+        margin-top: 15px;
     }
     
     .feature-icon {
     	margin-right: 1px;
     }
     
-    .icon {
+	.feature-body-wrapper {
+        height: 275px;
+    }
+    
+	.feature_status a {
+		max-width: 120px;
+        font-size: 11px;
+        line-height: .8;
+    }
+	
+	.info li {
+        height: 30px;
+        padding-left: 30px;
+    }
+	 
+	.icon {
     	-webkit-transform: scale(.66);
     	-ms-transform: scale(.66);
     	-o-transform: scale(.66);
@@ -374,64 +352,22 @@
 }
 
 @media screen and (max-width: 499px) {
-
-    .feature .ie-status {
+    .ie-status,
+    .feature-icon {
         display: none;
     }
 
-    .feature header .feature_name {
-        padding: 17px 0 0 5px;
-        font-size: 16px;
-    }
-
-    .feature {
-        width: calc(100% - 20px);
-    }
-
-    .feature header .ie-status {
-        top: 26px;
-        left: 45px;
-        margin-top: 16px;
-        font-size: 13px;
-        font-weight: normal;
-        text-align: left;
+    .feature_name {
+        max-width: calc(100% - 45px);
+        padding-left: 5px;
     }
 
     .feature_status a {
         max-width: 100px;
-        font-size: 11px;
-        line-height: .8;
     }
 
-    .feature.show {
-        height: 325px;
-    }
-
-    .feature .feature-body-wrapper {
-        height: 275px;
-    }
-
-    .feature_status.info li {
-        height: 30px;
-        padding-left: 30px;
-    }
-
-    .feature .feature-body-wrapper p {
+    .feature-body-wrapper p {
         max-height: calc(100% - 105px);
         overflow: hidden;
     }
-    
-    .feature-icon {
-    	display: none;
-    }
-    
-    .icon {
-    	-webkit-transform: scale(.66);
-    	-ms-transform: scale(.66);
-    	-o-transform: scale(.66);
-    	transform: scale(.66);
-    	top: 0;
-    	left: 0;
-    }
 }
-

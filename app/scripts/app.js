@@ -1,8 +1,5 @@
 angular.module('statusieApp', [
-    'ngCookies',
-    'ngSanitize',
-    'pasvaz.bindonce',
-    'ui.bootstrap'
+    'pasvaz.bindonce'
 ])
     .config(function ($locationProvider) {
         'use strict';
