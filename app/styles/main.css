@@ -14,11 +14,11 @@
 }
 
 *, *::before, *::after {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-	padding: 0;
-	margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 /*So we can use calc for the height*/
@@ -26,12 +26,12 @@ html {
     height: 100%;
     overflow-y: scroll;
     background-color: #fff;
-	font-family: "Segoe Custom", sans-serif;
+    font-family: "Segoe Custom", sans-serif;
 }
 
 body {
-	font-size: 14px;
-	line-height: 1.428571429;
+    font-size: 14px;
+    line-height: 1.428571429;
 }
 
 body,
@@ -45,16 +45,16 @@ article {
 }
 
 h1 {
-	font-weight: normal;
-  	line-height: 1.1;
+    font-weight: normal;
+    line-height: 1.1;
 }
 
 p {
-	margin: 0 0 10px;
+    margin: 0 0 10px;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 a:focus,
@@ -64,7 +64,7 @@ button:focus {
 }
 
 label {
-	display: inline-block;
+    display: inline-block;
 }
 
 /* UTILITY CLASSES */
@@ -80,8 +80,8 @@ label {
 }
 
 .sr-only {
-  position: absolute;
-  clip: rect(0, 0, 0, 0);
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
 }
 
 /* LOADING SCREEN */
@@ -109,114 +109,114 @@ progress {
 
 /* HEADER */
 .header {
-	padding: 1.3em 0 1.1em .8em;
-	-moz-box-sizing: content-box;
-	box-sizing: content-box;
-	background-color: #454545;
+    padding: 1.3em 0 1.1em .8em;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    background-color: #454545;
 }
 
 /* HEADER: Logo */
 .siteLogo {
-	position: relative;
-	margin: 0 auto;
-	max-width: 1230px;	
+    position: relative;
+    margin: 0 auto;
+    max-width: 1230px;
 }
 
 .siteLogo:before {
-	position: absolute;
-	top: -.2em;
-	left: 0;
-	width: 28px; 
-	height: 28px;
-	background: url("/images/ie-logo.png") no-repeat;
-	background-size: 28px;
-	content: "";
-	pointer-events: none;
+    position: absolute;
+    top: -.2em;
+    left: 0;
+    width: 28px;
+    height: 28px;
+    background: url("/images/ie-logo.png") no-repeat;
+    background-size: 28px;
+    content: "";
+    pointer-events: none;
 }
 
 .siteLogo a {
-	display: block;
-	padding-left: 2.8em;
+    display: block;
+    padding-left: 2.8em;
 }
 
 .status-ie {
     padding: 0 0 .2em .4em;
-	border-left: 1px solid #fff;
+    border-left: 1px solid #fff;
     color: #fff;
-	font-size: 20px;   
-	line-height: 1em;
+    font-size: 20px;
+    line-height: 1em;
 }
 
 /* HEADER: Menu */
 .menu {
-	position: absolute;
-	top: 0;
-	right: 0;
-	left: 0;
-	margin: 0 auto;
-	font-size: .9em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    font-size: .9em;
 }
 
 .menu-bar {
-	display: inline-block;
-	background-color: #454545;
+    display: inline-block;
+    background-color: #454545;
 }
 
 .menu-item a {
-	display: block;
-	-moz-box-sizing: content-box;
-	box-sizing: content-box;
-	border-bottom: 5px solid;
-	padding: .2em 1em;
-	color: #fff;
-	line-height: 1.5em;
+    display: block;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border-bottom: 5px solid;
+    padding: .2em 1em;
+    color: #fff;
+    line-height: 1.5em;
 }
 
 .menu-item a:hover {
-	color: #00abe1;
+    color: #00abe1;
 }
 
 .menu-item-tools a {
-	border-color: #0079c2;
+    border-color: #0079c2;
 }
 
 .menu-item-articles a {
-	border-color: #7fba00;
+    border-color: #7fba00;
 }
 
 .menu-item-demos a {
-	border-color: #833885;
+    border-color: #833885;
 }
 
 .menu-item-involved a {
-	border-color: #ff8c00;
+    border-color: #ff8c00;
 }
 
 /* HEADER: Other links */
 .microsoft-logo {
-	display: none;
+    display: none;
 }
 
 .microsoft-logo a,
 .tw {
-	display: inline-block;
-	overflow: hidden;
-	text-indent: 100%;
-	white-space: nowrap;
+    display: inline-block;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
 }
 .microsoft-logo a {
-	width: 112px;
-	height: 24px;
+    width: 112px;
+    height: 24px;
 }
 .icon-social {
     float: right;
-	margin-top: 1.45em;
+    margin-top: 1.45em;
 }
 .tw {
-	width: 30px;
-	height: 26px;
-	background: url("/images/twitter-logo.svg") no-repeat;
-	background-size: 29px auto;
+    width: 30px;
+    height: 26px;
+    background: url("/images/twitter-logo.svg") no-repeat;
+    background-size: 29px auto;
 }
 
 /* FILTERS */
@@ -227,9 +227,9 @@ progress {
 
 .filter-container::after,
 .search-form-wrapper::after {
-	display: table;
-	content: "";
-	clear: both;
+    display: table;
+    content: "";
+    clear: both;
 }
 
 .filter-group {
@@ -240,12 +240,12 @@ progress {
 
 /* FILTERS: Search */
 .search-form-wrapper .btn {
-	float: left;
-	height: 35px;
+    float: left;
+    height: 35px;
     border: none;
     color: #fff;
     background-color: #0079c2;
-	cursor: pointer;
+    cursor: pointer;
 }
 
 /* FILTERS: Search: form */
@@ -254,14 +254,14 @@ progress {
 }
 
 .form-control {
-	float: left;
-	width: calc(100% - 39px);
+    float: left;
+    width: calc(100% - 39px);
     min-width: 200px;
     height: 35px;
-    margin: 0 4px 4px 0; /* Bottom margin fixes #15 */ 
+    margin: 0 4px 4px 0; /* Bottom margin fixes #15 */
     border: solid 1px #c7c7c7;
     padding: 6px 12px;
-  	font-size: inherit;
+    font-size: inherit;
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
 }
 
@@ -309,7 +309,7 @@ progress {
 
 /* FILTERS: Filter selection */
 .info-row {
-	display: table;
+    display: table;
     width: 800px;
     height: 60px;
     margin: 0 auto;
@@ -322,13 +322,13 @@ progress {
 }
 
 .total-features {
-	width: 33.33%;
+    width: 33.33%;
     color: #fff;
     font-size: 16px;
 }
 
 .total-features span {
-	font-weight: 600;
+    font-weight: 600;
     font-size: 24px;
 }
 
@@ -338,14 +338,14 @@ progress {
 }
 
 .switch-filters-column {
-	display: inline-block;
+    display: inline-block;
     padding-right: 0;
     padding-left: 12px;
 }
 
 /* FILTERS: Filter selection: dropdown */
 .dropdown {
-  position: relative;
+    position: relative;
 }
 
 .dropdown-toggle {
@@ -360,16 +360,16 @@ progress {
 }
 
 .dropdown-menu {
-	display: none;
-	position: absolute;
-	top: 100%;
+    display: none;
+    position: absolute;
+    top: 100%;
     left: auto;
     right: -1px;
     z-index: 1;
     width: 200px;
     margin-top: -2px;
     border: 1px solid #ccc;
-	border: 1px solid rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(0, 0, 0, 0.15);
     padding: 0;
     text-align: left;
     background-color: #00BAF0;
@@ -409,7 +409,7 @@ progress {
 }
 
 .open > .dropdown-menu {
-  display: block;
+    display: block;
 }
 
 .dropdown-menu li {
@@ -480,7 +480,7 @@ progress {
 }
 
 .radio {
-	min-height: 0;
+    min-height: 0;
     border-radius: 50%;
 }
 
@@ -550,14 +550,14 @@ footer {
 }
 
 @media screen and (min-width: 960px) {
-	.microsoft-logo {
-		display: block;
-		float: right;
-		margin: 1.4em 0 0 1.9em;
-	}
-	.icon-social {
-		margin-right: 0;
-	}
+    .microsoft-logo {
+        display: block;
+        float: right;
+        margin: 1.4em 0 0 1.9em;
+    }
+    .icon-social {
+        margin-right: 0;
+    }
 }
 
 @media screen and (min-width: 820px) {
@@ -575,19 +575,19 @@ footer {
     .filter-group {
         width: calc(100% - 20px);
     }
-    
-    .switch-fiters {
-    	width: 70%;
-	}
 
-	.total-features {
-    	width: 28%;
-	}
-	
-	.switch-filters-column {
-		padding-left: 5px;
-	}
-	.dropdown-arrow {
+    .switch-fiters {
+        width: 70%;
+    }
+
+    .total-features {
+        width: 28%;
+    }
+
+    .switch-filters-column {
+        padding-left: 5px;
+    }
+    .dropdown-arrow {
         margin-left: 2px;
     }
 }
@@ -623,82 +623,82 @@ footer {
         display: none;
     }
     .sticky {
-		display: none !important;
-	}
-	
-	.header {
-		margin-bottom: 10px;
-	}
+        display: none !important;
+    }
+
+    .header {
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (min-width: 570px) {
-	.header {
-		height: 51px;
-		border-bottom: 10px solid #6d6e71;
-		padding-left: 4%;
-	}
+    .header {
+        height: 51px;
+        border-bottom: 10px solid #6d6e71;
+        padding-left: 4%;
+    }
 
-	.menu-bar {
-		position: absolute;
-		top: 59px;
-		width: 100%;
-		left: 0;
-		background: #282828;
-	}
-	.menu-item:first-child {
-		margin-left: 4%;
-	}
-	.menu-item {
-		float: left;
-		display: inline-block;
-	}
+    .menu-bar {
+        position: absolute;
+        top: 59px;
+        width: 100%;
+        left: 0;
+        background: #282828;
+    }
+    .menu-item:first-child {
+        margin-left: 4%;
+    }
+    .menu-item {
+        float: left;
+        display: inline-block;
+    }
 
-	.menu-item a {
-		margin-bottom: -5px;
-		padding: .5em 1.5em;
-	}	
-} 
+    .menu-item a {
+        margin-bottom: -5px;
+        padding: .5em 1.5em;
+    }
+}
 
 @media screen and (min-width: 1220px) {
-	.header {
-		height: 42px;
-		padding-left: 10px;
-		padding-bottom: 0;
-		background: -webkit-linear-gradient(left, #454545 50%, #282828 50%);
-		background: -moz-linear-gradient(left, #454545 50%, #282828 50%);
-		background: -o-linear-gradient(left, #454545 50%, #282828 50%);
-		background: linear-gradient(to right, #454545 50%, #282828 50%);
-	}
-	.menu {
+    .header {
+        height: 42px;
+        padding-left: 10px;
+        padding-bottom: 0;
+        background: -webkit-linear-gradient(left, #454545 50%, #282828 50%);
+        background: -moz-linear-gradient(left, #454545 50%, #282828 50%);
+        background: -o-linear-gradient(left, #454545 50%, #282828 50%);
+        background: linear-gradient(to right, #454545 50%, #282828 50%);
+    }
+    .menu {
         max-width: 810px;
         position: relative;
-		margin-top: -42px;
+        margin-top: -42px;
     }
-	.menu-bar {
-		height: 60px;
-		position: static;
-		width: inherit;
-	}
+    .menu-bar {
+        height: 60px;
+        position: static;
+        width: inherit;
+    }
 
-	.menu-item:first-child {
-		margin-left: 0;
-	}
+    .menu-item:first-child {
+        margin-left: 0;
+    }
 
-	.menu-item a {
-		min-width: 7.5em;
-		padding: 15px;
-		border-bottom-width: 10px;
-		font-size: 10px;
-	}
-	
-	.menu-item span {
-		display: block;
-		font-size: 2.1em;
-	}
+    .menu-item a {
+        min-width: 7.5em;
+        padding: 15px;
+        border-bottom-width: 10px;
+        font-size: 10px;
+    }
+
+    .menu-item span {
+        display: block;
+        font-size: 2.1em;
+    }
 }
 
 @media screen and (max-width: 300px) {
-	.icon-social {
-		display: none;
-	}
+    .icon-social {
+        display: none;
+    }
 }
