@@ -128,7 +128,7 @@ progress {
 	left: 0;
 	width: 28px; 
 	height: 28px;
-	background: url("/images/ie-logo.png") no-repeat;
+	background: url("http://modern.ie/cdn/img/ie_logo.png") no-repeat;
 	background-size: 28px;
 	content: "";
 	pointer-events: none;
@@ -146,6 +146,8 @@ progress {
 	font-size: 20px;   
 	line-height: 1em;
 }
+
+
 
 /* HEADER: Menu */
 .menu {
@@ -207,7 +209,12 @@ progress {
 .microsoft-logo a {
 	width: 112px;
 	height: 24px;
+    background-image: url("http://modern.ie/cdn/svg/microsoft-logo.svg");
+    width: 112px;
+    height: 24px;
 }
+
+
 .icon-social {
     float: right;
 	margin-top: 1.45em;
