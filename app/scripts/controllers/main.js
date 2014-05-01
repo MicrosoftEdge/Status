@@ -37,31 +37,6 @@ angular.module('statusieApp')
             $timeout(insertFeature, 0);
         };
 
-        $scope.$watch('sort', function (sortFunction) {
-            insertFeatures(_.sortBy(features, sortFunction));
-        });
-
-        $scope.$on('filtersUpdated', function () {
-            var filteredFeatures = _.clone(features);
-
-            _.forOwn($scope.filters, function (categoryFilters) {
-                if (!Array.isArray(categoryFilters)) {
-                    return;
-                }
-                _.forEach(categoryFilters, function (filter) {
-                    filteredFeatures = _.reduce(filteredFeatures, filter, []);
-                });
-            });
-
-            var names = _.pluck(filteredFeatures, 'name');
-
-            _.forEach($scope.features, function (feature) {
-                feature.visible = _.contains(names, feature.name);
-            });
-
-            $scope.limit = (filteredFeatures || []).length;
-        });
-
         var getFeatureId  = function(){
             var path = $location.path();
             return path.substr(1) || "";
@@ -92,6 +67,11 @@ angular.module('statusieApp')
 
             filterFeatures();
         });
+
+        $scope.$watch('sort', function (sortFunction) {
+            insertFeatures(_.sortBy(features, sortFunction));
+        });
+
 
         Status.load()
             .then(function (data) {
