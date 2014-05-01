@@ -57,13 +57,14 @@
     <div class="filter-container" data-notmobile data-sticky>
         <filter></filter>
         <div class="info-row">
-            <div class="total-features" aria-live="polite" role="status" aria-atomic="true">Features found: <span>{{limit}}</span></div>
             <div class="switch-fiters">
-                <featuresorting></featuresorting>
-                <drowpdownfilter data-options="{selections: categories, name: 'Technologies'}"></drowpdownfilter>
-                <drowpdownfilter data-options="{selections: browsers, name: 'Browsers'}"></drowpdownfilter>
+                <interopfilter></interopfilter>
+                <!--<drowpdownfilter data-options="{selections: categories, name: 'Technologies'}"></drowpdownfilter>-->
+                <!--<drowpdownfilter data-options="{selections: browsers, name: 'Browsers'}"></drowpdownfilter>-->
                 <drowpdownfilter data-options="{selections: featureStatus, name: 'Status'}"></drowpdownfilter>
+                <featuresorting></featuresorting>
             </div>
+            <div class="total-features" aria-live="polite" role="status" aria-atomic="true">Features found: <span>{{limit}}</span></div>
         </div>
     </div>
     <article role="article">
