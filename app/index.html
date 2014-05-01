@@ -55,16 +55,20 @@
         </nav>
     </header>
     <div class="filter-container" data-notmobile data-sticky>
-        <filter></filter>
+        <div class="filter-group">
+            <termfilter></termfilter>
+            <interopfilter></interopfilter>
+            <!--<drowpdownfilter data-options="{selections: categories, name: 'Technologies'}"></drowpdownfilter>-->
+            <!--<drowpdownfilter data-options="{selections: browsers, name: 'Browsers'}"></drowpdownfilter>-->
+            <drowpdownfilter data-options="{selections: featureStatus, name: 'Status'}"></drowpdownfilter>
+            <featuresorting></featuresorting>
+            <div class="total-features" aria-live="polite" role="status" aria-atomic="true">Features found: <span>{{limit}}</span></div>
+        </div>
         <div class="info-row">
             <div class="switch-fiters">
-                <interopfilter></interopfilter>
-                <!--<drowpdownfilter data-options="{selections: categories, name: 'Technologies'}"></drowpdownfilter>-->
-                <!--<drowpdownfilter data-options="{selections: browsers, name: 'Browsers'}"></drowpdownfilter>-->
-                <drowpdownfilter data-options="{selections: featureStatus, name: 'Status'}"></drowpdownfilter>
-                <featuresorting></featuresorting>
+
             </div>
-            <div class="total-features" aria-live="polite" role="status" aria-atomic="true">Features found: <span>{{limit}}</span></div>
+
         </div>
     </div>
     <article role="article">

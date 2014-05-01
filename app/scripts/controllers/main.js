@@ -2,7 +2,8 @@ angular.module('statusieApp')
     .controller('MainCtrl', function ($scope, $location, $timeout, $window, Status) {
         'use strict';
 
-        var features;
+        var features,
+            filters = {};
 
         $scope.features = [];
         $scope.limit = 0;
@@ -69,6 +70,28 @@ angular.module('statusieApp')
         var trackFeature = function(id){
             _gaq.push(['_trackPageview', '/status/' + id]);
         };
+
+        var filterFeatures = function(){
+            var filteredFeatures = _.clone(features);
+
+            _.forOwn(filters, function (filter) {
+                filteredFeatures = _.reduce(filteredFeatures, filter, []);
+            });
+
+            var names = _.pluck(filteredFeatures, 'name');
+
+            _.forEach($scope.features, function (feature) {
+                feature.visible = _.contains(names, feature.name);
+            });
+
+            $scope.limit = (filteredFeatures || []).length;
+        };
+
+        $scope.$on('filterupdated', function(filter){
+            filters[filter.name] = filter.filterFunction;
+
+            filterFeatures();
+        });
 
         Status.load()
             .then(function (data) {

@@ -1,13 +1,5 @@
-<div role="search" class="search-form-wrapper">
+
     <form class="form-group">
         <label class="sr-only" for="termInput">New term</label>
-    	<input type="text" class="form-control" id="termInput" placeholder="Filter..." data-ng-model="inputTerm">
-        <button class="btn btn-default btn-add-filter" data-ng-click="addTerm(inputTerm)">Add</button>
+    	<input type="text" class="form-control" id="termInput" placeholder="Filter..." data-ng-model="term" data-ng-change="termChange()">
     </form>
-    <div class="single-filters-wrapper">
-        <button class="btn btn-default btn-single-filter" data-ng-repeat="term in terms" data-ng-click="removeTerm(term)">
-            <div bindonce class="single-filter-text" data-bo-text="term.text" data-bo-title="'Remove ' + term.text"></div>
-            <i class="icon-remove-icon"></i>
-        </button>
-    </div>
-</div>
