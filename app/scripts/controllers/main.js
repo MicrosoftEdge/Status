@@ -87,8 +87,8 @@ angular.module('statusieApp')
             $scope.limit = (filteredFeatures || []).length;
         };
 
-        $scope.$on('filterupdated', function(filter){
-            filters[filter.name] = filter.filterFunction;
+        $scope.$on('filterupdated', function(event, data){
+            filters[data.name] = data.filterFunction;
 
             filterFeatures();
         });
