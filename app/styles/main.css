@@ -375,7 +375,10 @@ progress {
     background-color: #00BAF0;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
     color: #fff;
-    list-style: none;
+}
+
+.filter-settings .dropdown-menu {
+	width: 433px;
 }
 
 .dropdown-arrow {
@@ -412,10 +415,31 @@ progress {
     display: block;
 }
 
+.ie-status-options, .interop-status-options {
+	float: left;
+	width: 50%;
+}
+
+
+.ie-status-options p, .interop-status-options p {
+	line-height: 36px;
+	margin: 0;
+	padding-left: 35px;
+	border-top: solid 1px #0079c2;
+}
+
+.dropdown-menu h2 {
+	margin: 5px 0 0 35px;
+}
+
+.dropdown-menu ul {
+	display: 50%;
+}
 .dropdown-menu li {
     height: 36px;
     border-bottom: solid 1px #0079c2;
     padding: 0 10px;
+    list-style: none;
 }
 
 .dropdown-menu li:last-child {
