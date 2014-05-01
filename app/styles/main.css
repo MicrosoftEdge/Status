@@ -222,6 +222,7 @@ progress {
 /* FILTERS */
 .filter-container {
     margin-bottom: 10px;
+    padding: 15px 0;
     background-color: #00BAF0;
 }
 
@@ -235,7 +236,6 @@ progress {
 .filter-group {
     width: 800px;
     margin: 0 auto;
-    padding: 15px 0 5px 0;
 }
 
 /* FILTERS: Search */
@@ -308,33 +308,16 @@ progress {
 }
 
 /* FILTERS: Filter selection */
-.info-row {
-    display: table;
-    width: 800px;
-    height: 60px;
-    margin: 0 auto;
-}
-
-.total-features,
-.switch-fiters {
-    display: table-cell;
-    vertical-align: middle;
-}
 
 .total-features {
-    width: 33.33%;
     color: #fff;
     font-size: 16px;
+    float: right;
 }
 
 .total-features span {
     font-weight: 600;
     font-size: 24px;
-}
-
-.switch-fiters {
-    width: 66.66%;
-    text-align: right;
 }
 
 .switch-filters-column {
@@ -585,7 +568,6 @@ footer {
 }
 
 @media screen and (min-width: 820px) {
-    .info-row,
     .foot-center,
     .filter-group,
     .links {
@@ -594,23 +576,11 @@ footer {
 }
 
 @media screen and (max-width: 819px) {
-    .info-row,
     .foot-center,
     .filter-group {
         width: calc(100% - 20px);
     }
 
-    .switch-fiters {
-        width: 70%;
-    }
-
-    .total-features {
-        width: 28%;
-    }
-
-    .switch-filters-column {
-        padding-left: 5px;
-    }
     .dropdown-arrow {
         margin-left: 2px;
     }
