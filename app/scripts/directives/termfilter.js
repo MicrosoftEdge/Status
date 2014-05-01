@@ -14,7 +14,7 @@ angular.module('statusieApp')
                             return acum;
                         }
 
-                        var termRegex = new RegExp(term.text, 'gi');
+                        var termRegex = new RegExp(term, 'gi');
 
                         if (termRegex.test(item.name) || termRegex.test(item.summary)) {
                             acum.push(item);
