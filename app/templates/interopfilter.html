@@ -11,21 +11,21 @@
 				<ul>
 					<li>
 						<div class="custom-check">
-							<input type="checkbox" id="ie-notplanned" checked=""/>
+							<input type="checkbox" id="ie-notplanned" data-ng-model="iestatus.notplanned" checked="" data-ng-change="checkChanged()"/>
 							<label class="check" for="ie-notplanned"></label>
 						</div>
 						<label for="ie-notplanned">Not Currently Planned</label>
 					</li>
 					<li>
 						<div class="custom-check">
-							<input type="checkbox" id="ie-underconsideration" checked=""/>
+							<input type="checkbox" id="ie-underconsideration" data-ng-model="iestatus.underconsideration" checked="" data-ng-change="checkChanged()"/>
 							<label class="check" for="ie-underconsideration"></label>
 						</div>
 						<label for="ie-underconsideration">Under Consideration</label>
 					</li>
 					<li>
 						<div class="custom-check">
-							<input type="checkbox" id="ie-indevelopment" checked=""/>
+							<input type="checkbox" id="ie-indevelopment" data-ng-model="iestatus.indevelopment" checked="" data-ng-change="checkChanged()"/>
 							<label class="check" for="ie-indevelopment"></label>
 						</div>
 						<label for="ie-indevelopment">In Development</label>

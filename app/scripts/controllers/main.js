@@ -55,6 +55,7 @@ angular.module('statusieApp')
 
             var names = _.pluck(filteredFeatures, 'name');
 
+            //Its faster to check the names of the features and hide them than replacing the items with new ones
             _.forEach($scope.features, function (feature) {
                 feature.visible = _.contains(names, feature.name);
             });
@@ -85,10 +86,7 @@ angular.module('statusieApp')
                 }), $scope.sort);
                 $scope.limit = features.length;
 
-                //$scope.features = _.clone(features);
                 insertFeatures(features, function(){
-                    var historyLength = 0;
-
                     $scope.$on('$locationChangeSuccess', function(){
                         var featureId = getFeatureId();
                         trackFeature(featureId);
