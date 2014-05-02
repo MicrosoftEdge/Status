@@ -11,7 +11,8 @@ angular.module('statusieApp')
                     underconsideration: 'Under Consideration',
                     indevelopment: 'In Development',
                     notsupported: 'Not Supported',
-                    shipped: 'Shipped'
+                    shipped: 'Shipped',
+                    implemented: 'Shipped'
                 };
 
                 $scope.iestatus = {
@@ -61,13 +62,15 @@ angular.module('statusieApp')
                             }
                         });
 
-                        var addBrowsers = false;
+                        var addBrowsers = true;
                         _.forOwn(browsers, function (browserValue, browser) {
+                            var addBrowser = false;
                             _.forOwn(browserStatuses, function(statusValue, browserStatus ){
                                 if(item.browsers[browser].status ===  converStatus[browserStatus]){
-                                    addBrowsers = true;
+                                    addBrowser = true;
                                 }
                             });
+                            addBrowsers = addBrowsers && addBrowser;
                         });
 
                         add = addIE && addBrowsers;
