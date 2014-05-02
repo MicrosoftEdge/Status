@@ -32,42 +32,42 @@
 					</li>
 				</ul>
                 <div class="custom-check">
-                    <input type="checkbox" id="ie-implemented" data-ng-model="ieimplemented" checked="true" data-ng-change="checkChanged()"/>
+                    <input type="checkbox" id="ie-implemented" data-ng-model="iestatus.implemented" checked=""/>
                     <label class="check" for="ie-implemented"></label>
                 </div>
                 <label for="ie-implemented">Implemented in:</label>
 				<ul>
-					<li data-ng-class="{'disabled' : !ieimplemented }">
+					<li data-ng-class="{'disabled' : !iestatus.implemented }">
                         <div class="custom-check radio-btn">
-                            <input type="radio" name="ieversion" id="iedev" data-ng-value="sort.name" data-ng-model="selectedSort.name" />
+                            <input type="radio" name="ieversion" id="iedev" value="iedev" data-ng-model="ieversion" data-ng-change="checkChanged()"/>
                             <label class="radio" for="iedev"></label>
                         </div>
                         <label for="iedev">IE Developer Channel</label>
 					</li>
-					<li data-ng-class="{'disabled' : !ieimplemented }">
+					<li data-ng-class="{'disabled' : !iestatus.implemented }">
                         <div class="custom-check radio-btn">
-                            <input type="radio" name="ieversion" id="ie11" data-ng-value="sort.name" data-ng-model="selectedSort.name" />
+                            <input type="radio" name="ieversion" id="ie11" value="ie11" data-ng-model="ieversion" data-ng-change="checkChanged()"/>
                             <label class="radio" for="ie11"></label>
                         </div>
                         <label for="ie11">IE11</label>
 					</li>
-					<li data-ng-class="{'disabled' : !ieimplemented }">
+					<li data-ng-class="{'disabled' : !iestatus.implemented }">
                         <div class="custom-check radio-btn">
-                            <input type="radio" name="ieversion" id="ie10" data-ng-value="sort.name" data-ng-model="selectedSort.name" />
+                            <input type="radio" name="ieversion" id="ie10" value="ie10" data-ng-model="ieversion" data-ng-change="checkChanged()"/>
                             <label class="radio" for="ie10"></label>
                         </div>
                         <label for="ie10">IE10</label>
 					</li>
-					<li data-ng-class="{'disabled' : !ieimplemented }">
+					<li data-ng-class="{'disabled' : !iestatus.implemented }">
                         <div class="custom-check radio-btn">
-                            <input type="radio" name="ieversion" id="ie9" data-ng-value="sort.name" data-ng-model="selectedSort.name" />
+                            <input type="radio" name="ieversion" id="ie9" value="ie9" data-ng-model="ieversion" data-ng-change="checkChanged()"/>
                             <label class="radio" for="ie9"></label>
                         </div>
                         <label for="ie9">IE9</label>
 					</li>
-					<li data-ng-class="{'disabled' : !ieimplemented }">
+					<li data-ng-class="{'disabled' : !iestatus.implemented }">
                         <div class="custom-check radio-btn">
-                            <input type="radio" name="ieversion" id="ie8" data-ng-value="sort.name" data-ng-model="selectedSort.name" />
+                            <input type="radio" name="ieversion" id="ie8" value="ie8" data-ng-model="ieversion" data-ng-change="checkChanged()"/>
                             <label class="radio" for="ie8"></label>
                         </div>
                         <label for="ie8">IE8</label>

@@ -18,7 +18,8 @@ angular.module('statusieApp')
                 $scope.iestatus = {
                     notplanned: true,
                     underconsideration: true,
-                    indevelopment: true
+                    indevelopment: true,
+                    implemented: true
                 };
 
                 $scope.browserstatus = {
@@ -34,55 +35,77 @@ angular.module('statusieApp')
                     opera: true
                 };
 
-                var getSelected = function(targetObject){
-                    return function(value, key){
-                        if(value){
+                $scope.ieversion = 'iedev';
+
+                var getSelected = function (source) {
+                    var targetObject = {};
+
+                    _.forOwn(source, function (value, key) {
+                        if (value) {
                             targetObject[key] = value;
                         }
-                    };
+                    });
+                    return targetObject;
                 };
 
                 var filterFunction = function () {
 
-                    var ieStatuses = {};
-                    var browsers = {};
-                    var browserStatuses = {};
+                        var ieStatuses = getSelected($scope.iestatus);
+                        var browsers = getSelected($scope.browsers);
+                        var browserStatuses = getSelected($scope.browserstatus);
+                        var ieVersion;
 
-                    _.forOwn($scope.iestatus, getSelected(ieStatuses));
-                    _.forOwn($scope.browsers, getSelected(browsers));
-                    _.forOwn($scope.browserstatus, getSelected(browserStatuses));
-
-                    return function (acum, item) {
-                        var add;
-
-                        var addIE = false;
-                        _.forOwn(ieStatuses, function (value, status) {
-                            if (item.browsers.ie.status === converStatus[status]) {
-                                addIE = true;
-                            }
-                        });
-
-                        var addBrowsers = true;
-                        _.forOwn(browsers, function (browserValue, browser) {
-                            var addBrowser = false;
-                            _.forOwn(browserStatuses, function(statusValue, browserStatus ){
-                                if(item.browsers[browser].status ===  converStatus[browserStatus]){
-                                    addBrowser = true;
-                                }
-                            });
-                            addBrowsers = addBrowsers && addBrowser;
-                        });
-
-                        add = addIE && addBrowsers;
-
-                        if (add) {
-                            acum.push(item);
+                        if ($scope.ieversion !== 'iedev') {
+                            var version = $scope.ieversion.replace(/\D+/, '');
+                            ieVersion = parseInt(version, 10);
+                        } else {
+                            ieVersion = 'iedev';
                         }
 
-                        return acum;
-                    };
+                        return function (acum, item) {
+                            var add;
 
-                };
+                            var addIE = false;
+                            _.forOwn(ieStatuses, function (value, status) {
+                                if (status === 'implemented') {
+                                    if ($scope.iestatus.implemented) {
+                                        if (item.browsers.ie.prefixed <= ieVersion ||
+                                            item.browsers.ie.unprefixed <= ieVersion) {
+                                            addIE = true;
+                                        }
+                                    } else {
+                                        addIE = true;
+                                    }
+                                } else {
+
+                                    if (item.browsers.ie.status === converStatus[status]) {
+                                        addIE = true;
+                                    }
+                                }
+                            });
+
+                            var addBrowsers = true;
+                            _.forOwn(browsers, function (browserValue, browser) {
+                                var addBrowser = false;
+                                _.forOwn(browserStatuses, function (statusValue, browserStatus) {
+                                    if (item.browsers[browser].status === converStatus[browserStatus]) {
+                                        addBrowser = true;
+                                    }
+                                });
+                                addBrowsers = addBrowsers && addBrowser;
+                            });
+
+                            add = addIE && addBrowsers;
+
+                            if (add) {
+                                acum.push(item);
+                            }
+
+                            return acum;
+                        }
+                            ;
+                    }
+                    ;
 
                 $scope.checkChanged = function () {
                     $scope.$emit('filterupdated', {
@@ -96,4 +119,6 @@ angular.module('statusieApp')
 
             }
         };
-    });
+    }
+)
+;
