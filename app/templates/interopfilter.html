@@ -75,21 +75,21 @@
 				<ul>
 					<li>
 						<div class="custom-check">
-							<input type="checkbox" id="notsupported" checked=""/>
+							<input type="checkbox" id="notsupported" data-ng-model="browserstatus.notsupported" checked="" data-ng-change="checkChanged()"/>
 							<label class="check" for="notsupported"></label>
 						</div>
 						<label for="notsupported">Not Supported</label>
 					</li>
 					<li>
 						<div class="custom-check">
-							<input type="checkbox" id="indevelopment" checked=""/>
+							<input type="checkbox" id="indevelopment" data-ng-model="browserstatus.indevelopment" checked="" data-ng-change="checkChanged()"/>
 							<label class="check" for="indevelopment"></label>
 						</div>
 						<label for="indevelopment">In Development</label>
 					</li>
 					<li>
 						<div class="custom-check">
-							<input type="checkbox" id="implemented" checked=""/>
+							<input type="checkbox" id="implemented" data-ng-model="browserstatus.implemented" checked="" data-ng-change="checkChanged()"/>
 							<label class="check" for="implemented"></label>
 						</div>
 						<label for="implemented">Implemented</label>
@@ -99,28 +99,28 @@
 				<ul>
 					<li>
 						<div class="custom-check">
-							<input type="checkbox" id="chrome" checked=""/>
+							<input type="checkbox" id="chrome" data-ng-model="browsers.chrome" checked="" data-ng-change="checkChanged()"/>
 							<label class="check" for="chrome"></label>
 						</div>
 						<label for="chrome">Chrome</label>
 					</li>
 					<li>
 						<div class="custom-check">
-							<input type="checkbox" id="firefox" checked=""/>
+							<input type="checkbox" id="firefox" data-ng-model="browsers.firefox" checked="" data-ng-change="checkChanged()"/>
 							<label class="check" for="firefox"></label>
 						</div>
 						<label for="firefox">firefox</label>
 					</li>
 					<li>
 						<div class="custom-check">
-							<input type="checkbox" id="opera" checked=""/>
+							<input type="checkbox" id="opera" data-ng-model="browsers.opera" checked="" data-ng-change="checkChanged()"/>
 							<label class="check" for="opera"></label>
 						</div>
 						<label for="opera">opera</label>
 					</li>
 					<li>
 						<div class="custom-check">
-							<input type="checkbox" id="safari" checked=""/>
+							<input type="checkbox" id="safari" data-ng-model="browsers.safari" checked="" data-ng-change="checkChanged()"/>
 							<label class="check" for="safari"></label>
 						</div>
 						<label for="safari">safari</label>

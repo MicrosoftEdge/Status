@@ -77,7 +77,7 @@ angular.module('statusieApp')
         Status.load()
             .then(function (data) {
                 $scope.categories = data.categories;
-                $scope.browsers = data.browsers;
+//                $scope.browsers = data.browsers;
                 $scope.featureStatus = data.ieVersions;
                 $scope.loading = false;
 

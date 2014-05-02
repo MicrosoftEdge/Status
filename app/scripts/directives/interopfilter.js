@@ -9,7 +9,9 @@ angular.module('statusieApp')
                 var converStatus = {
                     notplanned: 'Not currently planned',
                     underconsideration: 'Under Consideration',
-                    indevelopment: 'In Development'
+                    indevelopment: 'In Development',
+                    notsupported: 'Not Supported',
+                    shipped: 'Shipped'
                 };
 
                 $scope.iestatus = {
@@ -17,16 +19,37 @@ angular.module('statusieApp')
                     underconsideration: true,
                     indevelopment: true
                 };
-                
+
+                $scope.browserstatus = {
+                    notsupported: true,
+                    indevelopment: true,
+                    implemented: true
+                };
+
+                $scope.browsers = {
+                    chrome: true,
+                    firefox: true,
+                    safari: true,
+                    opera: true
+                };
+
+                var getSelected = function(targetObject){
+                    return function(value, key){
+                        if(value){
+                            targetObject[key] = value;
+                        }
+                    };
+                };
+
                 var filterFunction = function () {
 
                     var ieStatuses = {};
+                    var browsers = {};
+                    var browserStatuses = {};
 
-                    _.forOwn($scope.iestatus, function (value, key) {
-                        if(value){
-                            ieStatuses[key] = value;
-                        }
-                    });
+                    _.forOwn($scope.iestatus, getSelected(ieStatuses));
+                    _.forOwn($scope.browsers, getSelected(browsers));
+                    _.forOwn($scope.browserstatus, getSelected(browserStatuses));
 
                     return function (acum, item) {
                         var add;
@@ -38,7 +61,16 @@ angular.module('statusieApp')
                             }
                         });
 
-                        add = addIE;
+                        var addBrowsers = false;
+                        _.forOwn(browsers, function (browserValue, browser) {
+                            _.forOwn(browserStatuses, function(statusValue, browserStatus ){
+                                if(item.browsers[browser].status ===  converStatus[browserStatus]){
+                                    addBrowsers = true;
+                                }
+                            });
+                        });
+
+                        add = addIE && addBrowsers;
 
                         if (add) {
                             acum.push(item);
