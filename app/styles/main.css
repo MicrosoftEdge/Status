@@ -305,7 +305,7 @@ progress {
 
 .filter-settings .dropdown-menu {
 	width: 433px;
-	padding: 0 8px 8px;
+	padding: 6px 8px;
 	background-color: #00BAF0;
 	margin-left: -330px;
 }
@@ -514,7 +514,7 @@ footer {
     	left: 0;
     	width: 100%;
     	margin-left: 0;
-    	padding: 0 0 8px;
+    	padding: 6px 0;
     }
 }
 
