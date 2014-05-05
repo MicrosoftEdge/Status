@@ -370,7 +370,8 @@ progress {
 	display: 50%;
 }
 .dropdown-menu li {
-    padding: 0 10px;
+	position: relative;
+    padding-left: 10px;
     list-style: none;
 }
 
@@ -378,17 +379,9 @@ progress {
 	margin-left: 15px;
 }
 
-.dropdown-menu li input {
-    margin-top: 12px;
-    vertical-align: top;
-}
-
-.dropdown-menu li .custom-check {
-    margin-top: 8px;
-}
-
-.dropdown-menu li label:not(.check):not(.radio) {
-    height: 30px;
+.dropdown-menu li label {
+    width: 100%;
+    padding-left: 25px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -397,49 +390,37 @@ progress {
     cursor: pointer;
 }
 
-.dropdown-menu .disabled .custom-check,
 .dropdown-menu .disabled label {
     opacity: .5;
 }
 
-/* CUSTOM CONTROLS */
-.custom-check {
-    position: relative;
-    float: left;
-    width: 15px;
-    height: 15px;
-    margin: 0 10px 0 0;
-    overflow: hidden;
-}
-
-.custom-check input {
+input[type=radio],
+input[type=checkbox] {
     display: none;
 }
 
-.check,
-.radio {
+input[type=checkbox] + label::before,
+input[type=radio] + label::before {
     position: absolute;
-    left: 0;
-    top: 0;
-    display: block;
+    top: 8px;
+    left: 10px;
     width: 15px;
     height: 15px;
     border: 1px solid #00BAF0;
-    background-image: none;
-    background-color: transparent;
-    cursor: pointer;
+    content: ""
 }
 
-.radio {
-    min-height: 0;
+[type=radio] + label::before {
     border-radius: 50%;
 }
 
-[type=checkbox]:checked + .check {
-    background-image: url("/images/check.png");
+[type=checkbox]:checked + label::before {
+    line-height: 1;
+    content: "\2713"; 
+    text-align: center;
 }
 
-[type=radio]:checked + .radio {
+[type=radio]:checked + label::before{
     background-color: #fff;
     box-shadow: 0 0 0 3px #0079c2 inset;
 }
