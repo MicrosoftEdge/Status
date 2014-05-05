@@ -355,12 +355,12 @@ progress {
 	margin-right: 8px;
 }
 
-.ie-status-options p,
 .interop-status-options p {
 	margin: 0;
-	padding-left: 35px;
+	padding-left: 10px;
 	line-height: 30px;
 }
+
 
 .dropdown-menu h2 {
 	margin: 5px 0 0 35px;
@@ -370,9 +370,12 @@ progress {
 	display: 50%;
 }
 .dropdown-menu li {
-    height: 30px;
     padding: 0 10px;
     list-style: none;
+}
+
+.dropdown-menu li > ul {
+	margin-left: 15px;
 }
 
 .dropdown-menu li input {
