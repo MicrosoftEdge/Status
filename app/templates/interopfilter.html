@@ -28,7 +28,8 @@
                         <label for="ie-indevelopment">In Development</label>
                     </li>
                     <li>
-                        <input type="checkbox" id="ie-implemented" data-ng-model="iestatus.implemented" checked=""/>
+                        <input type="checkbox" id="ie-implemented" data-ng-model="iestatus.implemented"
+                               checked="" data-ng-change="checkChanged()"/>
                         <label for="ie-implemented">Implemented in:</label>
                         <ul>
                             <li data-ng-class="{'disabled' : !iestatus.implemented }">
