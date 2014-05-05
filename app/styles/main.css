@@ -135,7 +135,7 @@ progress {
 }
 
 .siteLogo a {
-    display: block;
+    display: inline-block;
     padding-left: 2.8em;
 }
 
