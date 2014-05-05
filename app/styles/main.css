@@ -13,7 +13,7 @@
     src: local("Segoe UI"), url("http://www.modern.ie/cdn/fonts/west-european/normal/latest.woff") format("woff");
 }
 
-*, *::before, *::after {
+* {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -404,8 +404,8 @@ input[type=radio] + label::before {
     position: absolute;
     top: 8px;
     left: 10px;
-    width: 15px;
-    height: 15px;
+    width: 13px;
+    height: 13px;
     border: 1px solid #00BAF0;
     content: ""
 }
