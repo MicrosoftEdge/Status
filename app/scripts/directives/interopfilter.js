@@ -4,16 +4,9 @@ angular.module('statusieApp')
         return {
             templateUrl: '/templates/interopfilter.html',
             restrict: 'E',
-            controller: function ($scope) {
-                //TODO: I don't like this...
-                var converStatus = {
-                    notplanned: 'Not currently planned',
-                    underconsideration: 'Under Consideration',
-                    indevelopment: 'In Development',
-                    notsupported: 'Not Supported',
-                    shipped: 'Shipped',
-                    implemented: 'Shipped'
-                };
+            controller: function (Status, $scope) {
+
+                var convertStatus = Status.statuses;
 
                 $scope.iestatus = {
                     notplanned: true,
@@ -50,61 +43,61 @@ angular.module('statusieApp')
 
                 var filterFunction = function () {
 
-                        var ieStatuses = getSelected($scope.iestatus);
-                        var browsers = getSelected($scope.browsers);
-                        var browserStatuses = getSelected($scope.browserstatus);
-                        var ieVersion;
+                    var ieStatuses = getSelected($scope.iestatus);
+                    var browsers = getSelected($scope.browsers);
+                    var browserStatuses = getSelected($scope.browserstatus);
+                    var ieVersion;
 
-                        if ($scope.ieversion !== 'iedev') {
-                            var version = $scope.ieversion.replace(/\D+/, '');
-                            ieVersion = parseInt(version, 10);
-                        } else {
-                            ieVersion = 'iedev';
-                        }
+                    if ($scope.ieversion !== 'iedev') {
+                        var version = $scope.ieversion.replace(/\D+/, '');
+                        ieVersion = parseInt(version, 10);
+                    } else {
+                        ieVersion = 'iedev';
+                    }
 
-                        return function (acum, item) {
-                            var add;
+                    return function (acum, item) {
+                        var add;
 
-                            var addIE = false;
-                            _.forOwn(ieStatuses, function (value, status) {
-                                if (status === 'implemented') {
-                                    if ($scope.iestatus.implemented) {
-                                        if(ieVersion ==='iedev' && item.browsers.ie.status === 'Shipped'){
-                                            addIE = true;
-                                        } else if (item.browsers.ie.prefixed <= ieVersion ||
-                                            item.browsers.ie.unprefixed <= ieVersion) {
-                                            addIE = true;
-                                        }
-                                    } else {
+                        var addIE = false;
+                        _.forOwn(ieStatuses, function (value, status) {
+                            if (status === convertStatus.implemented) {
+                                if ($scope.iestatus.implemented) {
+                                    if (ieVersion === 'iedev' && item.browsers.ie.status === convertStatus.shipped) {
+                                        addIE = true;
+                                    } else if (item.browsers.ie.prefixed <= ieVersion ||
+                                        item.browsers.ie.unprefixed <= ieVersion) {
                                         addIE = true;
                                     }
                                 } else {
-                                    if (item.browsers.ie.status === converStatus[status]) {
-                                        addIE = true;
-                                    }
+                                    addIE = true;
+                                }
+                            } else {
+                                if (item.browsers.ie.status === convertStatus[status]) {
+                                    addIE = true;
+                                }
+                            }
+                        });
+
+                        var addBrowsers = true;
+                        _.forOwn(browsers, function (browserValue, browser) {
+                            var addBrowser = false;
+                            _.forOwn(browserStatuses, function (statusValue, browserStatus) {
+                                if (item.browsers[browser].status === convertStatus[browserStatus]) {
+                                    addBrowser = true;
                                 }
                             });
+                            addBrowsers = addBrowsers && addBrowser;
+                        });
 
-                            var addBrowsers = true;
-                            _.forOwn(browsers, function (browserValue, browser) {
-                                var addBrowser = false;
-                                _.forOwn(browserStatuses, function (statusValue, browserStatus) {
-                                    if (item.browsers[browser].status === converStatus[browserStatus]) {
-                                        addBrowser = true;
-                                    }
-                                });
-                                addBrowsers = addBrowsers && addBrowser;
-                            });
+                        add = addIE && addBrowsers;
 
-                            add = addIE && addBrowsers;
+                        if (add) {
+                            acum.push(item);
+                        }
 
-                            if (add) {
-                                acum.push(item);
-                            }
-
-                            return acum;
-                        };
+                        return acum;
                     };
+                };
 
                 $scope.checkChanged = function () {
                     $scope.$emit('filterupdated', {
@@ -115,7 +108,7 @@ angular.module('statusieApp')
 
             },
             link: function postLink(scope, element) {
-                element[0].querySelector('.dropdown-menu').addEventListener('click', function(evt){
+                element[0].querySelector('.dropdown-menu').addEventListener('click', function (evt) {
                     evt.stopPropagation();
                 });
             }
