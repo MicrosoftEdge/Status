@@ -355,6 +355,7 @@ progress {
 }
 
 .interop-status-options p {
+	height: 35px;
 	margin: 0;
 	padding-left: 10px;
 	line-height: 30px;
