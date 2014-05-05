@@ -69,7 +69,9 @@ angular.module('statusieApp')
                             _.forOwn(ieStatuses, function (value, status) {
                                 if (status === 'implemented') {
                                     if ($scope.iestatus.implemented) {
-                                        if (item.browsers.ie.prefixed <= ieVersion ||
+                                        if(ieVersion ==='iedev' && item.browsers.ie.status === 'Shipped'){
+                                            addIE = true;
+                                        } else if (item.browsers.ie.prefixed <= ieVersion ||
                                             item.browsers.ie.unprefixed <= ieVersion) {
                                             addIE = true;
                                         }
@@ -77,7 +79,6 @@ angular.module('statusieApp')
                                         addIE = true;
                                     }
                                 } else {
-
                                     if (item.browsers.ie.status === converStatus[status]) {
                                         addIE = true;
                                     }
@@ -102,10 +103,8 @@ angular.module('statusieApp')
                             }
 
                             return acum;
-                        }
-                            ;
-                    }
-                    ;
+                        };
+                    };
 
                 $scope.checkChanged = function () {
                     $scope.$emit('filterupdated', {
