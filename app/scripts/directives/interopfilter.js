@@ -115,7 +115,7 @@ angular.module('statusieApp')
 
             },
             link: function postLink(scope, element) {
-                element.on('click', function(evt){
+                element[0].querySelector('.dropdown-menu').addEventListener('click', function(evt){
                     evt.stopPropagation();
                 });
             }
