@@ -8,25 +8,27 @@ angular.module('statusieApp')
 
                 var convertStatus = Status.statuses;
 
-                $scope.iestatus = {
-                    notplanned: true,
-                    underconsideration: true,
-                    indevelopment: true,
-                    implemented: true
+                var select = function (result, key) {
+                    result[key] = true;
+                    return result;
                 };
 
-                $scope.browserstatus = {
-                    notsupported: true,
-                    indevelopment: true,
-                    implemented: true
-                };
+                $scope.iestatus = _.reduce(['notplanned',
+                    'underconsideration',
+                    'indevelopment',
+                    'implemented'], select, {});
 
-                $scope.browsers = {
-                    chrome: true,
-                    firefox: true,
-                    safari: true,
-                    opera: true
-                };
+
+                $scope.browserstatus = _.reduce(['notsupported',
+                    'indevelopment',
+                    'implemented'], select, {});
+
+
+                $scope.browsers = _.reduce(['chrome',
+                    'firefox',
+//                    'opera',
+                    'safari'], select, {});
+
 
                 $scope.ieversion = 'iedev';
 
