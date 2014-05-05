@@ -102,10 +102,8 @@ angular.module('statusieApp')
                             }
 
                             return acum;
-                        }
-                            ;
-                    }
-                    ;
+                        };
+                    };
 
                 $scope.checkChanged = function () {
                     $scope.$emit('filterupdated', {
