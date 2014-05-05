@@ -115,10 +115,11 @@ angular.module('statusieApp')
                 };
 
             },
-            link: function postLink(scope, element, attrs) {
-
+            link: function postLink(scope, element) {
+                element.on('click', function(evt){
+                    evt.stopPropagation();
+                });
             }
         };
     }
-)
-;
+);
