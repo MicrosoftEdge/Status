@@ -11,6 +11,39 @@ angular.module('statusieApp')
             controller: function ($scope) {
                 'use strict';
 
+                var filterFunction = function (selectedCategories) {
+                    return function (acum, item) {
+                        if (selectedCategories && selectedCategories.length === 0) {
+                            acum.push(item);
+                        } else if (_.contains(selectedCategories, item.category)) {
+                            acum.push(item);
+                        }
+
+                        return acum;
+                    }
+                };
+
+                $scope.$watch('selections', function (newValue, oldValue) {
+                    if (!newValue) {
+                        return;
+                    }
+
+                    //We don't want to filter when we add the categories
+                    if (!oldValue) {
+                        return;
+                    }
+
+                    var selectedCategories = _.sortBy(_.pluck(_.filter(newValue, function (category) {
+                        return category.selected;
+                    }), 'name'), _.identity);
+
+                    $scope.$emit('filterupdated', {
+                        name: 'category',
+                        filterFunction: filterFunction(selectedCategories)
+                    });
+
+                }, true);
+
                 $scope.$watch('options.selections', function (newValue, oldValue) {
                     if (!newValue) {
                         return;
@@ -42,7 +75,7 @@ angular.module('statusieApp')
                                     scope.allOptions = false;
                                 }
                             });
-                        }else if (classList.contains('dynamic-all')) {
+                        } else if (classList.contains('dynamic-all')) {
                             scope.$apply(function () {
                                 scope.allOptions = !scope.allOptions;
                                 if (scope.allOptions) {
@@ -53,7 +86,7 @@ angular.module('statusieApp')
                             });
                         }
                         evt.stopPropagation();
-                    }else if(tagName === 'input') {
+                    } else if (tagName === 'input') {
                         if (evt.target.parentElement.parentElement.classList.contains('dynamic-all')) {
                             scope.$apply(function () {
                                 scope.allOptions = !scope.allOptions;
