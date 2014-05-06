@@ -92,17 +92,18 @@
                         data-ng-change="checkChanged()"/>
                         <label for="firefox">firefox</label>
                     </li>
-                    <li>
-                        <input type="checkbox" id="opera" data-ng-model="browsers.opera" checked=""
-                        data-ng-change="checkChanged()"/>
-                        <label for="opera">opera</label>
-                    </li>
+                    <!--<li>-->
+                        <!--<input type="checkbox" id="opera" data-ng-model="browsers.opera" checked=""-->
+                        <!--data-ng-change="checkChanged()"/>-->
+                        <!--<label for="opera">opera</label>-->
+                    <!--</li>-->
                     <li>
                         <input type="checkbox" id="safari" data-ng-model="browsers.safari" checked=""
                         data-ng-change="checkChanged()"/>
                         <label for="safari">safari</label>
                     </li>
                 </ul>
+                <drowpdownfilter data-options="{selections: categories, name: 'Technologies'}"></drowpdownfilter>
             </div>
         </div>
     </div>
