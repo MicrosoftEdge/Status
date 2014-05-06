@@ -19,7 +19,8 @@ angular.module('statusieApp')
             indevelopment: 'In Development',
             notsupported: 'Not Supported',
             shipped: 'Shipped',
-            implemented: 'Shipped'
+            implemented: 'Shipped',
+            prefixed: 'Prefixed'
         };
 
         var chromeStatus;

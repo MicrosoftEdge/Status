@@ -62,9 +62,10 @@ angular.module('statusieApp')
 
                         var addIE = false;
                         _.forOwn(ieStatuses, function (value, status) {
-                            if (status === convertStatus.implemented) {
+                            if (convertStatus[status] === convertStatus.implemented) {
                                 if ($scope.iestatus.implemented) {
-                                    if (ieVersion === 'iedev' && item.browsers.ie.status === convertStatus.shipped) {
+                                    if (ieVersion === 'iedev' && (item.browsers.ie.status === convertStatus.shipped ||
+                                        item.browsers.ie.status === convertStatus.prefixed)) {
                                         addIE = true;
                                     } else if (item.browsers.ie.prefixed <= ieVersion ||
                                         item.browsers.ie.unprefixed <= ieVersion) {
@@ -79,6 +80,11 @@ angular.module('statusieApp')
                                 }
                             }
                         });
+
+                        //No need to keep processing, we can return
+                        if (!addIE) {
+                            return acum;
+                        }
 
                         var addBrowsers = true;
                         _.forOwn(browsers, function (browserValue, browser) {
