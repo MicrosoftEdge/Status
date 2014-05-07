@@ -3,6 +3,7 @@ angular.module('statusieApp')
         'use strict';
         return {
             templateUrl: '/templates/interopfilter.html',
+            replace: true,
             restrict: 'E',
             controller: function (Status, $scope) {
 
