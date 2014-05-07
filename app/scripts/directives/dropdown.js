@@ -37,6 +37,8 @@ angular.module('statusieApp')
                 };
 
                 element.on('click', open);
+                element.on('focus', open);
+                element.on('blur', close);
             }
         };
     });
