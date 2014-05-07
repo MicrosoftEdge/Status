@@ -9,7 +9,7 @@ angular.module('statusieApp')
                 var convertStatus = Status.statuses;
 
                 var select = function (result, key) {
-                    result[key] = true;
+                    result[key] = false;
                     return result;
                 };
 
@@ -67,20 +67,11 @@ angular.module('statusieApp')
                         _.forOwn(ieStatuses, function (value, status) {
                             if (convertStatus[status] === convertStatus.implemented) {
                                 if ($scope.iestatus.implemented) {
-
                                     if(_.isNaN(item.browsers.ie.prefixed) && item.browsers.ie.unprefixed >= ieVersion){
                                         addItem = true;
                                     }else if(item.browsers.ie.prefixed >= ieVersion){
                                         addItem = true;
                                     }
-
-//                                    if (ieVersion === 'iedev' && (item.browsers.ie.status === convertStatus.shipped ||
-//                                        item.browsers.ie.status === convertStatus.prefixed)) {
-//                                        addItem = true;
-//                                    } else if (item.browsers.ie.prefixed >= ieVersion ||
-//                                        item.browsers.ie.unprefixed >= ieVersion) {
-//                                        addItem = true;
-//                                    }
                                 } else {
                                     addItem = true;
                                 }
@@ -125,13 +116,16 @@ angular.module('statusieApp')
                     return ieVersion;
                 };
 
+                $scope.browsersDisabled = true;
+
                 var filterFunction = function () {
                     var ieStatuses = getSelected($scope.iestatus);
                     var browsers = getSelected($scope.browsers);
                     var browserStatuses = getSelected($scope.browserstatus);
                     var ieVersion = getIEVersion();
-
                     var processItem = applyFilters(ieStatusFilter(ieStatuses, ieVersion), interopFilter(browserStatuses, browsers));
+
+                    $scope.browsersDisabled = _.keys(browserStatuses) === 0;
 
                     return function (acum, item) {
 

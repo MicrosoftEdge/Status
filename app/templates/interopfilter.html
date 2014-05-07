@@ -1,8 +1,8 @@
 <div class="switch-filters-column filter-settings" bindonce>
     <div class="dropdown">
         <a role="button" aria-pressed="false" class="dropdown-toggle"
-        tabindex="0"
-        data-bo-id="options.name">
+           tabindex="0"
+           data-bo-id="options.name">
             <span>Interop</span>
             <span class="dropdown-arrow"><i></i></span>
         </a>
@@ -13,18 +13,18 @@
                 <ul>
                     <li>
                         <input type="checkbox" id="ie-notplanned" data-ng-model="iestatus.notplanned" checked=""
-                        data-ng-change="checkChanged()"/>
+                               data-ng-change="checkChanged()"/>
                         <label for="ie-notplanned">Not Currently Planned</label>
                     </li>
                     <li>
                         <input type="checkbox" id="ie-underconsideration"
-                        data-ng-model="iestatus.underconsideration" checked=""
-                        data-ng-change="checkChanged()"/>
+                               data-ng-model="iestatus.underconsideration" checked=""
+                               data-ng-change="checkChanged()"/>
                         <label for="ie-underconsideration">Under Consideration</label>
                     </li>
                     <li>
                         <input type="checkbox" id="ie-indevelopment" data-ng-model="iestatus.indevelopment"
-                        checked="" data-ng-change="checkChanged()"/>
+                               checked="" data-ng-change="checkChanged()"/>
                         <label for="ie-indevelopment">In Development</label>
                     </li>
                     <li>
@@ -32,29 +32,33 @@
                                checked="" data-ng-change="checkChanged()"/>
                         <label for="ie-implemented">Implemented in:</label>
                         <ul>
-                            <li data-ng-class="{'disabled' : !iestatus.implemented }">
-                                <input type="radio" name="ieversion" id="iedev" value="iedev"
-                                data-ng-model="ieversion" data-ng-change="checkChanged()"/>
-                                <label for="iedev">IE Dev Channel+</label>
-                            </li>
+                            <!--<li data-ng-class="{'disabled' : !iestatus.implemented }">-->
+                            <!--<input type="radio" name="ieversion" id="iedev" value="iedev"-->
+                            <!--data-ng-model="ieversion" data-ng-change="checkChanged()"/>-->
+                            <!--<label for="iedev">IE Dev Channel+</label>-->
+                            <!--</li>-->
                             <li data-ng-class="{'disabled' : !iestatus.implemented }">
                                 <input type="radio" name="ieversion" id="ie11" value="ie11"
-                                data-ng-model="ieversion" data-ng-change="checkChanged()"/>
+                                       data-ng-model="ieversion" data-ng-change="checkChanged()"
+                                       data-ng-disabled="!iestatus.implemented"/>
                                 <label for="ie11">IE11+</label>
                             </li>
                             <li data-ng-class="{'disabled' : !iestatus.implemented }">
                                 <input type="radio" name="ieversion" id="ie10" value="ie10"
-                                data-ng-model="ieversion" data-ng-change="checkChanged()"/>
+                                       data-ng-model="ieversion" data-ng-change="checkChanged()"
+                                       data-ng-disabled="!iestatus.implemented"/>
                                 <label for="ie10">IE10+</label>
                             </li>
                             <li data-ng-class="{'disabled' : !iestatus.implemented }">
                                 <input type="radio" name="ieversion" id="ie9" value="ie9" data-ng-model="ieversion"
-                                data-ng-change="checkChanged()"/>
+                                       data-ng-change="checkChanged()"
+                                       data-ng-disabled="!iestatus.implemented"/>
                                 <label for="ie9">IE9+</label>
                             </li>
                             <li data-ng-class="{'disabled' : !iestatus.implemented }">
                                 <input type="radio" name="ieversion" id="ie8" value="ie8" data-ng-model="ieversion"
-                                data-ng-change="checkChanged()"/>
+                                       data-ng-change="checkChanged()"
+                                       data-ng-disabled="!iestatus.implemented"/>
                                 <label for="ie8">IE8+</label>
                             </li>
                         </ul>
@@ -66,40 +70,40 @@
                 <ul>
                     <li>
                         <input type="checkbox" id="notsupported" data-ng-model="browserstatus.notsupported"
-                        checked="" data-ng-change="checkChanged()"/>
+                               checked="" data-ng-change="checkChanged()"/>
                         <label for="notsupported">Not Supported</label>
                     </li>
                     <li>
                         <input type="checkbox" id="indevelopment" data-ng-model="browserstatus.indevelopment"
-                        checked="" data-ng-change="checkChanged()"/>
+                               checked="" data-ng-change="checkChanged()"/>
                         <label for="indevelopment">In Development</label>
                     </li>
                     <li>
                         <input type="checkbox" id="implemented" data-ng-model="browserstatus.implemented" checked=""
-                        data-ng-change="checkChanged()"/>
+                               data-ng-change="checkChanged()"/>
                         <label for="implemented">Implemented</label>
                     </li>
                 </ul>
                 <p>…in these browsers:</p>
                 <ul>
-                    <li>
+                    <li data-ng-class="{'disabled' : browsersDisabled}">
                         <input type="checkbox" id="chrome" data-ng-model="browsers.chrome" checked=""
-                        data-ng-change="checkChanged()"/>
+                               data-ng-change="checkChanged()" data-ng-disabled="browsersDisabled"/>
                         <label for="chrome">Chrome</label>
                     </li>
-                    <li>
+                    <li data-ng-class="{'disabled' : browsersDisabled}">
                         <input type="checkbox" id="firefox" data-ng-model="browsers.firefox" checked=""
-                        data-ng-change="checkChanged()"/>
+                               data-ng-change="checkChanged()" data-ng-disabled="browsersDisabled"/>
                         <label for="firefox">firefox</label>
                     </li>
                     <!--<li>-->
-                        <!--<input type="checkbox" id="opera" data-ng-model="browsers.opera" checked=""-->
-                        <!--data-ng-change="checkChanged()"/>-->
-                        <!--<label for="opera">opera</label>-->
+                    <!--<input type="checkbox" id="opera" data-ng-model="browsers.opera" checked=""-->
+                    <!--data-ng-change="checkChanged()"/>-->
+                    <!--<label for="opera">opera</label>-->
                     <!--</li>-->
-                    <li>
+                    <li data-ng-class="{'disabled' : browsersDisabled}">
                         <input type="checkbox" id="safari" data-ng-model="browsers.safari" checked=""
-                        data-ng-change="checkChanged()"/>
+                               data-ng-change="checkChanged()" data-ng-disabled="browsersDisabled"/>
                         <label for="safari">safari</label>
                     </li>
                 </ul>
