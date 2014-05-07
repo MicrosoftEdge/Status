@@ -396,7 +396,12 @@ progress {
 
 input[type=radio],
 input[type=checkbox] {
-    display: none;
+ 	position: absolute;
+    width: 15px;
+    height: 15px;
+    margin-top: 8px;
+    opacity: 0;
+    overflow:hidden;
 }
 
 input[type=checkbox] + label::before,
@@ -407,7 +412,12 @@ input[type=radio] + label::before {
     width: 13px;
     height: 13px;
     border: 1px solid #00BAF0;
-    content: ""
+    content: "";
+}
+
+input[type=checkbox]:focus + label::before,
+input[type=radio]:focus + label::before {
+	outline: auto;
 }
 
 [type=radio] + label::before {
