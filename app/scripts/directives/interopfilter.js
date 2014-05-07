@@ -30,7 +30,7 @@ angular.module('statusieApp')
                     'safari'], select, {});
 
 
-                $scope.ieversion = 'iedev';
+                $scope.ieversion = 'ie8';
 
                 var getSelected = function (source) {
                     var targetObject = {};
@@ -43,49 +43,61 @@ angular.module('statusieApp')
                     return targetObject;
                 };
 
-                var filterFunction = function () {
+                var applyFilters = function () {
+                    var filters = _.toArray(arguments);
 
-                    var ieStatuses = getSelected($scope.iestatus);
-                    var browsers = getSelected($scope.browsers);
-                    var browserStatuses = getSelected($scope.browserstatus);
-                    var ieVersion;
+                    return function (item) {
+                        return _.reduce(filters, function (acum, val) {
+                            //If a previous filter has failed we don't want to check
+                            if (!acum) {
+                                return acum;
+                            }
 
-                    if ($scope.ieversion !== 'iedev') {
-                        var version = $scope.ieversion.replace(/\D+/, '');
-                        ieVersion = parseInt(version, 10);
-                    } else {
-                        ieVersion = 'iedev';
-                    }
+                            var add = val(item);
+                            return acum && add;
+                        }, true);
+                    };
+                };
 
-                    return function (acum, item) {
-                        var add;
+                var ieStatusFilter = function (ieStatuses, ieVersion) {
 
-                        var addIE = false;
+                    return function (item) {
+                        //If no selections, ieStatuses is undefined and we shouldn't apply any IE filter, just add it)
+                        var addItem = _.keys(ieStatuses).length === 0;
                         _.forOwn(ieStatuses, function (value, status) {
                             if (convertStatus[status] === convertStatus.implemented) {
                                 if ($scope.iestatus.implemented) {
-                                    if (ieVersion === 'iedev' && (item.browsers.ie.status === convertStatus.shipped ||
-                                        item.browsers.ie.status === convertStatus.prefixed)) {
-                                        addIE = true;
-                                    } else if (item.browsers.ie.prefixed <= ieVersion ||
-                                        item.browsers.ie.unprefixed <= ieVersion) {
-                                        addIE = true;
+
+                                    if(_.isNaN(item.browsers.ie.prefixed) && item.browsers.ie.unprefixed >= ieVersion){
+                                        addItem = true;
+                                    }else if(item.browsers.ie.prefixed >= ieVersion){
+                                        addItem = true;
                                     }
+
+//                                    if (ieVersion === 'iedev' && (item.browsers.ie.status === convertStatus.shipped ||
+//                                        item.browsers.ie.status === convertStatus.prefixed)) {
+//                                        addItem = true;
+//                                    } else if (item.browsers.ie.prefixed >= ieVersion ||
+//                                        item.browsers.ie.unprefixed >= ieVersion) {
+//                                        addItem = true;
+//                                    }
                                 } else {
-                                    addIE = true;
+                                    addItem = true;
                                 }
                             } else {
                                 if (item.browsers.ie.status === convertStatus[status]) {
-                                    addIE = true;
+                                    addItem = true;
                                 }
                             }
                         });
 
-                        //No need to keep processing, we can return
-                        if (!addIE) {
-                            return acum;
-                        }
+                        return addItem;
+                    }
+                };
 
+                var interopFilter = function (browserStatuses, browsers) {
+
+                    return function (item) {
                         var addBrowsers = true;
                         _.forOwn(browsers, function (browserValue, browser) {
                             var addBrowser = false;
@@ -97,12 +109,35 @@ angular.module('statusieApp')
                             addBrowsers = addBrowsers && addBrowser;
                         });
 
-                        add = addIE && addBrowsers;
+                        return addBrowsers;
+                    };
+                };
 
-                        if (add) {
+                var getIEVersion = function(){
+                    var ieVersion;
+                    if ($scope.ieversion !== 'iedev') {
+                        var version = $scope.ieversion.replace(/\D+/, '');
+                        ieVersion = parseInt(version, 10);
+                    } else {
+                        ieVersion = 'iedev';
+                    }
+
+                    return ieVersion;
+                };
+
+                var filterFunction = function () {
+                    var ieStatuses = getSelected($scope.iestatus);
+                    var browsers = getSelected($scope.browsers);
+                    var browserStatuses = getSelected($scope.browserstatus);
+                    var ieVersion = getIEVersion();
+
+                    var processItem = applyFilters(ieStatusFilter(ieStatuses, ieVersion), interopFilter(browserStatuses, browsers));
+
+                    return function (acum, item) {
+
+                        if (processItem(item)) {
                             acum.push(item);
                         }
-
                         return acum;
                     };
                 };
