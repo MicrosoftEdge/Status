@@ -125,7 +125,7 @@ angular.module('statusieApp')
                     var ieVersion = getIEVersion();
                     var processItem = applyFilters(ieStatusFilter(ieStatuses, ieVersion), interopFilter(browserStatuses, browsers));
 
-                    $scope.browsersDisabled = _.keys(browserStatuses) === 0;
+                    $scope.browsersDisabled = _.keys(browserStatuses).length === 0;
 
                     return function (acum, item) {
 
