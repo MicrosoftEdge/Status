@@ -269,10 +269,6 @@ progress {
     font-size: 20px;
 }
 
-.switch-filters-column {
-    display: inline-block;
-}
-
 /* FILTERS: Filter selection: dropdown */
 .dropdown {
     display: inline-block;
@@ -312,7 +308,7 @@ progress {
 	width: 433px;
 	padding: 6px 8px;
 	background-color: #00BAF0;
-	margin-left: -330px;
+	margin-left: -322px;
 }
 
 .dropdown-arrow {
