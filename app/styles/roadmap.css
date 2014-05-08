@@ -4,7 +4,6 @@
     width: calc(100% - 20px);
     height: 50px;
     margin: 0 auto 20px;
-    overflow: hidden;
     -webkit-transition: height 300ms;
     -o-transition: height 300ms;
     transition: height 300ms;
@@ -16,10 +15,10 @@
 }
 
 .show .feature-body-wrapper {
-	display: block;
+    display: block;
 }
 
-.show header {
+.show .feature-header {
     background-color: #d8dbe9;
 }
 
@@ -33,6 +32,7 @@
 /* FEATURE: Header */
 .feature-header {
     height: 50px;
+    width: 100%;
     border-left: 10px solid;
     background-color: #eef0f6;
     border-radius: 0 50px 50px 0;
@@ -41,6 +41,7 @@
     -o-transition: background-color 200ms;
     transition: background-color 200ms;
     cursor: pointer;
+    display: block;
 }
 
 .feature_name {
@@ -71,9 +72,9 @@
 }
 
 .feature-header::after {
-	position: absolute;
-	top: 5px;
-	right: 5px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
     width: 40px;
     height: 40px;
     content: "";
@@ -89,10 +90,10 @@
 }
 
 .feature-icon {
-   display: block;
-   position: absolute;
-   left: 20px;
-   top: 13px;
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 13px;
 }
 
 /* FEATURE: Body */
@@ -101,7 +102,7 @@
     display: none;
     height: 175px;
     border-left: solid 10px;
-    padding: 10px;
+    padding: 0 10px 10px 10px;
 }
 
 .feature-body-wrapper p {
@@ -242,54 +243,54 @@
     border-color: #7fedea;
 }
 
-.css header {
+.css .feature-header {
     border-color: #ef6529;
 }
 
-.device header,
-.security header,
-.userinput header {
+.device .feature-header,
+.security .feature-header,
+.userinput .feature-header {
     border-color: #136dc1;
 }
 
-.graphics header {
+.graphics .feature-header {
     border-color: #e81123;
 }
 
-.javascript header {
+.javascript .feature-header {
     border-color: #f0db4f;
 }
 
-.dom header,
-.html header,
-.webcomponents header,
-.misc header {
+.dom .feature-header,
+.html .feature-header,
+.webcomponents .feature-header,
+.misc .feature-header {
     border-color: #fe9f22;
 }
 
-.fileapis header,
-.offlinestorage header {
+.fileapis .feature-header,
+.offlinestorage .feature-header {
     border-color: #68217a;
 }
 
-.multimedia header {
+.multimedia .feature-header {
     border-color: #ffc20e;
 }
 
-.realtimecommunication header,
-.networkconnectivity header {
+.realtimecommunication .feature-header,
+.networkconnectivity .feature-header {
     border-color: #8dc63f;
 }
 
-.performance header {
+.performance .feature-header {
     border-color: #00dcd5;
 }
 
 @media screen and (min-width: 625px) {
-	.info a {
+    .info a {
         padding-left: 40px;
     }
-    
+
     .feature_name {
         padding: 14px 0 0 60px;
         font-size: 20px;
@@ -314,40 +315,40 @@
 }
 
 @media screen and (max-width: 625px) {
-	.show {
+    .show {
         height: 325px;
     }
-    
+
     .ie-status {
         margin-top: 15px;
     }
-    
+
     .feature-icon {
-    	margin-right: 1px;
+        margin-right: 1px;
     }
-    
-	.feature-body-wrapper {
+
+    .feature-body-wrapper {
         height: 275px;
     }
-    
-	.feature_status a {
-		max-width: 120px;
+
+    .feature_status a {
+        max-width: 120px;
         font-size: 11px;
         line-height: .8;
     }
-	
-	.info li {
+
+    .info li {
         height: 30px;
         padding-left: 30px;
     }
-	 
-	.icon {
-    	-webkit-transform: scale(.66);
-    	-ms-transform: scale(.66);
-    	-o-transform: scale(.66);
-    	transform: scale(.66);
-    	top: 0;
-    	left: 0;
+
+    .icon {
+        -webkit-transform: scale(.66);
+        -ms-transform: scale(.66);
+        -o-transform: scale(.66);
+        transform: scale(.66);
+        top: 0;
+        left: 0;
     }
 }
 
@@ -355,15 +356,17 @@
     .feature-icon {
         display: none;
     }
+
     .feature_name,
     .feature-info {
-		float: none;
-		padding: 5px 0 0 10px;
-		height: auto;
-	}
-	.ie-status {
-		margin: 0;
-	}
+        float: none;
+        padding: 5px 0 0 10px;
+        height: auto;
+    }
+
+    .ie-status {
+        margin: 0;
+    }
 
     .feature_name {
         max-width: calc(100% - 45px);

@@ -1,7 +1,8 @@
 <section role="tablist" aria-multiselectable="true" 
  bindonce data-bo-class="feature.normalized_category" class="feature" data-ng-class="{'show' : show}"
          data-ng-show="feature.visible">
-    <header tabindex="0" role="tab" aria-selected="false" data-bo-attr data-bo-attr-aria-controls="feature.normalized_name + '_wrapper'" aria-selected="" aria-expanded="false" data-ng-click="expand()" class="feature-header" data-bo-title="feature.category">
+
+    <button role="tab" aria-selected="false" data-bo-attr data-bo-attr-aria-controls="feature.normalized_name + '_wrapper'" aria-selected="" aria-expanded="false" data-ng-click="expand()" class="feature-header" data-bo-title="feature.category">
         <span class="feature-icon" data-bo-class="'icon-' + feature.normalized_category"></span>
 
         <h1 data-bo-id="feature.normalized_name" class="feature_name" data-bo-text="feature.name"></h1>
@@ -13,7 +14,8 @@
             <p class="ie-status" data-bo-if="!(feature.browsers.ie.prefixed || feature.browsers.ie.unprefixed)"
                  data-bo-text="feature.position" data-bo-title="feature.statusDescription"></p>
         </div>
-    </header>
+    </button>
+
     <div role="tabpanel" aria-hidden="true" data-bo-attr data-bo-attr-aria-labelledby="feature.normalized_name" class="feature-body-wrapper" data-bo-id="feature.normalized_name + '_wrapper'">
         <p data-bo-text="feature.summary"></p>
 
