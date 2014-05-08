@@ -352,14 +352,21 @@
 }
 
 @media screen and (max-width: 499px) {
-    .ie-status,
     .feature-icon {
         display: none;
     }
+    .feature_name,
+    .feature-info {
+		float: none;
+		padding: 5px 0 0 10px;
+		height: auto;
+	}
+	.ie-status {
+		margin: 0;
+	}
 
     .feature_name {
         max-width: calc(100% - 45px);
-        padding-left: 5px;
     }
 
     .feature_status a {
