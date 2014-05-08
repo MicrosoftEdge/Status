@@ -1,26 +1,18 @@
-<div class="switch-filters-column float" bindonce>
-    <div class="dropdown">
-        <a role="button" aria-pressed="false" class="dropdown-toggle" data-bo-id="options.name">
-            <span data-bo-text="options.name"></span>
-            <span class="dropdown-arrow"><i></i></span>
-        </a>
-        <ul role="listbox" class="dropdown-menu" data-bo-attr data-bo-attr-aria-labelledby="options.name" aria-multiselectable="true">
-            <li class="dynamic-all" data-bo-title="option.name">
-                <!--<input ng-model="allOptions" type="checkbox" id="{{options.name}}" />-->
-                <div class="custom-check">
-                    <input type="checkbox" data-ng-model="allOptions" data-bo-id="options.name" checked="" />
-                    <label class="check" data-bo-attr data-bo-attr-for="options.name"></label>
-                </div>
-                <label data-bo-attr data-bo-attr-for="options.name">All</label>
-            </li>
-            <li class="dynamic-option" data-ng-repeat="option in selections" data-ng-class="{'disabled' : allOptions}" data-bo-title="option.name">
-                <!--<input ng-disabled="allOptions" name="{{option.name}}" id="{{option.name}}" value="{{option.name}}" ng-model="option.selected" type="checkbox" />-->
-                <div class="custom-check">
-                    <input type="checkbox" data-ng-disabled="allOptions" data-attr data-attr-name="option.name" data-bo-id="option.name" data-bo-value="option.name" ng-model="option.selected" checked="" />
-                    <label class="check" data-bo-attr data-bo-attr-for="option.name"></label>
-                </div>
-                <label bo-attr bo-attr-for="option.name" data-bo-text="option.name"></label>
-            </li>
-        </ul>
-    </div>
+<div class="dropdown" bindonce>
+	<a role="button" aria-pressed="false" class="dropdown-toggle" data-bo-id="options.name">
+		<span data-bo-text="options.name"></span>
+		<span class="dropdown-arrow"><i></i></span>
+	</a>
+	<ul role="listbox" class="dropdown-menu" data-bo-attr data-bo-attr-aria-labelledby="options.name" aria-multiselectable="true">
+		<li class="dynamic-all" data-bo-title="option.name">
+			<!--<input ng-model="allOptions" type="checkbox" id="{{options.name}}" />-->
+			<input type="checkbox" data-ng-model="allOptions" data-bo-id="options.name" checked="" />
+			<label data-bo-attr data-bo-attr-for="options.name">All</label>
+		</li>
+		<li class="dynamic-option" data-ng-repeat="option in selections" data-ng-class="{'disabled' : allOptions}" data-bo-title="option.name">
+			<!--<input ng-disabled="allOptions" name="{{option.name}}" id="{{option.name}}" value="{{option.name}}" ng-model="option.selected" type="checkbox" />-->
+			<input type="checkbox" data-ng-disabled="allOptions" data-attr data-attr-name="option.name" data-bo-id="option.name" data-bo-value="option.name" ng-model="option.selected" checked="" />
+			<label bo-attr bo-attr-for="option.name" data-bo-text="option.name"></label>
+		</li>
+	</ul>
 </div>
