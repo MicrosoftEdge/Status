@@ -52,7 +52,7 @@
     max-width: 60%;
     height: 42px;
     margin: 0;
-    padding: 17px 0 0 48px;
+    padding: 12px 0 0 48px;
     overflow: hidden;
     font-size: 16px;
     white-space: nowrap;
@@ -65,7 +65,7 @@
 }
 
 .ie-status {
-    margin: 12px 10px 0 0;
+    margin: 11px 10px 0 0;
     overflow: hidden;
     font-size: 13px;
     font-weight: 400;
@@ -104,7 +104,7 @@
     display: none;
     height: 175px;
     border-left: solid 10px;
-    padding: 0 10px 10px 10px;
+    padding: 10px;
 }
 
 .feature-body-wrapper p {
@@ -294,7 +294,7 @@
     }
 
     .feature_name {
-        padding: 14px 0 0 60px;
+        padding: 10px 0 0 60px;
         font-size: 20px;
     }
 
@@ -322,7 +322,7 @@
     }
 
     .ie-status {
-        margin-top: 15px;
+        margin-top: 13px;
     }
 
     .feature-icon {
