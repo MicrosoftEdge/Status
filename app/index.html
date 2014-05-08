@@ -40,30 +40,24 @@
             </a>
         </div>
         <nav role="navigation" class="menu">
-            <ul class="menu-bar" role="menubar">
-                <li role="presentation" class="menu-item menu-item-tools " data-content-type="tool"><a role="menuitem" href="http://modern.ie/en-us/tools">Get <span>Tools</span></a></li>
-                <li role="presentation" class="menu-item menu-item-articles " data-content-type="article"><a role="menuitem" href="http://modern.ie/en-us/articles">Read <span>Articles</span></a></li>
-                <li role="presentation" class="menu-item menu-item-demos " data-content-type="demo"><a role="menuitem" href="http://modern.ie/en-us/demos">See <span>Demos</span></a></li>
-                <li role="presentation" class="menu-item menu-item-involved " data-content-type="meet-developers"><a role="menuitem" href="http://modern.ie/en-us/meet-developers">Meet <span>Developers</span></a></li>
+            <ul class="menu-bar">
+                <li class="menu-item menu-item-tools " data-content-type="tool"><a href="http://modern.ie/en-us/tools">Get <span>Tools</span></a></li>
+                <li class="menu-item menu-item-articles " data-content-type="article"><a href="http://modern.ie/en-us/articles">Read <span>Articles</span></a></li>
+                <li class="menu-item menu-item-demos " data-content-type="demo"><a href="http://modern.ie/en-us/demos">See <span>Demos</span></a></li>
+                <li class="menu-item menu-item-involved" data-content-type="meet-developers"><a href="http://modern.ie/en-us/meet-developers">Meet <span>Developers</span></a></li>
             </ul>
-            <div class="microsoft-logo">
+            <div class="logos">
+                <a class="share tw" href="https://www.twitter.com/iedevchat" title="Give feedback on Twitter" target="_blank">Twitter</a>
                 <a class="icon-microsoft-logo" href="http://www.microsoft.com" title="Microsoft" target="_blank">Microsoft</a>
-            </div>
-            <div class="icon-social">
-                <a class="share tw"  aria-hidden="true" href="https://www.twitter.com/iedevchat" title="Give feedback on Twitter" target="_blank">Twitter</a>
             </div>
         </nav>
     </header>
-    <div class="filter-container" data-notmobile data-sticky>
-        <filter></filter>
-        <div class="info-row">
+    <div class="filter-container" data-sticky>
+        <div class="filter-group">
+            <termfilter></termfilter>
+            <interopfilter></interopfilter>
+            <featuresorting></featuresorting>
             <div class="total-features" aria-live="polite" role="status" aria-atomic="true">Features found: <span>{{limit}}</span></div>
-            <div class="switch-fiters">
-                <featuresorting></featuresorting>
-                <drowpdownfilter data-options="{selections: categories, name: 'Technologies'}"></drowpdownfilter>
-                <drowpdownfilter data-options="{selections: browsers, name: 'Browsers'}"></drowpdownfilter>
-                <drowpdownfilter data-options="{selections: featureStatus, name: 'Status'}"></drowpdownfilter>
-            </div>
         </div>
     </div>
     <article role="article">
@@ -116,14 +110,14 @@
 <script defer src="scripts/controllers/main.js"></script>
 <script defer src="scripts/directives/feature.js"></script>
 <script defer src="scripts/services/status.js"></script>
-<script defer src="scripts/directives/filter.js"></script>
 <script defer src="scripts/directives/termFilter.js"></script>
-<script defer src="scripts/directives/drowpdownfilter.js"></script>
 <script defer src="scripts/directives/featuresorting.js"></script>
 <script defer src="scripts/directives/sticky.js"></script>
 <script defer src="scripts/directives/notmobile.js"></script>
 <script defer src="scripts/directives/onfinishrender.js"></script>
 <script defer src="scripts/directives/dropdown.js"></script>
+<script defer src="scripts/directives/dropdownfilter.js"></script>
+<script defer src="scripts/directives/interopfilter.js"></script>
 <!-- endbuild -->
 </body>
 </html>

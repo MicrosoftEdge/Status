@@ -13,7 +13,7 @@
     src: local("Segoe UI"), url("http://www.modern.ie/cdn/fonts/west-european/normal/latest.woff") format("woff");
 }
 
-*, *::before, *::after {
+* {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -65,6 +65,11 @@ button:focus {
 
 label {
     display: inline-block;
+}
+
+button {
+	border: 0;
+	background: none;
 }
 
 /* UTILITY CLASSES */
@@ -135,7 +140,7 @@ progress {
 }
 
 .siteLogo a {
-    display: block;
+    display: inline-block;
     padding-left: 2.8em;
 }
 
@@ -193,40 +198,40 @@ progress {
 }
 
 /* HEADER: Other links */
-.microsoft-logo {
-    display: none;
+.logos {
+	float: right;
+    margin-top: 16px;
 }
 
-.microsoft-logo a,
-.tw {
-    display: inline-block;
+.logos a {
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
 }
-.microsoft-logo a {
+
+.icon-microsoft-logo {
+	display: none;
     width: 112px;
     height: 24px;
 }
-.icon-social {
-    float: right;
-    margin-top: 1.45em;
-}
+
 .tw {
+	display: inline-block;
     width: 30px;
     height: 26px;
-    background: url("/images/twitter-logo.svg") no-repeat;
+    margin-right: 20px;
+    background: url("/images/twitter-logo.svg") no-repeat  0 2px;
     background-size: 29px auto;
 }
 
 /* FILTERS */
 .filter-container {
     margin-bottom: 10px;
+    padding: 15px 0;
     background-color: #00BAF0;
 }
 
-.filter-container::after,
-.search-form-wrapper::after {
+.filter-container::after {
     display: table;
     content: "";
     clear: both;
@@ -235,17 +240,6 @@ progress {
 .filter-group {
     width: 800px;
     margin: 0 auto;
-    padding: 15px 0 5px 0;
-}
-
-/* FILTERS: Search */
-.search-form-wrapper .btn {
-    float: left;
-    height: 35px;
-    border: none;
-    color: #fff;
-    background-color: #0079c2;
-    cursor: pointer;
 }
 
 /* FILTERS: Search: form */
@@ -258,94 +252,29 @@ progress {
     width: calc(100% - 39px);
     min-width: 200px;
     height: 35px;
-    margin: 0 4px 4px 0; /* Bottom margin fixes #15 */
     border: solid 1px #c7c7c7;
     padding: 6px 12px;
     font-size: inherit;
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
 }
 
-.btn-add-filter {
-    width: 35px;
-}
-
-/* FILTERS: Search: tags */
-.single-filters-wrapper {
-    width: 56%;
-    padding-left: 4px;
-    overflow-y: hidden;
-}
-
-.btn-single-filter {
-    position: relative;
-    max-width: calc(50% - 4px);
-    margin: 0 0 4px 4px;
-    padding: 0 32px 0 8px;
-}
-
-.single-filter-text {
-    height: 100%;
-    width: 100%;
-    padding-top: 2px;
-    overflow: hidden;
-    line-height: 30px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-
-.icon-remove-icon {
-    position: absolute;
-    top: 14px;
-    right: 8px;
-    width: 8px;
-    height: 8px;
-    background-image: none;
-    background: url("/images/icons/remove-icon.png") no-repeat center top;
-}
-
-.icon-remove-icon:before {
-    content: none;
-}
-
 /* FILTERS: Filter selection */
-.info-row {
-    display: table;
-    width: 800px;
-    height: 60px;
-    margin: 0 auto;
-}
-
-.total-features,
-.switch-fiters {
-    display: table-cell;
-    vertical-align: middle;
-}
-
 .total-features {
-    width: 33.33%;
     color: #fff;
     font-size: 16px;
+    float: right;
 }
 
 .total-features span {
-    font-weight: 600;
-    font-size: 24px;
-}
-
-.switch-fiters {
-    width: 66.66%;
-    text-align: right;
-}
-
-.switch-filters-column {
-    display: inline-block;
-    padding-right: 0;
-    padding-left: 12px;
+    font-size: 20px;
 }
 
 /* FILTERS: Filter selection: dropdown */
 .dropdown {
-    position: relative;
+    display: inline-block;
+    margin: 5px 0;
+    padding-right: 0;
+    padding-left: 12px;
 }
 
 .dropdown-toggle {
@@ -362,20 +291,24 @@ progress {
 .dropdown-menu {
     display: none;
     position: absolute;
-    top: 100%;
-    left: auto;
-    right: -1px;
     z-index: 1;
     width: 200px;
     margin-top: -2px;
+    margin-left: -124px;
     border: 1px solid #ccc;
     border: 1px solid rgba(0, 0, 0, 0.15);
     padding: 0;
     text-align: left;
-    background-color: #00BAF0;
+    background-color: #0079c2;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
     color: #fff;
-    list-style: none;
+}
+
+.filter-settings > .dropdown-menu {
+	width: 433px;
+	padding: 6px 8px;
+	background-color: #00BAF0;
+	margin-left: -322px;
 }
 
 .dropdown-arrow {
@@ -387,9 +320,8 @@ progress {
     vertical-align: middle;
 }
 
-.dropdown-arrow i {
+.dropdown-arrow::before {
     display: block;
-    width: 100%;
     height: 100%;
     background: url("/images/little-arrow.svg") no-repeat center center;
     -webkit-transform: rotate(180deg);
@@ -399,9 +331,10 @@ progress {
     -webkit-transition: -webkit-transform 300ms;
     -o-transition: -o-transform 300ms;
     transition: transform 300ms;
+    content: "";
 }
 
-.open .dropdown-arrow i {
+.open .dropdown-arrow::before {
     -webkit-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     -o-transform: rotate(360deg);
@@ -412,85 +345,115 @@ progress {
     display: block;
 }
 
+.ie-status-options, 
+.interop-status-options {
+	float: left;
+	width: calc(50% - 4px);
+	background-color: #0079c2;
+}
+
+.ie-status-options {
+	margin-right: 8px;
+}
+
+.interop-status-options p {
+	height: 35px;
+	margin: 0;
+	padding-left: 10px;
+	line-height: 30px;
+}
+
+.technologies {
+	position: relative;
+	width: calc(50% - 4px);
+}
+.technologies span {
+	display: block;
+}
+
+.technologies .dropdown-arrow {
+	position: absolute;
+	right: 0;
+	top: 8px;
+}
+.technologies .dropdown-menu {
+	top: -4px;
+	right: -100%;
+	height: 18em;
+	overflow: auto;
+}
+
+.dropdown-menu h2 {
+	margin: 5px 0 0 35px;
+}
+
+.dropdown-menu ul {
+	display: 50%;
+}
 .dropdown-menu li {
-    height: 36px;
-    border-bottom: solid 1px #0079c2;
-    padding: 0 10px;
+	position: relative;
+    padding-left: 10px;
+    list-style: none;
 }
 
-.dropdown-menu li:last-child {
-    border-bottom: none;
+.dropdown-menu li > ul {
+	margin-left: 15px;
 }
 
-.dropdown-menu li:hover {
-    background-color: #0079c2;
-}
-
-.dropdown-menu li input {
-    margin-top: 12px;
-    vertical-align: top;
-}
-
-.dropdown-menu li .custom-check {
-    margin-top: 10px;
-}
-
-.dropdown-menu li label:not(.check):not(.radio) {
-    width: 140px;
-    height: 36px;
+.dropdown-menu li label {
+    width: 100%;
+    padding-left: 25px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
     text-transform: capitalize;
-    line-height: 36px;
+    line-height: 30px;
     cursor: pointer;
 }
 
-.dropdown-menu .disabled .custom-check,
 .dropdown-menu .disabled label {
     opacity: .5;
 }
 
-/* CUSTOM CONTROLS */
-.custom-check {
-    position: relative;
-    float: left;
+input[type=radio],
+input[type=checkbox] {
+ 	position: absolute;
     width: 15px;
     height: 15px;
-    margin: 6px 10px 0 0;
-    overflow: hidden;
+    margin-top: 8px;
+    opacity: 0;
+    overflow:hidden;
 }
 
-.custom-check input {
-    display: none;
-}
-
-.check,
-.radio {
+input[type=checkbox] + label::before,
+input[type=radio] + label::before {
     position: absolute;
-    left: 0;
-    top: 0;
-    display: block;
-    width: 15px;
-    height: 15px;
-    border: 1px solid #fff;
-    background-image: none;
-    background-color: #363f5d;
-    cursor: pointer;
+    top: 8px;
+    left: 10px;
+    width: 13px;
+    height: 13px;
+    border: 1px solid #00BAF0;
+    content: "";
 }
 
-.radio {
-    min-height: 0;
+input[type=checkbox]:focus + label::before,
+input[type=radio]:focus + label::before {
+	outline: auto;
+}
+
+[type=radio] + label::before {
     border-radius: 50%;
 }
 
-[type=checkbox]:checked + .check {
-    background-image: url("/images/check.png");
+[type=checkbox]:checked + label::before {
+    line-height: 1;
+    content: "\2713"; 
+    text-align: center;
 }
 
-[type=radio]:checked + .radio {
+[type=radio]:checked + label::before{
     background-color: #fff;
-    box-shadow: 0 0 0 3px #363f5d inset;
+    box-shadow: 0 0 0 3px #0079c2 inset;
 }
 
 /* BETA RIBBON */
@@ -549,58 +512,53 @@ footer {
     text-decoration: none;
 }
 
-@media screen and (min-width: 960px) {
-    .microsoft-logo {
-        display: block;
-        float: right;
-        margin: 1.4em 0 0 1.9em;
-    }
-    .icon-social {
-        margin-right: 0;
-    }
-}
-
 @media screen and (min-width: 820px) {
-    .info-row,
     .foot-center,
     .filter-group,
     .links {
         width: 800px;
     }
+    .icon-microsoft-logo {
+        display: inline-block; 
+    }
 }
 
 @media screen and (max-width: 819px) {
-    .info-row,
     .foot-center,
     .filter-group {
         width: calc(100% - 20px);
     }
 
-    .switch-fiters {
-        width: 70%;
-    }
-
-    .total-features {
-        width: 28%;
-    }
-
-    .switch-filters-column {
-        padding-left: 5px;
-    }
     .dropdown-arrow {
         margin-left: 2px;
     }
+    
+    .filter-settings .dropdown-menu {
+    	left: 0;
+    	width: 100%;
+    	margin-left: 0;
+    	padding: 6px 0;
+    }
+    .technologies .dropdown-menu {
+    	top: -18em;
+    }
 }
 
-@media screen and (min-width: 525px) and (max-width: 667px) {
-
+@media screen and (max-width: 667px) {
+	.dropdown {
+		margin: 8px 0;
+	}
     .dropdown-arrow {
         width: 17px;
         height: 16px;
     }
 
-    .dropdown a {
+    .dropdown-toggle {
         font-size: 16px;
+    }
+    
+    .dropdown-menu {
+    	 margin-left: -148px;
     }
 }
 
@@ -619,15 +577,12 @@ footer {
 }
 
 @media screen and (max-width: 569px) {
-    .filter-container, .menu-item {
+    .menu-item,
+    .total-features {
         display: none;
     }
     .sticky {
         display: none !important;
-    }
-
-    .header {
-        margin-bottom: 10px;
     }
 }
 
@@ -698,7 +653,7 @@ footer {
 }
 
 @media screen and (max-width: 300px) {
-    .icon-social {
+    .icons {
         display: none;
     }
 }

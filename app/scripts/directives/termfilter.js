@@ -7,12 +7,14 @@ angular.module('statusieApp')
             controller: function ($scope) {
                 'use strict';
 
-                var filters = $scope.filters;
-                $scope.terms = [];
-
                 var filterFunction = function (term) {
                     return function (acum, item) {
-                        var termRegex = new RegExp(term.text, 'gi');
+                        if(_.isUndefined(term) || term === ''){
+                            acum.push(item);
+                            return acum;
+                        }
+
+                        var termRegex = new RegExp(term, 'gi');
 
                         if (termRegex.test(item.name) || termRegex.test(item.summary)) {
                             acum.push(item);
@@ -22,53 +24,12 @@ angular.module('statusieApp')
                     };
                 };
 
-                $scope.addTerm = function () {
-                    var term = $scope.inputTerm;
-
-                    if (!term || term === '') {
-                        return;
-                    }
-
-                    if (!Array.isArray(filters.terms)) {
-                        filters.terms = [];
-                    }
-
-                    if ($scope.terms.length >= 14) {
-                        return;
-                    }
-
-                    var termObject = {
-                        text: term
-                    };
-                    $scope.terms.push(termObject);
-
-                    filters.terms.push(filterFunction(termObject));
-
-                    $scope.inputTerm = '';
-                    $scope.$broadcast('filtersUpdated');
-                };
-
-                $scope.removeTerm = function (term) {
-                    var index = $scope.terms.indexOf(term);
-                    $scope.terms.splice(index, 1);
-                    var newFilters = _.map($scope.terms, function (term) {
-                        return filterFunction(term);
+                $scope.termChange = function(){
+                    $scope.$emit('filterupdated', {
+                        name: 'term',
+                        filterFunction: filterFunction($scope.term)
                     });
-
-                    filters.terms = newFilters;
-                    $scope.$broadcast('filtersUpdated');
-                }
-            },
-            link: function postLink(scope, element, attrs) {
-                //This fixes #22
-                var input = element.find('input');
-                var submit = element.find('button');
-
-                submit.on('click', function () {
-                    setTimeout(function () {
-                        input[0].focus();
-                    }, 0);
-                });
+                };
             }
         };
     });

@@ -2,7 +2,8 @@ angular.module('statusieApp')
     .controller('MainCtrl', function ($scope, $location, $timeout, $window, Status) {
         'use strict';
 
-        var features;
+        var features,
+            filters = {};
 
         $scope.features = [];
         $scope.limit = 0;
@@ -36,31 +37,6 @@ angular.module('statusieApp')
             $timeout(insertFeature, 0);
         };
 
-        $scope.$watch('sort', function (sortFunction) {
-            insertFeatures(_.sortBy(features, sortFunction));
-        });
-
-        $scope.$on('filtersUpdated', function () {
-            var filteredFeatures = _.clone(features);
-
-            _.forOwn($scope.filters, function (categoryFilters) {
-                if (!Array.isArray(categoryFilters)) {
-                    return;
-                }
-                _.forEach(categoryFilters, function (filter) {
-                    filteredFeatures = _.reduce(filteredFeatures, filter, []);
-                });
-            });
-
-            var names = _.pluck(filteredFeatures, 'name');
-
-            _.forEach($scope.features, function (feature) {
-                feature.visible = _.contains(names, feature.name);
-            });
-
-            $scope.limit = (filteredFeatures || []).length;
-        });
-
         var getFeatureId  = function(){
             var path = $location.path();
             return path.substr(1) || "";
@@ -70,10 +46,38 @@ angular.module('statusieApp')
             _gaq.push(['_trackPageview', '/status/' + id]);
         };
 
+        var filterFeatures = function(){
+            var filteredFeatures = _.clone(features);
+
+            _.forOwn(filters, function (filter) {
+                filteredFeatures = _.reduce(filteredFeatures, filter, []);
+            });
+
+            var names = _.pluck(filteredFeatures, 'name');
+
+            //Its faster to check the names of the features and hide them than replacing the items with new ones
+            _.forEach($scope.features, function (feature) {
+                feature.visible = _.contains(names, feature.name);
+            });
+
+            $scope.limit = (filteredFeatures || []).length;
+        };
+
+        $scope.$on('filterupdated', function(event, data){
+            filters[data.name] = data.filterFunction;
+
+            filterFeatures();
+        });
+
+        $scope.$watch('sort', function (sortFunction) {
+            insertFeatures(_.sortBy(features, sortFunction));
+        });
+
+
         Status.load()
             .then(function (data) {
                 $scope.categories = data.categories;
-                $scope.browsers = data.browsers;
+//                $scope.browsers = data.browsers;
                 $scope.featureStatus = data.ieVersions;
                 $scope.loading = false;
 
@@ -82,10 +86,7 @@ angular.module('statusieApp')
                 }), $scope.sort);
                 $scope.limit = features.length;
 
-                //$scope.features = _.clone(features);
                 insertFeatures(features, function(){
-                    var historyLength = 0;
-
                     $scope.$on('$locationChangeSuccess', function(){
                         var featureId = getFeatureId();
                         trackFeature(featureId);
