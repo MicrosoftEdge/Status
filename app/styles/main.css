@@ -67,6 +67,11 @@ label {
     display: inline-block;
 }
 
+button {
+	border: 0;
+	background: none;
+}
+
 /* UTILITY CLASSES */
 .fixed {
     position: fixed;
@@ -271,6 +276,7 @@ progress {
 /* FILTERS: Filter selection: dropdown */
 .dropdown {
     display: inline-block;
+    margin: 5px 0;
     padding-right: 0;
     padding-left: 12px;
 }
