@@ -42,6 +42,7 @@
     transition: background-color 200ms;
     cursor: pointer;
     display: block;
+    text-align: left;
 }
 
 .feature_name {
