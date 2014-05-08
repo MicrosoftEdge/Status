@@ -43,6 +43,7 @@
     cursor: pointer;
     display: block;
     text-align: left;
+    font-family: 'Segoe Custom';
 }
 
 .feature_name {
@@ -310,7 +311,7 @@
 
     .feature_name {
         max-width: 70%;
-        padding-top: 10px;
+        padding-top: 4px;
         font-size: 27px;
     }
 }
