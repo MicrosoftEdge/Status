@@ -10,7 +10,7 @@ angular.module('statusieApp')
                 var convertStatus = Status.statuses;
 
                 var select = function (result, key) {
-                    result[key] = false;
+                    result[key] = true;
                     return result;
                 };
 
