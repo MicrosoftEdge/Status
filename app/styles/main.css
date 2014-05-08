@@ -198,29 +198,29 @@ progress {
 }
 
 /* HEADER: Other links */
-.microsoft-logo {
-    display: none;
+.logos {
+	float: right;
+    margin-top: 16px;
 }
 
-.microsoft-logo a,
-.tw {
-    display: inline-block;
+.logos a {
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
 }
-.microsoft-logo a {
+
+.icon-microsoft-logo {
+	display: none;
     width: 112px;
     height: 24px;
 }
-.icon-social {
-    float: right;
-    margin-top: 1.45em;
-}
+
 .tw {
+	display: inline-block;
     width: 30px;
     height: 26px;
-    background: url("/images/twitter-logo.svg") no-repeat;
+    margin-right: 20px;
+    background: url("/images/twitter-logo.svg") no-repeat  0 2px;
     background-size: 29px auto;
 }
 
@@ -493,22 +493,14 @@ footer {
     text-decoration: none;
 }
 
-@media screen and (min-width: 960px) {
-    .microsoft-logo {
-        display: block;
-        float: right;
-        margin: 1.4em 0 0 1.9em;
-    }
-    .icon-social {
-        margin-right: 0;
-    }
-}
-
 @media screen and (min-width: 820px) {
     .foot-center,
     .filter-group,
     .links {
         width: 800px;
+    }
+    .icon-microsoft-logo {
+        display: inline-block; 
     }
 }
 
@@ -532,14 +524,14 @@ footer {
 
 @media screen and (max-width: 667px) {
 	.dropdown {
-		margin-top: 5px;
+		margin: 8px 0;
 	}
     .dropdown-arrow {
         width: 17px;
         height: 16px;
     }
 
-    .dropdown a {
+    .dropdown-toggle {
         font-size: 16px;
     }
     
@@ -639,7 +631,7 @@ footer {
 }
 
 @media screen and (max-width: 300px) {
-    .icon-social {
+    .icons {
         display: none;
     }
 }
