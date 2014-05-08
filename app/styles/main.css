@@ -361,6 +361,19 @@ progress {
 	line-height: 30px;
 }
 
+.interop-status-options + .dropdown {
+	position: relative;
+	width: calc(50% - 4px);
+	margin-top: 2px;
+}
+.interop-status-options + .dropdown span {
+	display: block;
+}
+.interop-status-options + .dropdown .dropdown-arrow {
+	position: absolute;
+	right: 0;
+	top: 8px;
+}
 
 .dropdown-menu h2 {
 	margin: 5px 0 0 35px;
