@@ -22,7 +22,8 @@ angular.module('statusieApp')
                 var fill = parent.insertBefore(div, element);
 
                 var process = function () {
-                    var needsLock = $win[0].scrollY >= topOffset;
+                    var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
+                    var needsLock = scrollTop >= topOffset;
                     if (needsLock !== locked) {
                         locked = needsLock;
                         if (locked) {

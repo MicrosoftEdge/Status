@@ -1,6 +1,6 @@
 'use strict';
 
-describe('Directive: filter', function () {
+describe('Directive: interopfilter', function () {
 
   // load the directive's module
   beforeEach(module('statusieApp'));
@@ -13,8 +13,8 @@ describe('Directive: filter', function () {
   }));
 
   it('should make hidden element visible', inject(function ($compile) {
-    element = angular.element('<filter></filter>');
+    element = angular.element('<interopfilter></interopfilter>');
     element = $compile(element)(scope);
-    expect(element.text()).toBe('this is the filter directive');
+    expect(element.text()).toBe('this is the interopfilter directive');
   }));
 });

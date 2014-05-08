@@ -7,6 +7,9 @@ angular.module('statusieApp')
             link: function postLink(scope, element) {
                 var parent = element.parent();
                 var opened = false;
+                var dropdownMenu = parent[0].querySelector('.dropdown-menu');
+
+                dropdownMenu.setAttribute('aria-hidden', 'true');
 
                 var close = function (evt) {
                     if (!opened) {
@@ -20,6 +23,7 @@ angular.module('statusieApp')
                     opened = false;
                     parent.removeClass('open');
                     element[0].setAttribute('aria-pressed', 'false');
+                    dropdownMenu.setAttribute('aria-hidden', 'true');
                     $document.off('click', close);
                 };
 
@@ -33,6 +37,7 @@ angular.module('statusieApp')
                             $document.on('click', close);
                         }, 0);
                         element[0].setAttribute('aria-pressed', 'true');
+                        dropdownMenu.setAttribute('aria-hidden', 'false');
                     }
                 };
 
