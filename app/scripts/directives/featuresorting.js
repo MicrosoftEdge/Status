@@ -20,7 +20,7 @@ angular.module('statusieApp')
                     {
                         name: 'name',
                         sortFunction: function (feature) {
-                            return feature.name.toLowerCase().replace(/</g, '');
+                            return feature.normalized_name;
                         },
                         selected: true
                     },
