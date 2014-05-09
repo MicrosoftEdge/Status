@@ -27,6 +27,8 @@ html {
     overflow-y: scroll;
     background-color: #fff;
     font-family: "Segoe Custom", sans-serif;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
 }
 
 body {
