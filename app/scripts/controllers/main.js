@@ -9,11 +9,11 @@ angular.module('statusieApp')
         $scope.limit = 0;
         $scope.loading = true;
 
-        var scrollToFeature = function(id){
+        var scrollToFeature = function (id) {
             if (id) {
                 var ele = document.getElementById(id);
                 if (ele) {
-                    $timeout(function(){
+                    $timeout(function () {
                         ele.scrollIntoView();
                         window.scrollTo(0, (window.scrollY || document.documentElement.scrollTop) - 135);
                     }, 0);
@@ -21,32 +21,42 @@ angular.module('statusieApp')
             }
         };
 
+        var insertPromise;
+
         var insertFeatures = function (features, callback) {
             var featuresCp = _.clone(features);
             $scope.features = [];
 
+            if (insertPromise) {
+                $timeout.cancel(insertPromise);
+            }
+
             var insertFeature = function () {
                 if (featuresCp.length > 0) {
                     $scope.features.push.apply($scope.features, featuresCp.splice(0, 5));
-                    $timeout(insertFeature, 0);
-                }else if(callback){
-                    callback();
+                    insertPromise = $timeout(insertFeature, 0);
+                } else {
+                    insertPromise = null;
+
+                    if (callback) {
+                        callback();
+                    }
                 }
             };
 
-            $timeout(insertFeature, 0);
+            insertPromise = $timeout(insertFeature, 0);
         };
 
-        var getFeatureId  = function(){
+        var getFeatureId = function () {
             var path = $location.path();
             return path.substr(1) || "";
         };
 
-        var trackFeature = function(id){
+        var trackFeature = function (id) {
             _gaq.push(['_trackPageview', '/status/' + id]);
         };
 
-        var filterFeatures = function(){
+        var filterFeatures = function () {
             var filteredFeatures = _.clone(features);
 
             _.forOwn(filters, function (filter) {
@@ -63,7 +73,7 @@ angular.module('statusieApp')
             $scope.limit = (filteredFeatures || []).length;
         };
 
-        $scope.$on('filterupdated', function(event, data){
+        $scope.$on('filterupdated', function (event, data) {
             filters[data.name] = data.filterFunction;
 
             filterFeatures();
@@ -86,14 +96,14 @@ angular.module('statusieApp')
                 }), $scope.sort);
                 $scope.limit = features.length;
 
-                insertFeatures(features, function(){
-                    $scope.$on('$locationChangeSuccess', function(){
+                insertFeatures(features, function () {
+                    $scope.$on('$locationChangeSuccess', function () {
                         var featureId = getFeatureId();
                         trackFeature(featureId);
                     });
 
                     // We only want to autoscroll if navigating directly to a feature or in back navigation
-                    $window.onpopstate = function(){
+                    $window.onpopstate = function () {
                         var featureId = getFeatureId();
                         scrollToFeature(featureId);
                     };
