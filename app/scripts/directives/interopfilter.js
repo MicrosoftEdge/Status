@@ -91,6 +91,10 @@ angular.module('statusieApp')
 
                     return function (item) {
                         var addBrowsers = true;
+                        if(_.keys(browserStatuses).length === 0){
+                            return true;
+                        }
+
                         _.forOwn(browsers, function (browserValue, browser) {
                             var addBrowser = false;
                             _.forOwn(browserStatuses, function (statusValue, browserStatus) {
@@ -117,7 +121,7 @@ angular.module('statusieApp')
                     return ieVersion;
                 };
 
-                $scope.browsersDisabled = true;
+                $scope.browsersDisabled = false;
 
                 var filterFunction = function () {
                     var ieStatuses = getSelected($scope.iestatus);
