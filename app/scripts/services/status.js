@@ -235,8 +235,7 @@ angular.module('statusieApp')
         };
 
         var load = function () {
-            return getIEStatus()
-                .then(getChromeStatus)
+            return $q.all([getIEStatus(), getChromeStatus()])
                 .then(mergeData);
         };
 
