@@ -491,27 +491,18 @@ input[type=radio]:focus + label::before {
 /* FOOTER */
 
 footer {
-    width: 100%;
-    min-height: 35px;
     background-color: #404040;
-}
-
-.links {
-    margin: 0 auto;
-    padding-top: 8px;
-    color: white;
+    padding: 8px 0;
     text-align: center;
-    line-height: 20px;
 }
 
-.links a {
-    margin-left: 25px;
+footer a {
     color: white;
     font-size: 12px;
 }
 
-.links a:hover {
-    text-decoration: none;
+footer a + a {
+	margin-left: 25px;
 }
 
 @media screen and (min-width: 820px) {
@@ -526,7 +517,6 @@ footer {
 }
 
 @media screen and (max-width: 819px) {
-    .foot-center,
     .filter-group {
         width: calc(100% - 20px);
     }
@@ -573,7 +563,7 @@ footer {
         max-width: 650px;
     }
 
-    .links {
+    footer a {
         display: none;
     }
 }
