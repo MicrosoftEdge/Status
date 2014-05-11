@@ -497,6 +497,7 @@ footer {
 }
 
 footer a {
+	padding: 0 1em;
     color: white;
     font-size: 12px;
 }
@@ -506,9 +507,7 @@ footer a + a {
 }
 
 @media screen and (min-width: 820px) {
-    .foot-center,
-    .filter-group,
-    .links {
+    .filter-group {
         width: 800px;
     }
     .icon-microsoft-logo {
