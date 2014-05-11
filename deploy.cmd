@@ -144,8 +144,8 @@ IF /I "%IN_PLACE_DEPLOYMENT%" NEQ "1" (
 IF EXIST "%DEPLOYMENT_TARGET%\package.json" (
   pushd "%DEPLOYMENT_TARGET%"
   ::We need to clear the cache because of this https://github.com/gruntjs/grunt-contrib-imagemin/issues/183
-  echo %time% - Cleaning npm cache
-  call :ExecuteCmd !NPM_CMD! cache clear
+  :: echo %time% - Cleaning npm cache
+  :: call :ExecuteCmd !NPM_CMD! cache clear
   echo %time% - Installing npm packages
   call :ExecuteCmd !NPM_CMD! install --silent  
   :: commenting the following line, even if there are some errors this should work...
