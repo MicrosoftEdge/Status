@@ -91,6 +91,15 @@ button {
     clip: rect(0, 0, 0, 0);
 }
 
+/* CLEAR FIX */
+.header::after,
+.menu::after,
+.filter-container::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
 /* LOADING SCREEN */
 .progress-wrapper {
     position: absolute;
@@ -118,12 +127,6 @@ progress {
 .header {
     border-bottom: 10px solid #6D6E71;
     background-color: #454545;
-}
-
-.header::after, .menu::after {
-    display: table;
-    content: "";
-    clear: both;
 }
 
 /* HEADER: Logo */
@@ -232,12 +235,6 @@ progress {
     margin-bottom: 10px;
     padding: 15px 0;
     background-color: #00BAF0;
-}
-
-.filter-container::after {
-    display: table;
-    content: "";
-    clear: both;
 }
 
 .filter-group {
