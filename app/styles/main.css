@@ -142,7 +142,6 @@ progress {
     width: 28px;
     height: 28px;
     background: url("/images/ie-logo.png") no-repeat;
-    background-size: 28px;
     content: "";
     pointer-events: none;
 }
