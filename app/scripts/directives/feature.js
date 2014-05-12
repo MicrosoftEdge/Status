@@ -10,10 +10,13 @@ angular.module('statusieApp')
                     $scope.show = false;
                 });
 
-                $scope.expand = function () {
+                $scope.expand = function ($event) {
                     $scope.show = !$scope.show;
                     if ($scope.show) {
                         $location.path('/' + $scope.feature.normalized_name);
+                        $event.target.parentNode.style.height = ($event.target.nextElementSibling.offsetHeight + $event.target.offsetHeight) + "px";
+                    } else {
+                        $event.target.parentNode.style.height = $event.target.offsetHeight + "px";
                     }
                 };
 
