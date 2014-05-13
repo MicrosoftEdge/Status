@@ -4,14 +4,15 @@
     width: calc(100% - 20px);
     height: 50px;
     margin: 0 auto 20px;
-    overflow: hidden;
     -webkit-transition: height 300ms;
     -o-transition: height 300ms;
     transition: height 300ms;
 }
 
 /* FEATURE: Reveal states */
-
+.show {
+    height: 225px;
+}
 
 .show .feature-body-wrapper {
     display: block;
@@ -100,12 +101,11 @@
 /* FEATURE: Body */
 .feature-body-wrapper {
     position: relative;
+    display: none;
+    height: 175px;
     border-left: solid 10px;
     padding: 10px;
-    overflow: auto;
-    width: 100%;
 }
-
 
 .feature-body-wrapper p {
     font-size: 16px;
@@ -114,6 +114,8 @@
 
 /* FEATURE: Body: status */
 .feature-status-wrapper {
+    position: absolute;
+    bottom: 0;
     width: 100%;
     margin-top: 20px;
     margin-bottom: -5px;
