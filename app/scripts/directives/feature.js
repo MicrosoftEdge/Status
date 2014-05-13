@@ -20,7 +20,6 @@ angular.module('statusieApp')
                         $event.target.nextElementSibling.style.display = "none";
                         $event.target.parentNode.style.height = $event.target.offsetHeight + "px";
                     }
-
                 };
 
                 var id = $location.path();
