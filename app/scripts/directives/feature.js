@@ -10,11 +10,17 @@ angular.module('statusieApp')
                     $scope.show = false;
                 });
 
-                $scope.expand = function () {
+                $scope.expand = function ($event) {
                     $scope.show = !$scope.show;
                     if ($scope.show) {
                         $location.path('/' + $scope.feature.normalized_name);
+                        $event.target.nextElementSibling.style.display = "block";
+                        $event.target.parentNode.style.height = ($event.target.nextElementSibling.offsetHeight + $event.target.offsetHeight) + "px";
+                    } else {
+                        $event.target.nextElementSibling.style.display = "none";
+                        $event.target.parentNode.style.height = $event.target.offsetHeight + "px";
                     }
+
                 };
 
                 var id = $location.path();

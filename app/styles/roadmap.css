@@ -10,10 +10,9 @@
 }
 
 /* FEATURE: Reveal states */
-.show {
-    height: 225px;
+.feature.show {
+    height: auto;
 }
-
 .show .feature-body-wrapper {
     display: block;
 }
@@ -102,9 +101,9 @@
 .feature-body-wrapper {
     position: relative;
     display: none;
-    height: 175px;
     border-left: solid 10px;
     padding: 10px;
+    overflow: auto;
 }
 
 .feature-body-wrapper p {
@@ -114,8 +113,6 @@
 
 /* FEATURE: Body: status */
 .feature-status-wrapper {
-    position: absolute;
-    bottom: 0;
     width: 100%;
     margin-top: 20px;
     margin-bottom: -5px;
