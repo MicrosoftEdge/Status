@@ -61,7 +61,7 @@ angular.module('statusieApp')
                 };
 
                 $scope.$watch('selectedSort.name', function (newValue, oldValue) {
-                    if (newValue && newValue !== oldValue) {
+                    if (newValue && (newValue !== oldValue || $location.search()['sort'])) {
                         var sort = _.find(sorts, {name: newValue});
 
                         if (oldValue) {
