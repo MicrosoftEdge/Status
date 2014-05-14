@@ -7,20 +7,17 @@ angular.module('statusieApp')
             restrict: 'E',
             controller: function (Status, $location, $timeout, $scope) {
                 var convertStatus = Status.statuses;
-
-
                 var search = $location.search();
-
                 var needsFiltering = false;
 
-                var select = function (parameter) {
-                    //TODO: sanitize this
-                    var options = search[parameter];
 
-                    var addToObject = function (result, key) {
-                        result[key] = true;
-                        return result;
-                    };
+                var addToObject = function (result, key) {
+                    result[key] = true;
+                    return result;
+                };
+
+                var select = function (parameter) {
+                    var options = search[parameter];
 
                     if (options) {
                         options = _.reduce(options.split(','), addToObject, {});
@@ -43,17 +40,14 @@ angular.module('statusieApp')
                     'indevelopment',
                     'implemented'], select('iestatuses'), {});
 
-
                 $scope.browserstatus = _.reduce(['notsupported',
                     'indevelopment',
                     'implemented'], select('browserstatuses'), {});
-
 
                 $scope.browsers = _.reduce(['chrome',
                     'firefox',
 //                    'opera',
                     'safari'], select('browsers'), {});
-
 
                 if (search['ieversion']) {
                     $scope.ieversion = 'ie' + search['ieversion'];
@@ -61,16 +55,15 @@ angular.module('statusieApp')
                     $scope.ieversion = 'ie8';
                 }
 
-
                 var getSelected = function (source) {
                     var targetObject = {};
 
                     _.forOwn(source, function (value, key) {
-
                         if (value) {
                             targetObject[key] = value;
                         }
                     });
+
                     return targetObject;
                 };
 
