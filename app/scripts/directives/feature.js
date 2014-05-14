@@ -15,20 +15,27 @@ angular.module('statusieApp')
                     $scope.show = true;
                 }
             },
-            link : function postLink(scope, element){
+            link: function postLink(scope, element) {
                 //The following code is for accessibility
                 //We do it by code instead of binds because it will add lots of watchers and we will be over the
                 //recommended number
-                var header = element[0].querySelector('button');
+                var feature = element[0];
+                var header = feature.querySelector('button');
                 var headerOffsetHeight = header.offsetHeight;
-                var featureWrapper = element[0].querySelector('.feature-body-wrapper');
-                scope.$watch('show', function(newValue){
-                    if(newValue){
-                        header.setAttribute('aria-expanded','true');
-                        featureWrapper.setAttribute('aria-hidden','false');
-                    }else{
-                        header.setAttribute('aria-expanded','false');
-                        featureWrapper.setAttribute('aria-hidden','true');
+                var featureWrapper = feature.querySelector('.feature-body-wrapper');
+
+                var autoHeight = function () {
+                    feature.style.height = "auto";
+                    feature.removeEventListener('transitionend', autoHeight);
+                };
+
+                scope.$watch('show', function (newValue) {
+                    if (newValue) {
+                        header.setAttribute('aria-expanded', 'true');
+                        featureWrapper.setAttribute('aria-hidden', 'false');
+                    } else {
+                        header.setAttribute('aria-expanded', 'false');
+                        featureWrapper.setAttribute('aria-hidden', 'true');
                     }
                 });
 
@@ -36,19 +43,19 @@ angular.module('statusieApp')
                     scope.show = !scope.show;
                     if (scope.show) {
                         featureWrapper.style.display = "block";
-                        element[0].style.height = (featureWrapper.offsetHeight + headerOffsetHeight) + "px";
+                        feature.style.height = (featureWrapper.offsetHeight + 40) + "px";
+                        feature.addEventListener('transitionend', autoHeight);
                     } else {
                         featureWrapper.style.display = "none";
-                        element[0].style.height = headerOffsetHeight + "px";
+                        feature.style.height = headerOffsetHeight + "px";
                     }
                 };
 
-
-                header.addEventListener('focus', function(){
+                header.addEventListener('focus', function () {
                     header.setAttribute('aria-selected', 'true');
                 });
 
-                header.addEventListener('blur', function(){
+                header.addEventListener('blur', function () {
                     header.setAttribute('aria-selected', 'false');
                 });
             }
