@@ -10,10 +10,9 @@
 }
 
 /* FEATURE: Reveal states */
-.show {
-    height: 225px;
+.feature.show {
+    height: auto;
 }
-
 .show .feature-body-wrapper {
     display: block;
 }
@@ -102,9 +101,9 @@
 .feature-body-wrapper {
     position: relative;
     display: none;
-    height: 175px;
     border-left: solid 10px;
     padding: 10px;
+    overflow: auto;
 }
 
 .feature-body-wrapper p {
@@ -114,8 +113,6 @@
 
 /* FEATURE: Body: status */
 .feature-status-wrapper {
-    position: absolute;
-    bottom: 0;
     width: 100%;
     margin-top: 20px;
     margin-bottom: -5px;
@@ -127,7 +124,7 @@
     margin-bottom: 0;
     border-bottom: 0;
     list-style-type: none;
-    border-spacing: 10px;
+    border-spacing: 10px 0 0 0;
 }
 
 .feature_status li {
@@ -162,7 +159,7 @@
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
-    margin: 10px 3px;
+    margin: 0 3px;
     opacity: .1;
 }
 
@@ -186,7 +183,7 @@
     float: left;
     width: auto;
     height: 40px;
-    margin: 0 4px 4px 0;
+    margin: 0 4px 0 0;
     border-left: solid 5px #a4a5ab;
     background-color: #d8dbe9;
 }
@@ -327,10 +324,6 @@
 
     .feature-icon {
         margin-right: 1px;
-    }
-
-    .feature-body-wrapper {
-        height: 275px;
     }
 
     .feature_status a {
