@@ -14,6 +14,10 @@ angular.module('statusieApp')
                 if (id === '/' + $scope.feature.normalized_name) {
                     $scope.show = true;
                 }
+
+                $scope.updateLocation = function (location) {
+                    $location.path(location);
+                };
             },
             link: function postLink(scope, element) {
                 //The following code is for accessibility
@@ -45,6 +49,7 @@ angular.module('statusieApp')
                         featureWrapper.style.display = "block";
                         feature.style.height = (featureWrapper.offsetHeight + 40) + "px";
                         feature.addEventListener('transitionend', autoHeight);
+                        scope.updateLocation('/' + scope.feature.normalized_name);
                     } else {
                         featureWrapper.style.display = "none";
                         feature.style.height = headerOffsetHeight + "px";
