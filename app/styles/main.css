@@ -23,7 +23,8 @@
 
 /*So we can use calc for the height*/
 html {
-    height: 100%;
+	position: relative;
+    min-height: 100%;
     overflow-y: scroll;
     background-color: #fff;
     font-family: "Segoe Custom", sans-serif;
@@ -32,6 +33,7 @@ html {
 }
 
 body {
+	margin: 0 0 36px; /* bottom = footer height */
     font-size: 14px;
     line-height: 1.428571429;
 }
@@ -469,6 +471,10 @@ input[type=radio]:focus + label::before {
 /* FOOTER */
 
 footer {
+	position: absolute;
+    bottom: 0;
+	height: 36px;
+	width: 100%;
     background-color: #404040;
     padding: 8px 0;
     text-align: center;
