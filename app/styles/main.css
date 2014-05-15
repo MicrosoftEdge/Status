@@ -259,9 +259,10 @@ progress {
 
 /* FILTERS: Filter selection */
 .total-features {
+	display: inline-block;
+	float: right;
     color: #fff;
     font-size: 16px;
-    float: right;
 }
 
 .total-features span {
