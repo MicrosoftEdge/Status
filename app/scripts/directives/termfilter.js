@@ -7,6 +7,15 @@ angular.module('statusieApp')
             controller: function ($location, $scope) {
                 'use strict';
 
+                var search = $location.search();
+
+                var filter = function () {
+                    $scope.$emit('filterupdated', {
+                        name: 'interop',
+                        filterFunction: filterFunction($scope.term)
+                    });
+                };
+
                 var filterFunction = function (term) {
                     return function (acum, item) {
                         if(_.isUndefined(term) || term === ''){
@@ -27,12 +36,11 @@ angular.module('statusieApp')
                     };
                 };
 
-                $scope.termChange = function(){
-                    $scope.$emit('filterupdated', {
-                        name: 'term',
-                        filterFunction: filterFunction($scope.term)
-                    });
-                };
+                if(search['term']){
+                    $scope.term = search['term'];
+                }
+
+                $scope.termChange = filter();
             }
         };
     });
