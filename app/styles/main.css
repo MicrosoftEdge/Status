@@ -169,15 +169,11 @@ progress {
 .menu-item {
 	float: left;
 	display: inline-block;
-	position: relative;
-	margin-top: -10px;
-	top: 10px;
 }
 
 .menu-item a {
 	display: block;
-    border-bottom: 10px solid;
-    padding: 15px;
+	padding: 14px 0 15px 30px;
     font-size: 10px;
     line-height: 1.5em;
     color: #fff;
@@ -185,22 +181,6 @@ progress {
 
 .menu-item a:hover {
     color: #00abe1;
-}
-
-.menu-item-tools a {
-    border-color: #0079c2;
-}
-
-.menu-item-articles a {
-    border-color: #7fba00;
-}
-
-.menu-item-demos a {
-    border-color: #833885;
-}
-
-.menu-item-involved a {
-    border-color: #ff8c00;
 }
 
 /* HEADER: Other links */
@@ -519,12 +499,9 @@ footer a + a {
 		float: left;
 		margin: 1.3em 0 0 -15em;
 	}
-	.menu-item a {
-		min-width: 10.5em;
-	}
 	.menu-item span {
    		display: block;
-    	font-size: 2.1em;
+    	font-size: 18px;
 	}
 }
 
@@ -534,7 +511,7 @@ footer a + a {
 		padding-top: 1.3em;
 	}
 	.siteLogo {
-		margin-bottom: 18px;
+		margin-bottom: 17px;
 	}
 	.status-ie {
 		display: inline;
@@ -543,13 +520,8 @@ footer a + a {
 	.menu-item:first-child {
 		margin-left: 4%;
 	}
-	.menu-item {
-		top: 5px;
-		margin-top: 0;
-	}
 	.menu-item a {
-		border-bottom-width: 5px;
-		padding: 6px 18px;
+		padding: 5px 16px 5px 0;
 		font-size: .9em;
 		line-height: 1.5;
 	}
@@ -612,7 +584,7 @@ footer a + a {
         display: none;
     }
     .header {
-        border-bottom: 0px;
+        border-bottom: 0;
     }
 }
 
