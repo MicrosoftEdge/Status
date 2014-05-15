@@ -4,15 +4,18 @@ angular.module('statusieApp')
             templateUrl: '/templates/termfilter.html',
             restrict: 'E',
             replace: true,
-            controller: function ($scope) {
+            controller: function ($location, $scope) {
                 'use strict';
 
                 var filterFunction = function (term) {
                     return function (acum, item) {
                         if(_.isUndefined(term) || term === ''){
+                            $location.search('term', null);
                             acum.push(item);
                             return acum;
                         }
+
+                        $location.search('term', term);
 
                         var termRegex = new RegExp(term, 'gi');
 
