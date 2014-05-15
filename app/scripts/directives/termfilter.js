@@ -40,7 +40,7 @@ angular.module('statusieApp')
                     $scope.term = search['term'];
                 }
 
-                $scope.termChange = filter();
+                $scope.termChange = filter;
             }
         };
     });
