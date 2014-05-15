@@ -33,7 +33,7 @@ html {
 }
 
 body {
-	margin: 0 0 36px; /* bottom = footer height */
+	margin-bottom: 56px; /* bottom = footer height + desired margin */
     font-size: 14px;
     line-height: 1.428571429;
 }
