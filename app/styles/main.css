@@ -150,7 +150,7 @@ progress {
 
 .siteLogo a {
 	position: relative;
-	display: block;
+	display: inline-block;
 	margin-left: 4%;
     padding-left: 2.8em;
 }
