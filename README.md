@@ -10,8 +10,10 @@ Status.Modern.IE provides valuable data on the implementation status and future 
 2. npm install -g bower
 3. npm install -g yo
 4. npm install -g grunt-cli
-### Build & Run (debug)
-From the project's root directory:
+
+### Build, run, and debug
+From the project's root directory
+
 1. npm install
 2. grunt build
 3. node app.js debug
