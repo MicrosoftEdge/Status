@@ -316,7 +316,7 @@ progress {
     content: "";
 }
 
-.open .dropdown-arrow::before {
+.open  > .dropdown-toggle .dropdown-arrow::before {
     -webkit-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     -o-transform: rotate(360deg);
