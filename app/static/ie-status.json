@@ -231,7 +231,7 @@
         "name": "Content Security Policy",
         "category": "Security",
         "link": "https://dvcs.w3.org/hg/content-security-policy/raw-file/tip/csp-specification.dev.html",
-        "summary": "Allows you to create a whitelist of sources of trusted content, and instructs the browser to only execute or render resources from those sourcesA.",
+        "summary": "Allows you to create a whitelist of sources of trusted content, and instructs the browser to only execute or render resources from those sources.",
         "standardStatus": "Established standard",
         "ieStatus": {
             "text": "Under Consideration",
