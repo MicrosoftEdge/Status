@@ -31,7 +31,7 @@ angular.module('statusieApp')
                     'safari'], select, {});
 
 
-                $scope.ieversion = 'ie8';
+                $scope.ieversion = 'ie11';
 
                 var getSelected = function (source) {
                     var targetObject = {};
@@ -68,9 +68,9 @@ angular.module('statusieApp')
                         _.forOwn(ieStatuses, function (value, status) {
                             if (convertStatus[status] === convertStatus.implemented) {
                                 if ($scope.iestatus.implemented) {
-                                    if(_.isNaN(item.browsers.ie.prefixed) && item.browsers.ie.unprefixed >= ieVersion){
+                                    if(_.isNaN(item.browsers.ie.prefixed) && item.browsers.ie.unprefixed <= ieVersion){
                                         addItem = true;
-                                    }else if(item.browsers.ie.prefixed >= ieVersion){
+                                    }else if(item.browsers.ie.prefixed <= ieVersion){
                                         addItem = true;
                                     }
                                 } else {
