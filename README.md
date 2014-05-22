@@ -15,10 +15,25 @@ Status.Modern.IE provides valuable data on the implementation status and future 
 From the project's root directory
 
 1. npm install
-2. grunt build
-3. node app.js debug
+2. bower install
+3. grunt build
+4. node app.js debug
 
 A Node server will start at http://localhost:9000
+
+## Contributing
+### Adding New Features
+The web platform is vast and ever-changing, so we often get requests to add new features to the site. In the spirit of tracking the modern interoperable web platform, we generally only add features that meet at least the following criteria:
+1.	Exposes new, significant, and useful capabilities that web developers can adopt in sites
+2.	Likely to be eventually implemented by the majority of browsers 
+3.	Currently lacking support in at least one major browser
+
+Over time, it's expected (and desired!) that features will become fully interoperable, meaning they no longer meet the third requirement above. We don't currently have a plan to remove such features from the site, but may do so at a future date. Not all requests to add features will be accepted as there is a high maintenance cost to keep interoperability, documentation, and standards statuses up to date.  
+
+### Updating Features
+Feature data on status.modern.IE is merged from both app/static/ie-status.json and also the [Chromium Dashboard](https://github.com/GoogleChrome/chromium-dashboard). While it is possible to override data from the Chromium Dashboard, it is preferred that this data be updated upstream in the Chromium Dashboard project. This allows both sites to reflect accurate information.
+
+When requesting to change the implementation status of a browser or the standardization status, please include a citation in your pull request to where the change in status can be validated. Microsoft believes the W3C is the best place for developing interoperable open web standards. Therefore, please use W3C specifications in pull requests, when available.
 
 ###Additional Attributions
 Portions of the content in this page from chromestatus.com, used under [Creative Commons Attribution 2.5 License](http://creativecommons.org/licenses/by/2.5/legalcode)
