@@ -316,7 +316,7 @@ progress {
     content: "";
 }
 
-.open .dropdown-arrow::before {
+.open  > .dropdown-toggle .dropdown-arrow::before {
     -webkit-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     -o-transform: rotate(360deg);
@@ -591,6 +591,28 @@ footer a + a {
     }
     .header {
         border-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 373px) {
+	.filter-container {
+		padding-bottom: 0;
+	}
+	
+    .form-group,
+    .form-control {
+    	width: 100%;
+	}
+	
+	.dropdown:first-of-type {
+		padding-left: 0;
+	}
+	
+    .dropdown-menu {
+    	left: 0;
+    	width: 100%;
+    	margin-left: 0;
+    	padding: 6px 0;
     }
 }
 
