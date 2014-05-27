@@ -4,7 +4,9 @@ angular.module('statusieApp')
         'use strict';
 
         var features,
-            filters = {};
+            filters = {},
+            loaded = false,
+            needsFiltering = false;
 
         $scope.features = [];
         $scope.limit = 0;
@@ -77,7 +79,11 @@ angular.module('statusieApp')
         $scope.$on('filterupdated', function (event, data) {
             filters[data.name] = data.filterFunction;
 
-            filterFeatures();
+            if (loaded) {
+                filterFeatures();
+            }else {
+                needsFiltering = true;
+            }
         });
 
         $scope.$watch('sort', function (sortFunction) {
@@ -88,7 +94,6 @@ angular.module('statusieApp')
         Status.load()
             .then(function (data) {
                 $scope.categories = data.categories;
-//                $scope.browsers = data.browsers;
                 $scope.featureStatus = data.ieVersions;
                 $scope.loading = false;
 
@@ -98,6 +103,12 @@ angular.module('statusieApp')
                 $scope.limit = features.length;
 
                 insertFeatures(features, function () {
+                    loaded = true;
+                    if(needsFiltering){
+                        needsFiltering = false;
+                        filterFeatures();
+                    }
+
                     $scope.$on('$locationChangeSuccess', function () {
                         var featureId = getFeatureId();
                         trackFeature(featureId);

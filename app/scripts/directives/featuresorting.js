@@ -5,7 +5,7 @@ angular.module('statusieApp')
             templateUrl: 'templates/featuresorting.html',
             restrict: 'E',
             replace: true,
-            controller: function ($scope) {
+            controller: function ($location, $scope) {
                 'use strict';
 
                 var statusOrder = {
@@ -50,15 +50,24 @@ angular.module('statusieApp')
                 ];
                 $scope.sorts = sorts;
 
+                //TODO: sanitize this
+                var sortName = $location.search()['sort'];
+
+                if (!sortName || !_.find(sorts, {name: sortName})) {
+                    sortName = 'name'
+                }
+
                 $scope.selectedSort = {
-                    name: 'name'
+                    name: sortName
                 };
 
                 $scope.$watch('selectedSort.name', function (newValue, oldValue) {
-                    if (newValue) {
-                        var sort = _.find(sorts, function (sort) {
-                            return sort.name === newValue;
-                        });
+                    if (newValue && (newValue !== oldValue || $location.search()['sort'])) {
+                        var sort = _.find(sorts, {name: newValue});
+
+                        if (oldValue) {
+                            $location.search('sort', newValue);
+                        }
 
                         $scope.sort = sort.sortFunction;
                     }
