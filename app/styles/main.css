@@ -545,10 +545,6 @@ footer a + a {
 }
 
 @media screen and (max-width: 524px) {
-    .ribbon-wrapper {
-        position: absolute;
-    }
-
     footer a {
         display: none;
     }
