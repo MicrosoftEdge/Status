@@ -1,3 +1,4 @@
+/* Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the Apache License, Version 2.0 (the "License"); you may not use these files except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. */
 /* COMMON STYLING */
 @-ms-viewport {
     width: device-width;
@@ -316,7 +317,7 @@ progress {
     content: "";
 }
 
-.open .dropdown-arrow::before {
+.open  > .dropdown-toggle .dropdown-arrow::before {
     -webkit-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     -o-transform: rotate(360deg);
@@ -436,36 +437,6 @@ input[type=radio]:focus + label::before {
 [type=radio]:checked + label::before{
     background-color: #fff;
     box-shadow: 0 0 0 3px #0079c2 inset;
-}
-
-/* BETA RIBBON */
-.ribbon-wrapper {
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 100;
-    width: 120px;
-    height: 85px;
-    overflow: hidden;
-    font: bold 15px Sans-Serif;
-    text-align: center;
-}
-
-.beta-ribbon {
-    position: relative;
-    width: 160px;
-    padding: 7px 0 7px 30px;
-    font: bold 17px Sans-Serif;
-    text-shadow: 0 0 5px #000;
-    text-align: center;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-    background-color: #FFE763;
-    background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #444 10px, #444 20px);
-    box-shadow: 0 0 3px rgba(0, 0, 0, .3);
-    color: #fff;
 }
 
 /* FOOTER */
@@ -591,6 +562,28 @@ footer a + a {
     }
     .header {
         border-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 373px) {
+	.filter-container {
+		padding-bottom: 0;
+	}
+	
+    .form-group,
+    .form-control {
+    	width: 100%;
+	}
+	
+	.dropdown:first-of-type {
+		padding-left: 0;
+	}
+	
+    .dropdown-menu {
+    	left: 0;
+    	width: 100%;
+    	margin-left: 0;
+    	padding: 6px 0;
     }
 }
 
