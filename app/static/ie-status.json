@@ -2702,7 +2702,7 @@
         "name": "Promises (ES6)",
         "category": "JavaScript",
         "link": "https://people.mozilla.org/~jorendorff/es6-draft.html#sec-promise-objects",
-        "summary": "Allows easier and cleaner asynconchronous coding. Adds the Promise constructor, along with the 'all' and 'race' utility methods to the language itself.",
+        "summary": "Allows easier and cleaner asynchronous coding. Adds the Promise constructor, along with the 'all' and 'race' utility methods to the language itself.",
         "standardStatus": "Editor's Draft",
         "ieStatus": {
             "text": "In Development",
