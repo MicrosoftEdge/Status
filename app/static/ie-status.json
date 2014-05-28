@@ -231,10 +231,10 @@
         "name": "Content Security Policy",
         "category": "Security",
         "link": "https://dvcs.w3.org/hg/content-security-policy/raw-file/tip/csp-specification.dev.html",
-        "summary": "Allows you to create a whitelist of sources of trusted content, and instructs the browser to only execute or render resources from those sources.",
+        "summary": "Allows you to create an allow list of sources of trusted content, and instructs the browser to only execute or render resources from those sources.",
         "standardStatus": "Established standard",
         "ieStatus": {
-            "text": "Under Consideration",
+            "text": "In Development",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -596,13 +596,13 @@
         "id": 6348855016685568
     },
     {
-        "name": "getUserMedia",
+        "name": "Media Capture and Streams",
         "category": "Multimedia",
         "link": "http://dev.w3.org/2011/webrtc/editor/getusermedia.html",
-        "summary": "Provides access to the user's local audio and video input/output devices.",
+        "summary": "Provides access to the user's local audio and video input/output devices (getUserMedia API).",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Under Consideration",
+            "text": "In Development",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -694,7 +694,7 @@
     {
         "name": "SPDY/3",
         "category": "Network / Connectivity",
-        "link": "http://www.chromium.org/spdy/spdy-protocol ï¿½ï¿½ï¿½ï¿½ ",
+        "link": "http://www.chromium.org/spdy/spdy-protocol",
         "summary": "A faster protocol for transporting web content.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
@@ -714,7 +714,7 @@
         "summary": "A faster protocol for transporting web content being standardized by the IETF.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Under Consideration",
+            "text": "In Development",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -1134,7 +1134,7 @@
         "summary": "Gives access to raw mouse movement, locks the target of mouse events to a single element, eliminates limits of how far mouse movement can go in a single direction, and removes the cursor from view. Obvious use cases are for first person or real time strategy games.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Under Consideration",
+            "text": "In Development",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -1711,7 +1711,7 @@
         "summary": "The arrow (=>) provides a shorthand for the function keyword with lexical 'this' binding.",
         "standardStatus": "Editor's draft",
         "ieStatus": {
-            "text": "Under Consideration",
+            "text": "In Development",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -1759,7 +1759,7 @@
         "summary": "Allows formal parameters to be initialized with default values if no value is passed.",
         "standardStatus": "Editor's draft",
         "ieStatus": {
-            "text": "Under Consideration",
+            "text": "In Development",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -1791,7 +1791,7 @@
         "summary": "Allows representation of an indefinite number of arguments as an array.",
         "standardStatus": "Editor's draft",
         "ieStatus": {
-            "text": "Under Consideration",
+            "text": "In Development",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -1919,7 +1919,7 @@
         "summary": "Iterates over iterable objects (including arrays, array-like objects, iterators and generators), invoking a custom iteration hook with statements to be executed for the value of each distinct property.",
         "standardStatus": "Editor's draft",
         "ieStatus": {
-            "text": "Under Consideration",
+            "text": "In Development",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -1961,13 +1961,13 @@
         "id": 5163890719588352
     },
     {
-        "name": "Symbols aka private names",
+        "name": "Symbols",
         "category": "JavaScript",
         "link": "http://wiki.ecmascript.org/doku.php?id=strawman:private_names",
         "summary": "Allows properties to be added to existing objects without the possibility of interference with the existing properties, unintended visibility, or with other uncoordinated additions by any other code.",
         "standardStatus": "Editor's draft",
         "ieStatus": {
-            "text": "Under Consideration",
+            "text": "In Development",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -2047,7 +2047,7 @@
         "summary": "A high-level JavaScript API for processing and synthesizing audio in web applications",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Under Consideration",
+            "text": "In Development",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -2079,7 +2079,7 @@
         "summary": "Support for the @supports at-rule and the \"window.DOM.supports()\" API",
         "standardStatus": "Established standard",
         "ieStatus": {
-            "text": "Under Consideration",
+            "text": "In Development",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -2589,7 +2589,7 @@
         "link": "http://www.w3.org/TR/SVG/extend.html#EmbeddingForeignObjects",
         "summary": "Allows for inclusion of a foreign namespace (such as HTML) which has its graphical content drawn by a different user agent",
         "ieStatus": {
-            "text": "Under Consideration",
+            "text": "In Development",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -2610,5 +2610,108 @@
             "text": "Shipped",
             "value": 1
         }
+    },
+    {
+        "name": "Media Queries Level 4: Interaction Media Features (pointer and hover)",
+        "category": "CSS",
+        "link": "http://dev.w3.org/csswg/mediaqueries4/#mf-interaction",
+        "summary": "Allows to query the presence and accuracy of the user's pointing input (e.g. for differentiating touch versus mouse). Additionally, allows the page to query whether the user's pointing input supports hover.",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "http://docs.webplatform.org/wiki/css/atrules/%40media",
+        "demo": "",
+        "id": null,
+        "ff_views": {
+            "text": "No public signals",
+            "value": 5
+        },
+        "opera_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "No public signals",
+            "value": 5
+        },
+        "impl_status_chrome": "Enabled by default"
+    },
+    {
+        "name": "Selection API",
+        "category": "User Input",
+        "link": "http://rniwa.github.io/selection-api",
+        "summary": "Based on APIs from HTML5 and DOM Range, this specification includes additional methods for programmatically inspecting and modifying the selection.",
+        "standardStatus": "Public Proposal",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "opera_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "impl_status_chrome": "Enabled by default"
+    },
+    {
+        "name": "ES6 Object Literal Enhancements",
+        "category": "JavaScript",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html#sec-object-initializer",
+        "summary": "Adds computed properties, concise method definitions, and short-hand for properties whose value is initialized to a same-named variable.",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null,
+        "ff_views": {
+            "text": "No Public Signals",
+            "value": 5
+        },
+        "opera_views": {
+            "text": "No Public Signals",
+            "value": 5
+        },
+        "safari_views": {
+            "text": "In Development",
+            "value": 2
+        },
+        "impl_status_chrome": "No active development"
+    },
+    {
+        "name": "Promises (ES6)",
+        "category": "JavaScript",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html#sec-promise-objects",
+        "summary": "Allows easier and cleaner asynconchronous coding. Adds the Promise constructor, along with the 'all' and 'race' utility methods to the language itself.",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 5681726336532480
     }
 ]
