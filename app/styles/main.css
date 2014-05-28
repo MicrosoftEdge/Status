@@ -439,36 +439,6 @@ input[type=radio]:focus + label::before {
     box-shadow: 0 0 0 3px #0079c2 inset;
 }
 
-/* BETA RIBBON */
-.ribbon-wrapper {
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 100;
-    width: 120px;
-    height: 85px;
-    overflow: hidden;
-    font: bold 15px Sans-Serif;
-    text-align: center;
-}
-
-.beta-ribbon {
-    position: relative;
-    width: 160px;
-    padding: 7px 0 7px 30px;
-    font: bold 17px Sans-Serif;
-    text-shadow: 0 0 5px #000;
-    text-align: center;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-    background-color: #FFE763;
-    background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #444 10px, #444 20px);
-    box-shadow: 0 0 3px rgba(0, 0, 0, .3);
-    color: #fff;
-}
-
 /* FOOTER */
 
 footer {
