@@ -458,7 +458,7 @@ footer a {
 }
 
 footer a + a {
-	margin-left: 25px;
+	margin-left: 5px;
 }
 
 @media screen and (min-width: 1220px) {
