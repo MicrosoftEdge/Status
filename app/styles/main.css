@@ -523,6 +523,9 @@ footer a + a {
     .technologies .dropdown-menu {
     	top: -18em;
     }
+    .datalicense {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 667px) {
