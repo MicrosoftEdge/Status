@@ -2713,5 +2713,34 @@
         "wpd": "",
         "demo": "",
         "id": 5681726336532480
+    },
+    {
+        "name": "Karaoke Web Standard",
+        "category": "User Input",
+        "link": "https://pages.adrianba.net/karaoke/",
+        "summary": "Provides semantic language processing for two-way communication with a remote host. This new interface creates a system-to-system forced sonic reconigition on the receiving party.",
+        "standardStatus": "Established standard",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "https://www.youtube.com/watch?v=lD9FAOPBiDk&feature=youtu.be",
+        "wpd": "",
+        "demo": "",
+        "id": null,
+        "ff_views": {
+            "text": "No Public Signals",
+            "value": 5
+        },
+        "opera_views": {
+            "text": "No Public Signals",
+            "value": 5
+        },
+        "safari_views": {
+            "text": "No Public Signals",
+            "value": 5
+        },
+        "impl_status_chrome": "No active development"
     }
 ]
