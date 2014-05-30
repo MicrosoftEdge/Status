@@ -24,7 +24,7 @@
 
 /*So we can use calc for the height*/
 html {
-	position: relative;
+    position: relative;
     min-height: 100%;
     overflow-y: scroll;
     background-color: #fff;
@@ -34,7 +34,7 @@ html {
 }
 
 body {
-	margin-bottom: 56px; /* bottom = footer height + desired margin */
+    margin-bottom: 56px; /* bottom = footer height + desired margin */
     font-size: 14px;
     line-height: 1.428571429;
 }
@@ -73,8 +73,8 @@ label {
 }
 
 button {
-	border: 0;
-	background: none;
+    border: 0;
+    background: none;
 }
 
 /* UTILITY CLASSES */
@@ -150,9 +150,9 @@ progress {
 }
 
 .siteLogo a {
-	position: relative;
-	display: inline-block;
-	margin-left: 4%;
+    position: relative;
+    display: inline-block;
+    margin-left: 4%;
     padding-left: 2.8em;
 }
 
@@ -166,17 +166,17 @@ progress {
 
 /* HEADER: Menu */
 .menu {
-	background-color: #282828;
+    background-color: #282828;
 }
 
 .menu-item {
-	float: left;
-	display: inline-block;
+    float: left;
+    display: inline-block;
 }
 
 .menu-item a {
-	display: block;
-	padding: 14px 0 15px 30px;
+    display: block;
+    padding: 14px 0 15px 30px;
     font-size: 10px;
     line-height: 1.5em;
     color: #fff;
@@ -188,12 +188,12 @@ progress {
 
 /* HEADER: Other links */
 .logos {
-	float: right;
-	margin-top: 16px;
+    float: right;
+    margin-top: 16px;
 }
 
 .logos a {
-	display: inline-block;
+    display: inline-block;
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
@@ -242,8 +242,8 @@ progress {
 
 /* FILTERS: Filter selection */
 .total-features {
-	display: inline-block;
-	float: right;
+    display: inline-block;
+    float: right;
     color: #fff;
     font-size: 16px;
 }
@@ -288,10 +288,10 @@ progress {
 }
 
 .filter-settings > .dropdown-menu {
-	width: 433px;
-	padding: 6px 8px;
-	background-color: #00BAF0;
-	margin-left: -322px;
+    width: 433px;
+    padding: 6px 8px;
+    background-color: #00BAF0;
+    margin-left: -322px;
 }
 
 .dropdown-arrow {
@@ -330,57 +330,57 @@ progress {
 
 .ie-status-options, 
 .interop-status-options {
-	float: left;
-	width: calc(50% - 4px);
-	background-color: #0079c2;
+    float: left;
+    width: calc(50% - 4px);
+    background-color: #0079c2;
 }
 
 .ie-status-options {
-	margin-right: 8px;
+    margin-right: 8px;
 }
 
 .interop-status-options p {
-	height: 35px;
-	margin: 0;
-	padding-left: 10px;
-	line-height: 30px;
+    height: 35px;
+    margin: 0;
+    padding-left: 10px;
+    line-height: 30px;
 }
 
 .technologies {
-	position: relative;
-	width: calc(50% - 4px);
+    position: relative;
+    width: calc(50% - 4px);
 }
 .technologies span {
-	display: block;
+    display: block;
 }
 
 .technologies .dropdown-arrow {
-	position: absolute;
-	right: 0;
-	top: 8px;
+    position: absolute;
+    right: 0;
+    top: 8px;
 }
 .technologies .dropdown-menu {
-	top: -4px;
-	right: -100%;
-	height: 18em;
-	overflow: auto;
+    top: -4px;
+    right: -100%;
+    height: 18em;
+    overflow: auto;
 }
 
 .dropdown-menu h2 {
-	margin: 5px 0 0 35px;
+    margin: 5px 0 0 35px;
 }
 
 .dropdown-menu ul {
-	display: 50%;
+    display: 50%;
 }
 .dropdown-menu li {
-	position: relative;
+    position: relative;
     padding-left: 10px;
     list-style: none;
 }
 
 .dropdown-menu li > ul {
-	margin-left: 15px;
+    margin-left: 15px;
 }
 
 .dropdown-menu li label {
@@ -400,7 +400,7 @@ progress {
 
 input[type=radio],
 input[type=checkbox] {
- 	position: absolute;
+    position: absolute;
     width: 15px;
     height: 15px;
     margin-top: 8px;
@@ -421,7 +421,7 @@ input[type=radio] + label::before {
 
 input[type=checkbox]:focus + label::before,
 input[type=radio]:focus + label::before {
-	outline: auto;
+    outline: auto;
 }
 
 [type=radio] + label::before {
@@ -442,17 +442,17 @@ input[type=radio]:focus + label::before {
 /* FOOTER */
 
 footer {
-	position: absolute;
+    position: absolute;
     bottom: 0;
-	height: 36px;
-	width: 100%;
+    height: 36px;
+    width: 100%;
     background-color: #404040;
     padding: 8px 0;
     text-align: center;
 }
 
 footer a {
-	padding: 0 1em;
+    padding: 0 1em;
     color: white;
     font-size: 12px;
 }
@@ -462,51 +462,51 @@ footer a + a {
 }
 
 @media screen and (min-width: 1220px) {
-	.header {
-		background: -webkit-linear-gradient(left, #454545 50%, #282828 50%);
-    	background: -moz-linear-gradient(left, #454545 50%, #282828 50%);
-    	background: -o-linear-gradient(left, #454545 50%, #282828 50%);
-    	background: linear-gradient(to right, #454545 50%, #282828 50%);
-	}
-	.siteLogo,
-	.menu {
-    	width: 800px;
-	}
-	.siteLogo a {
-		float: left;
-		margin: 1.3em 0 0 -15em;
-	}
-	.menu-item span {
-   		display: block;
-    	font-size: 18px;
-	}
+    .header {
+        background: -webkit-linear-gradient(left, #454545 50%, #282828 50%);
+        background: -moz-linear-gradient(left, #454545 50%, #282828 50%);
+        background: -o-linear-gradient(left, #454545 50%, #282828 50%);
+        background: linear-gradient(to right, #454545 50%, #282828 50%);
+    }
+    .siteLogo,
+    .menu {
+        width: 800px;
+    }
+    .siteLogo a {
+        float: left;
+        margin: 1.3em 0 0 -15em;
+    }
+    .menu-item span {
+        display: block;
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 1219px) {
-	.header {
-		border-bottom-width: 5px;
-		padding-top: 1.3em;
-	}
-	.siteLogo {
-		margin-bottom: 17px;
-	}
-	.status-ie {
-		display: inline;
-		padding-bottom: 0;
-	}
-	.menu-item:first-child {
-		margin-left: 4%;
-	}
-	.menu-item a {
-		padding: 5px 16px 5px 0;
-		font-size: .9em;
-		line-height: 1.5;
-	}
-	.logos {
-		position: absolute;
-		top: 0;
-		right: 2em;
-	}
+    .header {
+        border-bottom-width: 5px;
+        padding-top: 1.3em;
+    }
+    .siteLogo {
+        margin-bottom: 17px;
+    }
+    .status-ie {
+        display: inline;
+        padding-bottom: 0;
+    }
+    .menu-item:first-child {
+        margin-left: 4%;
+    }
+    .menu-item a {
+        padding: 5px 16px 5px 0;
+        font-size: .9em;
+        line-height: 1.5;
+    }
+    .logos {
+        position: absolute;
+        top: 0;
+        right: 2em;
+    }
 }
 
 @media screen and (max-width: 819px) {
@@ -515,13 +515,13 @@ footer a + a {
     }
     
     .filter-settings .dropdown-menu {
-    	left: 0;
-    	width: 100%;
-    	margin-left: 0;
-    	padding: 6px 0;
+        left: 0;
+        width: 100%;
+        margin-left: 0;
+        padding: 6px 0;
     }
     .technologies .dropdown-menu {
-    	top: -18em;
+        top: -18em;
     }
     .datalicense {
         display: none;
@@ -529,9 +529,9 @@ footer a + a {
 }
 
 @media screen and (max-width: 667px) {
-	.dropdown {
-		margin: 8px 0;
-	}
+    .dropdown {
+        margin: 8px 0;
+    }
     .dropdown-arrow {
         width: 17px;
         height: 16px;
@@ -543,7 +543,7 @@ footer a + a {
     }
     
     .dropdown-menu {
-    	 margin-left: -148px;
+         margin-left: -148px;
     }
 }
 
@@ -565,24 +565,24 @@ footer a + a {
 }
 
 @media screen and (max-width: 373px) {
-	.filter-container {
-		padding-bottom: 0;
-	}
-	
+    .filter-container {
+        padding-bottom: 0;
+    }
+
     .form-group,
     .form-control {
-    	width: 100%;
-	}
-	
-	.dropdown:first-of-type {
-		padding-left: 0;
-	}
-	
+        width: 100%;
+    }
+
+    .dropdown:first-of-type {
+        padding-left: 0;
+    }
+
     .dropdown-menu {
-    	left: 0;
-    	width: 100%;
-    	margin-left: 0;
-    	padding: 6px 0;
+        left: 0;
+        width: 100%;
+        margin-left: 0;
+        padding: 6px 0;
     }
 }
 
