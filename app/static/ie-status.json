@@ -391,7 +391,7 @@
         "name": "devicePixelRatio on zoom",
         "category": "Device",
         "link": "http://dev.w3.org/csswg/cssom-view/#dom-window-devicepixelratio",
-        "summary": "Update window.devicePixelRatio on full page zoom so that it accurately portraitists the ratio between css and device pixels.",
+        "summary": "Update window.devicePixelRatio on full page zoom so that it accurately portrays the ratio between css and device pixels.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Shipped",
@@ -1643,7 +1643,7 @@
         "name": "WebRTC – Object RTC API",
         "category": "Realtime / Communication",
         "link": "http://www.w3.org/community/ortc/",
-        "summary": "Enables mobile endpoints to talk to servers and web browsers with Real-Time Communications (RTC) capabilities via native and simple Javascript APIs",
+        "summary": "Enables mobile endpoints to talk to servers and web browsers with Real-Time Communications (RTC) capabilities via native and simple JavaScript APIs",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Under Consideration",
@@ -1884,7 +1884,7 @@
         "name": "CSS font-stretch",
         "category": "CSS",
         "link": "http://dev.w3.org/csswg/css-fonts/#propdef-font-stretch",
-        "summary": "Add support the the CSS font-stretch property.",
+        "summary": "Add support for the CSS font-stretch property.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Shipped",
@@ -2355,7 +2355,7 @@
         "name": "Prefetch attribute",
         "category": "Performance",
         "link": "http://www.w3.org/html/wg/drafts/html/master/links.html#link-type-prefetch",
-        "summary": "Indicates the browser should preemptively fetche and cache the specified resource.",
+        "summary": "Indicates the browser should preemptively fetch and cache the specified resource.",
         "standardStatus": "Established standard",
         "ieStatus": {
             "text": "Shipped",
