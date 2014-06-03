@@ -99,7 +99,8 @@ angular.module('statusieApp')
 
                 features = _.sortBy(_.forEach(data.features, function (feature) {
                     feature.visible = true;
-                }), $scope.selectedSort.sortFunction);
+                }), $scope.sort);
+                
                 $scope.limit = features.length;
 
                 insertFeatures(features, function () {
@@ -118,6 +119,8 @@ angular.module('statusieApp')
                     $window.onpopstate = function () {
                         var featureId = getFeatureId();
                         scrollToFeature(featureId);
+
+                        $scope.$emit('backNavigation');
                     };
 
                     var featureId = getFeatureId();
