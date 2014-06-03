@@ -53,13 +53,17 @@ angular.module('statusieApp')
                 //TODO: sanitize this
                 var sortName = $location.search()['sort'];
 
-                if (!sortName || !_.find(sorts, {name: sortName})) {
+                var sort = _.find(sorts, {name: sortName});
+
+                if (!sortName || !sort) {
                     sortName = 'name'
                 }
 
-                $scope.selectedSort = {
-                    name: sortName
-                };
+                if(!sort){
+                    sort = _.find(sorts, {name: sortName});
+                }
+
+                $scope.selectedSort = sort;
 
                 $scope.$watch('selectedSort.name', function (newValue, oldValue) {
                     if (newValue && (newValue !== oldValue || $location.search()['sort'])) {
