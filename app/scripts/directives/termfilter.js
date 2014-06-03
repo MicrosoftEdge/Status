@@ -5,7 +5,7 @@ angular.module('statusieApp')
             templateUrl: '/templates/termfilter.html',
             restrict: 'E',
             replace: true,
-            controller: function ($location, $scope) {
+            controller: function ($location, $timeout, $scope) {
                 'use strict';
 
                 var search = $location.search();
@@ -17,15 +17,24 @@ angular.module('statusieApp')
                     });
                 };
 
+                var timer;
+                var updateLocation = function (term) {
+                    return function () {
+                        $location.search('term', term);
+                    }
+                };
+
                 var filterFunction = function (term) {
                     return function (acum, item) {
-                        if(_.isUndefined(term) || term === ''){
+                        if (_.isUndefined(term) || term === '') {
                             $location.search('term', null);
                             acum.push(item);
                             return acum;
                         }
 
-                        $location.search('term', term);
+                        $timeout.cancel(timer);
+
+                        timer = $timeout(updateLocation(term), 250);
 
                         var termRegex = new RegExp(term, 'gi');
 
@@ -37,7 +46,7 @@ angular.module('statusieApp')
                     };
                 };
 
-                if(search['term']){
+                if (search['term']) {
                     $scope.term = search['term'];
                 }
 
