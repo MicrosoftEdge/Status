@@ -1359,8 +1359,8 @@
         "standardStatus": "Established standard",
         "ieStatus": {
             "text": "Shipped",
-            "iePrefixed": "",
-            "ieUnprefixed": "9"
+            "iePrefixed": "9",
+            "ieUnprefixed": "10"
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh772059(v=vs.85).aspx",
         "wpd": "http://docs.webplatform.org/wiki/tutorials/css_transforms",
