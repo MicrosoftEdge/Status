@@ -62,14 +62,9 @@ angular.module('statusieApp')
                     $scope.selectedSort = {
                         name: sortName
                     };
-                    if(!sort){
-                        sort = _.find(sorts, {name: sortName});
-                    }
-
-                    $scope.sort = sort.sortFunction;
                 };
 
-                //First run
+                //We check if the user is accessing the website with some sorting
                 sortChanged();
 
                 $scope.$on('backNavigation', sortChanged);
