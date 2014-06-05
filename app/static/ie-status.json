@@ -1,4 +1,31 @@
 [
+	{
+        "name": "Reference external content in SVG",
+        "category": "Graphics",
+		"link": "http://www.w3.org/TR/2010/REC-xlink11-20100506/",
+        "summary": "A common use case for this would be <use xlink:href=\"lib.svg#template\" fill=\"#000000\"></use>",
+        "standardStatus": "Established standard",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "demo": "",
+		"impl_status_chrome": "Enabled by default",
+		"ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "opera_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+		"id": null
+    },
     {
         "name": "<datalist> Element",
         "category": "User input",
