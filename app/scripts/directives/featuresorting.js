@@ -50,20 +50,24 @@ angular.module('statusieApp')
                 ];
                 $scope.sorts = sorts;
 
-                //TODO: sanitize this
-                var sortName = $location.search()['sort'];
+                var sortChanged = function () {
+                    //TODO: sanitize this
+                    var sortName = $location.search()['sort'];
+                    var sort = _.find(sorts, {name: sortName});
 
-                var sort = _.find(sorts, {name: sortName});
+                    if (!sortName || !sort) {
+                        sortName = 'name'
+                    }
 
-                if (!sortName || !sort) {
-                    sortName = 'name'
-                }
+                    $scope.selectedSort = {
+                        name: sortName
+                    };
+                };
 
-                if(!sort){
-                    sort = _.find(sorts, {name: sortName});
-                }
+                //We check if the user is accessing the website with some sorting
+                sortChanged();
 
-                $scope.selectedSort = sort;
+                $scope.$on('backNavigation', sortChanged);
 
                 $scope.$watch('selectedSort.name', function (newValue, oldValue) {
                     if (newValue && (newValue !== oldValue || $location.search()['sort'])) {
@@ -75,7 +79,7 @@ angular.module('statusieApp')
 
                         $scope.sort = sort.sortFunction;
                     }
-                });
+                }, true);
             }
         };
     });

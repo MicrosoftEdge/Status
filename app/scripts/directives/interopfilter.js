@@ -11,7 +11,6 @@ angular.module('statusieApp')
                 var search = $location.search();
                 var needsFiltering = false;
 
-
                 var addToObject = function (result, key) {
                     result[key] = true;
                     return result;
@@ -36,25 +35,29 @@ angular.module('statusieApp')
                     };
                 };
 
-                $scope.iestatus = _.reduce(['notplanned',
-                    'underconsideration',
-                    'indevelopment',
-                    'implemented'], select('iestatuses'), {});
+                var filtersChanged = function () {
+                    $scope.iestatus = _.reduce(['notplanned',
+                        'underconsideration',
+                        'indevelopment',
+                        'implemented'], select('iestatuses'), {});
 
-                $scope.browserstatus = _.reduce(['notsupported',
-                    'indevelopment',
-                    'implemented'], select('browserstatuses'), {});
+                    $scope.browserstatus = _.reduce(['notsupported',
+                        'indevelopment',
+                        'implemented'], select('browserstatuses'), {});
 
-                $scope.browsers = _.reduce(['chrome',
-                    'firefox',
+                    $scope.browsers = _.reduce(['chrome',
+                        'firefox',
 //                    'opera',
-                    'safari'], select('browsers'), {});
+                        'safari'], select('browsers'), {});
 
-                if (search['ieversion']) {
-                    $scope.ieversion = 'ie' + search['ieversion'];
-                } else {
-                    $scope.ieversion = 'ie11';
-                }
+                    if (search['ieversion']) {
+                        $scope.ieversion = 'ie' + search['ieversion'];
+                    } else {
+                        $scope.ieversion = 'ie11';
+                    }
+                };
+
+                filtersChanged();
 
                 var getSelected = function (source) {
                     var targetObject = {};
@@ -93,9 +96,9 @@ angular.module('statusieApp')
                         _.forOwn(ieStatuses, function (value, status) {
                             if (convertStatus[status] === convertStatus.implemented) {
                                 if ($scope.iestatus.implemented) {
-                                    if(_.isNaN(item.browsers.ie.prefixed) && item.browsers.ie.unprefixed <= ieVersion){
+                                    if (_.isNaN(item.browsers.ie.prefixed) && item.browsers.ie.unprefixed <= ieVersion) {
                                         addItem = true;
-                                    }else if(item.browsers.ie.prefixed <= ieVersion){
+                                    } else if (item.browsers.ie.prefixed <= ieVersion) {
                                         addItem = true;
                                     }
                                 } else {
@@ -180,6 +183,12 @@ angular.module('statusieApp')
                         filterFunction: filterFunction()
                     });
                 };
+
+                $scope.$on('backNavigation', function () {
+                    search = $location.search();
+                    filtersChanged();
+                    filter();
+                });
 
                 $scope.checkChanged = filter;
 
