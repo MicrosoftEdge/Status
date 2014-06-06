@@ -81,7 +81,7 @@ angular.module('statusieApp')
 
             if (loaded) {
                 filterFeatures();
-            }else {
+            } else {
                 needsFiltering = true;
             }
         });
@@ -100,11 +100,12 @@ angular.module('statusieApp')
                 features = _.sortBy(_.forEach(data.features, function (feature) {
                     feature.visible = true;
                 }), $scope.sort);
+
                 $scope.limit = features.length;
 
                 insertFeatures(features, function () {
                     loaded = true;
-                    if(needsFiltering){
+                    if (needsFiltering) {
                         needsFiltering = false;
                         filterFeatures();
                     }
@@ -116,8 +117,12 @@ angular.module('statusieApp')
 
                     // We only want to autoscroll if navigating directly to a feature or in back navigation
                     $window.onpopstate = function () {
-                        var featureId = getFeatureId();
-                        scrollToFeature(featureId);
+                        $scope.$apply(function () {
+                            var featureId = getFeatureId();
+                            scrollToFeature(featureId);
+
+                            $scope.$emit('backNavigation');
+                        });
                     };
 
                     var featureId = getFeatureId();

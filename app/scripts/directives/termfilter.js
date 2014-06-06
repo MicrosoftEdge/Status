@@ -5,27 +5,21 @@ angular.module('statusieApp')
             templateUrl: '/templates/termfilter.html',
             restrict: 'E',
             replace: true,
-            controller: function ($location, $scope) {
+            controller: function ($location, $timeout, $scope) {
                 'use strict';
-
-                var search = $location.search();
-
-                var filter = function () {
-                    $scope.$emit('filterupdated', {
-                        name: 'interop',
-                        filterFunction: filterFunction($scope.term)
-                    });
-                };
+                var timer;
 
                 var filterFunction = function (term) {
                     return function (acum, item) {
-                        if(_.isUndefined(term) || term === ''){
+                        if (_.isUndefined(term) || term === '') {
                             $location.search('term', null);
                             acum.push(item);
                             return acum;
                         }
 
-                        $location.search('term', term);
+                        $timeout.cancel(timer);
+
+                        timer = $timeout(updateLocation(term), 250);
 
                         var termRegex = new RegExp(term, 'gi');
 
@@ -37,11 +31,34 @@ angular.module('statusieApp')
                     };
                 };
 
-                if(search['term']){
-                    $scope.term = search['term'];
-                }
+                var filter = function () {
+                    $scope.$emit('filterupdated', {
+                        name: 'interop',
+                        filterFunction: filterFunction($scope.term)
+                    });
+                };
 
-                $scope.termChange = filter;
+                $scope.$watch('term', filter);
+
+                var termChanged = function(){
+                    var search = $location.search();
+                    if (search['term']) {
+                        $scope.term = search['term'];
+                    }else{
+                        $scope.term = '';
+                    }
+                };
+
+                $scope.$on('backNavigation', termChanged);
+
+                //We check if the user is accessing the website with some term
+                termChanged();
+
+                var updateLocation = function (term) {
+                    return function () {
+                        $location.search('term', term);
+                    }
+                };
             }
         };
     });
