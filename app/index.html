@@ -1,4 +1,5 @@
-﻿<!doctype html>
+﻿<!-- Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the Apache License, Version 2.0 (the "License"); you may not use these files except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.-->
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -7,7 +8,7 @@
     <base href="/">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
-	<link rel="dns-prefetch" href="http://www.chromestatus.com/">
+    <link rel="dns-prefetch" href="http://www.chromestatus.com/">
     <!-- build:prefetch({.tmp,app}) images/arrow.svg -->
     <link rel="prefetch" href="/images/arrow.svg">
     <!-- endbuild -->
@@ -34,9 +35,6 @@
 <body data-ng-app="statusieApp">
 
 <div data-ng-controller="MainCtrl" class="content">
-    <div class="ribbon-wrapper">
-        <div class="beta-ribbon">beta</div>
-    </div>
     <header role="banner" class="header">
         <div class="siteLogo">
             <a href="http://status.modern.ie">
@@ -76,7 +74,8 @@
 
     <footer role="contentinfo">
             <a href="http://creativecommons.org/licenses/by/2.5/legalcode"
-               target="_blank">IE status data is licensed under a Creative Commons Attribution 2.5 License</a>
+               target="_blank" class="datalicense">IE status data licensed under a CC Attribution 2.5 License</a>
+            <a href="https://github.com/InternetExplorer/Status.IE/">GitHub</a>
             <a href="http://www.microsoft.com/library/toolbar/3.0/trademarks/en-us.mspx"
                target="_blank">Trademarks</a>
             <a href="http://msdn.microsoft.com/windows/apps/cc300389" target="_blank">Terms of Use</a>

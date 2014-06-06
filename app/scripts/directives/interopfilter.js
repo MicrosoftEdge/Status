@@ -1,3 +1,4 @@
+// Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the Apache License, Version 2.0 (the "License"); you may not use these files except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 angular.module('statusieApp')
     .directive('interopfilter', function () {
         'use strict';
@@ -5,33 +6,58 @@ angular.module('statusieApp')
             templateUrl: '/templates/interopfilter.html',
             replace: true,
             restrict: 'E',
-            controller: function (Status, $scope) {
-
+            controller: function (Status, $location, $timeout, $scope) {
                 var convertStatus = Status.statuses;
+                var search = $location.search();
+                var needsFiltering = false;
 
-                var select = function (result, key) {
+                var addToObject = function (result, key) {
                     result[key] = true;
                     return result;
                 };
 
-                $scope.iestatus = _.reduce(['notplanned',
-                    'underconsideration',
-                    'indevelopment',
-                    'implemented'], select, {});
+                var select = function (parameter) {
+                    var options = search[parameter];
 
+                    if (options) {
+                        options = _.reduce(options.split(','), addToObject, {});
+                    }
 
-                $scope.browserstatus = _.reduce(['notsupported',
-                    'indevelopment',
-                    'implemented'], select, {});
+                    return function (result, key) {
+                        if (options) {
+                            result[key] = options[key] || false;
+                            needsFiltering = true;
+                        } else {
+                            result[key] = true;
+                        }
 
+                        return result;
+                    };
+                };
 
-                $scope.browsers = _.reduce(['chrome',
-                    'firefox',
+                var filtersChanged = function () {
+                    $scope.iestatus = _.reduce(['notplanned',
+                        'underconsideration',
+                        'indevelopment',
+                        'implemented'], select('iestatuses'), {});
+
+                    $scope.browserstatus = _.reduce(['notsupported',
+                        'indevelopment',
+                        'implemented'], select('browserstatuses'), {});
+
+                    $scope.browsers = _.reduce(['chrome',
+                        'firefox',
 //                    'opera',
-                    'safari'], select, {});
+                        'safari'], select('browsers'), {});
 
+                    if (search['ieversion']) {
+                        $scope.ieversion = 'ie' + search['ieversion'];
+                    } else {
+                        $scope.ieversion = 'ie11';
+                    }
+                };
 
-                $scope.ieversion = 'ie8';
+                filtersChanged();
 
                 var getSelected = function (source) {
                     var targetObject = {};
@@ -41,6 +67,7 @@ angular.module('statusieApp')
                             targetObject[key] = value;
                         }
                     });
+
                     return targetObject;
                 };
 
@@ -65,12 +92,13 @@ angular.module('statusieApp')
                     return function (item) {
                         //If no selections, ieStatuses is undefined and we shouldn't apply any IE filter, just add it)
                         var addItem = _.keys(ieStatuses).length === 0;
+
                         _.forOwn(ieStatuses, function (value, status) {
                             if (convertStatus[status] === convertStatus.implemented) {
                                 if ($scope.iestatus.implemented) {
-                                    if(_.isNaN(item.browsers.ie.prefixed) && item.browsers.ie.unprefixed >= ieVersion){
+                                    if (_.isNaN(item.browsers.ie.prefixed) && item.browsers.ie.unprefixed <= ieVersion) {
                                         addItem = true;
-                                    }else if(item.browsers.ie.prefixed >= ieVersion){
+                                    } else if (item.browsers.ie.prefixed <= ieVersion) {
                                         addItem = true;
                                     }
                                 } else {
@@ -91,10 +119,9 @@ angular.module('statusieApp')
 
                     return function (item) {
                         var addBrowsers = true;
-                        if(_.keys(browserStatuses).length === 0){
+                        if (_.keys(browserStatuses).length === 0) {
                             return true;
                         }
-
                         _.forOwn(browsers, function (browserValue, browser) {
                             var addBrowser = false;
                             _.forOwn(browserStatuses, function (statusValue, browserStatus) {
@@ -109,7 +136,7 @@ angular.module('statusieApp')
                     };
                 };
 
-                var getIEVersion = function(){
+                var getIEVersion = function () {
                     var ieVersion;
                     if ($scope.ieversion !== 'iedev') {
                         var version = $scope.ieversion.replace(/\D+/, '');
@@ -119,6 +146,13 @@ angular.module('statusieApp')
                     }
 
                     return ieVersion;
+                };
+
+                var updateSearchQuery = function (ieStatuses, ieVersion, browserStatuses, browsers) {
+                    $location.search('iestatuses', _.keys(ieStatuses).join(','));
+                    $location.search('browserstatuses', _.keys(browserStatuses).join(','));
+                    $location.search('browsers', _.keys(browsers).join(','));
+                    $location.search('ieversion', ieVersion);
                 };
 
                 $scope.browsersDisabled = false;
@@ -132,6 +166,8 @@ angular.module('statusieApp')
 
                     $scope.browsersDisabled = _.keys(browserStatuses).length === 0;
 
+                    updateSearchQuery(ieStatuses, ieVersion, browserStatuses, browsers);
+
                     return function (acum, item) {
 
                         if (processItem(item)) {
@@ -141,12 +177,25 @@ angular.module('statusieApp')
                     };
                 };
 
-                $scope.checkChanged = function () {
+                var filter = function () {
                     $scope.$emit('filterupdated', {
                         name: 'interop',
                         filterFunction: filterFunction()
                     });
                 };
+
+                $scope.$on('backNavigation', function () {
+                    search = $location.search();
+                    filtersChanged();
+                    filter();
+                });
+
+                $scope.checkChanged = filter;
+
+                if (needsFiltering) {
+                    filter();
+                    needsFiltering = false;
+                }
 
             },
             link: function postLink(scope, element) {
