@@ -2076,7 +2076,7 @@
         "name": "Conditional Rules",
         "category": "CSS",
         "link": "http://dev.w3.org/csswg/css-conditional/",
-        "summary": "Support for the @supports at-rule and the \"window.DOM.supports()\" API",
+        "summary": "Support for the @supports at-rule and the \"window.CSS.supports()\" API",
         "standardStatus": "Established standard",
         "ieStatus": {
             "text": "In Development",
