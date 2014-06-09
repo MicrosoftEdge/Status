@@ -35,7 +35,17 @@ Feature data on status.modern.IE is merged from both app/static/ie-status.json a
 
 When requesting to change the implementation status of a browser or the standardization status, please include a citation in your pull request to where the change in status can be validated. Microsoft believes the W3C is the best place for developing interoperable open web standards. Therefore, please use W3C specifications in pull requests, when available.
 
-###Additional Attributions
+### Reporting bugs in the website 
+Bugs happen so if you find one please open an issue. 
+
+### Using Pull Requests
+If you want to contribute to the repo, please use a GitHub pull request. There are just a couple things to keep in mind:
+- Make sure there is an issue open for your PR. If there isn't you can create one!
+- The commit message(s) should reference the issue (you can use "fixes #issueNumber"). 
+- If you are modifying code, please add a description of what you did. If you are adding or modifying a feature put the links to the documentation to verify your changes are correct.
+- Separate PR for separate issues. If you are updating several feature please do a PR for each one.
+
+## Additional Attributions
 Portions of the content in this page from chromestatus.com, used under [Creative Commons Attribution 2.5 License](http://creativecommons.org/licenses/by/2.5/legalcode)
 
 HTML5 Logo and related Technology Class iconography by W3C, used under [Creative Commons Attribution 3.0 License](http://creativecommons.org/licenses/by/3.0/legalcode)
