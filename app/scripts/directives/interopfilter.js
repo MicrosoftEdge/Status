@@ -47,7 +47,7 @@ angular.module('statusieApp')
 
                 $scope.browsers = _.reduce(['chrome',
                     'firefox',
-//                    'opera',
+                    'opera',
                     'safari'], select('browsers'), {});
 
                 if (search['ieversion']) {

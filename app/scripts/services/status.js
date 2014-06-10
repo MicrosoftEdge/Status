@@ -47,7 +47,7 @@ angular.module('statusieApp')
             }
         };
 
-        var normalizeBrowserStatus = function(featureStatus){
+        var normalizeBrowserStatus = function(featureStatus,flagStatus){
             var status;
 
             // The following checks are for opera, chromestatus only returns null or the version number
@@ -55,7 +55,11 @@ angular.module('statusieApp')
                 return 'Not Supported';
             }
             if(_.isNumber(featureStatus) && featureStatus > 2){
-                return 'Shipped';
+                if(flagStatus) {
+                    return 'In Development';
+                }else{
+                    return 'Shipped';
+                }
             }
 
             switch(featureStatus){
@@ -109,8 +113,8 @@ angular.module('statusieApp')
                         link: feature.safari_views_link
                     },
                     opera: {
-                        status: normalizeBrowserStatus(feature.shipped_opera_milestone),
-                        //Chrome status doesn't return a link for opera tracking :(
+                        status: normalizeBrowserStatus(feature.shipped_opera_milestone,feature.meta.needsflag),
+                        //Chromium status doesn't return a link for opera tracking :(
                         link: null
                     }
                 },
