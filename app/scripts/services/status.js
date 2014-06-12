@@ -52,22 +52,18 @@ angular.module('statusieApp')
 
             // The following checks are for opera, chromestatus only returns null or the version number
             if (isOpera) {
-                if (_.isNumber(featureStatus) && !needsFlag) {
+                if (featureStatus > 0 && !needsFlag) {
                     return 'Shipped';
                 } else if ( (_.isNumber(featureStatus) && needsFlag) ||
-                            (chromeStatus === 'Enabled by Default') ||
+                            (chromeStatus === 'Enabled by default') ||
                             (chromeStatus === 'In development') ||
                             (chromeStatus === 'Behind a flag') ) {
                     return 'In Development';
                 }else{
-                    debugger;
                     return 'Not Supported';
                 }
             }
             
-
-
-
             switch(featureStatus){
                 case 'Enabled by default': status = 'Shipped'; break;
                 case 'In development': status = 'In Development'; break;

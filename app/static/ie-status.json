@@ -727,10 +727,7 @@
             "text": "In development",
             "value": 2
         },
-        "opera_views": {
-            "text": "In development",
-            "value": 2
-        },
+        "shipped_opera_milestone": null,
         "safari_views": {
             "text": "In development",
             "value": 2
@@ -836,10 +833,7 @@
             "text": "Shipped",
             "value": 1
         },
-        "opera_views": {
-            "text": "Shipped",
-            "value": 1
-        },
+        "shipped_opera_milestone": true,
         "safari_views": {
             "text": "Shipped",
             "value": 1
@@ -993,10 +987,7 @@
             "text": "Shipped",
             "value": 1
         },
-        "opera_views": {
-            "text": "Shipped",
-            "value": 1
-        },
+        "shipped_opera_milestone": true,
         "safari_views": {
             "text": "Shipped",
             "value": 1
@@ -1038,10 +1029,7 @@
             "text": "Shipped",
             "value": 1
         },
-        "opera_views": {
-            "text": "Shipped",
-            "value": 1
-        },
+        "shipped_opera_milestone": true,
         "safari_views": {
             "text": "Shipped",
             "value": 1
@@ -1659,10 +1647,7 @@
             "text": "No public signals",
             "value": 5
         },
-        "opera_views": {
-            "text": "No public signals",
-            "value": 5
-        },
+        "shipped_opera_milestone": null,
         "safari_views": {
             "text": "No public signals",
             "value": 5
@@ -2284,10 +2269,7 @@
             "text": "No public signals",
             "value": 5
         },
-        "opera_views": {
-            "text": "No public signals",
-            "value": 5
-        },
+        "shipped_opera_milestone": null,
         "safari_views": {
             "text": "No public signals",
             "value": 5
@@ -2313,10 +2295,7 @@
             "text": "No public signals",
             "value": 5
         },
-        "opera_views": {
-            "text": "No public signals",
-            "value": 5
-        },
+        "shipped_opera_milestone": null,
         "safari_views": {
             "text": "No public signals",
             "value": 5
@@ -2342,10 +2321,7 @@
             "text": "No public signals",
             "value": 5
         },
-        "opera_views": {
-            "text": "No public signals",
-            "value": 5
-        },
+        "shipped_opera_milestone": null,
         "safari_views": {
             "text": "No public signals",
             "value": 5
@@ -2371,10 +2347,7 @@
             "text": "Shipped",
             "value": 1
         },
-        "opera_views": {
-            "text": "No public signals",
-            "value": 5
-        },
+        "shipped_opera_milestone": null,
         "safari_views": {
             "text": "No public signals",
             "value": 5
@@ -2400,10 +2373,7 @@
             "text": "No public signals",
             "value": 5
         },
-        "opera_views": {
-            "text": "Shipped",
-            "value": 1
-        },
+        "shipped_opera_milestone": true,
         "safari_views": {
             "text": "No public signals",
             "value": 5
@@ -2429,10 +2399,7 @@
             "text": "No public signals",
             "value": 5
         },
-        "opera_views": {
-            "text": "No public signals",
-            "value": 5
-        },
+        "shipped_opera_milestone": null,
         "safari_views": {
             "text": "No public signals",
             "value": 5
@@ -2458,10 +2425,7 @@
             "text": "Shipped",
             "value": 1
         },
-        "opera_views": {
-            "text": "Shipped",
-            "value": 1
-        },
+        "shipped_opera_milestone": true,
         "safari_views": {
             "text": "Shipped",
             "value": 1
@@ -2487,10 +2451,7 @@
             "text": "Shipped",
             "value": 1
         },
-        "opera_views": {
-            "text": "No public signals",
-            "value": 5
-        },
+        "shipped_opera_milestone": null,
         "safari_views": {
             "text": "No public signals",
             "value": 5
@@ -2516,10 +2477,7 @@
             "text": "Shipped",
             "value": 1
         },
-        "opera_views": {
-            "text": "Shipped",
-            "value": 1
-        },
+        "shipped_opera_milestone": true,
         "safari_views": {
             "text": "Shipped",
             "value": 1
@@ -2545,10 +2503,7 @@
             "text": "In development",
             "value": 2
         },
-        "opera_views": {
-            "text": "In development",
-            "value": 2
-        },
+        "shipped_opera_milestone": null,
         "safari_views": {
             "text": "In development",
             "value": 2
@@ -2574,10 +2529,7 @@
             "text": "In development",
             "value": 2
         },
-        "opera_views": {
-            "text": "Shipped",
-            "value": 1
-        },
+        "shipped_opera_milestone": true,
         "safari_views": {
             "text": "In Development",
             "value": 2
@@ -2602,10 +2554,7 @@
             "text": "Shipped",
             "value": 1
         },
-        "opera_views": {
-            "text": "Shipped",
-            "value": 1
-        },
+        "shipped_opera_milestone": true,
         "safari_views": {
             "text": "Shipped",
             "value": 1
@@ -2630,10 +2579,7 @@
             "text": "No public signals",
             "value": 5
         },
-        "opera_views": {
-            "text": "Shipped",
-            "value": 1
-        },
+        "shipped_opera_milestone": true,
         "safari_views": {
             "text": "No public signals",
             "value": 5
@@ -2659,10 +2605,7 @@
             "text": "Shipped",
             "value": 1
         },
-        "opera_views": {
-            "text": "Shipped",
-            "value": 1
-        },
+        "shipped_opera_milestone": true,
         "safari_views": {
             "text": "Shipped",
             "value": 1
@@ -2688,10 +2631,7 @@
             "text": "No Public Signals",
             "value": 5
         },
-        "opera_views": {
-            "text": "No Public Signals",
-            "value": 5
-        },
+        "shipped_opera_milestone": null,
         "safari_views": {
             "text": "In Development",
             "value": 2
