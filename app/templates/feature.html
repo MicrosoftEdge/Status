@@ -53,6 +53,14 @@
                     <span data-bo-if="!feature.browsers.ie.link"
                           data-bo-text="feature.browsers.ie.status + ' by Internet Explorer'"></span>
                 </li>
+                <li class="icon-opera"
+                    data-bo-class="{'implemented': feature.browsers.opera.status === 'Shipped' || feature.browsers.opera.status === 'Prefixed', 'indevelopment' : feature.browsers.opera.status === 'In Development'}"
+                    data-bo-title="feature.browsers.opera.status + ' by Opera'">
+                    <a data-bo-if="feature.browsers.opera.link" data-bo-href="feature.browsers.opera.link "
+                       data-bo-text="feature.browsers.opera.status + ' by  Opera'" target="_blank"></a>
+                    <span data-bo-if="!feature.browsers.opera.link"
+                          data-bo-text="feature.browsers.opera.status + ' by Opera'"></span>
+                </li>
                 <li class="icon-safari"
                     data-bo-class="{'implemented': feature.browsers.safari.status === 'Shipped' || feature.browsers.safari.status === 'Prefixed', 'indevelopment' : feature.browsers.safari.status === 'In Development'}"
                     data-bo-title="feature.browsers.safari.status + ' by Safari'">
