@@ -47,20 +47,26 @@ angular.module('statusieApp')
             }
         };
 
-        var normalizeBrowserStatus = function(featureStatus,flagStatus){
+        var normalizeBrowserStatus = function(featureStatus,isOpera,needsFlag,chromeStatus){
             var status;
 
             // The following checks are for opera, chromestatus only returns null or the version number
-            if(_.isNull(featureStatus)){
-                return 'Not Supported';
-            }
-            if(_.isNumber(featureStatus) && featureStatus > 2){
-                if(flagStatus) {
+            if (isOpera) {
+                if (_.isNumber(featureStatus) && !needsFlag) {
+                    return 'Shipped';
+                } else if ( (_.isNumber(featureStatus) && needsFlag) ||
+                            (chromeStatus === 'Enabled by Default') ||
+                            (chromeStatus === 'In development') ||
+                            (chromeStatus === 'Behind a flag') ) {
                     return 'In Development';
                 }else{
-                    return 'Shipped';
+                    debugger;
+                    return 'Not Supported';
                 }
             }
+            
+
+
 
             switch(featureStatus){
                 case 'Enabled by default': status = 'Shipped'; break;
@@ -113,7 +119,7 @@ angular.module('statusieApp')
                         link: feature.safari_views_link
                     },
                     opera: {
-                        status: normalizeBrowserStatus(feature.shipped_opera_milestone,feature.meta.needsflag),
+                        status: normalizeBrowserStatus(feature.shipped_opera_milestone, true, feature.meta.needsflag, feature.impl_status_chrome),
                         //Chromium status doesn't return a link for opera tracking :(
                         link: null
                     }
