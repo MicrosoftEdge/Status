@@ -47,7 +47,7 @@
                 </li>
                 <li class="icon-ie"
                     data-bo-class="{'implemented': feature.browsers.ie.status === 'Shipped' || feature.browsers.ie.status === 'Prefixed' || feature.browsers.ie.status === 'IE Developer Channel', 'indevelopment' : feature.browsers.ie.status === 'In Development'}"
-                    data-bo-title="feature.browsers.ie.status + ' by Internet Explorer'">
+                    data-bo-title="feature.browsers.ie.status==='IE Developer Channel' ? 'Shipped in IE Developer Channel' : feature.browsers.ie.status + ' by Internet Explorer'">
                     <a data-bo-if="feature.browsers.ie.link" data-bo-href="feature.browsers.ie.link"
                        data-bo-text="feature.browsers.ie.status + ' by Internet Explorer'" target="_blank"></a>
                     <span data-bo-if="!feature.browsers.ie.link"
