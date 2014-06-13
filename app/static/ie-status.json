@@ -554,7 +554,7 @@
         "summary": "Gives JS access to a game controller via USB.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "In Development",
+            "text": "IE Developer Channel",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
