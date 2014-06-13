@@ -12,7 +12,7 @@ angular.module('statusieApp')
 
                 var filter = function () {
                     $scope.$emit('filterupdated', {
-                        name: 'interop',
+                        name: 'term',
                         filterFunction: filterFunction($scope.term)
                     });
                 };
