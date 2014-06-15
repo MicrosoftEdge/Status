@@ -7,6 +7,7 @@ angular.module('statusieApp')
             replace: true,
             controller: function ($location, $timeout, $scope) {
                 'use strict';
+
                 var timer;
 
                 var filterFunction = function (term) {
@@ -33,7 +34,7 @@ angular.module('statusieApp')
 
                 var filter = function () {
                     $scope.$emit('filterupdated', {
-                        name: 'interop',
+                        name: 'term',
                         filterFunction: filterFunction($scope.term)
                     });
                 };
