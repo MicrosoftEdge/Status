@@ -39,6 +39,7 @@ angular.module('statusieApp')
                     $scope.iestatus = _.reduce(['notplanned',
                         'underconsideration',
                         'indevelopment',
+                        'iedev',
                         'implemented'], select('iestatuses'), {});
 
                     $scope.browserstatus = _.reduce(['notsupported',
@@ -98,8 +99,6 @@ angular.module('statusieApp')
                                     if (_.isNaN(item.browsers.ie.prefixed) && item.browsers.ie.unprefixed <= ieVersion) {
                                         addItem = true;
                                     } else if (item.browsers.ie.prefixed <= ieVersion) {
-                                        addItem = true;
-                                    } else if (item.browsers.ie.status === convertStatus[ieVersion]) {
                                         addItem = true;
                                     }
                                 } else {
