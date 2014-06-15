@@ -99,6 +99,8 @@ angular.module('statusieApp')
                                         addItem = true;
                                     } else if (item.browsers.ie.prefixed <= ieVersion) {
                                         addItem = true;
+                                    } else if (item.browsers.ie.status === convertStatus[ieVersion]) {
+                                        addItem = true;
                                     }
                                 } else {
                                     addItem = true;

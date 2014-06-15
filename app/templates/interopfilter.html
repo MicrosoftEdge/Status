@@ -31,11 +31,11 @@
 						   checked="" data-ng-change="checkChanged()"/>
 					<label for="ie-implemented">Implemented in:</label>
 					<ul>
-						<!--<li data-ng-class="{'disabled' : !iestatus.implemented }">-->
-						<!--<input type="radio" name="ieversion" id="iedev" value="iedev"-->
-						<!--data-ng-model="ieversion" data-ng-change="checkChanged()"/>-->
-						<!--<label for="iedev">IE Dev Channel+</label>-->
-						<!--</li>-->
+						<li data-ng-class="{'disabled' : !iestatus.implemented }">
+							<input type="radio" name="ieversion" id="iedev" value="iedev"
+									data-ng-model="ieversion" data-ng-change="checkChanged()"/>
+							<label for="iedev">IE Dev Channel</label>
+						</li>
 						<li data-ng-class="{'disabled' : !iestatus.implemented }">
 							<input type="radio" name="ieversion" id="ie11" value="ie11"
 								   data-ng-model="ieversion" data-ng-change="checkChanged()"
