@@ -554,7 +554,7 @@
         "summary": "Gives JS access to a game controller via USB.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "In Development",
+            "text": "IE Developer Channel",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -820,7 +820,7 @@
         "summary": "A way to use the GPU to quickly draw a lot of copies of a single object. In some scenes (like a forest with a lot of trees) it is a great way to get a huge performance improvement. Requires a compatible GPU.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "In Development",
+            "text": "IE Developer Channel",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -2516,7 +2516,7 @@
         "summary": "A platform and language-neutral interface and associated wire protocol that allows programs or scripts to introspect into, and control the behaviour of, a web browser.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "In Development",
+            "text": "IE Developer Channel",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },

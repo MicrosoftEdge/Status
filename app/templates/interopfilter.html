@@ -27,15 +27,15 @@
 					<label for="ie-indevelopment">In Development</label>
 				</li>
 				<li>
+					<input type="checkbox" id="ie-devchannel" data-ng-model="iestatus.iedev"
+						   checked="" data-ng-change="checkChanged()"/>
+					<label for="ie-devchannel">IE Dev Channel</label>
+				</li>
+				<li>
 					<input type="checkbox" id="ie-implemented" data-ng-model="iestatus.implemented"
 						   checked="" data-ng-change="checkChanged()"/>
 					<label for="ie-implemented">Implemented in:</label>
 					<ul>
-						<!--<li data-ng-class="{'disabled' : !iestatus.implemented }">-->
-						<!--<input type="radio" name="ieversion" id="iedev" value="iedev"-->
-						<!--data-ng-model="ieversion" data-ng-change="checkChanged()"/>-->
-						<!--<label for="iedev">IE Dev Channel+</label>-->
-						<!--</li>-->
 						<li data-ng-class="{'disabled' : !iestatus.implemented }">
 							<input type="radio" name="ieversion" id="ie11" value="ie11"
 								   data-ng-model="ieversion" data-ng-change="checkChanged()"

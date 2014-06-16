@@ -21,7 +21,8 @@ angular.module('statusieApp')
             notsupported: 'Not Supported',
             shipped: 'Shipped',
             implemented: 'Shipped',
-            prefixed: 'Prefixed'
+            prefixed: 'Prefixed',
+            iedev: 'IE Developer Channel'
         };
 
         var chromeStatus;

@@ -39,6 +39,7 @@ angular.module('statusieApp')
                     $scope.iestatus = _.reduce(['notplanned',
                         'underconsideration',
                         'indevelopment',
+                        'iedev',
                         'implemented'], select('iestatuses'), {});
 
                     $scope.browserstatus = _.reduce(['notsupported',
