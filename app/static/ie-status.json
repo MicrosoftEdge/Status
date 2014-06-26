@@ -2343,12 +2343,12 @@
         "wpd": "",
         "demo": "",
         "id": null,
-        "impl_status_chrome": "No active development",
+        "impl_status_chrome": "Enabled by default",
         "ff_views": {
             "text": "Shipped",
             "value": 1
         },
-        "shipped_opera_milestone": null,
+        "shipped_opera_milestone": 1,
         "safari_views": {
             "text": "No public signals",
             "value": 5
