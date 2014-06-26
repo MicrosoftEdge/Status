@@ -554,7 +554,7 @@
         "summary": "Gives JS access to a game controller via USB.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "In Development",
+            "text": "IE Developer Channel",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -820,7 +820,7 @@
         "summary": "A way to use the GPU to quickly draw a lot of copies of a single object. In some scenes (like a forest with a lot of trees) it is a great way to get a huge performance improvement. Requires a compatible GPU.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "In Development",
+            "text": "IE Developer Channel",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -1126,6 +1126,7 @@
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
+        "shipped_opera_milestone": null,
         "msdn": "",
         "wpd": "",
         "demo": "",
@@ -2342,12 +2343,12 @@
         "wpd": "",
         "demo": "",
         "id": null,
-        "impl_status_chrome": "No active development",
+        "impl_status_chrome": "Enabled by default",
         "ff_views": {
             "text": "Shipped",
             "value": 1
         },
-        "shipped_opera_milestone": null,
+        "shipped_opera_milestone": 1,
         "safari_views": {
             "text": "No public signals",
             "value": 5
@@ -2401,8 +2402,8 @@
         },
         "shipped_opera_milestone": null,
         "safari_views": {
-            "text": "No public signals",
-            "value": 5
+            "text": "In Development",
+            "value": 2
         }
     },
     {
@@ -2516,7 +2517,7 @@
         "summary": "A platform and language-neutral interface and associated wire protocol that allows programs or scripts to introspect into, and control the behaviour of, a web browser.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "In Development",
+            "text": "IE Developer Channel",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
