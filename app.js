@@ -21,7 +21,7 @@ app.use(compress());
 
 app.route('/features')
     .options(cors())
-    .get(function (req, res) {
+    .get(cors(), function (req, res) {
         res.sendfile(path.join(__dirname, root, 'static', 'ie-status.json'));
     });
 
