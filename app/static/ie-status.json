@@ -698,7 +698,7 @@
         "summary": "A faster protocol for transporting web content.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Shipped",
+            "text": "Deprecated",
             "iePrefixed": "",
             "ieUnprefixed": "11"
         },

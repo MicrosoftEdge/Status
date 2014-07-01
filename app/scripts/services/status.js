@@ -16,6 +16,7 @@ angular.module('statusieApp')
 
         var normalizedStatuses = {
             notplanned: 'Not currently planned',
+            deprecated: 'Deprecated',
             underconsideration: 'Under Consideration',
             indevelopment: 'In Development',
             notsupported: 'Not Supported',
