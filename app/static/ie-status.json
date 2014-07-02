@@ -50,7 +50,7 @@
     {
         "name": "<picture> Element",
         "category": "Misc",
-        "link": "http://picture.responsiveimages.org/",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#the-picture-element",
         "summary": "Enable a responsive images solution by declaring multiple resources for an image using CSS media queries.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
