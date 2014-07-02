@@ -1472,7 +1472,7 @@
         "name": "Web Crypto API",
         "category": "Security",
         "link": "https://dvcs.w3.org/hg/webcrypto-api/raw-file/tip/spec/Overview.html",
-        "summary": "JavaScript bindings for cryptographic operations",
+        "summary": "JavaScript bindings for cryptographic operations. Note: we are looking to update our current implementation to the latest W3C Last Call Working Draft specification.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Prefixed",
