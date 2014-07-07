@@ -50,7 +50,7 @@
     {
         "name": "<picture> Element",
         "category": "Misc",
-        "link": "http://picture.responsiveimages.org/",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#the-picture-element",
         "summary": "Enable a responsive images solution by declaring multiple resources for an image using CSS media queries.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
@@ -1472,7 +1472,7 @@
         "name": "Web Crypto API",
         "category": "Security",
         "link": "https://dvcs.w3.org/hg/webcrypto-api/raw-file/tip/spec/Overview.html",
-        "summary": "JavaScript bindings for cryptographic operations",
+        "summary": "JavaScript bindings for cryptographic operations. Note: we are looking to update our current implementation to the latest W3C Last Call Working Draft specification.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Prefixed",
