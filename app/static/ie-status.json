@@ -34,7 +34,7 @@
     {
         "name": "<img srcset>",
         "category": "Misc",
-        "link": "http://www.w3.org/html/wg/drafts/srcset/w3c-srcset/",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#attr-img-srcset",
         "summary": "Enable a responsive images solution by providing the browser multiple resources in varying resolutions for a single image.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
