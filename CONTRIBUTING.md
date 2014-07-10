@@ -4,6 +4,7 @@ There are many ways you can contribute to status.modern.IE:
 
 ## Adding New Features
 The web platform is vast and ever-changing, so we often get requests to add new features to the site. In the spirit of tracking the modern interoperable web platform, we generally only add features that meet at least the following criteria:
+
 1.	Exposes new, significant, and useful capabilities that web developers can adopt in sites
 2.	Likely to be eventually implemented by the majority of browsers 
 3.	Currently lacking support in at least one major browser
