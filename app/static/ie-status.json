@@ -2161,7 +2161,7 @@
         "summary": "Touchscreen input API, originally introduced by Apple on iOS",
         "standardStatus": "Established standard",
         "ieStatus": {
-            "text": "Under Consideration",
+            "text": "In Development",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
