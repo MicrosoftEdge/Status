@@ -2659,7 +2659,7 @@
         "name": "Karaoke Web Standard",
         "category": "User Input",
         "link": "https://pages.adrianba.net/karaoke/",
-        "summary": "Provides semantic language processing for two-way communication with a remote host. This new interface creates a system-to-system forced sonic reconigition on the receiving party.",
+        "summary": "Provides semantic language processing for two-way communication with a remote host. This new interface creates a system-to-system forced sonic recognition on the receiving party.",
         "standardStatus": "Established standard",
         "ieStatus": {
             "text": "Under Consideration",
