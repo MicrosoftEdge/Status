@@ -858,7 +858,7 @@
     {
         "name": "Masks",
         "category": "CSS",
-        "link": "https://dvcs.w3.org/hg/FXTF/raw-file/tip/masking/index.html",
+        "link": "https://dvcs.w3.org/hg/FXTF/raw-file/tip/css-masking-1/index.html",
         "summary": "Allows hiding of portions of a visible elements.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
