@@ -1102,7 +1102,7 @@
     {
         "name": "Pointer Events",
         "category": "User input",
-        "link": "http://www.w3.org/html/wg/drafts/html/master/forms.html#attr-fe-inputmode",
+        "link": "http://www.w3.org/TR/pointerevents/",
         "summary": "Unified pointer input API (e.g. mouse, pen, touch input) which addresses several existing problems (especially on touchscreen laptops) and provides future extensibility.",
         "standardStatus": "Established standard",
         "ieStatus": {
