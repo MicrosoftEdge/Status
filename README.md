@@ -31,6 +31,6 @@ Portions of the content in this page from chromestatus.com, used under [Creative
 
 HTML5 Logo and related Technology Class iconography by W3C, used under [Creative Commons Attribution 3.0 License](http://creativecommons.org/licenses/by/3.0/legalcode)
 
-JS Logo used under the [WTFPL Licnese](https://github.com/voodootikigod/logo.js/blob/master/LICENSE)
+JS Logo used under the [MIT License](https://github.com/voodootikigod/logo.js/blob/master/LICENSE)
 
 No trademark licenses or rights are provided. All trademarks are the property of their respective owners.
