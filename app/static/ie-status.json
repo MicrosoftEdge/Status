@@ -29,7 +29,8 @@
         "msdn": "",
         "wpd": "http://docs.webplatform.org/wiki/html/elements/details\nhttp://docs.webplatform.org/wiki/html/elements/summary",
         "demo": "",
-        "id": 5348024557502464
+        "id": 5348024557502464,
+        "uservoiceid": 6261266
     },
     {
         "name": "<img srcset>",
@@ -45,7 +46,8 @@
         "msdn": "",
         "wpd": "http://docs.webplatform.org/wiki/concepts/mobile_web/highdpi",
         "demo": "",
-        "id": 4644337115725824
+        "id": 4644337115725824,
+        "uservoiceid": 6261267
     },
     {
         "name": "<picture> Element",
@@ -61,7 +63,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5910974510923776
+        "id": 5910974510923776,
+        "uservoiceid": 6261271
     },
     {
         "name": "<template> Element",
