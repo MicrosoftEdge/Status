@@ -368,27 +368,17 @@ progress {
 
 a.votes:before,
 a.votes::before {
-    content: "\2605";
-    color: orange;
+    color: #FE9F22;
+    content: "\2729";
     margin-right: .5em;
-    text-shadow: 0 1px 2px rgba(0,0,0,.85);
-    font-size: 1.25em;
 }
 
 a.votes {
-    color: white;
-    font-size: .75em;
-    padding: 5px 10px;
-    background: #666;
-    border-left: 5px solid #333;
-    transition: 
-        background .5s, 
-        border-color .5s;
+    color: #00BAF0;
 }
 
-a.votes:hover {
-    background: #00BAF0;
-    border-color: #0079C2;
+p[data-bo-if="feature.uservoice"] {
+    text-align: right;
 }
 
 p[data-bo-if="feature.uservoice"] + div.feature-status-wrapper {
