@@ -2,7 +2,7 @@
 
 :: ----------------------
 :: KUDU Deployment Script
-:: Version: 0.1.7
+:: Version: 0.1.11
 :: ----------------------
 
 :: Prerequisites
@@ -40,7 +40,7 @@ IF NOT DEFINED NEXT_MANIFEST_PATH (
 
 IF NOT DEFINED KUDU_SYNC_CMD (
   :: Install kudu sync
-  echo %time% - Installing Kudu Sync
+  echo Installing Kudu Sync
   call npm install kudusync -g --silent
   IF !ERRORLEVEL! NEQ 0 goto error
 
@@ -105,20 +105,6 @@ IF DEFINED KUDU_SELECT_NODE_VERSION_CMD (
 
 goto :EOF
 
-:CleanDistAndTemp
-
-IF EXIST "%DEPLOYMENT_SOURCE%\node_modules" (
-  echo Deleting node modules
-  call rmdir /s /q "%DEPLOYMENT_SOURCE%\node_modules"
-)
-
-IF EXIST "%DEPLOYMENT_SOURCE%\app\bower_components" (
-  echo Deleting bower components
-  call rmdir /s /q "%DEPLOYMENT_SOURCE%\app\bower_components"
-)
-
-goto :EOF
-
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :: Deployment
 :: ----------
@@ -126,34 +112,24 @@ goto :EOF
 :Deployment
 echo Handling node.js deployment.
 
-::call :CleanDistAndTemp
-
-:: 1. Select node version and print it
-call :SelectNodeVersion
-
-call :ExecuteCmd !NPM_CMD! version
-
 :: 1. KuduSync
 IF /I "%IN_PLACE_DEPLOYMENT%" NEQ "1" (
-  echo %time% - Executing KudySync
   call :ExecuteCmd "%KUDU_SYNC_CMD%" -v 50 -f "%DEPLOYMENT_SOURCE%" -t "%DEPLOYMENT_TARGET%" -n "%NEXT_MANIFEST_PATH%" -p "%PREVIOUS_MANIFEST_PATH%" -i ".git;.hg;.deployment;deploy.cmd"
   IF !ERRORLEVEL! NEQ 0 goto error
 )
 
-:: 2. Install npm packages
+:: 2. Select node version
+call :SelectNodeVersion
+
+:: 3. Install npm packages
 IF EXIST "%DEPLOYMENT_TARGET%\package.json" (
   pushd "%DEPLOYMENT_TARGET%"
-  ::We need to clear the cache because of this https://github.com/gruntjs/grunt-contrib-imagemin/issues/183
-  :: echo %time% - Cleaning npm cache
-  :: call :ExecuteCmd !NPM_CMD! cache clear
-  echo %time% - Installing npm packages
-  call :ExecuteCmd !NPM_CMD! install --silent  
-  :: commenting the following line, even if there are some errors this should work...
-  ::IF !ERRORLEVEL! NEQ 0 goto error
+  call :ExecuteCmd !NPM_CMD! install
+  IF !ERRORLEVEL! NEQ 0 goto error
   popd
 )
 
-:: 3. Install bower packages
+:: 4. Install bower packages
 IF /I "%DEPLOYMENT_TARGET%%\bower.json" NEQ "1" (
   pushd "%DEPLOYMENT_TARGET%"
   echo %time% - Installing bower packages
@@ -161,7 +137,7 @@ IF /I "%DEPLOYMENT_TARGET%%\bower.json" NEQ "1" (
   popd
 )
 
-:: 4. Run grunt
+:: 5. Run grunt
 IF /I "%DEPLOYMENT_TARGET%\Gruntfile.js" NEQ "1" (
   pushd "%DEPLOYMENT_TARGET%"  
   echo %time% - Running Grunt build
@@ -170,7 +146,7 @@ IF /I "%DEPLOYMENT_TARGET%\Gruntfile.js" NEQ "1" (
   popd
 )
 
-:: 5. Run snapshot
+:: 6. Run snapshot
 IF /I "%DEPLOYMENT_TARGET%\Gruntfile.js" NEQ "1" (
   pushd "%DEPLOYMENT_TARGET%"
   echo %time% - Running Grunt htmlSnapshot
@@ -179,6 +155,8 @@ IF /I "%DEPLOYMENT_TARGET%\Gruntfile.js" NEQ "1" (
 )
 
 echo %time% - End
+
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :: Post deployment stub
