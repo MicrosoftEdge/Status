@@ -3017,8 +3017,8 @@
         "impl_status_chrome": "No active development",
         "shipped_opera_milestone": false,
         "ff_views": {
-            "text": "No Signals",
-            "value": 1
+            "text": "In Development",
+            "value": 2
         },
         "safari_views": {
             "text": "No Signals",
@@ -3063,8 +3063,8 @@
         "impl_status_chrome": "No active development",
         "shipped_opera_milestone": false,
         "ff_views": {
-            "text": "In Development",
-            "value": 2
+            "text": "Shipped",
+            "value": 1
         },
         "safari_views": {
             "text": "No Signals",
