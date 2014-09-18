@@ -2158,7 +2158,7 @@
         "name": "Touch Events",
         "category": "User input",
         "link": "http://www.w3.org/TR/touch-events/",
-        "summary": "Touchscreen input API, originally introduced by Apple on iOS",
+        "summary": "Touchscreen input API, originally introduced by Apple on iOS. Development work for IE is currently for Windows Phone only. See Pointer Events for touch, pen, and mouse input across all devices supported by IE.",
         "standardStatus": "Established standard",
         "ieStatus": {
             "text": "In Development",
