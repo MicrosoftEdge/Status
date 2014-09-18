@@ -2485,32 +2485,6 @@
         }
     },
     {
-        "name": "ES6 Array, Math, Number and String methods",
-        "category": "JavaScript",
-        "link": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts",
-        "summary": "Adds a set of new Array, Math, Number and String helper methods. ",
-        "standardStatus": "Working draft or equivalent",
-        "ieStatus": {
-            "text": "In Development",
-            "iePrefixed": "",
-            "ieUnprefixed": ""
-        },
-        "msdn": "",
-        "wpd": "",
-        "demo": "",
-        "id": null,
-        "impl_status_chrome": "In development",
-        "ff_views": {
-            "text": "In development",
-            "value": 2
-        },
-        "shipped_opera_milestone": null,
-        "safari_views": {
-            "text": "In development",
-            "value": 2
-        }
-    },
-    {
         "name": "WebDriver",
         "category": "Misc",
         "link": "http://www.w3.org/TR/webdriver/",
@@ -2709,6 +2683,393 @@
             "text": "Shipped",
             "value": 1
         },
+        "id": null
+    },
+    {
+        "name": "Meta Referrer",
+        "category": "Security",
+        "summary": "Using the referrer metadata attribute, a document can control the behavior of the Referer HTTP header attached to requests that originate from the document.",
+        "link": "https://w3c.github.io/webappsec/specs/referrer-policy/",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "id": 5126747842412544
+    },
+    {
+        "name": "dppx Unit for the resolution Media Query",
+        "category": "CSS",
+        "summary": "One dppx unit represents the number of 'dots' in a CSS px.",
+        "link": "http://www.w3.org/TR/css3-values/#resolution",
+        "standardStatus": "Established Standard",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "Shipped",
+            "value": 1
+        },       
+        "id": null
+    },
+    {
+        "name": "WAV Audio Support",
+        "category": "Multimedia",
+        "summary": "Enables PCM WAV audio support in HTML5 Audio.",
+        "link": "http://www.w3.org/html/wg/drafts/html/CR/",
+        "standardStatus": "De-facto Standard",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "No Public Signals",
+            "value": 1
+        },       
+        "id": null
+    },
+    {
+        "name": "DOM Event Constructors",
+        "category": "DOM",
+        "summary": "Replaces document.createEvent() and associated event object init methods with constructors for each event interface.",
+        "link": "http://w3c.github.io/dom/#constructing-events",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "Shipped",
+            "value": 1
+        },       
+        "id": null
+    },
+    {
+        "name": "Math Built-ins (ES6)",
+        "category": "JavaScript",
+        "summary": "Math related functions - sign, trunc, sinh, cosh, tanh, asinh, acosh, atanh, log10, log2, hypot, fround, clz32, cbrt, log1p, expm1.",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html#sec-math-object",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "id": 5920790725787648
+    },
+    {
+        "name": "Number Built-ins (ES6)",
+        "category": "JavaScript",
+        "summary": "New methods and properties on Number, including isFinite, isInteger, isSafeInteger, isNaN, EPSILON, MIN_SAFE_INTEGER, and MAX_SAFE_INTEGER.",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "No Signals",
+            "value": 3
+        },       
+        "id": null
+    },
+    {
+        "name": "String Built-ins (ES6)",
+        "category": "JavaScript",
+        "summary": "New methods on String including String.raw and String.fromCodePoint. New methods on String.prototype including codePointAt, normalize, repeat, startsWith, endsWith, and contains.",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "No Signals",
+            "value": 3
+        },       
+        "id": null
+    },
+    {
+        "name": "Object Built-ins (ES6)",
+        "category": "JavaScript",
+        "summary": "New methods on Object including assign, is, getOwnPropertySymbols, and setPrototypeOf",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "impl_status_chrome": "In development",
+        "shipped_opera_milestone": false,
+        "ff_views": {
+            "text": "In development",
+            "value": 2
+        },
+        "safari_views": {
+            "text": "No Signals",
+            "value": 3
+        },       
+        "id": null
+    },
+    {
+        "name": "RegExp Built-ins (ES6)",
+        "category": "JavaScript",
+        "summary": "New methods on RegExp.prototype including match, replace, search, and split.",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "impl_status_chrome": "No Signals",
+        "shipped_opera_milestone": false,
+        "ff_views": {
+            "text": "No Signals",
+            "value": 3
+        },
+        "safari_views": {
+            "text": "No Signals",
+            "value": 3
+        },       
+        "id": null
+    },
+    {
+        "name": "WeakSet (ES6)",
+        "category": "JavaScript",
+        "summary": "Contains a set of objects such that those objects will be collected if they are not referenced anywhere else.",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html#sec-math-object",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "id": 5977677567623168
+    },
+    {
+        "name": "__proto__ (ES6)",
+        "category": "JavaScript",
+        "summary": "Support for legacy prototype manipulation similar to Object.setPrototypeOf.",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "Shipped",
+            "iePrefixed": "",
+            "ieUnprefixed": "11"
+        }, 
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "Shipped",
+            "value": 1
+        },       
+        "id": null
+    },
+    {
+        "name": "Classes (ES6)",
+        "category": "JavaScript",
+        "summary": "Syntax for declaring classes.",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "id": 4633745457938432
+    },
+    {
+        "name": "Spread (ES6)",
+        "category": "JavaScript",
+        "summary": "The spread operator expands iterable expressions into individual arguments. For example, a.b(…array) is roughly the same as a.b.apply(a, array).",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "impl_status_chrome": "No active development",
+        "shipped_opera_milestone": false,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "No Signals",
+            "value": 3
+        },       
+        "id": null
+    },
+    {
+        "name": "Template Strings (ES6)",
+        "category": "JavaScript",
+        "summary": "String literals that allow for expressions to be evaluated and concatenated with the string literal.",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "impl_status_chrome": "No active development",
+        "shipped_opera_milestone": false,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "No Signals",
+            "value": 3
+        },       
+        "id": null
+    },
+    {
+        "name": "Tail Calls (ES6)",
+        "category": "JavaScript",
+        "summary": "Enables boundlessly recursive algorithms (using constant stack space) for certain code patterns.",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "id": 5516876633341952
+    },
+    {
+        "name": "Subclassing (ES6)",
+        "category": "JavaScript",
+        "summary": "Allows subclassing of built-in types such as Dates and Arrays.",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "impl_status_chrome": "No active development",
+        "shipped_opera_milestone": false,
+        "ff_views": {
+            "text": "No Signals",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "No Signals",
+            "value": 3
+        },       
+        "id": null
+    },
+    {
+        "name": "SIMD (ES7)",
+        "category": "JavaScript",
+        "summary": "Enables Single Instruction, Multiple Data instructions to be used from Javascript programs.",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "impl_status_chrome": "No active development",
+        "shipped_opera_milestone": false,
+        "ff_views": {
+            "text": "No Signals",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "No Signals",
+            "value": 3
+        },       
+        "id": null
+    },
+    {
+        "name": "Modules (ES6)",
+        "category": "JavaScript",
+        "summary": "Language-level support for defining and consuming modules.",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "impl_status_chrome": "No active development",
+        "shipped_opera_milestone": false,
+        "ff_views": {
+            "text": "No Signals",
+            "value": 3
+        },
+        "safari_views": {
+            "text": "No Signals",
+            "value": 3
+        },       
+        "id": null
+    },
+    {
+        "name": "Asm.JS",
+        "category": "JavaScript",
+        "summary": "An optimizable, low-level subset of JavaScript",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "impl_status_chrome": "No active development",
+        "shipped_opera_milestone": false,
+        "ff_views": {
+            "text": "In Development",
+            "value": 2
+        },
+        "safari_views": {
+            "text": "No Signals",
+            "value": 3
+        },       
         "id": null
     }
 ]
