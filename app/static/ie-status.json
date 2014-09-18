@@ -3050,10 +3050,10 @@
         "id": null
     },
     {
-        "name": "Asm.JS",
+        "name": "ASM.JS",
         "category": "JavaScript",
         "summary": "An optimizable, low-level subset of JavaScript",
-        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+        "link": "http://asmjs.org/spec/latest/",
         "standardStatus": "Editor's Draft",
         "ieStatus": {
             "text": "Under Consideration",
