@@ -312,7 +312,7 @@
         "category": "CSS",
         "link": "http://dev.w3.org/csswg/css-will-change/",
         "summary": "Adds a will-change CSS property, that can be used to signal that a particular property is likely to be changed in the future, or that an element's content is likely to change.",
-        "standardStatus": "Public Proposal",
+        "standardStatus": "Editor's Draft",
         "ieStatus": {
             "text": "Under Consideration",
             "iePrefixed": "",
