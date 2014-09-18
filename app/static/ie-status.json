@@ -3050,7 +3050,7 @@
         "id": null
     },
     {
-        "name": "ASM.JS",
+        "name": "ASM.js",
         "category": "JavaScript",
         "summary": "An optimizable, low-level subset of JavaScript",
         "link": "http://asmjs.org/spec/latest/",
