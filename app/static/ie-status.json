@@ -312,7 +312,7 @@
         "category": "CSS",
         "link": "http://dev.w3.org/csswg/css-will-change/",
         "summary": "Adds a will-change CSS property, that can be used to signal that a particular property is likely to be changed in the future, or that an element's content is likely to change.",
-        "standardStatus": "Editor's Draft",
+        "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Under Consideration",
             "iePrefixed": "",
@@ -2563,7 +2563,7 @@
     },
     {
         "name": "Selection API",
-        "category": "User Input",
+        "category": "User input",
         "link": "http://rniwa.github.io/selection-api",
         "summary": "Based on APIs from HTML5 and DOM Range, this specification includes additional methods for programmatically inspecting and modifying the selection.",
         "standardStatus": "Public Proposal",
@@ -2631,7 +2631,7 @@
     },
     {
         "name": "Karaoke Web Standard",
-        "category": "User Input",
+        "category": "User input",
         "link": "https://pages.adrianba.net/karaoke/",
         "summary": "Provides semantic language processing for two-way communication with a remote host. This new interface creates a system-to-system forced sonic recognition on the receiving party.",
         "standardStatus": "Established standard",
@@ -3069,6 +3069,29 @@
         "safari_views": {
             "text": "No Signals",
             "value": 3
+        },       
+        "id": null
+    },
+    {
+        "name": "Clipboard API",
+        "category": "User input",
+        "summary": "Standard APIs for interacting with the clipboard (copy/cut/paste operations). IE currently supports a legacy model for clipboard access.",
+        "link": "http://dev.w3.org/2006/webapi/clipops/clipops.html",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "Shipped",
+            "value": 1
         },       
         "id": null
     }
