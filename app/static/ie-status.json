@@ -3007,7 +3007,7 @@
         "name": "SIMD (ES7)",
         "category": "JavaScript",
         "summary": "Enables Single Instruction, Multiple Data instructions to be used from Javascript programs.",
-        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+        "link": "https://github.com/johnmccutchan/ecmascript_simd/",
         "standardStatus": "Editor's Draft",
         "ieStatus": {
             "text": "Under Consideration",
