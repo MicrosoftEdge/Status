@@ -22,7 +22,7 @@ From the project's root directory
 A Node server will start at http://localhost:9000
 
 ## Contributing
-Want to contribute to this project? We'd love to have your help!  Take a look at the [Contributing Guidelines](https://github.com/InternetExplorer/Status.IE/blob/production/CONTRIBUTING.md) before you dive in.
+Want to contribute to this project? We'd love to have your help!  Take a look at the [Contributing Guidelines](https://github.com/InternetExplorer/Status.IE/blob/production/CONTRIBUTING.md) before you dive in. For many features, support data for browsers other than IE comes from the [Chromium Dashboard](http://www.chromestatus.com) and bugs against that data can be filed [here](https://github.com/GoogleChrome/chromium-dashboard/issues).
 
 Note that this GitHub project is *not* for making feature requests for or reporting bugs in Internet Explorer. Internet Explorer feedback can be provided at [Microsoft Connect](http://connect.microsoft.com/ie).
 
