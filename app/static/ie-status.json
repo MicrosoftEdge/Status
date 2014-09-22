@@ -1309,15 +1309,15 @@
         "id": 5760616295825408
     },
     {
-        "name": "TLS 1.2",
+        "name": "TLS 1.3",
         "category": "Network / Connectivity",
-        "link": "http://tools.ietf.org/html/rfc5246",
+        "link": "http://tools.ietf.org/html/draft-ietf-tls-tls13-02",
         "summary": "The latest version of the Transport Layer Security (TLS) protocol. Allows for data/message confidentiality, and message authentication codes for message integrity and as a by-product message authentication.",
-        "standardStatus": "Established standard",
+        "standardStatus": "Under Consideration",
         "ieStatus": {
-            "text": "Shipped",
+            "text": "",
             "iePrefixed": "",
-            "ieUnprefixed": "8"
+            "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
