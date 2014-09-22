@@ -3052,7 +3052,7 @@
     {
         "name": "ASM.js",
         "category": "JavaScript",
-        "summary": "An optimizable, low-level subset of JavaScript",
+        "summary": "Performance options for a low-level subset of JavaScript, including recognition of the 'use asm' directive and ahead-of-time compilation.",
         "link": "http://asmjs.org/spec/latest/",
         "standardStatus": "Editor's Draft",
         "ieStatus": {
