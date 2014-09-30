@@ -1013,7 +1013,7 @@
         "name": "Cross-Domain Font Loading",
         "category": "CSS",
         "link": "http://www.w3.org/TR/WOFF/",
-        "summary": "Increases interoperability with the web by relaxing domain and licensing metadata restrictions for EOT, WOFF, and TrueType fonts.",
+        "summary": "Increases interoperability with the web by relaxing domain and licensing metadata restrictions for EOT, WOFF, and TrueType fonts. Development work for IE is currently for Windows Phone only.",
         "standardStatus": "Established standard",
         "ieStatus": {
             "text": "In Development",
