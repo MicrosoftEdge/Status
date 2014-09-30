@@ -1359,7 +1359,7 @@
     {
         "name": "Typed Arrays",
         "category": "Performance",
-        "link": "http://www.khronos.org/registry/typedarray/specs/latest/",
+        "link": "https://www.khronos.org/registry/typedarray/specs/latest/",
         "summary": "Buffers for holding binary data and working with WebGL & Audio API: ArrayBuffer, Float32Array , Int16Array, Uint8Array, etc.)",
         "standardStatus": "Established standard",
         "ieStatus": {
@@ -1583,7 +1583,7 @@
     {
         "name": "WebGL  (Canvas 3D)",
         "category": "Graphics",
-        "link": "http://www.khronos.org/registry/webgl/specs/latest/",
+        "link": "https://www.khronos.org/registry/webgl/specs/latest/",
         "summary": "3D rendering via the <canvas> element. ",
         "standardStatus": "Established standard",
         "ieStatus": {
@@ -1965,7 +1965,7 @@
     {
         "name": "WebGL Shared Resources",
         "category": "Graphics",
-        "link": "http://www.khronos.org/registry/webgl/extensions/WEBGL_shared_resources/",
+        "link": "https://www.khronos.org/registry/webgl/extensions/WEBGL_shared_resources/",
         "summary": "Allow sharing resources between 2 or more WebGL contexts",
         "standardStatus": "Established standard",
         "ieStatus": {
