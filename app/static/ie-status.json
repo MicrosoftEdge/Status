@@ -80,7 +80,8 @@
         "msdn": "",
         "wpd": "http://docs.webplatform.org/wiki/html/elements/template",
         "demo": "",
-        "id": 5207287069147136
+        "id": 5207287069147136,
+        "uservoiceid": 6261273
     },
     {
         "name": "a[download] attribute",
@@ -96,7 +97,8 @@
         "msdn": "",
         "wpd": "http://docs.webplatform.org/wiki/html/elements/a",
         "demo": "",
-        "id": 6473924464345088
+        "id": 6473924464345088,
+        "uservoiceid": 6261278
     },
     {
         "name": "Application Cache",
@@ -148,7 +150,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5748496434987008
+        "id": 5748496434987008,
+        "uservoiceid": 6261284
     },	
     {
         "name": "Blob",
@@ -212,7 +215,8 @@
         "msdn": "",
         "wpd": "http://docs.webplatform.org/wiki/apis/canvas/CanvasRenderingContext2D/drawSystemFocusRing",
         "demo": "",
-        "id": 6413769152397312
+        "id": 6413769152397312,
+        "uservoiceid": 6261287
     },
     {
         "name": "Compositing and Blending in Canvas 2D",
@@ -228,7 +232,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6119881720201216
+        "id": 6119881720201216,
+        "uservoiceid": 6261290
     },
     {
         "name": "Content Security Policy",
@@ -308,7 +313,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6401356696911872
+        "id": 6401356696911872,
+        "uservoiceid": 6261292
     },
     {
         "name": "CSS Will Change",
@@ -324,7 +330,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5954199330226176
+        "id": 5954199330226176,
+        "uservoiceid": 6261294
     },
     {
         "name": "CSSOM View smooth scroll API",
@@ -340,7 +347,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5812155903377408
+        "id": 5812155903377408,
+        "uservoiceid": 6261297
     },
     {
         "name": "Custom Elements",
@@ -356,7 +364,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 4642138092470272
+        "id": 4642138092470272,
+        "uservoiceid": 6261298
     },
     {
         "name": "Device Motion",
@@ -468,7 +477,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5733953138851840
+        "id": 5733953138851840,
+        "uservoiceid": 6261304
     },
     {
         "name": "Encrypted Media Extensions",
@@ -516,7 +526,8 @@
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/ms537452(v=vs.85).aspx",
         "wpd": "http://docs.webplatform.org/wiki/tutorials/css_filters",
         "demo": "",
-        "id": 5822463824887808
+        "id": 5822463824887808,
+        "uservoiceid": 6261306
     },
     {
         "name": "Flexbox",
@@ -580,7 +591,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5400251359821824
+        "id": 5400251359821824,
+        "uservoiceid": 6261314
     },
     {
         "name": "Geolocation",
@@ -660,7 +672,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5144752345317376
+        "id": 5144752345317376,
+        "uservoiceid": 6261318
     },
     {
         "name": "HTTP Client Hints",
@@ -676,7 +689,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5504430086553600
+        "id": 5504430086553600,
+        "uservoiceid": 6261321
     },
     {
         "name": "HTTP Strict Transport Security (HSTS)",
@@ -766,7 +780,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6630329993396224
+        "id": 6630329993396224,
+        "uservoiceid": 6261330
     },
     {
         "name": "iframe[srcdoc] attribute",
@@ -782,7 +797,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5222955109842944
+        "id": 5222955109842944,
+        "uservoiceid": 6261334
     },
     {
         "name": "IME API",
@@ -872,7 +888,8 @@
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/ff972267(v=vs.85).aspx",
         "wpd": "http://docs.webplatform.org/wiki/css/properties/mask",
         "demo": "",
-        "id": 5381559662149632
+        "id": 5381559662149632,
+        "uservoiceid": 6261341
     },
     {
         "name": "matchMedia",
@@ -952,7 +969,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5929649028726784
+        "id": 5929649028726784,
+        "uservoiceid": 6261360
     },
     {
         "name": "Microdata",
@@ -1010,7 +1028,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6362616360337408
+        "id": 6362616360337408,
+        "uservoice": 6263617
     },
     {
         "name": "Cross-Domain Font Loading",
@@ -1148,7 +1167,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6190250464378880
+        "id": 6190250464378880,
+        "uservoiceid": 6263621
     },
     {
         "name": "postMessage",
@@ -1244,7 +1264,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6561526227927040
+        "id": 6561526227927040,
+        "uservoiceid": 6263630
     },
     {
         "name": "Set",
@@ -1308,7 +1329,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5760616295825408
+        "id": 5760616295825408,
+        "uservoiceid": 6263636
     },
     {
         "name": "TLS 1.2",
@@ -1404,7 +1426,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5675829346435072
+        "id": 5675829346435072,
+        "uservoiceid": 6263638
     },
     {
         "name": "User Timing API",
@@ -1436,7 +1459,8 @@
         "msdn": "",
         "wpd": "http://docs.webplatform.org/wiki/apis/vibration",
         "demo": "",
-        "id": 5698768766763008
+        "id": 5698768766763008,
+        "uservoiceid": 6263645
     },
     {
         "name": "WeakMap",
@@ -1468,7 +1492,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 4854343836631040
+        "id": 4854343836631040,
+        "uservoiceid": 6263650
     },
     {
         "name": "Web Crypto API",
@@ -1516,7 +1541,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5064350557536256
+        "id": 5064350557536256,
+        "uservoiceid": 6263658
     },
     {
         "name": "Web Speech API (input)",
@@ -1532,7 +1558,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5908775487668224
+        "id": 5908775487668224,
+        "uservoiceid": 6263660
     },
     {
         "name": "Web Speech API (synthesis)",
@@ -1548,7 +1575,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 4782875580825600
+        "id": 4782875580825600,
+        "uservoiceid": 6263662
     },
     {
         "name": "Web SQL Database",
@@ -1654,7 +1682,8 @@
         "safari_views": {
             "text": "No public signals",
             "value": 5
-        }
+        },
+        "uservoiceid": 6263666
     },
     {
         "name": "WebSocket",
@@ -1722,7 +1751,8 @@
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/bg124109(v=vs.85).aspx#setting_flexbox_alignment_",
         "wpd": "",
         "demo": "",
-        "id": 6173208034148352
+        "id": 6173208034148352,
+        "uservoiceid": 6263671
     },
     {
         "name": "CSS filter() image function",
@@ -1738,7 +1768,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5425136400334848
+        "id": 5425136400334848,
+        "uservoiceid": 6263676
     },
     {
         "name": "Default parameter",
@@ -1770,7 +1801,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 4588790303686656
+        "id": 4588790303686656,
+        "uservoiceid": 6263681
     },
     {
         "name": "Rest parameters",
@@ -1802,7 +1834,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5298357018820608
+        "id": 5298357018820608,
+        "uservoiceid": 6263685
     },
     {
         "name": "Battery Status API",
@@ -1818,7 +1851,8 @@
         "msdn": "",
         "wpd": "http://docs.webplatform.org/wiki/apis/battery_status",
         "demo": "",
-        "id": 4537134732017664
+        "id": 4537134732017664,
+        "uservoiceid": 6263689
     },
     {
         "name": "Push API",
@@ -1834,7 +1868,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5416033485586432
+        "id": 5416033485586432,
+        "uservoiceid": 6263693
     },
     {
         "name": "Subresource Integrity",
@@ -1850,7 +1885,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6183089948590080
+        "id": 6183089948590080,
+        "uservoiceid": 6263699
     },
     {
         "name": "CSS Intrinsic Sizing",
@@ -1866,7 +1902,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5901353784180736
+        "id": 5901353784180736,
+        "uservoiceid": 6263702
     },
     {
         "name": "CSS font-stretch",
@@ -1898,7 +1935,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5663034638860288
+        "id": 5663034638860288,
+        "uservoiceid": 6263706
     },
     {
         "name": "JS iterators (i.e. the for-of feature)",
@@ -1930,7 +1968,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5391249376804864
+        "id": 5391249376804864,
+        "uservoiceid": 6263712
     },
     {
         "name": "Shapes",
@@ -1946,7 +1985,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5163890719588352
+        "id": 5163890719588352,
+        "uservoiceid": 6263716
     },
     {
         "name": "Symbols",
@@ -1978,7 +2018,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5486563022602240
+        "id": 5486563022602240,
+        "uservoiceid": 6263719
     },
     {
         "name": "inputmode",
@@ -1994,7 +2035,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6225984592281600
+        "id": 6225984592281600,
+        "uservoiceid": 6263729
     },
     {
         "name": "Object.observe()",
@@ -2010,7 +2052,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6147094632988672
+        "id": 6147094632988672,
+        "uservoiceid": 6263750
     },
     {
         "name": "Shadow DOM (unprefixed)",
@@ -2026,7 +2069,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 4507242028072960
+        "id": 4507242028072960,
+        "uservoiceid": 6263785
     },
     {
         "name": "Web Audio API",
@@ -2058,7 +2102,8 @@
         "msdn": "",
         "wpd": "http://docs.webplatform.org/wiki/css/properties/object-fit\n",
         "demo": "",
-        "id": 5302669702856704
+        "id": 5302669702856704,
+        "uservoiceid": 6263790
     },
     {
         "name": "Conditional Rules",
@@ -2090,7 +2135,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 4959347197083648
+        "id": 4959347197083648,
+        "uservoiceid": 6263797
     },
     {
         "name": "Custom filters (shaders)",
@@ -2154,7 +2200,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 4811188005240832
+        "id": 4811188005240832,
+        "uservoiceid": 6263801
     },
     {
         "name": "Touch Events",
@@ -2186,7 +2233,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6416612420747264
+        "id": 6416612420747264,
+        "uservoiceid": 6263806
     },
     {
         "name": "FileWriter",
@@ -2202,7 +2250,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5963201313243136
+        "id": 5963201313243136,
+        "uservoiceid": 6263821
     },
     {
         "name": "FileReader",
@@ -2234,7 +2283,8 @@
         "msdn": "",
         "wpd": "http://docs.webplatform.org/wiki/tutorials/eventsource_basics",
         "demo": "",
-        "id": 5311740673785856
+        "id": 5311740673785856,
+        "uservoiceid": 6263825
     },
     {
         "name": "Message Channels",
@@ -2302,7 +2352,8 @@
         "safari_views": {
             "text": "No public signals",
             "value": 5
-        }
+        },
+        "uservoiceid": 6263829
     },
     {
         "name": "Beacon",
@@ -2328,7 +2379,8 @@
         "safari_views": {
             "text": "No public signals",
             "value": 5
-        }
+        },
+        "uservoiceid": 6263834
     },
     {
         "name": "Prefetch attribute",
@@ -2684,7 +2736,8 @@
             "text": "No Public Signals",
             "value": 5
         },
-        "impl_status_chrome": "No active development"
+        "impl_status_chrome": "No active development",
+        "uservoiceid": 6263911
     },  
     {
         "name": "SVG External Content",
@@ -2711,6 +2764,7 @@
             "text": "Shipped",
             "value": 1
         },
-        "id": null
+        "id": null,
+        "uservoiceid": 6263916
     }
 ]
