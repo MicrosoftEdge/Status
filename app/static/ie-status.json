@@ -34,7 +34,7 @@
     {
         "name": "<img srcset>",
         "category": "Misc",
-        "link": "http://www.w3.org/html/wg/drafts/srcset/w3c-srcset/",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#attr-img-srcset",
         "summary": "Enable a responsive images solution by providing the browser multiple resources in varying resolutions for a single image.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
@@ -50,7 +50,7 @@
     {
         "name": "<picture> Element",
         "category": "Misc",
-        "link": "http://picture.responsiveimages.org/",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#the-picture-element",
         "summary": "Enable a responsive images solution by declaring multiple resources for an image using CSS media queries.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
@@ -820,9 +820,9 @@
         "summary": "A way to use the GPU to quickly draw a lot of copies of a single object. In some scenes (like a forest with a lot of trees) it is a great way to get a huge performance improvement. Requires a compatible GPU.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "IE Developer Channel",
+            "text": "Shipped",
             "iePrefixed": "",
-            "ieUnprefixed": ""
+            "ieUnprefixed": "11"
         },
         "msdn": "",
         "wpd": "",
@@ -1472,7 +1472,7 @@
         "name": "Web Crypto API",
         "category": "Security",
         "link": "https://dvcs.w3.org/hg/webcrypto-api/raw-file/tip/spec/Overview.html",
-        "summary": "JavaScript bindings for cryptographic operations",
+        "summary": "JavaScript bindings for cryptographic operations. Note: we are looking to update our current implementation to the latest W3C Last Call Working Draft specification.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Prefixed",
@@ -2158,10 +2158,10 @@
         "name": "Touch Events",
         "category": "User input",
         "link": "http://www.w3.org/TR/touch-events/",
-        "summary": "Touchscreen input API, originally introduced by Apple on iOS",
+        "summary": "Touchscreen input API, originally introduced by Apple on iOS. Development work for IE is currently for Windows Phone only. See Pointer Events for touch, pen, and mouse input across all devices supported by IE.",
         "standardStatus": "Established standard",
         "ieStatus": {
-            "text": "Under Consideration",
+            "text": "In Development",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -2343,12 +2343,12 @@
         "wpd": "",
         "demo": "",
         "id": null,
-        "impl_status_chrome": "No active development",
+        "impl_status_chrome": "Enabled by default",
         "ff_views": {
             "text": "Shipped",
             "value": 1
         },
-        "shipped_opera_milestone": null,
+        "shipped_opera_milestone": 1,
         "safari_views": {
             "text": "No public signals",
             "value": 5
