@@ -23,7 +23,7 @@ angular.module('statusieApp')
             shipped: 'Shipped',
             implemented: 'Shipped',
             prefixed: 'Prefixed',
-            iedev: 'IE Developer Channel'
+            iedev: 'Preview Release'
         };
 
         var chromeStatus;

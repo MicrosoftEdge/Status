@@ -47,7 +47,7 @@
                 </li>
                 <li 
                     data-bo-class="{'implemented': feature.browsers.ie.status === 'Shipped' || feature.browsers.ie.status === 'Prefixed' || feature.browsers.ie.status === 'IE Developer Channel' || feature.browsers.ie.status === 'Deprecated', 'indevelopment' : feature.browsers.ie.status === 'In Development', 'icon-ie': feature.browsers.ie.status !== 'Deprecated', 'icon-ie-deprecated': feature.browsers.ie.status === 'Deprecated'}"
-                    data-bo-title="feature.browsers.ie.status==='IE Developer Channel' ? 'Shipped in IE Developer Channel' : feature.browsers.ie.status + ' by Internet Explorer'">
+                    data-bo-title="feature.browsers.ie.status==='Preview Release' ? 'Available for preview in IE' : feature.browsers.ie.status + ' by Internet Explorer'">
                     <a data-bo-if="feature.browsers.ie.link" data-bo-href="feature.browsers.ie.link"
                        data-bo-text="feature.browsers.ie.status + ' by Internet Explorer'" target="_blank"></a>
                     <span data-bo-if="!feature.browsers.ie.link"
