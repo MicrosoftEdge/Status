@@ -366,6 +366,25 @@ progress {
     overflow: auto;
 }
 
+a.votes:before,
+a.votes::before {
+    color: #FE9F22;
+    content: "\2729";
+    margin-right: .5em;
+}
+
+a.votes {
+    color: #00BAF0;
+}
+
+p[data-bo-if="feature.uservoice"] {
+    text-align: right;
+}
+
+p[data-bo-if="feature.uservoice"] + div.feature-status-wrapper {
+    margin-top: 0;
+}
+
 .dropdown-menu h2 {
     margin: 5px 0 0 35px;
 }
