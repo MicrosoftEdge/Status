@@ -25,6 +25,13 @@ app.route('/features')
         res.sendfile(path.join(__dirname, root, 'static', 'ie-status.json'));
     });
 
+app.route('/uservoice')
+    .options(cors())
+    .get(cors(), function (req, res) {
+        res.sendfile(path.join(__dirname, root, 'static', 'uvoicedata.json'));
+    });
+
+
 app.get('/favicon.ico', function (req, res) {
     res.sendfile(path.join(__dirname, root, 'favicon.ico'));
 });

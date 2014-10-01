@@ -5,7 +5,7 @@ angular.module('statusieApp')
         //We can load it locally using /static/features.json
         var chromeStatusURL = 'http://www.chromestatus.com/features.json';
         var ieStatusURL = '/features';
-        var userVoiceDataURL = '/static/uvoicedata.json';
+        var userVoiceDataURL = '/uservoice';
 
         var observedBrowsers = _.map(['Internet Explorer', 'Chrome', 'Firefox', 'Safari', 'Opera'], function (browser) {
             return {name: browser, selected: false};
