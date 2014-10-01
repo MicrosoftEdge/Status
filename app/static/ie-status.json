@@ -921,7 +921,8 @@
         "msdn": "",
         "wpd": "http://docs.webplatform.org/wiki/mathml",
         "demo": "",
-        "id": 5240822173794304
+        "id": 5240822173794304,
+        "uservoiceid": 6508572
     },
     {
         "name": "Media Queries: resolution feature",
@@ -986,7 +987,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6428569609699328
+        "id": 6428569609699328,
+        "uservoiceid": 6508451
     },
     {
         "name": "CSS Transforms - preserve-3d",
@@ -1029,7 +1031,7 @@
         "wpd": "",
         "demo": "",
         "id": 6362616360337408,
-        "uservoice": 6263617
+        "uservoiceid": 6263617
     },
     {
         "name": "Cross-Domain Font Loading",
@@ -1200,7 +1202,8 @@
         "msdn": "",
         "wpd": "http://docs.webplatform.org/wiki/apis/quota_management",
         "demo": "",
-        "id": 6218562888794112
+        "id": 6218562888794112,
+        "uservoiceid": 6508438
     },
     {
         "name": "Regions",
@@ -1410,7 +1413,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5593215650496512
+        "id": 5593215650496512,
+        "uservoiceid": 6508637
     },
     {
         "name": "URL API",
@@ -1525,7 +1529,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 4923613069180928
+        "id": 4923613069180928,
+        "uservoiceid": 6508429
     },
     {
         "name": "Web Notifications",
@@ -1592,7 +1597,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6330987952734208
+        "id": 6330987952734208,
+        "uservoiceid": 6508421
     },
     {
         "name": "Web Storage",
@@ -1640,7 +1646,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6471725441089536
+        "id": 6471725441089536,
+        "uservoiceid": 6508417
     },
     {
         "name": "WebRTC – WebRTC v1.0 API",
@@ -1656,7 +1663,8 @@
         "msdn": "",
         "wpd": "http://docs.webplatform.org/wiki/apis/webrtc",
         "demo": "",
-        "id": 6612462929444864
+        "id": 6612462929444864,
+        "uservoiceid": 6508336
     },
     {
         "name": "WebRTC – Object RTC API",
@@ -2152,7 +2160,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5838406743490560
+        "id": 5838406743490560,
+        "uservoiceid": 6508326
     },
     {
         "name": "High Resolution Time",
@@ -2184,7 +2193,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5374137958662144
+        "id": 5374137958662144,
+        "uservoiceid": 6508310
     },
     {
         "name": "Proxies",
@@ -2217,7 +2227,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6156165603917824
+        "id": 6156165603917824,
+        "uservoiceid": 6508302
     },
     {
         "name": "Runtime error reporting: ErrorEvent.",
