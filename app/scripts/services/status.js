@@ -3,7 +3,7 @@ angular.module('statusieApp')
     .service('Status', ['$http', '$q', function Status($http, $q) {
         'use strict';
         //We can load it locally using /static/features.json
-        var chromeStatusURL = 'http://www.chromestatus.com/features.json';
+        var chromeStatusURL = 'https://www.chromestatus.com/features.json';
         var ieStatusURL = '/features';
         var userVoiceDataURL = '/uservoice';
 
