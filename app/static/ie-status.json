@@ -249,7 +249,8 @@
         "msdn": "",
         "wpd": "http://docs.webplatform.org/wiki/tutorials/content-security-policy",
         "demo": "",
-        "id": 5205088045891584
+        "id": 5205088045891584,
+        "uservoiceid": 6511917
     },
     {
         "name": "CSS calc()",
@@ -1014,7 +1015,8 @@
         "safari_views": {
             "text": "Shipped",
             "value": 1
-        }
+        },
+        "uservoiceid": 6510941
     },
     {
         "name": "mix-blend-mode",
@@ -1794,7 +1796,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5275456790069248
+        "id": 5275456790069248,
+        "uservoiceid": 6512273
     },
     {
         "name": "Destructuring",
@@ -2693,7 +2696,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5681726336532480
+        "id": 5681726336532480,
+        "uservoiceid": 6512244
     },
     {
         "name": "Karaoke Web Standard",
@@ -2750,7 +2754,8 @@
             "text": "Shipped",
             "value": 1
         },
-        "id": null
+        "id": null,
+        "uservoiceid": 6263916
     },
     {
         "name": "Meta Referrer",
@@ -2986,7 +2991,8 @@
             "iePrefixed": "",
             "ieUnprefixed": ""
         }, 
-        "id": 4633745457938432
+        "id": 4633745457938432,
+        "uservoiceid": 6510201
     },
     {
         "name": "Spread (ES6)",
@@ -3114,7 +3120,8 @@
             "text": "No Signals",
             "value": 3
         },       
-        "id": null
+        "id": null,
+        "uservoiceid": 6510097
     },
     {
         "name": "ASM.js",
@@ -3137,7 +3144,8 @@
             "text": "No Signals",
             "value": 3
         },       
-        "id": null
+        "id": null,
+        "uservoiceid": 6509389
     },
     {
         "name": "Clipboard API",
