@@ -19,13 +19,6 @@ if (process.argv[2] === 'debug') {
 
 app.use(compress());
 
-app.use(function(req, res, next) {
-  if(!req.secure) {
-    return res.redirect(['https://', req.get('Host'), req.url].join(''));
-  }
-  next();
-});
-
 app.route('/features')
     .options(cors())
     .get(cors(), function (req, res) {
