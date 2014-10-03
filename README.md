@@ -1,8 +1,8 @@
 #Status.Modern.IE
-This project contains the source code and data for [status.modern.IE](http://status.modern.IE), a portal for the latest implementation status and future roadmap for interoperable web platform features in Internet Explorer. 
+This project contains the source code and data for [status.modern.IE](https://status.modern.IE), a portal for the latest implementation status and future roadmap for interoperable web platform features in Internet Explorer. 
 
 ##Using IE Status Data
-Status.Modern.IE provides valuable data on the implementation status and future plans for web platform features in Internet Explorer. This data is encouraged to be used for other purposes as licensed by the [Creative Commons Attribution 2.5 License](http://creativecommons.org/licenses/by/2.5/legalcode). This data is provided as a JSON document, served at http://status.modern.IE/features. This data is sent with an "Access-Control-Allow-Origin: *" header, so it may be requested cross-domain.
+Status.Modern.IE provides valuable data on the implementation status and future plans for web platform features in Internet Explorer. This data is encouraged to be used for other purposes as licensed by the [Creative Commons Attribution 2.5 License](http://creativecommons.org/licenses/by/2.5/legalcode). This data is provided as a JSON document, served at https://status.modern.IE/features. This data is sent with an "Access-Control-Allow-Origin: *" header, so it may be requested cross-domain.
 
 ##Building the Project
 ### Prequisites
@@ -22,7 +22,7 @@ From the project's root directory
 A Node server will start at http://localhost:9000
 
 ## Contributing
-Want to contribute to this project? We'd love to have your help!  Take a look at the [Contributing Guidelines](https://github.com/InternetExplorer/Status.IE/blob/production/CONTRIBUTING.md) before you dive in. For many features, support data for browsers other than IE comes from the [Chromium Dashboard](http://www.chromestatus.com) and bugs against that data can be filed [here](https://github.com/GoogleChrome/chromium-dashboard/issues).
+Want to contribute to this project? We'd love to have your help!  Take a look at the [Contributing Guidelines](https://github.com/InternetExplorer/Status.IE/blob/production/CONTRIBUTING.md) before you dive in. For many features, support data for browsers other than IE comes from the [Chromium Dashboard](https://www.chromestatus.com) and bugs against that data can be filed [here](https://github.com/GoogleChrome/chromium-dashboard/issues).
 
 Note that this GitHub project is *not* for making feature requests for or reporting bugs in Internet Explorer. Internet Explorer feedback can be provided at [Microsoft Connect](http://connect.microsoft.com/ie).
 
