@@ -10,8 +10,8 @@
 
 @font-face {
     font-family: "Segoe Custom";
-    src: url("http://www.modern.ie/cdn/fonts/west-european/normal/latest.eot");
-    src: local("Segoe UI"), url("http://www.modern.ie/cdn/fonts/west-european/normal/latest.woff") format("woff");
+    src: url("//www.modern.ie/cdn/fonts/west-european/normal/latest.eot");
+    src: local("Segoe UI"), url("//www.modern.ie/cdn/fonts/west-european/normal/latest.woff") format("woff");
 }
 
 * {
