@@ -576,7 +576,8 @@
         "msdn": "",
         "wpd": "http://docs.webplatform.org/wiki/apis/gamepad/Gamepad",
         "demo": "",
-        "id": 5118776383111168
+        "id": 5118776383111168,
+        "uservoiceid": 6509110
     },
     {
         "name": "Generated Content for Paged Media",
@@ -1746,7 +1747,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5047308127305728
+        "id": 5047308127305728,
+        "uservoiceid": 6512181
     },
     {
         "name": "Box Alignment",
@@ -2131,7 +2133,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 4993981813358592
+        "id": 4993981813358592,
+        "uservoiceid": 6517589
     },
     {
         "name": "Generators",
