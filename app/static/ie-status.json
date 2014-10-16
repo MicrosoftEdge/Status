@@ -517,10 +517,10 @@
         "name": "Filters",
         "category": "CSS",
         "link": "https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/Overview.html",
-        "summary": "Apply (SVG-like) filter effects to arbitrary DOM elements.",
+        "summary": "Apply filter effects to arbitrary DOM elements.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Under Consideration",
+            "text": "In Development",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -3174,5 +3174,18 @@
         },       
         "id": null,
         "uservoiceid": 6515107
+    },
+    {
+        "name": "Web Application Manifest",
+        "category": "JavaScript",
+        "summary": "This specification defines a JSON-based manifest, which provides developers with a centralized place to put metadata associated with a web application.",
+        "link": "https://w3c.github.io/manifest/",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "id": 6488656873259008
     }
 ]
