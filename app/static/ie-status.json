@@ -625,7 +625,8 @@
         "msdn": "",
         "wpd": "http://docs.webplatform.org/wiki/dom/Navigator/getUserMedia",
         "demo": "",
-        "id": 6067380039974912
+        "id": 6067380039974912,
+        "uservoiceid": 6573558
     },
     {
         "name": "Gradients",
@@ -2099,7 +2100,8 @@
         "msdn": "",
         "wpd": "http://docs.webplatform.org/wiki/apis/webaudio",
         "demo": "",
-        "id": 6261718720184320
+        "id": 6261718720184320,
+        "uservoiceid": 6557946
     },
     {
         "name": "object-fit and object-position",
@@ -2501,7 +2503,8 @@
         "safari_views": {
             "text": "Shipped",
             "value": 1
-        }
+        },
+        "uservoiceid": 6512573
     },
     {
         "name": "Screen Orientation API",
