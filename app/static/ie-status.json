@@ -2211,7 +2211,7 @@
         "summary": "Proxies are objects for which the programmer has to define the semantics in JavaScript. ",
         "standardStatus": "Editor's draft",
         "ieStatus": {
-            "text": "Under Consideration",
+            "text": "In Development",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -2957,7 +2957,7 @@
         "link": "https://people.mozilla.org/~jorendorff/es6-draft.html#sec-math-object",
         "standardStatus": "Editor's Draft",
         "ieStatus": {
-            "text": "Under Consideration",
+            "text": "In Development",
             "iePrefixed": "",
             "ieUnprefixed": ""
         }, 
@@ -3007,7 +3007,7 @@
         "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
         "standardStatus": "Editor's Draft",
         "ieStatus": {
-            "text": "Under Consideration",
+            "text": "In Development",
             "iePrefixed": "",
             "ieUnprefixed": ""
         }, 
