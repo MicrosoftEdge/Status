@@ -46,7 +46,15 @@ angular.module('statusieApp')
 
                             return statusOrder[feature.position.toLowerCase()];
                         }
-                    }
+                    },
+                    {
+                        name: 'votes',
+                        sortFunction: function (feature) {
+                            if (!feature.uservoice) {
+                                return 0;
+                            }
+                            return -feature.uservoice.votes;
+                        }}
                 ];
                 $scope.sorts = sorts;
 
