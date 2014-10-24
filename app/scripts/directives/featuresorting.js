@@ -53,7 +53,7 @@ angular.module('statusieApp')
                             if (!feature.uservoice) {
                                 return 0;
                             }
-                            return feature.uservoice.votes;
+                            return -feature.uservoice.votes;
                         }}
                 ];
                 $scope.sorts = sorts;
