@@ -27,7 +27,7 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "https://docs.webplatform.org/wiki/html/elements/details\nhttps://docs.webplatform.org/wiki/html/elements/summary",
+        "wpd": "https://docs.webplatform.org/wiki/html/elements/details",
         "demo": "",
         "id": 5348024557502464,
         "uservoiceid": 6261266
@@ -443,8 +443,8 @@
             "iePrefixed": "",
             "ieUnprefixed": "8"
         },
-        "msdn": "http://msdn.microsoft.com/en-us/library/ie/ms536945(v=vs.85).aspx\nhttp://msdn.microsoft.com/en-us/library/ie/ms536946(v=vs.85).aspx",
-        "wpd": "https://docs.webplatform.org/wiki/dom/MouseEvent/mouseenter\nhttps://docs.webplatform.org/wiki/dom/MouseEvent/mouseleave",
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/ms536945(v=vs.85).aspx",
+        "wpd": "https://docs.webplatform.org/wiki/dom/MouseEvent/mouseenter",
         "demo": "",
         "id": 4889528208719872
     },
@@ -1805,7 +1805,7 @@
         "name": "Destructuring",
         "category": "JavaScript",
         "link": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts",
-        "summary": "Destructuring assignment allows extracting data from arrays or objects using a syntax that mirrors array and object literals.\r\n\r\n",
+        "summary": "Destructuring assignment allows extracting data from arrays or objects using a syntax that mirrors array and object literals.",
         "standardStatus": "Editor's draft",
         "ieStatus": {
             "text": "Under Consideration",
@@ -1838,7 +1838,7 @@
         "name": "Ambient Light Events",
         "category": "Device",
         "link": "http://www.w3.org/TR/ambient-light/",
-        "summary": "Ambient Light Event API which is a handy way to make a web page or web app aware of any change in light intensity.\r\n",
+        "summary": "Ambient Light Event API which is a handy way to make a web page or web app aware of any change in light intensity.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Under Consideration",
@@ -1972,7 +1972,7 @@
         "name": "Navigation Error Logging",
         "category": "Performance",
         "link": "https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/NavigationErrorLogging/Overview.html",
-        "summary": "This specification defines an interface to store and retrieve error data related to the previous navigations of a document.\r\n",
+        "summary": "This specification defines an interface to store and retrieve error data related to the previous navigations of a document.",
         "standardStatus": "Editor's draft",
         "ieStatus": {
             "text": "Under Consideration",
@@ -2073,7 +2073,7 @@
         "name": "Shadow DOM (unprefixed)",
         "category": "Web Components",
         "link": "http://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/shadow/index.html",
-        "summary": "Enables DOM tree encapsulation. Without it, widgets may inadvertently break pages by using conflicting CSS selectors, class or id names, or JavaScript variables.\r\n\r\n",
+        "summary": "Enables DOM tree encapsulation. Without it, widgets may inadvertently break pages by using conflicting CSS selectors, class or id names, or JavaScript variables.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Under Consideration",
@@ -2115,7 +2115,7 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "https://docs.webplatform.org/wiki/css/properties/object-fit\n",
+        "wpd": "https://docs.webplatform.org/wiki/css/properties/object-fit",
         "demo": "",
         "id": 5302669702856704,
         "uservoiceid": 6263790
