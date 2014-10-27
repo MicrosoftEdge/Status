@@ -3189,5 +3189,28 @@
             "ieUnprefixed": ""
         },
         "id": 6488656873259008
-    }
+    },
+    {
+        "name": "Public Key Pinning Extension for HTTP",
+        "category": "Network / Connectivity",
+        "summary": "Certificate public key pinning is a mechanism which allows specifying a key that must be present in the certificate chain associated with a domain name. HTTP Public Key Pinning (HPKP) is one way of doing certificate public key pinning. In this method, site owner defines pin rules for his domain name via HTTP header. This mechanism assumes that user has had a first clean connection to the site.",
+        "link": "http://tools.ietf.org/html/draft-ietf-websec-key-pinning-21",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "No Public Signals",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "No Public Signals",
+            "value": 1
+        },       
+        "id": null
+    }   
 ]
