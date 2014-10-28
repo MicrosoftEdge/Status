@@ -132,12 +132,6 @@ progress {
     border: none;
 }
 
-/* HEADER */
-.header {
-    border-bottom: 10px solid #6D6E71;
-    background-color: #454545;
-}
-
 /* FILTERS */
 .filter-container {
     margin-bottom: 10px;
