@@ -43,7 +43,7 @@ html {
 }
 
 body {
-    margin-bottom: 56px; /* bottom = footer height + desired margin */
+    margin-bottom: 64px; /* bottom = footer height + desired margin */
     font-size: 14px;
     line-height: 1.428571429;
 }
@@ -380,28 +380,6 @@ input[type=radio]:focus + label::before {
     box-shadow: 0 0 0 3px #0079c2 inset;
 }
 
-/* FOOTER */
-
-footer {
-    position: absolute;
-    bottom: 0;
-    height: 36px;
-    width: 100%;
-    background-color: #404040;
-    padding: 8px 0;
-    text-align: center;
-}
-
-footer a {
-    padding: 0 1em;
-    color: white;
-    font-size: 12px;
-}
-
-footer a + a {
-	margin-left: 5px;
-}
-
 @media screen and (max-width: 819px) {
     .filter-settings .dropdown-menu {
         left: 0;
@@ -436,12 +414,6 @@ footer a + a {
     }
 }
 
-@media screen and (max-width: 524px) {
-    footer a {
-        display: none;
-    }
-}
-
 @media screen and (max-width: 569px) {
     .total-features {
         display: none;
@@ -467,11 +439,5 @@ footer a + a {
         width: 100%;
         margin-left: 0;
         padding: 6px 0;
-    }
-}
-
-@media screen and (max-width: 300px) {
-    .icons {
-        display: none;
     }
 }
