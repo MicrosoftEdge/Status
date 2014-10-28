@@ -2,7 +2,8 @@
 /* FEATURE */
 .feature {
     position: relative;
-    width: calc(100% - 20px);
+	width: 92%;
+    max-width: 1180px;
     height: 50px;
     margin: 0 auto 20px;
     background-color: #FFF;
@@ -44,7 +45,7 @@
     cursor: pointer;
     display: block;
     text-align: left;
-    font-family: 'Segoe Custom';
+    font-family: "Segoe UI", sans-serif;
 }
 
 .feature_name {
@@ -108,7 +109,8 @@
     overflow: auto;
 }
 
-.feature-body-wrapper p {
+.feature-description {
+	max-width: 45em;
     font-size: 16px;
     line-height: 1.6;
 }
@@ -304,10 +306,6 @@
 }
 
 @media screen and (min-width: 820px) {
-    .feature {
-        width: 800px;
-    }
-
     .feature_name {
         max-width: 70%;
         padding-top: 4px;

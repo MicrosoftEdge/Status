@@ -1,0 +1,156 @@
+/* Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the Apache License, Version 2.0 (the "License"); you may not use these files except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. */
+/* CLEAR FIX */
+.header::after,
+.menu::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+/* HEADER */
+.header {
+    border-bottom: 6px solid #6D6E71;
+	padding-top: 1.2em;
+    background-color: #454545;
+	font-weight: 200;
+	letter-spacing: .035em;
+}
+
+.header > div {
+	position: relative;
+	width: 92%;
+	max-width: 1180px;
+	margin: 0 auto;
+}
+	
+/* HEADER: Logo */
+.siteLogo {
+	margin-bottom: 1.1em;
+}
+
+.siteLogo a:before {
+    position: absolute;
+    top: -.2em;
+    left: 0;
+    width: 28px;
+    height: 28px;
+    background: url("/images/ie-logo.png") no-repeat;
+    content: "";
+    pointer-events: none;
+}
+
+.siteLogo a {
+    position: relative;
+    display: inline-block;
+    padding-left: 2.6em;
+}
+
+.status-ie {
+    padding: 0 0 .2em .4em;
+    border-left: 1px solid #fff;
+    color: #fff;
+    font-size: 20px;
+	font-weight: 200;
+    line-height: 1;
+}
+
+/* HEADER: Menu */
+.menu {
+    background-color: #282828;
+}
+
+.menu-bar {
+	 width: 92%;
+     max-width: 1180px;
+     margin: 0 auto;
+}
+
+.menu-item {
+    float: left;
+    display: inline-block;
+}
+
+.menu-item a {
+    display: block;
+	padding: .5em 1.3em .5em 0;
+	font-size: .8em;
+	line-height: 1.5;
+    color: #fff;
+}
+
+.menu-item[aria-selected="true"] a,
+.menu-item a:hover {
+    color: #00abe1;
+}
+
+/* HEADER: Other links */
+.logos {
+	position: absolute;
+    top: 0;
+   	right: 0;
+}
+
+.logos a {
+    display: inline-block;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+}
+
+.icon-microsoft-logo {
+    width: 112px;
+    height: 24px;
+    background: url("/images/icons/microsoft-logo.svg") no-repeat;
+}
+
+.icon-social-tw, .icon-social-stackoverflow {
+	float: left;
+	position: relative;
+	top: -2px;
+	background-image: url('/images/top-header-sprite.min.svg');
+	background-repeat: no-repeat;
+	margin-right: 25px;
+	height: 30px;
+	width: 30px;
+}
+
+.icon-social-tw {
+	background-position: 0 -120px;
+}
+
+.icon-social-tw:hover {
+	background-position: 0 -150px;
+}
+
+.icon-social-stackoverflow {
+	background-position: 0 -60px;
+}
+
+.icon-social-stackoverflow:hover {
+	background-position: 0 -90px;
+}
+
+@media screen and (min-width: 900px) {
+	.header {
+        border-bottom-width: 10px;
+    }
+	
+	.menu-item a {
+		font-size: 1.07em;
+	}
+}
+
+@media screen and (max-width: 569px) {
+    .menu-item {
+        display: none;
+    }
+    .header {
+        border-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .logos {
+        display: none;
+    }
+}
