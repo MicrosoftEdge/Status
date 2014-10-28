@@ -2,7 +2,8 @@
 /* FEATURE */
 .feature {
     position: relative;
-    width: calc(100% - 20px);
+	width: 92%;
+    max-width: 1180px;
     height: 50px;
     margin: 0 auto 20px;
     background-color: #FFF;
@@ -304,10 +305,6 @@
 }
 
 @media screen and (min-width: 820px) {
-    .feature {
-        width: 800px;
-    }
-
     .feature_name {
         max-width: 70%;
         padding-top: 4px;

@@ -11,7 +11,8 @@
 @font-face {
     font-family: "Segoe UI";
     src: url("//www.modern.ie/cdn/fonts/west-european/normal/latest.eot");
-    src: local("Segoe UI"), url("//www.modern.ie/cdn/fonts/west-european/normal/latest.woff") format("woff");
+    src: local("Segoe UI"),
+	     url("//www.modern.ie/cdn/fonts/west-european/normal/latest.woff") format("woff");
 }
 
 @font-face {
@@ -140,7 +141,8 @@ progress {
 }
 
 .filter-group {
-    width: 800px;
+	width: 92%;
+    max-width: 1180px;
     margin: 0 auto;
 }
 
@@ -401,10 +403,6 @@ footer a + a {
 }
 
 @media screen and (max-width: 819px) {
-    .filter-group {
-        width: calc(100% - 20px);
-    }
-    
     .filter-settings .dropdown-menu {
         left: 0;
         width: 100%;
@@ -445,8 +443,7 @@ footer a + a {
 }
 
 @media screen and (max-width: 569px) {
-    .total-features,
-    .logos {
+    .total-features {
         display: none;
     }
 }
