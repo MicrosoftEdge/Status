@@ -109,7 +109,8 @@
     overflow: auto;
 }
 
-.feature-body-wrapper p {
+.feature-description {
+	max-width: 45em;
     font-size: 16px;
     line-height: 1.6;
 }
