@@ -78,6 +78,7 @@
     color: #fff;
 }
 
+.menu-item[aria-selected="true"] a,
 .menu-item a:hover {
     color: #00abe1;
 }
@@ -102,12 +103,31 @@
     background: url("/images/icons/microsoft-logo.svg") no-repeat;
 }
 
-.tw {
-    width: 30px;
-    height: 26px;
-    margin-right: 20px;
-    background: url("/images/twitter-logo.svg") no-repeat  0 2px;
-    background-size: 29px auto;
+.icon-social-tw, .icon-social-stackoverflow {
+	float: left;
+	position: relative;
+	top: -2px;
+	background-image: url('/images/top-header-sprite.min.svg');
+	background-repeat: no-repeat;
+	margin-right: 25px;
+	height: 30px;
+	width: 30px;
+}
+
+.icon-social-tw {
+	background-position: 0 -120px;
+}
+
+.icon-social-tw:hover {
+	background-position: 0 -150px;
+}
+
+.icon-social-stackoverflow {
+	background-position: 0 -60px;
+}
+
+.icon-social-stackoverflow:hover {
+	background-position: 0 -90px;
 }
 
 @media screen and (min-width: 900px) {
