@@ -44,7 +44,7 @@
     cursor: pointer;
     display: block;
     text-align: left;
-    font-family: 'Segoe Custom';
+    font-family: "Segoe UI", sans-serif;
 }
 
 .feature_name {

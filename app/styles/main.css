@@ -9,9 +9,17 @@
 }
 
 @font-face {
-    font-family: "Segoe Custom";
+    font-family: "Segoe UI";
     src: url("//www.modern.ie/cdn/fonts/west-european/normal/latest.eot");
     src: local("Segoe UI"), url("//www.modern.ie/cdn/fonts/west-european/normal/latest.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Segoe UI";
+    src: url("//www.modern.ie/cdn/fonts/west-european/Light/latest.eot");
+    src: local("Segoe UI Light"), 
+		 url("//www.modern.ie/cdn/fonts/west-european/Light/latest.woff") format("woff");
+	font-weight: 200;
 }
 
 * {
@@ -28,7 +36,7 @@ html {
     min-height: 100%;
     overflow-y: scroll;
     background-color: #fff;
-    font-family: "Segoe Custom", sans-serif;
+    font-family: "Segoe UI", sans-serif;
     -ms-touch-action: manipulation;
     touch-action: manipulation;
 }
@@ -95,8 +103,6 @@ button {
 }
 
 /* CLEAR FIX */
-.header::after,
-.menu::after,
 .filter-container::after {
     display: table;
     content: "";
@@ -130,86 +136,6 @@ progress {
 .header {
     border-bottom: 10px solid #6D6E71;
     background-color: #454545;
-}
-
-/* HEADER: Logo */
-.siteLogo,
-.menu {
-    margin: 0 auto;
-}
-
-.siteLogo a:before {
-    position: absolute;
-    top: -.2em;
-    left: 0;
-    width: 28px;
-    height: 28px;
-    background: url("/images/ie-logo.png") no-repeat;
-    content: "";
-    pointer-events: none;
-}
-
-.siteLogo a {
-    position: relative;
-    display: inline-block;
-    margin-left: 4%;
-    padding-left: 2.8em;
-}
-
-.status-ie {
-    padding: 0 0 .2em .4em;
-    border-left: 1px solid #fff;
-    color: #fff;
-    font-size: 20px;
-    line-height: 1;
-}
-
-/* HEADER: Menu */
-.menu {
-    background-color: #282828;
-}
-
-.menu-item {
-    float: left;
-    display: inline-block;
-}
-
-.menu-item a {
-    display: block;
-    padding: 14px 0 15px 30px;
-    font-size: 10px;
-    line-height: 1.5em;
-    color: #fff;
-}
-
-.menu-item a:hover {
-    color: #00abe1;
-}
-
-/* HEADER: Other links */
-.logos {
-    float: right;
-    margin-top: 16px;
-}
-
-.logos a {
-    display: inline-block;
-    overflow: hidden;
-    text-indent: 100%;
-    white-space: nowrap;
-}
-
-.icon-microsoft-logo {
-    width: 112px;
-    height: 24px;
-}
-
-.tw {
-    width: 30px;
-    height: 26px;
-    margin-right: 20px;
-    background: url("/images/twitter-logo.svg") no-repeat  0 2px;
-    background-size: 29px auto;
 }
 
 /* FILTERS */
@@ -480,54 +406,6 @@ footer a + a {
 	margin-left: 5px;
 }
 
-@media screen and (min-width: 1220px) {
-    .header {
-        background: -webkit-linear-gradient(left, #454545 50%, #282828 50%);
-        background: -moz-linear-gradient(left, #454545 50%, #282828 50%);
-        background: -o-linear-gradient(left, #454545 50%, #282828 50%);
-        background: linear-gradient(to right, #454545 50%, #282828 50%);
-    }
-    .siteLogo,
-    .menu {
-        width: 800px;
-    }
-    .siteLogo a {
-        float: left;
-        margin: 1.3em 0 0 -15em;
-    }
-    .menu-item span {
-        display: block;
-        font-size: 18px;
-    }
-}
-
-@media screen and (max-width: 1219px) {
-    .header {
-        border-bottom-width: 5px;
-        padding-top: 1.3em;
-    }
-    .siteLogo {
-        margin-bottom: 17px;
-    }
-    .status-ie {
-        display: inline;
-        padding-bottom: 0;
-    }
-    .menu-item:first-child {
-        margin-left: 4%;
-    }
-    .menu-item a {
-        padding: 5px 16px 5px 0;
-        font-size: .9em;
-        line-height: 1.5;
-    }
-    .logos {
-        position: absolute;
-        top: 0;
-        right: 2em;
-    }
-}
-
 @media screen and (max-width: 819px) {
     .filter-group {
         width: calc(100% - 20px);
@@ -573,13 +451,9 @@ footer a + a {
 }
 
 @media screen and (max-width: 569px) {
-    .menu-item,
     .total-features,
     .logos {
         display: none;
-    }
-    .header {
-        border-bottom: 0;
     }
 }
 

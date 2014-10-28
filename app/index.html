@@ -1,4 +1,4 @@
-﻿<!-- Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the Apache License, Version 2.0 (the "License"); you may not use these files except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.-->
+<!-- Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the Apache License, Version 2.0 (the "License"); you may not use these files except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.-->
 <!doctype html>
 <html lang="en">
 <head>
@@ -14,6 +14,7 @@
     <!-- endbuild -->
 
     <!-- build:css({.tmp,app}) styles/main.css -->
+    <link rel="stylesheet" href="styles/header.css">	
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/roadmap.css">
     <link rel="stylesheet" href="styles/sprites.css">
@@ -42,25 +43,37 @@
 
 <div data-ng-controller="MainCtrl" class="content">
     <header role="banner" class="header">
-        <div class="siteLogo">
-            <a href="http://status.modern.ie">
-                <h1 class="status-ie">Platform Status</h1>
-            </a>
-        </div>
-        <nav role="navigation" class="menu">
-            <ul class="menu-bar">
-                <li class="menu-item menu-item-tools"><a href="https://modern.ie/en-us/tools">Get <span>Tools</span></a></li>
-                <li class="menu-item menu-item-articles"><a href="https://modern.ie/en-us/articles">Read <span>Articles</span></a></li>
-                <li class="menu-item menu-item-demos"><a href="https://modern.ie/en-us/demos">See <span>Demos</span></a></li>
-                <li class="menu-item menu-item-involved"><a href="https://modern.ie/en-us/meet-developers">Meet <span>Developers</span></a></li>
-                <li class="menu-item menu-item-devchannel"><a href="http://preview.windows.com">Tech <span>Preview</span></a></li>
-            </ul>
-            <div class="logos">
-                <a class="share tw" href="https://www.twitter.com/iedevchat" title="Give feedback on Twitter" target="_blank">Twitter</a>
-                <a class="icon-microsoft-logo" href="http://www.microsoft.com" title="Microsoft" target="_blank">Microsoft</a>
-            </div>
-        </nav>
-    </header>
+		<div>
+			<div class="siteLogo">
+				<a href="http://devchannel.modern.ie">
+					<h1 class="status-ie">Platform Status</h1>
+				</a>
+			</div>
+			<div class="logos">
+				<a class="share tw" href="https://www.twitter.com/iedevchat" title="Give feedback on Twitter"
+					   target="_blank">Twitter</a>
+				<a class="icon-microsoft-logo" href="http://www.microsoft.com" title="Microsoft"
+					   target="_blank">Microsoft</a>
+			</div>
+		</div>
+		<nav role="navigation" class="menu">
+			<ul class="menu-bar">
+				<li class="menu-item menu-item-modern">
+					<a href="https://modern.ie/">Modern IE</a>
+				</li>
+				<li class="menu-item menu-item-tools">
+					<a href="https://modern.ie/tools">Tools</a>
+				</li>
+				<li class="menu-item menu-item-devchannel">
+					<a href="https://devchannel.modern.ie/">Developer Channel</a>
+				</li>
+				<li class="menu-item menu-item-msdn">
+					<a href="http://msdn.microsoft.com/ie">MSDN Dev Center</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	
     <div class="filter-container" data-sticky>
         <div class="filter-group">
             <termfilter></termfilter>
