@@ -2211,7 +2211,7 @@
         "summary": "Proxies are objects for which the programmer has to define the semantics in JavaScript. ",
         "standardStatus": "Editor's draft",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
