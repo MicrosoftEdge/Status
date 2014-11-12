@@ -242,7 +242,7 @@
         "summary": "Allows you to create an allow list of sources of trusted content, and instructs the browser to only execute or render resources from those sources.",
         "standardStatus": "Established standard",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -568,7 +568,7 @@
         "summary": "Gives JS access to a game controller via USB.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -999,7 +999,7 @@
         "summary": "Augments existing CSS 3d transforms by facilitating the construction of complex 3d scenes.",
         "standardStatus": "Established standard",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -1740,7 +1740,7 @@
         "summary": "The arrow (=>) provides a shorthand for the function keyword with lexical 'this' binding.",
         "standardStatus": "Editor's draft",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -1959,7 +1959,7 @@
         "summary": "Iterates over iterable objects (including arrays, array-like objects, iterators and generators), invoking a custom iteration hook with statements to be executed for the value of each distinct property.",
         "standardStatus": "Editor's draft",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -2009,7 +2009,7 @@
         "summary": "Allows properties to be added to existing objects without the possibility of interference with the existing properties, unintended visibility, or with other uncoordinated additions by any other code.",
         "standardStatus": "Editor's draft",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -2617,7 +2617,7 @@
         "summary": "Allows to query the presence and accuracy of the user's pointing input (e.g. for differentiating touch versus mouse). Additionally, allows the page to query whether the user's pointing input supports hover.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -2643,7 +2643,7 @@
         "summary": "Based on APIs from HTML5 and DOM Range, this specification includes additional methods for programmatically inspecting and modifying the selection.",
         "standardStatus": "Public Proposal",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -2669,7 +2669,7 @@
         "summary": "Adds computed properties, concise method definitions, and short-hand for properties whose value is initialized to a same-named variable.",
         "standardStatus": "Editor's Draft",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -2695,7 +2695,7 @@
         "summary": "Allows easier and cleaner asynchronous coding. Adds the Promise constructor, along with the 'all' and 'race' utility methods to the language itself.",
         "standardStatus": "Editor's Draft",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -2806,7 +2806,7 @@
         "link": "http://www.w3.org/html/wg/drafts/html/CR/",
         "standardStatus": "De-facto Standard",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         }, 
@@ -2852,7 +2852,7 @@
         "link": "https://people.mozilla.org/~jorendorff/es6-draft.html#sec-math-object",
         "standardStatus": "Editor's Draft",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         }, 
@@ -2865,7 +2865,7 @@
         "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
         "standardStatus": "Editor's Draft",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         }, 
@@ -2888,7 +2888,7 @@
         "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
         "standardStatus": "Editor's Draft",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         }, 
@@ -2911,7 +2911,7 @@
         "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
         "standardStatus": "Editor's Draft",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         }, 
@@ -2934,7 +2934,7 @@
         "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
         "standardStatus": "Editor's Draft",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         }, 
@@ -2993,7 +2993,7 @@
         "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
         "standardStatus": "Editor's Draft",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         }, 
@@ -3007,7 +3007,7 @@
         "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
         "standardStatus": "Editor's Draft",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         }, 
@@ -3030,7 +3030,7 @@
         "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
         "standardStatus": "Editor's Draft",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         }, 
