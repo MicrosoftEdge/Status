@@ -1825,7 +1825,7 @@
         "summary": "Allows representation of an indefinite number of arguments as an array.",
         "standardStatus": "Editor's draft",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
