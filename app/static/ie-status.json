@@ -1389,10 +1389,10 @@
     },
     {
         "name": "Typed Arrays",
-        "category": "Performance",
-        "link": "https://www.khronos.org/registry/typedarray/specs/latest/",
+        "category": "JavaScript",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html#sec-typedarray-objects",
         "summary": "Buffers for holding binary data and working with WebGL & Audio API: ArrayBuffer, Float32Array , Int16Array, Uint8Array, etc.)",
-        "standardStatus": "Established standard",
+        "standardStatus": "Editor's Draft",
         "ieStatus": {
             "text": "Shipped",
             "iePrefixed": "",
