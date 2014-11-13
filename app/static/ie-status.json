@@ -3212,5 +3212,29 @@
             "value": 1
         },       
         "id": null
-    }   
+    },
+    {
+        "name": "ECMAScript Internationalization API",
+        "category": "JavaScript",
+        "summary": "Provides APIs for string comparison and date/time/number formatting in a locale-aware manner.",
+        "link": "http://ecma-international.org/ecma-402/1.0/",
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/dn342821(v=vs.94).aspx",
+        "standardStatus": "Established Standard",
+        "ieStatus": {
+            "text": "Shipped",
+            "iePrefixed": "",
+            "ieUnprefixed": "11"
+        }, 
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "No Signals",
+            "value": 3
+        },       
+        "id": null
+    }  
 ]
