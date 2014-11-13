@@ -2957,7 +2957,7 @@
         "link": "https://people.mozilla.org/~jorendorff/es6-draft.html#sec-math-object",
         "standardStatus": "Editor's Draft",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         }, 
