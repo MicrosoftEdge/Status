@@ -96,13 +96,10 @@ angular.module('statusieApp')
                 $scope.categories = data.categories;
                 $scope.featureStatus = data.ieVersions;
                 $scope.loading = false;
-                if(!$scope.sort) {
-                    $scope.sort = function (feature) { return feature.normalized_name;};
-                }
 
                 features = _.sortBy(_.forEach(data.features, function (feature) {
                     feature.visible = true;
-                }), $scope.sort);
+                }), $scope.sort || function (feature) { return feature.normalized_name;});
 
                 $scope.limit = features.length;
 
