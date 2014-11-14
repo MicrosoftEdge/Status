@@ -2240,7 +2240,7 @@
     },
     {
         "name": "Runtime error reporting: ErrorEvent.",
-        "category": "JavaScript",
+        "category": "DOM",
         "link": "http://www.w3.org/html/wg/drafts/html/master/webappapis.html#runtime-script-errors",
         "summary": "Unhandled exceptions trigger the 'window.onerror' callback (or 'self.onerror' inside Workers) for centralized handling.",
         "standardStatus": "Established standard",
@@ -3179,7 +3179,7 @@
     },
     {
         "name": "Web Application Manifest",
-        "category": "JavaScript",
+        "category": "DOM",
         "summary": "This specification defines a JSON-based manifest, which provides developers with a centralized place to put metadata associated with a web application.",
         "link": "https://w3c.github.io/manifest/",
         "standardStatus": "Working draft or equivalent",
