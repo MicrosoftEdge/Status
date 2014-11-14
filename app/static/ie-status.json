@@ -3236,5 +3236,21 @@
             "value": 3
         },       
         "id": null
-    }  
+    },
+    {
+        "name": "ES6 Numeric Literals",
+        "category": "JavaScript",
+        "link": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts",
+        "summary": "Allows binary and octal numeric literals using 0b101 and 0o753 respectively.",
+        "standardStatus": "Editor's draft",
+        "ieStatus": {
+            "text": "Preview Release",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 4930171014479872
+    }
 ]
