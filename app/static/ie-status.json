@@ -3256,7 +3256,7 @@
     {
         "name": "<dialog> element for modals",
         "category": "User input",
-        "link": "http://whatwg.org/html#the-dialog-element",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/interactive-elements.html#the-dialog-element",
         "summary": "An HTML element for modal and non-modal dialog boxes",
         "ieStatus": {
             "text": "Under consideration",
