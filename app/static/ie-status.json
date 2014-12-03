@@ -3252,5 +3252,21 @@
         "wpd": "",
         "demo": "",
         "id": 4930171014479872
+    },
+    {
+        "name": "<dialog> element for modals",
+        "category": "User input",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/interactive-elements.html#the-dialog-element",
+        "summary": "An HTML element for modal and non-modal dialog boxes",
+        "ieStatus": {
+            "text": "Under consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 5770237022568448,
+        "uservoiceid": 6508895
     }
 ]
