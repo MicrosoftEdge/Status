@@ -39,9 +39,13 @@
         "summary": "Enable a responsive images solution by providing the browser multiple resources in varying resolutions for a single image.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Under Consideration",
+            "text": "In Development",
             "iePrefixed": "",
             "ieUnprefixed": ""
+        },
+         "safari_views": {
+            "text": "Shipped",
+            "value": 1
         },
         "msdn": "",
         "wpd": "https://docs.webplatform.org/wiki/concepts/mobile_web/highdpi",
@@ -3236,5 +3240,76 @@
             "value": 3
         },       
         "id": null
-    }  
+    },
+    {
+        "name": "Date related input types",
+        "category": "User Input",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/forms.html#date-state-(type=date)",
+        "summary": "Input controls for picking dates via <input type='date'>,<input type='month'>, and <input type='week'>.",
+        "standardStatus": "Established Standard",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "safari_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "shipped_opera_milestone": true,
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 6640933999214592,
+        "uservoiceid": 6513996
+    },
+    {
+        "name": "Time related input types",
+        "category": "User Input",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/forms.html#date-state-(type=time)",
+        "summary": "Input controls for picking times via <input type='time'>,<input type='datetime'>, and <input type='datetime-local'>.",
+        "standardStatus": "Established Standard",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "safari_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "shipped_opera_milestone": true,
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 6640933999214592,
+        "uservoiceid": 6513996
+    },
+    {
+        "name": "<main> element",
+        "category": "DOM",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/grouping-content.html#the-main-element",
+        "summary": "Semantic HTML5 element that represents the main content of the document or application.",
+        "standardStatus": "Established Standard",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null,
+        "uservoiceid": 6514003
+    }
 ]
