@@ -1393,10 +1393,10 @@
     },
     {
         "name": "Typed Arrays",
-        "category": "Performance",
-        "link": "https://www.khronos.org/registry/typedarray/specs/latest/",
+        "category": "JavaScript",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html#sec-typedarray-objects",
         "summary": "Buffers for holding binary data and working with WebGL & Audio API: ArrayBuffer, Float32Array , Int16Array, Uint8Array, etc.)",
-        "standardStatus": "Established standard",
+        "standardStatus": "Editor's Draft",
         "ieStatus": {
             "text": "Shipped",
             "iePrefixed": "",
@@ -1829,7 +1829,7 @@
         "summary": "Allows representation of an indefinite number of arguments as an array.",
         "standardStatus": "Editor's draft",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -2244,7 +2244,7 @@
     },
     {
         "name": "Runtime error reporting: ErrorEvent.",
-        "category": "JavaScript",
+        "category": "DOM",
         "link": "http://www.w3.org/html/wg/drafts/html/master/webappapis.html#runtime-script-errors",
         "summary": "Unhandled exceptions trigger the 'window.onerror' callback (or 'self.onerror' inside Workers) for centralized handling.",
         "standardStatus": "Established standard",
@@ -3183,7 +3183,7 @@
     },
     {
         "name": "Web Application Manifest",
-        "category": "JavaScript",
+        "category": "DOM",
         "summary": "This specification defines a JSON-based manifest, which provides developers with a centralized place to put metadata associated with a web application.",
         "link": "https://w3c.github.io/manifest/",
         "standardStatus": "Working draft or equivalent",
@@ -3242,6 +3242,37 @@
         "id": null
     },
     {
+        "name": "ES6 Numeric Literals",
+        "category": "JavaScript",
+        "link": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts",
+        "summary": "Allows binary and octal numeric literals using 0b101 and 0o753 respectively.",
+        "standardStatus": "Editor's draft",
+        "ieStatus": {
+            "text": "Preview Release",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 4930171014479872
+    },
+    {
+        "name": "<dialog> element for modals",
+        "category": "User input",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/interactive-elements.html#the-dialog-element",
+        "summary": "An HTML element for modal and non-modal dialog boxes",
+        "ieStatus": {
+            "text": "Under consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 5770237022568448,
+        "uservoiceid": 6508895
+    }, {
         "name": "Date related input types",
         "category": "User Input",
         "link": "http://www.w3.org/html/wg/drafts/html/master/forms.html#date-state-(type=date)",
