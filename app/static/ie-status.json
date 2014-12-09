@@ -2524,17 +2524,7 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": null,
-        "impl_status_chrome": "No active development",
-        "ff_views": {
-            "text": "Shipped",
-            "value": 1
-        },
-        "shipped_opera_milestone": null,
-        "safari_views": {
-            "text": "No public signals",
-            "value": 5
-        }
+        "id": 6191285283061760
     },
     {
         "name": "CSS pointer-events",
@@ -3262,6 +3252,7 @@
         "category": "User input",
         "link": "http://www.w3.org/html/wg/drafts/html/master/interactive-elements.html#the-dialog-element",
         "summary": "An HTML element for modal and non-modal dialog boxes",
+        "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Under consideration",
             "iePrefixed": "",
