@@ -2777,7 +2777,7 @@
         "link": "http://www.w3.org/TR/css3-values/#resolution",
         "standardStatus": "Established Standard",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         }, 
