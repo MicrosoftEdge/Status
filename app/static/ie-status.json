@@ -1444,9 +1444,9 @@
     {
         "name": "User Timing API",
         "category": "Performance",
-        "link": "https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/UserTiming/Overview.html",
+        "link": "http://www.w3.org/TR/user-timing/",
         "summary": "Helps web developers measure the performance of their applications by giving them access to high precision timestamps.",
-        "standardStatus": "Working draft or equivalent",
+        "standardStatus": "Established standard",
         "ieStatus": {
             "text": "Shipped",
             "iePrefixed": "",
