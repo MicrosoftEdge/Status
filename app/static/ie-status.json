@@ -3385,5 +3385,31 @@
         "wpd": "",
         "demo": "",
         "id": null
+    },
+    {
+        "name": "SVG+SMIL Animation",
+        "category": "Multimedia",
+        "link": "http://www.w3.org/TR/SVG/animate.html",
+        "summary": "XML-based syntax for specifying animations of SVG.",
+        "standardStatus": "Established Standard",
+        "ieStatus": {
+            "text": "Not currently planned",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null
     }
 ]
