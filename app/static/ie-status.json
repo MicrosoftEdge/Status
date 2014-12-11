@@ -3427,5 +3427,31 @@
         "wpd": "",
         "demo": "",
         "id": 6248386202173440
+    },
+    {
+        "name": "Shared Web Workers",
+        "category": "JavaScript",
+        "link": "http://dev.w3.org/html5/workers/#shared-workers-and-the-sharedworker-interface",
+        "summary": "A special type of WebWorker that can commincate across windows/tabs for a site.",
+        "standardStatus": "Established Standard",
+        "ieStatus": {
+            "text": "Not currently planned",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "No Public Signals",
+            "value": 3
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null
     }
 ]
