@@ -3359,5 +3359,31 @@
         "wpd": "",
         "demo": "",
         "id": null
+    },
+    {
+        "name": "Media Fragments",
+        "category": "Multimedia",
+        "link": "http://www.w3.org/TR/media-frags/",
+        "summary": "Standardizes a URL fragment syntax for specifying a fragment of a media resource.",
+        "standardStatus": "Established Standard",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null
     }
 ]
