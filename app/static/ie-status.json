@@ -3333,5 +3333,31 @@
         "demo": "",
         "id": null,
         "uservoiceid": 6514003
+    },
+    {
+        "name": "<keygen> element",
+        "category": "Security",
+        "link": "http://www.w3.org/TR/html5/forms.html#the-keygen-element",
+        "summary": "A form element for a key pair generator control.  Support here indicates UI for picking keys and some transport to submit them. However, significant interoperability issues exist with the DOM interfaces and protocols for this feature.",
+        "standardStatus": "Established Standard",
+        "ieStatus": {
+            "text": "Not currently planned",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null
     }
 ]
