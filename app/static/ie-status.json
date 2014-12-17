@@ -2487,7 +2487,7 @@
         "name": "DOM Level 3 XPath",
         "category": "DOM",
         "link": "http://www.w3.org/TR/DOM-Level-3-XPath/",
-        "summary": "Provides simple functionalities to access a DOM tree using the XPath syntax.",
+        "summary": "Provides simple functionality to access a DOM tree using the XPath syntax.",
         "standardStatus": "Established standard",
         "ieStatus": {
             "text": "In Development",
