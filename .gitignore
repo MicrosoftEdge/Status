@@ -6,3 +6,4 @@ app/bower_components
 /.idea/
 app/styles/sprites.css
 *.brackets.json
+npm-debug.log
