@@ -5,6 +5,7 @@ var express = require('express'),
     cors = require('cors'),
     path = require('path'),
     bots = require(path.join(__dirname, 'lib', 'bots.js')),
+    webjob = require(path.join(__dirname, 'lib', 'webjob.js')),
     botsLength = bots.length,
     port = process.env.PORT || 9000,
     snapshotPath = path.join(__dirname, 'snapshots', 'snapshot__.html'),
@@ -16,6 +17,8 @@ if (process.argv[2] === 'debug') {
     root = 'app';
     debug = true;
 }
+
+webjob.execute();
 
 app.use(compress());
 
