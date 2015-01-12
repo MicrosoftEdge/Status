@@ -3453,5 +3453,31 @@
         "wpd": "",
         "demo": "",
         "id": null
+    },
+    {
+        "name": "Platform for Privacy Preferences 1.0 (P3P 1.0)",
+        "category": "Misc",
+        "link": "http://www.w3.org/TR/P3P/",
+        "summary": "The Platform for Privacy Preferences Project (P3P) enables web sites to express their privacy practices in a standard format allowing user agents to automate decision-making based on these practices when appropriate.",
+        "standardStatus": "Established Standard",
+        "ieStatus": {
+            "text": "Deprecated",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "impl_status_chrome": "No Public Signals",
+        "shipped_opera_milestone": false,
+        "ff_views": {
+            "text": "No Public Signals",
+            "value": 3
+        },
+        "safari_views": {
+            "text": "No Public Signals",
+            "value": 3
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null
     }
 ]
