@@ -825,7 +825,7 @@
     {
         "name": "IndexedDB",
         "category": "Offline / Storage",
-        "link": "https://dvcs.w3.org/hg/IndexedDB/raw-file/tip/Overview.html",
+        "link": "http://www.w3.org/TR/IndexedDB/",
         "summary": "An asynchronous client-side storage API offering fast access to large amounts of structured data",
         "standardStatus": "Established standard",
         "ieStatus": {
