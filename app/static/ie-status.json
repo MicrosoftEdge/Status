@@ -3479,5 +3479,31 @@
         "wpd": "",
         "demo": "",
         "id": null
+    },
+    {
+        "name": "Fetch API",
+        "category": "Network / Connectivity",
+        "link": "https://fetch.spec.whatwg.org/",
+        "summary": "The Fetch specification defines requests, responses, and the process that binds them; fetching.",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": false,
+        "ff_views": {
+            "text": "In Development",
+            "value": 2
+        },
+        "safari_views": {
+            "text": "No Public Signals",
+            "value": 3
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null
     }
 ]
