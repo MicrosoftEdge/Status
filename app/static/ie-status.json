@@ -3481,6 +3481,32 @@
         "id": null
     },
     {
+        "name": "WOFF File Format 2.0",
+        "category": "CSS",
+        "link": "http://www.w3.org/TR/WOFF2/",
+        "summary": "Based on experience with WOFF 1.0, which is widely deployed, this specification was developed to provide improved compression and thus lower use of network bandwidth, while still allowing fast decompression even on mobile devices. This is achieved by combining a content-aware preprocessing step and improved entropy coding, compared to the Flate compression used in WOFF 1.0.",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Under consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "In development",
+            "value": 2
+        },
+        "safari_views": {
+            "text": "No Public Signals",
+            "value": 3
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 6718644721549312
+    },
+    {
         "name": "Fetch API",
         "category": "Network / Connectivity",
         "link": "https://fetch.spec.whatwg.org/",
@@ -3506,4 +3532,5 @@
         "demo": "",
         "id": null
     }
+
 ]
