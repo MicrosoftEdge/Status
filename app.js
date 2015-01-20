@@ -48,6 +48,7 @@ var sendMainPage = function (req, res) {
         }
     }
 
+    res.set("Strict-Transport-Security","max-age=31536000");
     res.sendfile(path.join(__dirname, root, 'index.html'));
 };
 
