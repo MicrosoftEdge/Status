@@ -147,7 +147,7 @@
         "summary": "Adds the ability to get information about multiple video tracks, and switch between them using the VideoTrack.selected attributes.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Under Consideration",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -705,7 +705,7 @@
         "summary": "Header to inform the browser to always request a given domain over SSL, reducing MITM attack surface area.",
         "standardStatus": "Established standard",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -2490,7 +2490,7 @@
         "summary": "Provides simple functionality to access a DOM tree using the XPath syntax.",
         "standardStatus": "Established standard",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -3532,6 +3532,32 @@
         "demo": "",
         "id": null,
         "uservoiceid": 6964411
+    },
+     {
+        "name": "HTTP Live Streaming (HLS)",
+        "category": "Multimedia",
+        "link": "http://tools.ietf.org/html/draft-pantos-http-live-streaming-08",
+        "summary": "Expands our plugin-free adaptive video streaming to support the popular HLS protocol for transferring unbounded streams of multimedia data.",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Preview Release",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": false,
+        "ff_views": {
+            "text": "No Public Signals",
+            "value": 3
+        },
+        "safari_views": {
+            "text": "No Public Signals",
+            "value": 3
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null
     }
 
 ]
