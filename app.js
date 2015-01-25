@@ -49,7 +49,7 @@ var sendMainPage = function (req, res) {
     }
 
     res.set("Strict-Transport-Security","max-age=31536000");
-    res.set("Content-Security-Policy", "default-src 'none'; connect-src dc.services.visualstudio.com 'self' https://www.chromestatus.com; font-src www.modern.ie; img-src 'self' ssl.google-analytics.com; script-src az416426.vo.msecnd.net 'self' 'unsafe-eval' 'unsafe-inline' www.google-analytics.com; style-src 'self' 'unsafe-inline'");
+    res.set("Content-Security-Policy", "default-src 'none'; connect-src dc.services.visualstudio.com 'self' https://www.chromestatus.com; font-src www.modern.ie; img-src 'self' ssl.google-analytics.com; script-src az416426.vo.msecnd.net 'self' 'unsafe-inline' www.google-analytics.com; style-src 'self' 'unsafe-inline'");
 
     res.sendfile(path.join(__dirname, root, 'index.html'));
 };
