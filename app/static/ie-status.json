@@ -2148,7 +2148,7 @@
         "summary": "A generator is a special type of function that works as a factory for iterators.",
         "standardStatus": "Editor's draft",
         "ieStatus": {
-            "text": "Under Consideration",
+            "text": "In Development",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -3558,6 +3558,31 @@
         "wpd": "",
         "demo": "",
         "id": null
+    },
+    {
+        "name": "Motion JPEG (MJPG)",
+        "category": "Multimedia",
+        "link": "",
+        "summary": "Adds support for the MJPG video format, popular with IP cameras.",
+        "standardStatus": "Defacto standard",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "Enabled by default",
+            "value": 3
+        },
+        "safari_views": {
+            "text": "Enabled by default",
+            "value": 3
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null
     }
-
 ]
