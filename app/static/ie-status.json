@@ -3574,15 +3574,35 @@
         "shipped_opera_milestone": true,
         "ff_views": {
             "text": "Enabled by default",
-            "value": 3
+            "value": 2
         },
         "safari_views": {
             "text": "Enabled by default",
-            "value": 3
+            "value": 2
         },
         "msdn": "",
         "wpd": "",
         "demo": "",
         "id": null
+    },
+    {
+        "name": "WebM video",
+        "category": "Graphics",
+        "link": "http://www.webmproject.org/ie",
+        "summary": "WebM is a video file format intended primarily for HTML5 video. Native support is not currently planned. However, WebM can be enabled by installing 3rd party WebM components.",
+        "standardStatus": "Public discussion",
+        "ieStatus": {
+            "text": "Not currently planned",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "ff_views": {
+            "text": "Enabled by default",
+            "value": 2
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "http://www.webmproject.org/ie/",
+        "id": 6471725441089536
     }
 ]
