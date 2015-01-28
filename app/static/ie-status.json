@@ -2820,7 +2820,7 @@
         "name": "DOM Event Constructors",
         "category": "DOM",
         "summary": "Replaces document.createEvent() and associated event object init methods with constructors for each event interface.",
-        "link": "http://www.w3.org/TR/dom/",
+        "link": "http://w3c.github.io/dom/#constructing-events",
         "standardStatus": "Established Standard",
         "ieStatus": {
             "text": "Preview Release",
