@@ -2821,9 +2821,9 @@
         "category": "DOM",
         "summary": "Replaces document.createEvent() and associated event object init methods with constructors for each event interface.",
         "link": "http://w3c.github.io/dom/#constructing-events",
-        "standardStatus": "Editor's Draft",
+        "standardStatus": "Established Standard",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         }, 
