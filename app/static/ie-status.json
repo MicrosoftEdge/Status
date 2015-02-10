@@ -2295,7 +2295,7 @@
     {
         "name": "Server-Sent Events (EventSource)",
         "category": "DOM",
-        "link": "http://dev.w3.org/html5/eventsource/",
+        "link": "http://www.w3.org/TR/eventsource/",
         "summary": "Enables push notifications from the server received as DOM events.",
         "standardStatus": "Established standard",
         "ieStatus": {
