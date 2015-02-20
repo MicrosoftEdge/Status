@@ -3206,7 +3206,8 @@
             "text": "No Public Signals",
             "value": 1
         },       
-        "id": null
+        "id": null,
+        "uservoiceid": 7027589
     },
     {
         "name": "ECMAScript Internationalization API",
@@ -3505,7 +3506,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6718644721549312
+        "id": 6718644721549312,
+        "uservoiceid": 6510222
     },
     {
         "name": "Fetch API",
