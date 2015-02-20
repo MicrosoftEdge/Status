@@ -1427,9 +1427,9 @@
     {
         "name": "URL API",
         "category": "DOM",
-        "link": "https://dvcs.w3.org/hg/url/raw-file/tip/Overview.html",
+        "link": "https://url.spec.whatwg.org/",
         "summary": "Expose constructible URL objects that can be manipulated and combined.",
-        "standardStatus": "Established standard",
+        "standardStatus": "Editor's draft",
         "ieStatus": {
             "text": "Under Consideration",
             "iePrefixed": "",
