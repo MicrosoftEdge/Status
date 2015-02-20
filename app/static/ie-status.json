@@ -1460,9 +1460,9 @@
     {
         "name": "Vibration API",
         "category": "Device",
-        "link": "http://dev.w3.org/2009/dap/vibration/",
+        "link": "http://www.w3.org/TR/vibration/",
         "summary": "This specification defines an API that provides access to the vibration mechanism of the hosting device. Vibration is a form of tactile feedback. ",
-        "standardStatus": "Working draft or equivalent",
+        "standardStatus": "Established standard",
         "ieStatus": {
             "text": "Under Consideration",
             "iePrefixed": "",
