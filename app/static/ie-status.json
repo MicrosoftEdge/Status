@@ -1133,7 +1133,7 @@
     {
         "name": "Pointer Events",
         "category": "User input",
-        "link": "https://dvcs.w3.org/hg/pointerevents/raw-file/tip/pointerEvents.html",
+        "link": "http://www.w3.org/TR/pointerevents/",
         "summary": "Unified pointer input API (e.g. mouse, pen, touch input) which addresses several existing problems (especially on touchscreen laptops) and provides future extensibility.",
         "standardStatus": "Established standard",
         "ieStatus": {
