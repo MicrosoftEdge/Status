@@ -735,7 +735,7 @@
         "category": "Network / Connectivity",
         "link": "http://datatracker.ietf.org/wg/httpbis/",
         "summary": "A faster protocol for transporting web content being standardized by the IETF.",
-        "standardStatus": "Working draft or equivalent",
+        "standardStatus": "Established standard",
         "ieStatus": {
             "text": "Preview Release",
             "iePrefixed": "",
