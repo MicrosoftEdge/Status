@@ -556,9 +556,9 @@
         "summary": "Programmatically instruct content on the page to be presented in the browser's full screen (kiosk) mode.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Prefixed",
+            "text": "Preview Release",
             "iePrefixed": "11",
-            "ieUnprefixed": ""
+            "ieUnprefixed": "12"
         },
         "msdn": "https://msdn.microsoft.com/library/ie/dn265028",
         "wpd": "https://docs.webplatform.org/wiki/tutorials/using_the_full-screen_api",
@@ -2097,7 +2097,7 @@
         "summary": "A high-level JavaScript API for processing and synthesizing audio in web applications",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },

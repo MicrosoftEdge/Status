@@ -8,10 +8,10 @@
         <h1 data-bo-id="feature.normalized_name" class="feature_name" data-bo-text="feature.name"></h1>
 
         <div class="feature-info">
-            <p class="ie-status" data-bo-if="feature.position!=='Deprecated' && (feature.browsers.ie.prefixed || feature.browsers.ie.unprefixed)"
+            <p class="ie-status" data-bo-if="feature.position!=='Deprecated' && (feature.browsers.ie.prefixed || feature.browsers.ie.unprefixed) && feature.browsers.ie.unprefixed!=12"
                  data-bo-text="'IE' + (feature.browsers.ie.prefixed || feature.browsers.ie.unprefixed) + '+'"
                  data-bo-title="feature.statusDescription"></p>
-            <p class="ie-status" data-bo-if="!(feature.browsers.ie.prefixed || feature.browsers.ie.unprefixed) || feature.position==='Deprecated'"
+            <p class="ie-status" data-bo-if="!(feature.browsers.ie.prefixed || feature.browsers.ie.unprefixed) || feature.position==='Deprecated' || feature.browsers.ie.unprefixed==12"
                  data-bo-text="feature.position" data-bo-title="feature.statusDescription"></p>
         </div>
     </button>
@@ -23,8 +23,11 @@
             <strong>Prefixed version:</strong> IE<span data-bo-text="feature.browsers.ie.prefixed"></span>
         </p>
 
-        <p data-bo-if="feature.browsers.ie.unprefixed">
+        <p data-bo-if="feature.browsers.ie.unprefixed&&feature.browsers.ie.unprefixed!=12">
             <strong>Unprefixed version:</strong> IE<span data-bo-text="feature.browsers.ie.unprefixed"></span>
+        </p>
+        <p data-bo-if="feature.browsers.ie.unprefixed==12">
+            <strong>Unprefixed version:</strong> Project Spartan
         </p>
 
         <p data-bo-if="feature.uservoice">
