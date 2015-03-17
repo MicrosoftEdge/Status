@@ -74,7 +74,7 @@
         "name": "<template> Element",
         "category": "Web Components",
         "link": "http://www.w3.org/html/wg/drafts/html/master/scripting-1.html#the-template-element",
-        "summary": "HTML template element to allow creating fragment of inert HTML as a prototype for stamping out DOM.",
+        "summary": "HTML template element to allow creating fragment of inert HTML as a prototype for stamping out DOM (often used in Web Components).",
         "standardStatus": "Established standard",
         "ieStatus": {
             "text": "Under Consideration",
@@ -359,7 +359,7 @@
         "name": "Custom Elements",
         "category": "Web Components",
         "link": "http://www.w3.org/TR/custom-elements/",
-        "summary": "Method for registering (creating) custom elements in script.",
+        "summary": "Method for registering (creating) custom elements in script (often used in Web Components).",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Under Consideration",
@@ -668,7 +668,7 @@
         "name": "HTML Imports",
         "category": "Web Components",
         "link": "https://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/imports/index.html",
-        "summary": "Import HTML documents into other HTML documents.",
+        "summary": "Import HTML documents into other HTML documents (often used in Web Components).",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Under Consideration",
@@ -2077,7 +2077,7 @@
         "name": "Shadow DOM (unprefixed)",
         "category": "Web Components",
         "link": "http://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/shadow/index.html",
-        "summary": "Enables DOM tree encapsulation. Without it, widgets may inadvertently break pages by using conflicting CSS selectors, class or id names, or JavaScript variables.",
+        "summary": "Enables DOM tree encapsulation. Without it, widgets may inadvertently break pages by using conflicting CSS selectors, class or id names, or JavaScript variables (often used in Web Components).",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Under Consideration",
