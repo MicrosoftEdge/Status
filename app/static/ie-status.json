@@ -3590,7 +3590,7 @@
     },
     {
         "name": "WebM video",
-        "category": "Graphics",
+        "category": "Multimedia",
         "link": "http://www.webmproject.org/ie",
         "summary": "WebM is a video file format intended primarily for HTML5 video. Native support is not currently planned. However, WebM can be enabled by installing 3rd party WebM components.",
         "standardStatus": "Public discussion",
@@ -3607,5 +3607,31 @@
         "wpd": "",
         "demo": "http://www.webmproject.org/ie/",
         "id": 6471725441089536
+    },
+    {
+        "name": "CSS Gradient Midpoints",
+        "category": "Graphics",
+        "link": "http://dev.w3.org/csswg/css-images/#color-stop-syntax",
+        "summary": "Allows specifying an optional location between the color stops of a CSS gradient.",
+        "standardStatus": "Established Standard",
+        "ieStatus": {
+            "text": "Preview Release",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "Enabled by default",
+            "value": 2
+        },
+        "safari_views": {
+            "text": "Enabled by default",
+            "value": 2
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null
     }
 ]
