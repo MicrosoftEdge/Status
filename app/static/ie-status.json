@@ -2131,7 +2131,7 @@
         "summary": "Support for the @supports at-rule and the \"window.CSS.supports()\" API",
         "standardStatus": "Established standard",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -2229,10 +2229,10 @@
         "name": "Touch Events",
         "category": "User input",
         "link": "http://www.w3.org/TR/touch-events/",
-        "summary": "Touchscreen input API, originally introduced by Apple on iOS. Development work for IE is currently for Windows Phone only. See Pointer Events for touch, pen, and mouse input across all devices supported by IE.",
+        "summary": "Touchscreen input API, originally introduced by Apple on iOS. Support is currently limited to only devices with a touchscreen (can be overridden in about:flags). See Pointer Events for touch, pen, and mouse input across all device types.",
         "standardStatus": "Established standard",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -3272,7 +3272,7 @@
         "summary": "Input controls for picking dates via <input type='date'>,<input type='month'>, and <input type='week'>.",
         "standardStatus": "Established Standard",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -3614,6 +3614,110 @@
         "link": "http://dev.w3.org/csswg/css-images/#color-stop-syntax",
         "summary": "Allows specifying an optional location between the color stops of a CSS gradient.",
         "standardStatus": "Established Standard",
+        "ieStatus": {
+            "text": "Preview Release",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "Enabled by default",
+            "value": 2
+        },
+        "safari_views": {
+            "text": "Enabled by default",
+            "value": 2
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null
+    },
+    {
+        "name": "ARIA Landmark Roles",
+        "category": "Misc",
+        "link": "http://www.w3.org/TR/wai-aria/roles#landmark_roles ",
+        "summary": "Support for ARIA roles indicating regions of the page intended as navigational landmarks.",
+        "standardStatus": "Established Standard",
+        "ieStatus": {
+            "text": "Preview Release",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "Enabled by default",
+            "value": 2
+        },
+        "safari_views": {
+            "text": "Enabled by default",
+            "value": 2
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null
+    },
+    {
+        "name": "HTML Sections in Accessibility API",
+        "category": "Misc",
+        "link": "http://www.w3.org/TR/html-aapi/",
+        "summary": "Exposes HTML sectioning elements (such as section, article, main, etc.) in the Accessibility API.",
+        "standardStatus": "Established Standard",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "Enabled by default",
+            "value": 2
+        },
+        "safari_views": {
+            "text": "Enabled by default",
+            "value": 2
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null
+    },
+    {
+        "name": "ARIA role 'none'",
+        "category": "Misc",
+        "link": "http://www.w3.org/TR/wai-aria-1.1/#none",
+        "summary": "Support for the 'none' ARIA role to indicate an element whose implicit native role semantics should not be mapped to the accessibility API.",
+        "standardStatus": "Established Standard",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "impl_status_chrome": "No active development",
+        "shipped_opera_milestone": false,
+        "ff_views": {
+            "text": "Enabled by default",
+            "value": 2
+        },
+        "safari_views": {
+            "text": "Enabled by default",
+            "value": 2
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null
+    },
+    {
+        "name": "CSS Transitions & Animations for SVG elements",
+        "category": "Graphics",
+        "link": "http://dev.w3.org/csswg/css-animations-1/",
+        "summary": "Allows CSS Transitions and Animations to apply to SVG elements.",
+        "standardStatus": "Defacto Standard",
         "ieStatus": {
             "text": "Preview Release",
             "iePrefixed": "",
