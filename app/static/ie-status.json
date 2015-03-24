@@ -3737,5 +3737,21 @@
         "wpd": "",
         "demo": "",
         "id": null
+    },
+    {
+        "name": "Upgrade insecure resource requests",
+        "category": "Network / Connectivity",
+        "link": "https://w3c.github.io/webappsec/specs/upgrade/",
+        "summary": "A mechanism which allows authors to instruct a user agent to upgrade a priori insecure resource requests to secure transport before Fetching them.",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 6534575509471232       
     }
 ]
