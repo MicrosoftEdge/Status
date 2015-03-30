@@ -39,7 +39,7 @@
         "summary": "Enable a responsive images solution by providing the browser multiple resources in varying resolutions for a single image.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -156,7 +156,7 @@
         "demo": "",
         "id": 5748496434987008,
         "uservoiceid": 6261284
-    },	
+    },
     {
         "name": "Blob",
         "category": "File APIs",
@@ -2729,7 +2729,7 @@
         },
         "impl_status_chrome": "No active development",
         "uservoiceid": 6263911
-    },  
+    },
     {
         "name": "SVG External Content",
         "category": "Graphics",
@@ -2768,7 +2768,7 @@
             "text": "In Development",
             "iePrefixed": "",
             "ieUnprefixed": ""
-        }, 
+        },
         "id": 5126747842412544
     },
     {
@@ -2781,7 +2781,7 @@
             "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
-        }, 
+        },
         "impl_status_chrome": "Enabled by default",
         "shipped_opera_milestone": true,
         "ff_views": {
@@ -2791,7 +2791,7 @@
         "safari_views": {
             "text": "Shipped",
             "value": 1
-        },       
+        },
         "id": null
     },
     {
@@ -2804,7 +2804,7 @@
             "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
-        }, 
+        },
         "impl_status_chrome": "Enabled by default",
         "shipped_opera_milestone": true,
         "ff_views": {
@@ -2814,7 +2814,7 @@
         "safari_views": {
             "text": "No Public Signals",
             "value": 1
-        },       
+        },
         "id": null
     },
     {
@@ -2827,7 +2827,7 @@
             "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
-        }, 
+        },
         "impl_status_chrome": "Enabled by default",
         "shipped_opera_milestone": true,
         "ff_views": {
@@ -2837,7 +2837,7 @@
         "safari_views": {
             "text": "Shipped",
             "value": 1
-        },       
+        },
         "id": null
     },
     {
@@ -2850,7 +2850,7 @@
             "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
-        }, 
+        },
         "id": 5920790725787648
     },
     {
@@ -2863,7 +2863,7 @@
             "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
-        }, 
+        },
         "impl_status_chrome": "Enabled by default",
         "shipped_opera_milestone": true,
         "ff_views": {
@@ -2873,7 +2873,7 @@
         "safari_views": {
             "text": "No Signals",
             "value": 3
-        },       
+        },
         "id": null
     },
     {
@@ -2886,7 +2886,7 @@
             "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
-        }, 
+        },
         "impl_status_chrome": "Enabled by default",
         "shipped_opera_milestone": true,
         "ff_views": {
@@ -2896,7 +2896,7 @@
         "safari_views": {
             "text": "No Signals",
             "value": 3
-        },       
+        },
         "id": null
     },
     {
@@ -2909,7 +2909,7 @@
             "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
-        }, 
+        },
         "impl_status_chrome": "In development",
         "shipped_opera_milestone": false,
         "ff_views": {
@@ -2919,7 +2919,7 @@
         "safari_views": {
             "text": "No Signals",
             "value": 3
-        },       
+        },
         "id": null
     },
     {
@@ -2932,7 +2932,7 @@
             "text": "In Development",
             "iePrefixed": "",
             "ieUnprefixed": ""
-        }, 
+        },
         "impl_status_chrome": "No Signals",
         "shipped_opera_milestone": false,
         "ff_views": {
@@ -2942,7 +2942,7 @@
         "safari_views": {
             "text": "No Signals",
             "value": 3
-        },       
+        },
         "id": null
     },
     {
@@ -2955,7 +2955,7 @@
             "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
-        }, 
+        },
         "id": 5977677567623168
     },
     {
@@ -2968,7 +2968,7 @@
             "text": "Shipped",
             "iePrefixed": "",
             "ieUnprefixed": "11"
-        }, 
+        },
         "impl_status_chrome": "Enabled by default",
         "shipped_opera_milestone": true,
         "ff_views": {
@@ -2978,7 +2978,7 @@
         "safari_views": {
             "text": "Shipped",
             "value": 1
-        },       
+        },
         "id": null
     },
     {
@@ -2991,7 +2991,7 @@
             "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
-        }, 
+        },
         "id": 4633745457938432,
         "uservoiceid": 6510201
     },
@@ -3005,7 +3005,7 @@
             "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
-        }, 
+        },
         "impl_status_chrome": "No active development",
         "shipped_opera_milestone": false,
         "ff_views": {
@@ -3015,7 +3015,7 @@
         "safari_views": {
             "text": "No Signals",
             "value": 3
-        },       
+        },
         "id": null
     },
     {
@@ -3028,7 +3028,7 @@
             "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
-        }, 
+        },
         "impl_status_chrome": "No active development",
         "shipped_opera_milestone": false,
         "ff_views": {
@@ -3038,7 +3038,7 @@
         "safari_views": {
             "text": "No Signals",
             "value": 3
-        },       
+        },
         "id": null
     },
     {
@@ -3051,7 +3051,7 @@
             "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
-        }, 
+        },
         "id": 5516876633341952
     },
     {
@@ -3064,7 +3064,7 @@
             "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
-        }, 
+        },
         "impl_status_chrome": "No active development",
         "shipped_opera_milestone": false,
         "ff_views": {
@@ -3074,7 +3074,7 @@
         "safari_views": {
             "text": "No Signals",
             "value": 3
-        },       
+        },
         "id": null
     },
     {
@@ -3087,7 +3087,7 @@
             "text": "In Development",
             "iePrefixed": "",
             "ieUnprefixed": ""
-        }, 
+        },
         "impl_status_chrome": "No active development",
         "shipped_opera_milestone": false,
         "ff_views": {
@@ -3097,7 +3097,7 @@
         "safari_views": {
             "text": "No Signals",
             "value": 3
-        },       
+        },
         "id": null
     },
     {
@@ -3110,7 +3110,7 @@
             "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
-        }, 
+        },
         "impl_status_chrome": "No active development",
         "shipped_opera_milestone": false,
         "ff_views": {
@@ -3120,7 +3120,7 @@
         "safari_views": {
             "text": "No Signals",
             "value": 3
-        },       
+        },
         "id": null,
         "uservoiceid": 6510097
     },
@@ -3134,7 +3134,7 @@
             "text": "In Development",
             "iePrefixed": "",
             "ieUnprefixed": ""
-        }, 
+        },
         "impl_status_chrome": "No active development",
         "shipped_opera_milestone": false,
         "ff_views": {
@@ -3144,7 +3144,7 @@
         "safari_views": {
             "text": "No Signals",
             "value": 3
-        },       
+        },
         "id": null,
         "uservoiceid": 6509389
     },
@@ -3158,7 +3158,7 @@
             "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
-        }, 
+        },
         "impl_status_chrome": "Enabled by default",
         "shipped_opera_milestone": true,
         "ff_views": {
@@ -3168,7 +3168,7 @@
         "safari_views": {
             "text": "Shipped",
             "value": 1
-        },       
+        },
         "id": null,
         "uservoiceid": 6515107
     },
@@ -3195,7 +3195,7 @@
             "text": "Under Consideration",
             "iePrefixed": "",
             "ieUnprefixed": ""
-        }, 
+        },
         "impl_status_chrome": "Enabled by default",
         "shipped_opera_milestone": true,
         "ff_views": {
@@ -3205,7 +3205,7 @@
         "safari_views": {
             "text": "No Public Signals",
             "value": 1
-        },       
+        },
         "id": null,
         "uservoiceid": 7027589
     },
@@ -3220,7 +3220,7 @@
             "text": "Shipped",
             "iePrefixed": "",
             "ieUnprefixed": "11"
-        }, 
+        },
         "impl_status_chrome": "Enabled by default",
         "shipped_opera_milestone": true,
         "ff_views": {
@@ -3230,7 +3230,7 @@
         "safari_views": {
             "text": "No Signals",
             "value": 3
-        },       
+        },
         "id": null
     },
     {
@@ -3753,6 +3753,6 @@
         "wpd": "",
         "demo": "",
         "id": 6534575509471232,
-        "uservoiceid": 7314353       
+        "uservoiceid": 7314353
     }
 ]
