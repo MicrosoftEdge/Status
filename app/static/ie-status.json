@@ -524,7 +524,7 @@
         "summary": "Apply filter effects to arbitrary DOM elements.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
