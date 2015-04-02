@@ -1641,6 +1641,23 @@
         "id": 6049512976023552
     },
     {
+        "name": "WebGL2  (Canvas 3D)",
+        "category": "Graphics",
+        "link": "https://www.khronos.org/registry/webgl/specs/latest/",
+        "summary": "3D rendering via the <canvas> element. ",
+        "standardStatus": "Established standard",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 6694359164518400,
+        "uservoiceid": 6517037
+    },
+    {
         "name": "WebP image format support",
         "category": "Graphics",
         "link": "https://developers.google.com/speed/webp/docs/riff_container",
