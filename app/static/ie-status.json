@@ -3754,32 +3754,6 @@
         "demo": "",
         "id": 6534575509471232,
         "uservoiceid": 7314353
-    },
-    {
-        "name": "CSS Expressive Generalizations and Gadgetry",
-        "category": "Graphics",
-        "link": "http://dev.w3.org/csswg/css-egg/#rainbow",
-        "summary": "Extends the vocabulary of CSS with terms frequently used in certain domains, making it easier for authors to write understandable and maintainable style sheets, including double rainbow rendering.",
-        "standardStatus": "Working draft or equivalent",
-        "ieStatus": {
-            "text": "In Development",
-            "iePrefixed": "",
-            "ieUnprefixed": ""
-        },
-        "impl_status_chrome": "No active development",
-        "shipped_opera_milestone": true,
-        "ff_views": {
-            "text": "No public signals",
-            "value": 2
-        },
-        "safari_views": {
-            "text": "No public signals",
-            "value": 2
-        },
-        "msdn": "",
-        "wpd": "",
-        "demo": "",
-        "id": null
     }
 ]
 
