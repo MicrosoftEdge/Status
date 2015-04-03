@@ -3772,5 +3772,22 @@
     "demo": "",
     "id": null,
     "uservoiceid": 7438435
+  },
+  {
+    "name": "WebGL2 (Canvas 3D)",
+    "category": "Graphics",
+    "link": "https://www.khronos.org/registry/webgl/specs/latest/",
+    "summary": "3D rendering via the <canvas> element using an API that conforms closely to the OpenGL ES 3.0 API. ",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text":  "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 6694359164518400,
+    "uservoiceid": 6517037
   }
 ]
