@@ -1645,9 +1645,9 @@
     "category": "Graphics",
     "link": "https://www.khronos.org/registry/webgl/specs/latest/",
     "summary": "3D rendering via the <canvas> element using an API that conforms closely to the OpenGL ES 3.0 API. ",
-    "standardStatus": "Under Consideration",
+    "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "",
+      "text": "Under Consideration",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
