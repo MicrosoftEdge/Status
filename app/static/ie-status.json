@@ -1628,7 +1628,7 @@
     "name": "WebGL  (Canvas 3D)",
     "category": "Graphics",
     "link": "https://www.khronos.org/registry/webgl/specs/latest/",
-    "summary": "3D rendering via the <canvas> element. ",
+    "summary": "3D rendering via the <canvas> element using an API that conforms closely to the OpenGL ES 2.0 API. ",
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Prefixed",
@@ -1639,6 +1639,23 @@
     "wpd": "https://docs.webplatform.org/wiki/webgl",
     "demo": "",
     "id": 6049512976023552
+  },
+  {
+    "name": "WebGL2  (Canvas 3D)",
+    "category": "Graphics",
+    "link": "https://www.khronos.org/registry/webgl/specs/latest/",
+    "summary": "3D rendering via the <canvas> element using an API that conforms closely to the OpenGL ES 3.0 API. ",
+    "standardStatus": "Under Consideration",
+    "ieStatus": {
+      "text": "",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 6694359164518400,
+    "uservoiceid": 6517037
   },
   {
     "name": "WebP image format support",
