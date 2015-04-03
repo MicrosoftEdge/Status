@@ -3754,5 +3754,23 @@
         "demo": "",
         "id": 6534575509471232,
         "uservoiceid": 7314353
+    },
+    {
+    "name": "CSS Logical Properties Level 1",
+    "category": "CSS",
+    "link": "http://dev.w3.org/csswg/css-logical-props/",
+    "summary": "Introduces logical properties and values that provide the author with the ability to control layout through logical, rather than physical, direction and dimension mappings.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+        "text": "Under Consideration",
+        "iePrefixed": "",
+        "ieUnprefixed": ""
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 7438435
     }
 ]
+
