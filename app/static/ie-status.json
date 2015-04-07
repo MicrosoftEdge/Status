@@ -2608,7 +2608,7 @@
   {
     "name": "Media Queries Level 4: Interaction Media Features (pointer and hover)",
     "category": "CSS",
-    "link": "http://dev.w3.org/csswg/mediaqueries4/#mf-interaction",
+    "link": "http://dev.w3.org/csswg/mediaqueries-4/#mf-interaction",
     "summary": "Allows to query the presence and accuracy of the user's pointing input (e.g. for differentiating touch versus mouse). Additionally, allows the page to query whether the user's pointing input supports hover.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
