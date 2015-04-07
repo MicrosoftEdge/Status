@@ -3821,7 +3821,7 @@
     "name": "console.table",
     "category": "Misc",
     "link": "https://github.com/DeveloperToolsWG/console-object",
-    "summary": "console.table allows the logging of tabluar data to a connected developer tool.",
+    "summary": "console.table allows the logging of tabular data to a connected developer tool.",
     "standardStatus": "Public discussion",
     "ieStatus": {
       "text":  "Under Consideration",
