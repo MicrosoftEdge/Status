@@ -3029,17 +3029,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
-    "impl_status_chrome": "No active development",
-    "shipped_opera_milestone": false,
-    "ff_views": {
-      "text": "Shipped",
-      "value": 1
-    },
-    "safari_views": {
-      "text": "No Signals",
-      "value": 3
-    },
-    "id": null
+    "id": 4743002513735680
   },
   {
     "name": "Tail Calls (ES6)",
