@@ -1845,7 +1845,7 @@
     "summary": "Ambient Light Event API which is a handy way to make a web page or web app aware of any change in light intensity.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
