@@ -3307,7 +3307,7 @@
     "summary": "Semantic HTML5 element that represents the main content of the document or application.",
     "standardStatus": "Established Standard",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
@@ -3833,5 +3833,55 @@
     "demo": "",
     "id": null,
     "uservoiceid": 6796750
+  },
+    {
+    "name": "CSS intial value",
+    "category": "CSS",
+    "link": "http://dev.w3.org/csswg/css-cascade/#initial",
+    "summary": "If the cascaded value of a property is the initial keyword, the property’s initial value becomes its specified value.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "shipped_opera_milestone": true,
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 6587303
+  },
+      {
+    "name": "CSS unset value",
+    "category": "CSS",
+    "link": "http://dev.w3.org/csswg/css-cascade/#unset",
+    "summary": "If the cascaded value of a property is the ‘‘unset’#’ keyword, then if it is an inherited property, this is treated as ‘inherit’, and if it is not, this is treated as ‘initial’. This keyword effectively erases all declared values occurring earlier in the cascade, correctly inheriting or not as appropriate for the property (or all longhands of a shorthand).",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "shipped_opera_milestone": true,
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
   }
 ]
