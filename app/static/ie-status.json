@@ -3307,7 +3307,7 @@
     "summary": "Semantic HTML5 element that represents the main content of the document or application.",
     "standardStatus": "Established Standard",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
