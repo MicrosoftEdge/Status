@@ -3789,7 +3789,7 @@
     "ieStatus": {
       "text":  "Shipped",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
