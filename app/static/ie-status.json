@@ -1992,9 +1992,9 @@
   {
     "name": "Shapes",
     "category": "CSS",
-    "link": "http://dev.w3.org/csswg/css-shapes/",
+    "link": "http://www.w3.org/TR/css-shapes/",
     "summary": "Define arbitrary shapes inside and around which inline content can flow.",
-    "standardStatus": "Working draft or equivalent",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
