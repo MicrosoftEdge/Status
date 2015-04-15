@@ -3883,5 +3883,26 @@
     "demo": "",
     "id": null,
     "uservoiceid": null
+  },
+      {
+    "name": "showModalDialog",
+    "category": "CSS",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/browsers.html#window",
+    "summary": "The global showModalDialog() method displays a modal dialog box containing a specified HTML document. This feature has an incredibly high cost in terms of code complexity since it requires us to run an event loop on top of an arbitrary JavaScript stack. It also complicates the web platform by making task dispatch reentrant and hard to reason about.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text": "Deprecated",
+      "iePrefixed": "",
+      "ieUnprefixed": "8"
+    },
+    "ff_views": {
+      "text": "Deprecated",
+      "value": 1
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 5608754573737984,
+    "uservoiceid": null
   }
 ]
