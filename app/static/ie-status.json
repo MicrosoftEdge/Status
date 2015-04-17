@@ -684,7 +684,7 @@
   {
     "name": "HTTP Client Hints",
     "category": "Network / Connectivity",
-    "link": "http://tools.ietf.org/html/draft-grigorik-http-client-hints",
+    "link": "https://tools.ietf.org/html/draft-grigorik-http-client-hints",
     "summary": "Header for proactive content negotiation; just as the Accept header allowed clients to indicate what formats they prefer, Client Hints allow clients to indicate a list of device and agent specific preferences.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
@@ -701,7 +701,7 @@
   {
     "name": "HTTP Strict Transport Security (HSTS)",
     "category": "Security",
-    "link": "http://tools.ietf.org/html/rfc6797",
+    "link": "https://tools.ietf.org/html/rfc6797",
     "summary": "Header to inform the browser to always request a given domain over SSL, reducing MITM attack surface area.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -1346,7 +1346,7 @@
   {
     "name": "TLS 1.2",
     "category": "Network / Connectivity",
-    "link": "http://tools.ietf.org/html/rfc5246",
+    "link": "https://tools.ietf.org/html/rfc5246",
     "summary": "The latest version of the Transport Layer Security (TLS) protocol. Allows for data/message confidentiality, and message authentication codes for message integrity and as a by-product message authentication.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -3179,7 +3179,7 @@
     "name": "Public Key Pinning Extension for HTTP",
     "category": "Network / Connectivity",
     "summary": "Certificate public key pinning is a mechanism which allows specifying a key that must be present in the certificate chain associated with a domain name. HTTP Public Key Pinning (HPKP) is one way of doing certificate public key pinning. In this method, site owner defines pin rules for his domain name via HTTP header. This mechanism assumes that user has had a first clean connection to the site.",
-    "link": "http://tools.ietf.org/html/draft-ietf-websec-key-pinning-21",
+    "link": "https://tools.ietf.org/html/rfc7469",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
@@ -3530,7 +3530,7 @@
   {
     "name": "HTTP Live Streaming (HLS)",
     "category": "Multimedia",
-    "link": "http://tools.ietf.org/html/draft-pantos-http-live-streaming-08",
+    "link": "https://tools.ietf.org/html/draft-pantos-http-live-streaming-08",
     "summary": "Expands our plugin-free adaptive video streaming to support the popular HLS protocol for transferring unbounded streams of multimedia data.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
