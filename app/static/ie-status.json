@@ -622,7 +622,7 @@
     "summary": "Provides access to the user's local audio and video input/output devices (getUserMedia API).",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
