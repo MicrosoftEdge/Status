@@ -1795,7 +1795,7 @@
     "summary": "Allows formal parameters to be initialized with default values if no value is passed.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
@@ -2148,7 +2148,7 @@
     "summary": "A generator is a special type of function that works as a factory for iterators.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
@@ -2929,7 +2929,7 @@
     "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
     "standardStatus": "Editor's Draft",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
@@ -3121,7 +3121,7 @@
     "link": "http://asmjs.org/spec/latest/",
     "standardStatus": "Editor's Draft",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
