@@ -2879,7 +2879,7 @@
   {
     "name": "String Built-ins (ES6)",
     "category": "JavaScript",
-    "summary": "New methods on String including String.raw and String.fromCodePoint. New methods on String.prototype including codePointAt, normalize, repeat, startsWith, endsWith, and contains.",
+    "summary": "New methods on String including String.raw and String.fromCodePoint. New methods on String.prototype including codePointAt, normalize, repeat, startsWith, endsWith, and includes.",
     "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
     "standardStatus": "Editor's Draft",
     "ieStatus": {
