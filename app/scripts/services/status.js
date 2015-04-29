@@ -6,6 +6,9 @@ angular.module('statusieApp')
         var chromeStatusURL = 'https://www.chromestatus.com/features.json';
         var ieStatusURL = '/features';
         var userVoiceDataURL = '/uservoice';
+        var webkitScriptDataURL = 'https://svn.webkit.org/repository/webkit/trunk/Source/JavaScriptCore/features.json';
+        var webkitCoreDataURL = 'https://svn.webkit.org/repository/webkit/trunk/Source/WebCore/features.json';
+
 
         var observedBrowsers = _.map(['Internet Explorer', 'Chrome', 'Firefox', 'Safari', 'Opera'], function (browser) {
             return {name: browser, selected: false};
@@ -30,6 +33,7 @@ angular.module('statusieApp')
         var chromeStatus;
         var ieStatus;
         var userVoiceData;
+        var webkitData;
 
         var specFinder = function (spec) {
             if (!spec) {
@@ -51,7 +55,7 @@ angular.module('statusieApp')
             }
         };
 
-        var normalizeBrowserStatus = function(featureStatus,isOpera,needsFlag,chromeStatus){
+        var normalizeBrowserStatus = function(featureStatus, isOpera, needsFlag, chromeStatus, isWebKit){
             var status;
 
             // The following checks are for opera, chromestatus only returns null or the version number
@@ -69,8 +73,32 @@ angular.module('statusieApp')
                     return 'Not Supported';
                 }
             }
+            // Handling WebKit feature status
+            else if (isWebKit && typeof featureStatus == 'object' && featureStatus.status) {
+                if (featureStatus.status === 'Removed') {
+                    return 'Deprecated'
+                }
+                if (featureStatus.status === 'In Development') {
+                    return 'In Development';
+                }
+                // Enabled in nightly builds.
+                if (featureStatus.status === 'Continuously improving' ||
+                    featureStatus.status === 'Done' ||
+                    featureStatus.status === 'Prototyping') {
+                    if (featureStatus['enabled-by-default']) {
+                        return 'Preview Release';
+                    }
+                    else {
+                        return 'In Development';
+                    }
+                }
+                // Speculating that this will be the status that means Safari currently ships it.
+                if (featureStatus.status === 'Shipped' && featureStatus['enabled-by-default']) {
+                    return 'Shipped';
+                }
+            }
             
-            switch(featureStatus){
+            switch (featureStatus) {
                 case 'Enabled by default': status = 'Shipped'; break;
                 case 'Removed': status = 'Deprecated'; break;
                 case 'Deprecated': status = 'Deprecated'; break;
@@ -121,11 +149,11 @@ angular.module('statusieApp')
                         unprefixed: parseInt(feature.ieStatus.ieUnprefixed)
                     },
                     safari: {
-                        status: normalizeBrowserStatus(feature.safari_views.text),
-                        link: feature.safari_views_link
+                        status: normalizeBrowserStatus(feature.status || feature.safari_views.text, /* isOpera */ false, null, null, /* isWebKit */ true),
+                        link: feature["webkit_url"] || feature.safari_views_link
                     },
                     opera: {
-                        status: normalizeBrowserStatus(feature.shipped_opera_milestone, true, feature.meta.needsflag, feature.impl_status_chrome),
+                        status: normalizeBrowserStatus(feature.shipped_opera_milestone, /* isOpera */ true, feature.meta.needsflag, feature.impl_status_chrome),
                         //Chromium status doesn't return a link for opera tracking :(
                         link: null
                     }
@@ -198,7 +226,11 @@ angular.module('statusieApp')
             "created": "",
             "summary": "",
             "bug_url": null,
-            "uservoice": false
+            "uservoice": false,
+            "status": {
+                 "text": "", "enabled-by-default": false
+            },
+            "webkitName": ""
         };
 
         var getIEStatus = function () {
@@ -222,6 +254,22 @@ angular.module('statusieApp')
             });
         };
 
+        var getWebKitCoreData = function () {
+            return $http.get(webkitCoreDataURL).then(function (response) {
+             webkitData = webkitData || [];
+             webkitData = webkitData.concat(response.data.features);
+             return webkitData;
+            });
+        }
+
+        var getWebKitScriptData = function () {
+            return $http.get(webkitScriptDataURL).then(function (response) {
+             webkitData = webkitData || [];
+             webkitData = webkitData.concat(response.data.features);
+             return webkitData;
+            });
+        };
+
         var mergeData = function () {
             var deferred = $q.defer();
 
@@ -233,8 +281,12 @@ angular.module('statusieApp')
                     var chromeFeature = _.find(chromeStatus, function (chromeStatusFeature) {
                         return chromeStatusFeature.id === ieStatusFeature.id;
                     });
+                    
+                    var webkitFeature = _.find(webkitData, function (webkitStatusFeature) {
+                        return webkitStatusFeature.name == ieStatusFeature.webkitName;
+                    });
 
-                    var mergedFeature = normalizeFeature(_.defaults(ieStatusFeature, _.defaults(chromeFeature || {}, defaultFeature)));
+                    var mergedFeature = normalizeFeature(_.defaults(ieStatusFeature, _.defaults(chromeFeature || {}, _.defaults(webkitFeature || {}, defaultFeature))));
                     var featureCategory = mergedFeature.category;
 
                     if (!tempCategories[featureCategory]) {
