@@ -2993,7 +2993,8 @@
       "ieUnprefixed": ""
     },
     "id": 4633745457938432,
-    "uservoiceid": 6510201
+    "uservoiceid": 6510201,
+    "webkitName": "Classes"
   },
   {
     "name": "Spread (ES6)",
@@ -3136,7 +3137,8 @@
       "value": 3
     },
     "id": null,
-    "uservoiceid": 6509389
+    "uservoiceid": 6509389,
+    "webkitName": "ASM.js"
   },
   {
     "name": "Clipboard API",
@@ -3445,7 +3447,8 @@
     "msdn": "",
     "wpd": "",
     "demo": "",
-    "id": null
+    "id": null,
+    "webkitName": "Shared Web Workers"
   },
   {
     "name": "Platform for Privacy Preferences 1.0 (P3P 1.0)",
@@ -3882,7 +3885,7 @@
     "wpd": "",
     "demo": "",
     "id": null,
-    "uservoiceid": null
+    "uservoiceclid": null
   },
       {
     "name": "showModalDialog",
