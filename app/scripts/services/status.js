@@ -140,8 +140,6 @@ angular.module('statusieApp')
                     wpd: feature.wpd
                 }
             };
-            if(feature.name.indexOf("showModalDialog")>=0)
-                console.log(finalFeature.browsers.firefox.status + ":" + feature.ff_views.text)
             return finalFeature;
         };
 
