@@ -1055,12 +1055,8 @@
     "wpd": "",
     "demo": "",
     "id": null,
-    "impl_status_chrome": "Enabled by default",
-    "ff_views": {
-      "text": "Shipped",
-      "value": 1
-    },
-    "shipped_opera_milestone": true,
+    "impl_status_chrome": "Removed",
+    "shipped_opera_milestone": null,
     "safari_views": {
       "text": "Shipped",
       "value": 1
