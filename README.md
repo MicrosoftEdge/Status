@@ -1,3 +1,6 @@
+#NOTE
+This site is undergoing a redesign!  You can try the [beta site](http://dev.modern.ie/platform/status) and continue to file issues here. It's our goal to continue to allow contributions to the site and its data through GitHub. But while we migrate to our new design, we'll only be taking Pull Requests for [ie-features.json](https://github.com/MicrosoftEdge/Status/blob/production/app/static/ie-status.json) for the time being.  We hope to complete this migration and open up PRs broadly for the site soon!
+
 #Status
 This project contains the source code and data for [status.modern.IE](https://status.modern.IE), a portal for the latest implementation status and future roadmap for interoperable web platform features in Microsoft Edge and other browsers, including Internet Explorer.
 
