@@ -665,6 +665,32 @@
     "id": 4589636412243968
   },
   {
+    "name": "HTML Form HTTP Extensions",
+    "category": "Misc",
+    "link": "http://www.w3.org/TR/form-http-extensions/",
+    "summary": "An addendum to HTML5 forms extending the abilities of configuring HTTP requests through HTML markup.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "impl_status_chrome": "No active development",
+    "ff_views": {
+      "text": "No public signals",
+      "value": 5
+    },
+    "shipped_opera_milestone": null,
+    "safari_views": {
+      "text": "No public signals",
+      "value": 5
+    }
+  },
+  {
     "name": "HTML Imports",
     "category": "Web Components",
     "link": "https://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/imports/index.html",
