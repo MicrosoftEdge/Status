@@ -759,24 +759,24 @@
   {
     "name": "HTTP/2",
     "category": "Network / Connectivity",
-    "link": "http://datatracker.ietf.org/wg/httpbis/",
-    "summary": "A faster protocol for transporting web content being standardized by the IETF.",
+    "link": "https://tools.ietf.org/html/rfc7540",
+    "summary": "A faster protocol for transporting web content standardized by the IETF.",
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Preview Release",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
-    "msdn": "",
+    "msdn": "https://msdn.microsoft.com/library/dn905221(v=vs.85).aspx",
     "wpd": "",
     "demo": "",
     "id": null,
-    "impl_status_chrome": "In development",
+    "impl_status_chrome": "Enabled by default",
     "ff_views": {
-      "text": "In development",
-      "value": 2
+      "text": "Shipped",
+      "value": 1
     },
-    "shipped_opera_milestone": null,
+    "shipped_opera_milestone": true,
     "safari_views": {
       "text": "In development",
       "value": 2
