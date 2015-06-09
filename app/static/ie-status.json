@@ -3930,5 +3930,28 @@
     "demo": "",
     "id": 5608754573737984,
     "uservoiceid": null
+  },
+      {
+    "name": "International input[type=email] validation",
+    "category": "HTML5",
+    "link": "https://www.w3.org/Bugs/Public/show_bug.cgi?id=15489",
+    "summary": "Adding support for international email addresses that use UTF-8 characters (e.g. 伊昭傑@郵件.商務, राम@मोहन.ईन्फो)",
+    "standardStatus": "Public discussion",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "impl_status_chrome": "",
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "shipped_opera_milestone": false,
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 7855248
   }
 ]
