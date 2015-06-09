@@ -2611,7 +2611,7 @@
     "summary": "Allows for inclusion of a foreign namespace (such as HTML) which has its graphical content drawn by a different user agent",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
