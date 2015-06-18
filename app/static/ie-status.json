@@ -3857,7 +3857,7 @@
     "uservoiceid": 6796750
   },
     {
-    "name": "CSS intial value",
+    "name": "CSS initial value",
     "category": "CSS",
     "link": "http://dev.w3.org/csswg/css-cascade/#initial",
     "summary": "If the cascaded value of a property is the initial keyword, the property’s initial value becomes its specified value.",
