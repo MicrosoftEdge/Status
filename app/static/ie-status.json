@@ -3582,7 +3582,7 @@
     "summary": "Adds support for the MJPG video format, popular with IP cameras.",
     "standardStatus": "Defacto standard",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
