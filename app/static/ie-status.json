@@ -3215,7 +3215,7 @@
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
     "ff_views": {
-      "text": "No Public Signals",
+      "text": "Shipped",
       "value": 1
     },
     "safari_views": {
