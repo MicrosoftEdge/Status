@@ -54,6 +54,33 @@
     "uservoiceid": 6261267
   },
   {
+    "name": "Extended srcset and sizes support",
+    "category": "Misc",
+    "link": "https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-srcset",
+    "summary": "Extends the current implementation of the srcset attribute by adding support for the width descriptor and the sizes attribute.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "In Development",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "shipped_opera_milestone": true,
+    "msdn": "",
+    "wpd": "https://docs.webplatform.org/wiki/html/attributes/sizes",
+    "demo": "",
+    "id": 4644337115725824,
+    "uservoiceid": 8204535
+  },
+  {
     "name": "<picture> Element",
     "category": "Misc",
     "link": "http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#the-picture-element",
