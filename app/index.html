@@ -1,6 +1,6 @@
 <!-- Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the Apache License, Version 2.0 (the "License"); you may not use these files except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.-->
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-csp>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +8,7 @@
     <base href="/">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
-    <link rel="dns-prefetch" href="http://www.chromestatus.com/">
+    <link rel="dns-prefetch" href="https://www.chromestatus.com/">
     <!-- build:prefetch({.tmp,app}) images/arrow.svg -->
     <link rel="prefetch" href="/images/arrow.svg">
     <!-- endbuild -->
@@ -20,25 +20,10 @@
 	<link rel="stylesheet" href="styles/footer.css">	
     <link rel="stylesheet" href="styles/sprites.css">
     <!-- endbuild -->
-    <script>
-        (function () {
-            if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
-                var msViewportStyle = document.createElement("style");
-                msViewportStyle.appendChild(
-                        document.createTextNode("@-ms-viewport{width:auto!important}")
-                );
-                document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
-            }
-        })();
-    </script>
+    <script src="scripts/index.viewport.js"></script>
     <!--Portions of the content in this page from chromestatus.com, used under Creative Commons Attribution 2.5 License
     (see http://creativecommons.org/licenses/by/2.5/legalcode).-->
-    <script type="text/javascript">
-    window.appInsights={queue:[],applicationInsightsId:null,accountId:null,appUserId:null,configUrl:null,start:function(n){function u(n){t[n]=function(){var i=arguments;t.queue.push(function(){t[n].apply(t,i)})}}function f(n,t){if(n){var u=r.createElement(i);u.type="text/javascript";u.src=n;u.async=!0;u.onload=t;u.onerror=t;r.getElementsByTagName(i)[0].parentNode.appendChild(u)}else t()}var r=document,t=this,i;t.applicationInsightsId=n;u("logEvent");u("logPageView");i="script";f(t.configUrl,function(){f("//az416426.vo.msecnd.net/scripts/a/ai.0.7.js")});t.start=function(){}}};
-    
-    appInsights.start("fc114498-74a7-4ae9-8da0-4c3839d76a6e");
-    appInsights.logPageView();
-    </script>
+    <script src="scripts/index.appinsights.js" type="text/javascript"></script>
 </head>
 <body data-ng-app="statusieApp">
 
@@ -113,19 +98,7 @@
     </footer>
 </div>
 
-<script>
-    var _gaq = [
-        ['_setAccount', 'UA-37396709-1'],
-        ['_setDomainName', 'modern.ie'],
-        ['_setAllowLinker', true]
-    ];
-    (function (d, t) {
-        var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
-        g.src = '//www.google-analytics.com/ga.js';
-        g.async = true;
-        s.parentNode.insertBefore(g, s)
-    }(document, 'script'));
-</script>
+<script src="scripts/index.gaq.js"></script>
 
 <!-- build:js scripts/vendor.js -->
 <script defer src="scripts/vendorBanner.js"></script>
