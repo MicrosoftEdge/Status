@@ -892,6 +892,33 @@
     "id": 6507459568992256
   },
   {
+    "name": "IndexedDB Arrays and MultiEntry Support",
+    "category": "Offline / Storage",
+    "link": "http://www.w3.org/TR/IndexedDB/#dfn-multientry",
+    "summary": "Extends the existing IndexedDB implementation with support for compound keys, indexed array values, and multiEntry.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "shipped_opera_milestone": true,
+    "safari_views": {
+      "text": "No public signals",
+      "value": 3
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 8437039
+  },
+  {
     "name": "WebGL Instancing Extension",
     "category": "Graphics",
     "link": "https://www.opengl.org/wiki/Vertex_Rendering#Instancing",
@@ -3883,7 +3910,7 @@
     "id": null,
     "uservoiceid": 6796750
   },
-    {
+  {
     "name": "CSS initial value",
     "category": "CSS",
     "link": "http://dev.w3.org/csswg/css-cascade/#initial",
@@ -3910,7 +3937,7 @@
     "id": null,
     "uservoiceid": 6587303
   },
-      {
+  {
     "name": "CSS unset value",
     "category": "CSS",
     "link": "http://dev.w3.org/csswg/css-cascade/#unset",
@@ -3954,7 +3981,7 @@
     "id": 5608754573737984,
     "uservoiceid": null
   },
-      {
+  {
     "name": "International input[type=email] validation",
     "category": "HTML5",
     "link": "https://www.w3.org/Bugs/Public/show_bug.cgi?id=15489",
