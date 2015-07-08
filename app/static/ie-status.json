@@ -3334,7 +3334,7 @@
   },
   {
     "name": "Date related input types",
-    "category": "User Input",
+    "category": "User input",
     "link": "http://www.w3.org/html/wg/drafts/html/master/forms.html#date-state-(type=date)",
     "summary": "Input controls for picking dates via <input type='date'>,<input type='month'>, and <input type='week'>.",
     "standardStatus": "Established Standard",
@@ -3356,7 +3356,7 @@
   },
   {
     "name": "Time related input types",
-    "category": "User Input",
+    "category": "User input",
     "link": "http://www.w3.org/html/wg/drafts/html/master/forms.html#date-state-(type=time)",
     "summary": "Input controls for picking times via <input type='time'>,<input type='datetime'>, and <input type='datetime-local'>.",
     "standardStatus": "Established Standard",
@@ -3983,7 +3983,7 @@
   },
   {
     "name": "International input[type=email] validation",
-    "category": "HTML5",
+    "category": "User input",
     "link": "https://www.w3.org/Bugs/Public/show_bug.cgi?id=15489",
     "summary": "Adding support for international email addresses that use UTF-8 characters (e.g. 伊昭傑@郵件.商務, राम@मोहन.ईन्फो)",
     "standardStatus": "Public discussion",
