@@ -104,7 +104,7 @@
     "summary": "HTML template element to allow creating fragment of inert HTML as a prototype for stamping out DOM (often used in Web Components).",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
@@ -2150,7 +2150,7 @@
     "uservoiceid": 6263750
   },
   {
-    "name": "Shadow DOM (unprefixed)",
+    "name": "Shadow DOM",
     "category": "Web Components",
     "link": "http://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/shadow/index.html",
     "summary": "Enables DOM tree encapsulation. Without it, widgets may inadvertently break pages by using conflicting CSS selectors, class or id names, or JavaScript variables (often used in Web Components).",
@@ -2642,6 +2642,7 @@
     "msdn": "http://support.microsoft.com/kb/2990999",
     "wpd": "",
     "demo": "",
+    "details": "http://dev.modern.ie/platform/status/webdriver/details",
     "id": null,
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
