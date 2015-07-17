@@ -1470,7 +1470,7 @@
   {
     "name": "Typed Arrays",
     "category": "JavaScript",
-    "link": "https://people.mozilla.org/~jorendorff/es6-draft.html#sec-typedarray-objects",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html#sec-typedarray-objects",
     "summary": "Buffers for holding binary data and working with WebGL & Audio API: ArrayBuffer, Float32Array , Int16Array, Uint8Array, etc.)",
     "standardStatus": "Editor's Draft",
     "ieStatus": {
@@ -2737,7 +2737,7 @@
   {
     "name": "ES6 Object Literal Enhancements",
     "category": "JavaScript",
-    "link": "https://people.mozilla.org/~jorendorff/es6-draft.html#sec-object-initializer",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html#sec-object-initializer",
     "summary": "Adds computed properties, concise method definitions, and short-hand for properties whose value is initialized to a same-named variable.",
     "standardStatus": "Editor's Draft",
     "ieStatus": {
@@ -2763,7 +2763,7 @@
   {
     "name": "Promises (ES6)",
     "category": "JavaScript",
-    "link": "https://people.mozilla.org/~jorendorff/es6-draft.html#sec-promise-objects",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html#sec-promise-objects",
     "summary": "Allows easier and cleaner asynchronous coding. Adds the Promise constructor, along with the 'all' and 'race' utility methods to the language itself.",
     "standardStatus": "Editor's Draft",
     "ieStatus": {
@@ -2921,7 +2921,7 @@
     "name": "Math Built-ins (ES6)",
     "category": "JavaScript",
     "summary": "Math related functions - sign, trunc, sinh, cosh, tanh, asinh, acosh, atanh, log10, log2, hypot, fround, clz32, cbrt, log1p, expm1.",
-    "link": "https://people.mozilla.org/~jorendorff/es6-draft.html#sec-math-object",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html#sec-math-object",
     "standardStatus": "Editor's Draft",
     "ieStatus": {
       "text": "Preview Release",
@@ -2934,7 +2934,7 @@
     "name": "Number Built-ins (ES6)",
     "category": "JavaScript",
     "summary": "New methods and properties on Number, including isFinite, isInteger, isSafeInteger, isNaN, EPSILON, MIN_SAFE_INTEGER, and MAX_SAFE_INTEGER.",
-    "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Editor's Draft",
     "ieStatus": {
       "text": "Preview Release",
@@ -2957,7 +2957,7 @@
     "name": "String Built-ins (ES6)",
     "category": "JavaScript",
     "summary": "New methods on String including String.raw and String.fromCodePoint. New methods on String.prototype including codePointAt, normalize, repeat, startsWith, endsWith, and includes.",
-    "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Editor's Draft",
     "ieStatus": {
       "text": "Preview Release",
@@ -2980,7 +2980,7 @@
     "name": "Object Built-ins (ES6)",
     "category": "JavaScript",
     "summary": "New methods on Object including assign, is, getOwnPropertySymbols, and setPrototypeOf",
-    "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Editor's Draft",
     "ieStatus": {
       "text": "Preview Release",
@@ -3003,7 +3003,7 @@
     "name": "RegExp Built-ins (ES6)",
     "category": "JavaScript",
     "summary": "New methods on RegExp.prototype including match, replace, search, and split.",
-    "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Editor's Draft",
     "ieStatus": {
       "text": "Preview Release",
@@ -3026,7 +3026,7 @@
     "name": "WeakSet (ES6)",
     "category": "JavaScript",
     "summary": "Contains a set of objects such that those objects will be collected if they are not referenced anywhere else.",
-    "link": "https://people.mozilla.org/~jorendorff/es6-draft.html#sec-math-object",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html#sec-math-object",
     "standardStatus": "Editor's Draft",
     "ieStatus": {
       "text": "Preview Release",
@@ -3039,7 +3039,7 @@
     "name": "__proto__ (ES6)",
     "category": "JavaScript",
     "summary": "Support for legacy prototype manipulation similar to Object.setPrototypeOf.",
-    "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Editor's Draft",
     "ieStatus": {
       "text": "Shipped",
@@ -3062,7 +3062,7 @@
     "name": "Classes (ES6)",
     "category": "JavaScript",
     "summary": "Syntax for declaring classes.",
-    "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Editor's Draft",
     "ieStatus": {
       "text": "Preview Release",
@@ -3076,7 +3076,7 @@
     "name": "Spread (ES6)",
     "category": "JavaScript",
     "summary": "The spread operator expands iterable expressions into individual arguments. For example, a.b(…array) is roughly the same as a.b.apply(a, array).",
-    "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Editor's Draft",
     "ieStatus": {
       "text": "Preview Release",
@@ -3099,7 +3099,7 @@
     "name": "Template Strings (ES6)",
     "category": "JavaScript",
     "summary": "String literals that allow for expressions to be evaluated and concatenated with the string literal.",
-    "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Editor's Draft",
     "ieStatus": {
       "text": "Preview Release",
@@ -3112,7 +3112,7 @@
     "name": "Tail Calls (ES6)",
     "category": "JavaScript",
     "summary": "Enables boundlessly recursive algorithms (using constant stack space) for certain code patterns.",
-    "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Editor's Draft",
     "ieStatus": {
       "text": "Under Consideration",
@@ -3125,7 +3125,7 @@
     "name": "Subclassing (ES6)",
     "category": "JavaScript",
     "summary": "Allows subclassing of built-in types such as Dates and Arrays.",
-    "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Editor's Draft",
     "ieStatus": {
       "text": "Under Consideration",
@@ -3171,7 +3171,7 @@
     "name": "Modules (ES6)",
     "category": "JavaScript",
     "summary": "Language-level support for defining and consuming modules.",
-    "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Editor's Draft",
     "ieStatus": {
       "text": "Under Consideration",
