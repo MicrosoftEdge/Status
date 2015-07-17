@@ -1888,7 +1888,7 @@
     "summary": "Destructuring assignment allows extracting data from arrays or objects using a syntax that mirrors array and object literals.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
@@ -3128,7 +3128,7 @@
     "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Editor's Draft",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
