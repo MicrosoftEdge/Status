@@ -88,6 +88,13 @@
             <featuresorting></featuresorting>
             <div class="total-features" aria-live="polite" role="status" aria-atomic="true">Features found: <span ng-cloak>{{limit}}</span></div>
         </div>
+        <div style="display: table; height: 50px; width: 100%; overflow: hidden; margin-top: 20px" id="redirectBanner">
+            <div style="display: table-cell; vertical-align: middle;">
+                <div style="text-align: center; color: white">
+                    <h2>We're moving! Check out our new beta site today. <a href="http://dev.modern.ie/platform/status">Take me there!</a> <button onclick="var banner = document.querySelector('#redirectBanner');banner.parentNode.removeChild(banner);" style="color:white; background-color: rgb(0,121,194);font-size:14pt;padding: 0px 5px 0px 5px;margin-left:50px;cursor:pointer">X</button></h2>
+                </div>
+            </div>
+        </div>
     </div>
     <article role="article" arrownavigation>
         <div class="progress-wrapper" data-ng-show="loading">

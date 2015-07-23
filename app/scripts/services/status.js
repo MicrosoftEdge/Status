@@ -258,6 +258,8 @@ angular.module('statusieApp')
         };
 
         var load = function () {
+            if(window.location.pathname == "" || window.location.pathname == "/")
+                location.replace("http://dev.modern.ie/platform/status");
             return $q.all([
                 getIEStatus(), 
                 getChromeStatus(), 
