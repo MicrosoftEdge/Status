@@ -553,7 +553,8 @@
     "ieStatus": {
       "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10240",
+      "flag": true
     },
     "wpd": "https://docs.webplatform.org/wiki/tutorials/css_filters",
     "demo": "",
@@ -1873,7 +1874,8 @@
     "ieStatus": {
       "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10240",
+      "flag": true
     },
     "msdn": "",
     "wpd": "",
@@ -2226,7 +2228,8 @@
     "ieStatus": {
       "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10240",
+      "flag": true
     },
     "msdn": "",
     "wpd": "",
@@ -3067,7 +3070,8 @@
     "ieStatus": {
       "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10240",
+      "flag": true
     },
     "id": 4633745457938432,
     "uservoiceid": 6510201
@@ -3153,7 +3157,8 @@
     "ieStatus": {
       "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10240",
+      "flag": true
     },
     "impl_status_chrome": "No active development",
     "shipped_opera_milestone": false,
@@ -3200,7 +3205,8 @@
     "ieStatus": {
       "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10240",
+      "flag": true
     },
     "impl_status_chrome": "No active development",
     "shipped_opera_milestone": false,
