@@ -54,7 +54,7 @@
 				<a class="icon-social-tw" href="https://twitter.com/iedevchat" 
 				   title="Give feedback on Twitter" target="_blank">Twitter</a>
 				<a class="icon-social-stackoverflow"
-				   href="http://stackoverflow.com/questions/tagged/internet-explorer"  
+				   href="https://stackoverflow.com/questions/tagged/internet-explorer"  
 				   target="_blank">Stack Overflow</a>
 				<a class="icon-microsoft-logo" href="http://www.microsoft.com" title="Microsoft"
 					   target="_blank">Microsoft</a>
@@ -86,7 +86,17 @@
             <termfilter></termfilter>
             <interopfilter></interopfilter>
             <featuresorting></featuresorting>
-            <div class="total-features" aria-live="polite" role="status" aria-atomic="true">Features found: <span>{{limit}}</span></div>
+            <div class="total-features" aria-live="polite" role="status" aria-atomic="true">Features found: <span ng-cloak>{{limit}}</span></div>
+        </div>
+        <div style="display: table; height: 50px; max-width: 1180px; width: 100%; border: 2px solid white; padding: 10px; overflow: hidden; margin-top: 20px; margin-left: auto; margin-right: auto;" id="redirectBanner">
+            <div style="display: table-cell; vertical-align: middle;">
+                <div style="text-align: center; color: white">
+                    <h2>We're moving! Check out our new beta site today. <a href="http://dev.modern.ie/platform/status">Take me there!</a></h2>
+                </div>
+            </div>
+            <div style="display: table-cell; vertical-align: middle;">
+                <button onclick="var banner = document.querySelector('#redirectBanner');banner.parentNode.removeChild(banner);" style="color:white; background-color: rgb(0,121,194);font-size:14pt;padding: 0px 5px 0px 5px;cursor:pointer">X</button>
+            </div>
         </div>
     </div>
     <article role="article" arrownavigation>
@@ -108,7 +118,7 @@
             <a href="http://www.microsoft.com/library/toolbar/3.0/trademarks/en-us.mspx"
                target="_blank">Trademarks</a>
             <a href="https://msdn.microsoft.com/windows/apps/cc300389" target="_blank">Terms of Use</a>
-            <a href="http://www.microsoft.com/info/privacy.mspx" target="_blank">Privacy and Cookies</a>
+            <a href="https://www.microsoft.com/privacystatement/" target="_blank">Privacy and Cookies</a>
 		</small>
     </footer>
 </div>

@@ -56,8 +56,10 @@ angular.module('statusieApp')
 
             // The following checks are for opera, chromestatus only returns null or the version number
             if (isOpera) {
-                if (featureStatus > 0 && !needsFlag) {
+                if (featureStatus > 0 && !needsFlag && (chromeStatus !== 'Deprecated' && chromeStatus !== 'Removed')) {
                     return 'Shipped';
+                } else if (featureStatus > 0 && !needsFlag && (chromeStatus === 'Deprecated' || chromeStatus === 'Removed')) {
+                    return 'Deprecated';
                 } else if ( (_.isNumber(featureStatus) && needsFlag) ||
                             (chromeStatus === 'Enabled by default') ||
                             (chromeStatus === 'In development') ||
@@ -70,6 +72,8 @@ angular.module('statusieApp')
             
             switch(featureStatus){
                 case 'Enabled by default': status = 'Shipped'; break;
+                case 'Removed': status = 'Deprecated'; break;
+                case 'Deprecated': status = 'Deprecated'; break;
                 case 'In development': status = 'In Development'; break;
                 case 'Shipped': status = featureStatus; break;
                 case 'In Development': status = featureStatus; break;
@@ -136,7 +140,6 @@ angular.module('statusieApp')
                     wpd: feature.wpd
                 }
             };
-
             return finalFeature;
         };
 
@@ -255,6 +258,8 @@ angular.module('statusieApp')
         };
 
         var load = function () {
+            if(window.location.pathname == "" || window.location.pathname == "/")
+                location.replace("http://dev.modern.ie/platform/status");
             return $q.all([
                 getIEStatus(), 
                 getChromeStatus(), 
