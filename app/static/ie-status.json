@@ -2950,6 +2950,52 @@
     "uservoiceid": 6512244
   },
   {
+    "name": "Async Functions (ES2016)",
+    "category": "JavaScript",
+    "link": "https://tc39.github.io/ecmascript-asyncawait",
+    "summary": "",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": ""
+  },
+  {
+    "name": "Array.prototype.includes (ES2016)",
+    "category": "JavaScript",
+    "link": "https://tc39.github.io/Array.prototype.includes",
+    "summary": "",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 5964420647747584
+  },
+  {
+    "name": "Exponentiation Operator (ES2016)",
+    "category": "JavaScript",
+    "link": "http://rwaldron.github.io/exponentiation-operator",
+    "summary": "",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": ""
+  },
+  {
     "name": "Karaoke Web Standard",
     "category": "User input",
     "link": "https://pages.adrianba.net/karaoke/",
