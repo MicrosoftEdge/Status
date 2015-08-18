@@ -82,12 +82,12 @@
   },
   {
     "name": "<picture> Element",
-    "category": "Misc",
+    "category": "Graphics",
     "link": "http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#the-picture-element",
     "summary": "Enable a responsive images solution by declaring multiple resources for an image using CSS media queries.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
@@ -115,13 +115,175 @@
     "uservoiceid": 6261273
   },
   {
+    "name": "<meter> Element",
+    "category": "Misc",
+    "link": "http://www.w3.org/TR/html5/forms.html#the-meter-element",
+    "summary": "The HTML meter element allows representation of a scalar measurement of a known range, or fractional value, i.e. a gauge. Distinct from the progress element.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text":  "In Development",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "shipped_opera_milestone": true,
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "msdn": "",
+    "wpd": "https://docs.webplatform.org/wiki/html/elements/meter",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 6514198
+  },
+  {
+    "name": "selectionDirection attribute on text input elements",
+    "category": "User input",
+    "link": "http://www.w3.org/TR/html5/forms.html#dom-textarea/input-selectiondirection",
+    "summary": "Returns the string corresponding to the current selection direction on text input elements: \"forward\", \"backward\", or \"none\".",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text":  "In Development",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "shipped_opera_milestone": true,
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 8679412
+  },
+  {
+    "name": "oninvalid event handler",
+    "category": "User input",
+    "link": "http://www.w3.org/TR/html5/webappapis.html#events",
+    "summary": "Provides specified alert text if an input element is invalid.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text":  "In Development",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "shipped_opera_milestone": true,
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Canvas 2D ellipse",
+    "category": "Graphics",
+    "link": "http://www.w3.org/TR/2dcontext/#dom-context-2d-ellipse",
+    "summary": "Provides a method to draw arcs on a 2D canvas drawing surface.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text":  "In Development",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "No public signals",
+      "value": 5
+    },
+    "shipped_opera_milestone": true,
+    "safari_views": {
+      "text": "Preview release",
+      "value": 1
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "CSS Range Pseudo-classes",
+    "category": "CSS",
+    "link": "http://www.w3.org/TR/html5/disabled-elements.html#selector-in-range",
+    "summary": ":in-range and :out-of-range pseudo-classes to match elements that are candidates for constraint validation, have range limitations, and are/are not suffering from underflow or overflow.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text":  "In Development",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Prefixed",
+      "value": 1
+    },
+    "shipped_opera_milestone": true,
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+    {
+    "name": "CSS Mutability Pseudo-classes",
+    "category": "CSS",
+    "link": "http://www.w3.org/TR/html5/disabled-elements.html#selector-read-write",
+    "summary": ":read-only and :read-write pseudo-classes to match elements which are considered user-alterable for the purposes of Selectors.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text":  "In Development",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "shipped_opera_milestone": true,
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
     "name": "a[download] attribute",
     "category": "File APIs",
     "link": "http://www.w3.org/html/wg/drafts/html/master/links.html#attr-hyperlink-download",
     "summary": "When used on an <a>, this attribute signifies that the resource it points to should be downloaded by the browser rather than navigating to it.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
@@ -256,7 +418,7 @@
     "summary": "The canvas 2d context has the globalCompositeOperation attribute that is used to set the current compositing and blending operator.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
@@ -391,7 +553,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Medium"
     },
     "msdn": "",
     "wpd": "",
@@ -504,7 +667,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Low"
     },
     "msdn": "",
     "wpd": "",
@@ -727,7 +891,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Low"
     },
     "msdn": "",
     "wpd": "",
@@ -835,7 +1000,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Low"
     },
     "msdn": "",
     "wpd": "",
@@ -1626,7 +1792,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Medium"
     },
     "msdn": "",
     "wpd": "",
@@ -1959,7 +2126,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Low"
     },
     "msdn": "",
     "wpd": "",
@@ -2160,7 +2328,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "High"
     },
     "msdn": "",
     "wpd": "",
@@ -2789,7 +2958,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "High"
     },
     "msdn": "https://www.youtube.com/watch?v=lD9FAOPBiDk&feature=youtu.be",
     "wpd": "",
@@ -2817,7 +2987,7 @@
     "summary": "Allows referencing external content in SVG. A common use case for this would be <use xlink:href=\"lib.svg#template\" fill=\"#000000\"></use>",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
@@ -3340,7 +3510,7 @@
     "uservoiceid": 6508895
   },
   {
-    "name": "Date related input types",
+    "name": "Date-related input types",
     "category": "User input",
     "link": "http://www.w3.org/html/wg/drafts/html/master/forms.html#date-state-(type=date)",
     "summary": "Input controls for picking dates via <input type='date'>,<input type='month'>, and <input type='week'>.",
@@ -3362,13 +3532,13 @@
     "uservoiceid": 6513996
   },
   {
-    "name": "Time related input types",
+    "name": "Time-related input types",
     "category": "User input",
     "link": "http://www.w3.org/html/wg/drafts/html/master/forms.html#date-state-(type=time)",
-    "summary": "Input controls for picking times via <input type='time'>,<input type='datetime'>, and <input type='datetime-local'>.",
+    "summary": "Input controls for picking times via <input type='time'>, and <input type='datetime-local'>.",
     "standardStatus": "Established Standard",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
@@ -3924,7 +4094,7 @@
     "summary": "If the cascaded value of a property is the initial keyword, the property’s initial value becomes its specified value.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
@@ -3951,7 +4121,7 @@
     "summary": "If the cascaded value of a property is the ‘‘unset’#’ keyword, then if it is an inherited property, this is treated as ‘inherit’, and if it is not, this is treated as ‘initial’. This keyword effectively erases all declared values occurring earlier in the cascade, correctly inheriting or not as appropriate for the property (or all longhands of a shorthand).",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
