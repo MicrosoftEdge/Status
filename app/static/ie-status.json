@@ -1885,6 +1885,24 @@
     "id": 6049512976023552
   },
   {
+    "name": "WebGL 2.0",
+    "category": "Graphics",
+    "link": "https://www.khronos.org/registry/webgl/specs/latest/2.0/",
+    "summary": "An update to WebGL, based on OpenGL ES 3.0",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "medium"
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "https://www.youtube.com/watch?v=2v6iLpY7j5M",
+    "id": 6694359164518400,
+    "uservoiceid": 6517037
+  },
+  {
     "name": "WebP image format support",
     "category": "Graphics",
     "link": "https://developers.google.com/speed/webp/docs/riff_container",
