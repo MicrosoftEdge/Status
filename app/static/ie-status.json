@@ -1540,7 +1540,7 @@
   {
     "name": "Streams API",
     "category": "File APIs",
-    "link": "https://dvcs.w3.org/hg/streams-api/raw-file/tip/Overview.htm",
+    "link": "https://streams.spec.whatwg.org/",
     "summary": "An API for representing binary data in web applications as a Stream object.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
