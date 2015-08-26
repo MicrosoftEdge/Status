@@ -1136,7 +1136,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Medium"
     },
     "msdn": "https://msdn.microsoft.com/en-us/library/ie/ff972267(v=vs.85).aspx",
     "wpd": "https://docs.webplatform.org/wiki/css/properties/mask",
@@ -1894,7 +1895,7 @@
       "text": "Under Consideration",
       "iePrefixed": "",
       "ieUnprefixed": "",
-      "priority": "medium"
+      "priority": "Medium"
     },
     "msdn": "",
     "wpd": "",
@@ -3415,7 +3416,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Medium"
     },
     "impl_status_chrome": "No active development",
     "shipped_opera_milestone": false,
@@ -3799,7 +3801,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Medium"
     },
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
