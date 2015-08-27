@@ -60,9 +60,9 @@
     "summary": "Extends the current implementation of the srcset attribute by adding support for the width descriptor and the sizes attribute.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10532"
     },
     "safari_views": {
       "text": "Shipped",
@@ -121,9 +121,9 @@
     "summary": "The HTML meter element allows representation of a scalar measurement of a known range, or fractional value, i.e. a gauge. Distinct from the progress element.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text":  "In Development",
+      "text":  "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10532"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
@@ -148,9 +148,9 @@
     "summary": "Returns the string corresponding to the current selection direction on text input elements: \"forward\", \"backward\", or \"none\".",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text":  "In Development",
+      "text":  "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10532"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
@@ -175,9 +175,9 @@
     "summary": "Provides specified alert text if an input element is invalid.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text":  "In Development",
+      "text":  "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10532"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
@@ -418,9 +418,9 @@
     "summary": "The canvas 2d context has the globalCompositeOperation attribute that is used to set the current compositing and blending operator.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10532"
     },
     "msdn": "",
     "wpd": "",
@@ -1397,9 +1397,9 @@
     "summary": "Gives access to raw mouse movement, locks the target of mouse events to a single element, eliminates limits of how far mouse movement can go in a single direction, and removes the cursor from view. Obvious use cases are for first person or real time strategy games.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10532"
     },
     "shipped_opera_milestone": true,
     "msdn": "",
@@ -3305,8 +3305,8 @@
     "ieStatus": {
       "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": "10240",
-      "flag": true
+      "ieUnprefixed": "10532",
+      "flag": false
     },
     "id": 4633745457938432,
     "uservoiceid": 6510201
@@ -3441,8 +3441,8 @@
     "ieStatus": {
       "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": "10240",
-      "flag": true
+      "ieUnprefixed": "10532",
+      "flag": false
     },
     "impl_status_chrome": "No active development",
     "shipped_opera_milestone": false,
@@ -3604,9 +3604,9 @@
     "summary": "Input controls for picking times via <input type='time'>, and <input type='datetime-local'>.",
     "standardStatus": "Established Standard",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10532"
     },
     "safari_views": {
       "text": "Shipped",
