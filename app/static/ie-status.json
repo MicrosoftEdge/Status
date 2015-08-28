@@ -60,9 +60,9 @@
     "summary": "Extends the current implementation of the srcset attribute by adding support for the width descriptor and the sizes attribute.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "In Development",
       "iePrefixed": "",
-      "ieUnprefixed": "10532"
+      "ieUnprefixed": ""
     },
     "safari_views": {
       "text": "Shipped",
