@@ -33,6 +33,43 @@
     "uservoiceid": 6261266
   },
   {
+    "name": "webkitdirectory and webkitRelativePath",
+    "category": "File APIs",
+    "link": "",
+    "summary": "Support for the webkitdirectory attribute on the input tag to make it allow a directory be selected instead of files. Support for the webkitRelativePath property on the File interface to allow the identification of relative paths of files.",
+    "standardStatus": "No public standards discussion",
+    "ieStatus": {
+      "text": "In Development",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "impl_status_chrome": "Enabled by default",
+    "shipped_opera_milestone": true,
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Directory Upload",
+    "category": "File APIs",
+    "link": "https://wicg.github.io/directory-upload/proposal.html",
+    "summary": "Enable directory uploading by allowing a developer to read directory contents (files and sub-directories) asynchronously and be able to identify the directory structure.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Medium"
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
     "name": "<img srcset>",
     "category": "Misc",
     "link": "http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#attr-img-srcset",
