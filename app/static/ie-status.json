@@ -60,9 +60,9 @@
     "summary": "Extends the current implementation of the srcset attribute by adding support for the width descriptor and the sizes attribute.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "In Development",
       "iePrefixed": "",
-      "ieUnprefixed": "10532"
+      "ieUnprefixed": ""
     },
     "safari_views": {
       "text": "Shipped",
@@ -926,7 +926,7 @@
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
-      "ieUnprefixed": "10240"
+      "ieUnprefixed": "11"
     },
     "msdn": "",
     "wpd": "",
@@ -3082,9 +3082,9 @@
     "link": "https://w3c.github.io/webappsec/specs/referrer-policy/",
     "standardStatus": "Editor's Draft",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Shipped",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10240"
     },
     "id": 5126747842412544
   },
@@ -3902,26 +3902,6 @@
     "id": null
   },
   {
-    "name": "WebM video",
-    "category": "Multimedia",
-    "link": "http://www.webmproject.org/ie",
-    "summary": "WebM is a video file format intended primarily for HTML5 video. Native support is not currently planned. However, WebM can be enabled by installing 3rd party WebM components.",
-    "standardStatus": "Public discussion",
-    "ieStatus": {
-      "text": "Not currently planned",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
-    },
-    "ff_views": {
-      "text": "Enabled by default",
-      "value": 2
-    },
-    "msdn": "",
-    "wpd": "",
-    "demo": "http://www.webmproject.org/ie/",
-    "id": 6471725441089536
-  },
-  {
     "name": "CSS Gradient Midpoints",
     "category": "Graphics",
     "link": "http://dev.w3.org/csswg/css-images/#color-stop-syntax",
@@ -4232,5 +4212,139 @@
     "demo": "",
     "id": null,
     "uservoiceid": 7855248
+  },
+  {
+    "name": "WebM Container",
+    "category": "Multimedia",
+    "link": "http://aomedia.org/",
+    "summary": "An open media container format.",
+    "standardStatus": "Defacto standard",
+    "ieStatus": {
+      "text": "In Development",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 6362186595172352,
+    "uservoiceid": 6508954
+  },
+  {
+    "name": "Opus Audio Codec",
+    "category": "Multimedia",
+    "link": "http://www.opus-codec.org/",
+    "summary": "An open codec for audio.",
+    "standardStatus": "Defacto standard",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "High"
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 4891189287321600,
+    "uservoiceid": 6513488
+  },
+  {
+    "name": "Vorbis Audio Codec",
+    "category": "Multimedia",
+    "link": "http://xiph.org/vorbis",
+    "summary": "An open codec for audio.",
+    "standardStatus": "Defacto standard",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Medium"
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "safari_views": {
+      "text": "No Public Signals",
+      "value": 3
+    },
+    "shipped_opera_milestone": true,
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 6513488
+  },
+  {
+    "name": "Theora Video Codec",
+    "category": "Multimedia",
+    "link": "http://xiph.org/theora",
+    "summary": "An open video codec.",
+    "standardStatus": "Defacto standard",
+    "ieStatus": {
+      "text": "Not currently planned",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "safari_views": {
+      "text": "No Public Signals",
+      "value": 3
+    },
+    "shipped_opera_milestone": true,
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null
+  },
+  {
+    "name": "OGG Container",
+    "category": "Multimedia",
+    "link": "http://xiph.org/ogg/doc/",
+    "summary": "An open multimedia container.",
+    "standardStatus": "Defacto standard",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Low"
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "safari_views": {
+      "text": "No Public Signals",
+      "value": 3
+    },
+    "shipped_opera_milestone": true,
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 6513488
+  },
+  {
+    "name": "VP9 Video Codec",
+    "category": "Multimedia",
+    "link": "http://aomedia.org/",
+    "summary": "An open codec for video optimized on the web.",
+    "standardStatus": "Defacto standard",
+    "ieStatus": {
+      "text": "In Development",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 6362186595172352,
+    "uservoiceid": 6508954
   }
 ]
