@@ -4407,7 +4407,7 @@
     "name": "Conic Gradients",
     "category": "CSS",
     "link": "https://drafts.csswg.org/css-images-4/#conic-gradients",
-    "summary": "Specifies a gradient where the color stops are placed around the circumference of the circle.",
+    "summary": "Specifies a gradient where the color stops are placed around the circumference of a circle.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
