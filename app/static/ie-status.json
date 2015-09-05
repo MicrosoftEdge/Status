@@ -4420,5 +4420,23 @@
     "demo": "",
     "id": null,
     "uservoiceid": 8471413
+  },
+  {
+    "name": "CSS Motion Path",
+    "category": "CSS",
+    "link": "https://drafts.fxtf.org/motion-1/",
+    "summary": "Motion paths allow authors to animate any graphical object along an author specified path.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Medium"
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 6190642178818048,
+    "uservoiceid": 7804467
   }
 ]
