@@ -4384,5 +4384,23 @@
     "demo": "",
     "id": 6362186595172352,
     "uservoiceid": 6508954
+  },
+  {
+    "name": "image-rendering",
+    "category": "CSS",
+    "link": "https://drafts.csswg.org/css-images-3/#the-image-rendering",
+    "summary": "Provides a hint to the browser on which scaling algorithm should be used.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Low"
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 5118058116939776,
+    "uservoiceid": 7902426
   }
 ]
