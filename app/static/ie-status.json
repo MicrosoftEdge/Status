@@ -556,7 +556,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Low"
     },
     "msdn": "",
     "wpd": "",
@@ -1637,7 +1638,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Low"
     },
     "msdn": "",
     "wpd": "",
@@ -2085,7 +2087,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Low"
     },
     "msdn": "https://msdn.microsoft.com/en-us/library/ie/bg124109(v=vs.85).aspx#setting_flexbox_alignment_",
     "wpd": "",
@@ -2240,7 +2243,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Low"
     },
     "msdn": "",
     "wpd": "",
