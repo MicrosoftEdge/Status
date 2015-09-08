@@ -1472,7 +1472,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Medium"
     },
     "msdn": "",
     "wpd": "",
@@ -1522,7 +1523,8 @@
     "ieStatus": {
       "text": "Prefixed",
       "iePrefixed": "10",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Medium"
     },
     "msdn": "https://msdn.microsoft.com/en-us/library/ie/hh772715(v=vs.85).aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/css-regions",
@@ -2321,7 +2323,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Medium"
     },
     "msdn": "",
     "wpd": "",
@@ -2440,7 +2443,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Medium"
     },
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/css/properties/object-fit",
