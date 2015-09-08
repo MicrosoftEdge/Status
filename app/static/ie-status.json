@@ -1780,7 +1780,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Medium"
     },
     "msdn": "",
     "wpd": "",
@@ -4383,5 +4384,59 @@
     "demo": "",
     "id": 6362186595172352,
     "uservoiceid": 6508954
+  },
+  {
+    "name": "image-rendering",
+    "category": "CSS",
+    "link": "https://drafts.csswg.org/css-images-3/#the-image-rendering",
+    "summary": "Provides a hint to the browser on which scaling algorithm should be used.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Low"
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 5118058116939776,
+    "uservoiceid": 7902426
+  },
+  {
+    "name": "Conic Gradients",
+    "category": "CSS",
+    "link": "https://drafts.csswg.org/css-images-4/#conic-gradients",
+    "summary": "Specifies a gradient where the color stops are placed around the circumference of a circle.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Low"
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 8471413
+  },
+  {
+    "name": "CSS Motion Path",
+    "category": "CSS",
+    "link": "https://drafts.fxtf.org/motion-1/",
+    "summary": "Motion paths allow authors to animate any graphical object along an author specified path.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Medium"
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 6190642178818048,
+    "uservoiceid": 7804467
   }
 ]
