@@ -1311,19 +1311,38 @@
   {
     "name": "mix-blend-mode",
     "category": "CSS",
-    "link": "http://dev.w3.org/fxtf/compositing-1/",
+    "link": "https://drafts.fxtf.org/compositing-1/",
     "summary": "Provides a way to blend an HTML or SVG element with its backdrop",
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Low"
     },
     "msdn": "",
     "wpd": "",
     "demo": "",
     "id": 6362616360337408,
     "uservoiceid": 6263617
+  },
+  {
+    "name": "background-blend-mode",
+    "category": "CSS",
+    "link": "https://drafts.fxtf.org/compositing-1/",
+    "summary": "Specifies the blending mode used for each background layer",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Low"
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 5768037999312896,
+    "uservoiceid": 9434463
   },
   {
     "name": "Cross-Domain Font Loading",
