@@ -4540,5 +4540,33 @@
     "demo": "",
     "id": null,
     "uservoiceid": 6514497
+  },
+  {
+    "name": "CSS Contextual Reference Element Pseudo-class :scope",
+    "category": "CSS",
+    "link": "http://www.w3.org/TR/selectors4/#the-scope-pseudo",
+    "summary": "The :scope pseudo-class represents any element that is in the contextual reference element set.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Medium"
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "shipped_opera_milestone": true,
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 9330957
   }
 ]
