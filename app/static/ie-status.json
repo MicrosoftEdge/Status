@@ -24,7 +24,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Medium"
     },
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/html/elements/details",
