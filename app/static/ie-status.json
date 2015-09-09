@@ -4466,5 +4466,33 @@
     "demo": "",
     "id": 6190642178818048,
     "uservoiceid": 7804467
+  },
+  {
+    "name": "CSS image-set()",
+    "category": "CSS",
+    "link": "https://drafts.csswg.org/css-images-3/#image-set-notation",
+    "summary": "Enables responsive images in CSS by specifiying multiple resolutions of an image that the browser can select from for the given situation.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Medium"
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "No Public Signals"",
+      "value": 3
+    },
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "shipped_opera_milestone": true,
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 6606738
   }
 ]
