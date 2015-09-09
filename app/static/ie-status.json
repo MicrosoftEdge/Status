@@ -4569,5 +4569,33 @@
     "demo": "",
     "id": null,
     "uservoiceid": 9330957
+  },
+  {
+    "name": "CSS tab-size property",
+    "category": "CSS",
+    "link": "http://www.w3.org/TR/css3-text/#tab-size",
+    "summary": "The tab-size property sets the size used to render tab characters in situations where white space is preserved",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Low"
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "shipped_opera_milestone": true,
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 6524689
   }
 ]
