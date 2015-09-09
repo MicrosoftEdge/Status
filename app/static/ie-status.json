@@ -4512,5 +4512,33 @@
     "demo": "",
     "id": 6178222542684160,
     "uservoiceid": 6511510
+  },
+  {
+    "name": "CSS vmax unit",
+    "category": "CSS",
+    "link": "http://www.w3.org/TR/css3-values/#viewport-relative-lengths",
+    "summary": "A viewport relative length unit equal to the larger of vw (viewport width) or vh (viewport height).",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Medium"
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "shipped_opera_milestone": true,
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 6514497
   }
 ]
