@@ -4481,7 +4481,7 @@
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
-      "text": "No Public Signals"",
+      "text": "No Public Signals",
       "value": 3
     },
     "safari_views": {
@@ -4494,5 +4494,23 @@
     "demo": "",
     "id": null,
     "uservoiceid": 6606738
+  },
+  {
+    "name": "CSS all shorthand",
+    "category": "CSS",
+    "link": "http://www.w3.org/TR/css3-cascade/#all-shorthand",
+    "summary": "The all property is a shorthand that resets all CSS properties except direction and unicode-bidi",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Medium"
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 6178222542684160,
+    "uservoiceid": 6511510
   }
 ]
