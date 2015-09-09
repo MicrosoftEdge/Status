@@ -4625,5 +4625,33 @@
     "demo": "",
     "id": null,
     "uservoiceid": 8977591
+  },
+  {
+    "name": "CSS Level 3 attr() function",
+    "category": "CSS",
+    "link": "http://www.w3.org/TR/css3-values/#attr-notation",
+    "summary": "Support the attr() function as a component value in properties applied to an element. Currently, attr() is only supported in the content property applied to pseudo-elements.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Low"
+    },
+    "impl_status_chrome": "No Public Signals",
+    "ff_views": {
+      "text": "No Public Signals",
+      "value": 3
+    },
+    "safari_views": {
+      "text": "No Public Signals",
+      "value": 3
+    },
+    "shipped_opera_milestone": false,
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 7671960
   }
 ]
