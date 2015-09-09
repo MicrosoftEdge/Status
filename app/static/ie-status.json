@@ -2721,7 +2721,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "High"
     },
     "msdn": "",
     "wpd": "",
