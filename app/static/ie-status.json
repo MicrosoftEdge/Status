@@ -4597,5 +4597,33 @@
     "demo": "",
     "id": null,
     "uservoiceid": 6524689
+  },
+  {
+    "name": "CSS Relational Pseudo-class :has",
+    "category": "CSS",
+    "link": "https://drafts.csswg.org/selectors/#relational",
+    "summary": "The relational pseudo-class, :has(), is a functional pseudo-class taking a relative selector list as an argument. Similar to jQuery’s :has() selector.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Low"
+    },
+    "impl_status_chrome": "No Public Signals",
+    "ff_views": {
+      "text": "No Public Signals",
+      "value": 3
+    },
+    "safari_views": {
+      "text": "No Public Signals",
+      "value": 3
+    },
+    "shipped_opera_milestone": false,
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 8977591
   }
 ]
