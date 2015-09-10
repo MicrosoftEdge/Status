@@ -72,7 +72,7 @@
   },
   {
     "name": "<img srcset>",
-    "category": "Misc",
+    "category": "Graphics",
     "link": "http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#attr-img-srcset",
     "summary": "Enable a responsive images solution by providing the browser multiple resources in varying resolutions for a single image.",
     "standardStatus": "Working draft or equivalent",
@@ -93,7 +93,7 @@
   },
   {
     "name": "Extended srcset and sizes support",
-    "category": "Misc",
+    "category": "Graphics",
     "link": "https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-srcset",
     "summary": "Extends the current implementation of the srcset attribute by adding support for the width descriptor and the sizes attribute.",
     "standardStatus": "Working draft or equivalent",
@@ -679,7 +679,7 @@
   },
   {
     "name": "DOM3 Keyboard Events",
-    "category": "Graphics",
+    "category": "User input",
     "link": "http://www.w3.org/TR/DOM-Level-3-Events/",
     "summary": "KeyboardEvent: keydown, keyup, keypress",
     "standardStatus": "Working draft or equivalent",
@@ -711,7 +711,7 @@
   },
   {
     "name": "DOM3 Wheel Events",
-    "category": "DOM",
+    "category": "User input",
     "link": "https://dvcs.w3.org/hg/dom3events/raw-file/tip/html/DOM3-Events.html#events-wheelevents",
     "summary": "Implementation of the standard DOM Level 3 WheelEvent for mouse wheel rotation.",
     "standardStatus": "Working draft or equivalent",
@@ -826,7 +826,7 @@
   },
   {
     "name": "GamePad API",
-    "category": "Device",
+    "category": "User input",
     "link": "https://dvcs.w3.org/hg/gamepad/raw-file/default/gamepad.html",
     "summary": "Gives JS access to a game controller via USB.",
     "standardStatus": "Working draft or equivalent",
@@ -1479,7 +1479,7 @@
   },
   {
     "name": "Pointer Lock (Mouse Lock)",
-    "category": "Misc",
+    "category": "User input",
     "link": "https://dvcs.w3.org/hg/pointerlock/raw-file/default/index.html",
     "summary": "Gives access to raw mouse movement, locks the target of mouse events to a single element, eliminates limits of how far mouse movement can go in a single direction, and removes the cursor from view. Obvious use cases are for first person or real time strategy games.",
     "standardStatus": "Working draft or equivalent",
@@ -1743,7 +1743,7 @@
   },
   {
     "name": "UIEvents - Keyboard Query APIs",
-    "category": "Multimedia",
+    "category": "User input",
     "link": "https://dvcs.w3.org/hg/d4e/raw-file/tip/source_respec.htm",
     "summary": "Identify the physical key being pressed; Query key from layout.",
     "standardStatus": "Editor's draft",
@@ -1878,7 +1878,7 @@
   },
   {
     "name": "Web Notifications",
-    "category": "Multimedia",
+    "category": "Misc",
     "link": "http://www.w3.org/TR/notifications/",
     "summary": "An API for displaying simple notifications to the user.",
     "standardStatus": "Established standard",
@@ -1930,7 +1930,7 @@
   },
   {
     "name": "Web SQL Database",
-    "category": "Multimedia",
+    "category": "Offline / Storage",
     "link": "http://www.w3.org/TR/webdatabase/",
     "summary": "API exposing an SQLite database",
     "standardStatus": "No public standards discussion",
@@ -2879,7 +2879,7 @@
   },
   {
     "name": "Screen Orientation API",
-    "category": "CSS",
+    "category": "Device",
     "link": "https://dvcs.w3.org/hg/screen-orientation/raw-file/tip/Overview.html",
     "summary": "Provides the ability to read the screen orientation state, to be informed when this state changes, and to be able to lock the screen orientation to a specific state. ",
     "standardStatus": "Working draft or equivalent",
@@ -3802,7 +3802,7 @@
   },
   {
     "name": "SVG+SMIL Animation",
-    "category": "Multimedia",
+    "category": "Graphics",
     "link": "http://www.w3.org/TR/SVG/animate.html",
     "summary": "XML-based syntax for specifying animations of SVG.",
     "standardStatus": "Established Standard",
@@ -3828,7 +3828,7 @@
   },
   {
     "name": "Hardware Concurrency",
-    "category": "Multimedia",
+    "category": "Device",
     "link": "http://wiki.whatwg.org/wiki/NavigatorCores",
     "summary": "An API for reading the system's total number of logical processors available to the user agent, up to an optional thread limit per origin.",
     "standardStatus": "Public Proposal",
@@ -4272,7 +4272,7 @@
   },
       {
     "name": "showModalDialog",
-    "category": "CSS",
+    "category": "Misc",
     "link": "http://www.w3.org/html/wg/drafts/html/master/browsers.html#window",
     "summary": "The global showModalDialog() method displays a modal dialog box containing a specified HTML document. This feature has an incredibly high cost in terms of code complexity since it requires us to run an event loop on top of an arbitrary JavaScript stack. It also complicates the web platform by making task dispatch reentrant and hard to reason about.",
     "standardStatus": "Established standard",
