@@ -17,7 +17,7 @@
   },
   {
     "name": "<details>/<summary>",
-    "category": "Misc",c
+    "category": "Misc",
     "link": "http://www.w3.org/html/wg/drafts/html/master/interactive-elements.html#the-details-element",
     "summary": "Interactive widget to show/hide content.",
     "standardStatus": "Established standard",
