@@ -4717,5 +4717,33 @@
     "demo": "",
     "id": null,
     "uservoiceid": 6514206
+  },
+  {
+    "name": "ol[reversed] attribute",
+    "category": "Misc",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#attr-ol-reversed",
+    "summary": "A boolean attribute that reverses the order of an ordered list when present.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Medium"
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "shipped_opera_milestone": false,
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 6514423
   }
 ]
