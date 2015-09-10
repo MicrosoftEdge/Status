@@ -234,6 +234,33 @@
     "uservoiceid": null
   },
   {
+    "name": "Canvas 2D ellipse",
+    "category": "Graphics",
+    "link": "http://www.w3.org/TR/2dcontext/#dom-context-2d-ellipse",
+    "summary": "Provides a method to draw arcs on a 2D canvas drawing surface.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text":  "In Development",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "No public signals",
+      "value": 5
+    },
+    "shipped_opera_milestone": true,
+    "safari_views": {
+      "text": "Preview release",
+      "value": 1
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
     "name": "Canvas 2D path2D",
     "category": "Graphics",
     "link": "http://www.w3.org/TR/2dcontext2/#path2d-objects",
