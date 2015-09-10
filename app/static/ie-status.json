@@ -4689,5 +4689,33 @@
     "demo": "",
     "id": null,
     "uservoiceid": 6508881
+  },
+  {
+    "name": "<time> Element",
+    "category": "Misc",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-time-element",
+    "summary": "An HTML element for representing dates and times.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Medium"
+    },
+    "impl_status_chrome": "No Public Signals",
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "safari_views": {
+      "text": "No Public Signals",
+      "value": 3
+    },
+    "shipped_opera_milestone": false,
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 6514206
   }
 ]
