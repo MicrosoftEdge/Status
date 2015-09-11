@@ -3109,10 +3109,9 @@
     "summary": "",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "High"
+      "ieUnprefixed": ""
     },
     "msdn": "",
     "wpd": "",
