@@ -3462,7 +3462,8 @@
       "ieUnprefixed": "",
       "priority": "Low"
     },
-    "id": 5516876633341952
+    "id": 5516876633341952,
+    "uservoiceid": 6850816
   },
   {
     "name": "Subclassing (ES6)",
