@@ -300,7 +300,7 @@
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
-      "text": "Prefixed",
+      "text": "Shipped",
       "value": 1
     },
     "shipped_opera_milestone": true,
