@@ -3847,6 +3847,32 @@
     "id": 6248386202173440
   },
   {
+    "name": "Web Bluetooth",
+    "category": "Device",
+    "link": "https://webbluetoothcg.github.io/web-bluetooth/",
+    "summary": "An API for communicating with Bluetooth Low Energy devices as a GATT Client.",
+    "standardStatus": "Editor's draft",
+    "ieStatus": {
+      "text": "Not currently planned",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "ff_views": {
+      "text": "In Development",
+      "value": 2
+    },
+    "safari_views": {
+      "text": "No Public Signals",
+      "value": 3
+    },
+    "impl_status_chrome": "Behind a flag",
+    "shipped_opera_milestone": false,
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null
+  },
+  {
     "name": "Shared Web Workers",
     "category": "JavaScript",
     "link": "http://dev.w3.org/html5/workers/#shared-workers-and-the-sharedworker-interface",
