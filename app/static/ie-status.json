@@ -3857,20 +3857,11 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
-    "ff_views": {
-      "text": "In Development",
-      "value": 2
-    },
-    "safari_views": {
-      "text": "No Public Signals",
-      "value": 3
-    },
-    "impl_status_chrome": "Behind a flag",
-    "shipped_opera_milestone": false,
     "msdn": "",
     "wpd": "",
     "demo": "",
-    "id": null
+    "id": 5264933985976320,
+    "uservoiceid": 9775308
   },
   {
     "name": "Shared Web Workers",
