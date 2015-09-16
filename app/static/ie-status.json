@@ -1781,10 +1781,9 @@
     "summary": "Expose constructible URL objects that can be manipulated and combined.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "Low"
+      "ieUnprefixed": ""
     },
     "msdn": "",
     "wpd": "",
