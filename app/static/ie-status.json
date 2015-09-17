@@ -4329,6 +4329,33 @@
     "uservoiceid": null
   },
   {
+    "name": "Backdrop filter",
+    "category": "CSS",
+    "link": "http://dev.w3.org/fxtf/filters-2/#BackdropFilterProperty",
+    "summary": "Applies a CSS filter effect to the content behind an element. This is not the element's background but the content that would be drawn behind it.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text":"Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "impl_status_chrome": "In Development",
+    "ff_views": {
+      "text": "No public signals",
+      "value": 5
+    },
+    "safari_views": {
+      "text": "Preview release",
+      "value": 1
+    },
+    "shipped_opera_milestone": false,
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 9160189
+  },
+  {
     "name": "International input[type=email] validation",
     "category": "User input",
     "link": "https://www.w3.org/Bugs/Public/show_bug.cgi?id=15489",
