@@ -4337,7 +4337,8 @@
     "ieStatus": {
       "text":"Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Low"
     },
     "impl_status_chrome": "In Development",
     "ff_views": {
@@ -4345,7 +4346,7 @@
       "value": 5
     },
     "safari_views": {
-      "text": "Preview release",
+      "text": "In Development",
       "value": 1
     },
     "shipped_opera_milestone": false,
