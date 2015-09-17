@@ -509,6 +509,7 @@
     "id": 6119881720201216,
     "uservoiceid": 6261290
   },
+  
   {
     "name": "Content Security Policy",
     "category": "Security",
@@ -520,6 +521,12 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "msdn": "",
+    "wpd": "https://docs.webplatform.org/wiki/tutorials/content-security-policy",
+    "demo": "",
+    "id": 5205088045891584,
+    "uservoiceid": 6511917
+  },
   {
     "name": "Content Security Policy Level 2",
     "category": "Security",
