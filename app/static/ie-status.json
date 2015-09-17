@@ -520,11 +520,23 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+  {
+    "name": "Content Security Policy Level 2",
+    "category": "Security",
+    "link": "http://www.w3.org/TR/CSP2/",
+    "summary": "An evolution of the Content Security Policy specification, allowing developers to create a whitelist of sources of trusted content, and instructing the browser to only execute or render resources from those sources.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Low"
+    },
     "msdn": "",
-    "wpd": "https://docs.webplatform.org/wiki/tutorials/content-security-policy",
+    "wpd": "",
     "demo": "",
-    "id": 5205088045891584,
-    "uservoiceid": 6511917
+    "id": 4957003285790720,
+    "uservoiceid": 9163354
   },
   {
     "name": "CSS calc()",
