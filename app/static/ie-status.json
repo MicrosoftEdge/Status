@@ -114,9 +114,9 @@
     "summary": "Extends the current implementation of the srcset attribute by adding support for the width descriptor and the sizes attribute.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10547"
     },
     "safari_views": {
       "text": "Shipped",
@@ -141,9 +141,9 @@
     "summary": "Enable a responsive images solution by declaring multiple resources for an image using CSS media queries.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10547"
     },
     "msdn": "",
     "wpd": "",
@@ -158,9 +158,9 @@
     "summary": "HTML template element to allow creating fragment of inert HTML as a prototype for stamping out DOM (often used in Web Components).",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10547"
     },
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/html/elements/template",
@@ -256,9 +256,9 @@
     "summary": "Provides a method to draw arcs on a 2D canvas drawing surface.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text":  "In Development",
+      "text":  "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10547"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
@@ -310,9 +310,9 @@
     "summary": ":in-range and :out-of-range pseudo-classes to match elements that are candidates for constraint validation, have range limitations, and are/are not suffering from underflow or overflow.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text":  "In Development",
+      "text":  "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10547"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
@@ -337,9 +337,9 @@
     "summary": ":read-only and :read-write pseudo-classes to match elements which are considered user-alterable for the purposes of Selectors.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text":  "In Development",
+      "text":  "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10547"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
@@ -364,9 +364,9 @@
     "summary": "When used on an <a>, this attribute signifies that the resource it points to should be downloaded by the browser rather than navigating to it.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10547"
     },
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/html/elements/a",
@@ -2066,12 +2066,12 @@
     "name": "WebRTC – Object RTC API",
     "category": "Realtime / Communication",
     "link": "http://www.w3.org/community/ortc/",
-    "summary": "Enables mobile endpoints to talk to servers and web browsers with Real-Time Communications (RTC) capabilities via native and simple JavaScript APIs",
+    "summary": "Enables mobile endpoints to talk to servers and web browsers with Real-Time Communications (ORTC) capabilities via native and simple JavaScript APIs.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10547"
     },
     "msdn": "",
     "wpd": "",
@@ -3142,9 +3142,10 @@
     "summary": "",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10547",
+      "flag": true
     },
     "msdn": "",
     "wpd": "",
@@ -3188,9 +3189,9 @@
     "summary": "Allows referencing external content in SVG. A common use case for this would be <use xlink:href=\"lib.svg#template\" fill=\"#000000\"></use>",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10547"
     },
     "demo": "",
     "impl_status_chrome": "Enabled by default",
