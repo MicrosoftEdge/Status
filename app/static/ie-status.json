@@ -3853,7 +3853,8 @@
     "summary": "An API for communicating with Bluetooth Low Energy devices as a GATT Client.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Not currently planned",
+      "text": "Under Consideration",
+      "priority": "low",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
