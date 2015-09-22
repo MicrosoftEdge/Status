@@ -4911,5 +4911,33 @@
     "wpd": "",
     "demo": "",
     "id": null
+  },
+  {
+    "name": "Form attribute",
+    "category": "Misc",
+    "link": "http://www.w3.org/TR/html5/forms.html#attr-fae-form",
+    "summary": "Attribute for associating input and submit buttons with a form.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Medium"
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "http://www.impressivewebs.com/html5-form-attribute/",
+    "id": null,
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "shipped_opera_milestone": true,
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "uservoiceid": 7327649
   }
 ]
