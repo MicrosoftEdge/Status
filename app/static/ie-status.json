@@ -16,6 +16,22 @@
     "id": 6090950820495360
   },
   {
+    "name": "FIDO 2.0 Web APIs",
+    "category": "Security",
+    "link": "",
+    "summary": "FIDO 2.0 Web APIs provide an open, scalable, and interoperable solution to facilitate authentication, which replaces passwords with stronger two-factor credentials.  The implementation in Microsoft Edge is focused on enabling Microsoft Passport with a PIN or Windows Hello to securely authenticate to Microsoft properties and third-party web sites.  A draft specification is being developed by the FIDO Alliance, of which Microsoft is a member.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "In Development",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null
+  },
+  {
     "name": "<details>/<summary>",
     "category": "Misc",
     "link": "http://www.w3.org/html/wg/drafts/html/master/interactive-elements.html#the-details-element",
@@ -24,7 +40,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Medium"
     },
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/html/elements/details",
@@ -71,7 +88,7 @@
   },
   {
     "name": "<img srcset>",
-    "category": "Misc",
+    "category": "Graphics",
     "link": "http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#attr-img-srcset",
     "summary": "Enable a responsive images solution by providing the browser multiple resources in varying resolutions for a single image.",
     "standardStatus": "Working draft or equivalent",
@@ -92,14 +109,14 @@
   },
   {
     "name": "Extended srcset and sizes support",
-    "category": "Misc",
+    "category": "Graphics",
     "link": "https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-srcset",
     "summary": "Extends the current implementation of the srcset attribute by adding support for the width descriptor and the sizes attribute.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10547"
     },
     "safari_views": {
       "text": "Shipped",
@@ -124,9 +141,9 @@
     "summary": "Enable a responsive images solution by declaring multiple resources for an image using CSS media queries.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10547"
     },
     "msdn": "",
     "wpd": "",
@@ -141,9 +158,9 @@
     "summary": "HTML template element to allow creating fragment of inert HTML as a prototype for stamping out DOM (often used in Web Components).",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10547"
     },
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/html/elements/template",
@@ -239,9 +256,9 @@
     "summary": "Provides a method to draw arcs on a 2D canvas drawing surface.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text":  "In Development",
+      "text":  "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10547"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
@@ -260,11 +277,11 @@
     "uservoiceid": null
   },
   {
-    "name": "CSS Range Pseudo-classes",
-    "category": "CSS",
-    "link": "http://www.w3.org/TR/html5/disabled-elements.html#selector-in-range",
-    "summary": ":in-range and :out-of-range pseudo-classes to match elements that are candidates for constraint validation, have range limitations, and are/are not suffering from underflow or overflow.",
-    "standardStatus": "Established standard",
+    "name": "Canvas 2D path2D",
+    "category": "Graphics",
+    "link": "http://www.w3.org/TR/2dcontext2/#path2d-objects",
+    "summary": "Path2D objects can be used to declare paths that are then later used on CanvasRenderingContext2D objects.",
+    "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text":  "In Development",
       "iePrefixed": "",
@@ -272,7 +289,34 @@
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
-      "text": "Prefixed",
+      "text": "Shipped",
+      "value": 1
+    },
+    "shipped_opera_milestone": true,
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 6710770
+  },
+  {
+    "name": "CSS Range Pseudo-classes",
+    "category": "CSS",
+    "link": "http://www.w3.org/TR/html5/disabled-elements.html#selector-in-range",
+    "summary": ":in-range and :out-of-range pseudo-classes to match elements that are candidates for constraint validation, have range limitations, and are/are not suffering from underflow or overflow.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text":  "Preview Release",
+      "iePrefixed": "",
+      "ieUnprefixed": "10547"
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Shipped",
       "value": 1
     },
     "shipped_opera_milestone": true,
@@ -293,9 +337,9 @@
     "summary": ":read-only and :read-write pseudo-classes to match elements which are considered user-alterable for the purposes of Selectors.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text":  "In Development",
+      "text":  "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10547"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
@@ -320,9 +364,9 @@
     "summary": "When used on an <a>, this attribute signifies that the resource it points to should be downloaded by the browser rather than navigating to it.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10547"
     },
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/html/elements/a",
@@ -483,6 +527,24 @@
     "uservoiceid": 6511917
   },
   {
+    "name": "Content Security Policy Level 2",
+    "category": "Security",
+    "link": "http://www.w3.org/TR/CSP2/",
+    "summary": "An evolution of the Content Security Policy specification, allowing developers to create a whitelist of sources of trusted content, and instructing the browser to only execute or render resources from those sources.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Low"
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 4957003285790720,
+    "uservoiceid": 9163354
+  },
+  {
     "name": "CSS calc()",
     "category": "CSS",
     "link": "http://www.w3.org/TR/css3-values",
@@ -539,7 +601,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Low"
     },
     "msdn": "",
     "wpd": "",
@@ -556,7 +619,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Low"
     },
     "msdn": "",
     "wpd": "",
@@ -649,7 +713,7 @@
   },
   {
     "name": "DOM3 Keyboard Events",
-    "category": "Graphics",
+    "category": "User input",
     "link": "http://www.w3.org/TR/DOM-Level-3-Events/",
     "summary": "KeyboardEvent: keydown, keyup, keypress",
     "standardStatus": "Working draft or equivalent",
@@ -681,7 +745,7 @@
   },
   {
     "name": "DOM3 Wheel Events",
-    "category": "DOM",
+    "category": "User input",
     "link": "https://dvcs.w3.org/hg/dom3events/raw-file/tip/html/DOM3-Events.html#events-wheelevents",
     "summary": "Implementation of the standard DOM Level 3 WheelEvent for mouse wheel rotation.",
     "standardStatus": "Working draft or equivalent",
@@ -796,7 +860,7 @@
   },
   {
     "name": "GamePad API",
-    "category": "Device",
+    "category": "User input",
     "link": "https://dvcs.w3.org/hg/gamepad/raw-file/default/gamepad.html",
     "summary": "Gives JS access to a game controller via USB.",
     "standardStatus": "Working draft or equivalent",
@@ -1055,7 +1119,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Low"
     },
     "msdn": "",
     "wpd": "",
@@ -1311,19 +1376,38 @@
   {
     "name": "mix-blend-mode",
     "category": "CSS",
-    "link": "http://dev.w3.org/fxtf/compositing-1/",
+    "link": "https://drafts.fxtf.org/compositing-1/",
     "summary": "Provides a way to blend an HTML or SVG element with its backdrop",
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Low"
     },
     "msdn": "",
     "wpd": "",
     "demo": "",
     "id": 6362616360337408,
     "uservoiceid": 6263617
+  },
+  {
+    "name": "background-blend-mode",
+    "category": "CSS",
+    "link": "https://drafts.fxtf.org/compositing-1/",
+    "summary": "Specifies the blending mode used for each background layer",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Low"
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 5768037999312896,
+    "uservoiceid": 9434463
   },
   {
     "name": "Cross-Domain Font Loading",
@@ -1429,7 +1513,7 @@
   },
   {
     "name": "Pointer Lock (Mouse Lock)",
-    "category": "Misc",
+    "category": "User input",
     "link": "https://dvcs.w3.org/hg/pointerlock/raw-file/default/index.html",
     "summary": "Gives access to raw mouse movement, locks the target of mouse events to a single element, eliminates limits of how far mouse movement can go in a single direction, and removes the cursor from view. Obvious use cases are for first person or real time strategy games.",
     "standardStatus": "Working draft or equivalent",
@@ -1453,7 +1537,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Medium"
     },
     "msdn": "",
     "wpd": "",
@@ -1503,7 +1588,8 @@
     "ieStatus": {
       "text": "Prefixed",
       "iePrefixed": "10",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Medium"
     },
     "msdn": "https://msdn.microsoft.com/en-us/library/ie/hh772715(v=vs.85).aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/css-regions",
@@ -1616,7 +1702,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Low"
     },
     "msdn": "",
     "wpd": "",
@@ -1690,7 +1777,7 @@
   },
   {
     "name": "UIEvents - Keyboard Query APIs",
-    "category": "Multimedia",
+    "category": "User input",
     "link": "https://dvcs.w3.org/hg/d4e/raw-file/tip/source_respec.htm",
     "summary": "Identify the physical key being pressed; Query key from layout.",
     "standardStatus": "Editor's draft",
@@ -1712,7 +1799,7 @@
     "summary": "Expose constructible URL objects that can be manipulated and combined.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
@@ -1780,7 +1867,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Medium"
     },
     "msdn": "",
     "wpd": "",
@@ -1823,7 +1911,7 @@
   },
   {
     "name": "Web Notifications",
-    "category": "Multimedia",
+    "category": "Misc",
     "link": "http://www.w3.org/TR/notifications/",
     "summary": "An API for displaying simple notifications to the user.",
     "standardStatus": "Established standard",
@@ -1875,7 +1963,7 @@
   },
   {
     "name": "Web SQL Database",
-    "category": "Multimedia",
+    "category": "Offline / Storage",
     "link": "http://www.w3.org/TR/webdatabase/",
     "summary": "API exposing an SQLite database",
     "standardStatus": "No public standards discussion",
@@ -1978,12 +2066,12 @@
     "name": "WebRTC – Object RTC API",
     "category": "Realtime / Communication",
     "link": "http://www.w3.org/community/ortc/",
-    "summary": "Enables mobile endpoints to talk to servers and web browsers with Real-Time Communications (RTC) capabilities via native and simple JavaScript APIs",
+    "summary": "Enables mobile endpoints to talk to servers and web browsers with Real-Time Communications (ORTC) capabilities via native and simple JavaScript APIs.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10547"
     },
     "msdn": "",
     "wpd": "",
@@ -2063,7 +2151,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Low"
     },
     "msdn": "https://msdn.microsoft.com/en-us/library/ie/bg124109(v=vs.85).aspx#setting_flexbox_alignment_",
     "wpd": "",
@@ -2218,7 +2307,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Low"
     },
     "msdn": "",
     "wpd": "",
@@ -2301,7 +2391,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Medium"
     },
     "msdn": "",
     "wpd": "",
@@ -2351,7 +2442,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Low"
     },
     "msdn": "",
     "wpd": "",
@@ -2368,7 +2460,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Low"
     },
     "msdn": "",
     "wpd": "",
@@ -2420,7 +2513,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Medium"
     },
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/css/properties/object-fit",
@@ -2556,7 +2650,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Low"
     },
     "msdn": "",
     "wpd": "",
@@ -2692,7 +2787,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "High"
     },
     "msdn": "",
     "wpd": "",
@@ -2817,7 +2913,7 @@
   },
   {
     "name": "Screen Orientation API",
-    "category": "CSS",
+    "category": "Device",
     "link": "https://dvcs.w3.org/hg/screen-orientation/raw-file/tip/Overview.html",
     "summary": "Provides the ability to read the screen orientation state, to be informed when this state changes, and to be able to lock the screen orientation to a specific state. ",
     "standardStatus": "Working draft or equivalent",
@@ -2914,7 +3010,7 @@
   {
     "name": "Media Queries Level 4: pointer and hover",
     "category": "CSS",
-    "link": "http://dev.w3.org/csswg/mediaqueries-4/#mf-interaction",
+    "link": "https://drafts.csswg.org/mediaqueries-4/#mf-interaction",
     "summary": "Allows to query the presence and accuracy of the user's pointing input (e.g. for differentiating touch versus mouse). Additionally, allows the page to query whether the user's pointing input supports hover.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -3031,7 +3127,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Low"
     },
     "msdn": "",
     "wpd": "",
@@ -3045,9 +3142,10 @@
     "summary": "",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10547",
+      "flag": true
     },
     "msdn": "",
     "wpd": "",
@@ -3091,9 +3189,9 @@
     "summary": "Allows referencing external content in SVG. A common use case for this would be <use xlink:href=\"lib.svg#template\" fill=\"#000000\"></use>",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10547"
     },
     "demo": "",
     "impl_status_chrome": "Enabled by default",
@@ -3395,9 +3493,11 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Low"
     },
-    "id": 5516876633341952
+    "id": 5516876633341952,
+    "uservoiceid": 6850816
   },
   {
     "name": "Subclassing (ES6)",
@@ -3531,7 +3631,8 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
-    "id": 6488656873259008
+    "id": 6488656873259008,
+    "uservoiceid": 6512948
   },
   {
     "name": "Public Key Pinning Extension for HTTP",
@@ -3606,7 +3707,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Medium"
     },
     "msdn": "",
     "wpd": "",
@@ -3739,7 +3841,7 @@
   },
   {
     "name": "SVG+SMIL Animation",
-    "category": "Multimedia",
+    "category": "Graphics",
     "link": "http://www.w3.org/TR/SVG/animate.html",
     "summary": "XML-based syntax for specifying animations of SVG.",
     "standardStatus": "Established Standard",
@@ -3765,7 +3867,7 @@
   },
   {
     "name": "Hardware Concurrency",
-    "category": "Multimedia",
+    "category": "Device",
     "link": "http://wiki.whatwg.org/wiki/NavigatorCores",
     "summary": "An API for reading the system's total number of logical processors available to the user agent, up to an optional thread limit per origin.",
     "standardStatus": "Public Proposal",
@@ -3778,6 +3880,24 @@
     "wpd": "",
     "demo": "",
     "id": 6248386202173440
+  },
+  {
+    "name": "Web Bluetooth",
+    "category": "Device",
+    "link": "https://webbluetoothcg.github.io/web-bluetooth/",
+    "summary": "An API for communicating with Bluetooth Low Energy devices as a GATT Client.",
+    "standardStatus": "Editor's draft",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "low",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 5264933985976320,
+    "uservoiceid": 9775308
   },
   {
     "name": "Shared Web Workers",
@@ -4094,7 +4214,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "High"
     },
     "msdn": "",
     "wpd": "",
@@ -4208,7 +4329,7 @@
   },
       {
     "name": "showModalDialog",
-    "category": "CSS",
+    "category": "Misc",
     "link": "http://www.w3.org/html/wg/drafts/html/master/browsers.html#window",
     "summary": "The global showModalDialog() method displays a modal dialog box containing a specified HTML document. This feature has an incredibly high cost in terms of code complexity since it requires us to run an event loop on top of an arbitrary JavaScript stack. It also complicates the web platform by making task dispatch reentrant and hard to reason about.",
     "standardStatus": "Established standard",
@@ -4228,6 +4349,34 @@
     "uservoiceid": null
   },
   {
+    "name": "Backdrop filter",
+    "category": "CSS",
+    "link": "http://dev.w3.org/fxtf/filters-2/#BackdropFilterProperty",
+    "summary": "Applies a CSS filter effect to the content behind an element. This is not the element's background but the content that would be drawn behind it.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text":"Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Low"
+    },
+    "impl_status_chrome": "In Development",
+    "ff_views": {
+      "text": "No public signals",
+      "value": 5
+    },
+    "safari_views": {
+      "text": "In Development",
+      "value": 1
+    },
+    "shipped_opera_milestone": false,
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 9160189
+  },
+  {
     "name": "International input[type=email] validation",
     "category": "User input",
     "link": "https://www.w3.org/Bugs/Public/show_bug.cgi?id=15489",
@@ -4236,7 +4385,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Low"
     },
     "impl_status_chrome": "",
     "ff_views": {
@@ -4383,5 +4533,412 @@
     "demo": "",
     "id": 6362186595172352,
     "uservoiceid": 6508954
+  },
+  {
+    "name": "image-rendering",
+    "category": "CSS",
+    "link": "https://drafts.csswg.org/css-images-3/#the-image-rendering",
+    "summary": "Provides a hint to the browser on which scaling algorithm should be used.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Low"
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 5118058116939776,
+    "uservoiceid": 7902426
+  },
+  {
+    "name": "Conic Gradients",
+    "category": "CSS",
+    "link": "https://drafts.csswg.org/css-images-4/#conic-gradients",
+    "summary": "Specifies a gradient where the color stops are placed around the circumference of a circle.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Low"
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 8471413
+  },
+  {
+    "name": "CSS Motion Path",
+    "category": "CSS",
+    "link": "https://drafts.fxtf.org/motion-1/",
+    "summary": "Motion paths allow authors to animate any graphical object along an author specified path.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Medium"
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 6190642178818048,
+    "uservoiceid": 7804467
+  },
+  {
+    "name": "CSS image-set()",
+    "category": "CSS",
+    "link": "https://drafts.csswg.org/css-images-3/#image-set-notation",
+    "summary": "Enables responsive images in CSS by specifiying multiple resolutions of an image that the browser can select from for the given situation.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Medium"
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "No Public Signals",
+      "value": 3
+    },
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "shipped_opera_milestone": true,
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 6606738
+  },
+  {
+    "name": "CSS all shorthand",
+    "category": "CSS",
+    "link": "http://www.w3.org/TR/css3-cascade/#all-shorthand",
+    "summary": "The all property is a shorthand that resets all CSS properties except direction and unicode-bidi",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Medium"
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 6178222542684160,
+    "uservoiceid": 6511510
+  },
+  {
+    "name": "CSS vmax unit",
+    "category": "CSS",
+    "link": "http://www.w3.org/TR/css3-values/#viewport-relative-lengths",
+    "summary": "A viewport relative length unit equal to the larger of vw (viewport width) or vh (viewport height).",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Medium"
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "shipped_opera_milestone": true,
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 6514497
+  },
+  {
+    "name": "CSS Contextual Reference Element Pseudo-class :scope",
+    "category": "CSS",
+    "link": "http://www.w3.org/TR/selectors4/#the-scope-pseudo",
+    "summary": "The :scope pseudo-class represents any element that is in the contextual reference element set.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Medium"
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "shipped_opera_milestone": true,
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 9330957
+  },
+  {
+    "name": "CSS tab-size property",
+    "category": "CSS",
+    "link": "http://www.w3.org/TR/css3-text/#tab-size",
+    "summary": "The tab-size property sets the size used to render tab characters in situations where white space is preserved",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Low"
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "shipped_opera_milestone": true,
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 6524689
+  },
+  {
+    "name": "CSS Relational Pseudo-class :has",
+    "category": "CSS",
+    "link": "https://drafts.csswg.org/selectors/#relational",
+    "summary": "The relational pseudo-class, :has(), is a functional pseudo-class taking a relative selector list as an argument. Similar to jQuery’s :has() selector.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Low"
+    },
+    "impl_status_chrome": "No Public Signals",
+    "ff_views": {
+      "text": "No Public Signals",
+      "value": 3
+    },
+    "safari_views": {
+      "text": "No Public Signals",
+      "value": 3
+    },
+    "shipped_opera_milestone": false,
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 8977591
+  },
+  {
+    "name": "CSS Level 3 attr() function",
+    "category": "CSS",
+    "link": "http://www.w3.org/TR/css3-values/#attr-notation",
+    "summary": "Support the attr() function as a component value in properties applied to an element. Currently, attr() is only supported in the content property applied to pseudo-elements.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Low"
+    },
+    "impl_status_chrome": "No Public Signals",
+    "ff_views": {
+      "text": "No Public Signals",
+      "value": 3
+    },
+    "safari_views": {
+      "text": "No Public Signals",
+      "value": 3
+    },
+    "shipped_opera_milestone": false,
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 7671960
+  },
+  {
+    "name": "<menu> Element",
+    "category": "Misc",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-menu-element",
+    "summary": "An HTML element for toolbars and popup menus.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Low"
+    },
+    "impl_status_chrome": "No Public Signals",
+    "ff_views": {
+      "text": "In Development",
+      "value": 2
+    },
+    "safari_views": {
+      "text": "No Public Signals",
+      "value": 3
+    },
+    "shipped_opera_milestone": false,
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 6508881
+  },
+  {
+    "name": "<time> Element",
+    "category": "Misc",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-time-element",
+    "summary": "An HTML element for representing dates and times.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Medium"
+    },
+    "impl_status_chrome": "No Public Signals",
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "safari_views": {
+      "text": "No Public Signals",
+      "value": 3
+    },
+    "shipped_opera_milestone": false,
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 6514206
+  },
+  {
+    "name": "<output> Element",
+    "category": "Misc",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-output-element",
+    "summary": "An HTML element for representing the result of a calculation or user action.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Medium"
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "shipped_opera_milestone": true,
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 6514436
+  },
+  {
+    "name": "ol[reversed] attribute",
+    "category": "Misc",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#attr-ol-reversed",
+    "summary": "A boolean attribute that reverses the order of an ordered list when present.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Medium"
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "shipped_opera_milestone": true,
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 6514423
+  },
+  {
+    "name": "Screen Capture",
+    "category": "Realtime / Communication",
+    "link": "http://w3c.github.io/mediacapture-screen-share/",
+    "summary": "Screen Capture API allows a user's display or parts thereof be used as the source of a media stream.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Medium"
+    },
+    "impl_status_chrome": "",
+    "ff_views": {
+      "text": "In Development",
+      "value": 2
+    },
+    "safari_views": {
+      "text": "No public signals",
+      "value": 3
+    },
+    "shipped_opera_milestone": false,
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null
+  },
+  {
+    "name": "Form attribute",
+    "category": "Misc",
+    "link": "http://www.w3.org/TR/html5/forms.html#attr-fae-form",
+    "summary": "Attribute for associating input and submit buttons with a form.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Medium"
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "http://www.impressivewebs.com/html5-form-attribute/",
+    "id": null,
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "shipped_opera_milestone": true,
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "uservoiceid": 7327649
   }
 ]
