@@ -3062,15 +3062,15 @@
   {
     "name": "ES6 Object Literal Enhancements",
     "category": "JavaScript",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html#sec-reflection",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html#sec-object-initializer",
     "summary": "Adds computed properties, concise method definitions, and short-hand for properties whose value is initialized to a same-named variable.",
-    "standardStatus": "Editor's Draft",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/mt146826(v=vs.94).aspx",6060641169178624
+    "msdn": "",
     "wpd": "",
     "demo": "",
     "id": null,
@@ -4945,7 +4945,7 @@
     "category": "JavaScript",
     "link": "http://ecma-international.org/ecma-262/6.0/index.html#sec-reflection",
     "summary": "Provides methods for use in operations that are intercepted. Reflect methods are often used with proxies because they allow you to delegate to default behavior without implementing the default behavior in your code.",
-    "standardStatus": "Editor's draft",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
