@@ -4983,5 +4983,21 @@
     "wpd": "",
     "demo": "",
     "id": 6060641169178624
-  }
+  },
+  {
+    "name": "UI Events KeyboardEvent",
+    "category": "User input",
+    "link": "https://w3c.github.io/uievents/#interface-KeyboardEvent",
+    "summary": "KeyboardEvent.code and an up to date KeyboardEvent.key.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 5228092293382144
+  },
 ]
