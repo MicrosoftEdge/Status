@@ -1782,9 +1782,9 @@
     "summary": "Identify the physical key being pressed; Query key from layout.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Not currently planned",
+      "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "Medium"
     },
     "msdn": "",
     "wpd": "",
