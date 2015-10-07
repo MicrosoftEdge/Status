@@ -3517,7 +3517,7 @@
       "ieUnprefixed": "10240",
       "flag": true
     },
-    "impl_status_chrome": "No active development",
+    "impl_status_chrome": "In development",
     "shipped_opera_milestone": false,
     "ff_views": {
       "text": "In Development",
