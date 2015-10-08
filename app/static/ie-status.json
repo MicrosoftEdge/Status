@@ -4983,5 +4983,23 @@
     "wpd": "",
     "demo": "",
     "id": 6060641169178624
+  },
+  {
+    "name": "FindText API",
+    "category": "DOM",
+    "link": "http://w3c.github.io/findtext/",
+    "summary": "Provides an API for finding ranges of text in a document, with a variety of selection criteria. Similar to a user-agent's find-on-page or page-search capability.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Low"
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null
+    "uservoiceid": null
   }
 ]
