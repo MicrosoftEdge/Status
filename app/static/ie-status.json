@@ -4294,9 +4294,9 @@
     "summary": "If the cascaded value of a property is the initial keyword, the property’s initial value becomes its specified value.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10565"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
@@ -4321,9 +4321,9 @@
     "summary": "If the cascaded value of a property is the ‘‘unset’#’ keyword, then if it is an inherited property, this is treated as ‘inherit’, and if it is not, this is treated as ‘initial’. This keyword effectively erases all declared values occurring earlier in the cascade, correctly inheriting or not as appropriate for the property (or all longhands of a shorthand).",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10565"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
