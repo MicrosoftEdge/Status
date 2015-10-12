@@ -444,11 +444,11 @@
     "id": 5328783104016384
   },
   {
-    "name": "Block bindings (let, const, function)",
+    "name": "ES6 Block bindings (let, const, function)",
     "category": "JavaScript",
-    "link": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "Allows developers to explicitly qualify access to variables within a block.",
-    "standardStatus": "Editor's draft",
+    "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
@@ -1214,11 +1214,11 @@
     }
   },
   {
-    "name": "Map",
+    "name": "Map (ES6)",
     "category": "JavaScript",
-    "link": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "Map objects are simple key/value maps.",
-    "standardStatus": "Editor's draft",
+    "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
@@ -1646,11 +1646,11 @@
     "uservoiceid": 6263630
   },
   {
-    "name": "Set",
+    "name": "Set (ES6)",
     "category": "JavaScript",
-    "link": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "Set objects let you store unique values of any type, whether primitive values or object references.",
-    "standardStatus": "Editor's draft",
+    "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
@@ -1760,11 +1760,11 @@
     "id": 6437640580628480
   },
   {
-    "name": "Typed Arrays",
+    "name": "Typed Arrays (ES6)",
     "category": "JavaScript",
     "link": "http://ecma-international.org/ecma-262/6.0/index.html#sec-typedarray-objects",
     "summary": "Buffers for holding binary data and working with WebGL & Audio API: ArrayBuffer, Float32Array , Int16Array, Uint8Array, etc.)",
-    "standardStatus": "Editor's Draft",
+    "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
@@ -1778,13 +1778,13 @@
   {
     "name": "UIEvents - Keyboard Query APIs",
     "category": "User input",
-    "link": "https://dvcs.w3.org/hg/d4e/raw-file/tip/source_respec.htm",
+    "link": "http://www.w3.org/TR/uievents/",
     "summary": "Identify the physical key being pressed; Query key from layout.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Not currently planned",
+      "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "Medium"
     },
     "msdn": "",
     "wpd": "",
@@ -1843,11 +1843,11 @@
     "uservoiceid": 6263645
   },
   {
-    "name": "WeakMap",
+    "name": "WeakMap (ES6)",
     "category": "JavaScript",
-    "link": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "WeakMaps are key/value maps in which keys are objects.",
-    "standardStatus": "Editor's draft",
+    "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
@@ -2126,11 +2126,11 @@
     "id": 6290890138058752
   },
   {
-    "name": "Arrow function",
+    "name": "Arrow function (ES6)",
     "category": "JavaScript",
-    "link": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "The arrow (=>) provides a shorthand for the function keyword with lexical 'this' binding.",
-    "standardStatus": "Editor's draft",
+    "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
@@ -2178,11 +2178,11 @@
     "uservoiceid": 6263676
   },
   {
-    "name": "Default parameter",
+    "name": "Default parameter (ES6)",
     "category": "JavaScript",
-    "link": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "Allows formal parameters to be initialized with default values if no value is passed.",
-    "standardStatus": "Editor's draft",
+    "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Preview Release",
       "iePrefixed": "",
@@ -2196,11 +2196,11 @@
     "uservoiceid": 6512273
   },
   {
-    "name": "Destructuring",
+    "name": "Destructuring (ES6)",
     "category": "JavaScript",
-    "link": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "Destructuring assignment allows extracting data from arrays or objects using a syntax that mirrors array and object literals.",
-    "standardStatus": "Editor's draft",
+    "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Preview Release",
       "iePrefixed": "",
@@ -2214,11 +2214,11 @@
     "uservoiceid": 6263681
   },
   {
-    "name": "Rest parameters",
+    "name": "Rest parameters (ES6)",
     "category": "JavaScript",
-    "link": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "Allows representation of an indefinite number of arguments as an array.",
-    "standardStatus": "Editor's draft",
+    "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
@@ -2350,11 +2350,11 @@
     "uservoiceid": 6263706
   },
   {
-    "name": "JS iterators (i.e. the for-of feature)",
+    "name": "ES6 Iterators (i.e. the for-of feature)",
     "category": "JavaScript",
-    "link": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "Iterates over iterable objects (including arrays, array-like objects, iterators and generators), invoking a custom iteration hook with statements to be executed for the value of each distinct property.",
-    "standardStatus": "Editor's draft",
+    "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
@@ -2401,11 +2401,11 @@
     "uservoiceid": 6263716
   },
   {
-    "name": "Symbols",
+    "name": "Symbols (ES6)",
     "category": "JavaScript",
-    "link": "http://wiki.ecmascript.org/doku.php?id=strawman:private_names",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "Allows properties to be added to existing objects without the possibility of interference with the existing properties, unintended visibility, or with other uncoordinated additions by any other code.",
-    "standardStatus": "Editor's draft",
+    "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
@@ -2540,11 +2540,11 @@
     "uservoiceid": 6517589
   },
   {
-    "name": "Generators",
+    "name": "Generators (ES6)",
     "category": "JavaScript",
-    "link": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "A generator is a special type of function that works as a factory for iterators.",
-    "standardStatus": "Editor's draft",
+    "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Preview Release",
       "iePrefixed": "",
@@ -2610,9 +2610,9 @@
   {
     "name": "Proxies (ES6)",
     "category": "JavaScript",
-    "link": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "Proxies are objects for which the programmer has to define the semantics in JavaScript. ",
-    "standardStatus": "Editor's draft",
+    "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
@@ -3064,7 +3064,7 @@
     "category": "JavaScript",
     "link": "http://ecma-international.org/ecma-262/6.0/index.html#sec-object-initializer",
     "summary": "Adds computed properties, concise method definitions, and short-hand for properties whose value is initialized to a same-named variable.",
-    "standardStatus": "Editor's Draft",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
@@ -3073,24 +3073,18 @@
     "msdn": "",
     "wpd": "",
     "demo": "",
-    "id": null,
-    "ff_views": {
-      "text": "No Public Signals",
-      "value": 5
-    },
-    "shipped_opera_milestone": null,
+    "id": 4873630588600320,
     "safari_views": {
       "text": "In Development",
       "value": 2
-    },
-    "impl_status_chrome": "No active development"
+    }
   },
   {
     "name": "Promises (ES6)",
     "category": "JavaScript",
     "link": "http://ecma-international.org/ecma-262/6.0/index.html#sec-promise-objects",
     "summary": "Allows easier and cleaner asynchronous coding. Adds the Promise constructor, along with the 'all' and 'race' utility methods to the language itself.",
-    "standardStatus": "Editor's Draft",
+    "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
@@ -3297,7 +3291,7 @@
     "category": "JavaScript",
     "summary": "Math related functions - sign, trunc, sinh, cosh, tanh, asinh, acosh, atanh, log10, log2, hypot, fround, clz32, cbrt, log1p, expm1.",
     "link": "http://ecma-international.org/ecma-262/6.0/index.html#sec-math-object",
-    "standardStatus": "Editor's Draft",
+    "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
@@ -3310,7 +3304,7 @@
     "category": "JavaScript",
     "summary": "New methods and properties on Number, including isFinite, isInteger, isSafeInteger, isNaN, EPSILON, MIN_SAFE_INTEGER, and MAX_SAFE_INTEGER.",
     "link": "http://ecma-international.org/ecma-262/6.0/index.html",
-    "standardStatus": "Editor's Draft",
+    "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
@@ -3333,7 +3327,7 @@
     "category": "JavaScript",
     "summary": "New methods on String including String.raw and String.fromCodePoint. New methods on String.prototype including codePointAt, normalize, repeat, startsWith, endsWith, and includes.",
     "link": "http://ecma-international.org/ecma-262/6.0/index.html",
-    "standardStatus": "Editor's Draft",
+    "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
@@ -3356,30 +3350,25 @@
     "category": "JavaScript",
     "summary": "New methods on Object including assign, is, getOwnPropertySymbols, and setPrototypeOf",
     "link": "http://ecma-international.org/ecma-262/6.0/index.html",
-    "standardStatus": "Editor's Draft",
+    "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
-    "impl_status_chrome": "In development",
     "shipped_opera_milestone": false,
-    "ff_views": {
-      "text": "In development",
-      "value": 2
-    },
     "safari_views": {
       "text": "No Signals",
       "value": 3
     },
-    "id": null
+    "id": 5742083411279872
   },
   {
     "name": "RegExp Built-ins (ES6)",
     "category": "JavaScript",
     "summary": "New methods on RegExp.prototype including match, replace, search, and split.",
     "link": "http://ecma-international.org/ecma-262/6.0/index.html",
-    "standardStatus": "Editor's Draft",
+    "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
@@ -3402,7 +3391,7 @@
     "category": "JavaScript",
     "summary": "Contains a set of objects such that those objects will be collected if they are not referenced anywhere else.",
     "link": "http://ecma-international.org/ecma-262/6.0/index.html#sec-math-object",
-    "standardStatus": "Editor's Draft",
+    "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
@@ -3415,7 +3404,7 @@
     "category": "JavaScript",
     "summary": "Support for legacy prototype manipulation similar to Object.setPrototypeOf.",
     "link": "http://ecma-international.org/ecma-262/6.0/index.html",
-    "standardStatus": "Editor's Draft",
+    "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
@@ -3438,7 +3427,7 @@
     "category": "JavaScript",
     "summary": "Syntax for declaring classes.",
     "link": "http://ecma-international.org/ecma-262/6.0/index.html",
-    "standardStatus": "Editor's Draft",
+    "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Preview Release",
       "iePrefixed": "",
@@ -3453,30 +3442,24 @@
     "category": "JavaScript",
     "summary": "The spread operator expands iterable expressions into individual arguments. For example, a.b(…array) is roughly the same as a.b.apply(a, array).",
     "link": "http://ecma-international.org/ecma-262/6.0/index.html",
-    "standardStatus": "Editor's Draft",
+    "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
-    "impl_status_chrome": "No active development",
-    "shipped_opera_milestone": false,
-    "ff_views": {
-      "text": "Shipped",
-      "value": 1
-    },
     "safari_views": {
       "text": "No Signals",
       "value": 3
     },
-    "id": null
+    "id": 6031334694715392
   },
   {
     "name": "Template Strings (ES6)",
     "category": "JavaScript",
     "summary": "String literals that allow for expressions to be evaluated and concatenated with the string literal.",
     "link": "http://ecma-international.org/ecma-262/6.0/index.html",
-    "standardStatus": "Editor's Draft",
+    "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
@@ -3489,7 +3472,7 @@
     "category": "JavaScript",
     "summary": "Enables boundlessly recursive algorithms (using constant stack space) for certain code patterns.",
     "link": "http://ecma-international.org/ecma-262/6.0/index.html",
-    "standardStatus": "Editor's Draft",
+    "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
@@ -3504,13 +3487,13 @@
     "category": "JavaScript",
     "summary": "Allows subclassing of built-in types such as Dates and Arrays.",
     "link": "http://ecma-international.org/ecma-262/6.0/index.html",
-    "standardStatus": "Editor's Draft",
+    "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "In Development",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
-    "impl_status_chrome": "No active development",
+    "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": false,
     "ff_views": {
       "text": "No Signals",
@@ -3534,7 +3517,7 @@
       "ieUnprefixed": "10240",
       "flag": true
     },
-    "impl_status_chrome": "No active development",
+    "impl_status_chrome": "In development",
     "shipped_opera_milestone": false,
     "ff_views": {
       "text": "In Development",
@@ -3551,7 +3534,7 @@
     "category": "JavaScript",
     "summary": "Language-level support for defining and consuming modules.",
     "link": "http://ecma-international.org/ecma-262/6.0/index.html",
-    "standardStatus": "Editor's Draft",
+    "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
@@ -3685,9 +3668,9 @@
   {
     "name": "ES6 Numeric Literals",
     "category": "JavaScript",
-    "link": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "Allows binary and octal numeric literals using 0b101 and 0o753 respectively.",
-    "standardStatus": "Editor's draft",
+    "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
@@ -4967,5 +4950,39 @@
       "value": 1
     },
     "uservoiceid": 7327649
+  },
+  {
+    "name": "Reflect (ES6)",
+    "category": "JavaScript",
+    "link": "http://ecma-international.org/ecma-262/6.0/index.html#sec-reflection",
+    "summary": "Provides methods for use in operations that are intercepted. Reflect methods are often used with proxies because they allow you to delegate to default behavior without implementing the default behavior in your code.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text": "Shipped",
+      "iePrefixed": "",
+      "ieUnprefixed": "10240"
+    },
+    "msdn": "https://msdn.microsoft.com/en-us/library/mt146826(v=vs.94).aspx",
+    "wpd": "",
+    "demo": "",
+    "id": 6060641169178624
+  },
+  {
+    "name": "FindText API",
+    "category": "DOM",
+    "link": "http://w3c.github.io/findtext/",
+    "summary": "Provides an API for finding ranges of text in a document, with a variety of selection criteria. Similar to a user-agent's find-on-page or page-search capability.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Low"
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
   }
 ]
