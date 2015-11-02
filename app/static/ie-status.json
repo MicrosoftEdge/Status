@@ -3993,7 +3993,7 @@
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": false,
     "ff_views": {
-      "text": "In Development",
+      "text": "Enabled by default",
       "value": 2
     },
     "safari_views": {
@@ -4003,7 +4003,7 @@
     "msdn": "",
     "wpd": "",
     "demo": "",
-    "id": null,
+    "id": 6730533392351232,
     "uservoiceid": 6964411
   },
   {
