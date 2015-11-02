@@ -3883,6 +3883,23 @@
     "uservoiceid": 9775308
   },
   {
+    "name": "Web NFC API",
+    "category": "Device",
+    "link": "https://w3c.github.io/web-nfc/index.html",
+    "summary": "Enables NFC (near field communications) wireless communication between two devices at close proximity, usually less than a few centimeters",
+    "standardStatus": "Editor's draft",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "low",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 6261030015467520
+  },
+  {
     "name": "Shared Web Workers",
     "category": "JavaScript",
     "link": "http://dev.w3.org/html5/workers/#shared-workers-and-the-sharedworker-interface",
