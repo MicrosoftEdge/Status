@@ -114,7 +114,7 @@
     "summary": "Extends the current implementation of the srcset attribute by adding support for the width descriptor and the sizes attribute.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "10547"
     },
@@ -141,7 +141,7 @@
     "summary": "Enable a responsive images solution by declaring multiple resources for an image using CSS media queries.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "10547"
     },
@@ -158,7 +158,7 @@
     "summary": "HTML template element to allow creating fragment of inert HTML as a prototype for stamping out DOM (often used in Web Components).",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "10547"
     },
@@ -175,7 +175,7 @@
     "summary": "The HTML meter element allows representation of a scalar measurement of a known range, or fractional value, i.e. a gauge. Distinct from the progress element.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text":  "Preview Release",
+      "text":  "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "10532"
     },
@@ -202,7 +202,7 @@
     "summary": "Returns the string corresponding to the current selection direction on text input elements: \"forward\", \"backward\", or \"none\".",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text":  "Preview Release",
+      "text":  "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "10532"
     },
@@ -229,7 +229,7 @@
     "summary": "Provides specified alert text if an input element is invalid.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text":  "Preview Release",
+      "text":  "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "10532"
     },
@@ -256,7 +256,7 @@
     "summary": "Provides a method to draw arcs on a 2D canvas drawing surface.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text":  "Preview Release",
+      "text":  "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "10547"
     },
@@ -310,7 +310,7 @@
     "summary": ":in-range and :out-of-range pseudo-classes to match elements that are candidates for constraint validation, have range limitations, and are/are not suffering from underflow or overflow.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text":  "Preview Release",
+      "text":  "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "10547"
     },
@@ -337,7 +337,7 @@
     "summary": ":read-only and :read-write pseudo-classes to match elements which are considered user-alterable for the purposes of Selectors.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text":  "Preview Release",
+      "text":  "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "10547"
     },
@@ -364,7 +364,7 @@
     "summary": "When used on an <a>, this attribute signifies that the resource it points to should be downloaded by the browser rather than navigating to it.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "10547"
     },
@@ -499,7 +499,7 @@
     "summary": "The canvas 2d context has the globalCompositeOperation attribute that is used to set the current compositing and blending operator.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "10532"
     },
@@ -2069,7 +2069,7 @@
     "summary": "Enables mobile endpoints to talk to servers and web browsers with Real-Time Communications (ORTC) capabilities via native and simple JavaScript APIs.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "10547"
     },
@@ -3183,7 +3183,7 @@
     "summary": "Allows referencing external content in SVG. A common use case for this would be <use xlink:href=\"lib.svg#template\" fill=\"#000000\"></use>",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "10547"
     },
@@ -3429,7 +3429,7 @@
     "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Established Standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "10532",
       "flag": false
@@ -3561,7 +3561,7 @@
     "link": "http://asmjs.org/spec/latest/",
     "standardStatus": "Editor's Draft",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "10532",
       "flag": false
@@ -3728,7 +3728,7 @@
     "summary": "Input controls for picking times via <input type='time'>, and <input type='datetime-local'>.",
     "standardStatus": "Established Standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "10532"
     },
@@ -3993,7 +3993,7 @@
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": false,
     "ff_views": {
-      "text": "In Development",
+      "text": "Enabled by default",
       "value": 2
     },
     "safari_views": {
@@ -4003,7 +4003,7 @@
     "msdn": "",
     "wpd": "",
     "demo": "",
-    "id": null,
+    "id": 6730533392351232,
     "uservoiceid": 6964411
   },
   {
@@ -4311,7 +4311,7 @@
     "summary": "If the cascaded value of a property is the initial keyword, the property’s initial value becomes its specified value.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "10565"
     },
@@ -4338,7 +4338,7 @@
     "summary": "If the cascaded value of a property is the ‘‘unset’#’ keyword, then if it is an inherited property, this is treated as ‘inherit’, and if it is not, this is treated as ‘initial’. This keyword effectively erases all declared values occurring earlier in the cascade, correctly inheriting or not as appropriate for the property (or all longhands of a shorthand).",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "10565"
     },
