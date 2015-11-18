@@ -1,11 +1,11 @@
 #NOTE
-This site is undergoing a redesign!  You can try the [beta site](http://dev.modern.ie/platform/status) and continue to file issues here. It's our goal to continue to allow contributions to the site and its data through GitHub. But while we migrate to our new design, we'll only be taking Pull Requests for [ie-features.json](https://github.com/MicrosoftEdge/Status/blob/production/app/static/ie-status.json) for the time being.  We hope to complete this migration and open up PRs broadly for the site soon!
+We're currently only accepting PRs to ie-status.json, which houses the data that powers [status.microsoftedge.com](http://status.microsoftedge.com). The web site code here is no longer used in this site and will be removed as a part of future code cleanup.
 
 #Status
-This project contains the ~~source code and~~ data for [status.modern.IE](https://status.modern.IE), a portal for the latest implementation status and future roadmap for interoperable web platform features in Microsoft Edge and other browsers, including Internet Explorer.
+This project contains the ~~source code and~~ data for [status.microsoftedge.com](http://status.microsoftedge.com), a portal for the latest implementation status and future roadmap for interoperable web platform features in Microsoft Edge and other browsers, including Internet Explorer.
 
 ##Using Status Data
-Status.Modern.IE provides valuable data on the implementation status and future plans for web platform features in Microsoft Edge. This data is encouraged to be used for other purposes as licensed by the [Creative Commons Attribution 2.5 License](https://creativecommons.org/licenses/by/2.5/legalcode). This data is provided as a JSON document, served at https://dev.modern.ie/api/platform/status/. This data is sent with an "Access-Control-Allow-Origin: *" header, so it may be requested cross-domain.
+Status.microsoftedge.com provides valuable data on the implementation status and future plans for web platform features in Microsoft Edge. This data is encouraged to be used for other purposes as licensed by the [Creative Commons Attribution 2.5 License](https://creativecommons.org/licenses/by/2.5/legalcode). This data is provided as a JSON document, served at https://dev.windows.com/en-us/microsoft-edge/api/platform/status/. This data is sent with an "Access-Control-Allow-Origin: *" header, so it may be requested cross-domain.
 
 ##Building the Project
 ### Prequisites
@@ -25,7 +25,7 @@ From the project's root directory
 A Node server will start at http://localhost:9000
 
 ## Contributing
-Want to contribute to this project? We'd love to have your help!  Take a look at the [Contributing Guidelines](https://github.com/InternetExplorer/Status.IE/blob/production/CONTRIBUTING.md) before you dive in. For many features, support data for browsers other than IE & Edge comes from the [Chromium Dashboard](https://www.chromestatus.com) and bugs against that data can be filed [here](https://github.com/GoogleChrome/chromium-dashboard/issues).
+Want to contribute to this project? We'd love to have your help!  Take a look at the [Contributing Guidelines](https://github.com/MicrosoftEdge/Status/blob/production/CONTRIBUTING.md) before you dive in. For many features, support data for browsers other than IE & Edge comes from the [Chromium Dashboard](https://www.chromestatus.com) and bugs against that data can be filed [here](https://github.com/GoogleChrome/chromium-dashboard/issues).
 
 Note that this GitHub project is *not* for making feature requests for or reporting bugs in Internet Explorer or Microsoft Edge. Browser feedback can be provided at [Microsoft Connect](https://connect.microsoft.com/ie).
 
