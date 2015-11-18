@@ -1,5 +1,21 @@
 [
   {
+    "name": "Brotli Compressed Data Format",
+    "category": "Network / Connectivity",
+    "link": "https://datatracker.ietf.org/doc/draft-alakuijala-brotli/",
+    "summary": "Support for the Brotli data format as an HTTP content-encoding method.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 5420797577396224
+  },
+  {
     "name": "<datalist> Element",
     "category": "User input",
     "link": "http://www.w3.org/html/wg/drafts/html/master/forms.html#the-list-attribute",
