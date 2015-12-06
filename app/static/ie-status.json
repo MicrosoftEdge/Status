@@ -10,7 +10,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh772925(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/hh772925.aspx",
     "wpd": "https://docs.webplatform.org/wiki/html/elements/datalist",
     "demo": "",
     "id": 6090950820495360
@@ -385,7 +385,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh673545(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/hh673545.aspx",
     "wpd": "",
     "demo": "",
     "id": 6192449487634432,
@@ -438,7 +438,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh772298(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/hh772298.aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/file/Blob",
     "demo": "",
     "id": 5328783104016384
@@ -470,7 +470,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "9"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/bg124101(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/bg124101.aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/canvas",
     "demo": "",
     "id": 5100084685438976
@@ -587,7 +587,7 @@
       "iePrefixed": "10",
       "ieUnprefixed": "11"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh772044(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/hh772044.aspx",
     "wpd": "https://docs.webplatform.org/wiki/css/properties/touch-action",
     "demo": "",
     "id": 5912074022551552
@@ -690,7 +690,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "11"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/dn342897(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/dn342897.aspx",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/device_orientation",
     "demo": "",
     "id": 5874690627207168
@@ -706,7 +706,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "11"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/dn255104(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/dn255104.aspx",
     "wpd": "",
     "demo": "",
     "id": 5269993591668736
@@ -738,7 +738,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "8"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/ms536945(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/ms536945.aspx",
     "wpd": "https://docs.webplatform.org/wiki/dom/MouseEvent/mouseenter",
     "demo": "",
     "id": 4889528208719872
@@ -1061,7 +1061,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
-    "msdn": "https://msdn.microsoft.com/library/dn905221(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/library/dn905221.aspx",
     "wpd": "",
     "demo": "",
     "id": null,
@@ -1139,7 +1139,7 @@
       "iePrefixed": "11",
       "ieUnprefixed": ""
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/dn385696(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/dn385696.aspx",
     "wpd": "",
     "demo": "",
     "id": 6366722080636928
@@ -1241,7 +1241,7 @@
       "ieUnprefixed": "",
       "priority": "Medium"
     },
-    "msdn": "https://msdn.microsoft.com/library/ff972267(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/library/ff972267.aspx",
     "wpd": "https://docs.webplatform.org/wiki/css/properties/mask",
     "demo": "",
     "id": 5381559662149632,
@@ -1506,7 +1506,7 @@
       "iePrefixed": "10",
       "ieUnprefixed": "11"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/dn433244(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/dn433244.aspx",
     "wpd": "https://docs.webplatform.org/wiki/PointerEvents",
     "demo": "",
     "id": 4504699138998272
@@ -1557,7 +1557,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "8"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/cc197015(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/cc197015.aspx",
     "wpd": "https://docs.webplatform.org/wiki/dom/Window/postMessage",
     "demo": "",
     "id": 4786174115708928
@@ -1591,7 +1591,7 @@
       "ieUnprefixed": "",
       "priority": "Medium"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh772715(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/hh772715.aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/css-regions",
     "demo": "",
     "id": 5655612935372800
@@ -1623,7 +1623,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh772738(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/hh772738.aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/resource_timing",
     "demo": "",
     "id": 5796350423728128
@@ -1672,7 +1672,7 @@
       "iePrefixed": "10",
       "ieUnprefixed": ""
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh772328(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/hh772328.aspx",
     "wpd": "",
     "demo": "",
     "id": 6605041225957376
@@ -1754,7 +1754,7 @@
       "iePrefixed": "9",
       "ieUnprefixed": "10"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh772059(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/hh772059.aspx",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/css_transforms",
     "demo": "",
     "id": 6437640580628480
@@ -1770,7 +1770,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh869304(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/hh869304.aspx",
     "wpd": "",
     "demo": "",
     "id": 5135818813341696
@@ -1820,7 +1820,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh772738(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/hh772738.aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/user_timing",
     "demo": "",
     "id": 5066549580791808
@@ -1887,7 +1887,7 @@
       "iePrefixed": "11",
       "ieUnprefixed": ""
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/dn265046(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/dn265046.aspx",
     "wpd": "",
     "demo": "",
     "id": 5030265697075200
@@ -1989,7 +1989,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "8"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/bg142799(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/bg142799.aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/web-storage",
     "demo": "",
     "id": 5345825534246912
@@ -2100,7 +2100,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh673567(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/hh673567.aspx",
     "wpd": "https://docs.webplatform.org/wiki/concepts/protocols/websocket",
     "demo": "",
     "id": 6555138000945152,
@@ -2120,7 +2120,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/cc304105(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/cc304105.aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/xhr/XMLHttpRequest/timeout",
     "demo": "",
     "id": 6290890138058752
@@ -2154,7 +2154,7 @@
       "ieUnprefixed": "",
       "priority": "Low"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/bg124109(v=vs.85).aspx#setting_flexbox_alignment_",
+    "msdn": "https://msdn.microsoft.com/en-us/library/bg124109.aspx#setting_flexbox_alignment_",
     "wpd": "",
     "demo": "",
     "id": 6173208034148352,
@@ -2327,7 +2327,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "9"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/jj127324(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/jj127324.aspx",
     "wpd": "",
     "demo": "",
     "id": 4598830058176512
@@ -2687,7 +2687,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh772310(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/hh772310.aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/file/FileReader",
     "demo": "",
     "id": 5171003185430528
@@ -2720,7 +2720,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh673525(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/hh673525.aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/web-messaging/MessageChannel",
     "demo": "",
     "id": 6710044586409984
@@ -3646,7 +3646,7 @@
     "category": "JavaScript",
     "summary": "Provides APIs for string comparison and date/time/number formatting in a locale-aware manner.",
     "link": "http://ecma-international.org/ecma-402/1.0/",
-    "msdn": "https://msdn.microsoft.com/en-us/library/dn342821(v=vs.94).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/dn342821.aspx",
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
@@ -4271,7 +4271,7 @@
       "text": "Shipped",
       "value": 1
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/dn255006(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/dn255006.aspx",
     "wpd": "",
     "demo": "",
     "id": null,
@@ -4979,7 +4979,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/mt146826(v=vs.94).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/mt146826.aspx",
     "wpd": "",
     "demo": "",
     "id": 6060641169178624
