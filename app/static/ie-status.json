@@ -2,7 +2,7 @@
   {
     "name": "<datalist> Element",
     "category": "User input",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/forms.html#the-list-attribute",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-list-attribute",
     "summary": "Shows a list of pre-defined options to suggest to the user when entering an input element.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -34,7 +34,7 @@
   {
     "name": "<details>/<summary>",
     "category": "Misc",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/interactive-elements.html#the-details-element",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-details-element",
     "summary": "Interactive widget to show/hide content.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -154,7 +154,7 @@
   {
     "name": "<template> Element",
     "category": "Web Components",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/scripting-1.html#the-template-element",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-template-element",
     "summary": "HTML template element to allow creating fragment of inert HTML as a prototype for stamping out DOM (often used in Web Components).",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -360,7 +360,7 @@
   {
     "name": "a[download] attribute",
     "category": "File APIs",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/links.html#attr-hyperlink-download",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#attr-hyperlink-download",
     "summary": "When used on an <a>, this attribute signifies that the resource it points to should be downloaded by the browser rather than navigating to it.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -397,7 +397,7 @@
   {
     "name": "Audio tracks",
     "category": "Multimedia",
-    "link": "http://www.w3.org/html/wg/drafts/html/CR/",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#audiotracklist-and-videotracklist-objects",
     "summary": "Adds the ability to get information about multiple audio tracks, and switch between them using the AudioTrack.enabled attributes.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -413,7 +413,7 @@
   {
     "name": "Video tracks",
     "category": "Multimedia",
-    "link": "http://www.w3.org/html/wg/drafts/html/CR/",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#audiotracklist-and-videotracklist-objects",
     "summary": "Adds the ability to get information about multiple video tracks, and switch between them using the VideoTrack.selected attributes.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -478,7 +478,7 @@
   {
     "name": "Canvas focus ring",
     "category": "Graphics",
-    "link": "http://www.w3.org/html/wg/drafts/2dcontext/html5_canvas/",
+    "link": "http://www.w3.org/TR/2dcontext/",
     "summary": "Adds APIs to the canvas 2D context that make it possible to draw a focus ring around a canvas path and notify the operating system of the bounding box of the focused object for accessibility.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
@@ -1131,8 +1131,8 @@
   {
     "name": "IME API",
     "category": "User input",
-    "link": "https://dvcs.w3.org/hg/ime-api/raw-file/default/Overview.html",
-    "summary": "Provides Web applications with scripted access to an IME (input-method editor) .",
+    "link": "https://w3c.github.io/ime-api/",
+    "summary": "Provides Web applications with scripted access to an IME (input-method editor).",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Prefixed",
@@ -2335,7 +2335,7 @@
   {
     "name": "Canvas2D text decoration",
     "category": "Graphics",
-    "link": "http://www.w3.org/html/wg/drafts/2dcontext/html5_canvas/#textmetrics",
+    "link": "http://www.w3.org/TR/2dcontext/#textmetrics",
     "summary": "Add a textDecoration attribute to canvas 2D contexts, behavior similar to existing \"font\" attribute: It's a DOMString, parsed the same way as corresponding CSS property (text-decoration).",
     "standardStatus": "Editor's draft",
     "ieStatus": {
@@ -2436,7 +2436,7 @@
   {
     "name": "inputmode",
     "category": "User input",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/forms.html#attr-fe-inputmode",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#attr-fe-inputmode",
     "summary": "The inputmode content attribute is an enumerated attribute that specifies what kind of input mechanism would be most helpful for users entering content into the form control.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
@@ -2593,7 +2593,7 @@
   {
     "name": "Scoped Styles",
     "category": "CSS",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/document-metadata.html#attr-style-scoped",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#attr-style-scoped",
     "summary": "Boolean attribute for the <style> element (<style scoped>). When present, its styles only apply to the parent element.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -2809,7 +2809,7 @@
   {
     "name": "Prefetch attribute",
     "category": "Performance",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/links.html#link-type-prefetch",
+    "link": "https://w3c.github.io/resource-hints/#h-prefetch",
     "summary": "Indicates the browser should preemptively fetch and cache the specified resource.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -2835,7 +2835,7 @@
   {
     "name": "Prerender attribute",
     "category": "Performance",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/links.html#link-type-prefetch",
+    "link": "https://w3c.github.io/resource-hints/#h-prerender",
     "summary": "Provides a hint to the browser that another page is likely to be loaded by the user (such as the first result of a search) such that it may be prerendered for better performance.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -3244,7 +3244,7 @@
     "name": "WAV Audio Support",
     "category": "Multimedia",
     "summary": "Enables PCM WAV audio support in HTML5 Audio.",
-    "link": "http://www.w3.org/html/wg/drafts/html/CR/",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-audio-element",
     "standardStatus": "De-facto Standard",
     "ieStatus": {
       "text": "Shipped",
@@ -3267,7 +3267,7 @@
     "name": "DOM Event Constructors",
     "category": "DOM",
     "summary": "Replaces document.createEvent() and associated event object init methods with constructors for each event interface.",
-    "link": "http://w3c.github.io/dom/#constructing-events",
+    "link": "https://dom.spec.whatwg.org/#constructing-events",
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
@@ -3684,7 +3684,7 @@
   {
     "name": "<dialog> element for modals",
     "category": "User input",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/interactive-elements.html#the-dialog-element",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-dialog-element",
     "summary": "An HTML element for modal and non-modal dialog boxes",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -3702,7 +3702,7 @@
   {
     "name": "Date-related input types",
     "category": "User input",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/forms.html#date-state-(type=date)",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#date-state-%28type=date%29",
     "summary": "Input controls for picking dates via <input type='date'>,<input type='month'>, and <input type='week'>.",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -3724,7 +3724,7 @@
   {
     "name": "Time-related input types",
     "category": "User input",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/forms.html#date-state-(type=time)",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#time-state-%28type=time%29",
     "summary": "Input controls for picking times via <input type='time'>, and <input type='datetime-local'>.",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -3746,7 +3746,7 @@
   {
     "name": "<main> element",
     "category": "DOM",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/grouping-content.html#the-main-element",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-main-element",
     "summary": "Semantic HTML5 element that represents the main content of the document or application.",
     "standardStatus": "Established Standard",
     "ieStatus": {
