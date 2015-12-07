@@ -3370,9 +3370,9 @@
     "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Established Standard",
     "ieStatus": {
-      "text": "Shipped",
+      "text": "In Development",
       "iePrefixed": "",
-      "ieUnprefixed": "10240"
+      "ieUnprefixed": ""
     },
     "impl_status_chrome": "No Signals",
     "shipped_opera_milestone": false,
