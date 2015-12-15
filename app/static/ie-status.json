@@ -3622,7 +3622,7 @@
     "category": "Network / Connectivity",
     "summary": "Certificate public key pinning is a mechanism which allows specifying a key that must be present in the certificate chain associated with a domain name. HTTP Public Key Pinning (HPKP) is one way of doing certificate public key pinning. In this method, site owner defines pin rules for his domain name via HTTP header. This mechanism assumes that user has had a first clean connection to the site.",
     "link": "https://tools.ietf.org/html/rfc7469",
-    "standardStatus": "Working draft or equivalent",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
