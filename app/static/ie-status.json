@@ -800,9 +800,9 @@
     "summary": "Defines a common API that may be used to discover, select and interact with such systems as well as with simpler content encryption systems.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Prefixed",
+      "text": "Shipped",
       "iePrefixed": "11",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10240"
     },
     "msdn": "https://msdn.microsoft.com/library/ie/bg182646#eme",
     "wpd": "",
@@ -832,10 +832,9 @@
     "summary": "Apply filter effects to arbitrary DOM elements.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
-      "ieUnprefixed": "10240",
-      "flag": true
+      "ieUnprefixed": "10586"
     },
     "wpd": "https://docs.webplatform.org/wiki/tutorials/css_filters",
     "demo": "",
@@ -1534,7 +1533,7 @@
     "summary": "Gives access to raw mouse movement, locks the target of mouse events to a single element, eliminates limits of how far mouse movement can go in a single direction, and removes the cursor from view. Obvious use cases are for first person or real time strategy games.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "10532"
     },
@@ -2252,9 +2251,9 @@
     "summary": "Ambient Light Event API which is a handy way to make a web page or web app aware of any change in light intensity.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10586"
     },
     "msdn": "",
     "wpd": "",
