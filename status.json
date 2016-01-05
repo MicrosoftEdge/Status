@@ -5918,4 +5918,21 @@
     "demo": "",
     "id": 5714368087982080
   }
+  {
+    "name": "Geometry Interfaces",
+    "category": "Graphics",
+    "link": "https://drafts.fxtf.org/geometry",
+    "summary": "This specification provides basic geometric interfaces to represent points, rectangles, quadrilaterals and transformation matrices that can be used by other modules or specifications.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 6015941766807552,
+    "uservoiceid": null
+  }
 ]
