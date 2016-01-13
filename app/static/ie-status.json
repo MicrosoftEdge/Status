@@ -2,7 +2,7 @@
   {
     "name": "<datalist> Element",
     "category": "User input",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/forms.html#the-list-attribute",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-list-attribute",
     "summary": "Shows a list of pre-defined options to suggest to the user when entering an input element.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -10,7 +10,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh772925(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/hh772925.aspx",
     "wpd": "https://docs.webplatform.org/wiki/html/elements/datalist",
     "demo": "",
     "id": 6090950820495360
@@ -34,7 +34,7 @@
   {
     "name": "<details>/<summary>",
     "category": "Misc",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/interactive-elements.html#the-details-element",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-details-element",
     "summary": "Interactive widget to show/hide content.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -154,7 +154,7 @@
   {
     "name": "<template> Element",
     "category": "Web Components",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/scripting-1.html#the-template-element",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-template-element",
     "summary": "HTML template element to allow creating fragment of inert HTML as a prototype for stamping out DOM (often used in Web Components).",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -360,7 +360,7 @@
   {
     "name": "a[download] attribute",
     "category": "File APIs",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/links.html#attr-hyperlink-download",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#attr-hyperlink-download",
     "summary": "When used on an <a>, this attribute signifies that the resource it points to should be downloaded by the browser rather than navigating to it.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -385,7 +385,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh673545(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/hh673545.aspx",
     "wpd": "",
     "demo": "",
     "id": 6192449487634432,
@@ -397,7 +397,7 @@
   {
     "name": "Audio tracks",
     "category": "Multimedia",
-    "link": "http://www.w3.org/html/wg/drafts/html/CR/",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#audiotracklist-and-videotracklist-objects",
     "summary": "Adds the ability to get information about multiple audio tracks, and switch between them using the AudioTrack.enabled attributes.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -413,7 +413,7 @@
   {
     "name": "Video tracks",
     "category": "Multimedia",
-    "link": "http://www.w3.org/html/wg/drafts/html/CR/",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#audiotracklist-and-videotracklist-objects",
     "summary": "Adds the ability to get information about multiple video tracks, and switch between them using the VideoTrack.selected attributes.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -438,7 +438,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh772298(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/hh772298.aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/file/Blob",
     "demo": "",
     "id": 5328783104016384
@@ -470,7 +470,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "9"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/bg124101(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/bg124101.aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/canvas",
     "demo": "",
     "id": 5100084685438976
@@ -478,7 +478,7 @@
   {
     "name": "Canvas focus ring",
     "category": "Graphics",
-    "link": "http://www.w3.org/html/wg/drafts/2dcontext/html5_canvas/",
+    "link": "http://www.w3.org/TR/2dcontext/",
     "summary": "Adds APIs to the canvas 2D context that make it possible to draw a focus ring around a canvas path and notify the operating system of the bounding box of the focused object for accessibility.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
@@ -587,7 +587,7 @@
       "iePrefixed": "10",
       "ieUnprefixed": "11"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh772044(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/hh772044.aspx",
     "wpd": "https://docs.webplatform.org/wiki/css/properties/touch-action",
     "demo": "",
     "id": 5912074022551552
@@ -690,7 +690,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "11"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/dn342897(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/dn342897.aspx",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/device_orientation",
     "demo": "",
     "id": 5874690627207168
@@ -706,7 +706,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "11"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/dn255104(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/dn255104.aspx",
     "wpd": "",
     "demo": "",
     "id": 5269993591668736
@@ -738,7 +738,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "8"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/ms536945(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/ms536945.aspx",
     "wpd": "https://docs.webplatform.org/wiki/dom/MouseEvent/mouseenter",
     "demo": "",
     "id": 4889528208719872
@@ -1061,7 +1061,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
-    "msdn": "https://msdn.microsoft.com/library/dn905221(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/library/dn905221.aspx",
     "wpd": "",
     "demo": "",
     "id": null,
@@ -1131,15 +1131,15 @@
   {
     "name": "IME API",
     "category": "User input",
-    "link": "https://dvcs.w3.org/hg/ime-api/raw-file/default/Overview.html",
-    "summary": "Provides Web applications with scripted access to an IME (input-method editor) .",
+    "link": "https://w3c.github.io/ime-api/",
+    "summary": "Provides Web applications with scripted access to an IME (input-method editor).",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Prefixed",
       "iePrefixed": "11",
       "ieUnprefixed": ""
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/dn385696(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/dn385696.aspx",
     "wpd": "",
     "demo": "",
     "id": 6366722080636928
@@ -1241,7 +1241,7 @@
       "ieUnprefixed": "",
       "priority": "Medium"
     },
-    "msdn": "https://msdn.microsoft.com/library/ff972267(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/library/ff972267.aspx",
     "wpd": "https://docs.webplatform.org/wiki/css/properties/mask",
     "demo": "",
     "id": 5381559662149632,
@@ -1506,7 +1506,7 @@
       "iePrefixed": "10",
       "ieUnprefixed": "11"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/dn433244(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/dn433244.aspx",
     "wpd": "https://docs.webplatform.org/wiki/PointerEvents",
     "demo": "",
     "id": 4504699138998272
@@ -1557,7 +1557,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "8"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/cc197015(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/cc197015.aspx",
     "wpd": "https://docs.webplatform.org/wiki/dom/Window/postMessage",
     "demo": "",
     "id": 4786174115708928
@@ -1591,7 +1591,7 @@
       "ieUnprefixed": "",
       "priority": "Medium"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh772715(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/hh772715.aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/css-regions",
     "demo": "",
     "id": 5655612935372800
@@ -1623,7 +1623,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh772738(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/hh772738.aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/resource_timing",
     "demo": "",
     "id": 5796350423728128
@@ -1672,7 +1672,7 @@
       "iePrefixed": "10",
       "ieUnprefixed": ""
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh772328(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/hh772328.aspx",
     "wpd": "",
     "demo": "",
     "id": 6605041225957376
@@ -1754,7 +1754,7 @@
       "iePrefixed": "9",
       "ieUnprefixed": "10"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh772059(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/hh772059.aspx",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/css_transforms",
     "demo": "",
     "id": 6437640580628480
@@ -1770,7 +1770,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh869304(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/hh869304.aspx",
     "wpd": "",
     "demo": "",
     "id": 5135818813341696
@@ -1820,7 +1820,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh772738(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/hh772738.aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/user_timing",
     "demo": "",
     "id": 5066549580791808
@@ -1887,7 +1887,7 @@
       "iePrefixed": "11",
       "ieUnprefixed": ""
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/dn265046(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/dn265046.aspx",
     "wpd": "",
     "demo": "",
     "id": 5030265697075200
@@ -1989,7 +1989,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "8"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/bg142799(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/bg142799.aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/web-storage",
     "demo": "",
     "id": 5345825534246912
@@ -2100,7 +2100,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh673567(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/hh673567.aspx",
     "wpd": "https://docs.webplatform.org/wiki/concepts/protocols/websocket",
     "demo": "",
     "id": 6555138000945152,
@@ -2120,7 +2120,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/cc304105(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/cc304105.aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/xhr/XMLHttpRequest/timeout",
     "demo": "",
     "id": 6290890138058752
@@ -2154,7 +2154,7 @@
       "ieUnprefixed": "",
       "priority": "Low"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/bg124109(v=vs.85).aspx#setting_flexbox_alignment_",
+    "msdn": "https://msdn.microsoft.com/en-us/library/bg124109.aspx#setting_flexbox_alignment_",
     "wpd": "",
     "demo": "",
     "id": 6173208034148352,
@@ -2327,7 +2327,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "9"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/jj127324(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/jj127324.aspx",
     "wpd": "",
     "demo": "",
     "id": 4598830058176512
@@ -2335,7 +2335,7 @@
   {
     "name": "Canvas2D text decoration",
     "category": "Graphics",
-    "link": "http://www.w3.org/html/wg/drafts/2dcontext/html5_canvas/#textmetrics",
+    "link": "http://www.w3.org/TR/2dcontext/#textmetrics",
     "summary": "Add a textDecoration attribute to canvas 2D contexts, behavior similar to existing \"font\" attribute: It's a DOMString, parsed the same way as corresponding CSS property (text-decoration).",
     "standardStatus": "Editor's draft",
     "ieStatus": {
@@ -2436,7 +2436,7 @@
   {
     "name": "inputmode",
     "category": "User input",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/forms.html#attr-fe-inputmode",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#attr-fe-inputmode",
     "summary": "The inputmode content attribute is an enumerated attribute that specifies what kind of input mechanism would be most helpful for users entering content into the form control.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
@@ -2593,7 +2593,7 @@
   {
     "name": "Scoped Styles",
     "category": "CSS",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/document-metadata.html#attr-style-scoped",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#attr-style-scoped",
     "summary": "Boolean attribute for the <style> element (<style scoped>). When present, its styles only apply to the parent element.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -2687,7 +2687,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh772310(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/hh772310.aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/file/FileReader",
     "demo": "",
     "id": 5171003185430528
@@ -2720,7 +2720,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh673525(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/hh673525.aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/web-messaging/MessageChannel",
     "demo": "",
     "id": 6710044586409984
@@ -2809,7 +2809,7 @@
   {
     "name": "Prefetch attribute",
     "category": "Performance",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/links.html#link-type-prefetch",
+    "link": "https://w3c.github.io/resource-hints/#h-prefetch",
     "summary": "Indicates the browser should preemptively fetch and cache the specified resource.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -2835,7 +2835,7 @@
   {
     "name": "Prerender attribute",
     "category": "Performance",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/links.html#link-type-prefetch",
+    "link": "https://w3c.github.io/resource-hints/#h-prerender",
     "summary": "Provides a hint to the browser that another page is likely to be loaded by the user (such as the first result of a search) such that it may be prerendered for better performance.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -3244,7 +3244,7 @@
     "name": "WAV Audio Support",
     "category": "Multimedia",
     "summary": "Enables PCM WAV audio support in HTML5 Audio.",
-    "link": "http://www.w3.org/html/wg/drafts/html/CR/",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-audio-element",
     "standardStatus": "De-facto Standard",
     "ieStatus": {
       "text": "Shipped",
@@ -3267,7 +3267,7 @@
     "name": "DOM Event Constructors",
     "category": "DOM",
     "summary": "Replaces document.createEvent() and associated event object init methods with constructors for each event interface.",
-    "link": "http://w3c.github.io/dom/#constructing-events",
+    "link": "https://dom.spec.whatwg.org/#constructing-events",
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
@@ -3646,7 +3646,7 @@
     "category": "JavaScript",
     "summary": "Provides APIs for string comparison and date/time/number formatting in a locale-aware manner.",
     "link": "http://ecma-international.org/ecma-402/1.0/",
-    "msdn": "https://msdn.microsoft.com/en-us/library/dn342821(v=vs.94).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/dn342821.aspx",
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
@@ -3684,7 +3684,7 @@
   {
     "name": "<dialog> element for modals",
     "category": "User input",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/interactive-elements.html#the-dialog-element",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-dialog-element",
     "summary": "An HTML element for modal and non-modal dialog boxes",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -3702,7 +3702,7 @@
   {
     "name": "Date-related input types",
     "category": "User input",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/forms.html#date-state-(type=date)",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#date-state-%28type=date%29",
     "summary": "Input controls for picking dates via <input type='date'>,<input type='month'>, and <input type='week'>.",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -3724,7 +3724,7 @@
   {
     "name": "Time-related input types",
     "category": "User input",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/forms.html#date-state-(type=time)",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#time-state-%28type=time%29",
     "summary": "Input controls for picking times via <input type='time'>, and <input type='datetime-local'>.",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -3746,7 +3746,7 @@
   {
     "name": "<main> element",
     "category": "DOM",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/grouping-content.html#the-main-element",
+    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-main-element",
     "summary": "Semantic HTML5 element that represents the main content of the document or application.",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -4271,7 +4271,7 @@
       "text": "Shipped",
       "value": 1
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/dn255006(v=vs.85).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/dn255006.aspx",
     "wpd": "",
     "demo": "",
     "id": null,
@@ -4979,7 +4979,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
-    "msdn": "https://msdn.microsoft.com/en-us/library/mt146826(v=vs.94).aspx",
+    "msdn": "https://msdn.microsoft.com/en-us/library/mt146826.aspx",
     "wpd": "",
     "demo": "",
     "id": 6060641169178624
