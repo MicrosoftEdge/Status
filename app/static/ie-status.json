@@ -782,10 +782,9 @@
     "summary": "Allows dragging and dropping entire folders using HTML5 Drag and Drop. Extends the DataTransferItem with a method to get a FileEntry/DirectoryEntry.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "Low"
+      "ieUnprefixed": ""
     },
     "msdn": "",
     "wpd": "",
@@ -1652,7 +1651,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "High"
     },
     "msdn": "",
     "wpd": "",
@@ -1931,10 +1931,9 @@
     "summary": "An API for displaying simple notifications to the user.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "Medium"
+      "ieUnprefixed": ""
     },
     "msdn": "",
     "wpd": "",
@@ -2285,10 +2284,9 @@
     "summary": "Provides webapps with scripted access to server-sent notifications.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "Low"
+      "ieUnprefixed": ""
     },
     "msdn": "",
     "wpd": "",
@@ -2800,10 +2798,9 @@
     "summary": "Enables web applications to asynchronously transfer data from the user agent to a web server, with the user agent taking the responsibility to eventually send the data.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "High"
+      "ieUnprefixed": ""
     },
     "msdn": "",
     "wpd": "",
@@ -3551,10 +3548,9 @@
     "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Established Standard",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "Medium"
+      "ieUnprefixed": ""
     },
     "impl_status_chrome": "No active development",
     "shipped_opera_milestone": false,
@@ -3973,10 +3969,9 @@
     "summary": "Based on experience with WOFF 1.0, which is widely deployed, this specification was developed to provide improved compression and thus lower use of network bandwidth, while still allowing fast decompression even on mobile devices. This is achieved by combining a content-aware preprocessing step and improved entropy coding, compared to the Flate compression used in WOFF 1.0.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "Medium"
+      "ieUnprefixed": ""
     },
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
@@ -4001,7 +3996,7 @@
     "summary": "The Fetch specification defines requests, responses, and the process that binds them; fetching.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
