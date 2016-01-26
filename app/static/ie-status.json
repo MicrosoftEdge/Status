@@ -4179,10 +4179,9 @@
     "summary": "Determines names and descriptions of accessible objects to expose via UIA for assistive technologies to describe to users.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "High"
+      "ieUnprefixed": ""
     },
     "impl_status_chrome": "No active development",
     "shipped_opera_milestone": false,
