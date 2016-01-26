@@ -2458,10 +2458,9 @@
     "summary": "Observe changes to JS objects.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not currently planned",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "Low"
+      "ieUnprefixed": ""
     },
     "msdn": "",
     "wpd": "",
