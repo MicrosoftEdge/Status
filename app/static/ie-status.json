@@ -2792,17 +2792,7 @@
     "msdn": "",
     "wpd": "",
     "demo": "",
-    "id": null,
-    "impl_status_chrome": "Enabled by default",
-    "ff_views": {
-      "text": "Shipped",
-      "value": 1
-    },
-    "shipped_opera_milestone": 1,
-    "safari_views": {
-      "text": "No public signals",
-      "value": 5
-    },
+    "id": 5517433905348608,
     "uservoiceid": 6263834
   },
   {
