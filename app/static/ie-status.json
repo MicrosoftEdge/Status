@@ -32,6 +32,32 @@
     "id": null
   },
   {
+    "name": "FIDO U2F",
+    "category": "Security",
+    "link": "https://fidoalliance.org/specifications/overview/",
+    "summary": "FIDO Universal Second Factor API allows online services to augment the security of their existing password infrastructure by adding a strong second factor to user login via a USB or NFC device. Also see FIDO 2.0 Web APIs, a newer specification that supports additional authentication methods, such as biometrics, and can replace passwords altogether as well as provide U2F functionality.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text": "Not currently planned",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "No public signals",
+      "value": 1
+    },
+    "shipped_opera_milestone": true,
+    "safari_views": {
+      "text": "No public signals",
+      "value": 1
+    },
+    "id": null
+  },
+  {
     "name": "<details>/<summary>",
     "category": "Misc",
     "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-details-element",
