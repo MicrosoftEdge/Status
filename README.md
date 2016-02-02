@@ -1,33 +1,13 @@
-#NOTE
-We're currently only accepting PRs to ie-status.json, which houses the data that powers [status.microsoftedge.com](http://status.microsoftedge.com). The web site code here is no longer used in this site and will be removed as a part of future code cleanup.
-
 #Status
-This project contains the ~~source code and~~ data for [status.microsoftedge.com](http://status.microsoftedge.com), a portal for the latest implementation status and future roadmap for interoperable web platform features in Microsoft Edge and other browsers, including Internet Explorer.
+This project contains the data for [status.microsoftedge.com](http://status.microsoftedge.com), a portal for the latest implementation status and future roadmap for interoperable web platform features in Microsoft Edge and other browsers, including Internet Explorer.
 
 ##Using Status Data
-Status.microsoftedge.com provides valuable data on the implementation status and future plans for web platform features in Microsoft Edge. This data is encouraged to be used for other purposes as licensed by the [Creative Commons Attribution 2.5 License](https://creativecommons.org/licenses/by/2.5/legalcode). This data is provided as a JSON document, served at https://dev.windows.com/en-us/microsoft-edge/api/platform/status/. This data is sent with an "Access-Control-Allow-Origin: *" header, so it may be requested cross-domain.
-
-##Building the Project
-### Prequisites
-1. Install Node.JS, NPM
-2. npm install -g bower
-3. npm install -g yo
-4. npm install -g grunt-cli
-
-### Build, run, and debug
-From the project's root directory
-
-1. npm install
-2. bower install
-3. grunt build
-4. node app.js debug
-
-A Node server will start at http://localhost:9000
+This repo provides valuable data on the implementation status and future plans for web platform features in Microsoft Edge. This data is encouraged to be used for other purposes as licensed by the [Creative Commons Attribution 2.5 License](https://creativecommons.org/licenses/by/2.5/legalcode). This data is provided as a JSON document, served at https://dev.windows.com/en-us/microsoft-edge/api/platform/status/. This data is sent with an "Access-Control-Allow-Origin: *" header, so it may be requested cross-domain.
 
 ## Contributing
-Want to contribute to this project? We'd love to have your help!  Take a look at the [Contributing Guidelines](https://github.com/MicrosoftEdge/Status/blob/production/CONTRIBUTING.md) before you dive in. For many features, support data for browsers other than IE & Edge comes from the [Chromium Dashboard](https://www.chromestatus.com) and bugs against that data can be filed [here](https://github.com/GoogleChrome/chromium-dashboard/issues).
+Want to contribute to this project? We'd love to have your help!  Take a look at the [Contributing Guidelines](https://github.com/MicrosoftEdge/Status/blob/production/CONTRIBUTING.md) before you dive in. For many features, support data for browsers other than IE and Microsoft Edge comes from the [Chromium Dashboard](https://www.chromestatus.com) and bugs against that data can be filed [here](https://github.com/GoogleChrome/chromium-dashboard/issues).
 
-Note that this GitHub project is *not* for making feature requests for or reporting bugs in Internet Explorer or Microsoft Edge. Browser feedback can be provided at [Microsoft Connect](https://connect.microsoft.com/ie).
+Note that this GitHub project is *not* for making feature requests for or reporting bugs in Internet Explorer or Microsoft Edge. Browser feedback can be provided at [Microsoft Connect](https://connect.microsoft.com/ie) and [UserVoice](https://uservoice.microsoftedge.com).
 
 ## Additional Attributions
 Portions of the content in this page from chromestatus.com, used under [Creative Commons Attribution 2.5 License](https://creativecommons.org/licenses/by/2.5/legalcode)
