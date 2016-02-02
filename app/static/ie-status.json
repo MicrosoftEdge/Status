@@ -45,6 +45,16 @@
     "msdn": "",
     "wpd": "",
     "demo": "",
+    "impl_status_chrome": "No public signals",
+    "ff_views": {
+      "text": "No public signals",
+      "value": 1
+    },
+    "shipped_opera_milestone": false,
+    "safari_views": {
+      "text": "No public signals",
+      "value": 1
+    },
     "id": null
   },
   {
