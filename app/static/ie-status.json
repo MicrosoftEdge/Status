@@ -4870,7 +4870,7 @@
       "text": "Under Consideration",
       "iePrefixed": "",
       "ieUnprefixed": "",
-      "priority": "Medium"
+      "priority": "High"
     },
     "impl_status_chrome": "No Public Signals",
     "ff_views": {
@@ -4898,7 +4898,7 @@
       "text": "Under Consideration",
       "iePrefixed": "",
       "ieUnprefixed": "",
-      "priority": "Medium"
+      "priority": "High"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
