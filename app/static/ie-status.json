@@ -1,5 +1,159 @@
 [
   {
+    "name": "requestIdleCallback",
+    "category": "Performance",
+    "link": "http://www.w3.org/TR/requestidlecallback/",
+    "summary": "Allows developers to cooperatively schedule background tasks to avoid introducing delays with high priority tasks in the same event loop.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Medium",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 5572795866021888
+  },
+  {
+    "name": "Frame Timing",
+    "category": "Performance",
+    "link": "http://www.w3.org/TR/frame-timing/",
+    "summary": "An interface for web applications to access runtime performance information of the browser event loop.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Low",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 5558926443544576
+  },
+  {
+    "name": "Performance Observer",
+    "category": "Performance",
+    "link": "https://w3c.github.io/performance-timeline/#the-performanceobserver-interface",
+    "summary": "An interface to observe the performance timeline (https://w3c.github.io/performance-timeline) and receive notifications of new performance entries as they are recorded.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Medium",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 5945504202489856
+  },
+  {
+    "name": "Server Timing",
+    "category": "Performance",
+    "link": "http://www.w3.org/TR/server-timing/",
+    "summary": "Enables the server to communicate request-response cycle metrics to the user agent, and provides a JavaScript interface to enable applications to access and act on those metrics.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Low",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null
+  },
+  {
+    "name": "Preload",
+    "category": "Performance",
+    "link": "https://www.w3.org/TR/preload/",
+    "summary": "A keyword that may be used with \"link\" elements which provides a declarative fetch primitive that initiates an early fetch and separates fetching from resoruce execution.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Medium",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 5757468554559488
+  },
+  {
+    "name": "DNS Prefetch Resource Hints",
+    "category": "Performance",
+    "link": "http://www.w3.org/TR/resource-hints/#dns-prefetch",
+    "summary": "A link relation type used to indicate an origin that will be used to fetch required resources and that the browser should resolve as early as possible.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Shipped",
+      "iePrefixed": "",
+      "ieUnprefixed": "11"
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Enabled by default",
+      "value": 2
+    },
+    "shipped_opera_milestone": true,
+    "safari_views": {
+      "text": "No signals",
+      "value": 2
+    },
+    "id": null
+  },
+  {
+    "name": "Preconnect Resource Hints",
+    "category": "Performance",
+    "link": "http://www.w3.org/TR/resource-hints/#preconnect",
+    "summary": "A link relation type used to indicate an origin that will be used to fetch required resources, so the browser can open a connection early for resouces that will be required later in the loading process.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Medium",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 5560623895150592
+  },
+  {
+    "name": "High Resolution Time 2",
+    "category": "Performance",
+    "link": "https://www.w3.org/TR/hr-time-2/",
+    "summary": "An API that provies the current time in sub-millisecond resolution and is not subject to system clock skew or adjustments.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "In Development",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Enabled by default",
+      "value": 2
+    },
+    "shipped_opera_milestone": true,
+    "safari_views": {
+      "text": "No signals",
+      "value": 2
+    },
+    "id": null
+  },
+  {
     "name": "Brotli Compressed Data Format",
     "category": "Network / Connectivity",
     "link": "https://datatracker.ietf.org/doc/draft-alakuijala-brotli/",
@@ -2408,13 +2562,14 @@
     "id": 4696563918045184
   },
   {
-    "name": "Navigation Error Logging",
+    "name": "Network Error Logging",
     "category": "Performance",
-    "link": "https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/NavigationErrorLogging/Overview.html",
+    "link": "http://w3c.github.io/network-error-logging/",
     "summary": "This specification defines an interface to store and retrieve error data related to the previous navigations of a document.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
       "text": "Under Consideration",
+      "priority": "low",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
@@ -2791,33 +2946,6 @@
       "text": "No public signals",
       "value": 5
     }
-  },
-  {
-    "name": "Resource Priorities",
-    "category": "Performance",
-    "link": "http://www.w3.org/TR/resource-priorities/",
-    "summary": "Defines a means for site developers to programmatically give the User Agent hints on the download priority of a resource.",
-    "standardStatus": "Working draft or equivalent",
-    "ieStatus": {
-      "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
-    },
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
-    "impl_status_chrome": "No active development",
-    "ff_views": {
-      "text": "No public signals",
-      "value": 5
-    },
-    "shipped_opera_milestone": null,
-    "safari_views": {
-      "text": "No public signals",
-      "value": 5
-    },
-    "uservoiceid": 6263829
   },
   {
     "name": "Beacon",
