@@ -75,7 +75,7 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "priority": "Low",
+      "priority": "Medium",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
