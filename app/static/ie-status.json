@@ -1976,7 +1976,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Medium"
     },
     "msdn": "",
     "wpd": "",
@@ -1993,7 +1994,8 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Medium"
     },
     "msdn": "",
     "wpd": "",
