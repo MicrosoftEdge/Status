@@ -2991,11 +2991,11 @@
     }
   },
   {
-    "name": "Prerender attribute",
+    "name": "Prerender Resource Hints",
     "category": "Performance",
     "link": "https://w3c.github.io/resource-hints/#h-prerender",
     "summary": "Provides a hint to the browser that another page is likely to be loaded by the user (such as the first result of a search) such that it may be prerendered for better performance.",
-    "standardStatus": "Established standard",
+    "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
