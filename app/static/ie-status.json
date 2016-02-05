@@ -2965,11 +2965,11 @@
     "uservoiceid": 6263834
   },
   {
-    "name": "Prefetch attribute",
+    "name": "Prefetch Resource Hints",
     "category": "Performance",
     "link": "https://w3c.github.io/resource-hints/#h-prefetch",
     "summary": "Indicates the browser should preemptively fetch and cache the specified resource.",
-    "standardStatus": "Established standard",
+    "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
