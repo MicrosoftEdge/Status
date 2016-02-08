@@ -1,175 +1,5 @@
 [
   {
-    "name": "requestIdleCallback",
-    "category": "Performance",
-    "link": "http://www.w3.org/TR/requestidlecallback/",
-    "summary": "Allows developers to cooperatively schedule background tasks to avoid introducing delays with high priority tasks in the same event loop.",
-    "standardStatus": "Working draft or equivalent",
-    "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "Medium",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
-    },
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": 5572795866021888
-  },
-  {
-    "name": "Frame Timing",
-    "category": "Performance",
-    "link": "http://www.w3.org/TR/frame-timing/",
-    "summary": "An interface for web applications to access runtime performance information of the browser event loop.",
-    "standardStatus": "Working draft or equivalent",
-    "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "Low",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
-    },
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": 5558926443544576
-  },
-  {
-    "name": "Performance Observer",
-    "category": "Performance",
-    "link": "https://w3c.github.io/performance-timeline/#the-performanceobserver-interface",
-    "summary": "An interface to observe the performance timeline (https://w3c.github.io/performance-timeline) and receive notifications of new performance entries as they are recorded.",
-    "standardStatus": "Working draft or equivalent",
-    "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "Medium",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
-    },
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": 5945504202489856
-  },
-  {
-    "name": "Server Timing",
-    "category": "Performance",
-    "link": "http://www.w3.org/TR/server-timing/",
-    "summary": "Enables the server to communicate request-response cycle metrics to the user agent, and provides a JavaScript interface to enable applications to access and act on those metrics.",
-    "standardStatus": "Working draft or equivalent",
-    "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "Low",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
-    },
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null
-  },
-  {
-    "name": "Preload",
-    "category": "Performance",
-    "link": "https://www.w3.org/TR/preload/",
-    "summary": "A keyword that may be used with \"link\" elements which provides a declarative fetch primitive that initiates an early fetch and separates fetching from resoruce execution.",
-    "standardStatus": "Working draft or equivalent",
-    "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "Medium",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
-    },
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": 5757468554559488
-  },
-  {
-    "name": "DNS Prefetch Resource Hints",
-    "category": "Performance",
-    "link": "http://www.w3.org/TR/resource-hints/#dns-prefetch",
-    "summary": "A link relation type used to indicate an origin that will be used to fetch required resources and that the browser should resolve as early as possible.",
-    "standardStatus": "Working draft or equivalent",
-    "ieStatus": {
-      "text": "Shipped",
-      "iePrefixed": "",
-      "ieUnprefixed": "11"
-    },
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "impl_status_chrome": "Enabled by default",
-    "ff_views": {
-      "text": "Enabled by default",
-      "value": 2
-    },
-    "shipped_opera_milestone": true,
-    "safari_views": {
-      "text": "No signals",
-      "value": 2
-    },
-    "id": null
-  },
-  {
-    "name": "Preconnect Resource Hints",
-    "category": "Performance",
-    "link": "http://www.w3.org/TR/resource-hints/#preconnect",
-    "summary": "A link relation type used to indicate an origin that will be used to fetch required resources, so the browser can open a connection early for resouces that will be required later in the loading process.",
-    "standardStatus": "Working draft or equivalent",
-    "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "Medium",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
-    },
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": 5560623895150592
-  },
-  {
-    "name": "High Resolution Time 2",
-    "category": "Performance",
-    "link": "https://www.w3.org/TR/hr-time-2/",
-    "summary": "An API that provies the current time in sub-millisecond resolution and is not subject to system clock skew or adjustments.",
-    "standardStatus": "Working draft or equivalent",
-    "ieStatus": {
-      "text": "In Development",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
-    },
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "impl_status_chrome": "Enabled by default",
-    "ff_views": {
-      "text": "Enabled by default",
-      "value": 2
-    },
-    "shipped_opera_milestone": true,
-    "safari_views": {
-      "text": "No signals",
-      "value": 2
-    },
-    "id": null
-  },
-  {
-    "name": "Brotli Compressed Data Format",
-    "category": "Network / Connectivity",
-    "link": "https://datatracker.ietf.org/doc/draft-alakuijala-brotli/",
-    "summary": "Support for the Brotli data format as an HTTP content-encoding method.",
-    "standardStatus": "Working draft or equivalent",
-    "ieStatus": {
-      "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
-    },
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": 5420797577396224
-  },
-  {
     "name": "<datalist> Element",
     "category": "User input",
     "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-list-attribute",
@@ -962,9 +792,10 @@
     "summary": "Allows dragging and dropping entire folders using HTML5 Drag and Drop. Extends the DataTransferItem with a method to get a FileEntry/DirectoryEntry.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Low"
     },
     "msdn": "",
     "wpd": "",
@@ -979,9 +810,9 @@
     "summary": "Defines a common API that may be used to discover, select and interact with such systems as well as with simpler content encryption systems.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Shipped",
+      "text": "Prefixed",
       "iePrefixed": "11",
-      "ieUnprefixed": "10240"
+      "ieUnprefixed": ""
     },
     "msdn": "https://msdn.microsoft.com/library/bg182646#eme",
     "wpd": "",
@@ -1011,9 +842,10 @@
     "summary": "Apply filter effects to arbitrary DOM elements.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Shipped",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": "10586"
+      "ieUnprefixed": "10240",
+      "flag": true
     },
     "wpd": "https://docs.webplatform.org/wiki/tutorials/css_filters",
     "demo": "",
@@ -1712,7 +1544,7 @@
     "summary": "Gives access to raw mouse movement, locks the target of mouse events to a single element, eliminates limits of how far mouse movement can go in a single direction, and removes the cursor from view. Obvious use cases are for first person or real time strategy games.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Shipped",
+      "text": "Preview Release",
       "iePrefixed": "",
       "ieUnprefixed": "10532"
     },
@@ -1831,8 +1663,7 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "High"
+      "ieUnprefixed": ""
     },
     "msdn": "",
     "wpd": "",
@@ -2111,9 +1942,10 @@
     "summary": "An API for displaying simple notifications to the user.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Medium"
     },
     "msdn": "",
     "wpd": "",
@@ -2130,8 +1962,7 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "Medium"
+      "ieUnprefixed": ""
     },
     "msdn": "",
     "wpd": "",
@@ -2148,8 +1979,7 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "Medium"
+      "ieUnprefixed": ""
     },
     "msdn": "",
     "wpd": "",
@@ -2432,9 +2262,9 @@
     "summary": "Ambient Light Event API which is a handy way to make a web page or web app aware of any change in light intensity.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "In Development",
       "iePrefixed": "",
-      "ieUnprefixed": "10586"
+      "ieUnprefixed": ""
     },
     "msdn": "",
     "wpd": "",
@@ -2467,9 +2297,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "priority": "High",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Low"
     },
     "msdn": "",
     "wpd": "",
@@ -2562,14 +2392,13 @@
     "id": 4696563918045184
   },
   {
-    "name": "Network Error Logging",
+    "name": "Navigation Error Logging",
     "category": "Performance",
-    "link": "http://w3c.github.io/network-error-logging/",
+    "link": "https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/NavigationErrorLogging/Overview.html",
     "summary": "This specification defines an interface to store and retrieve error data related to the previous navigations of a document.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
       "text": "Under Consideration",
-      "priority": "low",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
@@ -2948,15 +2777,43 @@
     }
   },
   {
+    "name": "Resource Priorities",
+    "category": "Performance",
+    "link": "http://www.w3.org/TR/resource-priorities/",
+    "summary": "Defines a means for site developers to programmatically give the User Agent hints on the download priority of a resource.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "impl_status_chrome": "No active development",
+    "ff_views": {
+      "text": "No public signals",
+      "value": 5
+    },
+    "shipped_opera_milestone": null,
+    "safari_views": {
+      "text": "No public signals",
+      "value": 5
+    },
+    "uservoiceid": 6263829
+  },
+  {
     "name": "Beacon",
     "category": "Performance",
     "link": "http://www.w3.org/TR/beacon/",
     "summary": "Enables web applications to asynchronously transfer data from the user agent to a web server, with the user agent taking the responsibility to eventually send the data.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "High"
     },
     "msdn": "",
     "wpd": "",
@@ -2965,11 +2822,11 @@
     "uservoiceid": 6263834
   },
   {
-    "name": "Prefetch Resource Hints",
+    "name": "Prefetch attribute",
     "category": "Performance",
     "link": "https://w3c.github.io/resource-hints/#h-prefetch",
     "summary": "Indicates the browser should preemptively fetch and cache the specified resource.",
-    "standardStatus": "Working draft or equivalent",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
@@ -2991,11 +2848,11 @@
     }
   },
   {
-    "name": "Prerender Resource Hints",
+    "name": "Prerender attribute",
     "category": "Performance",
     "link": "https://w3c.github.io/resource-hints/#h-prerender",
     "summary": "Provides a hint to the browser that another page is likely to be loaded by the user (such as the first result of a search) such that it may be prerendered for better performance.",
-    "standardStatus": "Working draft or equivalent",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
@@ -3694,9 +3551,10 @@
     "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Established Standard",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Medium"
     },
     "impl_status_chrome": "No active development",
     "shipped_opera_milestone": false,
@@ -4119,9 +3977,10 @@
     "summary": "Based on experience with WOFF 1.0, which is widely deployed, this specification was developed to provide improved compression and thus lower use of network bandwidth, while still allowing fast decompression even on mobile devices. This is achieved by combining a content-aware preprocessing step and improved entropy coding, compared to the Flate compression used in WOFF 1.0.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Medium"
     },
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
@@ -4146,7 +4005,7 @@
     "summary": "The Fetch specification defines requests, responses, and the process that binds them; fetching.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Under Consideration",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
@@ -4329,9 +4188,10 @@
     "summary": "Determines names and descriptions of accessible objects to expose via UIA for assistive technologies to describe to users.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "High"
     },
     "impl_status_chrome": "No active development",
     "shipped_opera_milestone": false,
@@ -4378,7 +4238,7 @@
     "name": "Upgrade insecure resource requests",
     "category": "Network / Connectivity",
     "link": "https://w3c.github.io/webappsec/specs/upgrade/",
-    "summary": "A mechanism which allows authors to instruct a user agent to upgrade a priori insecure resource requests to secure transport before Fetching them.",
+    "summary": "A mechanism which allows authors to instruct a user agent to upgrade a priori insecure resource requests to secure transport before fetching them.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
@@ -4998,7 +4858,7 @@
       "text": "Under Consideration",
       "iePrefixed": "",
       "ieUnprefixed": "",
-      "priority": "High"
+      "priority": "Medium"
     },
     "impl_status_chrome": "No Public Signals",
     "ff_views": {
@@ -5026,7 +4886,7 @@
       "text": "Under Consideration",
       "iePrefixed": "",
       "ieUnprefixed": "",
-      "priority": "High"
+      "priority": "Medium"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
