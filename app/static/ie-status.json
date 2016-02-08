@@ -3859,7 +3859,7 @@
   {
     "name": "Color input type",
     "category": "User input",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/forms.html#color-state-(type=color)",
+    "link": "https://www.w3.org/TR/html5/forms.html#color-state-(type=color)",
     "summary": "Input controls for picking colors via <input type='color'>.",
     "standardStatus": "Established Standard",
     "ieStatus": {
