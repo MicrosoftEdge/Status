@@ -5186,5 +5186,21 @@
     "demo": "",
     "id": null,
     "uservoiceid": null
+  },
+  {
+    "name": "CSS Case Insensitive Attribute Selector Matching",
+    "category": "CSS",
+    "link": "https://drafts.csswg.org/selectors-4/#attribute-case",
+    "summary": "An additional modifier ('i') for attribute selectors, that allows an author to match an attribute (ASCII) case-insensitively. For example, div[data-foo=\"pop\" i] matches <div data-foo=\"pOp\">.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "http://css4-selectors.com/selector/css4/attribute-case-sensitivity/",
+    "id": 5610936115134464
   }
 ]
