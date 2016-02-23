@@ -2371,7 +2371,7 @@
     "summary": "Real-time communication in the browser. See also \"Web RTC - Object RTC API\".",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Not currently planned",
+      "text": "Under Consideration",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
