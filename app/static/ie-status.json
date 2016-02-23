@@ -2264,10 +2264,9 @@
     "summary": "Enables web developers to incorporate speech synthesis into their web pages. ",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "Medium"
+      "ieUnprefixed": ""
     },
     "spec": "speech-api",
     "msdn": "",
