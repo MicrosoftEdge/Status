@@ -2264,10 +2264,9 @@
     "summary": "Enables web developers to incorporate speech synthesis into their web pages. ",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "Medium"
+      "ieUnprefixed": ""
     },
     "spec": "speech-api",
     "msdn": "",
@@ -2372,7 +2371,7 @@
     "summary": "Real-time communication in the browser. See also \"Web RTC - Object RTC API\".",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Not currently planned",
+      "text": "Under Consideration",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
