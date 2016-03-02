@@ -4493,13 +4493,12 @@
     "name": "Opus Audio Codec",
     "category": "Multimedia",
     "link": "http://www.opus-codec.org/",
-    "summary": "An open codec for audio.",
+    "summary": "An open codec for audio playback.",
     "standardStatus": "Defacto standard",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "High"
+      "ieUnprefixed": ""
     },
     "msdn": "",
     "wpd": "",
