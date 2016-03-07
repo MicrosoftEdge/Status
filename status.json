@@ -1,5 +1,184 @@
 [
   {
+    "name": "requestIdleCallback",
+    "category": "Performance",
+    "link": "http://www.w3.org/TR/requestidlecallback/",
+    "summary": "Allows developers to cooperatively schedule background tasks to avoid introducing delays with high priority tasks in the same event loop.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Medium",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "spec": "requestidlecallback",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 5572795866021888
+  },
+  {
+    "name": "Frame Timing",
+    "category": "Performance",
+    "link": "http://www.w3.org/TR/frame-timing/",
+    "summary": "An interface for web applications to access runtime performance information of the browser event loop.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Low",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "spec": "frame-timing",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 5558926443544576
+  },
+  {
+    "name": "Performance Observer",
+    "category": "Performance",
+    "link": "https://w3c.github.io/performance-timeline/#the-performanceobserver-interface",
+    "summary": "An interface to observe the performance timeline (https://w3c.github.io/performance-timeline) and receive notifications of new performance entries as they are recorded.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Medium",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "spec": "performance-timeline-2",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 5945504202489856
+  },
+  {
+    "name": "Server Timing",
+    "category": "Performance",
+    "link": "http://www.w3.org/TR/server-timing/",
+    "summary": "Enables the server to communicate request-response cycle metrics to the user agent, and provides a JavaScript interface to enable applications to access and act on those metrics.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Low",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "spec": "server-timing",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null
+  },
+  {
+    "name": "Preload",
+    "category": "Performance",
+    "link": "https://www.w3.org/TR/preload/",
+    "summary": "A keyword that may be used with \"link\" elements which provides a declarative fetch primitive that initiates an early fetch and separates fetching from resoruce execution.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Medium",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "spec": "preload",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 5757468554559488
+  },
+  {
+    "name": "DNS Prefetch Resource Hints",
+    "category": "Performance",
+    "link": "http://www.w3.org/TR/resource-hints/#dns-prefetch",
+    "summary": "A link relation type used to indicate an origin that will be used to fetch required resources and that the browser should resolve as early as possible.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Shipped",
+      "iePrefixed": "",
+      "ieUnprefixed": "11"
+    },
+    "spec": "resource-hints",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Enabled by default",
+      "value": 2
+    },
+    "shipped_opera_milestone": true,
+    "safari_views": {
+      "text": "No signals",
+      "value": 2
+    },
+    "id": null
+  },
+  {
+    "name": "Preconnect Resource Hints",
+    "category": "Performance",
+    "link": "http://www.w3.org/TR/resource-hints/#preconnect",
+    "summary": "A link relation type used to indicate an origin that will be used to fetch required resources, so the browser can open a connection early for resouces that will be required later in the loading process.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Medium",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "spec": "resource-hints",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 5560623895150592
+  },
+  {
+    "name": "High Resolution Time 2",
+    "category": "Performance",
+    "link": "https://www.w3.org/TR/hr-time-2/",
+    "summary": "An API that provies the current time in sub-millisecond resolution and is not subject to system clock skew or adjustments.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "In Development",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "spec": "hr-time-2",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Enabled by default",
+      "value": 2
+    },
+    "shipped_opera_milestone": true,
+    "safari_views": {
+      "text": "No signals",
+      "value": 2
+    },
+    "id": null
+  },
+  {
+    "name": "Brotli Compressed Data Format",
+    "category": "Network / Connectivity",
+    "link": "https://datatracker.ietf.org/doc/draft-alakuijala-brotli/",
+    "summary": "Support for the Brotli data format as an HTTP content-encoding method.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "spec": "",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 5420797577396224
+  },
+  {
     "name": "<datalist> Element",
     "category": "User input",
     "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-list-attribute",
@@ -10,6 +189,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
+    "spec": "html51",
     "msdn": "https://msdn.microsoft.com/en-us/library/hh772925.aspx",
     "wpd": "https://docs.webplatform.org/wiki/html/elements/datalist",
     "demo": "",
@@ -26,6 +206,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "fido-2",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -42,6 +223,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -69,6 +251,7 @@
       "ieUnprefixed": "",
       "priority": "Medium"
     },
+    "spec": "html51",
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/html/elements/details",
     "demo": "",
@@ -88,6 +271,7 @@
     },
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -106,6 +290,7 @@
       "ieUnprefixed": "",
       "priority": "Medium"
     },
+    "spec": "directory-upload",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -127,6 +312,7 @@
       "text": "Shipped",
       "value": 1
     },
+    "spec": "html51",
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/concepts/mobile_web/highdpi",
     "demo": "",
@@ -154,6 +340,7 @@
       "value": 1
     },
     "shipped_opera_milestone": true,
+    "spec": "html51",
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/html/attributes/sizes",
     "demo": "",
@@ -171,6 +358,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10547"
     },
+    "spec": "html51",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -188,6 +376,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10547"
     },
+    "spec": "html51",
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/html/elements/template",
     "demo": "",
@@ -215,6 +404,7 @@
       "text": "Shipped",
       "value": 1
     },
+    "spec": "html51",
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/html/elements/meter",
     "demo": "",
@@ -228,7 +418,7 @@
     "summary": "Returns the string corresponding to the current selection direction on text input elements: \"forward\", \"backward\", or \"none\".",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text":  "Shipped",
+      "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "10532"
     },
@@ -242,6 +432,7 @@
       "text": "Shipped",
       "value": 1
     },
+    "spec": "html51",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -255,7 +446,7 @@
     "summary": "Provides specified alert text if an input element is invalid.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text":  "Shipped",
+      "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "10532"
     },
@@ -269,6 +460,7 @@
       "text": "Shipped",
       "value": 1
     },
+    "spec": "html51",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -296,6 +488,7 @@
       "text": "Preview release",
       "value": 1
     },
+    "spec": "2dcontext",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -309,7 +502,7 @@
     "summary": "Path2D objects can be used to declare paths that are then later used on CanvasRenderingContext2D objects.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text":  "In Development",
+      "text": "In Development",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
@@ -323,6 +516,7 @@
       "text": "Shipped",
       "value": 1
     },
+    "spec": "2dcontext2",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -350,13 +544,14 @@
       "text": "Shipped",
       "value": 1
     },
+    "spec": "html51",
     "msdn": "",
     "wpd": "",
     "demo": "",
     "id": null,
     "uservoiceid": null
   },
-    {
+  {
     "name": "CSS Mutability Pseudo-classes",
     "category": "CSS",
     "link": "http://www.w3.org/TR/html5/disabled-elements.html#selector-read-write",
@@ -377,6 +572,7 @@
       "text": "Shipped",
       "value": 1
     },
+    "spec": "html51",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -394,6 +590,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10547"
     },
+    "spec": "html51",
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/html/elements/a",
     "demo": "",
@@ -411,6 +608,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
+    "spec": "html51",
     "msdn": "https://msdn.microsoft.com/en-us/library/hh673545.aspx",
     "wpd": "",
     "demo": "",
@@ -431,6 +629,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
+    "spec": "html51",
     "msdn": "https://msdn.microsoft.com/en-us/library/hh772592",
     "wpd": "",
     "demo": "",
@@ -447,6 +646,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "html51",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -464,6 +664,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
+    "spec": "fileapi",
     "msdn": "https://msdn.microsoft.com/en-us/library/hh772298.aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/file/Blob",
     "demo": "",
@@ -480,6 +681,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "11"
     },
+    "spec": "ecmascript",
     "msdn": "https://msdn.microsoft.com/library/dn263046",
     "wpd": "",
     "demo": "",
@@ -496,6 +698,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "9"
     },
+    "spec": "2dcontext",
     "msdn": "https://msdn.microsoft.com/en-us/library/bg124101.aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/canvas",
     "demo": "",
@@ -512,6 +715,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "2dcontext",
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/apis/canvas/CanvasRenderingContext2D/drawSystemFocusRing",
     "demo": "",
@@ -529,6 +733,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10532"
     },
+    "spec": "compositing-1",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -546,6 +751,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "csp3",
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/content-security-policy",
     "demo": "",
@@ -564,6 +770,7 @@
       "ieUnprefixed": "",
       "priority": "Low"
     },
+    "spec": "csp2",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -581,6 +788,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "9"
     },
+    "spec": "css-values",
     "msdn": "https://msdn.microsoft.com/library/ms537660#calc",
     "wpd": "https://docs.webplatform.org/wiki/css/functions/calc",
     "demo": "",
@@ -597,6 +805,7 @@
       "iePrefixed": "10",
       "ieUnprefixed": ""
     },
+    "spec": "css-device-adapt",
     "msdn": "https://msdn.microsoft.com/library/hh708740",
     "wpd": "https://docs.webplatform.org/wiki/concepts/mobile_web/responsive_design",
     "demo": "",
@@ -613,6 +822,7 @@
       "iePrefixed": "10",
       "ieUnprefixed": "11"
     },
+    "spec": "pointerevents",
     "msdn": "https://msdn.microsoft.com/en-us/library/hh772044.aspx",
     "wpd": "https://docs.webplatform.org/wiki/css/properties/touch-action",
     "demo": "",
@@ -630,6 +840,7 @@
       "ieUnprefixed": "",
       "priority": "Low"
     },
+    "spec": "css-variables-1",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -648,6 +859,7 @@
       "ieUnprefixed": "",
       "priority": "Low"
     },
+    "spec": "css-will-change-1",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -665,6 +877,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "cssom-view",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -683,6 +896,7 @@
       "ieUnprefixed": "",
       "priority": "Medium"
     },
+    "spec": "custom-elements",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -700,6 +914,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "11"
     },
+    "spec": "deviceorientation",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -708,7 +923,7 @@
   {
     "name": "Device Orientation",
     "category": "Device",
-    "link": "http://dev.w3.org/geo/api/spec-source-orientation.html",
+    "link": "http://w3c.github.io/deviceorientation/spec-source-orientation.html#deviceorientation",
     "summary": "Provides access to device's physical orientation",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -716,6 +931,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "11"
     },
+    "spec": "deviceorientation",
     "msdn": "https://msdn.microsoft.com/en-us/library/dn342897.aspx",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/device_orientation",
     "demo": "",
@@ -732,6 +948,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "11"
     },
+    "spec": "cssom-view",
     "msdn": "https://msdn.microsoft.com/en-us/library/dn255104.aspx",
     "wpd": "",
     "demo": "",
@@ -748,6 +965,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "9"
     },
+    "spec": "uievents",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -764,6 +982,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "8"
     },
+    "spec": "pointerevents-2",
     "msdn": "https://msdn.microsoft.com/en-us/library/ms536945.aspx",
     "wpd": "https://docs.webplatform.org/wiki/dom/MouseEvent/mouseenter",
     "demo": "",
@@ -780,6 +999,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "9"
     },
+    "spec": "uievents",
     "msdn": "https://msdn.microsoft.com/library/ff974352",
     "wpd": "https://docs.webplatform.org/wiki/dom/WheelEvent",
     "demo": "",
@@ -792,11 +1012,11 @@
     "summary": "Allows dragging and dropping entire folders using HTML5 Drag and Drop. Extends the DataTransferItem with a method to get a FileEntry/DirectoryEntry.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "Low"
+      "ieUnprefixed": ""
     },
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -810,10 +1030,11 @@
     "summary": "Defines a common API that may be used to discover, select and interact with such systems as well as with simpler content encryption systems.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Prefixed",
+      "text": "Shipped",
       "iePrefixed": "11",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10240"
     },
+    "spec": "encrypted-media",
     "msdn": "https://msdn.microsoft.com/library/bg182646#eme",
     "wpd": "",
     "demo": "",
@@ -830,6 +1051,7 @@
       "iePrefixed": "10",
       "ieUnprefixed": ""
     },
+    "spec": "css-exclusions",
     "msdn": "https://msdn.microsoft.com/en-us/library/hh772711",
     "wpd": "",
     "demo": "",
@@ -842,11 +1064,11 @@
     "summary": "Apply filter effects to arbitrary DOM elements.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
-      "ieUnprefixed": "10240",
-      "flag": true
+      "ieUnprefixed": "10586"
     },
+    "spec": "filter-effects",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/css_filters",
     "demo": "",
     "id": 5822463824887808,
@@ -863,6 +1085,7 @@
       "iePrefixed": "10",
       "ieUnprefixed": "11"
     },
+    "spec": "css-flexbox-1",
     "msdn": "https://msdn.microsoft.com/library/bg124109",
     "wpd": "https://docs.webplatform.org/wiki/css/flexbox",
     "demo": "",
@@ -879,6 +1102,7 @@
       "iePrefixed": "11",
       "ieUnprefixed": "10240"
     },
+    "spec": "whatwg-fullscreen",
     "msdn": "https://msdn.microsoft.com/library/dn265028",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/using_the_full-screen_api",
     "demo": "",
@@ -887,7 +1111,7 @@
   {
     "name": "GamePad API",
     "category": "User input",
-    "link": "https://dvcs.w3.org/hg/gamepad/raw-file/default/gamepad.html",
+    "link": "https://w3c.github.io/gamepad/",
     "summary": "Gives JS access to a game controller via USB.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -895,6 +1119,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "gamepad",
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/apis/gamepad/Gamepad",
     "demo": "",
@@ -904,7 +1129,7 @@
   {
     "name": "Generated Content for Paged Media",
     "category": "CSS",
-    "link": "http://dev.w3.org/csswg/css3-gcpm/",
+    "link": "http://dev.w3.org/csswg/css-gcpm/",
     "summary": "CSS properties helpful for printed publication.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -912,6 +1137,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "css-gcpm-3",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -929,6 +1155,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "9"
     },
+    "spec": "geolocation-api",
     "msdn": "https://msdn.microsoft.com/ie/hh410106#_HTML5_geolocation",
     "wpd": "https://docs.webplatform.org/wiki/apis/geolocation",
     "demo": "",
@@ -945,6 +1172,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "mediacapture",
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/dom/Navigator/getUserMedia",
     "demo": "",
@@ -962,6 +1190,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
+    "spec": "css3-images",
     "msdn": "https://msdn.microsoft.com/library/hh673532",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/CSS_gradients",
     "demo": "",
@@ -978,6 +1207,7 @@
       "iePrefixed": "10",
       "ieUnprefixed": ""
     },
+    "spec": "css-grid-1",
     "msdn": "https://msdn.microsoft.com/en-us/library/hh673533",
     "wpd": "https://docs.webplatform.org/wiki/css/properties/grid",
     "demo": "",
@@ -994,6 +1224,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "form-http-extensions",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1021,6 +1252,7 @@
       "ieUnprefixed": "",
       "priority": "Low"
     },
+    "spec": "html-imports",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1038,6 +1270,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1055,6 +1288,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "11"
     },
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1071,6 +1305,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "11"
     },
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1087,6 +1322,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "",
     "msdn": "https://msdn.microsoft.com/library/dn905221.aspx",
     "wpd": "",
     "demo": "",
@@ -1113,6 +1349,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
+    "spec": "html51",
     "msdn": "https://msdn.microsoft.com/library/hh673561",
     "wpd": "https://docs.webplatform.org/wiki/html/attributes/sandbox",
     "demo": "",
@@ -1130,6 +1367,7 @@
       "ieUnprefixed": "",
       "priority": "Low"
     },
+    "spec": "html51",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1148,6 +1386,7 @@
       "ieUnprefixed": "",
       "priority": "Low"
     },
+    "spec": "html51",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1165,6 +1404,7 @@
       "iePrefixed": "11",
       "ieUnprefixed": ""
     },
+    "spec": "ime-api",
     "msdn": "https://msdn.microsoft.com/en-us/library/dn385696.aspx",
     "wpd": "",
     "demo": "",
@@ -1181,6 +1421,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
+    "spec": "indexeddb",
     "msdn": "https://msdn.microsoft.com/library/hh673548",
     "wpd": "https://docs.webplatform.org/wiki/apis/indexeddb",
     "demo": "",
@@ -1207,6 +1448,7 @@
       "text": "No public signals",
       "value": 3
     },
+    "spec": "indexeddb",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1224,6 +1466,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "11"
     },
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1250,6 +1493,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "11"
     },
+    "spec": "ecmascript",
     "msdn": "https://msdn.microsoft.com/library/dn263029",
     "wpd": "",
     "demo": "",
@@ -1267,6 +1511,7 @@
       "ieUnprefixed": "",
       "priority": "Medium"
     },
+    "spec": "css-masking-1",
     "msdn": "https://msdn.microsoft.com/library/ff972267.aspx",
     "wpd": "https://docs.webplatform.org/wiki/css/properties/mask",
     "demo": "",
@@ -1284,6 +1529,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
+    "spec": "cssom-view",
     "msdn": "https://msdn.microsoft.com/library/hh772743",
     "wpd": "https://docs.webplatform.org/wiki/css/media_queries/apis/matchMedia",
     "demo": "",
@@ -1300,6 +1546,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "mathml3",
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/mathml",
     "demo": "",
@@ -1317,6 +1564,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "9"
     },
+    "spec": "css3-mediaqueries",
     "msdn": "https://msdn.microsoft.com/ie/hh393506#_CSS3_Media_Queries",
     "wpd": "https://docs.webplatform.org/wiki/css/atrules/%40media",
     "demo": "",
@@ -1333,6 +1581,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "11"
     },
+    "spec": "media-source",
     "msdn": "https://msdn.microsoft.com/library/bg182646#mse",
     "wpd": "https://docs.webplatform.org/wiki/apis/media_source_extensions",
     "demo": "",
@@ -1349,6 +1598,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "mediastream-recording",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1366,6 +1616,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "microdata",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1383,6 +1634,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "css-transforms-1",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1411,6 +1663,7 @@
       "ieUnprefixed": "",
       "priority": "Low"
     },
+    "spec": "compositing-1",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1429,6 +1682,7 @@
       "ieUnprefixed": "",
       "priority": "Low"
     },
+    "spec": "compositing-1",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1446,6 +1700,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "woff",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1468,6 +1723,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
+    "spec": "css3-multicol",
     "msdn": "https://msdn.microsoft.com/library/hh673534",
     "wpd": "https://docs.webplatform.org/wiki/css/properties/column-count",
     "demo": "",
@@ -1484,6 +1740,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "11"
     },
+    "spec": "whatwg-dom",
     "msdn": "https://msdn.microsoft.com/library/dn265034",
     "wpd": "",
     "demo": "",
@@ -1500,6 +1757,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "9"
     },
+    "spec": "navigation-timing-2",
     "msdn": "https://msdn.microsoft.com/library/hh673552",
     "wpd": "https://docs.webplatform.org/wiki/apis/navigation_timing",
     "demo": "",
@@ -1516,6 +1774,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
+    "spec": "page-visibility-3",
     "msdn": "https://msdn.microsoft.com/library/hh673553",
     "wpd": "https://docs.webplatform.org/wiki/dom/Document/visibilitychange",
     "demo": "",
@@ -1532,6 +1791,7 @@
       "iePrefixed": "10",
       "ieUnprefixed": "11"
     },
+    "spec": "pointerevents",
     "msdn": "https://msdn.microsoft.com/en-us/library/dn433244.aspx",
     "wpd": "https://docs.webplatform.org/wiki/PointerEvents",
     "demo": "",
@@ -1544,11 +1804,12 @@
     "summary": "Gives access to raw mouse movement, locks the target of mouse events to a single element, eliminates limits of how far mouse movement can go in a single direction, and removes the cursor from view. Obvious use cases are for first person or real time strategy games.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "10532"
     },
     "shipped_opera_milestone": true,
+    "spec": "pointerlock",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1566,6 +1827,7 @@
       "ieUnprefixed": "",
       "priority": "Medium"
     },
+    "spec": "css-position",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1583,6 +1845,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "8"
     },
+    "spec": "webmessaging",
     "msdn": "https://msdn.microsoft.com/en-us/library/cc197015.aspx",
     "wpd": "https://docs.webplatform.org/wiki/dom/Window/postMessage",
     "demo": "",
@@ -1599,6 +1862,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "quota-api",
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/apis/quota_management",
     "demo": "",
@@ -1617,6 +1881,7 @@
       "ieUnprefixed": "",
       "priority": "Medium"
     },
+    "spec": "css-regions-1",
     "msdn": "https://msdn.microsoft.com/en-us/library/hh772715.aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/css-regions",
     "demo": "",
@@ -1633,6 +1898,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
+    "spec": "html51",
     "msdn": "https://msdn.microsoft.com/library/hh920765",
     "wpd": "https://docs.webplatform.org/wiki/dom/Window/requestAnimationFrame",
     "demo": "",
@@ -1649,6 +1915,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
+    "spec": "resource-timing",
     "msdn": "https://msdn.microsoft.com/en-us/library/hh772738.aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/resource_timing",
     "demo": "",
@@ -1663,8 +1930,10 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "High"
     },
+    "spec": "service-workers",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1682,6 +1951,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "11"
     },
+    "spec": "ecmascript",
     "msdn": "https://msdn.microsoft.com/library/dn251547",
     "wpd": "",
     "demo": "",
@@ -1698,6 +1968,7 @@
       "iePrefixed": "10",
       "ieUnprefixed": ""
     },
+    "spec": "streams",
     "msdn": "https://msdn.microsoft.com/en-us/library/hh772328.aspx",
     "wpd": "",
     "demo": "",
@@ -1714,6 +1985,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "11"
     },
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1731,6 +2003,7 @@
       "ieUnprefixed": "",
       "priority": "Low"
     },
+    "spec": "svg2",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1748,6 +2021,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "8"
     },
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1764,6 +2038,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
+    "spec": "html51",
     "msdn": "https://msdn.microsoft.com/library/bg123962",
     "wpd": "",
     "demo": "",
@@ -1780,6 +2055,7 @@
       "iePrefixed": "9",
       "ieUnprefixed": "10"
     },
+    "spec": "css-transforms-1",
     "msdn": "https://msdn.microsoft.com/en-us/library/hh772059.aspx",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/css_transforms",
     "demo": "",
@@ -1796,6 +2072,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
+    "spec": "ecmascript",
     "msdn": "https://msdn.microsoft.com/en-us/library/hh869304.aspx",
     "wpd": "",
     "demo": "",
@@ -1812,6 +2089,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "Medium"
     },
+    "spec": "uievents",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1829,6 +2107,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "whatwg-url",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1846,6 +2125,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
+    "spec": "user-timing",
     "msdn": "https://msdn.microsoft.com/en-us/library/hh772738.aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/user_timing",
     "demo": "",
@@ -1862,6 +2142,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "vibration",
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/apis/vibration",
     "demo": "",
@@ -1879,6 +2160,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "11"
     },
+    "spec": "ecmascript",
     "msdn": "https://msdn.microsoft.com/library/dn251546",
     "wpd": "",
     "demo": "",
@@ -1896,6 +2178,7 @@
       "ieUnprefixed": "",
       "priority": "Medium"
     },
+    "spec": "web-animations-1",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1913,6 +2196,7 @@
       "iePrefixed": "11",
       "ieUnprefixed": ""
     },
+    "spec": "webcryptoapi",
     "msdn": "https://msdn.microsoft.com/en-us/library/dn265046.aspx",
     "wpd": "",
     "demo": "",
@@ -1929,6 +2213,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "webmidi",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1942,11 +2227,11 @@
     "summary": "An API for displaying simple notifications to the user.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "Medium"
+      "ieUnprefixed": ""
     },
+    "spec": "notifications",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1962,8 +2247,10 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "",
+      "priority": "Medium"
     },
+    "spec": "speech-api",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1981,6 +2268,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "speech-api",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1998,6 +2286,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "webdatabase",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2015,6 +2304,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "8"
     },
+    "spec": "webstorage",
     "msdn": "https://msdn.microsoft.com/en-us/library/bg142799.aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/web-storage",
     "demo": "",
@@ -2031,6 +2321,7 @@
       "iePrefixed": "11",
       "ieUnprefixed": ""
     },
+    "spec": "webgl",
     "msdn": "https://msdn.microsoft.com/library/bg182648",
     "wpd": "https://docs.webplatform.org/wiki/webgl",
     "demo": "",
@@ -2048,6 +2339,7 @@
       "ieUnprefixed": "",
       "priority": "Medium"
     },
+    "spec": "webgl2",
     "msdn": "",
     "wpd": "",
     "demo": "https://www.youtube.com/watch?v=2v6iLpY7j5M",
@@ -2065,6 +2357,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2082,6 +2375,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "webrtc",
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/apis/webrtc",
     "demo": "",
@@ -2099,6 +2393,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10547"
     },
+    "spec": "ortc",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2126,6 +2421,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
+    "spec": "html",
     "msdn": "https://msdn.microsoft.com/en-us/library/hh673567.aspx",
     "wpd": "https://docs.webplatform.org/wiki/concepts/protocols/websocket",
     "demo": "",
@@ -2146,6 +2442,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
+    "spec": "xhr",
     "msdn": "https://msdn.microsoft.com/en-us/library/cc304105.aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/xhr/XMLHttpRequest/timeout",
     "demo": "",
@@ -2162,6 +2459,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "ecmascript",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2180,6 +2478,7 @@
       "ieUnprefixed": "",
       "priority": "Low"
     },
+    "spec": "css-align-3",
     "msdn": "https://msdn.microsoft.com/en-us/library/bg124109.aspx#setting_flexbox_alignment_",
     "wpd": "",
     "demo": "",
@@ -2197,6 +2496,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "filter-effects",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2215,6 +2515,7 @@
       "ieUnprefixed": "10240",
       "flag": true
     },
+    "spec": "ecmascript",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2233,6 +2534,7 @@
       "ieUnprefixed": "10532",
       "flag": true
     },
+    "spec": "ecmascript",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2250,6 +2552,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "ecmascript",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2262,10 +2565,11 @@
     "summary": "Ambient Light Event API which is a handy way to make a web page or web app aware of any change in light intensity.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "10586"
     },
+    "spec": "ambient-light",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2283,6 +2587,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "battery-status",
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/apis/battery_status",
     "demo": "",
@@ -2292,15 +2597,16 @@
   {
     "name": "Push API",
     "category": "Realtime / Communication",
-    "link": "https://dvcs.w3.org/hg/push/raw-file/tip/index.html",
+    "link": "https://w3c.github.io/push-api/",
     "summary": "Provides webapps with scripted access to server-sent notifications.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
+      "priority": "High",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "Low"
+      "ieUnprefixed": ""
     },
+    "spec": "push-api",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2318,6 +2624,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "subresourceintegrity",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2336,6 +2643,7 @@
       "ieUnprefixed": "",
       "priority": "Low"
     },
+    "spec": "css3-sizing",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2353,6 +2661,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "9"
     },
+    "spec": "css-fonts-3",
     "msdn": "https://msdn.microsoft.com/en-us/library/jj127324.aspx",
     "wpd": "",
     "demo": "",
@@ -2369,6 +2678,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "2dcontext",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2386,22 +2696,25 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "ecmascript",
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/concepts/programming/javascript/iterators",
     "demo": "",
     "id": 4696563918045184
   },
   {
-    "name": "Navigation Error Logging",
+    "name": "Network Error Logging",
     "category": "Performance",
-    "link": "https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/NavigationErrorLogging/Overview.html",
+    "link": "http://w3c.github.io/network-error-logging/",
     "summary": "This specification defines an interface to store and retrieve error data related to the previous navigations of a document.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
       "text": "Under Consideration",
+      "priority": "low",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "network-error-logging",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2420,6 +2733,7 @@
       "ieUnprefixed": "",
       "priority": "Medium"
     },
+    "spec": "css-shapes",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2437,6 +2751,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "ecmascript",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2453,6 +2768,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "webgl",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2471,6 +2787,7 @@
       "ieUnprefixed": "",
       "priority": "Low"
     },
+    "spec": "html51",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2488,6 +2805,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "ecmascript",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2506,6 +2824,7 @@
       "ieUnprefixed": "",
       "priority": "High"
     },
+    "spec": "shadow-dom",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2523,6 +2842,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "webaudio",
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/apis/webaudio",
     "demo": "",
@@ -2541,6 +2861,7 @@
       "ieUnprefixed": "",
       "priority": "Medium"
     },
+    "spec": "css3-images",
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/css/properties/object-fit",
     "demo": "",
@@ -2558,6 +2879,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "css-conditional",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2576,6 +2898,7 @@
       "ieUnprefixed": "10240",
       "flag": true
     },
+    "spec": "ecmascript",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2593,6 +2916,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2610,6 +2934,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
+    "spec": "hr-time-2",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2626,6 +2951,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "html51",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2643,6 +2969,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "ecmascript",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2660,6 +2987,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "touch-events",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2678,6 +3006,7 @@
       "ieUnprefixed": "",
       "priority": "Low"
     },
+    "spec": "html51",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2695,6 +3024,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "file-writer-api",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2712,6 +3042,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
+    "spec": "fileapi",
     "msdn": "https://msdn.microsoft.com/en-us/library/hh772310.aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/file/FileReader",
     "demo": "",
@@ -2728,6 +3059,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "eventsource",
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/eventsource_basics",
     "demo": "",
@@ -2745,6 +3077,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
+    "spec": "webmessaging",
     "msdn": "https://msdn.microsoft.com/en-us/library/hh673525.aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/web-messaging/MessageChannel",
     "demo": "",
@@ -2761,6 +3094,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
+    "spec": "setimmediate",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2777,44 +3111,17 @@
     }
   },
   {
-    "name": "Resource Priorities",
-    "category": "Performance",
-    "link": "http://www.w3.org/TR/resource-priorities/",
-    "summary": "Defines a means for site developers to programmatically give the User Agent hints on the download priority of a resource.",
-    "standardStatus": "Working draft or equivalent",
-    "ieStatus": {
-      "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
-    },
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
-    "impl_status_chrome": "No active development",
-    "ff_views": {
-      "text": "No public signals",
-      "value": 5
-    },
-    "shipped_opera_milestone": null,
-    "safari_views": {
-      "text": "No public signals",
-      "value": 5
-    },
-    "uservoiceid": 6263829
-  },
-  {
     "name": "Beacon",
     "category": "Performance",
     "link": "http://www.w3.org/TR/beacon/",
     "summary": "Enables web applications to asynchronously transfer data from the user agent to a web server, with the user agent taking the responsibility to eventually send the data.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "High"
+      "ieUnprefixed": ""
     },
+    "spec": "beacon",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2822,16 +3129,17 @@
     "uservoiceid": 6263834
   },
   {
-    "name": "Prefetch attribute",
+    "name": "Prefetch Resource Hints",
     "category": "Performance",
     "link": "https://w3c.github.io/resource-hints/#h-prefetch",
     "summary": "Indicates the browser should preemptively fetch and cache the specified resource.",
-    "standardStatus": "Established standard",
+    "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "11"
     },
+    "spec": "resource-hints",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2848,16 +3156,17 @@
     }
   },
   {
-    "name": "Prerender attribute",
+    "name": "Prerender Resource Hints",
     "category": "Performance",
     "link": "https://w3c.github.io/resource-hints/#h-prerender",
     "summary": "Provides a hint to the browser that another page is likely to be loaded by the user (such as the first result of a search) such that it may be prerendered for better performance.",
-    "standardStatus": "Established standard",
+    "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "11"
     },
+    "spec": "resource-hints",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2884,6 +3193,7 @@
       "iePrefixed": "10",
       "ieUnprefixed": ""
     },
+    "spec": "css-snappoints-1",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2910,6 +3220,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "dom-level-3-xpath",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2937,6 +3248,7 @@
       "iePrefixed": "11",
       "ieUnprefixed": ""
     },
+    "spec": "screen-orientation",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2953,6 +3265,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "11"
     },
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2979,6 +3292,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "11"
     },
+    "spec": "webdriver",
     "msdn": "http://www.microsoft.com/en-us/download/details.aspx?id=48212",
     "wpd": "",
     "demo": "",
@@ -3006,6 +3320,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "svg",
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/external_content_in_svg#Embedding_arbitrary_XML",
     "demo": "",
@@ -3033,6 +3348,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "mediaqueries-4",
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/css/atrules/%40media",
     "demo": "",
@@ -3059,6 +3375,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "selection-api",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -3085,6 +3402,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "ecmascript",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -3105,6 +3423,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "ecmascript",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -3123,6 +3442,7 @@
       "ieUnprefixed": "10532",
       "flag": true
     },
+    "spec": "ecmascript",
     "msdn": "",
     "wpd": "",
     "demo": ""
@@ -3139,6 +3459,7 @@
       "ieUnprefixed": "",
       "priority": "Low"
     },
+    "spec": "ecmascript",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -3156,6 +3477,7 @@
       "ieUnprefixed": "10547",
       "flag": true
     },
+    "spec": "ecmascript",
     "msdn": "",
     "wpd": "",
     "demo": ""
@@ -3172,6 +3494,7 @@
       "ieUnprefixed": "",
       "priority": "High"
     },
+    "spec": "",
     "msdn": "https://www.youtube.com/watch?v=lD9FAOPBiDk&feature=youtu.be",
     "wpd": "",
     "demo": "",
@@ -3202,6 +3525,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10547"
     },
+    "spec": "svg",
     "demo": "",
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
@@ -3243,6 +3567,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "css3-values",
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
     "ff_views": {
@@ -3266,6 +3591,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "html51",
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
     "ff_views": {
@@ -3289,6 +3615,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "dom",
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
     "ff_views": {
@@ -3312,6 +3639,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "ecmascript",
     "id": 5920790725787648
   },
   {
@@ -3325,6 +3653,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "ecmascript",
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
     "ff_views": {
@@ -3348,6 +3677,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "ecmascript",
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
     "ff_views": {
@@ -3371,6 +3701,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "ecmascript",
     "shipped_opera_milestone": false,
     "safari_views": {
       "text": "No Signals",
@@ -3389,6 +3720,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "ecmascript",
     "impl_status_chrome": "No Signals",
     "shipped_opera_milestone": false,
     "ff_views": {
@@ -3412,6 +3744,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "ecmascript",
     "id": 5977677567623168
   },
   {
@@ -3425,6 +3758,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "11"
     },
+    "spec": "ecmascript",
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
     "ff_views": {
@@ -3449,6 +3783,7 @@
       "ieUnprefixed": "10532",
       "flag": false
     },
+    "spec": "ecmascript",
     "id": 4633745457938432,
     "uservoiceid": 6510201
   },
@@ -3463,6 +3798,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "ecmascript",
     "safari_views": {
       "text": "No Signals",
       "value": 3
@@ -3480,6 +3816,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "ecmascript",
     "id": 4743002513735680
   },
   {
@@ -3494,6 +3831,7 @@
       "ieUnprefixed": "",
       "priority": "Low"
     },
+    "spec": "ecmascript",
     "id": 5516876633341952,
     "uservoiceid": 6850816
   },
@@ -3508,6 +3846,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "ecmascript",
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": false,
     "ff_views": {
@@ -3532,6 +3871,7 @@
       "ieUnprefixed": "10240",
       "flag": true
     },
+    "spec": "ecmascript",
     "impl_status_chrome": "In development",
     "shipped_opera_milestone": false,
     "ff_views": {
@@ -3551,11 +3891,11 @@
     "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Established Standard",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "Medium"
+      "ieUnprefixed": ""
     },
+    "spec": "ecmascript",
     "impl_status_chrome": "No active development",
     "shipped_opera_milestone": false,
     "ff_views": {
@@ -3605,6 +3945,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "clipboard-apis",
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
     "ff_views": {
@@ -3629,6 +3970,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "appmanifest",
     "id": 6488656873259008,
     "uservoiceid": 6512948
   },
@@ -3661,6 +4003,7 @@
     "category": "JavaScript",
     "summary": "Provides APIs for string comparison and date/time/number formatting in a locale-aware manner.",
     "link": "http://ecma-international.org/ecma-402/1.0/",
+    "spec": "ecmascript",
     "msdn": "https://msdn.microsoft.com/en-us/library/dn342821.aspx",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -3691,6 +4034,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "ecmascript",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -3708,6 +4052,7 @@
       "ieUnprefixed": "",
       "priority": "Medium"
     },
+    "spec": "html51",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -3735,6 +4080,7 @@
       "text": "No Signals",
       "value": 3
     },
+    "spec": "html51",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -3756,6 +4102,7 @@
       "value": 1
     },
     "shipped_opera_milestone": true,
+    "spec": "html51",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -3778,6 +4125,7 @@
       "value": 1
     },
     "shipped_opera_milestone": true,
+    "spec": "html51",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -3805,6 +4153,7 @@
       "text": "Shipped",
       "value": 1
     },
+    "spec": "html51",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -3832,6 +4181,7 @@
       "text": "Shipped",
       "value": 1
     },
+    "spec": "html51",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -3858,6 +4208,7 @@
       "text": "Shipped",
       "value": 1
     },
+    "spec": "media-frags",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -3884,6 +4235,7 @@
       "text": "Shipped",
       "value": 1
     },
+    "spec": "svg",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -3900,6 +4252,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "navigatorcores",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -3917,6 +4270,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "web-bluetooth",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -3939,6 +4293,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "web-nfc",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -3965,6 +4320,7 @@
       "text": "No Public Signals",
       "value": 3
     },
+    "spec": "workers",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -3991,6 +4347,7 @@
       "text": "No Public Signals",
       "value": 3
     },
+    "spec": "p3p",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4003,10 +4360,9 @@
     "summary": "Based on experience with WOFF 1.0, which is widely deployed, this specification was developed to provide improved compression and thus lower use of network bandwidth, while still allowing fast decompression even on mobile devices. This is achieved by combining a content-aware preprocessing step and improved entropy coding, compared to the Flate compression used in WOFF 1.0.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "Medium"
+      "ieUnprefixed": ""
     },
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
@@ -4018,6 +4374,7 @@
       "text": "No Public Signals",
       "value": 3
     },
+    "spec": "woff2",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4031,7 +4388,7 @@
     "summary": "The Fetch specification defines requests, responses, and the process that binds them; fetching.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
@@ -4045,6 +4402,7 @@
       "text": "No Public Signals",
       "value": 3
     },
+    "spec": "fetch",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4072,6 +4430,7 @@
       "text": "No Public Signals",
       "value": 3
     },
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4098,6 +4457,7 @@
       "text": "Enabled by default",
       "value": 2
     },
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4124,6 +4484,7 @@
       "text": "Enabled by default",
       "value": 2
     },
+    "spec": "css4-images",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4132,7 +4493,7 @@
   {
     "name": "ARIA Landmark Roles",
     "category": "Misc",
-    "link": "http://www.w3.org/TR/wai-aria/roles#landmark_roles ",
+    "link": "http://www.w3.org/TR/wai-aria/roles#landmark_roles",
     "summary": "Support for ARIA roles indicating regions of the page intended as navigational landmarks.",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -4150,6 +4511,7 @@
       "text": "Enabled by default",
       "value": 2
     },
+    "spec": "wai-aria",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4176,6 +4538,7 @@
       "text": "Enabled by default",
       "value": 2
     },
+    "spec": "html-aapi",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4202,6 +4565,7 @@
       "text": "In Development",
       "value": 2
     },
+    "spec": "wai-aria-1.1",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4214,10 +4578,9 @@
     "summary": "Determines names and descriptions of accessible objects to expose via UIA for assistive technologies to describe to users.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "High"
+      "ieUnprefixed": ""
     },
     "impl_status_chrome": "No active development",
     "shipped_opera_milestone": false,
@@ -4229,6 +4592,7 @@
       "text": "No Signals",
       "value": 2
     },
+    "spec": "accname-aam-1.1",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4255,6 +4619,7 @@
       "text": "Enabled by default",
       "value": 2
     },
+    "spec": "css-animations-1",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4264,13 +4629,14 @@
     "name": "Upgrade insecure resource requests",
     "category": "Network / Connectivity",
     "link": "https://w3c.github.io/webappsec/specs/upgrade/",
-    "summary": "A mechanism which allows authors to instruct a user agent to upgrade a priori insecure resource requests to secure transport before fetching them.",
+    "summary": "A mechanism which allows authors to instruct a user agent to upgrade a priori insecure resource requests to secure transport before Fetching them.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4289,6 +4655,7 @@
       "ieUnprefixed": "",
       "priority": "High"
     },
+    "spec": "css-logical-props",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4316,6 +4683,7 @@
       "text": "Shipped",
       "value": 1
     },
+    "spec": "",
     "msdn": "https://msdn.microsoft.com/en-us/library/dn255006.aspx",
     "wpd": "",
     "demo": "",
@@ -4343,6 +4711,7 @@
       "text": "Shipped",
       "value": 1
     },
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4370,6 +4739,7 @@
       "text": "Shipped",
       "value": 1
     },
+    "spec": "css-cascade-3",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4393,13 +4763,14 @@
       "value": 1
     },
     "shipped_opera_milestone": true,
+    "spec": "css-cascade-3",
     "msdn": "",
     "wpd": "",
     "demo": "",
     "id": null,
     "uservoiceid": null
   },
-      {
+  {
     "name": "showModalDialog",
     "category": "Misc",
     "link": "http://www.w3.org/html/wg/drafts/html/master/browsers.html#window",
@@ -4414,6 +4785,7 @@
       "text": "Deprecated",
       "value": 1
     },
+    "spec": "html5",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4442,6 +4814,7 @@
       "value": 1
     },
     "shipped_opera_milestone": false,
+    "spec": "filters-2",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4466,6 +4839,7 @@
       "value": 1
     },
     "shipped_opera_milestone": false,
+    "spec": "html51",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4483,6 +4857,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4500,6 +4875,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4528,6 +4904,7 @@
       "value": 3
     },
     "shipped_opera_milestone": true,
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4555,6 +4932,7 @@
       "value": 3
     },
     "shipped_opera_milestone": true,
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4582,6 +4960,7 @@
       "value": 3
     },
     "shipped_opera_milestone": true,
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4599,6 +4978,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4617,6 +4997,7 @@
       "ieUnprefixed": "",
       "priority": "Low"
     },
+    "spec": "css3-images",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4635,6 +5016,7 @@
       "ieUnprefixed": "",
       "priority": "Low"
     },
+    "spec": "css4-images",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4653,6 +5035,7 @@
       "ieUnprefixed": "",
       "priority": "Medium"
     },
+    "spec": "motion-1",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4681,6 +5064,7 @@
       "value": 1
     },
     "shipped_opera_milestone": true,
+    "spec": "css3-images",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4699,6 +5083,7 @@
       "ieUnprefixed": "",
       "priority": "Medium"
     },
+    "spec": "css-cascase-3",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4727,6 +5112,7 @@
       "value": 1
     },
     "shipped_opera_milestone": true,
+    "spec": "css-values",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4755,6 +5141,7 @@
       "value": 1
     },
     "shipped_opera_milestone": true,
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4783,6 +5170,7 @@
       "value": 1
     },
     "shipped_opera_milestone": true,
+    "spec": "css-text-3",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4811,6 +5199,7 @@
       "value": 3
     },
     "shipped_opera_milestone": false,
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4839,6 +5228,7 @@
       "value": 3
     },
     "shipped_opera_milestone": false,
+    "spec": "css-values",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4867,6 +5257,7 @@
       "value": 3
     },
     "shipped_opera_milestone": false,
+    "spec": "html51",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4883,7 +5274,7 @@
       "text": "Under Consideration",
       "iePrefixed": "",
       "ieUnprefixed": "",
-      "priority": "Medium"
+      "priority": "High"
     },
     "impl_status_chrome": "No Public Signals",
     "ff_views": {
@@ -4895,6 +5286,7 @@
       "value": 3
     },
     "shipped_opera_milestone": false,
+    "spec": "html51",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4911,7 +5303,7 @@
       "text": "Under Consideration",
       "iePrefixed": "",
       "ieUnprefixed": "",
-      "priority": "Medium"
+      "priority": "High"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
@@ -4923,6 +5315,7 @@
       "value": 1
     },
     "shipped_opera_milestone": true,
+    "spec": "html51",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4951,6 +5344,7 @@
       "value": 1
     },
     "shipped_opera_milestone": true,
+    "spec": "html51",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4979,6 +5373,7 @@
       "value": 3
     },
     "shipped_opera_milestone": false,
+    "spec": "screen-capture",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4996,6 +5391,7 @@
       "ieUnprefixed": "",
       "priority": "Medium"
     },
+    "spec": "html51",
     "msdn": "",
     "wpd": "",
     "demo": "http://www.impressivewebs.com/html5-form-attribute/",
@@ -5023,6 +5419,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
+    "spec": "ecmascript",
     "msdn": "https://msdn.microsoft.com/en-us/library/mt146826.aspx",
     "wpd": "",
     "demo": "",
@@ -5040,6 +5437,7 @@
       "ieUnprefixed": "",
       "priority": "Low"
     },
+    "spec": "findtext",
     "msdn": "",
     "wpd": "",
     "demo": "",
