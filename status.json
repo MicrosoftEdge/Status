@@ -678,7 +678,7 @@
     "summary": "Method for registering (creating) custom elements in script (often used in Web Components).",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
       "ieUnprefixed": "",
       "priority": "Medium"
