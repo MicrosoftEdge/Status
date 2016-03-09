@@ -4867,9 +4867,9 @@
   {
     "name": "Opus Audio Codec",
     "category": "Multimedia",
-    "link": "http://www.opus-codec.org/",
+    "link": "https://tools.ietf.org/html/rfc6716",
     "summary": "An open codec for audio playback.",
-    "standardStatus": "Defacto standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "In Development",
       "iePrefixed": "",
