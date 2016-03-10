@@ -216,7 +216,7 @@
     "name": "FIDO U2F",
     "category": "Security",
     "link": "https://fidoalliance.org/specifications/overview/",
-    "summary": "FIDO Universal 2nd Factor API allows online services to augment the security of their existing password infrastructure by adding a strong second factor to user login via a USB or NFC device. Also see FIDO 2.0 Web APIs, a newer specification that supports additional authentication methods, such as biometrics, and can replace passwords altogether as well as provide U2F functionality.",
+    "summary": "FIDO Universal Second Factor API allows online services to augment the security of their existing password infrastructure by adding a strong second factor to user login via a USB or NFC device. Also see FIDO 2.0 Web APIs, a newer specification that supports additional authentication methods, such as biometrics, and can replace passwords altogether as well as provide U2F functionality.",
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Not currently planned",
@@ -4867,9 +4867,9 @@
   {
     "name": "Opus Audio Codec",
     "category": "Multimedia",
-    "link": "http://www.opus-codec.org/",
+    "link": "https://tools.ietf.org/html/rfc6716",
     "summary": "An open codec for audio playback.",
-    "standardStatus": "Defacto standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "In Development",
       "iePrefixed": "",
