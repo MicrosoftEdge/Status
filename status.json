@@ -181,7 +181,7 @@
   {
     "name": "<datalist> Element",
     "category": "User input",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-list-attribute",
+    "link": "https://www.w3.org/html/wg/drafts/html/master/semantics.html#the-list-attribute",
     "summary": "Shows a list of pre-defined options to suggest to the user when entering an input element.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -242,7 +242,7 @@
   {
     "name": "<details>/<summary>",
     "category": "Misc",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-details-element",
+    "link": "https://w3c.github.io/html/semantics.html#the-details-element",
     "summary": "Interactive widget to show/hide content.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -300,7 +300,7 @@
   {
     "name": "<img srcset>",
     "category": "Graphics",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#attr-img-srcset",
+    "link": "https://w3c.github.io/html/semantics.html#the-img-element",
     "summary": "Enable a responsive images solution by providing the browser multiple resources in varying resolutions for a single image.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -350,7 +350,7 @@
   {
     "name": "<picture> Element",
     "category": "Graphics",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#the-picture-element",
+    "link": "https://w3c.github.io/html/semantics.html#the-picture-element",
     "summary": "Enable a responsive images solution by declaring multiple resources for an image using CSS media queries.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -368,7 +368,7 @@
   {
     "name": "<template> Element",
     "category": "Web Components",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-template-element",
+    "link": "https://w3c.github.io/html/semantics.html#the-template-element",
     "summary": "HTML template element to allow creating fragment of inert HTML as a prototype for stamping out DOM (often used in Web Components).",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -386,7 +386,7 @@
   {
     "name": "<meter> Element",
     "category": "Misc",
-    "link": "http://www.w3.org/TR/html5/forms.html#the-meter-element",
+    "link": "https://www.w3.org/TR/html5/forms.html#the-meter-element",
     "summary": "The HTML meter element allows representation of a scalar measurement of a known range, or fractional value, i.e. a gauge. Distinct from the progress element.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -414,7 +414,7 @@
   {
     "name": "selectionDirection attribute on text input elements",
     "category": "User input",
-    "link": "http://www.w3.org/TR/html5/forms.html#dom-textarea/input-selectiondirection",
+    "link": "https://www.w3.org/TR/html5/forms.html#dom-textarea/input-selectiondirection",
     "summary": "Returns the string corresponding to the current selection direction on text input elements: \"forward\", \"backward\", or \"none\".",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -442,7 +442,7 @@
   {
     "name": "oninvalid event handler",
     "category": "User input",
-    "link": "http://www.w3.org/TR/html5/webappapis.html#events",
+    "link": "https://www.w3.org/TR/html5/webappapis.html#events",
     "summary": "Provides specified alert text if an input element is invalid.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -470,7 +470,7 @@
   {
     "name": "Canvas 2D ellipse",
     "category": "Graphics",
-    "link": "http://www.w3.org/TR/2dcontext/#dom-context-2d-ellipse",
+    "link": "https://www.w3.org/TR/2dcontext/#dom-context-2d-ellipse",
     "summary": "Provides a method to draw arcs on a 2D canvas drawing surface.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -498,7 +498,7 @@
   {
     "name": "Canvas 2D path2D",
     "category": "Graphics",
-    "link": "http://www.w3.org/TR/2dcontext2/#path2d-objects",
+    "link": "https://www.w3.org/TR/2dcontext2/#path2d-objects",
     "summary": "Path2D objects can be used to declare paths that are then later used on CanvasRenderingContext2D objects.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -526,7 +526,7 @@
   {
     "name": "CSS Range Pseudo-classes",
     "category": "CSS",
-    "link": "http://www.w3.org/TR/html5/disabled-elements.html#selector-in-range",
+    "link": "https://www.w3.org/TR/html5/disabled-elements.html#selector-in-range",
     "summary": ":in-range and :out-of-range pseudo-classes to match elements that are candidates for constraint validation, have range limitations, and are/are not suffering from underflow or overflow.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -554,7 +554,7 @@
   {
     "name": "CSS Mutability Pseudo-classes",
     "category": "CSS",
-    "link": "http://www.w3.org/TR/html5/disabled-elements.html#selector-read-write",
+    "link": "https://www.w3.org/TR/html5/disabled-elements.html#selector-read-write",
     "summary": ":read-only and :read-write pseudo-classes to match elements which are considered user-alterable for the purposes of Selectors.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -582,7 +582,7 @@
   {
     "name": "a[download] attribute",
     "category": "File APIs",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#attr-hyperlink-download",
+    "link": "https://w3c.github.io/html/semantics.html#element-attrdef-links-download",
     "summary": "When used on an <a>, this attribute signifies that the resource it points to should be downloaded by the browser rather than navigating to it.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -600,7 +600,7 @@
   {
     "name": "Application Cache",
     "category": "Network / Connectivity",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/browsers.html#offline",
+    "link": "https://w3c.github.io/html/browsers.html#offline-web-applications",
     "summary": "Enables web pages to work without the user being connected to the internet",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -621,7 +621,7 @@
   {
     "name": "Audio tracks",
     "category": "Multimedia",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#audiotracklist-and-videotracklist-objects",
+    "link": "https://w3c.github.io/html/semantics.html#audiotracklist-and-videotracklist-objects",
     "summary": "Adds the ability to get information about multiple audio tracks, and switch between them using the AudioTrack.enabled attributes.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -638,7 +638,7 @@
   {
     "name": "Video tracks",
     "category": "Multimedia",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#audiotracklist-and-videotracklist-objects",
+    "link": "https://w3c.github.io/html/semantics.html#audiotracklist-and-videotracklist-objects",
     "summary": "Adds the ability to get information about multiple video tracks, and switch between them using the VideoTrack.selected attributes.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -656,7 +656,7 @@
   {
     "name": "Blob",
     "category": "File APIs",
-    "link": "http://dev.w3.org/2006/webapi/FileAPI/#dfn-Blob",
+    "link": "https://dev.w3.org/2006/webapi/FileAPI/#dfn-Blob",
     "summary": "Allows you to construct Blobs directly (var blob = new Blob([\"1234\"], {type: 'text/plain'})). Blob() constructor also can take ArrayBufferView directly rather than constructing a blob with ArrayBuffer.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -690,7 +690,7 @@
   {
     "name": "Canvas",
     "category": "Graphics",
-    "link": "http://www.w3.org/TR/2dcontext/",
+    "link": "https://www.w3.org/TR/2dcontext/",
     "summary": "Provides an API to draw 2D graphics",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -707,7 +707,7 @@
   {
     "name": "Canvas focus ring",
     "category": "Graphics",
-    "link": "http://www.w3.org/TR/2dcontext/",
+    "link": "https://www.w3.org/TR/2dcontext/",
     "summary": "Adds APIs to the canvas 2D context that make it possible to draw a focus ring around a canvas path and notify the operating system of the bounding box of the focused object for accessibility.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
@@ -725,7 +725,7 @@
   {
     "name": "Compositing and Blending in Canvas 2D",
     "category": "Graphics",
-    "link": "http://dev.w3.org/fxtf/compositing-1/#canvascompositingandblending",
+    "link": "https://dev.w3.org/fxtf/compositing-1/#canvascompositingandblending",
     "summary": "The canvas 2d context has the globalCompositeOperation attribute that is used to set the current compositing and blending operator.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -761,7 +761,7 @@
   {
     "name": "Content Security Policy Level 2",
     "category": "Security",
-    "link": "http://www.w3.org/TR/CSP2/",
+    "link": "https://www.w3.org/TR/CSP2/",
     "summary": "An evolution of the Content Security Policy specification, allowing developers to create a whitelist of sources of trusted content, and instructing the browser to only execute or render resources from those sources.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -780,7 +780,7 @@
   {
     "name": "CSS calc()",
     "category": "CSS",
-    "link": "http://www.w3.org/TR/css3-values",
+    "link": "https://www.w3.org/TR/css3-values",
     "summary": "Method of allowing calculated values for length units, i.e. width: calc(100% - 3em)",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -797,7 +797,7 @@
   {
     "name": "CSS Device Adaptation",
     "category": "CSS",
-    "link": "http://dev.w3.org/csswg/css-device-adapt/",
+    "link": "https://dev.w3.org/csswg/css-device-adapt/",
     "summary": "The @viewport rule, in combination with media queries, enabled web developers to optimize the layout of sites and apps for different devices with minimal effort. It generalizes the viewport meta tag to CSS, while being much simpler to understand and without the quirks that exists with the meta tag.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -831,7 +831,7 @@
   {
     "name": "CSS Variables",
     "category": "CSS",
-    "link": "http://www.w3.org/TR/css-variables/",
+    "link": "https://www.w3.org/TR/css-variables/",
     "summary": "Introduces cascading variables as a new primitive value type that is accepted by all CSS properties, and custom properties for defining them.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -850,7 +850,7 @@
   {
     "name": "CSS Will Change",
     "category": "CSS",
-    "link": "http://dev.w3.org/csswg/css-will-change/",
+    "link": "https://dev.w3.org/csswg/css-will-change/",
     "summary": "Adds a will-change CSS property, that can be used to signal that a particular property is likely to be changed in the future, or that an element's content is likely to change.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -869,7 +869,7 @@
   {
     "name": "CSSOM View smooth scroll API",
     "category": "CSS",
-    "link": "http://dev.w3.org/csswg/cssom-view",
+    "link": "https://dev.w3.org/csswg/cssom-view",
     "summary": "Adds an optional argument to existing scroll APIs that specifies whether scrolling should be smooth. Also adds a CSS property for this.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -887,7 +887,7 @@
   {
     "name": "Custom Elements",
     "category": "Web Components",
-    "link": "http://www.w3.org/TR/custom-elements/",
+    "link": "https://www.w3.org/TR/custom-elements/",
     "summary": "Method for registering (creating) custom elements in script (often used in Web Components).",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -906,7 +906,7 @@
   {
     "name": "Device Motion",
     "category": "Device",
-    "link": "http://w3c.github.io/deviceorientation/spec-source-orientation.html#devicemotion",
+    "link": "https://w3c.github.io/deviceorientation/spec-source-orientation.html#devicemotion",
     "summary": "Provides access to device's physical motion.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -923,7 +923,7 @@
   {
     "name": "Device Orientation",
     "category": "Device",
-    "link": "http://w3c.github.io/deviceorientation/spec-source-orientation.html#deviceorientation",
+    "link": "https://w3c.github.io/deviceorientation/spec-source-orientation.html#deviceorientation",
     "summary": "Provides access to device's physical orientation",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -940,7 +940,7 @@
   {
     "name": "devicePixelRatio on zoom",
     "category": "Device",
-    "link": "http://dev.w3.org/csswg/cssom-view/#dom-window-devicepixelratio",
+    "link": "https://dev.w3.org/csswg/cssom-view/#dom-window-devicepixelratio",
     "summary": "Update window.devicePixelRatio on full page zoom so that it accurately portrays the ratio between css and device pixels.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -957,7 +957,7 @@
   {
     "name": "DOM3 Keyboard Events",
     "category": "User input",
-    "link": "http://www.w3.org/TR/DOM-Level-3-Events/",
+    "link": "https://www.w3.org/TR/DOM-Level-3-Events/",
     "summary": "KeyboardEvent: keydown, keyup, keypress",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -1026,7 +1026,7 @@
   {
     "name": "Encrypted Media Extensions",
     "category": "Multimedia",
-    "link": "http://w3c.github.io/encrypted-media/",
+    "link": "https://w3c.github.io/encrypted-media/",
     "summary": "Defines a common API that may be used to discover, select and interact with such systems as well as with simpler content encryption systems.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -1043,7 +1043,7 @@
   {
     "name": "Exclusions",
     "category": "CSS",
-    "link": "http://dev.w3.org/csswg/css-exclusions/",
+    "link": "https://dev.w3.org/csswg/css-exclusions/",
     "summary": "Define areas inline content should avoid, and how inline content should wrap around them.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -1077,7 +1077,7 @@
   {
     "name": "Flexbox",
     "category": "CSS",
-    "link": "http://dev.w3.org/csswg/css-flexbox/",
+    "link": "https://dev.w3.org/csswg/css-flexbox/",
     "summary": "A CSS box model optimized for user interface design. The children of a flex container can be laid out in any direction and can \"flex\" their sizes to fill unused space and  avoid overflowing the parent.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -1129,7 +1129,7 @@
   {
     "name": "Generated Content for Paged Media",
     "category": "CSS",
-    "link": "http://dev.w3.org/csswg/css-gcpm/",
+    "link": "https://dev.w3.org/csswg/css3-gcpm/",
     "summary": "CSS properties helpful for printed publication.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -1147,7 +1147,7 @@
   {
     "name": "Geolocation",
     "category": "Device",
-    "link": "http://www.w3.org/TR/geolocation-API/",
+    "link": "https://www.w3.org/TR/geolocation-API/",
     "summary": "Provides access to device's physical location",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -1164,7 +1164,7 @@
   {
     "name": "Media Capture and Streams",
     "category": "Multimedia",
-    "link": "http://dev.w3.org/2011/webrtc/editor/getusermedia.html",
+    "link": "https://w3c.github.io/mediacapture-main/getusermedia.html",
     "summary": "Provides access to the user's local audio and video input/output devices (getUserMedia API).",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -1182,7 +1182,7 @@
   {
     "name": "Gradients",
     "category": "CSS",
-    "link": "http://dev.w3.org/csswg/css3-images/",
+    "link": "https://dev.w3.org/csswg/css3-images/",
     "summary": "Gradients provide a method to, over a customizable amount of space, transition from one color to another.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -1199,7 +1199,7 @@
   {
     "name": "Grid",
     "category": "CSS",
-    "link": "http://dev.w3.org/csswg/css3-grid-layout/",
+    "link": "https://dev.w3.org/csswg/css3-grid-layout/",
     "summary": "A two-dimensional grid-based layout system, optimized for user interface design.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -1216,7 +1216,7 @@
   {
     "name": "HTML Form HTTP Extensions",
     "category": "Misc",
-    "link": "http://www.w3.org/TR/form-http-extensions/",
+    "link": "https://www.w3.org/TR/form-http-extensions/",
     "summary": "An addendum to HTML5 forms extending the abilities of configuring HTTP requests through HTML markup.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -1297,7 +1297,7 @@
   {
     "name": "SPDY/3",
     "category": "Network / Connectivity",
-    "link": "http://www.chromium.org/spdy/spdy-protocol",
+    "link": "https://www.chromium.org/spdy/spdy-protocol",
     "summary": "A faster protocol for transporting web content.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -1341,7 +1341,7 @@
   {
     "name": "iframe[sandbox] attribute",
     "category": "Misc",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#attr-iframe-sandbox",
+    "link": "https://www.w3.org/TR/html5/embedded-content-0.html#attr-iframe-sandbox",
     "summary": "Method of running external site pages with reduced privileges (i.e. no JavaScript) in iframes (<iframe sandbox=\"allow-same-origin allow-forms\" src=\"...\"></iframe>)",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -1358,7 +1358,7 @@
   {
     "name": "iframe[seamless] attribute",
     "category": "Misc",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#attr-iframe-seamless",
+    "link": "https://w3c.github.io/html/semantics.html#seamless-iframe",
     "summary": "The seamless attribute is used to embed an <iframe> in the calling page without scrollbars or borders (e.g. seamlessly) and with the parent document's styles applying to the embedded seamless iframe.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -1377,7 +1377,7 @@
   {
     "name": "iframe[srcdoc] attribute",
     "category": "Misc",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#attr-iframe-srcdoc",
+    "link": "https://www.w3.org/TR/html5/embedded-content-0.html#attr-iframe-srcdoc",
     "summary": "Gives the content of an iframe as a src context to embed (e.g. <iframe seamless srcdoc=\"<b>Hello World</b>\"></iframe>).",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -1413,7 +1413,7 @@
   {
     "name": "IndexedDB",
     "category": "Offline / Storage",
-    "link": "http://www.w3.org/TR/IndexedDB/",
+    "link": "https://www.w3.org/TR/IndexedDB/",
     "summary": "An asynchronous client-side storage API offering fast access to large amounts of structured data",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -1430,7 +1430,7 @@
   {
     "name": "IndexedDB Arrays and MultiEntry Support",
     "category": "Offline / Storage",
-    "link": "http://www.w3.org/TR/IndexedDB/#dfn-multientry",
+    "link": "https://www.w3.org/TR/IndexedDB/#dfn-multientry",
     "summary": "Extends the existing IndexedDB implementation with support for compound keys, indexed array values, and multiEntry.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -1502,7 +1502,7 @@
   {
     "name": "Masks",
     "category": "CSS",
-    "link": "http://dev.w3.org/fxtf/css-masking-1/",
+    "link": "https://dev.w3.org/fxtf/css-masking-1/",
     "summary": "Allows hiding of portions of a visible elements.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -1521,7 +1521,7 @@
   {
     "name": "matchMedia",
     "category": "DOM",
-    "link": "http://dev.w3.org/csswg/cssom-view/#widl-Window-matchMedia-MediaQueryList-DOMString-query",
+    "link": "https://dev.w3.org/csswg/cssom-view/#widl-Window-matchMedia-MediaQueryList-DOMString-query",
     "summary": "API for testing if a given media query will apply.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -1538,7 +1538,7 @@
   {
     "name": "MathML",
     "category": "Misc",
-    "link": "http://www.w3.org/TR/MathML3/",
+    "link": "https://www.w3.org/TR/MathML3/",
     "summary": "An application of XML for describing mathematical notations and capturing both its structure and content.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -1556,7 +1556,7 @@
   {
     "name": "Media Queries: resolution feature",
     "category": "CSS",
-    "link": "http://www.w3.org/TR/css3-mediaqueries/#resolution",
+    "link": "https://www.w3.org/TR/css3-mediaqueries/#resolution",
     "summary": "Allows to query the device pixel count per CSS unit",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -1590,7 +1590,7 @@
   {
     "name": "MediaRecorder",
     "category": "Multimedia",
-    "link": "http://www.w3.org/TR/mediastream-recording/",
+    "link": "https://www.w3.org/TR/mediastream-recording/",
     "summary": "Encode audio and video streams in the browser.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -1608,7 +1608,7 @@
   {
     "name": "Microdata",
     "category": "Misc",
-    "link": "http://www.w3.org/TR/microdata/",
+    "link": "https://www.w3.org/TR/microdata/",
     "summary": "Microdata is used to nest semantics within existing content on web pages.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -1626,7 +1626,7 @@
   {
     "name": "CSS Transforms - preserve-3d",
     "category": "CSS",
-    "link": "http://www.w3.org/TR/css3-transforms/#transform-style-property",
+    "link": "https://www.w3.org/TR/css3-transforms/#transform-style-property",
     "summary": "Augments existing CSS 3d transforms by facilitating the construction of complex 3d scenes.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -1692,7 +1692,7 @@
   {
     "name": "Cross-Domain Font Loading",
     "category": "CSS",
-    "link": "http://www.w3.org/TR/WOFF/",
+    "link": "https://www.w3.org/TR/WOFF/",
     "summary": "Increases interoperability with the web by relaxing domain and licensing metadata restrictions for EOT, WOFF, and TrueType fonts. Development work for IE is currently for Windows Phone only.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -1715,7 +1715,7 @@
   {
     "name": "Multi-column (full support)",
     "category": "CSS",
-    "link": "http://dev.w3.org/csswg/css-multicol/",
+    "link": "https://dev.w3.org/csswg/css-multicol/",
     "summary": "Allows content to be flowed into multiple columns with a gap and a rule between them using CSS.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -1783,7 +1783,7 @@
   {
     "name": "Pointer Events",
     "category": "User input",
-    "link": "http://www.w3.org/TR/pointerevents/",
+    "link": "https://www.w3.org/TR/pointerevents/",
     "summary": "Unified pointer input API (e.g. mouse, pen, touch input) which addresses several existing problems (especially on touchscreen laptops) and provides future extensibility.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -1818,7 +1818,7 @@
   {
     "name": "position: sticky",
     "category": "CSS",
-    "link": "http://dev.w3.org/csswg/css-position/#sticky-positioning",
+    "link": "https://dev.w3.org/csswg/css-position/#sticky-positioning",
     "summary": "position: sticky is a new way to position elements and is conceptually similar to position: fixed. The difference is that a stickily positioned element behaves like position: relative within its parent, until a given offset threshold is met.",
     "standardStatus": "Editor's Draft",
     "ieStatus": {
@@ -1837,7 +1837,7 @@
   {
     "name": "postMessage",
     "category": "Realtime / Communication",
-    "link": "http://www.w3.org/TR/webmessaging/",
+    "link": "https://www.w3.org/TR/webmessaging/",
     "summary": "Safely enables cross-origin communication.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -1854,7 +1854,7 @@
   {
     "name": "Quota Management API",
     "category": "Multimedia",
-    "link": "http://www.w3.org/TR/quota-api/",
+    "link": "https://www.w3.org/TR/quota-api/",
     "summary": "This API can be used to check how much quota an app/origin is using.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -1872,7 +1872,7 @@
   {
     "name": "Regions",
     "category": "CSS",
-    "link": "http://dev.w3.org/csswg/css3-regions/",
+    "link": "https://dev.w3.org/csswg/css3-regions/",
     "summary": "Magazine-like content flow into specified regions.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -1907,7 +1907,7 @@
   {
     "name": "Resource Timing API",
     "category": "Performance",
-    "link": "http://www.w3.org/TR/resource-timing/",
+    "link": "https://www.w3.org/TR/resource-timing/",
     "summary": "Allows web applications to access timing information related to HTML elements.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -2030,7 +2030,7 @@
   {
     "name": "Track element",
     "category": "Multimedia",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/embedded-content.html#the-track-element",
+    "link": "https://www.w3.org/TR/html5/embedded-content-0.html#the-track-element",
     "summary": "Add subtitles, captions, screen reader descriptions, chapters and other types of timed metadata to video and audio. ",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -2047,7 +2047,7 @@
   {
     "name": "Transforms",
     "category": "CSS",
-    "link": "http://dev.w3.org/csswg/css3-transforms/",
+    "link": "https://dev.w3.org/csswg/css3-transforms/",
     "summary": "Enables changing the position of content in 3D space without disrupting the normal flow. See also preserve-3d.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -2081,7 +2081,7 @@
   {
     "name": "UIEvents - Keyboard Query APIs",
     "category": "User input",
-    "link": "http://www.w3.org/TR/uievents/",
+    "link": "https://www.w3.org/TR/uievents/",
     "summary": "Identify the physical key being pressed; Query key from layout.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
@@ -2117,7 +2117,7 @@
   {
     "name": "User Timing API",
     "category": "Performance",
-    "link": "http://www.w3.org/TR/user-timing/",
+    "link": "https://www.w3.org/TR/user-timing/",
     "summary": "Helps web developers measure the performance of their applications by giving them access to high precision timestamps.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -2134,7 +2134,7 @@
   {
     "name": "Vibration API",
     "category": "Device",
-    "link": "http://www.w3.org/TR/vibration/",
+    "link": "https://www.w3.org/TR/vibration/",
     "summary": "This specification defines an API that provides access to the vibration mechanism of the hosting device. Vibration is a form of tactile feedback. ",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -2169,7 +2169,7 @@
   {
     "name": "Web Animations JavaScript API",
     "category": "Graphics",
-    "link": "http://www.w3.org/TR/web-animations/",
+    "link": "https://www.w3.org/TR/web-animations/",
     "summary": "A unified model for supporting animation and synchronization on the Web platform.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -2205,7 +2205,7 @@
   {
     "name": "Web MIDI API",
     "category": "Multimedia",
-    "link": "http://webaudio.github.io/web-midi-api/",
+    "link": "https://webaudio.github.io/web-midi-api/",
     "summary": "Defines an API supporting the MIDI protocol, enabling web applications to enumerate and select MIDI input and output devices on the client system and send and receive MIDI messages.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -2223,7 +2223,7 @@
   {
     "name": "Web Notifications",
     "category": "Misc",
-    "link": "http://www.w3.org/TR/notifications/",
+    "link": "https://www.w3.org/TR/notifications/",
     "summary": "An API for displaying simple notifications to the user.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -2278,7 +2278,7 @@
   {
     "name": "Web SQL Database",
     "category": "Offline / Storage",
-    "link": "http://www.w3.org/TR/webdatabase/",
+    "link": "https://www.w3.org/TR/webdatabase/",
     "summary": "API exposing an SQLite database",
     "standardStatus": "No public standards discussion",
     "ieStatus": {
@@ -2296,7 +2296,7 @@
   {
     "name": "Web Storage",
     "category": "Offline / Storage",
-    "link": "http://www.w3.org/TR/webstorage/",
+    "link": "https://www.w3.org/TR/webstorage/",
     "summary": "Refers to both localStorage and sessionStorage",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -2367,7 +2367,7 @@
   {
     "name": "WebRTC – WebRTC v1.0 API",
     "category": "Realtime / Communication",
-    "link": "http://dev.w3.org/2011/webrtc/editor/webrtc.html",
+    "link": "https://w3c.github.io/webrtc-pc/",
     "summary": "Real-time communication in the browser. See also \"Web RTC - Object RTC API\".",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -2385,7 +2385,7 @@
   {
     "name": "WebRTC – Object RTC API",
     "category": "Realtime / Communication",
-    "link": "http://www.w3.org/community/ortc/",
+    "link": "https://www.w3.org/community/ortc/",
     "summary": "Enables mobile endpoints to talk to servers and web browsers with Real-Time Communications (ORTC) capabilities via native and simple JavaScript APIs.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -2469,7 +2469,7 @@
   {
     "name": "Box Alignment",
     "category": "CSS",
-    "link": "http://dev.w3.org/csswg/css3-align/",
+    "link": "https://dev.w3.org/csswg/css3-align/",
     "summary": "CSS properties for aligning boxes within their container. Allows for true vertical centering among other features.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -2488,7 +2488,7 @@
   {
     "name": "CSS filter() image function",
     "category": "CSS",
-    "link": "http://www.w3.org/TR/filter-effects/#FilterCSSImageValue",
+    "link": "https://www.w3.org/TR/filter-effects/#FilterCSSImageValue",
     "summary": "The function allows filtering an CSS input image with a set of filter functions. The used filter functions are the same as for the CSS filter property. The filter() function can be animated as well.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -2561,7 +2561,7 @@
   {
     "name": "Ambient Light Events",
     "category": "Device",
-    "link": "http://www.w3.org/TR/ambient-light/",
+    "link": "https://www.w3.org/TR/ambient-light/",
     "summary": "Ambient Light Event API which is a handy way to make a web page or web app aware of any change in light intensity.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -2616,7 +2616,7 @@
   {
     "name": "Subresource Integrity",
     "category": "Security",
-    "link": "http://w3c.github.io/webappsec/specs/subresourceintegrity/",
+    "link": "https://w3c.github.io/webappsec/specs/subresourceintegrity/",
     "summary": "Subresource Integrity defines a mechanism by which user agents may verify that a fetched resource has been delivered without unexpected manipulation. In a nutshell, metadata inlined into HTML elements allows the browser to determine whether the resource that was downloaded matches the resource the page's author expected to download.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -2634,7 +2634,7 @@
   {
     "name": "CSS Intrinsic Sizing",
     "category": "CSS",
-    "link": "http://dev.w3.org/csswg/css3-sizing/",
+    "link": "https://dev.w3.org/csswg/css3-sizing/",
     "summary": "Extends the CSS sizing properties with keywords that represent content-based \"intrinsic\" sizes and context-based \"extrinsic\" sizes, allowing CSS to more easily describe boxes that fit their content or fit into a particular layout context.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -2653,7 +2653,7 @@
   {
     "name": "CSS font-stretch",
     "category": "CSS",
-    "link": "http://dev.w3.org/csswg/css-fonts/#propdef-font-stretch",
+    "link": "https://dev.w3.org/csswg/css-fonts/#propdef-font-stretch",
     "summary": "Add support for the CSS font-stretch property.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -2670,7 +2670,7 @@
   {
     "name": "Canvas2D text decoration",
     "category": "Graphics",
-    "link": "http://www.w3.org/TR/2dcontext/#textmetrics",
+    "link": "https://www.w3.org/TR/2dcontext/#textmetrics",
     "summary": "Add a textDecoration attribute to canvas 2D contexts, behavior similar to existing \"font\" attribute: It's a DOMString, parsed the same way as corresponding CSS property (text-decoration).",
     "standardStatus": "Editor's draft",
     "ieStatus": {
@@ -2724,7 +2724,7 @@
   {
     "name": "Shapes",
     "category": "CSS",
-    "link": "http://www.w3.org/TR/css-shapes/",
+    "link": "https://www.w3.org/TR/css-shapes/",
     "summary": "Define arbitrary shapes inside and around which inline content can flow.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -2778,7 +2778,7 @@
   {
     "name": "inputmode",
     "category": "User input",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#attr-fe-inputmode",
+    "link": "https://w3c.github.io/html/semantics.html#input-modalities-the-inputmode-attribute",
     "summary": "The inputmode content attribute is an enumerated attribute that specifies what kind of input mechanism would be most helpful for users entering content into the form control.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
@@ -2815,7 +2815,7 @@
   {
     "name": "Shadow DOM",
     "category": "Web Components",
-    "link": "http://w3c.github.io/webcomponents/spec/shadow/",
+    "link": "https://w3c.github.io/webcomponents/spec/shadow/",
     "summary": "Enables DOM tree encapsulation. Without it, widgets may inadvertently break pages by using conflicting CSS selectors, class or id names, or JavaScript variables (often used in Web Components).",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -2834,7 +2834,7 @@
   {
     "name": "Web Audio API",
     "category": "Multimedia",
-    "link": "http://webaudio.github.io/web-audio-api/",
+    "link": "https://webaudio.github.io/web-audio-api/",
     "summary": "A high-level JavaScript API for processing and synthesizing audio in web applications",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -2852,7 +2852,7 @@
   {
     "name": "object-fit and object-position",
     "category": "CSS",
-    "link": "http://dev.w3.org/csswg/css-images-3/#the-object-fit",
+    "link": "https://dev.w3.org/csswg/css-images-3/#the-object-fit",
     "summary": "CSS properties that control the position and size of replaced content within the content box",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -2871,7 +2871,7 @@
   {
     "name": "Conditional Rules",
     "category": "CSS",
-    "link": "http://dev.w3.org/csswg/css-conditional/",
+    "link": "https://dev.w3.org/csswg/css-conditional/",
     "summary": "Support for the @supports at-rule and the \"window.CSS.supports()\" API",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -2908,7 +2908,7 @@
   {
     "name": "Custom filters (shaders)",
     "category": "CSS",
-    "link": "http://www.w3.org/Graphics/fx/wiki/CSS_Shaders_Security",
+    "link": "https://www.w3.org/Graphics/fx/wiki/CSS_Shaders_Security",
     "summary": "Filter effects are a way of processing an element’s rendering before it is displayed in the document.",
     "standardStatus": "Public discussion",
     "ieStatus": {
@@ -2943,7 +2943,7 @@
   {
     "name": "Scoped Styles",
     "category": "CSS",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#attr-style-scoped",
+    "link": "https://w3c.github.io/html/semantics.html#element-attrdef-style-scoped",
     "summary": "Boolean attribute for the <style> element (<style scoped>). When present, its styles only apply to the parent element.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -2979,7 +2979,7 @@
   {
     "name": "Touch Events",
     "category": "User input",
-    "link": "http://www.w3.org/TR/touch-events/",
+    "link": "https://www.w3.org/TR/touch-events/",
     "summary": "Touchscreen input API, originally introduced by Apple on iOS. Support is currently limited to only devices with a touchscreen (can be overridden in about:flags). See Pointer Events for touch, pen, and mouse input across all device types.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -2997,7 +2997,7 @@
   {
     "name": "Runtime error reporting: ErrorEvent.",
     "category": "DOM",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/webappapis.html#runtime-script-errors",
+    "link": "https://www.w3.org/html/wg/drafts/html/master/webappapis.html#runtime-script-errors",
     "summary": "Unhandled exceptions trigger the 'window.onerror' callback (or 'self.onerror' inside Workers) for centralized handling.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -3016,7 +3016,7 @@
   {
     "name": "FileWriter",
     "category": "File APIs",
-    "link": "http://dev.w3.org/2009/dap/file-system/file-writer.html",
+    "link": "https://dev.w3.org/2009/dap/file-system/file-writer.html",
     "summary": "Enables writing to files from web applications.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -3051,7 +3051,7 @@
   {
     "name": "Server-Sent Events (EventSource)",
     "category": "DOM",
-    "link": "http://www.w3.org/TR/eventsource/",
+    "link": "https://www.w3.org/TR/eventsource/",
     "summary": "Enables push notifications from the server received as DOM events.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -3069,7 +3069,7 @@
   {
     "name": "Message Channels",
     "category": "Realtime / Communication",
-    "link": "http://www.w3.org/TR/webmessaging/",
+    "link": "https://www.w3.org/TR/webmessaging/",
     "summary": "A messaging system that allows documents to communicate with each other regardless of their source domain, in a way designed to avoid cross-site scripting attacks.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -3113,7 +3113,7 @@
   {
     "name": "Beacon",
     "category": "Performance",
-    "link": "http://www.w3.org/TR/beacon/",
+    "link": "https://www.w3.org/TR/beacon/",
     "summary": "Enables web applications to asynchronously transfer data from the user agent to a web server, with the user agent taking the responsibility to eventually send the data.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -3185,7 +3185,7 @@
   {
     "name": "CSS Scrolling Snap Points",
     "category": "CSS",
-    "link": "http://dev.w3.org/csswg/css-snappoints/",
+    "link": "https://dev.w3.org/csswg/css-snappoints/",
     "summary": "Enables rich, customizable, and performant scrolling experiences like pagination of carousels by using snap points that enforce the scroll offsets that a scroll container may end at after a scrolling operation has completed. ",
     "standardStatus": "Editor's draft",
     "ieStatus": {
@@ -3212,7 +3212,7 @@
   {
     "name": "DOM Level 3 XPath",
     "category": "DOM",
-    "link": "http://www.w3.org/TR/DOM-Level-3-XPath/",
+    "link": "https://www.w3.org/TR/DOM-Level-3-XPath/",
     "summary": "Provides simple functionality to access a DOM tree using the XPath syntax.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -3284,7 +3284,7 @@
   {
     "name": "WebDriver",
     "category": "Misc",
-    "link": "http://www.w3.org/TR/webdriver/",
+    "link": "https://www.w3.org/TR/webdriver/",
     "summary": "A platform and language-neutral interface and associated wire protocol that allows programs or scripts to introspect into, and control the behaviour of, a web browser.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -3293,7 +3293,7 @@
       "ieUnprefixed": "11"
     },
     "spec": "webdriver",
-    "msdn": "http://www.microsoft.com/en-us/download/details.aspx?id=48212",
+    "msdn": "https://www.microsoft.com/en-us/download/details.aspx?id=48212",
     "wpd": "",
     "demo": "",
     "details": "http://dev.modern.ie/platform/status/webdriver/details",
@@ -3312,7 +3312,7 @@
   {
     "name": "SVG foreignobject element",
     "category": "Graphics",
-    "link": "http://www.w3.org/TR/SVG/extend.html#EmbeddingForeignObjects",
+    "link": "https://www.w3.org/TR/SVG/extend.html#EmbeddingForeignObjects",
     "summary": "Allows for inclusion of a foreign namespace (such as HTML) which has its graphical content drawn by a different user agent",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -3367,7 +3367,7 @@
   {
     "name": "Selection API",
     "category": "User input",
-    "link": "http://rniwa.github.io/selection-api",
+    "link": "https://rniwa.github.io/selection-api",
     "summary": "Based on APIs from HTML5 and DOM Range, this specification includes additional methods for programmatically inspecting and modifying the selection.",
     "standardStatus": "Public Proposal",
     "ieStatus": {
@@ -3468,7 +3468,7 @@
   {
     "name": "Exponentiation Operator (ES2016)",
     "category": "JavaScript",
-    "link": "http://rwaldron.github.io/exponentiation-operator",
+    "link": "https://rwaldron.github.io/exponentiation-operator",
     "summary": "",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -3517,7 +3517,7 @@
   {
     "name": "SVG External Content",
     "category": "Graphics",
-    "link": "http://www.w3.org/TR/2010/REC-xlink11-20100506/",
+    "link": "https://www.w3.org/TR/2010/REC-xlink11-20100506/",
     "summary": "Allows referencing external content in SVG. A common use case for this would be <use xlink:href=\"lib.svg#template\" fill=\"#000000\"></use>",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -3560,7 +3560,7 @@
     "name": "dppx Unit for the resolution Media Query",
     "category": "CSS",
     "summary": "One dppx unit represents the number of 'dots' in a CSS px.",
-    "link": "http://www.w3.org/TR/css3-values/#resolution",
+    "link": "https://www.w3.org/TR/css3-values/#resolution",
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
@@ -3584,7 +3584,7 @@
     "name": "WAV Audio Support",
     "category": "Multimedia",
     "summary": "Enables PCM WAV audio support in HTML5 Audio.",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-audio-element",
+    "link": "https://w3c.github.io/html/semantics.html#the-audio-element",
     "standardStatus": "De-facto Standard",
     "ieStatus": {
       "text": "Shipped",
@@ -4043,7 +4043,7 @@
   {
     "name": "<dialog> element for modals",
     "category": "User input",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-dialog-element",
+    "link": "https://www.w3.org/html/wg/drafts/html/master/semantics.html#the-dialog-element",
     "summary": "An HTML element for modal and non-modal dialog boxes",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -4089,7 +4089,7 @@
   {
     "name": "Date-related input types",
     "category": "User input",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#date-state-%28type=date%29",
+    "link": "https://w3c.github.io/html/semantics.html#element-statedef-input-date-and-time",
     "summary": "Input controls for picking dates via <input type='date'>,<input type='month'>, and <input type='week'>.",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -4112,7 +4112,7 @@
   {
     "name": "Time-related input types",
     "category": "User input",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#time-state-%28type=time%29",
+    "link": "https://w3c.github.io/html/semantics.html#element-statedef-input-time",
     "summary": "Input controls for picking times via <input type='time'>, and <input type='datetime-local'>.",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -4135,7 +4135,7 @@
   {
     "name": "<main> element",
     "category": "DOM",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-main-element",
+    "link": "https://w3c.github.io/html/semantics.html#the-main-element",
     "summary": "Semantic HTML5 element that represents the main content of the document or application.",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -4163,7 +4163,7 @@
   {
     "name": "<keygen> element",
     "category": "Security",
-    "link": "http://www.w3.org/TR/html5/forms.html#the-keygen-element",
+    "link": "https://www.w3.org/TR/html5/forms.html#the-keygen-element",
     "summary": "A form element for a key pair generator control.  Support here indicates UI for picking keys and some transport to submit them. However, significant interoperability issues exist with the DOM interfaces and protocols for this feature.",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -4190,7 +4190,7 @@
   {
     "name": "Media Fragments",
     "category": "Multimedia",
-    "link": "http://www.w3.org/TR/media-frags/",
+    "link": "https://www.w3.org/TR/media-frags/",
     "summary": "Standardizes a URL fragment syntax for specifying a fragment of a media resource.",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -4217,7 +4217,7 @@
   {
     "name": "SVG+SMIL Animation",
     "category": "Graphics",
-    "link": "http://www.w3.org/TR/SVG/animate.html",
+    "link": "https://www.w3.org/TR/SVG/animate.html",
     "summary": "XML-based syntax for specifying animations of SVG.",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -4329,7 +4329,7 @@
   {
     "name": "Platform for Privacy Preferences 1.0 (P3P 1.0)",
     "category": "Misc",
-    "link": "http://www.w3.org/TR/P3P/",
+    "link": "https://www.w3.org/TR/P3P/",
     "summary": "The Platform for Privacy Preferences Project (P3P) enables web sites to express their privacy practices in a standard format allowing user agents to automate decision-making based on these practices when appropriate.",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -4356,7 +4356,7 @@
   {
     "name": "WOFF File Format 2.0",
     "category": "CSS",
-    "link": "http://www.w3.org/TR/WOFF2/",
+    "link": "https://www.w3.org/TR/WOFF2/",
     "summary": "Based on experience with WOFF 1.0, which is widely deployed, this specification was developed to provide improved compression and thus lower use of network bandwidth, while still allowing fast decompression even on mobile devices. This is achieved by combining a content-aware preprocessing step and improved entropy coding, compared to the Flate compression used in WOFF 1.0.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -4466,7 +4466,7 @@
   {
     "name": "CSS Gradient Midpoints",
     "category": "Graphics",
-    "link": "http://dev.w3.org/csswg/css-images/#color-stop-syntax",
+    "link": "https://dev.w3.org/csswg/css-images/#color-stop-syntax",
     "summary": "Allows specifying an optional location between the color stops of a CSS gradient.",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -4493,7 +4493,7 @@
   {
     "name": "ARIA Landmark Roles",
     "category": "Misc",
-    "link": "http://www.w3.org/TR/wai-aria/roles#landmark_roles",
+    "link": "https://www.w3.org/TR/wai-aria/roles#landmark_roles ",
     "summary": "Support for ARIA roles indicating regions of the page intended as navigational landmarks.",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -4520,7 +4520,7 @@
   {
     "name": "HTML Sections in Accessibility API",
     "category": "Misc",
-    "link": "http://www.w3.org/TR/html-aapi/",
+    "link": "https://www.w3.org/TR/html-aapi/",
     "summary": "Exposes HTML sectioning elements (such as section, article, main, etc.) in the Accessibility API.",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -4547,7 +4547,7 @@
   {
     "name": "Accessible Rich Internet Applications (WAI-ARIA) 1.1",
     "category": "Misc",
-    "link": "http://www.w3.org/TR/wai-aria-1.1/",
+    "link": "https://www.w3.org/TR/wai-aria-1.1/",
     "summary": "Full support for new WAI-ARIA 1.1 roles, states, and properties which define new accessible user interface elements since WAI-ARIA 1.0. Microsoft Edge currently supports the following ARIA roles: none, article, definition, log, math, note, scrollbar,  application, banner, complementary, contentinfo, form, main, navigation, search; and ARIA properties: aria-atomic, aria-autocomplete, aria-dropeffect, aria-grabbed, aria-label, aria-multiline, aria-orientation, aria-sort, aria-valuetext. Note that WAI-ARIA support is complex and not fully implemented in any browser.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -4574,7 +4574,7 @@
   {
     "name": "Accessible Name and Description: Computation and API Mappings 1.1",
     "category": "Misc",
-    "link": "http://www.w3.org/TR/accname-aam-1.1/",
+    "link": "https://www.w3.org/TR/accname-aam-1.1/",
     "summary": "Determines names and descriptions of accessible objects to expose via UIA for assistive technologies to describe to users.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -4601,7 +4601,7 @@
   {
     "name": "CSS Transitions & Animations for SVG elements",
     "category": "Graphics",
-    "link": "http://dev.w3.org/csswg/css-animations-1/",
+    "link": "https://dev.w3.org/csswg/css-animations-1/",
     "summary": "Allows CSS Transitions and Animations to apply to SVG elements.",
     "standardStatus": "Defacto Standard",
     "ieStatus": {
@@ -4646,7 +4646,7 @@
   {
     "name": "CSS Logical Properties Level 1",
     "category": "CSS",
-    "link": "http://dev.w3.org/csswg/css-logical-props/",
+    "link": "https://dev.w3.org/csswg/css-logical-props/",
     "summary": "Introduces logical properties and values that provide the author with the ability to control layout through logical, rather than physical, direction and dimension mappings.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -4721,7 +4721,7 @@
   {
     "name": "CSS initial value",
     "category": "CSS",
-    "link": "http://dev.w3.org/csswg/css-cascade/#initial",
+    "link": "https://dev.w3.org/csswg/css-cascade/#initial",
     "summary": "If the cascaded value of a property is the initial keyword, the property’s initial value becomes its specified value.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -4749,7 +4749,7 @@
   {
     "name": "CSS unset value",
     "category": "CSS",
-    "link": "http://dev.w3.org/csswg/css-cascade/#unset",
+    "link": "https://dev.w3.org/csswg/css-cascade/#unset",
     "summary": "If the cascaded value of a property is the ‘‘unset’#’ keyword, then if it is an inherited property, this is treated as ‘inherit’, and if it is not, this is treated as ‘initial’. This keyword effectively erases all declared values occurring earlier in the cascade, correctly inheriting or not as appropriate for the property (or all longhands of a shorthand).",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -4773,7 +4773,7 @@
   {
     "name": "showModalDialog",
     "category": "Misc",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/browsers.html#window",
+    "link": "https://www.w3.org/html/wg/drafts/html/master/browsers.html#window",
     "summary": "The global showModalDialog() method displays a modal dialog box containing a specified HTML document. This feature has an incredibly high cost in terms of code complexity since it requires us to run an event loop on top of an arbitrary JavaScript stack. It also complicates the web platform by making task dispatch reentrant and hard to reason about.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -4795,7 +4795,7 @@
   {
     "name": "Backdrop filter",
     "category": "CSS",
-    "link": "http://dev.w3.org/fxtf/filters-2/#BackdropFilterProperty",
+    "link": "https://dev.w3.org/fxtf/filters-2/#BackdropFilterProperty",
     "summary": "Applies a CSS filter effect to the content behind an element. This is not the element's background but the content that would be drawn behind it.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -5074,7 +5074,7 @@
   {
     "name": "CSS all shorthand",
     "category": "CSS",
-    "link": "http://www.w3.org/TR/css3-cascade/#all-shorthand",
+    "link": "https://www.w3.org/TR/css3-cascade/#all-shorthand",
     "summary": "The all property is a shorthand that resets all CSS properties except direction and unicode-bidi",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -5093,7 +5093,7 @@
   {
     "name": "CSS vmax unit",
     "category": "CSS",
-    "link": "http://www.w3.org/TR/css3-values/#viewport-relative-lengths",
+    "link": "https://www.w3.org/TR/css3-values/#viewport-relative-lengths",
     "summary": "A viewport relative length unit equal to the larger of vw (viewport width) or vh (viewport height).",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -5122,7 +5122,7 @@
   {
     "name": "CSS Contextual Reference Element Pseudo-class :scope",
     "category": "CSS",
-    "link": "http://www.w3.org/TR/selectors4/#the-scope-pseudo",
+    "link": "https://www.w3.org/TR/selectors4/#the-scope-pseudo",
     "summary": "The :scope pseudo-class represents any element that is in the contextual reference element set.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -5151,7 +5151,7 @@
   {
     "name": "CSS tab-size property",
     "category": "CSS",
-    "link": "http://www.w3.org/TR/css3-text/#tab-size",
+    "link": "https://www.w3.org/TR/css3-text/#tab-size",
     "summary": "The tab-size property sets the size used to render tab characters in situations where white space is preserved",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -5209,7 +5209,7 @@
   {
     "name": "CSS Level 3 attr() function",
     "category": "CSS",
-    "link": "http://www.w3.org/TR/css3-values/#attr-notation",
+    "link": "https://www.w3.org/TR/css3-values/#attr-notation",
     "summary": "Support the attr() function as a component value in properties applied to an element. Currently, attr() is only supported in the content property applied to pseudo-elements.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -5238,7 +5238,7 @@
   {
     "name": "<menu> Element",
     "category": "Misc",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-menu-element",
+    "link": "https://w3c.github.io/html/semantics.html#the-menu-element",
     "summary": "An HTML element for toolbars and popup menus.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -5267,7 +5267,7 @@
   {
     "name": "<time> Element",
     "category": "Misc",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-time-element",
+    "link": "https://w3c.github.io/html/semantics.html#the-time-element",
     "summary": "An HTML element for representing dates and times.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -5296,7 +5296,7 @@
   {
     "name": "<output> Element",
     "category": "Misc",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-output-element",
+    "link": "https://w3c.github.io/html/semantics.html#the-output-element",
     "summary": "An HTML element for representing the result of a calculation or user action.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -5325,7 +5325,7 @@
   {
     "name": "ol[reversed] attribute",
     "category": "Misc",
-    "link": "http://www.w3.org/html/wg/drafts/html/master/semantics.html#attr-ol-reversed",
+    "link": "https://w3c.github.io/html/semantics.html#element-attrdef-ol-reversed",
     "summary": "A boolean attribute that reverses the order of an ordered list when present.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -5354,7 +5354,7 @@
   {
     "name": "Screen Capture",
     "category": "Realtime / Communication",
-    "link": "http://w3c.github.io/mediacapture-screen-share/",
+    "link": "https://w3c.github.io/mediacapture-screen-share/",
     "summary": "Screen Capture API allows a user's display or parts thereof be used as the source of a media stream.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -5382,7 +5382,7 @@
   {
     "name": "Form attribute",
     "category": "Misc",
-    "link": "http://www.w3.org/TR/html5/forms.html#attr-fae-form",
+    "link": "https://www.w3.org/TR/html5/forms.html#attr-fae-form",
     "summary": "Attribute for associating input and submit buttons with a form.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -5428,7 +5428,7 @@
   {
     "name": "FindText API",
     "category": "DOM",
-    "link": "http://w3c.github.io/findtext/",
+    "link": "https://w3c.github.io/findtext/",
     "summary": "Provides an API for finding ranges of text in a document, with a variety of selection criteria. Similar to a user-agent's find-on-page or page-search capability.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
