@@ -4364,16 +4364,6 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
-    "impl_status_chrome": "Enabled by default",
-    "shipped_opera_milestone": true,
-    "ff_views": {
-      "text": "In development",
-      "value": 2
-    },
-    "safari_views": {
-      "text": "No Public Signals",
-      "value": 3
-    },
     "spec": "woff2",
     "msdn": "",
     "wpd": "",
