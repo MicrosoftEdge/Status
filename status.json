@@ -2371,7 +2371,7 @@
     "summary": "Real-time communication in the browser. See also \"Web RTC - Object RTC API\".",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
@@ -4992,10 +4992,46 @@
     "uservoiceid": 6513488
   },
   {
-    "name": "VP9 Video Codec",
+    "name": "VP9 Video Playback",
     "category": "Multimedia",
-    "link": "http://aomedia.org/",
+    "link": "http://webmproject.org/vp9",
     "summary": "An open codec for video optimized on the web.",
+    "standardStatus": "Defacto standard",
+    "ieStatus": {
+      "text": "Preview Release",
+      "iePrefixed": "",
+      "ieUnprefixed": "14291",
+      "flag": true
+    },
+    "spec": "",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 6362186595172352,
+    "uservoiceid": 6508954
+  },
+  {
+    "name": "VP8 for RTC",
+    "category": "Multimedia",
+    "link": "http://tools.ietf.org/html/rfc6386",
+    "summary": "Support for the VP8 video format in RTC scenarios.",
+    "standardStatus": "Defacto standard",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "High"
+    },
+    "spec": "",
+    "msdn": "",
+    "wpd": "",
+    "demo": ""
+  },
+  {
+    "name": "H.264/AVC for RTC",
+    "category": "Multimedia",
+    "link": "http://www.itu.int/rec/T-REC-H.264",
+    "summary": "Support for H.264/AVC in ORTC scenarios.",
     "standardStatus": "Defacto standard",
     "ieStatus": {
       "text": "In Development",
@@ -5005,9 +5041,7 @@
     "spec": "",
     "msdn": "",
     "wpd": "",
-    "demo": "",
-    "id": 6362186595172352,
-    "uservoiceid": 6508954
+    "demo": ""
   },
   {
     "name": "image-rendering",
