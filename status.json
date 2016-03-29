@@ -2797,7 +2797,7 @@
   {
     "name": "Object.observe()",
     "category": "JavaScript",
-    "link": "http://wiki.ecmascript.org/doku.php?id=harmony:observe",
+    "link": "https://github.com/arv/ecmascript-object-observe",
     "summary": "Observe changes to JS objects.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -3454,10 +3454,11 @@
     "summary": "",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "Low"
+      "ieUnprefixed": "14279",
+      "priority": "",
+      "flag": true
     },
     "spec": "ecmascript",
     "msdn": "",
@@ -3476,6 +3477,39 @@
       "iePrefixed": "",
       "ieUnprefixed": "10547",
       "flag": true
+    },
+    "spec": "ecmascript",
+    "msdn": "",
+    "wpd": "",
+    "demo": ""
+  },
+  {
+    "name": "Shared Memory and Atomics",
+    "category": "JavaScript",
+    "link": "https://github.com/tc39/ecmascript_sharedmem",
+    "summary": "Shared memory and atomics for ECMAscript.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "spec": "ecmascript",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 4570991992766464
+  },
+  {
+    "name": "Object.getOwnPropertyDescriptors",
+    "category": "JavaScript",
+    "link": "https://github.com/tc39/proposal-object-getownpropertydescriptors",
+    "summary": "ECMAScript proposal for Object.getOwnPropertyDescriptors.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
     },
     "spec": "ecmascript",
     "msdn": "",
@@ -3842,8 +3876,8 @@
     "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Established Standard",
     "ieStatus": {
-      "text": "In Development",
-      "iePrefixed": "",
+      "text": "Shipped",
+      "iePrefixed": "14279",
       "ieUnprefixed": ""
     },
     "spec": "ecmascript",
