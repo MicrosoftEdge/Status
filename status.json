@@ -4889,7 +4889,7 @@
     "uservoiceid": 6508954
   },
   {
-    "name": "Opus Audio Codec",
+    "name": "Opus Audio Playback",
     "category": "Multimedia",
     "link": "https://tools.ietf.org/html/rfc6716",
     "summary": "An open codec for audio playback.",
@@ -5031,7 +5031,7 @@
     "name": "H.264/AVC for RTC",
     "category": "Multimedia",
     "link": "http://www.itu.int/rec/T-REC-H.264",
-    "summary": "Support for H.264/AVC in ORTC scenarios.",
+    "summary": "Support for H.264/AVC in RTC scenarios.",
     "standardStatus": "Defacto standard",
     "ieStatus": {
       "text": "In Development",
