@@ -2371,7 +2371,7 @@
     "summary": "Real-time communication in the browser. See also \"Web RTC - Object RTC API\".",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
@@ -2797,7 +2797,7 @@
   {
     "name": "Object.observe()",
     "category": "JavaScript",
-    "link": "http://wiki.ecmascript.org/doku.php?id=harmony:observe",
+    "link": "https://github.com/arv/ecmascript-object-observe",
     "summary": "Observe changes to JS objects.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -3454,10 +3454,11 @@
     "summary": "",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "Low"
+      "ieUnprefixed": "14279",
+      "priority": "",
+      "flag": true
     },
     "spec": "ecmascript",
     "msdn": "",
@@ -3476,6 +3477,39 @@
       "iePrefixed": "",
       "ieUnprefixed": "10547",
       "flag": true
+    },
+    "spec": "ecmascript",
+    "msdn": "",
+    "wpd": "",
+    "demo": ""
+  },
+  {
+    "name": "Shared Memory and Atomics",
+    "category": "JavaScript",
+    "link": "https://github.com/tc39/ecmascript_sharedmem",
+    "summary": "Shared memory and atomics for ECMAscript.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "spec": "ecmascript",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 4570991992766464
+  },
+  {
+    "name": "Object.getOwnPropertyDescriptors",
+    "category": "JavaScript",
+    "link": "https://github.com/tc39/proposal-object-getownpropertydescriptors",
+    "summary": "ECMAScript proposal for Object.getOwnPropertyDescriptors.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
     },
     "spec": "ecmascript",
     "msdn": "",
@@ -3842,8 +3876,8 @@
     "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Established Standard",
     "ieStatus": {
-      "text": "In Development",
-      "iePrefixed": "",
+      "text": "Shipped",
+      "iePrefixed": "14279",
       "ieUnprefixed": ""
     },
     "spec": "ecmascript",
@@ -4855,7 +4889,7 @@
     "uservoiceid": 6508954
   },
   {
-    "name": "Opus Audio Codec",
+    "name": "Opus Audio Playback",
     "category": "Multimedia",
     "link": "https://tools.ietf.org/html/rfc6716",
     "summary": "An open codec for audio playback.",
@@ -4958,10 +4992,46 @@
     "uservoiceid": 6513488
   },
   {
-    "name": "VP9 Video Codec",
+    "name": "VP9 Video Playback",
     "category": "Multimedia",
-    "link": "http://aomedia.org/",
+    "link": "http://webmproject.org/vp9",
     "summary": "An open codec for video optimized on the web.",
+    "standardStatus": "Defacto standard",
+    "ieStatus": {
+      "text": "Preview Release",
+      "iePrefixed": "",
+      "ieUnprefixed": "14291",
+      "flag": true
+    },
+    "spec": "",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 6362186595172352,
+    "uservoiceid": 6508954
+  },
+  {
+    "name": "VP8 for RTC",
+    "category": "Multimedia",
+    "link": "http://tools.ietf.org/html/rfc6386",
+    "summary": "Support for the VP8 video format in RTC scenarios.",
+    "standardStatus": "Defacto standard",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "High"
+    },
+    "spec": "",
+    "msdn": "",
+    "wpd": "",
+    "demo": ""
+  },
+  {
+    "name": "H.264/AVC for RTC",
+    "category": "Multimedia",
+    "link": "http://www.itu.int/rec/T-REC-H.264",
+    "summary": "Support for H.264/AVC in RTC scenarios.",
     "standardStatus": "Defacto standard",
     "ieStatus": {
       "text": "In Development",
@@ -4971,9 +5041,7 @@
     "spec": "",
     "msdn": "",
     "wpd": "",
-    "demo": "",
-    "id": 6362186595172352,
-    "uservoiceid": 6508954
+    "demo": ""
   },
   {
     "name": "image-rendering",
