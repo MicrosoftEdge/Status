@@ -242,7 +242,7 @@
   {
     "name": "<details>/<summary>",
     "category": "Misc",
-    "link": "https://w3c.github.io/html/semantics.html#the-details-element",
+    "link": "https://w3c.github.io/html/interactive-elements.html#the-details-element",
     "summary": "Interactive widget to show/hide content.",
     "standardStatus": "Established standard",
     "ieStatus": {
