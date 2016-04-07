@@ -5501,5 +5501,23 @@
     "demo": "",
     "id": null,
     "uservoiceid": null
+  },
+  {
+    "name": "Web Payments API",
+    "category": "Misc",
+    "link": "https://w3c.github.io/browser-payment-api/",
+    "summary": "A web API to allow merchants (i.e. web sites selling physical or digital goods) to easily accept payments from different payment methods with minimal integration.",
+    "standardStatus": "Editor's draft",
+    "ieStatus": {
+      "text": "In Development",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "spec": "paymentrequest",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
   }
 ]
