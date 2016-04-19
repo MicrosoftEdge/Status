@@ -202,8 +202,8 @@
     "summary": "FIDO 2.0 Web APIs provide an open, scalable, and interoperable solution to facilitate authentication, which replaces passwords with stronger two-factor credentials.  The implementation in Microsoft Edge is focused on enabling Microsoft Passport with a PIN or Windows Hello to securely authenticate to Microsoft properties and third-party web sites.  A draft specification is being developed by the FIDO Alliance, of which Microsoft is a member.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
-      "iePrefixed": "",
+      "text": "Preview Release",
+      "iePrefixed": "14291",
       "ieUnprefixed": ""
     },
     "spec": "fido-2",
@@ -502,9 +502,9 @@
     "summary": "Path2D objects can be used to declare paths that are then later used on CanvasRenderingContext2D objects.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "14316"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
@@ -2227,9 +2227,10 @@
     "summary": "An API for displaying simple notifications to the user.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "14316",
+      "flag": true
     },
     "spec": "notifications",
     "msdn": "",
@@ -2264,9 +2265,9 @@
     "summary": "Enables web developers to incorporate speech synthesis into their web pages. ",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "14316"
     },
     "spec": "speech-api",
     "msdn": "",
@@ -4100,9 +4101,9 @@
     "summary": "Input controls for picking colors via <input type='color'>.",
     "standardStatus": "Established Standard",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "14316"
     },
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
@@ -4412,9 +4413,10 @@
     "summary": "The Fetch specification defines requests, responses, and the process that binds them; fetching.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "14316",
+      "flag": "true"
     },
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": false,
@@ -4895,9 +4897,9 @@
     "summary": "An open codec for audio playback.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "14316"
     },
     "spec": "",
     "msdn": "",
@@ -5037,6 +5039,32 @@
       "text": "In Development",
       "iePrefixed": "",
       "ieUnprefixed": ""
+    },
+    "spec": "",
+    "msdn": "",
+    "wpd": "",
+    "demo": ""
+  },
+  {
+    "name": "RTC Data Channels",
+    "category": "Multimedia",
+    "link": "http://w3c.github.io/webrtc-pc/#peer-to-peer-data-api",
+    "summary": "Data channels allow a web application to send and receive generic application data peer-to-peer.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Low"
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "safari_views": {
+      "text": "No Public Signals",
+      "value": 3
     },
     "spec": "",
     "msdn": "",
@@ -5329,10 +5357,10 @@
     "summary": "An HTML element for representing dates and times.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "High"
+      "ieUnprefixed": "14316",
+      "priority": ""
     },
     "impl_status_chrome": "No Public Signals",
     "ff_views": {
@@ -5352,16 +5380,29 @@
     "uservoiceid": 6514206
   },
   {
+    "name": "<data> Element",
+    "category": "Misc",
+    "link": "https://w3c.github.io/html/semantics.html#the-data-element",
+    "summary": "An HTML element which represents its content in machine-readable and human-readable formats.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text": "Preview Release",
+      "iePrefixed": "",
+      "ieUnprefixed": "14316",
+      "priority": ""
+    },
+    "id": null
+  },
+  {
     "name": "<output> Element",
     "category": "Misc",
     "link": "https://w3c.github.io/html/semantics.html#the-output-element",
     "summary": "An HTML element for representing the result of a calculation or user action.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Preview release",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "High"
+      "ieUnprefixed": "14316"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
