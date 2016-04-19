@@ -83,7 +83,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
-    "spec": "preload",
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -206,7 +206,7 @@
       "iePrefixed": "14291",
       "ieUnprefixed": ""
     },
-    "spec": "fido-2",
+    "spec": "webauthn",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -242,7 +242,7 @@
   {
     "name": "<details>/<summary>",
     "category": "Misc",
-    "link": "https://w3c.github.io/html/semantics.html#the-details-element",
+    "link": "https://w3c.github.io/html/interactive-elements.html#the-details-element",
     "summary": "Interactive widget to show/hide content.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -290,7 +290,7 @@
       "ieUnprefixed": "",
       "priority": "Medium"
     },
-    "spec": "directory-upload",
+    "spec": "file-system-api",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -681,7 +681,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "11"
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "msdn": "https://msdn.microsoft.com/library/dn263046",
     "wpd": "",
     "demo": "",
@@ -788,7 +788,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "9"
     },
-    "spec": "css-values",
+    "spec": "",
     "msdn": "https://msdn.microsoft.com/library/ms537660#calc",
     "wpd": "https://docs.webplatform.org/wiki/css/functions/calc",
     "demo": "",
@@ -805,7 +805,7 @@
       "iePrefixed": "10",
       "ieUnprefixed": ""
     },
-    "spec": "css-device-adapt",
+    "spec": "css-deviceadapt-1",
     "msdn": "https://msdn.microsoft.com/library/hh708740",
     "wpd": "https://docs.webplatform.org/wiki/concepts/mobile_web/responsive_design",
     "demo": "",
@@ -838,9 +838,9 @@
       "text": "Under Consideration",
       "iePrefixed": "",
       "ieUnprefixed": "",
-      "priority": "Low"
+      "priority": "Medium"
     },
-    "spec": "css-variables-1",
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -877,7 +877,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
-    "spec": "cssom-view",
+    "spec": "cssom-view-1",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -914,7 +914,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "11"
     },
-    "spec": "deviceorientation",
+    "spec": "orientation-event",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -931,7 +931,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "11"
     },
-    "spec": "deviceorientation",
+    "spec": "orientation-event",
     "msdn": "https://msdn.microsoft.com/en-us/library/dn342897.aspx",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/device_orientation",
     "demo": "",
@@ -948,7 +948,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "11"
     },
-    "spec": "cssom-view",
+    "spec": "cssom-view-1",
     "msdn": "https://msdn.microsoft.com/en-us/library/dn255104.aspx",
     "wpd": "",
     "demo": "",
@@ -982,7 +982,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "8"
     },
-    "spec": "pointerevents-2",
+    "spec": "pointerevents",
     "msdn": "https://msdn.microsoft.com/en-us/library/ms536945.aspx",
     "wpd": "https://docs.webplatform.org/wiki/dom/MouseEvent/mouseenter",
     "demo": "",
@@ -1051,7 +1051,7 @@
       "iePrefixed": "10",
       "ieUnprefixed": ""
     },
-    "spec": "css-exclusions",
+    "spec": "css-exclusions-1",
     "msdn": "https://msdn.microsoft.com/en-us/library/hh772711",
     "wpd": "",
     "demo": "",
@@ -1068,7 +1068,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10586"
     },
-    "spec": "filter-effects",
+    "spec": "filter-effects-1",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/css_filters",
     "demo": "",
     "id": 5822463824887808,
@@ -1172,7 +1172,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
-    "spec": "mediacapture",
+    "spec": "html-media-capture",
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/dom/Navigator/getUserMedia",
     "demo": "",
@@ -1190,7 +1190,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
-    "spec": "css3-images",
+    "spec": "css-images-3",
     "msdn": "https://msdn.microsoft.com/library/hh673532",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/CSS_gradients",
     "demo": "",
@@ -1224,7 +1224,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
-    "spec": "form-http-extensions",
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1493,7 +1493,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "11"
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "msdn": "https://msdn.microsoft.com/library/dn263029",
     "wpd": "",
     "demo": "",
@@ -1529,7 +1529,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
-    "spec": "cssom-view",
+    "spec": "cssom-view-1",
     "msdn": "https://msdn.microsoft.com/library/hh772743",
     "wpd": "https://docs.webplatform.org/wiki/css/media_queries/apis/matchMedia",
     "demo": "",
@@ -1546,7 +1546,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
-    "spec": "mathml3",
+    "spec": "",
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/mathml",
     "demo": "",
@@ -1564,7 +1564,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "9"
     },
-    "spec": "css3-mediaqueries",
+    "spec": "",
     "msdn": "https://msdn.microsoft.com/ie/hh393506#_CSS3_Media_Queries",
     "wpd": "https://docs.webplatform.org/wiki/css/atrules/%40media",
     "demo": "",
@@ -1616,7 +1616,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
-    "spec": "microdata",
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1700,7 +1700,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
-    "spec": "woff",
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1723,7 +1723,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
-    "spec": "css3-multicol",
+    "spec": "css-multicol-3",
     "msdn": "https://msdn.microsoft.com/library/hh673534",
     "wpd": "https://docs.webplatform.org/wiki/css/properties/column-count",
     "demo": "",
@@ -1774,7 +1774,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
-    "spec": "page-visibility-3",
+    "spec": "page-visibility",
     "msdn": "https://msdn.microsoft.com/library/hh673553",
     "wpd": "https://docs.webplatform.org/wiki/dom/Document/visibilitychange",
     "demo": "",
@@ -1827,7 +1827,7 @@
       "ieUnprefixed": "",
       "priority": "Medium"
     },
-    "spec": "css-position",
+    "spec": "css-position-3",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -1951,7 +1951,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "11"
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "msdn": "https://msdn.microsoft.com/library/dn251547",
     "wpd": "",
     "demo": "",
@@ -1968,7 +1968,7 @@
       "iePrefixed": "10",
       "ieUnprefixed": ""
     },
-    "spec": "streams",
+    "spec": "",
     "msdn": "https://msdn.microsoft.com/en-us/library/hh772328.aspx",
     "wpd": "",
     "demo": "",
@@ -2072,7 +2072,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "msdn": "https://msdn.microsoft.com/en-us/library/hh869304.aspx",
     "wpd": "",
     "demo": "",
@@ -2160,7 +2160,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "11"
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "msdn": "https://msdn.microsoft.com/library/dn251546",
     "wpd": "",
     "demo": "",
@@ -2422,7 +2422,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10"
     },
-    "spec": "html",
+    "spec": "html51",
     "msdn": "https://msdn.microsoft.com/en-us/library/hh673567.aspx",
     "wpd": "https://docs.webplatform.org/wiki/concepts/protocols/websocket",
     "demo": "",
@@ -2460,7 +2460,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2497,7 +2497,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
-    "spec": "filter-effects",
+    "spec": "filter-effects-1",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2516,7 +2516,7 @@
       "ieUnprefixed": "10240",
       "flag": true
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2535,7 +2535,7 @@
       "ieUnprefixed": "10532",
       "flag": true
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2553,7 +2553,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2625,7 +2625,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
-    "spec": "subresourceintegrity",
+    "spec": "sri",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2644,7 +2644,7 @@
       "ieUnprefixed": "",
       "priority": "Low"
     },
-    "spec": "css3-sizing",
+    "spec": "css-sizing-3",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2697,7 +2697,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/concepts/programming/javascript/iterators",
     "demo": "",
@@ -2715,7 +2715,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
-    "spec": "network-error-logging",
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2734,7 +2734,7 @@
       "ieUnprefixed": "",
       "priority": "Medium"
     },
-    "spec": "css-shapes",
+    "spec": "css-shapes-1",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2752,7 +2752,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2806,7 +2806,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2862,7 +2862,7 @@
       "ieUnprefixed": "",
       "priority": "Medium"
     },
-    "spec": "css3-images",
+    "spec": "css-images-3",
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/css/properties/object-fit",
     "demo": "",
@@ -2880,7 +2880,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
-    "spec": "css-conditional",
+    "spec": "css-conditional-3",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2899,7 +2899,7 @@
       "ieUnprefixed": "10240",
       "flag": true
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -2970,7 +2970,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -3025,7 +3025,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
-    "spec": "file-writer-api",
+    "spec": "file-system",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -3321,7 +3321,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
-    "spec": "svg",
+    "spec": "svg2",
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/external_content_in_svg#Embedding_arbitrary_XML",
     "demo": "",
@@ -3403,7 +3403,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -3424,7 +3424,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -3443,7 +3443,7 @@
       "ieUnprefixed": "10532",
       "flag": true
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "msdn": "",
     "wpd": "",
     "demo": ""
@@ -3461,7 +3461,7 @@
       "priority": "",
       "flag": true
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -3479,7 +3479,7 @@
       "ieUnprefixed": "10547",
       "flag": true
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "msdn": "",
     "wpd": "",
     "demo": ""
@@ -3495,7 +3495,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -3512,7 +3512,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "msdn": "",
     "wpd": "",
     "demo": ""
@@ -3560,7 +3560,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10547"
     },
-    "spec": "svg",
+    "spec": "svg2",
     "demo": "",
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
@@ -3602,7 +3602,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
-    "spec": "css3-values",
+    "spec": "",
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
     "ff_views": {
@@ -3650,7 +3650,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
-    "spec": "dom",
+    "spec": "whatwg-dom",
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
     "ff_views": {
@@ -3674,7 +3674,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "id": 5920790725787648
   },
   {
@@ -3688,7 +3688,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
     "ff_views": {
@@ -3712,7 +3712,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
     "ff_views": {
@@ -3736,7 +3736,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "shipped_opera_milestone": false,
     "safari_views": {
       "text": "No Signals",
@@ -3755,7 +3755,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "impl_status_chrome": "No Signals",
     "shipped_opera_milestone": false,
     "ff_views": {
@@ -3779,7 +3779,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "id": 5977677567623168
   },
   {
@@ -3793,7 +3793,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "11"
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
     "ff_views": {
@@ -3818,7 +3818,7 @@
       "ieUnprefixed": "10532",
       "flag": false
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "id": 4633745457938432,
     "uservoiceid": 6510201
   },
@@ -3833,7 +3833,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "safari_views": {
       "text": "No Signals",
       "value": 3
@@ -3851,7 +3851,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "id": 4743002513735680
   },
   {
@@ -3866,7 +3866,7 @@
       "ieUnprefixed": "",
       "priority": "Low"
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "id": 5516876633341952,
     "uservoiceid": 6850816
   },
@@ -3881,7 +3881,7 @@
       "iePrefixed": "14279",
       "ieUnprefixed": ""
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": false,
     "ff_views": {
@@ -3906,7 +3906,7 @@
       "ieUnprefixed": "10240",
       "flag": true
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "impl_status_chrome": "In development",
     "shipped_opera_milestone": false,
     "ff_views": {
@@ -3930,7 +3930,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "impl_status_chrome": "No active development",
     "shipped_opera_milestone": false,
     "ff_views": {
@@ -4005,7 +4005,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
-    "spec": "appmanifest",
+    "spec": "",
     "id": 6488656873259008,
     "uservoiceid": 6512948
   },
@@ -4038,7 +4038,7 @@
     "category": "JavaScript",
     "summary": "Provides APIs for string comparison and date/time/number formatting in a locale-aware manner.",
     "link": "http://ecma-international.org/ecma-402/1.0/",
-    "spec": "ecmascript",
+    "spec": "es6",
     "msdn": "https://msdn.microsoft.com/en-us/library/dn342821.aspx",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -4069,7 +4069,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4243,7 +4243,7 @@
       "text": "Shipped",
       "value": 1
     },
-    "spec": "media-frags",
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4270,7 +4270,7 @@
       "text": "Shipped",
       "value": 1
     },
-    "spec": "svg",
+    "spec": "svg2",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4382,7 +4382,7 @@
       "text": "No Public Signals",
       "value": 3
     },
-    "spec": "p3p",
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4399,7 +4399,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
-    "spec": "woff2",
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4428,7 +4428,7 @@
       "text": "No Public Signals",
       "value": 3
     },
-    "spec": "fetch",
+    "spec": "whatwg-fetch",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4510,7 +4510,7 @@
       "text": "Enabled by default",
       "value": 2
     },
-    "spec": "css4-images",
+    "spec": "css-image-4",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4537,7 +4537,7 @@
       "text": "Enabled by default",
       "value": 2
     },
-    "spec": "wai-aria",
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4564,7 +4564,7 @@
       "text": "Enabled by default",
       "value": 2
     },
-    "spec": "html-aapi",
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4591,7 +4591,7 @@
       "text": "In Development",
       "value": 2
     },
-    "spec": "wai-aria-1.1",
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4618,7 +4618,7 @@
       "text": "No Signals",
       "value": 2
     },
-    "spec": "accname-aam-1.1",
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4681,7 +4681,7 @@
       "ieUnprefixed": "",
       "priority": "High"
     },
-    "spec": "css-logical-props",
+    "spec": "css-logical-props-1",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -4840,7 +4840,7 @@
       "value": 1
     },
     "shipped_opera_milestone": false,
-    "spec": "filters-2",
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -5083,7 +5083,7 @@
       "ieUnprefixed": "",
       "priority": "Low"
     },
-    "spec": "css3-images",
+    "spec": "css-images-3",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -5102,7 +5102,7 @@
       "ieUnprefixed": "",
       "priority": "Low"
     },
-    "spec": "css4-images",
+    "spec": "css-image-4",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -5150,7 +5150,7 @@
       "value": 1
     },
     "shipped_opera_milestone": true,
-    "spec": "css3-images",
+    "spec": "css-images-3",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -5169,7 +5169,7 @@
       "ieUnprefixed": "",
       "priority": "Medium"
     },
-    "spec": "css-cascase-3",
+    "spec": "css-cascade-3",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -5198,7 +5198,7 @@
       "value": 1
     },
     "shipped_opera_milestone": true,
-    "spec": "css-values",
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -5314,7 +5314,7 @@
       "value": 3
     },
     "shipped_opera_milestone": false,
-    "spec": "css-values",
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -5518,7 +5518,7 @@
       "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
-    "spec": "ecmascript",
+    "spec": "es6",
     "msdn": "https://msdn.microsoft.com/en-us/library/mt146826.aspx",
     "wpd": "",
     "demo": "",
@@ -5537,6 +5537,24 @@
       "priority": "Low"
     },
     "spec": "findtext",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Web Payments API",
+    "category": "Misc",
+    "link": "https://w3c.github.io/browser-payment-api/",
+    "summary": "A web API to allow merchants (i.e. web sites selling physical or digital goods) to easily accept payments from different payment methods with minimal integration.",
+    "standardStatus": "Editor's draft",
+    "ieStatus": {
+      "text": "In Development",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "spec": "paymentrequest",
     "msdn": "",
     "wpd": "",
     "demo": "",
