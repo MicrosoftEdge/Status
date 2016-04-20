@@ -4395,9 +4395,9 @@
     "summary": "Based on experience with WOFF 1.0, which is widely deployed, this specification was developed to provide improved compression and thus lower use of network bandwidth, while still allowing fast decompression even on mobile devices. This is achieved by combining a content-aware preprocessing step and improved entropy coding, compared to the Flate compression used in WOFF 1.0.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "14316"
     },
     "spec": "",
     "msdn": "",
