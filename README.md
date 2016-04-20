@@ -1,5 +1,5 @@
 #Status
-This project contains the data for [status.microsoftedge.com](http://status.microsoftedge.com), a portal for the latest implementation status and future roadmap for interoperable web platform features in Microsoft Edge and other browsers, including Internet Explorer.
+This project contains the data for [status.microsoftedge.com](https://status.microsoftedge.com), a portal for the latest implementation status and future roadmap for interoperable web platform features in Microsoft Edge and other browsers, including Internet Explorer.
 
 ##Using Status Data
 This repo provides valuable data on the implementation status and future plans for web platform features in Microsoft Edge. This data is encouraged to be used for other purposes as licensed by the [Creative Commons Attribution 2.5 License](https://creativecommons.org/licenses/by/2.5/legalcode). This data is provided as a JSON document, served at https://developer.microsoft.com/en-us/microsoft-edge/api/platform/status/. This data is sent with an "Access-Control-Allow-Origin: *" header, so it may be requested cross-domain.
