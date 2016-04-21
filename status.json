@@ -5400,9 +5400,10 @@
     "summary": "An HTML element for representing the result of a calculation or user action.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Preview release",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": "14316"
+      "ieUnprefixed": "14316",
+      "priority": ""
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
