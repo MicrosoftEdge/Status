@@ -4918,7 +4918,7 @@
       "text": "Under Consideration",
       "iePrefixed": "",
       "ieUnprefixed": "",
-      "priority": "Medium"
+      "priority": "Low"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
