@@ -5547,9 +5547,9 @@
   {
     "name": "Web Payments API",
     "category": "Misc",
-    "link": "https://w3c.github.io/browser-payment-api/",
+    "link": "https://www.w3.org/TR/payment-request/",
     "summary": "A web API to allow merchants (i.e. web sites selling physical or digital goods) to easily accept payments from different payment methods with minimal integration.",
-    "standardStatus": "Editor's draft",
+    "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "In Development",
       "iePrefixed": "",
