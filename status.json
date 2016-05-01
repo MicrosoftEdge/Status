@@ -3002,10 +3002,9 @@
     "summary": "Unhandled exceptions trigger the 'window.onerror' callback (or 'self.onerror' inside Workers) for centralized handling.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Shipped",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "Low"
+      "ieUnprefixed": "10"
     },
     "spec": "html51",
     "msdn": "",
