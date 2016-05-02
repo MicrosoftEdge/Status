@@ -54,6 +54,24 @@
     "id": 5945504202489856
   },
   {
+    "name": "Intersection Observer",
+    "category": "Performance",
+    "link": "https://wicg.github.io/IntersectionObserver/",
+    "summary": "An interface to allow a web developer to asynchronously query the position of an element with respect to other elements or the global viewport.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Medium",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "spec": "intersection-observer",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 5695342691483648
+  },
+  {
     "name": "Server Timing",
     "category": "Performance",
     "link": "http://www.w3.org/TR/server-timing/",
