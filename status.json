@@ -3139,9 +3139,9 @@
     "summary": "Enables web applications to asynchronously transfer data from the user agent to a web server, with the user agent taking the responsibility to eventually send the data.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "14342"
     },
     "spec": "beacon",
     "msdn": "",
