@@ -4436,7 +4436,7 @@
     "summary": "The Fetch specification defines requests, responses, and the process that binds them; fetching.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Shipped",
+      "text": "Preview Release",
       "iePrefixed": "",
       "ieUnprefixed": "14316",
       "flag": "true"
