@@ -2248,7 +2248,7 @@
     "summary": "An API for displaying simple notifications to the user.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "14316",
       "flag": true
