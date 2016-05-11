@@ -5584,5 +5584,21 @@
     "demo": "",
     "id": null,
     "uservoiceid": null
+  },
+  {
+    "name": "Web Assembly (MVP)",
+    "category": "JavaScript",
+    "link": "http://webassembly.github.io/ ",
+    "summary": "WebAssembly or wasm is a new portable, size- and load-time-efficient format suitable for compilation to the web.",
+    "ieStatus": {
+      "text": "In Development",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 5453022515691520,
+    "uservoiceid": 11423808
   }
 ]
