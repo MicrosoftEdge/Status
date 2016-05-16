@@ -73,6 +73,24 @@
     "uservoiceid": 13407852
   },
   {
+    "name": "Resize Observer",
+    "category": "Performance",
+    "link": "https://wicg.github.io/ResizeObserver/",
+    "summary": "Allows a web developer to attach an observer to an element and a callback will be fired when that element is resized",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Low",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "spec": "resize-observer",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null
+  },
+  {
     "name": "Server Timing",
     "category": "Performance",
     "link": "http://www.w3.org/TR/server-timing/",
