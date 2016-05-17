@@ -54,6 +54,24 @@
     "id": 5945504202489856
   },
   {
+    "name": "CSS Containment",
+    "category": "Performance",
+    "link": "https://drafts.csswg.org/css-containment/",
+    "summary": "A primitive for isolating style, layout, and paint. This will allow web developers to opt into the various aspects of the pipeline, allowing for UA optimizations.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Low",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "spec": "css-containment",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 6522186978295808
+  },
+  {
     "name": "Intersection Observer",
     "category": "Performance",
     "link": "https://wicg.github.io/IntersectionObserver/",
