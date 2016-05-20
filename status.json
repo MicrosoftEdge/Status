@@ -65,11 +65,33 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
-    "spec": "css-containment",
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
     "id": 6522186978295808
+  },
+  {
+    "name": "Initial Letter",
+    "category": "CSS",
+    "link": "https://drafts.csswg.org/css-inline/#sizing-drop-initials",
+    "summary": "Allows the author to set the size and depth at which it sinks into the surrounding text.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Low",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "spec": "",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null
   },
   {
     "name": "Intersection Observer",
@@ -102,7 +124,7 @@
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
-    "spec": "resize-observer",
+    "spec": "",
     "msdn": "",
     "wpd": "",
     "demo": "",
