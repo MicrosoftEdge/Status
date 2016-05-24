@@ -54,6 +54,61 @@
     "id": 5945504202489856
   },
   {
+    "name": "CSS Containment",
+    "category": "Performance",
+    "link": "https://drafts.csswg.org/css-containment/",
+    "summary": "A primitive for isolating style, layout, and paint. This will allow web developers to opt into the various aspects of the pipeline, allowing for UA optimizations.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Low",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "spec": "css-containment",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 6522186978295808
+  },
+  {
+    "name": "Intersection Observer",
+    "category": "Performance",
+    "link": "https://wicg.github.io/IntersectionObserver/",
+    "summary": "An interface to allow a web developer to asynchronously query the position of an element with respect to other elements or the global viewport.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Medium",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "spec": "intersection-observer",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 5695342691483648,
+    "uservoiceid": 13407852
+  },
+  {
+    "name": "Resize Observer",
+    "category": "Performance",
+    "link": "https://wicg.github.io/ResizeObserver/",
+    "summary": "Allows a web developer to attach an observer to an element and a callback will be fired when that element is resized",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Low",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "spec": "resize-observer",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null
+  },
+  {
     "name": "Server Timing",
     "category": "Performance",
     "link": "http://www.w3.org/TR/server-timing/",
@@ -87,7 +142,8 @@
     "msdn": "",
     "wpd": "",
     "demo": "",
-    "id": 5757468554559488
+    "id": 5757468554559488,
+    "uservoiceid": 7666725
   },
   {
     "name": "DNS Prefetch Resource Hints",
@@ -711,7 +767,7 @@
     "summary": "Adds APIs to the canvas 2D context that make it possible to draw a focus ring around a canvas path and notify the operating system of the bounding box of the focused object for accessibility.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
@@ -1229,6 +1285,7 @@
     "wpd": "",
     "demo": "",
     "id": null,
+    "uservoiceid": 8157372,
     "impl_status_chrome": "No active development",
     "ff_views": {
       "text": "No public signals",
@@ -2227,7 +2284,7 @@
     "summary": "An API for displaying simple notifications to the user.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "14316",
       "flag": true
@@ -3118,9 +3175,9 @@
     "summary": "Enables web applications to asynchronously transfer data from the user agent to a web server, with the user agent taking the responsibility to eventually send the data.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "14342"
     },
     "spec": "beacon",
     "msdn": "",
@@ -3499,7 +3556,8 @@
     "msdn": "",
     "wpd": "",
     "demo": "",
-    "id": 4570991992766464
+    "id": 4570991992766464,
+    "uservoiceid": 9788550
   },
   {
     "name": "Object.getOwnPropertyDescriptors",
@@ -4247,7 +4305,8 @@
     "msdn": "",
     "wpd": "",
     "demo": "",
-    "id": null
+    "id": null,
+    "uservoiceid": 7214762
   },
   {
     "name": "SVG+SMIL Animation",
@@ -5102,7 +5161,7 @@
       "ieUnprefixed": "",
       "priority": "Low"
     },
-    "spec": "css-image-4",
+    "spec": "css-images-4",
     "msdn": "",
     "wpd": "",
     "demo": "",
@@ -5400,9 +5459,10 @@
     "summary": "An HTML element for representing the result of a calculation or user action.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Preview release",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": "14316"
+      "ieUnprefixed": "14316",
+      "priority": ""
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
@@ -5546,9 +5606,9 @@
   {
     "name": "Web Payments API",
     "category": "Misc",
-    "link": "https://w3c.github.io/browser-payment-api/",
+    "link": "https://www.w3.org/TR/payment-request/",
     "summary": "A web API to allow merchants (i.e. web sites selling physical or digital goods) to easily accept payments from different payment methods with minimal integration.",
-    "standardStatus": "Editor's draft",
+    "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "In Development",
       "iePrefixed": "",
@@ -5560,5 +5620,21 @@
     "demo": "",
     "id": null,
     "uservoiceid": null
+  },
+  {
+    "name": "Web Assembly (MVP)",
+    "category": "JavaScript",
+    "link": "http://webassembly.github.io/ ",
+    "summary": "WebAssembly or wasm is a new portable, size- and load-time-efficient format suitable for compilation to the web.",
+    "ieStatus": {
+      "text": "In Development",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 5453022515691520,
+    "uservoiceid": 11423808
   }
 ]
