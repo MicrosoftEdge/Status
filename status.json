@@ -1981,14 +1981,13 @@
   {
     "name": "Service Worker",
     "category": "Offline / Storage",
-    "link": "https://github.com/slightlyoff/ServiceWorker/",
+    "link": "https://slightlyoff.github.io/ServiceWorker/spec/service_worker/",
     "summary": "ServiceWorkers (formerly Navigation Controllers) are a new system that provides event-driven scripts that run independent of web pages. They are similar to SharedWorkers except that their lifetime is different and they have access to domain-wide events such as network fetches.",
-    "standardStatus": "Public discussion",
+    "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "High"
+      "ieUnprefixed": ""
     },
     "spec": "service-workers",
     "msdn": "",
