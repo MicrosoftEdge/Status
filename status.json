@@ -4474,8 +4474,7 @@
     "ieStatus": {
       "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": "14316",
-      "flag": "true"
+      "ieUnprefixed": "14342"
     },
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": false,
