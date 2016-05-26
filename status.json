@@ -5634,5 +5634,23 @@
     "demo": "",
     "id": 5453022515691520,
     "uservoiceid": 11423808
-  }
+  },
+  {
+    "name": "CSS Font Loading API",
+    "category": "CSS",
+    "link": "https://drafts.csswg.org/css-font-loading/",
+    "summary": "This CSS module describes events and interfaces used for dynamically loading font resources.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Low",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "spec": "css-font-loading-api",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 4594172182921216
+  },
 ]
