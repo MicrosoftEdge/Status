@@ -3375,7 +3375,6 @@
     "msdn": "https://www.microsoft.com/en-us/download/details.aspx?id=48212",
     "wpd": "",
     "demo": "",
-    "details": "http://dev.modern.ie/platform/status/webdriver/details",
     "id": null,
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
