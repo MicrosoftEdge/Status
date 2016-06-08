@@ -18,6 +18,24 @@
     "id": 5572795866021888
   },
   {
+    "name": "Support CSS transforms on SVG",
+    "category": "Graphics",
+    "link": "https://drafts.csswg.org/css-transforms/",
+    "summary": "Enable support for CSS transforms on elements and presentational attributes of SVG",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Medium",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "spec": "",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null
+  },
+  {
     "name": "Frame Timing",
     "category": "Performance",
     "link": "http://www.w3.org/TR/frame-timing/",
