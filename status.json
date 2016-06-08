@@ -18,6 +18,35 @@
     "id": 5572795866021888
   },
   {
+    "name": "Support CSS transforms on SVG",
+    "category": "Graphics",
+    "link": "https://drafts.csswg.org/css-transforms/",
+    "summary": "Enable support for CSS transforms on elements and presentational attributes of SVG",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Medium",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Enabled by default",
+      "value": 2
+    },
+    "shipped_opera_milestone": true,
+    "spec": "",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 257854
+  },
+  {
     "name": "Frame Timing",
     "category": "Performance",
     "link": "http://www.w3.org/TR/frame-timing/",
@@ -4703,10 +4732,10 @@
     "id": null
   },
   {
-    "name": "CSS Transitions & Animations for SVG elements",
+    "name": "CSS Transitions for SVG elements",
     "category": "Graphics",
     "link": "https://dev.w3.org/csswg/css-animations-1/",
-    "summary": "Allows CSS Transitions and Animations to apply to SVG elements.",
+    "summary": "Allows CSS Transitions for SVG elements.",
     "standardStatus": "Defacto Standard",
     "ieStatus": {
       "text": "Shipped",
