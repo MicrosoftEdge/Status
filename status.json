@@ -5702,5 +5702,23 @@
     "wpd": "",
     "demo": "",
     "id": 4594172182921216
+  },
+  {
+    "name": "Cache API",
+    "category": "Offline / Storage",
+    "link": "https://slightlyoff.github.io/ServiceWorker/spec/service_worker/#cache-objects",
+    "summary": "The Cache API consists of additional ServiceWorker APIs which allow authors to fully and conveniently manage their content caches for offline use. An origin can have multiple, named Cache objects, whose contents are entirely under the control of Service Worker scripts.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "High",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "spec": "service-workers",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 6461631328419840
   }
 ]
