@@ -4037,16 +4037,6 @@
       "ieUnprefixed": ""
     },
     "spec": "es6",
-    "impl_status_chrome": "No active development",
-    "shipped_opera_milestone": false,
-    "ff_views": {
-      "text": "No Signals",
-      "value": 3
-    },
-    "safari_views": {
-      "text": "No Signals",
-      "value": 3
-    },
     "id": 5365692190687232,
     "uservoiceid": 6510097
   },
@@ -4061,16 +4051,6 @@
       "iePrefixed": "",
       "ieUnprefixed": "10532",
       "flag": false
-    },
-    "impl_status_chrome": "No active development",
-    "shipped_opera_milestone": false,
-    "ff_views": {
-      "text": "Shipped",
-      "value": 1
-    },
-    "safari_views": {
-      "text": "No Signals",
-      "value": 3
     },
     "id": 5053365658583040,
     "uservoiceid": 6509389
@@ -4125,16 +4105,6 @@
       "text": "Under Consideration",
       "iePrefixed": "",
       "ieUnprefixed": ""
-    },
-    "impl_status_chrome": "Enabled by default",
-    "shipped_opera_milestone": true,
-    "ff_views": {
-      "text": "Shipped",
-      "value": 1
-    },
-    "safari_views": {
-      "text": "No Public Signals",
-      "value": 1
     },
     "id": 4669935557017600,
     "uservoiceid": 7027589
