@@ -47,6 +47,35 @@
     "uservoiceid": 257854
   },
   {
+    "name": "CSS outline-offset",
+    "category": "Graphics",
+    "link": "https://drafts.csswg.org/css-ui/#outline-offset",
+    "summary": "Allows you to define an offset from the border box for your outline",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "In Development",
+      "priority": "Medium",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Enabled by default",
+      "value": 2
+    },
+    "shipped_opera_milestone": true,
+    "spec": "",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 6517094
+  },
+  {
     "name": "Frame Timing",
     "category": "Performance",
     "link": "http://www.w3.org/TR/frame-timing/",
