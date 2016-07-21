@@ -54,7 +54,6 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "In Development",
-      "priority": "Medium",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
