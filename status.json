@@ -5701,7 +5701,7 @@
     "demo": "",
     "id": 4594172182921216
   },
-  {
+    {
     "name": "Cache API",
     "category": "Offline / Storage",
     "link": "https://slightlyoff.github.io/ServiceWorker/spec/service_worker/#cache-objects",
@@ -5717,5 +5717,23 @@
     "wpd": "",
     "demo": "",
     "id": 6461631328419840
+  },
+  {
+    "name": "Touch-action: pan-up pan-down pan-left pan-right CSS properties",
+    "category": "User input",
+    "link": "https://w3c.github.io/pointerevents/",
+    "summary": "Adds additional direction-specific values for the CSS touch-action property for pan-up, pan-down, pan-left, pan-right have been added to the specification. ",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Medium"
+    },
+    "spec": "pointerevents",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 5712439765106688
   }
 ]
