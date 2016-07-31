@@ -300,9 +300,9 @@
   {
     "name": "Brotli Compressed Data Format",
     "category": "Network / Connectivity",
-    "link": "https://datatracker.ietf.org/doc/draft-alakuijala-brotli/",
+    "link": "https://tools.ietf.org/html/rfc7932",
     "summary": "Support for the Brotli data format as an HTTP content-encoding method.",
-    "standardStatus": "Working draft or equivalent",
+    "standardStatus": "Defacto standard",
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
