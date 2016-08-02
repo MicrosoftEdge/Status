@@ -54,7 +54,6 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "In Development",
-      "priority": "Medium",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
@@ -277,9 +276,9 @@
     "summary": "An API that provies the current time in sub-millisecond resolution and is not subject to system clock skew or adjustments.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Shipped",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "14393"
     },
     "spec": "hr-time-2",
     "msdn": "",
@@ -401,9 +400,9 @@
     "summary": "Support for the webkitdirectory attribute on the input tag to make it allow a directory be selected instead of files. Support for the webkitRelativePath property on the File interface to allow the identification of relative paths of files.",
     "standardStatus": "No public standards discussion",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Shipped",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "14306"
     },
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
@@ -4651,9 +4650,9 @@
     "summary": "Exposes HTML sectioning elements (such as section, article, main, etc.) in the Accessibility API.",
     "standardStatus": "Established Standard",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Shipped",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "14393"
     },
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
@@ -4705,9 +4704,9 @@
     "summary": "Determines names and descriptions of accessible objects to expose via UIA for assistive technologies to describe to users.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Shipped",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "14393"
     },
     "impl_status_chrome": "No active development",
     "shipped_opera_milestone": false,
@@ -4980,9 +4979,9 @@
     "summary": "An open media container format.",
     "standardStatus": "Defacto standard",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Shipped",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "14291"
     },
     "spec": "",
     "msdn": "",
