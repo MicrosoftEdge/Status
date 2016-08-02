@@ -338,7 +338,7 @@
     "summary": "FIDO 2.0 Web APIs provide an open, scalable, and interoperable solution to facilitate authentication, which replaces passwords with stronger two-factor credentials.  The implementation in Microsoft Edge is focused on enabling Microsoft Passport with a PIN or Windows Hello to securely authenticate to Microsoft properties and third-party web sites.  A draft specification is being developed by the FIDO Alliance, of which Microsoft is a member.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "14291",
       "ieUnprefixed": ""
     },
@@ -638,7 +638,7 @@
     "summary": "Path2D objects can be used to declare paths that are then later used on CanvasRenderingContext2D objects.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "14316"
     },
@@ -2363,10 +2363,9 @@
     "summary": "An API for displaying simple notifications to the user.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
-      "ieUnprefixed": "14316",
-      "flag": true
+      "ieUnprefixed": "14342"
     },
     "spec": "notifications",
     "msdn": "",
@@ -2382,10 +2381,9 @@
     "summary": "Enables web developers to incorporate speech recognition into their web pages.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "Medium"
+      "ieUnprefixed": ""
     },
     "spec": "speech-api",
     "msdn": "",
@@ -2401,7 +2399,7 @@
     "summary": "Enables web developers to incorporate speech synthesis into their web pages. ",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "14316"
     },
@@ -2647,10 +2645,9 @@
     "summary": "Allows formal parameters to be initialized with default values if no value is passed.",
     "standardStatus": "Established Standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
-      "ieUnprefixed": "10240",
-      "flag": true
+      "ieUnprefixed": "14342"
     },
     "spec": "es6",
     "msdn": "",
@@ -3029,10 +3026,9 @@
     "summary": "A generator is a special type of function that works as a factory for iterators.",
     "standardStatus": "Established Standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
-      "ieUnprefixed": "10240",
-      "flag": true
+      "ieUnprefixed": "10586"
     },
     "spec": "es6",
     "msdn": "",
@@ -3253,7 +3249,7 @@
     "summary": "Enables web applications to asynchronously transfer data from the user agent to a web server, with the user agent taking the responsibility to eventually send the data.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "14342"
     },
@@ -3572,9 +3568,9 @@
     "summary": "",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
-      "iePrefixed": "",
-      "ieUnprefixed": "10532",
+      "text": "Preview release",
+      "iePrefixed": "14342",
+      "ieUnprefixed": "",
       "flag": true
     },
     "spec": "es6",
@@ -3589,11 +3585,10 @@
     "summary": "",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "14279",
-      "priority": "",
-      "flag": true
+      "priority": ""
     },
     "spec": "es6",
     "msdn": "",
@@ -3608,10 +3603,9 @@
     "summary": "",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
-      "ieUnprefixed": "10547",
-      "flag": true
+      "ieUnprefixed": "14342"
     },
     "spec": "es6",
     "msdn": "",
@@ -3886,9 +3880,10 @@
     "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Established Standard",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "14342",
+      "flag": true
     },
     "spec": "es6",
     "impl_status_chrome": "No Signals",
@@ -4061,9 +4056,10 @@
     "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Established Standard",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "14342",
+      "flag": true
     },
     "spec": "es6",
     "id": 5365692190687232,
@@ -4206,7 +4202,7 @@
     "summary": "Input controls for picking colors via <input type='color'>.",
     "standardStatus": "Established Standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "14316"
     },
@@ -4501,7 +4497,7 @@
     "summary": "Based on experience with WOFF 1.0, which is widely deployed, this specification was developed to provide improved compression and thus lower use of network bandwidth, while still allowing fast decompression even on mobile devices. This is achieved by combining a content-aware preprocessing step and improved entropy coding, compared to the Flate compression used in WOFF 1.0.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "14316"
     },
@@ -4519,7 +4515,7 @@
     "summary": "The Fetch specification defines requests, responses, and the process that binds them; fetching.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "14342"
     },
@@ -5002,7 +4998,7 @@
     "summary": "An open codec for audio playback.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "14316"
     },
@@ -5102,13 +5098,12 @@
     "name": "VP9 Video Playback",
     "category": "Multimedia",
     "link": "http://webmproject.org/vp9",
-    "summary": "An open codec for video optimized on the web.",
+    "summary": "An open codec for video optimized on the web. In the current release, VP9 is only automatically enabled when hardware acceleration is detected. VP9 support can be toggled manually via about:flags.",
     "standardStatus": "Defacto standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
-      "ieUnprefixed": "14291",
-      "flag": true
+      "ieUnprefixed": "14291"
     },
     "spec": "",
     "msdn": "",
@@ -5462,7 +5457,7 @@
     "summary": "An HTML element for representing dates and times.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "14316",
       "priority": ""
@@ -5491,7 +5486,7 @@
     "summary": "An HTML element which represents its content in machine-readable and human-readable formats.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "14316",
       "priority": ""
@@ -5505,7 +5500,7 @@
     "summary": "An HTML element for representing the result of a calculation or user action.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "",
       "ieUnprefixed": "14316",
       "priority": ""
