@@ -3569,8 +3569,8 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Preview release",
-      "iePrefixed": "14342",
-      "ieUnprefixed": "",
+      "iePrefixed": "",
+      "ieUnprefixed": "14342",
       "flag": true
     },
     "spec": "es6",
