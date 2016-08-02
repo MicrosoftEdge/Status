@@ -17,3 +17,6 @@ HTML5 Logo and related Technology Class iconography by W3C, used under [Creative
 JS Logo used under the [MIT License](https://github.com/voodootikigod/logo.js/blob/master/LICENSE)
 
 No trademark licenses or rights are provided. All trademarks are the property of their respective owners.
+
+##Code of Conduct
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
