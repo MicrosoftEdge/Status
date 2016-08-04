@@ -302,7 +302,7 @@
     "category": "Network / Connectivity",
     "link": "https://tools.ietf.org/html/rfc7932",
     "summary": "Support for the Brotli data format as an HTTP content-encoding method.",
-    "standardStatus": "Defacto standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
