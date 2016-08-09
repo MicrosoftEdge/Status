@@ -273,7 +273,7 @@
     "name": "High Resolution Time 2",
     "category": "Performance",
     "link": "https://www.w3.org/TR/hr-time-2/",
-    "summary": "An API that provies the current time in sub-millisecond resolution and is not subject to system clock skew or adjustments.",
+    "summary": "An API that provides translation of the current sub-millisecond resolution time between origins.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
@@ -299,9 +299,9 @@
   {
     "name": "Brotli Compressed Data Format",
     "category": "Network / Connectivity",
-    "link": "https://datatracker.ietf.org/doc/draft-alakuijala-brotli/",
+    "link": "https://tools.ietf.org/html/rfc7932",
     "summary": "Support for the Brotli data format as an HTTP content-encoding method.",
-    "standardStatus": "Working draft or equivalent",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
