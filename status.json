@@ -1230,12 +1230,12 @@
     "name": "Fullscreen API",
     "category": "Misc",
     "link": "https://dvcs.w3.org/hg/fullscreen/raw-file/tip/Overview.html",
-    "summary": "Programmatically instruct content on the page to be presented in the browser's full screen (kiosk) mode.",
+    "summary": "Programmatically instruct content on the page to be presented in the browser's full screen (kiosk) mode. Starting in 14.14393, this is prefixed in Edge due to compatibility issues. We are working with other browser vendors to coordinate switching to an unprefixed implementation in the future.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "11",
-      "ieUnprefixed": "10240"
+      "ieUnprefixed": ""
     },
     "spec": "whatwg-fullscreen",
     "msdn": "https://msdn.microsoft.com/library/dn265028",
