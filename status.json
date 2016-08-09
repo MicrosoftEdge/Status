@@ -2583,6 +2583,23 @@
     "id": 6290890138058752
   },
   {
+    "name": "XMLHttpRequest.responseURL attribute",
+    "category": "Network / Connectivity",
+    "link": "https://xhr.spec.whatwg.org/#the-responseurl-attribute",
+    "summary": "Returns the serialized URL of the response (with the exclude fragment flag set) or returns the empty string if the URL is null.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Shipped",
+      "iePrefixed": "",
+      "ieUnprefixed": "14362"
+    },
+    "spec": "xhr",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null
+  },
+  {
     "name": "Arrow function (ES6)",
     "category": "JavaScript",
     "link": "http://ecma-international.org/ecma-262/6.0/index.html",
