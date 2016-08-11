@@ -1,5 +1,21 @@
 [
   {
+    "name": "SVG Accessibility API Mappings",
+    "category": "Misc",
+    "link": "http://www.w3.org/TR/svg-aam-1.0/",
+    "summary": "Defines how user agents map SVG markup to platform accessibility application programming interfaces.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Medium"
+    },
+    "spec": "",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null
+  },
+  {
     "name": "requestIdleCallback",
     "category": "Performance",
     "link": "http://www.w3.org/TR/requestidlecallback/",
