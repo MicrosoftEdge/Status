@@ -1,5 +1,21 @@
 [
   {
+    "name": "SVG Accessibility API Mappings",
+    "category": "Misc",
+    "link": "http://www.w3.org/TR/svg-aam-1.0/",
+    "summary": "Defines how user agents map SVG markup to platform accessibility application programming interfaces.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Medium"
+    },
+    "spec": "",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null
+  },
+  {
     "name": "requestIdleCallback",
     "category": "Performance",
     "link": "http://www.w3.org/TR/requestidlecallback/",
@@ -3578,7 +3594,7 @@
     "uservoiceid": 6512244
   },
   {
-    "name": "Async Functions (ES2016)",
+    "name": "Async Functions",
     "category": "JavaScript",
     "link": "https://tc39.github.io/ecmascript-asyncawait",
     "summary": "",
@@ -4041,7 +4057,7 @@
     "id": null
   },
   {
-    "name": "SIMD (ES7)",
+    "name": "SIMD",
     "category": "JavaScript",
     "summary": "Enables Single Instruction, Multiple Data instructions to be used from Javascript programs.",
     "link": "https://github.com/johnmccutchan/ecmascript_simd/",
@@ -5746,5 +5762,32 @@
     "wpd": "",
     "demo": "",
     "id": 5712439765106688
+  },
+  {
+    "name": "HTTP/2 Server Push",
+    "category": "Network / Connectivity",
+    "link": "https://tools.ietf.org/html/rfc7540#section-8.2",
+    "summary": "HTTP/2 allows a server to pre-emptively send (or \"push\") responses (along with corresponding \"promised\" requests) to a client in association with a previous client-initiated request.  This can be useful when the server knows the client will need to have those responses available in order to fully process the response to the original request.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text": "Shipped",
+      "iePrefixed": "",
+      "ieUnprefixed": "10240"
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "shipped_opera_milestone": true,
+    "safari_views": {
+      "text": "No public signals",
+      "value": 3
+    },
+    "spec": "",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null
   }
 ]
