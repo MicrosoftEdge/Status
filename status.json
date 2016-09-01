@@ -1350,7 +1350,7 @@
     "name": "Grid",
     "category": "CSS",
     "link": "https://dev.w3.org/csswg/css3-grid-layout/",
-    "summary": "A two-dimensional grid-based layout system, optimized for user interface design. Please see the <a href=\"/gridupdate\" title=\"Grid Update\">Grid Update</a> status item to see what this implementation does not support.",
+    "summary": "A two-dimensional grid-based layout system, optimized for user interface design. Please see the Grid Update status item to track an update to this implementation.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Prefixed",
@@ -1361,7 +1361,7 @@
     "msdn": "https://msdn.microsoft.com/en-us/library/hh673533",
     "wpd": "https://docs.webplatform.org/wiki/css/properties/grid",
     "demo": "",
-    "id": 4589636412243968
+    "id": null
   },
   {
     "name": "Grid Update",
