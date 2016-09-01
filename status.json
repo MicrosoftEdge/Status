@@ -1350,7 +1350,7 @@
     "name": "Grid",
     "category": "CSS",
     "link": "https://dev.w3.org/csswg/css3-grid-layout/",
-    "summary": "A two-dimensional grid-based layout system, optimized for user interface design.",
+    "summary": "A two-dimensional grid-based layout system, optimized for user interface design. Please see the <a href=\"/gridupdate\" title=\"Grid Update\">Grid Update</a> status item to see what this implementation does not support.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Prefixed",
@@ -1359,6 +1359,23 @@
     },
     "spec": "css-grid-1",
     "msdn": "https://msdn.microsoft.com/en-us/library/hh673533",
+    "wpd": "https://docs.webplatform.org/wiki/css/properties/grid",
+    "demo": "",
+    "id": 4589636412243968
+  },
+  {
+    "name": "Grid Update",
+    "category": "CSS",
+    "link": "https://dev.w3.org/csswg/css3-grid-layout/",
+    "summary": "This will update our current implementation, from IE10 to support some of the following: the implicit grid, grid-template-* syntax, subgrids, or grid-gap.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "spec": "css-grid-1",
+    "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/css/properties/grid",
     "demo": "",
     "id": 4589636412243968
