@@ -979,16 +979,15 @@
     "id": 5912074022551552
   },
   {
-    "name": "CSS Variables",
+    "name": "Custom Properties (a.k.a. CSS Variables)",
     "category": "CSS",
     "link": "https://www.w3.org/TR/css-variables/",
     "summary": "Introduces cascading variables as a new primitive value type that is accepted by all CSS properties, and custom properties for defining them.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "Medium"
+      "ieUnprefixed": ""
     },
     "spec": "",
     "msdn": "",
