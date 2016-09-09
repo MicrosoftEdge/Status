@@ -16,6 +16,24 @@
     "id": null
   },
   {
+    "name": "WebVR",
+    "category": "Graphics",
+    "link": "https://w3c.github.io/webvr/",
+    "summary": "Support for Virtual Reality applications on the web using head-mounted displays.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "In Development",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "spec": "",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 4532810371039232,
+    "uservoiceid": 7119843
+  },
+  {
     "name": "requestIdleCallback",
     "category": "Performance",
     "link": "http://www.w3.org/TR/requestidlecallback/",
