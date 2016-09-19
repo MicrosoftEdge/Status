@@ -2092,7 +2092,7 @@
   {
     "name": "Service Worker",
     "category": "Offline / Storage",
-    "link": "https://slightlyoff.github.io/ServiceWorker/spec/service_worker_1/",
+    "link": "https://w3c.github.io/ServiceWorker/",
     "summary": "ServiceWorkers (formerly Navigation Controllers) are a new system that provides event-driven scripts that run independent of web pages. They are similar to SharedWorkers except that their lifetime is different and they have access to domain-wide events such as network fetches.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -5747,7 +5747,7 @@
     {
     "name": "Cache API",
     "category": "Offline / Storage",
-    "link": "https://slightlyoff.github.io/ServiceWorker/spec/service_worker/#cache-objects",
+    "link": "https://w3c.github.io/ServiceWorker/#cache-objects",
     "summary": "The Cache API consists of additional ServiceWorker APIs which allow authors to fully and conveniently manage their content caches for offline use. An origin can have multiple, named Cache objects, whose contents are entirely under the control of Service Worker scripts.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
