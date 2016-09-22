@@ -362,7 +362,7 @@
     "summary": "Support for the Brotli data format as an HTTP content-encoding method.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
@@ -5192,7 +5192,7 @@
     "summary": "Support for the VP8 video format in RTC scenarios.",
     "standardStatus": "Defacto standard",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
       "ieUnprefixed": "",
       "priority": "High"
