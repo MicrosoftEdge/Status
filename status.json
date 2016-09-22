@@ -5194,8 +5194,7 @@
     "ieStatus": {
       "text": "In Development",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "High"
+      "ieUnprefixed": ""
     },
     "spec": "",
     "msdn": "",
