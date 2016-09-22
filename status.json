@@ -16,6 +16,31 @@
     "id": null
   },
   {
+    "name": "-webkit-text-stroke",
+    "category": "CSS",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke",
+    "summary": "The -webkit-text-stroke property sets the stroke width and color of an element’s text.",
+    "standardStatus": "De-facto Standard",
+    "ieStatus": {
+      "text": "In Development"
+    },
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Enabled by default",
+      "value": 2
+    },
+    "shipped_opera_milestone": true,
+    "spec": "",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null
+  },
+  {
     "name": "WebVR",
     "category": "Graphics",
     "link": "https://w3c.github.io/webvr/",
@@ -337,7 +362,7 @@
     "summary": "Support for the Brotli data format as an HTTP content-encoding method.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
@@ -5167,10 +5192,9 @@
     "summary": "Support for the VP8 video format in RTC scenarios.",
     "standardStatus": "Defacto standard",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "High"
+      "ieUnprefixed": ""
     },
     "spec": "",
     "msdn": "",
