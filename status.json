@@ -191,7 +191,7 @@
     "summary": "An interface to allow a web developer to asynchronously query the position of an element with respect to other elements or the global viewport.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "priority": "Medium",
       "iePrefixed": "",
       "ieUnprefixed": ""
