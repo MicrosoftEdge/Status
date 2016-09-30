@@ -16,6 +16,31 @@
     "id": null
   },
   {
+    "name": "-webkit-text-stroke",
+    "category": "CSS",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke",
+    "summary": "The -webkit-text-stroke property sets the stroke width and color of an element’s text.",
+    "standardStatus": "De-facto Standard",
+    "ieStatus": {
+      "text": "In Development"
+    },
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Enabled by default",
+      "value": 2
+    },
+    "shipped_opera_milestone": true,
+    "spec": "",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null
+  },
+  {
     "name": "WebVR",
     "category": "Graphics",
     "link": "https://w3c.github.io/webvr/",
@@ -345,6 +370,7 @@
     "msdn": "",
     "wpd": "",
     "demo": "",
+    "uservoiceid": 11364771,
     "id": 5420797577396224
   },
   {
@@ -5169,8 +5195,7 @@
     "ieStatus": {
       "text": "In Development",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "High"
+      "ieUnprefixed": ""
     },
     "spec": "",
     "msdn": "",
