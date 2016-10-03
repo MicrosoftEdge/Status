@@ -5829,5 +5829,23 @@
     "wpd": "",
     "demo": "",
     "id": null
+  },
+  {
+    "name": "Encoding Standard",
+    "category": "DOM",
+    "link": "https://encoding.spec.whatwg.org/",
+    "summary": "This specificaiton addresses gaps so user agents do not have to reverse engineer encoding implementations.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Medium"
+    },
+    "spec": "whatwg-encoding",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null
   }
 ]
