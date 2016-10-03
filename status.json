@@ -4458,7 +4458,7 @@
     "summary": "An API for reading the system's total number of logical processors available to the user agent, up to an optional thread limit per origin.",
     "standardStatus": "Public Proposal",
     "ieStatus": {
-      "text": "Not currently planned",
+      "text": "In Development",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
