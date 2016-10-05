@@ -384,7 +384,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "html51",
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh772925.aspx",
+    "msdn": "https://msdn.microsoft.com/library/hh772925.aspx",
     "wpd": "https://docs.webplatform.org/wiki/html/elements/datalist",
     "demo": "",
     "id": 6090950820495360
@@ -401,7 +401,7 @@
       "ieUnprefixed": ""
     },
     "spec": "webauthn",
-    "msdn": "",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/device/web-authentication/",
     "wpd": "",
     "demo": "",
     "id": null
@@ -466,7 +466,7 @@
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
     "spec": "",
-    "msdn": "",
+    "msdn": "https://msdn.microsoft.com/library/mt574730(v=vs.85).aspx",
     "wpd": "",
     "demo": "",
     "id": null,
@@ -507,7 +507,7 @@
       "value": 1
     },
     "spec": "html51",
-    "msdn": "",
+    "msdn": "https://msdn.microsoft.com/library/dn955124(v=vs.85).aspx",
     "wpd": "https://docs.webplatform.org/wiki/concepts/mobile_web/highdpi",
     "demo": "",
     "id": 4644337115725824,
@@ -553,7 +553,7 @@
       "ieUnprefixed": "10547"
     },
     "spec": "html51",
-    "msdn": "",
+    "msdn": "https://msdn.microsoft.com/library/mt574001(v=vs.85).aspx",
     "wpd": "",
     "demo": "",
     "id": 5910974510923776,
@@ -571,7 +571,7 @@
       "ieUnprefixed": "10547"
     },
     "spec": "html51",
-    "msdn": "",
+    "msdn": "https://msdn.microsoft.com/library/mt586693(v=vs.85).aspx",
     "wpd": "https://docs.webplatform.org/wiki/html/elements/template",
     "demo": "",
     "id": 5207287069147136,
@@ -599,7 +599,7 @@
       "value": 1
     },
     "spec": "html51",
-    "msdn": "",
+    "msdn": "https://msdn.microsoft.com/library/mt573149(v=vs.85).aspx",
     "wpd": "https://docs.webplatform.org/wiki/html/elements/meter",
     "demo": "",
     "id": null,
@@ -627,7 +627,7 @@
       "value": 1
     },
     "spec": "html51",
-    "msdn": "",
+    "msdn": "https://msdn.microsoft.com/library/mt587085(v=vs.85).aspx",
     "wpd": "",
     "demo": "",
     "id": null,
@@ -655,7 +655,7 @@
       "value": 1
     },
     "spec": "html51",
-    "msdn": "",
+    "msdn": "https://msdn.microsoft.com/library/mt629093",
     "wpd": "",
     "demo": "",
     "id": null,
@@ -739,7 +739,7 @@
       "value": 1
     },
     "spec": "html51",
-    "msdn": "",
+    "msdn": "https://msdn.microsoft.com/library/mt574720",
     "wpd": "",
     "demo": "",
     "id": null,
@@ -767,7 +767,7 @@
       "value": 1
     },
     "spec": "html51",
-    "msdn": "",
+    "msdn": "https://msdn.microsoft.com/library/mt574722",
     "wpd": "",
     "demo": "",
     "id": null,
@@ -803,7 +803,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "html51",
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh673545.aspx",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/networking-and-connectivity/application-cache/",
     "wpd": "",
     "demo": "",
     "id": 6192449487634432,
@@ -824,7 +824,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "html51",
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh772592",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/html5/video",
     "wpd": "",
     "demo": "",
     "id": 5748496434987008
@@ -841,7 +841,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "html51",
-    "msdn": "",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/html5/video",
     "wpd": "",
     "demo": "",
     "id": 5748496434987008,
@@ -859,7 +859,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "fileapi",
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh772298.aspx",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/html5/file-api/blob/",
     "wpd": "https://docs.webplatform.org/wiki/apis/file/Blob",
     "demo": "",
     "id": 5328783104016384
@@ -893,7 +893,7 @@
       "ieUnprefixed": "9"
     },
     "spec": "2dcontext",
-    "msdn": "https://msdn.microsoft.com/en-us/library/bg124101.aspx",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/graphics/canvas/",
     "wpd": "https://docs.webplatform.org/wiki/apis/canvas",
     "demo": "",
     "id": 5100084685438976
@@ -928,7 +928,7 @@
       "ieUnprefixed": "10532"
     },
     "spec": "compositing-1",
-    "msdn": "",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/graphics/canvas/",
     "wpd": "",
     "demo": "",
     "id": 6119881720201216,
@@ -946,7 +946,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "csp3",
-    "msdn": "",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/security/content-Security-Policy/",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/content-security-policy",
     "demo": "",
     "id": 5205088045891584,
@@ -982,7 +982,7 @@
       "ieUnprefixed": "9"
     },
     "spec": "",
-    "msdn": "https://msdn.microsoft.com/library/ms537660#calc",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/calc-function/",
     "wpd": "https://docs.webplatform.org/wiki/css/functions/calc",
     "demo": "",
     "id": 5765241438732288
@@ -1016,7 +1016,7 @@
       "ieUnprefixed": "11"
     },
     "spec": "pointerevents",
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh772044.aspx",
+    "msdn": "https://msdn.microsoft.com/library/hh772044.aspx",
     "wpd": "https://docs.webplatform.org/wiki/css/properties/touch-action",
     "demo": "",
     "id": 5912074022551552
@@ -1107,7 +1107,7 @@
       "ieUnprefixed": "11"
     },
     "spec": "orientation-event",
-    "msdn": "",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/device/device-orientation-and-motion-events/",
     "wpd": "",
     "demo": "",
     "id": 5556931766779904
@@ -1124,7 +1124,7 @@
       "ieUnprefixed": "11"
     },
     "spec": "orientation-event",
-    "msdn": "https://msdn.microsoft.com/en-us/library/dn342897.aspx",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/device/device-orientation-and-motion-events/",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/device_orientation",
     "demo": "",
     "id": 5874690627207168
@@ -1141,7 +1141,7 @@
       "ieUnprefixed": "11"
     },
     "spec": "cssom-view-1",
-    "msdn": "https://msdn.microsoft.com/en-us/library/dn255104.aspx",
+    "msdn": "https://msdn.microsoft.com/library/dn255104.aspx",
     "wpd": "",
     "demo": "",
     "id": 5269993591668736
@@ -1175,7 +1175,7 @@
       "ieUnprefixed": "8"
     },
     "spec": "pointerevents",
-    "msdn": "https://msdn.microsoft.com/en-us/library/ms536945.aspx",
+    "msdn": "https://msdn.microsoft.com/library/ms536945.aspx",
     "wpd": "https://docs.webplatform.org/wiki/dom/MouseEvent/mouseenter",
     "demo": "",
     "id": 4889528208719872
@@ -1227,7 +1227,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "encrypted-media",
-    "msdn": "https://msdn.microsoft.com/library/bg182646#eme",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/multimedia/encrypted-media-extensions/",
     "wpd": "",
     "demo": "",
     "id": 6578378068983808
@@ -1244,7 +1244,7 @@
       "ieUnprefixed": ""
     },
     "spec": "css-exclusions-1",
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh772711",
+    "msdn": "https://msdn.microsoft.com/library/hh772711",
     "wpd": "",
     "demo": "",
     "id": 6296903092273152
@@ -1261,6 +1261,7 @@
       "ieUnprefixed": "10586"
     },
     "spec": "filter-effects-1",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/filter-effects/",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/css_filters",
     "demo": "",
     "id": 5822463824887808,
@@ -1278,7 +1279,7 @@
       "ieUnprefixed": "11"
     },
     "spec": "css-flexbox-1",
-    "msdn": "https://msdn.microsoft.com/library/bg124109",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/flexbox/",
     "wpd": "https://docs.webplatform.org/wiki/css/flexbox",
     "demo": "",
     "id": 4837301406400512
@@ -1295,7 +1296,7 @@
       "ieUnprefixed": ""
     },
     "spec": "whatwg-fullscreen",
-    "msdn": "https://msdn.microsoft.com/library/dn265028",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/device/fullscreen-api/",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/using_the_full-screen_api",
     "demo": "",
     "id": 5259513871466496
@@ -1312,7 +1313,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "gamepad",
-    "msdn": "",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/dom/gamepad-api/",
     "wpd": "https://docs.webplatform.org/wiki/apis/gamepad/Gamepad",
     "demo": "",
     "id": 5118776383111168,
@@ -1348,7 +1349,7 @@
       "ieUnprefixed": "9"
     },
     "spec": "geolocation-api",
-    "msdn": "https://msdn.microsoft.com/ie/hh410106#_HTML5_geolocation",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/device/geolocation/",
     "wpd": "https://docs.webplatform.org/wiki/apis/geolocation",
     "demo": "",
     "id": 6348855016685568
@@ -1365,7 +1366,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "html-media-capture",
-    "msdn": "",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/multimedia/media-Capture-and-Streams/",
     "wpd": "https://docs.webplatform.org/wiki/dom/Navigator/getUserMedia",
     "demo": "",
     "id": 6067380039974912,
@@ -1383,7 +1384,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "css-images-3",
-    "msdn": "https://msdn.microsoft.com/library/hh673532",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/gradients/",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/CSS_gradients",
     "demo": "",
     "id": 5785905063264256
@@ -1400,7 +1401,7 @@
       "ieUnprefixed": ""
     },
     "spec": "css-grid-1",
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh673533",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/grid-layout/",
     "wpd": "https://docs.webplatform.org/wiki/css/properties/grid",
     "demo": "",
     "id": 4589636412243968
@@ -1482,7 +1483,7 @@
       "ieUnprefixed": "11"
     },
     "spec": "",
-    "msdn": "",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/security/HSTS/",
     "wpd": "",
     "demo": "",
     "id": 4941480133132288
@@ -1516,7 +1517,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "",
-    "msdn": "https://msdn.microsoft.com/library/dn905221.aspx",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/networking-and-connectivity/HTTP2/",
     "wpd": "",
     "demo": "",
     "id": null,
@@ -1598,7 +1599,7 @@
       "ieUnprefixed": ""
     },
     "spec": "ime-api",
-    "msdn": "https://msdn.microsoft.com/en-us/library/dn385696.aspx",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/dom/input-Method-Editor-API/",
     "wpd": "",
     "demo": "",
     "id": 6366722080636928
@@ -1615,7 +1616,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "indexeddb",
-    "msdn": "https://msdn.microsoft.com/library/hh673548",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/storage/IndexedDB/",
     "wpd": "https://docs.webplatform.org/wiki/apis/indexeddb",
     "demo": "",
     "id": 6507459568992256
@@ -1758,7 +1759,7 @@
       "ieUnprefixed": "9"
     },
     "spec": "",
-    "msdn": "https://msdn.microsoft.com/ie/hh393506#_CSS3_Media_Queries",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/media-queries/",
     "wpd": "https://docs.webplatform.org/wiki/css/atrules/%40media",
     "demo": "",
     "id": 5944509615570944
@@ -1775,7 +1776,7 @@
       "ieUnprefixed": "11"
     },
     "spec": "media-source",
-    "msdn": "https://msdn.microsoft.com/library/bg182646#mse",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/multimedia/media-source-extensions/",
     "wpd": "https://docs.webplatform.org/wiki/apis/media_source_extensions",
     "demo": "",
     "id": 4563797888991232
@@ -1828,7 +1829,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "css-transforms-1",
-    "msdn": "",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/transforms/",
     "wpd": "",
     "demo": "",
     "id": null,
@@ -1917,7 +1918,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "css-multicol-3",
-    "msdn": "https://msdn.microsoft.com/library/hh673534",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/multi-column-layout/",
     "wpd": "https://docs.webplatform.org/wiki/css/properties/column-count",
     "demo": "",
     "id": 6526151266664448
@@ -1934,7 +1935,7 @@
       "ieUnprefixed": "11"
     },
     "spec": "whatwg-dom",
-    "msdn": "https://msdn.microsoft.com/library/dn265034",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/dom/mutation-observers/",
     "wpd": "",
     "demo": "",
     "id": 5021194726146048
@@ -1951,7 +1952,7 @@
       "ieUnprefixed": "9"
     },
     "spec": "navigation-timing-2",
-    "msdn": "https://msdn.microsoft.com/library/hh673552",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/navigation-Timing-API/",
     "wpd": "https://docs.webplatform.org/wiki/apis/navigation_timing",
     "demo": "",
     "id": 5584144679567360
@@ -1968,7 +1969,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "page-visibility",
-    "msdn": "https://msdn.microsoft.com/library/hh673553",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/page-Visibility-API/",
     "wpd": "https://docs.webplatform.org/wiki/dom/Document/visibilitychange",
     "demo": "",
     "id": 5689697795833856
@@ -1985,7 +1986,7 @@
       "ieUnprefixed": "11"
     },
     "spec": "pointerevents",
-    "msdn": "https://msdn.microsoft.com/en-us/library/dn433244.aspx",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/dom/pointer-events/",
     "wpd": "https://docs.webplatform.org/wiki/PointerEvents",
     "demo": "",
     "id": 4504699138998272
@@ -2003,7 +2004,7 @@
     },
     "shipped_opera_milestone": true,
     "spec": "pointerlock",
-    "msdn": "",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/dom/pointer-lock/",
     "wpd": "",
     "demo": "",
     "id": 6753200417800192
@@ -2039,7 +2040,7 @@
       "ieUnprefixed": "8"
     },
     "spec": "webmessaging",
-    "msdn": "https://msdn.microsoft.com/en-us/library/cc197015.aspx",
+    "msdn": "https://msdn.microsoft.com/library/cc197015.aspx",
     "wpd": "https://docs.webplatform.org/wiki/dom/Window/postMessage",
     "demo": "",
     "id": 4786174115708928
@@ -2075,7 +2076,7 @@
       "priority": "Medium"
     },
     "spec": "css-regions-1",
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh772715.aspx",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/regions/",
     "wpd": "https://docs.webplatform.org/wiki/apis/css-regions",
     "demo": "",
     "id": 5655612935372800
@@ -2109,7 +2110,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "resource-timing",
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh772738.aspx",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/resource-timing-api/",
     "wpd": "https://docs.webplatform.org/wiki/apis/resource_timing",
     "demo": "",
     "id": 5796350423728128
@@ -2161,7 +2162,7 @@
       "ieUnprefixed": ""
     },
     "spec": "",
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh772328.aspx",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/streams-API/",
     "wpd": "",
     "demo": "",
     "id": 6605041225957376
@@ -2248,7 +2249,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "css-transforms-1",
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh772059.aspx",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/transforms/",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/css_transforms",
     "demo": "",
     "id": 6437640580628480
@@ -2265,7 +2266,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "es6",
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh869304.aspx",
+    "msdn": "https://msdn.microsoft.com/library/hh869304.aspx",
     "wpd": "",
     "demo": "",
     "id": 5135818813341696
@@ -2318,7 +2319,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "user-timing",
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh772738.aspx",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/user-timing-api/",
     "wpd": "https://docs.webplatform.org/wiki/apis/user_timing",
     "demo": "",
     "id": 5066549580791808
@@ -2389,7 +2390,7 @@
       "ieUnprefixed": ""
     },
     "spec": "webcryptoapi",
-    "msdn": "https://msdn.microsoft.com/en-us/library/dn265046.aspx",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/security/web-Cryptography-API/",
     "wpd": "",
     "demo": "",
     "id": 5030265697075200
@@ -2424,7 +2425,7 @@
       "ieUnprefixed": "14342"
     },
     "spec": "notifications",
-    "msdn": "",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/device/web-Notifications-API/",
     "wpd": "",
     "demo": "",
     "id": 5064350557536256,
@@ -2460,7 +2461,7 @@
       "ieUnprefixed": "14316"
     },
     "spec": "speech-api",
-    "msdn": "",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/multimedia/web-speech-api/",
     "wpd": "",
     "demo": "",
     "id": 4782875580825600,
@@ -2496,7 +2497,7 @@
       "ieUnprefixed": "8"
     },
     "spec": "webstorage",
-    "msdn": "https://msdn.microsoft.com/en-us/library/bg142799.aspx",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/storage/web-and-offline-storage/",
     "wpd": "https://docs.webplatform.org/wiki/apis/web-storage",
     "demo": "",
     "id": 5345825534246912
@@ -2585,7 +2586,7 @@
       "ieUnprefixed": "10547"
     },
     "spec": "ortc",
-    "msdn": "",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/realtime-communication/object-rtc-api/",
     "wpd": "",
     "demo": "",
     "id": null,
@@ -2613,7 +2614,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "html51",
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh673567.aspx",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/networking-and-connectivity/websocket/",
     "wpd": "https://docs.webplatform.org/wiki/concepts/protocols/websocket",
     "demo": "",
     "id": 6555138000945152,
@@ -2634,7 +2635,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "xhr",
-    "msdn": "https://msdn.microsoft.com/en-us/library/cc304105.aspx",
+    "msdn": "https://msdn.microsoft.com/library/cc304105.aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/xhr/XMLHttpRequest/timeout",
     "demo": "",
     "id": 6290890138058752
@@ -2687,7 +2688,7 @@
       "priority": "Low"
     },
     "spec": "css-align-3",
-    "msdn": "https://msdn.microsoft.com/en-us/library/bg124109.aspx#setting_flexbox_alignment_",
+    "msdn": "https://msdn.microsoft.com/library/bg124109.aspx#setting_flexbox_alignment_",
     "wpd": "",
     "demo": "",
     "id": 6173208034148352,
@@ -2868,7 +2869,7 @@
       "ieUnprefixed": "9"
     },
     "spec": "css-fonts-3",
-    "msdn": "https://msdn.microsoft.com/en-us/library/jj127324.aspx",
+    "msdn": "https://msdn.microsoft.com/library/jj127324.aspx",
     "wpd": "",
     "demo": "",
     "id": 4598830058176512
@@ -3049,7 +3050,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "webaudio",
-    "msdn": "",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/multimedia/web-Audio/",
     "wpd": "https://docs.webplatform.org/wiki/apis/webaudio",
     "demo": "",
     "id": 6261718720184320,
@@ -3193,7 +3194,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "touch-events",
-    "msdn": "",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/dom/touch-events/",
     "wpd": "",
     "demo": "",
     "id": 6156165603917824,
@@ -3248,7 +3249,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "fileapi",
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh772310.aspx",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/html5/file-api/filereader/",
     "wpd": "https://docs.webplatform.org/wiki/apis/file/FileReader",
     "demo": "",
     "id": 5171003185430528
@@ -3283,7 +3284,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "webmessaging",
-    "msdn": "https://msdn.microsoft.com/en-us/library/hh673525.aspx",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/realtime-communication/message-channels/",
     "wpd": "https://docs.webplatform.org/wiki/apis/web-messaging/MessageChannel",
     "demo": "",
     "id": 6710044586409984
@@ -3327,7 +3328,7 @@
       "ieUnprefixed": "14342"
     },
     "spec": "beacon",
-    "msdn": "",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/beacon-API/",
     "wpd": "",
     "demo": "",
     "id": 5517433905348608,
@@ -3345,7 +3346,7 @@
       "ieUnprefixed": "11"
     },
     "spec": "resource-hints",
-    "msdn": "",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/prerender-and-prefetch-support/",
     "wpd": "",
     "demo": "",
     "id": null,
@@ -3372,7 +3373,7 @@
       "ieUnprefixed": "11"
     },
     "spec": "resource-hints",
-    "msdn": "",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/prerender-and-prefetch-support/",
     "wpd": "",
     "demo": "",
     "id": null,
@@ -3426,7 +3427,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "dom-level-3-xpath",
-    "msdn": "",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/dom/xpath/",
     "wpd": "",
     "demo": "",
     "id": null,
@@ -3454,7 +3455,7 @@
       "ieUnprefixed": ""
     },
     "spec": "screen-orientation",
-    "msdn": "",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/device/screen-Orientation-API/",
     "wpd": "",
     "demo": "",
     "id": 6191285283061760
@@ -3498,7 +3499,7 @@
       "ieUnprefixed": "11"
     },
     "spec": "webdriver",
-    "msdn": "https://www.microsoft.com/en-us/download/details.aspx?id=48212",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/tools/webDriver/",
     "wpd": "",
     "demo": "",
     "id": null,
@@ -3525,7 +3526,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "svg2",
-    "msdn": "",
+    "msdn": "https://msdn.microsoft.com/library/dn806280",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/external_content_in_svg#Embedding_arbitrary_XML",
     "demo": "",
     "id": null,
@@ -3553,7 +3554,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "mediaqueries-4",
-    "msdn": "",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/media-queries/",
     "wpd": "https://docs.webplatform.org/wiki/css/atrules/%40media",
     "demo": "",
     "id": null,
@@ -3580,7 +3581,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "selection-api",
-    "msdn": "",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/html5/selection-API/",
     "wpd": "",
     "demo": "",
     "id": null,
@@ -4213,7 +4214,7 @@
     "summary": "Provides APIs for string comparison and date/time/number formatting in a locale-aware manner.",
     "link": "http://ecma-international.org/ecma-402/1.0/",
     "spec": "es6",
-    "msdn": "https://msdn.microsoft.com/en-us/library/dn342821.aspx",
+    "msdn": "https://msdn.microsoft.com/library/dn342821.aspx",
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
@@ -4290,7 +4291,7 @@
       "value": 3
     },
     "spec": "html51",
-    "msdn": "",
+    "msdn": "https://msdn.microsoft.com/library/mt668927",
     "wpd": "",
     "demo": "",
     "id": null
@@ -4312,7 +4313,7 @@
     },
     "shipped_opera_milestone": true,
     "spec": "html51",
-    "msdn": "",
+    "msdn": "https://msdn.microsoft.com/library/dn949189",
     "wpd": "",
     "demo": "",
     "id": 6640933999214592,
@@ -4335,7 +4336,7 @@
     },
     "shipped_opera_milestone": true,
     "spec": "html51",
-    "msdn": "",
+    "msdn": "https://msdn.microsoft.com/library/mt584201",
     "wpd": "",
     "demo": "",
     "id": 6640933999214592,
@@ -4363,7 +4364,7 @@
       "value": 1
     },
     "spec": "html51",
-    "msdn": "",
+    "msdn": "https://msdn.microsoft.com/library/mt634542",
     "wpd": "",
     "demo": "",
     "id": null,
@@ -4603,7 +4604,7 @@
       "value": 3
     },
     "spec": "whatwg-fetch",
-    "msdn": "",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/fetch-API/",
     "wpd": "",
     "demo": "",
     "id": 6730533392351232,
@@ -4685,7 +4686,7 @@
       "value": 2
     },
     "spec": "css-image-4",
-    "msdn": "",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/gradients/#gradient-midpoints",
     "wpd": "",
     "demo": "",
     "id": null
@@ -4884,7 +4885,7 @@
       "value": 1
     },
     "spec": "",
-    "msdn": "https://msdn.microsoft.com/en-us/library/dn255006.aspx",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/f12-devtools-guide/console/",
     "wpd": "",
     "demo": "",
     "id": null,
@@ -5545,7 +5546,7 @@
     },
     "shipped_opera_milestone": false,
     "spec": "html51",
-    "msdn": "",
+    "msdn": "https://msdn.microsoft.com/library/mt706248",
     "wpd": "",
     "demo": "",
     "id": null,
@@ -5588,7 +5589,7 @@
     },
     "shipped_opera_milestone": true,
     "spec": "html51",
-    "msdn": "",
+    "msdn": "https://msdn.microsoft.com/library/mt732268",
     "wpd": "",
     "demo": "",
     "id": null,
@@ -5692,7 +5693,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "es6",
-    "msdn": "https://msdn.microsoft.com/en-us/library/mt146826.aspx",
+    "msdn": "https://msdn.microsoft.com/library/mt146826.aspx",
     "wpd": "",
     "demo": "",
     "id": 6060641169178624
@@ -5825,7 +5826,7 @@
       "value": 3
     },
     "spec": "",
-    "msdn": "",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/networking-and-connectivity/HTTP2/",
     "wpd": "",
     "demo": "",
     "id": null
