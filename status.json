@@ -4458,7 +4458,7 @@
     "summary": "An API for reading the system's total number of logical processors available to the user agent, up to an optional thread limit per origin.",
     "standardStatus": "Public Proposal",
     "ieStatus": {
-      "text": "Not currently planned",
+      "text": "In Development",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
@@ -5825,6 +5825,24 @@
       "value": 3
     },
     "spec": "",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null
+  },
+  {
+    "name": "Encoding Standard",
+    "category": "DOM",
+    "link": "https://encoding.spec.whatwg.org/",
+    "summary": "This specificaiton addresses gaps so user agents do not have to reverse engineer encoding implementations.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": "",
+      "priority": "Medium"
+    },
+    "spec": "whatwg-encoding",
     "msdn": "",
     "wpd": "",
     "demo": "",
