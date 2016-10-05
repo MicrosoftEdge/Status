@@ -3083,7 +3083,7 @@
       "text": "Under Consideration",
       "iePrefixed": "",
       "ieUnprefixed": "",
-      "priority": "Medium"
+      "priority": "High"
     },
     "spec": "css-images-3",
     "msdn": "",
@@ -5434,7 +5434,7 @@
       "text": "Under Consideration",
       "iePrefixed": "",
       "ieUnprefixed": "",
-      "priority": "Low"
+      "priority": "Medium"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
