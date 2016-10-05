@@ -1,5 +1,21 @@
 [
   {
+    "name": "Font Variation Properties",
+    "category": "CSS",
+    "link": "https://drafts.csswg.org/css-fonts-4/#font-variation-props",
+    "summary": "Allows multiple instances of fonts to be defined by interpolating glyph outlines along different axis.",
+    "standardStatus": "Editor's Draft",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "High"
+    },
+    "spec": "",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null
+  },
+  {
     "name": "SVG Accessibility API Mappings",
     "category": "Misc",
     "link": "http://www.w3.org/TR/svg-aam-1.0/",
