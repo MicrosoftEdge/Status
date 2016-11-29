@@ -3235,10 +3235,10 @@
     "uservoiceid": 6508302
   },
   {
-    "name": "Runtime error reporting: ErrorEvent.",
+    "name": "onerror Exception Parameter (5th Parameter)",
     "category": "DOM",
     "link": "https://www.w3.org/html/wg/drafts/html/master/webappapis.html#runtime-script-errors",
-    "summary": "Unhandled exceptions trigger the 'window.onerror' callback (or 'self.onerror' inside Workers) for centralized handling.",
+    "summary": "Unhandled exceptions trigger the 'window.onerror' callback (or 'self.onerror' inside Workers) for centralized handling. The 5th parameter will have the exception itself.",
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration",
