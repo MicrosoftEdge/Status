@@ -2745,6 +2745,23 @@
     "id": 5425136400334848,
     "uservoiceid": 6263676
   },
+   {
+    "name": "CSS filter(url) using SVG elements",
+    "category": "CSS",
+    "link": "https://www.w3.org/TR/filter-effects/#typedef-url",
+    "summary": "The function allows filtering using SVG Filter elements as the filter function.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "spec": "filter-effects-1",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 5822463824887808
+  }, 
   {
     "name": "Default parameter (ES6)",
     "category": "JavaScript",
