@@ -2572,6 +2572,24 @@
     "uservoiceid": 6517037
   },
   {
+    "name": "APNG image format",
+    "category": "Graphics",
+    "link": "https://wiki.mozilla.org/APNG_Specification",
+    "summary": "APNG is an extension of the PNG format, adding support for animated images.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text": "Not currently planned",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "spec": "",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 6691520493125632,
+    "uservoiceid": 6513393
+  },
+  {
     "name": "WebP image format support",
     "category": "Graphics",
     "link": "https://developers.google.com/speed/webp/docs/riff_container",
