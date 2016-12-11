@@ -3458,7 +3458,7 @@
     }
   },
   {
-    "name": "CSS Scrolling Snap Points",
+    "name": "CSS Scroll Snap Points",
     "category": "CSS",
     "link": "https://dev.w3.org/csswg/css-snappoints/",
     "summary": "Enables rich, customizable, and performant scrolling experiences like pagination of carousels by using snap points that enforce the scroll offsets that a scroll container may end at after a scrolling operation has completed. ",
@@ -3472,7 +3472,7 @@
     "msdn": "",
     "wpd": "",
     "demo": "",
-    "id": null,
+    "id": 5721832506261504,
     "impl_status_chrome": "No active development",
     "ff_views": {
       "text": "No public signals",
