@@ -2590,7 +2590,7 @@
     "uservoiceid": 6513393
   },
   {
-    "name": "WebP image format support",
+    "name": "WebP image format",
     "category": "Graphics",
     "link": "https://developers.google.com/speed/webp/docs/riff_container",
     "summary": "WebP is an image format that provides lossless and lossy compression for images on the web. ",
@@ -2779,7 +2779,7 @@
     "wpd": "",
     "demo": "",
     "id": 5822463824887808
-  }, 
+  },
   {
     "name": "Default parameter (ES6)",
     "category": "JavaScript",
