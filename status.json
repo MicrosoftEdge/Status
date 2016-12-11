@@ -2835,7 +2835,7 @@
     "id": 5937087912083456
   },
   {
-    "name": "Ambient Light Events",
+    "name": "Ambient Light Sensor API - based on Generic Sensor API",
     "category": "Device",
     "link": "https://www.w3.org/TR/ambient-light/",
     "summary": "Ambient Light Event API which is a handy way to make a web page or web app aware of any change in light intensity.",
