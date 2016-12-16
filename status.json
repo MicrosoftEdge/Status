@@ -5787,15 +5787,15 @@
     "uservoiceid": null
   },
   {
-    "name": "Web Payments API",
+    "name": "Payment Request API",
     "category": "Misc",
     "link": "https://www.w3.org/TR/payment-request/",
     "summary": "A web API to allow merchants (i.e. web sites selling physical or digital goods) to easily accept payments from different payment methods with minimal integration.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "14986"
     },
     "spec": "paymentrequest",
     "msdn": "",
