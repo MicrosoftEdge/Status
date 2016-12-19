@@ -122,6 +122,35 @@
     "uservoiceid": 257854
   },
   {
+    "name": "CSS resize",
+    "category": "Graphics",
+    "link": "https://drafts.csswg.org/css-ui/#resize",
+    "summary": "Allows one to specify whether or not an element is resizable by the user, and if so, along which axis/axes",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Low",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Enabled by default",
+      "value": 2
+    },
+    "shipped_opera_milestone": true,
+    "spec": "",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 6513977
+  },
+  {
     "name": "CSS outline-offset",
     "category": "Graphics",
     "link": "https://drafts.csswg.org/css-ui/#outline-offset",
@@ -1437,7 +1466,7 @@
     "wpd": "https://docs.webplatform.org/wiki/css/properties/grid",
     "demo": "",
     "id": 4589636412243968,
-    "uservoiceid": 6514853 
+    "uservoiceid": 6514853
   },
   {
     "name": "HTML Form HTTP Extensions",
