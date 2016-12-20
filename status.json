@@ -695,7 +695,7 @@
     },
     "shipped_opera_milestone": true,
     "safari_views": {
-      "text": "Preview release",
+      "text": "Preview Release",
       "value": 1
     },
     "spec": "2dcontext",
@@ -3711,7 +3711,7 @@
     "summary": "",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview release",
+      "text": "Preview Release",
       "iePrefixed": "",
       "ieUnprefixed": "14342",
       "flag": true
@@ -4199,7 +4199,7 @@
     "link": "http://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Established Standard",
     "ieStatus": {
-      "text": "Preview release",
+      "text": "Preview Release",
       "iePrefixed": "",
       "ieUnprefixed": "14342",
       "flag": true
