@@ -5240,7 +5240,7 @@
   {
     "name": "VP9 Video Playback",
     "category": "Multimedia",
-    "link": "http://webmproject.org/vp9",
+    "link": "https://www.webmproject.org/vp9",
     "summary": "An open codec for video optimized on the web. In the current release, VP9 is only automatically enabled when hardware acceleration is detected. VP9 support can be toggled manually via about:flags.",
     "standardStatus": "Defacto standard",
     "ieStatus": {
