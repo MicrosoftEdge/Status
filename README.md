@@ -10,11 +10,8 @@ Want to contribute to this project? We'd love to have your help!  Take a look at
 Note that this GitHub project is *not* for making feature requests for or reporting bugs in Internet Explorer or Microsoft Edge. Browser feedback can be provided through the [issue tracker](https://developer.microsoft.com/microsoft-edge/platform/issues/) and on [UserVoice](https://wpdev.uservoice.com/forums/257854-microsoft-edge-developer).
 
 ## Additional Attributions
-Portions of the content in this page are from chromestatus.com, used under [Creative Commons Attribution 2.5 License](https://creativecommons.org/licenses/by/2.5/legalcode)
 
-HTML5 Logo and related Technology Class iconography by W3C, used under [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/legalcode)
-
-JS Logo used under the [MIT License](https://github.com/voodootikigod/logo.js/blob/master/LICENSE)
+Portions of the content in this page are from [chromestatus.com](https://www.chromestatus.com), used under [Creative Commons Attribution 2.5 License](https://creativecommons.org/licenses/by/2.5/legalcode).
 
 No trademark licenses or rights are provided. All trademarks are the property of their respective owners.
 
