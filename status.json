@@ -5917,7 +5917,7 @@
     "wpd": "",
     "demo": "",
     "id": 5714368087982080
-  }
+  },
   {
     "name": "Geometry Interfaces",
     "category": "Graphics",
@@ -5927,7 +5927,7 @@
     "ieStatus": {
       "text": "Under Consideration",
       "iePrefixed": "",
-      "ieUnprefixed": "",
+      "ieUnprefixed": ""
     },
     "msdn": "",
     "wpd": "",
