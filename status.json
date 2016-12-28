@@ -18,7 +18,7 @@
   {
     "name": "SVG Accessibility API Mappings",
     "category": "Misc",
-    "link": "http://www.w3.org/TR/svg-aam-1.0/",
+    "link": "https://www.w3.org/TR/svg-aam-1.0/",
     "summary": "Defines how user agents map SVG markup to platform accessibility application programming interfaces.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -77,7 +77,7 @@
   {
     "name": "requestIdleCallback",
     "category": "Performance",
-    "link": "http://www.w3.org/TR/requestidlecallback/",
+    "link": "https://www.w3.org/TR/requestidlecallback/",
     "summary": "Allows developers to cooperatively schedule background tasks to avoid introducing delays with high priority tasks in the same event loop.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -152,7 +152,7 @@
   {
     "name": "Frame Timing",
     "category": "Performance",
-    "link": "http://www.w3.org/TR/frame-timing/",
+    "link": "https://www.w3.org/TR/frame-timing/",
     "summary": "An interface for web applications to access runtime performance information of the browser event loop.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -264,7 +264,7 @@
   {
     "name": "Server Timing",
     "category": "Performance",
-    "link": "http://www.w3.org/TR/server-timing/",
+    "link": "https://www.w3.org/TR/server-timing/",
     "summary": "Enables the server to communicate request-response cycle metrics to the user agent, and provides a JavaScript interface to enable applications to access and act on those metrics.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -301,7 +301,7 @@
   {
     "name": "DNS Prefetch Resource Hints",
     "category": "Performance",
-    "link": "http://www.w3.org/TR/resource-hints/#dns-prefetch",
+    "link": "https://www.w3.org/TR/resource-hints/#dns-prefetch",
     "summary": "A link relation type used to indicate an origin that will be used to fetch required resources and that the browser should resolve as early as possible.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -328,7 +328,7 @@
   {
     "name": "Preconnect Resource Hints",
     "category": "Performance",
-    "link": "http://www.w3.org/TR/resource-hints/#preconnect",
+    "link": "https://www.w3.org/TR/resource-hints/#preconnect",
     "summary": "A link relation type used to indicate an origin that will be used to fetch required resources, so the browser can open a connection early for resouces that will be required later in the loading process.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -883,7 +883,7 @@
   {
     "name": "ES6 Block bindings (let, const, function)",
     "category": "JavaScript",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
+    "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "Allows developers to explicitly qualify access to variables within a block.",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -1712,7 +1712,7 @@
   {
     "name": "Map (ES6)",
     "category": "JavaScript",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
+    "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "Map objects are simple key/value maps.",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -2169,7 +2169,7 @@
   {
     "name": "Set (ES6)",
     "category": "JavaScript",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
+    "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "Set objects let you store unique values of any type, whether primitive values or object references.",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -2290,7 +2290,7 @@
   {
     "name": "Typed Arrays (ES6)",
     "category": "JavaScript",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html#sec-typedarray-objects",
+    "link": "https://ecma-international.org/ecma-262/6.0/index.html#sec-typedarray-objects",
     "summary": "Buffers for holding binary data and working with WebGL & Audio API: ArrayBuffer, Float32Array , Int16Array, Uint8Array, etc.)",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -2378,7 +2378,7 @@
   {
     "name": "WeakMap (ES6)",
     "category": "JavaScript",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
+    "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "WeakMaps are key/value maps in which keys are objects.",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -2711,7 +2711,7 @@
   {
     "name": "Arrow function (ES6)",
     "category": "JavaScript",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
+    "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "The arrow (=>) provides a shorthand for the function keyword with lexical 'this' binding.",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -2783,7 +2783,7 @@
   {
     "name": "Default parameter (ES6)",
     "category": "JavaScript",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
+    "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "Allows formal parameters to be initialized with default values if no value is passed.",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -2801,7 +2801,7 @@
   {
     "name": "Destructuring (ES6)",
     "category": "JavaScript",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
+    "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "Destructuring assignment allows extracting data from arrays or objects using a syntax that mirrors array and object literals.",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -2820,7 +2820,7 @@
   {
     "name": "Rest parameters (ES6)",
     "category": "JavaScript",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
+    "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "Allows representation of an indefinite number of arguments as an array.",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -2964,7 +2964,7 @@
   {
     "name": "ES6 Iterators (i.e. the for-of feature)",
     "category": "JavaScript",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
+    "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "Iterates over iterable objects (including arrays, array-like objects, iterators and generators), invoking a custom iteration hook with statements to be executed for the value of each distinct property.",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -2981,7 +2981,7 @@
   {
     "name": "Network Error Logging",
     "category": "Performance",
-    "link": "http://w3c.github.io/network-error-logging/",
+    "link": "https://wicg.github.io/network-error-logging/",
     "summary": "This specification defines an interface to store and retrieve error data related to the previous navigations of a document.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
@@ -3019,7 +3019,7 @@
   {
     "name": "Symbols (ES6)",
     "category": "JavaScript",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
+    "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "Allows properties to be added to existing objects without the possibility of interference with the existing properties, unintended visibility, or with other uncoordinated additions by any other code.",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -3165,7 +3165,7 @@
   {
     "name": "Generators (ES6)",
     "category": "JavaScript",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
+    "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "A generator is a special type of function that works as a factory for iterators.",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -3236,7 +3236,7 @@
   {
     "name": "Proxies (ES6)",
     "category": "JavaScript",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
+    "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "Proxies are objects for which the programmer has to define the semantics in JavaScript. ",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -3668,7 +3668,7 @@
   {
     "name": "ES6 Object Literal Enhancements",
     "category": "JavaScript",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html#sec-object-initializer",
+    "link": "https://ecma-international.org/ecma-262/6.0/index.html#sec-object-initializer",
     "summary": "Adds computed properties, concise method definitions, and short-hand for properties whose value is initialized to a same-named variable.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -3689,7 +3689,7 @@
   {
     "name": "Promises (ES6)",
     "category": "JavaScript",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html#sec-promise-objects",
+    "link": "https://ecma-international.org/ecma-262/6.0/index.html#sec-promise-objects",
     "summary": "Allows easier and cleaner asynchronous coding. Adds the Promise constructor, along with the 'all' and 'race' utility methods to the language itself.",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -3939,7 +3939,7 @@
     "name": "Math Built-ins (ES6)",
     "category": "JavaScript",
     "summary": "Math related functions - sign, trunc, sinh, cosh, tanh, asinh, acosh, atanh, log10, log2, hypot, fround, clz32, cbrt, log1p, expm1.",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html#sec-math-object",
+    "link": "https://ecma-international.org/ecma-262/6.0/index.html#sec-math-object",
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
@@ -3953,7 +3953,7 @@
     "name": "Number Built-ins (ES6)",
     "category": "JavaScript",
     "summary": "New methods and properties on Number, including isFinite, isInteger, isSafeInteger, isNaN, EPSILON, MIN_SAFE_INTEGER, and MAX_SAFE_INTEGER.",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
+    "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
@@ -3977,7 +3977,7 @@
     "name": "String Built-ins (ES6)",
     "category": "JavaScript",
     "summary": "New methods on String including String.raw and String.fromCodePoint. New methods on String.prototype including codePointAt, normalize, repeat, startsWith, endsWith, and includes.",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
+    "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
@@ -4001,7 +4001,7 @@
     "name": "Object Built-ins (ES6)",
     "category": "JavaScript",
     "summary": "New methods on Object including assign, is, getOwnPropertySymbols, and setPrototypeOf",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
+    "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
@@ -4020,7 +4020,7 @@
     "name": "RegExp Built-ins (ES6)",
     "category": "JavaScript",
     "summary": "New methods on RegExp.prototype including match, replace, search, and split.",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
+    "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Preview Release",
@@ -4045,7 +4045,7 @@
     "name": "WeakSet (ES6)",
     "category": "JavaScript",
     "summary": "Contains a set of objects such that those objects will be collected if they are not referenced anywhere else.",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html#sec-math-object",
+    "link": "https://ecma-international.org/ecma-262/6.0/index.html#sec-math-object",
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
@@ -4059,7 +4059,7 @@
     "name": "__proto__ (ES6)",
     "category": "JavaScript",
     "summary": "Support for legacy prototype manipulation similar to Object.setPrototypeOf.",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
+    "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
@@ -4083,7 +4083,7 @@
     "name": "Classes (ES6)",
     "category": "JavaScript",
     "summary": "Syntax for declaring classes.",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
+    "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
@@ -4099,7 +4099,7 @@
     "name": "Spread (ES6)",
     "category": "JavaScript",
     "summary": "The spread operator expands iterable expressions into individual arguments. For example, a.b(…array) is roughly the same as a.b.apply(a, array).",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
+    "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
@@ -4117,7 +4117,7 @@
     "name": "Template Strings (ES6)",
     "category": "JavaScript",
     "summary": "String literals that allow for expressions to be evaluated and concatenated with the string literal.",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
+    "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
@@ -4131,7 +4131,7 @@
     "name": "Tail Calls (ES6)",
     "category": "JavaScript",
     "summary": "Enables boundlessly recursive algorithms (using constant stack space) for certain code patterns.",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
+    "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Under Consideration",
@@ -4147,7 +4147,7 @@
     "name": "Subclassing (ES6)",
     "category": "JavaScript",
     "summary": "Allows subclassing of built-in types such as Dates and Arrays.",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
+    "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
@@ -4196,7 +4196,7 @@
     "name": "Modules (ES6)",
     "category": "JavaScript",
     "summary": "Language-level support for defining and consuming modules.",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
+    "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Preview Release",
@@ -4281,7 +4281,7 @@
     "name": "ECMAScript Internationalization API",
     "category": "JavaScript",
     "summary": "Provides APIs for string comparison and date/time/number formatting in a locale-aware manner.",
-    "link": "http://ecma-international.org/ecma-402/1.0/",
+    "link": "https://ecma-international.org/ecma-402/1.0/",
     "spec": "es6",
     "msdn": "https://msdn.microsoft.com/library/dn342821.aspx",
     "standardStatus": "Established Standard",
@@ -4305,7 +4305,7 @@
   {
     "name": "ES6 Numeric Literals",
     "category": "JavaScript",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html",
+    "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "Allows binary and octal numeric literals using 0b101 and 0o753 respectively.",
     "standardStatus": "Established Standard",
     "ieStatus": {
@@ -5155,7 +5155,7 @@
   {
     "name": "Vorbis Audio Codec",
     "category": "Multimedia",
-    "link": "http://xiph.org/vorbis",
+    "link": "https://xiph.org/vorbis",
     "summary": "An open codec for audio.",
     "standardStatus": "Defacto standard",
     "ieStatus": {
@@ -5184,7 +5184,7 @@
   {
     "name": "Theora Video Codec",
     "category": "Multimedia",
-    "link": "http://xiph.org/theora",
+    "link": "https://xiph.org/theora",
     "summary": "An open video codec.",
     "standardStatus": "Defacto standard",
     "ieStatus": {
@@ -5211,7 +5211,7 @@
   {
     "name": "OGG Container",
     "category": "Multimedia",
-    "link": "http://xiph.org/ogg/doc/",
+    "link": "https://xiph.org/ogg/doc/",
     "summary": "An open multimedia container.",
     "standardStatus": "Defacto standard",
     "ieStatus": {
@@ -5258,7 +5258,7 @@
   {
     "name": "VP8 for RTC",
     "category": "Multimedia",
-    "link": "http://tools.ietf.org/html/rfc6386",
+    "link": "https://tools.ietf.org/html/rfc6386",
     "summary": "Support for the VP8 video format in RTC scenarios.",
     "standardStatus": "Defacto standard",
     "ieStatus": {
@@ -5274,7 +5274,7 @@
   {
     "name": "H.264/AVC for RTC",
     "category": "Multimedia",
-    "link": "http://www.itu.int/rec/T-REC-H.264",
+    "link": "https://www.itu.int/rec/T-REC-H.264",
     "summary": "Support for H.264/AVC in RTC scenarios.",
     "standardStatus": "Defacto standard",
     "ieStatus": {
@@ -5290,7 +5290,7 @@
   {
     "name": "RTC Data Channels",
     "category": "Multimedia",
-    "link": "http://w3c.github.io/webrtc-pc/#peer-to-peer-data-api",
+    "link": "https://w3c.github.io/webrtc-pc/#peer-to-peer-data-api",
     "summary": "Data channels allow a web application to send and receive generic application data peer-to-peer.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -5736,7 +5736,7 @@
     "spec": "html51",
     "msdn": "",
     "wpd": "",
-    "demo": "http://www.impressivewebs.com/html5-form-attribute/",
+    "demo": "https://www.impressivewebs.com/html5-form-attribute/",
     "id": null,
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
@@ -5753,7 +5753,7 @@
   {
     "name": "Reflect (ES6)",
     "category": "JavaScript",
-    "link": "http://ecma-international.org/ecma-262/6.0/index.html#sec-reflection",
+    "link": "https://ecma-international.org/ecma-262/6.0/index.html#sec-reflection",
     "summary": "Provides methods for use in operations that are intercepted. Reflect methods are often used with proxies because they allow you to delegate to default behavior without implementing the default behavior in your code.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -5807,7 +5807,7 @@
   {
     "name": "Web Assembly (MVP)",
     "category": "JavaScript",
-    "link": "http://webassembly.github.io/ ",
+    "link": "https://webassembly.github.io/ ",
     "summary": "WebAssembly or wasm is a new portable, size- and load-time-efficient format suitable for compilation to the web.",
     "ieStatus": {
       "text": "In Development",
