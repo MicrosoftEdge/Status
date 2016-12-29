@@ -5937,15 +5937,14 @@
   },
   {
     "name": "Background Sync API",
-    "category": "JavaScript",
+    "category": "Offline / Storage",
     "link": "https://wicg.github.io/BackgroundSync/spec/",
     "summary": "Provides an API for notifying a Service Worker that the user has come back online, or to schedule periodic events to synchronize local data with the server.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "In Development",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "Low"
+      "ieUnprefixed": ""
     },
     "spec": "bgsync",
     "msdn": "",
