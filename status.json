@@ -3762,7 +3762,7 @@
     "summary": "Shared memory and atomics for ECMAscript.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "iePrefixed": "",
       "ieUnprefixed": ""
     },
