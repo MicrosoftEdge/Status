@@ -1437,7 +1437,8 @@
     "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/css/properties/grid",
     "demo": "",
-    "id": 4589636412243968
+    "id": 4589636412243968,
+    "uservoiceid": 6514853 
   },
   {
     "name": "HTML Form HTTP Extensions",
@@ -1553,17 +1554,7 @@
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/networking-and-connectivity/HTTP2/",
     "wpd": "",
     "demo": "",
-    "id": null,
-    "impl_status_chrome": "Enabled by default",
-    "ff_views": {
-      "text": "Shipped",
-      "value": 1
-    },
-    "shipped_opera_milestone": true,
-    "safari_views": {
-      "text": "In development",
-      "value": 2
-    }
+    "id": "5152586365665280"
   },
   {
     "name": "iframe[sandbox] attribute",
