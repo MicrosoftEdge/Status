@@ -63,9 +63,9 @@
     "summary": "Support for Virtual Reality applications on the web using head-mounted displays.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "15002"
     },
     "spec": "",
     "msdn": "",
@@ -232,9 +232,9 @@
     "summary": "An interface to allow a web developer to asynchronously query the position of an element with respect to other elements or the global viewport.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "14986"
     },
     "spec": "intersection-observer",
     "msdn": "",
@@ -377,9 +377,9 @@
     "summary": "Support for the Brotli data format as an HTTP content-encoding method.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "14986"
     },
     "spec": "",
     "msdn": "",
@@ -975,9 +975,9 @@
     "summary": "An evolution of the Content Security Policy specification, allowing developers to create a whitelist of sources of trusted content, and instructing the browser to only execute or render resources from those sources.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "15002"
     },
     "spec": "csp2",
     "msdn": "",
@@ -3713,8 +3713,8 @@
     "ieStatus": {
       "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": "14342",
-      "flag": true
+      "ieUnprefixed": "15002",
+      "flag": false
     },
     "spec": "es6",
     "msdn": "",
@@ -5795,7 +5795,7 @@
     "ieStatus": {
       "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": "14986"
+      "ieUnprefixed": "15002"
     },
     "spec": "paymentrequest",
     "msdn": "",
@@ -5937,15 +5937,14 @@
   },
   {
     "name": "Background Sync API",
-    "category": "JavaScript",
+    "category": "Offline / Storage",
     "link": "https://wicg.github.io/BackgroundSync/spec/",
     "summary": "Provides an API for notifying a Service Worker that the user has come back online, or to schedule periodic events to synchronize local data with the server.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "In Development",
       "iePrefixed": "",
-      "ieUnprefixed": "",
-      "priority": "Low"
+      "ieUnprefixed": ""
     },
     "spec": "bgsync",
     "msdn": "",
