@@ -1015,7 +1015,7 @@
     "uservoiceid": 9163354
   },
   {
-    "name": "Content Security Policy Level 3 'strict-dynamic' source expression",
+    "name": "CSP Level 3 strict-dynamic source expression",
     "category": "Security",
     "link": "https://w3c.github.io/webappsec-csp/#strict-dynamic-usage",
     "summary": "Allows script loaded via a CSP2 nonce-based or hash-based whitelist to load other script, enabling developers and site administrators to reduce their reliance on whitelists and to tighten CSP implementations.",
@@ -1032,7 +1032,7 @@
     "id": 5633814718054400
   },
   {
-    "name": "Content Security Policy 'upgrade-insecure-requests' directive",
+    "name": "CSP upgrade-insecure-requests directive",
     "category": "Security",
     "link": "https://www.w3.org/TR/upgrade-insecure-requests/",
     "summary": "Allows a server to instruct the user agent to upgrade insecure requests via a Content-Security-Policy header. This directive is meant to make it even easier for a site administrator to move towards using all secure transports, while avoiding having to make massive updates to URLs in their web applications.",
