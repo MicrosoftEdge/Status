@@ -6000,5 +6000,22 @@
     "wpd": "",
     "id": 6170807885627392,
     "uservoiceid": null
+  },
+  {
+    "name": "Media Session",
+    "category": "Multimedia",
+    "link": "https://wicg.github.io/mediasession",
+    "summary": "Enable websites to customize media metadata so they can control the notification and lock screen UI. Also, allow them to control media in the page from outside the page, such as platform UIs and media keys.",
+    "standardStatus": "Editor's draft",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 5639924124483584,
+    "uservoiceid": null
   }
 ]
