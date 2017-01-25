@@ -3762,7 +3762,7 @@
     "ieStatus": {
       "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": "15002",
+      "ieUnprefixed": "14986",
       "flag": false
     },
     "spec": "es6",
