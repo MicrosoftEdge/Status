@@ -434,6 +434,24 @@
     "id": 6090950820495360
   },
   {
+    "name": "Credential Management API",
+    "category": "Security",
+    "link": "https://w3c.github.io/webappsec-credential-management/",
+    "summary": "Credential Management API describes an imperative API enabling a website to request a user’s credentials from a user agent, and to help the user agent correctly store user credentials for future use.",
+    "standardStatus": "Editor's Draft",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Medium",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "spec": "",
+    "msdn": "",
+    "wpd": "",
+    "demo": "",
+    "id": 5026422640869376
+  },
+  {
     "name": "Web Authentication API",
     "category": "Security",
     "link": "https://w3c.github.io/webauthn/",
