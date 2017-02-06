@@ -2222,9 +2222,10 @@
     "summary": "ServiceWorkers (formerly Navigation Controllers) are a new system that provides event-driven scripts that run independent of web pages. They are similar to SharedWorkers except that their lifetime is different and they have access to domain-wide events such as network fetches.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "14901",
+      "flag": true
     },
     "spec": "service-workers",
     "msdn": "",
@@ -2681,9 +2682,10 @@
     "summary": "Real-time communication in the browser. See also \"Web RTC - Object RTC API\".",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "14901",
+      "flag": true
     },
     "spec": "webrtc",
     "msdn": "",
