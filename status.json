@@ -6054,5 +6054,22 @@
     "demo": "",
     "id": 5639924124483584,
     "uservoiceid": null
+  },
+  {
+    "name": "Passive Event Listeners",
+    "category": "Performance",
+    "link": "https://github.com/WICG/EventListenerOptions",
+    "summary": "Provides an API to mark event listeners as \"passive\", primarily to allow for scrolling performance improvements",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "spec": "passivelisteners",
+    "msdn": "",
+    "wpd": "",
+    "id": 5745543795965952,
+    "uservoiceid": null
   }
 ]
