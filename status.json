@@ -6022,6 +6022,23 @@
     "uservoiceid": null
   },
   {
+    "name": "Event Listener \"once\" Option",
+    "category": "DOM",
+    "link": "https://dom.spec.whatwg.org/#dom-addeventlisteneroptions-once",
+    "summary": "Option to mark an event listener to fire only once",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "spec": "oncelisteners",
+    "msdn": "",
+    "wpd": "",
+    "id": 5630331130478592,
+    "uservoiceid": 17702248
+  },
+  {
     "name": "Media Session",
     "category": "Multimedia",
     "link": "https://wicg.github.io/mediasession",
