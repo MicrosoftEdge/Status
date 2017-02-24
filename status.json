@@ -2678,12 +2678,12 @@
     "name": "WebRTC – WebRTC v1.0 API",
     "category": "Realtime / Communication",
     "link": "https://w3c.github.io/webrtc-pc/",
-    "summary": "Real-time communication in the browser. See also \"Web RTC - Object RTC API\".",
+    "summary": "Real-time communication in the browser. See also \"Web RTC - Object RTC API\". At this time, RTC features are supported only on desktop platform.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "15019"
     },
     "spec": "webrtc",
     "msdn": "",
@@ -2696,7 +2696,7 @@
     "name": "WebRTC – Object RTC API",
     "category": "Realtime / Communication",
     "link": "https://www.w3.org/community/ortc/",
-    "summary": "Enables mobile endpoints to talk to servers and web browsers with Real-Time Communications (ORTC) capabilities via native and simple JavaScript APIs.",
+    "summary": "Enables mobile endpoints to talk to servers and web browsers with Real-Time Communications (ORTC) capabilities via native and simple JavaScript APIs. At this time, RTC features are supported only on desktop platform.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
@@ -5331,9 +5331,9 @@
     "summary": "Support for the VP8 video format in RTC scenarios.",
     "standardStatus": "Defacto standard",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "15019"
     },
     "spec": "",
     "msdn": "",
@@ -5347,9 +5347,9 @@
     "summary": "Support for H.264/AVC in RTC scenarios.",
     "standardStatus": "Defacto standard",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "15019"
     },
     "spec": "",
     "msdn": "",
