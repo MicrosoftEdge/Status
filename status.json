@@ -157,9 +157,9 @@
     "summary": "Allows you to define an offset from the border box for your outline",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Preview Release",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "15042"
     },
     "safari_views": {
       "text": "Shipped",
