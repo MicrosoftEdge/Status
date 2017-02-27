@@ -1,4 +1,4 @@
-# Status
+# Status [![Build Status](https://travis-ci.org/MicrosoftEdge/Status.svg)](https://travis-ci.org/MicrosoftEdge/Status)
 
 This project contains the data for [`status.microsoftedge.com`](https://status.microsoftedge.com), a portal for the latest implementation status and future roadmap for interoperable web platform features in Microsoft Edge and other browsers, including Internet Explorer.
 
