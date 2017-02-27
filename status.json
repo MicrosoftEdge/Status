@@ -318,7 +318,6 @@
     },
     "spec": "html51",
     "msdn": "https://msdn.microsoft.com/library/hh772925.aspx",
-    "wpd": "https://docs.webplatform.org/wiki/html/elements/datalist",
     "id": 6090950820495360
   },
   {
@@ -378,7 +377,6 @@
       "priority": "Medium"
     },
     "spec": "html51",
-    "wpd": "https://docs.webplatform.org/wiki/html/elements/details",
     "id": 5348024557502464,
     "uservoiceid": 6261266
   },
@@ -422,8 +420,7 @@
       "value": 1
     },
     "spec": "html51",
-    "msdn": "https://msdn.microsoft.com/library/dn955124(v=vs.85).aspx",
-    "wpd": "https://docs.webplatform.org/wiki/concepts/mobile_web/highdpi",
+    "msdn": "https://msdn.microsoft.com/library/dn955124.aspx",
     "id": 4644337115725824,
     "uservoiceid": 6261267
   },
@@ -448,7 +445,7 @@
     },
     "shipped_opera_milestone": true,
     "spec": "html51",
-    "wpd": "https://docs.webplatform.org/wiki/html/attributes/sizes",
+    "msdn": "https://blogs.windows.com/msedgedev/2015/10/07/using-extended-srcset-and-the-picture-element-to-tailor-your-image-to-every-device-and-layout/",
     "id": 4644337115725824,
     "uservoiceid": 8204535
   },
@@ -478,8 +475,7 @@
       "ieUnprefixed": "10547"
     },
     "spec": "html51",
-    "msdn": "https://msdn.microsoft.com/library/mt586693(v=vs.85).aspx",
-    "wpd": "https://docs.webplatform.org/wiki/html/elements/template",
+    "msdn": "https://msdn.microsoft.com/library/mt586693.aspx",
     "id": 5207287069147136,
     "uservoiceid": 6261273
   },
@@ -504,8 +500,7 @@
       "value": 1
     },
     "spec": "html51",
-    "msdn": "https://msdn.microsoft.com/library/mt573149(v=vs.85).aspx",
-    "wpd": "https://docs.webplatform.org/wiki/html/elements/meter",
+    "msdn": "https://msdn.microsoft.com/library/mt573149.aspx",
     "uservoiceid": 6514198
   },
   {
@@ -657,7 +652,6 @@
       "ieUnprefixed": "10547"
     },
     "spec": "html51",
-    "wpd": "https://docs.webplatform.org/wiki/html/elements/a",
     "id": 6473924464345088,
     "uservoiceid": 6261278
   },
@@ -720,7 +714,6 @@
     },
     "spec": "fileapi",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/html5/file-api/blob/",
-    "wpd": "https://docs.webplatform.org/wiki/apis/file/Blob",
     "id": 5328783104016384
   },
   {
@@ -749,7 +742,6 @@
     },
     "spec": "2dcontext",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/graphics/canvas/",
-    "wpd": "https://docs.webplatform.org/wiki/apis/canvas",
     "id": 5100084685438976
   },
   {
@@ -763,7 +755,6 @@
       "ieUnprefixed": "14393"
     },
     "spec": "2dcontext",
-    "wpd": "https://docs.webplatform.org/wiki/apis/canvas/CanvasRenderingContext2D/drawSystemFocusRing",
     "id": 6413769152397312,
     "uservoiceid": 6261287
   },
@@ -794,7 +785,6 @@
     },
     "spec": "csp3",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/security/content-Security-Policy/",
-    "wpd": "https://docs.webplatform.org/wiki/tutorials/content-security-policy",
     "id": 5205088045891584,
     "uservoiceid": 6511917
   },
@@ -846,7 +836,6 @@
       "ieUnprefixed": "9"
     },
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/calc-function/",
-    "wpd": "https://docs.webplatform.org/wiki/css/functions/calc",
     "id": 5765241438732288
   },
   {
@@ -861,7 +850,6 @@
     },
     "spec": "css-deviceadapt-1",
     "msdn": "https://msdn.microsoft.com/library/hh708740",
-    "wpd": "https://docs.webplatform.org/wiki/concepts/mobile_web/responsive_design",
     "id": 4737164243894272
   },
   {
@@ -877,7 +865,6 @@
     },
     "spec": "pointerevents",
     "msdn": "https://msdn.microsoft.com/library/hh772044.aspx",
-    "wpd": "https://docs.webplatform.org/wiki/css/properties/touch-action",
     "id": 5912074022551552
   },
   {
@@ -959,7 +946,6 @@
     },
     "spec": "orientation-event",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/device/device-orientation-and-motion-events/",
-    "wpd": "https://docs.webplatform.org/wiki/tutorials/device_orientation",
     "id": 5874690627207168
   },
   {
@@ -1001,7 +987,6 @@
     },
     "spec": "pointerevents",
     "msdn": "https://msdn.microsoft.com/library/ms536945.aspx",
-    "wpd": "https://docs.webplatform.org/wiki/dom/MouseEvent/mouseenter",
     "id": 4889528208719872
   },
   {
@@ -1016,7 +1001,6 @@
     },
     "spec": "uievents",
     "msdn": "https://msdn.microsoft.com/library/ff974352",
-    "wpd": "https://docs.webplatform.org/wiki/dom/WheelEvent",
     "id": 5388191091654656
   },
   {
@@ -1072,7 +1056,6 @@
     },
     "spec": "filter-effects-1",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/filter-effects/",
-    "wpd": "https://docs.webplatform.org/wiki/tutorials/css_filters",
     "id": 5822463824887808,
     "uservoiceid": 6261306
   },
@@ -1089,7 +1072,6 @@
     },
     "spec": "css-flexbox-1",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/flexbox/",
-    "wpd": "https://docs.webplatform.org/wiki/css/flexbox",
     "id": 4837301406400512
   },
   {
@@ -1104,7 +1086,6 @@
     },
     "spec": "whatwg-fullscreen",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/device/fullscreen-api/",
-    "wpd": "https://docs.webplatform.org/wiki/tutorials/using_the_full-screen_api",
     "id": 5259513871466496
   },
   {
@@ -1119,7 +1100,6 @@
     },
     "spec": "gamepad",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/dom/gamepad-api/",
-    "wpd": "https://docs.webplatform.org/wiki/apis/gamepad/Gamepad",
     "id": 5118776383111168,
     "uservoiceid": 6509110
   },
@@ -1148,7 +1128,6 @@
     },
     "spec": "geolocation-api",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/device/geolocation/",
-    "wpd": "https://docs.webplatform.org/wiki/apis/geolocation",
     "id": 6348855016685568
   },
   {
@@ -1163,7 +1142,6 @@
     },
     "spec": "html-media-capture",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/multimedia/media-Capture-and-Streams/",
-    "wpd": "https://docs.webplatform.org/wiki/dom/Navigator/getUserMedia",
     "id": 6067380039974912,
     "uservoiceid": 6573558
   },
@@ -1179,7 +1157,6 @@
     },
     "spec": "css-images-3",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/gradients/",
-    "wpd": "https://docs.webplatform.org/wiki/tutorials/CSS_gradients",
     "id": 5785905063264256
   },
   {
@@ -1193,8 +1170,7 @@
       "iePrefixed": "10"
     },
     "spec": "css-grid-1",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/grid-layout/",
-    "wpd": "https://docs.webplatform.org/wiki/css/properties/grid"
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/grid-layout/"
   },
   {
     "name": "Grid Update",
@@ -1206,7 +1182,6 @@
       "text": "Under Consideration"
     },
     "spec": "css-grid-1",
-    "wpd": "https://docs.webplatform.org/wiki/css/properties/grid",
     "id": 4589636412243968,
     "uservoiceid": 6514853
   },
@@ -1306,7 +1281,6 @@
     },
     "spec": "html51",
     "msdn": "https://msdn.microsoft.com/library/hh673561",
-    "wpd": "https://docs.webplatform.org/wiki/html/attributes/sandbox",
     "id": 5715536319086592
   },
   {
@@ -1363,7 +1337,6 @@
     },
     "spec": "indexeddb",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/storage/IndexedDB/",
-    "wpd": "https://docs.webplatform.org/wiki/apis/indexeddb",
     "id": 6507459568992256
   },
   {
@@ -1435,7 +1408,6 @@
     },
     "spec": "css-masking-1",
     "msdn": "https://msdn.microsoft.com/library/ff972267.aspx",
-    "wpd": "https://docs.webplatform.org/wiki/css/properties/mask",
     "id": 5381559662149632,
     "uservoiceid": 6261341
   },
@@ -1451,7 +1423,6 @@
     },
     "spec": "cssom-view-1",
     "msdn": "https://msdn.microsoft.com/library/hh772743",
-    "wpd": "https://docs.webplatform.org/wiki/css/media_queries/apis/matchMedia",
     "id": 4677872220372992
   },
   {
@@ -1463,7 +1434,6 @@
     "ieStatus": {
       "text": "Not currently planned"
     },
-    "wpd": "https://docs.webplatform.org/wiki/mathml",
     "id": 5240822173794304,
     "uservoiceid": 6508572
   },
@@ -1478,7 +1448,6 @@
       "ieUnprefixed": "9"
     },
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/media-queries/",
-    "wpd": "https://docs.webplatform.org/wiki/css/atrules/%40media",
     "id": 5944509615570944
   },
   {
@@ -1493,7 +1462,6 @@
     },
     "spec": "media-source",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/multimedia/media-source-extensions/",
-    "wpd": "https://docs.webplatform.org/wiki/apis/media_source_extensions",
     "id": 4563797888991232
   },
   {
@@ -1600,7 +1568,6 @@
     },
     "spec": "css-multicol-3",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/multi-column-layout/",
-    "wpd": "https://docs.webplatform.org/wiki/css/properties/column-count",
     "id": 6526151266664448
   },
   {
@@ -1629,7 +1596,6 @@
     },
     "spec": "navigation-timing-2",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/navigation-Timing-API/",
-    "wpd": "https://docs.webplatform.org/wiki/apis/navigation_timing",
     "id": 5584144679567360
   },
   {
@@ -1644,7 +1610,6 @@
     },
     "spec": "page-visibility",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/page-Visibility-API/",
-    "wpd": "https://docs.webplatform.org/wiki/dom/Document/visibilitychange",
     "id": 5689697795833856
   },
   {
@@ -1660,7 +1625,6 @@
     },
     "spec": "pointerevents",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/dom/pointer-events/",
-    "wpd": "https://docs.webplatform.org/wiki/PointerEvents",
     "id": 4504699138998272
   },
   {
@@ -1704,7 +1668,6 @@
     },
     "spec": "webmessaging",
     "msdn": "https://msdn.microsoft.com/library/cc197015.aspx",
-    "wpd": "https://docs.webplatform.org/wiki/dom/Window/postMessage",
     "id": 4786174115708928
   },
   {
@@ -1717,7 +1680,6 @@
       "text": "Not currently planned"
     },
     "spec": "quota-api",
-    "wpd": "https://docs.webplatform.org/wiki/apis/quota_management",
     "id": 6218562888794112,
     "uservoiceid": 6508438
   },
@@ -1734,7 +1696,6 @@
     },
     "spec": "css-regions-1",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/regions/",
-    "wpd": "https://docs.webplatform.org/wiki/apis/css-regions",
     "id": 5655612935372800
   },
   {
@@ -1749,7 +1710,6 @@
     },
     "spec": "html51",
     "msdn": "https://msdn.microsoft.com/library/hh920765",
-    "wpd": "https://docs.webplatform.org/wiki/dom/Window/requestAnimationFrame",
     "id": 5233400470306816
   },
   {
@@ -1764,7 +1724,6 @@
     },
     "spec": "resource-timing",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/resource-timing-api/",
-    "wpd": "https://docs.webplatform.org/wiki/apis/resource_timing",
     "id": 5796350423728128
   },
   {
@@ -1871,7 +1830,6 @@
     },
     "spec": "css-transforms-1",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/transforms/",
-    "wpd": "https://docs.webplatform.org/wiki/tutorials/css_transforms",
     "id": 6437640580628480
   },
   {
@@ -1927,7 +1885,6 @@
     },
     "spec": "user-timing",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/user-timing-api/",
-    "wpd": "https://docs.webplatform.org/wiki/apis/user_timing",
     "id": 5066549580791808
   },
   {
@@ -1940,7 +1897,6 @@
       "text": "Under Consideration"
     },
     "spec": "vibration",
-    "wpd": "https://docs.webplatform.org/wiki/apis/vibration",
     "id": 5698768766763008,
     "uservoiceid": 6263645
   },
@@ -2067,7 +2023,6 @@
     },
     "spec": "webstorage",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/storage/web-and-offline-storage/",
-    "wpd": "https://docs.webplatform.org/wiki/apis/web-storage",
     "id": 5345825534246912
   },
   {
@@ -2082,7 +2037,6 @@
     },
     "spec": "webgl",
     "msdn": "https://msdn.microsoft.com/library/bg182648",
-    "wpd": "https://docs.webplatform.org/wiki/webgl",
     "id": 6049512976023552
   },
   {
@@ -2135,7 +2089,6 @@
       "ieUnprefixed": "15019"
     },
     "spec": "webrtc",
-    "wpd": "https://docs.webplatform.org/wiki/apis/webrtc",
     "id": 6612462929444864,
     "uservoiceid": 6508336
   },
@@ -2174,7 +2127,6 @@
     },
     "spec": "html51",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/networking-and-connectivity/websocket/",
-    "wpd": "https://docs.webplatform.org/wiki/concepts/protocols/websocket",
     "id": 6555138000945152,
     "opera_views": {
       "text": "Shipped",
@@ -2193,7 +2145,6 @@
     },
     "spec": "xhr",
     "msdn": "https://msdn.microsoft.com/library/cc304105.aspx",
-    "wpd": "https://docs.webplatform.org/wiki/apis/xhr/XMLHttpRequest/timeout",
     "id": 6290890138058752
   },
   {
@@ -2329,7 +2280,6 @@
       "priority": "Low"
     },
     "spec": "battery-status",
-    "wpd": "https://docs.webplatform.org/wiki/apis/battery_status",
     "id": 4537134732017664,
     "uservoiceid": 6263689
   },
@@ -2411,7 +2361,6 @@
       "ieUnprefixed": "10240"
     },
     "spec": "es6",
-    "wpd": "https://docs.webplatform.org/wiki/concepts/programming/javascript/iterators",
     "id": 4696563918045184
   },
   {
@@ -2520,7 +2469,6 @@
     },
     "spec": "webaudio",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/multimedia/web-Audio/",
-    "wpd": "https://docs.webplatform.org/wiki/apis/webaudio",
     "id": 6261718720184320,
     "uservoiceid": 6557946
   },
@@ -2535,7 +2483,6 @@
       "priority": "High"
     },
     "spec": "css-images-3",
-    "wpd": "https://docs.webplatform.org/wiki/css/properties/object-fit",
     "id": 5302669702856704,
     "uservoiceid": 6263790
   },
@@ -2673,7 +2620,6 @@
     },
     "spec": "fileapi",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/html5/file-api/filereader/",
-    "wpd": "https://docs.webplatform.org/wiki/apis/file/FileReader",
     "id": 5171003185430528
   },
   {
@@ -2686,7 +2632,6 @@
       "text": "Under Consideration"
     },
     "spec": "eventsource",
-    "wpd": "https://docs.webplatform.org/wiki/tutorials/eventsource_basics",
     "id": 5311740673785856,
     "uservoiceid": 6263825
   },
@@ -2702,7 +2647,6 @@
     },
     "spec": "webmessaging",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/realtime-communication/message-channels/",
-    "wpd": "https://docs.webplatform.org/wiki/apis/web-messaging/MessageChannel",
     "id": 6710044586409984
   },
   {
@@ -2902,7 +2846,6 @@
     },
     "spec": "svg2",
     "msdn": "https://msdn.microsoft.com/library/dn806280",
-    "wpd": "https://docs.webplatform.org/wiki/tutorials/external_content_in_svg#Embedding_arbitrary_XML",
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
       "text": "Shipped",
@@ -2927,7 +2870,6 @@
     },
     "spec": "mediaqueries-4",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/media-queries/",
-    "wpd": "https://docs.webplatform.org/wiki/css/atrules/%40media",
     "ff_views": {
       "text": "No public signals",
       "value": 5
