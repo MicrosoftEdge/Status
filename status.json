@@ -4,7 +4,7 @@
     "category": "CSS",
     "link": "https://drafts.csswg.org/css-fonts-4/#font-variation-props",
     "summary": "Allows multiple instances of fonts to be defined by interpolating glyph outlines along different axis.",
-    "standardStatus": "Editor's Draft",
+    "standardStatus": "Editor's draft",
     "ieStatus": {
       "text": "Under Consideration",
       "priority": "High"
@@ -26,7 +26,7 @@
     "category": "CSS",
     "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke",
     "summary": "The -webkit-text-stroke property sets the stroke width and color of an element’s text.",
-    "standardStatus": "De-facto Standard",
+    "standardStatus": "De-facto standard",
     "ieStatus": {
       "text": "In Development"
     },
@@ -254,7 +254,7 @@
     },
     "shipped_opera_milestone": true,
     "safari_views": {
-      "text": "No signals",
+      "text": "No public signals",
       "value": 2
     }
   },
@@ -289,7 +289,7 @@
     },
     "shipped_opera_milestone": true,
     "safari_views": {
-      "text": "No signals",
+      "text": "No public signals",
       "value": 2
     }
   },
@@ -325,7 +325,7 @@
     "category": "Security",
     "link": "https://w3c.github.io/webappsec-credential-management/",
     "summary": "Credential Management API describes an imperative API enabling a website to request a user’s credentials from a user agent, and to help the user agent correctly store user credentials for future use.",
-    "standardStatus": "Editor's Draft",
+    "standardStatus": "Editor's draft",
     "ieStatus": {
       "text": "Under Consideration",
       "priority": "Medium"
@@ -337,7 +337,7 @@
     "category": "Security",
     "link": "https://w3c.github.io/webauthn/",
     "summary": "Web Authentication provides an open, scalable, and interoperable solution to facilitate authentication, which replaces passwords with stronger two-factor credentials.  The implementation in Microsoft Edge is focused on enabling Microsoft Passport with a PIN or Windows Hello to securely authenticate to Microsoft properties and third-party web sites.  As of EdgeHTML 14, the implementation is prefixed and based on the FIDO 2.0 Web APIs. Microsoft is a member of the FIDO Alliance.",
-    "standardStatus": "Editor's Draft",
+    "standardStatus": "Editor's draft",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "14291"
@@ -721,7 +721,7 @@
     "category": "JavaScript",
     "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "Allows developers to explicitly qualify access to variables within a block.",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "11"
@@ -807,7 +807,7 @@
     "category": "Security",
     "link": "https://w3c.github.io/webappsec-csp/#strict-dynamic-usage",
     "summary": "Allows script loaded via a CSP2 nonce-based or hash-based whitelist to load other script, enabling developers and site administrators to reduce their reliance on whitelists and to tighten CSP implementations.",
-    "standardStatus": "Editor's Draft",
+    "standardStatus": "Editor's draft",
     "ieStatus": {
       "text": "Under Consideration",
       "priority": "Medium"
@@ -819,7 +819,7 @@
     "category": "Security",
     "link": "https://www.w3.org/TR/upgrade-insecure-requests/",
     "summary": "Allows a server to instruct the user agent to upgrade insecure requests via a Content-Security-Policy header. This directive is meant to make it even easier for a site administrator to move towards using all secure transports, while avoiding having to make massive updates to URLs in their web applications.",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration",
       "priority": "Medium"
@@ -1267,7 +1267,7 @@
       "ieUnprefixed": "10240"
     },
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/networking-and-connectivity/HTTP2/",
-    "id": "5152586365665280"
+    "id": 5152586365665280
   },
   {
     "name": "iframe[sandbox] attribute",
@@ -1387,7 +1387,7 @@
     "category": "JavaScript",
     "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "Map objects are simple key/value maps.",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "11"
@@ -1647,7 +1647,7 @@
     "category": "CSS",
     "link": "https://dev.w3.org/csswg/css-position/#sticky-positioning",
     "summary": "position: sticky is a new way to position elements and is conceptually similar to position: fixed. The difference is that a stickily positioned element behaves like position: relative within its parent, until a given offset threshold is met.",
-    "standardStatus": "Editor's Draft",
+    "standardStatus": "Editor's draft",
     "ieStatus": {
       "text": "Under Consideration",
       "priority": "Medium"
@@ -1744,7 +1744,7 @@
     "category": "JavaScript",
     "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "Set objects let you store unique values of any type, whether primitive values or object references.",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "11"
@@ -1837,7 +1837,7 @@
     "category": "JavaScript",
     "link": "https://ecma-international.org/ecma-262/6.0/index.html#sec-typedarray-objects",
     "summary": "Buffers for holding binary data and working with WebGL & Audio API: ArrayBuffer, Float32Array , Int16Array, Uint8Array, etc.)",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10"
@@ -1905,7 +1905,7 @@
     "category": "JavaScript",
     "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "WeakMaps are key/value maps in which keys are objects.",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "11"
@@ -2164,7 +2164,7 @@
     "category": "JavaScript",
     "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "The arrow (=>) provides a shorthand for the function keyword with lexical 'this' binding.",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10240"
@@ -2201,7 +2201,7 @@
     "id": 5425136400334848,
     "uservoiceid": 6263676
   },
-   {
+  {
     "name": "CSS filter(url) using SVG elements",
     "category": "CSS",
     "link": "https://www.w3.org/TR/filter-effects/#typedef-url",
@@ -2218,7 +2218,7 @@
     "category": "JavaScript",
     "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "Allows formal parameters to be initialized with default values if no value is passed.",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "14342"
@@ -2232,7 +2232,7 @@
     "category": "JavaScript",
     "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "Destructuring assignment allows extracting data from arrays or objects using a syntax that mirrors array and object literals.",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Preview Release",
       "ieUnprefixed": "10532",
@@ -2247,7 +2247,7 @@
     "category": "JavaScript",
     "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "Allows representation of an indefinite number of arguments as an array.",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10240"
@@ -2355,7 +2355,7 @@
     "category": "JavaScript",
     "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "Iterates over iterable objects (including arrays, array-like objects, iterators and generators), invoking a custom iteration hook with statements to be executed for the value of each distinct property.",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10240"
@@ -2371,7 +2371,7 @@
     "standardStatus": "Editor's draft",
     "ieStatus": {
       "text": "Under Consideration",
-      "priority": "low"
+      "priority": "Low"
     },
     "id": 5391249376804864,
     "uservoiceid": 6263712
@@ -2395,7 +2395,7 @@
     "category": "JavaScript",
     "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "Allows properties to be added to existing objects without the possibility of interference with the existing properties, unintended visibility, or with other uncoordinated additions by any other code.",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10240"
@@ -2505,7 +2505,7 @@
     "category": "JavaScript",
     "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "A generator is a special type of function that works as a factory for iterators.",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10586"
@@ -2557,7 +2557,7 @@
     "category": "JavaScript",
     "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "Proxies are objects for which the programmer has to define the semantics in JavaScript. ",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10240"
@@ -2702,7 +2702,7 @@
       "text": "Shipped",
       "value": 1
     },
-    "shipped_opera_milestone": 1,
+    "shipped_opera_milestone": true,
     "safari_views": {
       "text": "No public signals",
       "value": 5
@@ -2825,7 +2825,7 @@
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/tools/webDriver/",
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
-      "text": "In development",
+      "text": "In Development",
       "value": 2
     },
     "shipped_opera_milestone": true,
@@ -2886,7 +2886,7 @@
     "category": "User input",
     "link": "https://rniwa.github.io/selection-api",
     "summary": "Based on APIs from HTML5 and DOM Range, this specification includes additional methods for programmatically inspecting and modifying the selection.",
-    "standardStatus": "Public Proposal",
+    "standardStatus": "Public discussion",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10240"
@@ -2926,7 +2926,7 @@
     "category": "JavaScript",
     "link": "https://ecma-international.org/ecma-262/6.0/index.html#sec-promise-objects",
     "summary": "Allows easier and cleaner asynchronous coding. Adds the Promise constructor, along with the 'all' and 'race' utility methods to the language itself.",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10240"
@@ -3008,15 +3008,15 @@
     },
     "msdn": "https://www.youtube.com/watch?v=lD9FAOPBiDk&feature=youtu.be",
     "ff_views": {
-      "text": "No Public Signals",
+      "text": "No public signals",
       "value": 5
     },
     "opera_views": {
-      "text": "No Public Signals",
+      "text": "No public signals",
       "value": 5
     },
     "safari_views": {
-      "text": "No Public Signals",
+      "text": "No public signals",
       "value": 5
     },
     "impl_status_chrome": "No active development",
@@ -3053,7 +3053,7 @@
     "category": "Security",
     "summary": "Using the referrer metadata attribute, a document can control the behavior of the Referer HTTP header attached to requests that originate from the document.",
     "link": "https://w3c.github.io/webappsec/specs/referrer-policy/",
-    "standardStatus": "Editor's Draft",
+    "standardStatus": "Editor's draft",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10240"
@@ -3065,7 +3065,7 @@
     "category": "CSS",
     "summary": "One dppx unit represents the number of 'dots' in a CSS px.",
     "link": "https://www.w3.org/TR/css3-values/#resolution",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10240"
@@ -3086,7 +3086,7 @@
     "category": "Multimedia",
     "summary": "Enables PCM WAV audio support in HTML5 Audio.",
     "link": "https://w3c.github.io/html/semantics.html#the-audio-element",
-    "standardStatus": "De-facto Standard",
+    "standardStatus": "De-facto standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10240"
@@ -3099,7 +3099,7 @@
       "value": 1
     },
     "safari_views": {
-      "text": "No Public Signals",
+      "text": "No public signals",
       "value": 1
     }
   },
@@ -3108,7 +3108,7 @@
     "category": "DOM",
     "summary": "Replaces document.createEvent() and associated event object init methods with constructors for each event interface.",
     "link": "https://dom.spec.whatwg.org/#constructing-events",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10240"
@@ -3130,7 +3130,7 @@
     "category": "JavaScript",
     "summary": "Math related functions - sign, trunc, sinh, cosh, tanh, asinh, acosh, atanh, log10, log2, hypot, fround, clz32, cbrt, log1p, expm1.",
     "link": "https://ecma-international.org/ecma-262/6.0/index.html#sec-math-object",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10240"
@@ -3143,7 +3143,7 @@
     "category": "JavaScript",
     "summary": "New methods and properties on Number, including isFinite, isInteger, isSafeInteger, isNaN, EPSILON, MIN_SAFE_INTEGER, and MAX_SAFE_INTEGER.",
     "link": "https://ecma-international.org/ecma-262/6.0/index.html",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10240"
@@ -3156,7 +3156,7 @@
       "value": 1
     },
     "safari_views": {
-      "text": "No Signals",
+      "text": "No public signals",
       "value": 3
     }
   },
@@ -3165,7 +3165,7 @@
     "category": "JavaScript",
     "summary": "New methods on String including String.raw and String.fromCodePoint. New methods on String.prototype including codePointAt, normalize, repeat, startsWith, endsWith, and includes.",
     "link": "https://ecma-international.org/ecma-262/6.0/index.html",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10240"
@@ -3178,7 +3178,7 @@
       "value": 1
     },
     "safari_views": {
-      "text": "No Signals",
+      "text": "No public signals",
       "value": 3
     }
   },
@@ -3187,7 +3187,7 @@
     "category": "JavaScript",
     "summary": "New methods on Object including assign, is, getOwnPropertySymbols, and setPrototypeOf",
     "link": "https://ecma-international.org/ecma-262/6.0/index.html",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10240"
@@ -3195,7 +3195,7 @@
     "spec": "es6",
     "shipped_opera_milestone": false,
     "safari_views": {
-      "text": "No Signals",
+      "text": "No public signals",
       "value": 3
     },
     "id": 5742083411279872
@@ -3205,21 +3205,21 @@
     "category": "JavaScript",
     "summary": "New methods on RegExp.prototype including match, replace, search, and split.",
     "link": "https://ecma-international.org/ecma-262/6.0/index.html",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Preview Release",
       "ieUnprefixed": "14342",
       "flag": true
     },
     "spec": "es6",
-    "impl_status_chrome": "No Signals",
+    "impl_status_chrome": "No public signals",
     "shipped_opera_milestone": false,
     "ff_views": {
-      "text": "No Signals",
+      "text": "No public signals",
       "value": 3
     },
     "safari_views": {
-      "text": "No Signals",
+      "text": "No public signals",
       "value": 3
     }
   },
@@ -3228,7 +3228,7 @@
     "category": "JavaScript",
     "summary": "Contains a set of objects such that those objects will be collected if they are not referenced anywhere else.",
     "link": "https://ecma-international.org/ecma-262/6.0/index.html#sec-math-object",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10240"
@@ -3241,7 +3241,7 @@
     "category": "JavaScript",
     "summary": "Support for legacy prototype manipulation similar to Object.setPrototypeOf.",
     "link": "https://ecma-international.org/ecma-262/6.0/index.html",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "11"
@@ -3263,7 +3263,7 @@
     "category": "JavaScript",
     "summary": "Syntax for declaring classes.",
     "link": "https://ecma-international.org/ecma-262/6.0/index.html",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10532",
@@ -3278,14 +3278,14 @@
     "category": "JavaScript",
     "summary": "The spread operator expands iterable expressions into individual arguments. For example, a.b(…array) is roughly the same as a.b.apply(a, array).",
     "link": "https://ecma-international.org/ecma-262/6.0/index.html",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10240"
     },
     "spec": "es6",
     "safari_views": {
-      "text": "No Signals",
+      "text": "No public signals",
       "value": 3
     },
     "id": 6031334694715392
@@ -3295,7 +3295,7 @@
     "category": "JavaScript",
     "summary": "String literals that allow for expressions to be evaluated and concatenated with the string literal.",
     "link": "https://ecma-international.org/ecma-262/6.0/index.html",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10240"
@@ -3308,7 +3308,7 @@
     "category": "JavaScript",
     "summary": "Enables boundlessly recursive algorithms (using constant stack space) for certain code patterns.",
     "link": "https://ecma-international.org/ecma-262/6.0/index.html",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration",
       "priority": "Low"
@@ -3322,7 +3322,7 @@
     "category": "JavaScript",
     "summary": "Allows subclassing of built-in types such as Dates and Arrays.",
     "link": "https://ecma-international.org/ecma-262/6.0/index.html",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "14279"
@@ -3331,11 +3331,11 @@
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": false,
     "ff_views": {
-      "text": "No Signals",
+      "text": "No public signals",
       "value": 1
     },
     "safari_views": {
-      "text": "No Signals",
+      "text": "No public signals",
       "value": 3
     }
   },
@@ -3344,21 +3344,21 @@
     "category": "JavaScript",
     "summary": "Enables Single Instruction, Multiple Data instructions to be used from Javascript programs.",
     "link": "https://github.com/johnmccutchan/ecmascript_simd/",
-    "standardStatus": "Editor's Draft",
+    "standardStatus": "Editor's draft",
     "ieStatus": {
       "text": "Preview Release",
       "ieUnprefixed": "10240",
       "flag": true
     },
     "spec": "es6",
-    "impl_status_chrome": "In development",
+    "impl_status_chrome": "In Development",
     "shipped_opera_milestone": false,
     "ff_views": {
       "text": "In Development",
       "value": 2
     },
     "safari_views": {
-      "text": "No Signals",
+      "text": "No public signals",
       "value": 3
     }
   },
@@ -3367,7 +3367,7 @@
     "category": "JavaScript",
     "summary": "Language-level support for defining and consuming modules.",
     "link": "https://ecma-international.org/ecma-262/6.0/index.html",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Preview Release",
       "ieUnprefixed": "14342",
@@ -3382,7 +3382,7 @@
     "category": "JavaScript",
     "summary": "Performance options for a low-level subset of JavaScript, including recognition of the 'use asm' directive and ahead-of-time compilation.",
     "link": "http://asmjs.org/spec/latest/",
-    "standardStatus": "Editor's Draft",
+    "standardStatus": "Editor's draft",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10532",
@@ -3444,7 +3444,7 @@
     "link": "https://ecma-international.org/ecma-402/1.0/",
     "spec": "es6",
     "msdn": "https://msdn.microsoft.com/library/dn342821.aspx",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "11"
@@ -3456,7 +3456,7 @@
       "value": 1
     },
     "safari_views": {
-      "text": "No Signals",
+      "text": "No public signals",
       "value": 3
     }
   },
@@ -3465,7 +3465,7 @@
     "category": "JavaScript",
     "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "summary": "Allows binary and octal numeric literals using 0b101 and 0o753 respectively.",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10240"
@@ -3492,7 +3492,7 @@
     "category": "User input",
     "link": "https://www.w3.org/TR/html5/forms.html#color-state-(type=color)",
     "summary": "Input controls for picking colors via <input type='color'>.",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "14316"
@@ -3504,7 +3504,7 @@
       "value": 1
     },
     "safari_views": {
-      "text": "No Signals",
+      "text": "No public signals",
       "value": 3
     },
     "spec": "html51",
@@ -3515,7 +3515,7 @@
     "category": "User input",
     "link": "https://w3c.github.io/html/semantics.html#element-statedef-input-date-and-time",
     "summary": "Input controls for picking dates via <input type='date'>,<input type='month'>, and <input type='week'>.",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10240"
@@ -3535,7 +3535,7 @@
     "category": "User input",
     "link": "https://w3c.github.io/html/semantics.html#element-statedef-input-time",
     "summary": "Input controls for picking times via <input type='time'>, and <input type='datetime-local'>.",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10532"
@@ -3555,7 +3555,7 @@
     "category": "DOM",
     "link": "https://w3c.github.io/html/semantics.html#the-main-element",
     "summary": "Semantic HTML5 element that represents the main content of the document or application.",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10240"
@@ -3579,7 +3579,7 @@
     "category": "Security",
     "link": "https://www.w3.org/TR/html5/forms.html#the-keygen-element",
     "summary": "A form element for a key pair generator control.  Support here indicates UI for picking keys and some transport to submit them. However, significant interoperability issues exist with the DOM interfaces and protocols for this feature.",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Not currently planned"
     },
@@ -3600,7 +3600,7 @@
     "category": "Multimedia",
     "link": "https://www.w3.org/TR/media-frags/",
     "summary": "Standardizes a URL fragment syntax for specifying a fragment of a media resource.",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration"
     },
@@ -3621,7 +3621,7 @@
     "category": "Graphics",
     "link": "https://www.w3.org/TR/SVG/animate.html",
     "summary": "XML-based syntax for specifying animations of SVG.",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Not currently planned"
     },
@@ -3642,7 +3642,7 @@
     "category": "Device",
     "link": "https://wiki.whatwg.org/wiki/NavigatorCores",
     "summary": "An API for reading the system's total number of logical processors available to the user agent, up to an optional thread limit per origin.",
-    "standardStatus": "Public Proposal",
+    "standardStatus": "Public discussion",
     "ieStatus": {
       "text": "In Development"
     },
@@ -3657,11 +3657,11 @@
     "standardStatus": "Editor's draft",
     "ieStatus": {
       "text": "Under Consideration",
-      "priority": "low"
+      "priority": "Low"
     },
     "spec": "web-bluetooth",
     "ff_views": {
-      "text": "In development",
+      "text": "In Development",
       "value": 2
     },
     "id": 5264933985976320,
@@ -3675,7 +3675,7 @@
     "standardStatus": "Editor's draft",
     "ieStatus": {
       "text": "Under Consideration",
-      "priority": "low"
+      "priority": "Low"
     },
     "spec": "web-nfc",
     "id": 6261030015467520
@@ -3685,7 +3685,7 @@
     "category": "JavaScript",
     "link": "https://html.spec.whatwg.org/multipage/workers.html#shared-workers-and-the-sharedworker-interface",
     "summary": "A special type of WebWorker that can commincate across windows/tabs for a site.",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Not currently planned"
     },
@@ -3696,7 +3696,7 @@
       "value": 1
     },
     "safari_views": {
-      "text": "No Public Signals",
+      "text": "No public signals",
       "value": 3
     },
     "spec": "workers"
@@ -3706,18 +3706,18 @@
     "category": "Misc",
     "link": "https://www.w3.org/TR/P3P/",
     "summary": "The Platform for Privacy Preferences Project (P3P) enables web sites to express their privacy practices in a standard format allowing user agents to automate decision-making based on these practices when appropriate.",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Deprecated"
     },
-    "impl_status_chrome": "No Public Signals",
+    "impl_status_chrome": "No public signals",
     "shipped_opera_milestone": false,
     "ff_views": {
-      "text": "No Public Signals",
+      "text": "No public signals",
       "value": 3
     },
     "safari_views": {
-      "text": "No Public Signals",
+      "text": "No public signals",
       "value": 3
     }
   },
@@ -3751,7 +3751,7 @@
       "value": 2
     },
     "safari_views": {
-      "text": "No Public Signals",
+      "text": "No public signals",
       "value": 3
     },
     "spec": "whatwg-fetch",
@@ -3772,11 +3772,11 @@
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": false,
     "ff_views": {
-      "text": "No Public Signals",
+      "text": "No public signals",
       "value": 3
     },
     "safari_views": {
-      "text": "No Public Signals",
+      "text": "No public signals",
       "value": 3
     }
   },
@@ -3784,7 +3784,7 @@
     "name": "Motion JPEG (MJPG)",
     "category": "Multimedia",
     "summary": "Adds support for the MJPG video format, popular with IP cameras.",
-    "standardStatus": "Defacto standard",
+    "standardStatus": "De-facto standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10240"
@@ -3805,7 +3805,7 @@
     "category": "Graphics",
     "link": "https://dev.w3.org/csswg/css-images/#color-stop-syntax",
     "summary": "Allows specifying an optional location between the color stops of a CSS gradient.",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10240"
@@ -3826,9 +3826,9 @@
   {
     "name": "ARIA Landmark Roles",
     "category": "Misc",
-    "link": "https://www.w3.org/TR/wai-aria/roles#landmark_roles ",
+    "link": "https://www.w3.org/TR/wai-aria/roles#landmark_roles",
     "summary": "Support for ARIA roles indicating regions of the page intended as navigational landmarks.",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10240"
@@ -3849,7 +3849,7 @@
     "category": "Misc",
     "link": "https://www.w3.org/TR/html-aapi/",
     "summary": "Exposes HTML sectioning elements (such as section, article, main, etc.) in the Accessibility API.",
-    "standardStatus": "Established Standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "14393"
@@ -3898,11 +3898,11 @@
     "impl_status_chrome": "No active development",
     "shipped_opera_milestone": false,
     "ff_views": {
-      "text": "No Signals",
+      "text": "No public signals",
       "value": 2
     },
     "safari_views": {
-      "text": "No Signals",
+      "text": "No public signals",
       "value": 2
     }
   },
@@ -3911,7 +3911,7 @@
     "category": "Graphics",
     "link": "https://dev.w3.org/csswg/css-animations-1/",
     "summary": "Allows CSS Transitions for SVG elements.",
-    "standardStatus": "Defacto Standard",
+    "standardStatus": "De-facto standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10240"
@@ -3958,7 +3958,7 @@
     "category": "Misc",
     "link": "https://github.com/DeveloperToolsWG/console-object",
     "summary": "APIs to log messages to a connected developer tool. Covering console.assert, console.log, console.info, console.warn, console.error, console.debug, console.dir, console.dirxml.",
-    "standardStatus": "Defacto standard",
+    "standardStatus": "De-facto standard",
     "ieStatus": {
       "text":  "Shipped",
       "ieUnprefixed": "10"
@@ -4099,7 +4099,7 @@
     "category": "Multimedia",
     "link": "http://aomedia.org/",
     "summary": "An open media container format. Supported for adaptive streaming video on devices with VP9 hardware acceleration, may be enabled on any device via an about:flags setting.",
-    "standardStatus": "Defacto standard",
+    "standardStatus": "De-facto standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "14291"
@@ -4125,7 +4125,7 @@
     "category": "Multimedia",
     "link": "https://xiph.org/vorbis",
     "summary": "An open codec for audio.",
-    "standardStatus": "Defacto standard",
+    "standardStatus": "De-facto standard",
     "ieStatus": {
       "text": "Under Consideration",
       "priority": "Low"
@@ -4136,7 +4136,7 @@
       "value": 1
     },
     "safari_views": {
-      "text": "No Public Signals",
+      "text": "No public signals",
       "value": 3
     },
     "shipped_opera_milestone": true,
@@ -4147,7 +4147,7 @@
     "category": "Multimedia",
     "link": "https://xiph.org/theora",
     "summary": "An open video codec.",
-    "standardStatus": "Defacto standard",
+    "standardStatus": "De-facto standard",
     "ieStatus": {
       "text": "Not currently planned"
     },
@@ -4157,7 +4157,7 @@
       "value": 1
     },
     "safari_views": {
-      "text": "No Public Signals",
+      "text": "No public signals",
       "value": 3
     },
     "shipped_opera_milestone": true
@@ -4167,7 +4167,7 @@
     "category": "Multimedia",
     "link": "https://xiph.org/ogg/doc/",
     "summary": "An open multimedia container.",
-    "standardStatus": "Defacto standard",
+    "standardStatus": "De-facto standard",
     "ieStatus": {
       "text": "Under Consideration",
       "priority": "Low"
@@ -4178,7 +4178,7 @@
       "value": 1
     },
     "safari_views": {
-      "text": "No Public Signals",
+      "text": "No public signals",
       "value": 3
     },
     "shipped_opera_milestone": true,
@@ -4189,7 +4189,7 @@
     "category": "Multimedia",
     "link": "https://www.webmproject.org/vp9",
     "summary": "An open codec for video optimized on the web. In the current release, VP9 is only automatically enabled when hardware acceleration is detected. VP9 support can be toggled manually via about:flags.",
-    "standardStatus": "Defacto standard",
+    "standardStatus": "De-facto standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "14291"
@@ -4202,7 +4202,7 @@
     "category": "Multimedia",
     "link": "https://tools.ietf.org/html/rfc6386",
     "summary": "Support for the VP8 video format in RTC scenarios.",
-    "standardStatus": "Defacto standard",
+    "standardStatus": "De-facto standard",
     "ieStatus": {
       "text": "Preview Release",
       "ieUnprefixed": "15019"
@@ -4213,7 +4213,7 @@
     "category": "Multimedia",
     "link": "https://www.itu.int/rec/T-REC-H.264",
     "summary": "Support for H.264/AVC in RTC scenarios.",
-    "standardStatus": "Defacto standard",
+    "standardStatus": "De-facto standard",
     "ieStatus": {
       "text": "Preview Release",
       "ieUnprefixed": "15019"
@@ -4235,7 +4235,7 @@
       "value": 1
     },
     "safari_views": {
-      "text": "No Public Signals",
+      "text": "No public signals",
       "value": 3
     }
   },
@@ -4292,7 +4292,7 @@
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
-      "text": "No Public Signals",
+      "text": "No public signals",
       "value": 3
     },
     "safari_views": {
@@ -4394,13 +4394,13 @@
       "text": "Under Consideration",
       "priority": "Low"
     },
-    "impl_status_chrome": "No Public Signals",
+    "impl_status_chrome": "No public signals",
     "ff_views": {
-      "text": "No Public Signals",
+      "text": "No public signals",
       "value": 3
     },
     "safari_views": {
-      "text": "No Public Signals",
+      "text": "No public signals",
       "value": 3
     },
     "shipped_opera_milestone": false,
@@ -4416,13 +4416,13 @@
       "text": "Under Consideration",
       "priority": "Low"
     },
-    "impl_status_chrome": "No Public Signals",
+    "impl_status_chrome": "No public signals",
     "ff_views": {
-      "text": "No Public Signals",
+      "text": "No public signals",
       "value": 3
     },
     "safari_views": {
-      "text": "No Public Signals",
+      "text": "No public signals",
       "value": 3
     },
     "shipped_opera_milestone": false,
@@ -4438,13 +4438,13 @@
       "text": "Under Consideration",
       "priority": "Low"
     },
-    "impl_status_chrome": "No Public Signals",
+    "impl_status_chrome": "No public signals",
     "ff_views": {
       "text": "In Development",
       "value": 2
     },
     "safari_views": {
-      "text": "No Public Signals",
+      "text": "No public signals",
       "value": 3
     },
     "shipped_opera_milestone": false,
@@ -4461,13 +4461,13 @@
       "text": "Shipped",
       "ieUnprefixed": "14316"
     },
-    "impl_status_chrome": "No Public Signals",
+    "impl_status_chrome": "No public signals",
     "ff_views": {
       "text": "Shipped",
       "value": 1
     },
     "safari_views": {
-      "text": "No Public Signals",
+      "text": "No public signals",
       "value": 3
     },
     "shipped_opera_milestone": false,
@@ -4620,7 +4620,7 @@
   {
     "name": "Web Assembly (MVP)",
     "category": "JavaScript",
-    "link": "https://webassembly.github.io/ ",
+    "link": "https://webassembly.github.io/",
     "summary": "WebAssembly or wasm is a new portable, size- and load-time-efficient format suitable for compilation to the web.",
     "ieStatus": {
       "text": "In Development"
@@ -4641,7 +4641,7 @@
     "spec": "css-font-loading-api",
     "id": 4594172182921216
   },
-    {
+  {
     "name": "Cache API",
     "category": "Offline / Storage",
     "link": "https://w3c.github.io/ServiceWorker/#cache-objects",
