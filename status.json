@@ -8,12 +8,7 @@
     "ieStatus": {
       "text": "Under Consideration",
       "priority": "High"
-    },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null
+    }
   },
   {
     "name": "SVG Accessibility API Mappings",
@@ -24,12 +19,7 @@
     "ieStatus": {
       "text": "Under Consideration",
       "priority": "Medium"
-    },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null
+    }
   },
   {
     "name": "-webkit-text-stroke",
@@ -49,12 +39,7 @@
       "text": "Enabled by default",
       "value": 2
     },
-    "shipped_opera_milestone": true,
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null
+    "shipped_opera_milestone": true
   },
   {
     "name": "WebVR",
@@ -64,13 +49,8 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Preview Release",
-      "iePrefixed": "",
       "ieUnprefixed": "15002"
     },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 4532810371039232,
     "uservoiceid": 7119843
   },
@@ -82,14 +62,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "priority": "Medium",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "priority": "Medium"
     },
     "spec": "requestidlecallback",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5572795866021888
   },
   {
@@ -100,9 +75,7 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "priority": "Medium",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "priority": "Medium"
     },
     "safari_views": {
       "text": "Shipped",
@@ -114,11 +87,6 @@
       "value": 2
     },
     "shipped_opera_milestone": true,
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "uservoiceid": 257854
   },
   {
@@ -129,9 +97,7 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "priority": "Low",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "priority": "Low"
     },
     "safari_views": {
       "text": "Shipped",
@@ -143,11 +109,6 @@
       "value": 2
     },
     "shipped_opera_milestone": true,
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "uservoiceid": 6513977
   },
   {
@@ -158,7 +119,6 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Preview Release",
-      "iePrefixed": "",
       "ieUnprefixed": "15042"
     },
     "safari_views": {
@@ -171,11 +131,6 @@
       "value": 2
     },
     "shipped_opera_milestone": true,
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "uservoiceid": 6517094
   },
   {
@@ -186,14 +141,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "priority": "Low",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "priority": "Low"
     },
     "spec": "frame-timing",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5558926443544576
   },
   {
@@ -204,14 +154,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "priority": "Medium",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "priority": "Medium"
     },
     "spec": "performance-timeline-2",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5945504202489856
   },
   {
@@ -222,14 +167,8 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "priority": "Low",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "priority": "Low"
     },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 6522186978295808
   },
   {
@@ -240,19 +179,12 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "priority": "Low",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "priority": "Low"
     },
     "safari_views": {
       "text": "Shipped",
       "value": 1
-    },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null
+    }
   },
   {
     "name": "Intersection Observer",
@@ -262,13 +194,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Preview Release",
-      "iePrefixed": "",
       "ieUnprefixed": "14986"
     },
     "spec": "intersection-observer",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5695342691483648
   },
   {
@@ -279,14 +207,8 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "priority": "Low",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "priority": "Low"
     },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5705346022637568
   },
   {
@@ -297,15 +219,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "priority": "Low",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "priority": "Low"
     },
-    "spec": "server-timing",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null
+    "spec": "server-timing"
   },
   {
     "name": "Preload",
@@ -315,14 +231,8 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "priority": "Medium",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "priority": "Medium"
     },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5757468554559488,
     "uservoiceid": 7666725
   },
@@ -334,13 +244,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "11"
     },
     "spec": "resource-hints",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
       "text": "Enabled by default",
@@ -350,8 +256,7 @@
     "safari_views": {
       "text": "No signals",
       "value": 2
-    },
-    "id": null
+    }
   },
   {
     "name": "Preconnect Resource Hints",
@@ -361,14 +266,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "priority": "Medium",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "priority": "Medium"
     },
     "spec": "resource-hints",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5560623895150592
   },
   {
@@ -379,13 +279,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "14393"
     },
     "spec": "hr-time-2",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
       "text": "Enabled by default",
@@ -395,8 +291,7 @@
     "safari_views": {
       "text": "No signals",
       "value": 2
-    },
-    "id": null
+    }
   },
   {
     "name": "Brotli Compressed Data Format",
@@ -406,13 +301,8 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Preview Release",
-      "iePrefixed": "",
       "ieUnprefixed": "14986"
     },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "uservoiceid": 11364771,
     "id": 5420797577396224
   },
@@ -424,13 +314,11 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10"
     },
     "spec": "html51",
     "msdn": "https://msdn.microsoft.com/library/hh772925.aspx",
     "wpd": "https://docs.webplatform.org/wiki/html/elements/datalist",
-    "demo": "",
     "id": 6090950820495360
   },
   {
@@ -441,14 +329,8 @@
     "standardStatus": "Editor's Draft",
     "ieStatus": {
       "text": "Under Consideration",
-      "priority": "Medium",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "priority": "Medium"
     },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5026422640869376
   },
   {
@@ -459,14 +341,10 @@
     "standardStatus": "Editor's Draft",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "14291",
-      "ieUnprefixed": ""
+      "iePrefixed": "14291"
     },
     "spec": "webauthn",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/device/web-authentication/",
-    "wpd": "",
-    "demo": "",
-    "id": null
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/device/web-authentication/"
   },
   {
     "name": "FIDO U2F",
@@ -475,14 +353,8 @@
     "summary": "FIDO Universal Second Factor API allows online services to augment the security of their existing password infrastructure by adding a strong second factor to user login via a USB or NFC device. Also see FIDO 2.0 Web APIs, a newer specification that supports additional authentication methods, such as biometrics, and can replace passwords altogether as well as provide U2F functionality.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Not currently planned",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Not currently planned"
     },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
       "text": "No public signals",
@@ -503,36 +375,25 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Medium"
     },
     "spec": "html51",
-    "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/html/elements/details",
-    "demo": "",
     "id": 5348024557502464,
     "uservoiceid": 6261266
   },
   {
     "name": "webkitdirectory and webkitRelativePath",
     "category": "File APIs",
-    "link": "",
     "summary": "Support for the webkitdirectory attribute on the input tag to make it allow a directory be selected instead of files. Support for the webkitRelativePath property on the File interface to allow the identification of relative paths of files.",
     "standardStatus": "No public standards discussion",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "14306"
     },
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
-    "spec": "",
-    "msdn": "https://msdn.microsoft.com/library/mt574730(v=vs.85).aspx",
-    "wpd": "",
-    "demo": "",
-    "id": null,
-    "uservoiceid": null
+    "msdn": "https://msdn.microsoft.com/library/mt574730(v=vs.85).aspx"
   },
   {
     "name": "Directory Upload",
@@ -542,16 +403,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Medium"
     },
-    "spec": "file-system-api",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
-    "uservoiceid": null
+    "spec": "file-system-api"
   },
   {
     "name": "<img srcset>",
@@ -561,7 +415,6 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "safari_views": {
@@ -571,7 +424,6 @@
     "spec": "html51",
     "msdn": "https://msdn.microsoft.com/library/dn955124(v=vs.85).aspx",
     "wpd": "https://docs.webplatform.org/wiki/concepts/mobile_web/highdpi",
-    "demo": "",
     "id": 4644337115725824,
     "uservoiceid": 6261267
   },
@@ -583,7 +435,6 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10547"
     },
     "safari_views": {
@@ -597,9 +448,7 @@
     },
     "shipped_opera_milestone": true,
     "spec": "html51",
-    "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/html/attributes/sizes",
-    "demo": "",
     "id": 4644337115725824,
     "uservoiceid": 8204535
   },
@@ -611,13 +460,10 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10547"
     },
     "spec": "html51",
     "msdn": "https://msdn.microsoft.com/library/mt574001(v=vs.85).aspx",
-    "wpd": "",
-    "demo": "",
     "id": 5910974510923776,
     "uservoiceid": 6261271
   },
@@ -629,13 +475,11 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10547"
     },
     "spec": "html51",
     "msdn": "https://msdn.microsoft.com/library/mt586693(v=vs.85).aspx",
     "wpd": "https://docs.webplatform.org/wiki/html/elements/template",
-    "demo": "",
     "id": 5207287069147136,
     "uservoiceid": 6261273
   },
@@ -647,7 +491,6 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text":  "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10532"
     },
     "impl_status_chrome": "Enabled by default",
@@ -663,8 +506,6 @@
     "spec": "html51",
     "msdn": "https://msdn.microsoft.com/library/mt573149(v=vs.85).aspx",
     "wpd": "https://docs.webplatform.org/wiki/html/elements/meter",
-    "demo": "",
-    "id": null,
     "uservoiceid": 6514198
   },
   {
@@ -675,7 +516,6 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10532"
     },
     "impl_status_chrome": "Enabled by default",
@@ -690,9 +530,6 @@
     },
     "spec": "html51",
     "msdn": "https://msdn.microsoft.com/library/mt587085(v=vs.85).aspx",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "uservoiceid": 8679412
   },
   {
@@ -703,7 +540,6 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10532"
     },
     "impl_status_chrome": "Enabled by default",
@@ -717,11 +553,7 @@
       "value": 1
     },
     "spec": "html51",
-    "msdn": "https://msdn.microsoft.com/library/mt629093",
-    "wpd": "",
-    "demo": "",
-    "id": null,
-    "uservoiceid": null
+    "msdn": "https://msdn.microsoft.com/library/mt629093"
   },
   {
     "name": "Canvas 2D ellipse",
@@ -731,7 +563,6 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text":  "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10547"
     },
     "impl_status_chrome": "Enabled by default",
@@ -744,12 +575,7 @@
       "text": "Preview Release",
       "value": 1
     },
-    "spec": "2dcontext",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
-    "uservoiceid": null
+    "spec": "2dcontext"
   },
   {
     "name": "Canvas 2D path2D",
@@ -759,7 +585,6 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "14316"
     },
     "impl_status_chrome": "Enabled by default",
@@ -773,10 +598,6 @@
       "value": 1
     },
     "spec": "2dcontext2",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "uservoiceid": 6710770
   },
   {
@@ -787,7 +608,6 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text":  "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10547"
     },
     "impl_status_chrome": "Enabled by default",
@@ -801,11 +621,7 @@
       "value": 1
     },
     "spec": "html51",
-    "msdn": "https://msdn.microsoft.com/library/mt574720",
-    "wpd": "",
-    "demo": "",
-    "id": null,
-    "uservoiceid": null
+    "msdn": "https://msdn.microsoft.com/library/mt574720"
   },
   {
     "name": "CSS Mutability Pseudo-classes",
@@ -815,7 +631,6 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text":  "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10547"
     },
     "impl_status_chrome": "Enabled by default",
@@ -829,11 +644,7 @@
       "value": 1
     },
     "spec": "html51",
-    "msdn": "https://msdn.microsoft.com/library/mt574722",
-    "wpd": "",
-    "demo": "",
-    "id": null,
-    "uservoiceid": null
+    "msdn": "https://msdn.microsoft.com/library/mt574722"
   },
   {
     "name": "a[download] attribute",
@@ -843,13 +654,10 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10547"
     },
     "spec": "html51",
-    "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/html/elements/a",
-    "demo": "",
     "id": 6473924464345088,
     "uservoiceid": 6261278
   },
@@ -861,13 +669,10 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10"
     },
     "spec": "html51",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/networking-and-connectivity/application-cache/",
-    "wpd": "",
-    "demo": "",
     "id": 6192449487634432,
     "opera_views": {
       "text": "Shipped",
@@ -882,13 +687,10 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10"
     },
     "spec": "html51",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/html5/video",
-    "wpd": "",
-    "demo": "",
     "id": 5748496434987008
   },
   {
@@ -899,13 +701,10 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "spec": "html51",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/html5/video",
-    "wpd": "",
-    "demo": "",
     "id": 5748496434987008,
     "uservoiceid": 6261284
   },
@@ -917,13 +716,11 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10"
     },
     "spec": "fileapi",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/html5/file-api/blob/",
     "wpd": "https://docs.webplatform.org/wiki/apis/file/Blob",
-    "demo": "",
     "id": 5328783104016384
   },
   {
@@ -934,13 +731,10 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "11"
     },
     "spec": "es6",
     "msdn": "https://msdn.microsoft.com/library/dn263046",
-    "wpd": "",
-    "demo": "",
     "id": 5891733057437696
   },
   {
@@ -951,13 +745,11 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "9"
     },
     "spec": "2dcontext",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/graphics/canvas/",
     "wpd": "https://docs.webplatform.org/wiki/apis/canvas",
-    "demo": "",
     "id": 5100084685438976
   },
   {
@@ -968,13 +760,10 @@
     "standardStatus": "Editor's draft",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "14393"
     },
     "spec": "2dcontext",
-    "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/apis/canvas/CanvasRenderingContext2D/drawSystemFocusRing",
-    "demo": "",
     "id": 6413769152397312,
     "uservoiceid": 6261287
   },
@@ -986,13 +775,10 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10532"
     },
     "spec": "compositing-1",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/graphics/canvas/",
-    "wpd": "",
-    "demo": "",
     "id": 6119881720201216,
     "uservoiceid": 6261290
   },
@@ -1004,13 +790,11 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "spec": "csp3",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/security/content-Security-Policy/",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/content-security-policy",
-    "demo": "",
     "id": 5205088045891584,
     "uservoiceid": 6511917
   },
@@ -1022,13 +806,9 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Preview Release",
-      "iePrefixed": "",
       "ieUnprefixed": "15002"
     },
     "spec": "csp2",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 4957003285790720,
     "uservoiceid": 9163354
   },
@@ -1040,13 +820,8 @@
     "standardStatus": "Editor's Draft",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Medium"
     },
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5633814718054400
   },
   {
@@ -1057,8 +832,6 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Medium"
     }
   },
@@ -1070,13 +843,10 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "9"
     },
-    "spec": "",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/calc-function/",
     "wpd": "https://docs.webplatform.org/wiki/css/functions/calc",
-    "demo": "",
     "id": 5765241438732288
   },
   {
@@ -1087,13 +857,11 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Prefixed",
-      "iePrefixed": "10",
-      "ieUnprefixed": ""
+      "iePrefixed": "10"
     },
     "spec": "css-deviceadapt-1",
     "msdn": "https://msdn.microsoft.com/library/hh708740",
     "wpd": "https://docs.webplatform.org/wiki/concepts/mobile_web/responsive_design",
-    "demo": "",
     "id": 4737164243894272
   },
   {
@@ -1110,7 +878,6 @@
     "spec": "pointerevents",
     "msdn": "https://msdn.microsoft.com/library/hh772044.aspx",
     "wpd": "https://docs.webplatform.org/wiki/css/properties/touch-action",
-    "demo": "",
     "id": 5912074022551552
   },
   {
@@ -1120,14 +887,8 @@
     "summary": "Introduces cascading variables as a new primitive value type that is accepted by all CSS properties, and custom properties for defining them.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "In Development"
     },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 6401356696911872,
     "uservoiceid": 6261292
   },
@@ -1139,14 +900,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Low"
     },
     "spec": "css-will-change-1",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5954199330226176,
     "uservoiceid": 6261294
   },
@@ -1157,14 +913,9 @@
     "summary": "Adds an optional argument to existing scroll APIs that specifies whether scrolling should be smooth. Also adds a CSS property for this.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Under Consideration"
     },
     "spec": "cssom-view-1",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5812155903377408,
     "uservoiceid": 6261297
   },
@@ -1176,14 +927,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Medium"
     },
     "spec": "custom-elements",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 4696261944934400,
     "uservoiceid": 6261298
   },
@@ -1195,13 +941,10 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "11"
     },
     "spec": "orientation-event",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/device/device-orientation-and-motion-events/",
-    "wpd": "",
-    "demo": "",
     "id": 5556931766779904
   },
   {
@@ -1212,13 +955,11 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "11"
     },
     "spec": "orientation-event",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/device/device-orientation-and-motion-events/",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/device_orientation",
-    "demo": "",
     "id": 5874690627207168
   },
   {
@@ -1229,13 +970,10 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "11"
     },
     "spec": "cssom-view-1",
     "msdn": "https://msdn.microsoft.com/library/dn255104.aspx",
-    "wpd": "",
-    "demo": "",
     "id": 5269993591668736
   },
   {
@@ -1246,13 +984,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "9"
     },
     "spec": "uievents",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 4748790720364544
   },
   {
@@ -1263,13 +997,11 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "8"
     },
     "spec": "pointerevents",
     "msdn": "https://msdn.microsoft.com/library/ms536945.aspx",
     "wpd": "https://docs.webplatform.org/wiki/dom/MouseEvent/mouseenter",
-    "demo": "",
     "id": 4889528208719872
   },
   {
@@ -1280,13 +1012,11 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "9"
     },
     "spec": "uievents",
     "msdn": "https://msdn.microsoft.com/library/ff974352",
     "wpd": "https://docs.webplatform.org/wiki/dom/WheelEvent",
-    "demo": "",
     "id": 5388191091654656
   },
   {
@@ -1296,14 +1026,8 @@
     "summary": "Allows dragging and dropping entire folders using HTML5 Drag and Drop. Extends the DataTransferItem with a method to get a FileEntry/DirectoryEntry.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "In Development"
     },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5733953138851840,
     "uservoiceid": 6261304
   },
@@ -1320,8 +1044,6 @@
     },
     "spec": "encrypted-media",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/multimedia/encrypted-media-extensions/",
-    "wpd": "",
-    "demo": "",
     "id": 6578378068983808
   },
   {
@@ -1332,13 +1054,10 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Prefixed",
-      "iePrefixed": "10",
-      "ieUnprefixed": ""
+      "iePrefixed": "10"
     },
     "spec": "css-exclusions-1",
     "msdn": "https://msdn.microsoft.com/library/hh772711",
-    "wpd": "",
-    "demo": "",
     "id": 6296903092273152
   },
   {
@@ -1349,13 +1068,11 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10586"
     },
     "spec": "filter-effects-1",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/filter-effects/",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/css_filters",
-    "demo": "",
     "id": 5822463824887808,
     "uservoiceid": 6261306
   },
@@ -1373,7 +1090,6 @@
     "spec": "css-flexbox-1",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/flexbox/",
     "wpd": "https://docs.webplatform.org/wiki/css/flexbox",
-    "demo": "",
     "id": 4837301406400512
   },
   {
@@ -1384,13 +1100,11 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "11",
-      "ieUnprefixed": ""
+      "iePrefixed": "11"
     },
     "spec": "whatwg-fullscreen",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/device/fullscreen-api/",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/using_the_full-screen_api",
-    "demo": "",
     "id": 5259513871466496
   },
   {
@@ -1401,13 +1115,11 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "spec": "gamepad",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/dom/gamepad-api/",
     "wpd": "https://docs.webplatform.org/wiki/apis/gamepad/Gamepad",
-    "demo": "",
     "id": 5118776383111168,
     "uservoiceid": 6509110
   },
@@ -1418,14 +1130,9 @@
     "summary": "CSS properties helpful for printed publication.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Under Consideration"
     },
     "spec": "css-gcpm-3",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5400251359821824,
     "uservoiceid": 6261314
   },
@@ -1437,13 +1144,11 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "9"
     },
     "spec": "geolocation-api",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/device/geolocation/",
     "wpd": "https://docs.webplatform.org/wiki/apis/geolocation",
-    "demo": "",
     "id": 6348855016685568
   },
   {
@@ -1454,13 +1159,11 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "spec": "html-media-capture",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/multimedia/media-Capture-and-Streams/",
     "wpd": "https://docs.webplatform.org/wiki/dom/Navigator/getUserMedia",
-    "demo": "",
     "id": 6067380039974912,
     "uservoiceid": 6573558
   },
@@ -1472,13 +1175,11 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10"
     },
     "spec": "css-images-3",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/gradients/",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/CSS_gradients",
-    "demo": "",
     "id": 5785905063264256
   },
   {
@@ -1489,14 +1190,11 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Prefixed",
-      "iePrefixed": "10",
-      "ieUnprefixed": ""
+      "iePrefixed": "10"
     },
     "spec": "css-grid-1",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/grid-layout/",
-    "wpd": "https://docs.webplatform.org/wiki/css/properties/grid",
-    "demo": "",
-    "id": null
+    "wpd": "https://docs.webplatform.org/wiki/css/properties/grid"
   },
   {
     "name": "Grid Update",
@@ -1505,14 +1203,10 @@
     "summary": "This will update our current implementation, from IE10, to support some of the following: the implicit grid, grid-template-* syntax, subgrids, or grid-gap.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Under Consideration"
     },
     "spec": "css-grid-1",
-    "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/css/properties/grid",
-    "demo": "",
     "id": 4589636412243968,
     "uservoiceid": 6514853
   },
@@ -1523,22 +1217,14 @@
     "summary": "An addendum to HTML5 forms extending the abilities of configuring HTTP requests through HTML markup.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Under Consideration"
     },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "uservoiceid": 8157372,
     "impl_status_chrome": "No active development",
     "ff_views": {
       "text": "No public signals",
       "value": 5
     },
-    "shipped_opera_milestone": null,
     "safari_views": {
       "text": "No public signals",
       "value": 5
@@ -1552,14 +1238,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Low"
     },
     "spec": "html-imports",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5144752345317376,
     "uservoiceid": 6261318
   },
@@ -1570,14 +1251,8 @@
     "summary": "Header for proactive content negotiation; just as the Accept header allowed clients to indicate what formats they prefer, Client Hints allow clients to indicate a list of device and agent specific preferences.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Under Consideration"
     },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5504430086553600,
     "uservoiceid": 6261321
   },
@@ -1589,13 +1264,9 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "11"
     },
-    "spec": "",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/security/HSTS/",
-    "wpd": "",
-    "demo": "",
     "id": 4941480133132288
   },
   {
@@ -1606,13 +1277,8 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Deprecated",
-      "iePrefixed": "",
       "ieUnprefixed": "11"
     },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5152586365665280
   },
   {
@@ -1623,13 +1289,9 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
-    "spec": "",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/networking-and-connectivity/HTTP2/",
-    "wpd": "",
-    "demo": "",
     "id": "5152586365665280"
   },
   {
@@ -1640,13 +1302,11 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10"
     },
     "spec": "html51",
     "msdn": "https://msdn.microsoft.com/library/hh673561",
     "wpd": "https://docs.webplatform.org/wiki/html/attributes/sandbox",
-    "demo": "",
     "id": 5715536319086592
   },
   {
@@ -1657,14 +1317,9 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Low"
     },
     "spec": "html51",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 6630329993396224,
     "uservoiceid": 6261330
   },
@@ -1676,14 +1331,9 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Low"
     },
     "spec": "html51",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5222955109842944,
     "uservoiceid": 6261334
   },
@@ -1695,13 +1345,10 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Prefixed",
-      "iePrefixed": "11",
-      "ieUnprefixed": ""
+      "iePrefixed": "11"
     },
     "spec": "ime-api",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/dom/input-Method-Editor-API/",
-    "wpd": "",
-    "demo": "",
     "id": 6366722080636928
   },
   {
@@ -1712,13 +1359,11 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10"
     },
     "spec": "indexeddb",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/storage/IndexedDB/",
     "wpd": "https://docs.webplatform.org/wiki/apis/indexeddb",
-    "demo": "",
     "id": 6507459568992256
   },
   {
@@ -1728,9 +1373,7 @@
     "summary": "Extends the existing IndexedDB implementation with support for compound keys, indexed array values, and multiEntry.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Under Consideration"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
@@ -1743,10 +1386,6 @@
       "value": 3
     },
     "spec": "indexeddb",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "uservoiceid": 8437039
   },
   {
@@ -1757,14 +1396,8 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "11"
     },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
       "text": "Shipped",
@@ -1784,13 +1417,10 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "11"
     },
     "spec": "es6",
     "msdn": "https://msdn.microsoft.com/library/dn263029",
-    "wpd": "",
-    "demo": "",
     "id": 4818609708728320
   },
   {
@@ -1801,14 +1431,11 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Medium"
     },
     "spec": "css-masking-1",
     "msdn": "https://msdn.microsoft.com/library/ff972267.aspx",
     "wpd": "https://docs.webplatform.org/wiki/css/properties/mask",
-    "demo": "",
     "id": 5381559662149632,
     "uservoiceid": 6261341
   },
@@ -1820,13 +1447,11 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10"
     },
     "spec": "cssom-view-1",
     "msdn": "https://msdn.microsoft.com/library/hh772743",
     "wpd": "https://docs.webplatform.org/wiki/css/media_queries/apis/matchMedia",
-    "demo": "",
     "id": 4677872220372992
   },
   {
@@ -1836,14 +1461,9 @@
     "summary": "An application of XML for describing mathematical notations and capturing both its structure and content.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Not currently planned",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Not currently planned"
     },
-    "spec": "",
-    "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/mathml",
-    "demo": "",
     "id": 5240822173794304,
     "uservoiceid": 6508572
   },
@@ -1855,13 +1475,10 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "9"
     },
-    "spec": "",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/media-queries/",
     "wpd": "https://docs.webplatform.org/wiki/css/atrules/%40media",
-    "demo": "",
     "id": 5944509615570944
   },
   {
@@ -1872,13 +1489,11 @@
     "standardStatus": "Editor's draft",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "11"
     },
     "spec": "media-source",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/multimedia/media-source-extensions/",
     "wpd": "https://docs.webplatform.org/wiki/apis/media_source_extensions",
-    "demo": "",
     "id": 4563797888991232
   },
   {
@@ -1888,14 +1503,9 @@
     "summary": "Encode audio and video streams in the browser.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Under Consideration"
     },
     "spec": "mediastream-recording",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5929649028726784,
     "uservoiceid": 6261360
   },
@@ -1906,14 +1516,8 @@
     "summary": "Microdata is used to nest semantics within existing content on web pages.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Not currently planned",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Not currently planned"
     },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 6428569609699328,
     "uservoiceid": 6508451
   },
@@ -1925,14 +1529,10 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "spec": "css-transforms-1",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/transforms/",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
       "text": "Shipped",
@@ -1953,14 +1553,9 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Low"
     },
     "spec": "compositing-1",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 6362616360337408,
     "uservoiceid": 6263617
   },
@@ -1972,14 +1567,9 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Low"
     },
     "spec": "compositing-1",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5768037999312896,
     "uservoiceid": 9434463
   },
@@ -1990,17 +1580,9 @@
     "summary": "Increases interoperability with the web by relaxing domain and licensing metadata restrictions for EOT, WOFF, and TrueType fonts. Development work for IE is currently for Windows Phone only.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "In Development",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "In Development"
     },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "impl_status_chrome": "Removed",
-    "shipped_opera_milestone": null,
     "safari_views": {
       "text": "Shipped",
       "value": 1
@@ -2014,13 +1596,11 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10"
     },
     "spec": "css-multicol-3",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/multi-column-layout/",
     "wpd": "https://docs.webplatform.org/wiki/css/properties/column-count",
-    "demo": "",
     "id": 6526151266664448
   },
   {
@@ -2031,13 +1611,10 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "11"
     },
     "spec": "whatwg-dom",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/dom/mutation-observers/",
-    "wpd": "",
-    "demo": "",
     "id": 5021194726146048
   },
   {
@@ -2048,13 +1625,11 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "9"
     },
     "spec": "navigation-timing-2",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/navigation-Timing-API/",
     "wpd": "https://docs.webplatform.org/wiki/apis/navigation_timing",
-    "demo": "",
     "id": 5584144679567360
   },
   {
@@ -2065,13 +1640,11 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10"
     },
     "spec": "page-visibility",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/page-Visibility-API/",
     "wpd": "https://docs.webplatform.org/wiki/dom/Document/visibilitychange",
-    "demo": "",
     "id": 5689697795833856
   },
   {
@@ -2088,7 +1661,6 @@
     "spec": "pointerevents",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/dom/pointer-events/",
     "wpd": "https://docs.webplatform.org/wiki/PointerEvents",
-    "demo": "",
     "id": 4504699138998272
   },
   {
@@ -2099,14 +1671,11 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10532"
     },
     "shipped_opera_milestone": true,
     "spec": "pointerlock",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/dom/pointer-lock/",
-    "wpd": "",
-    "demo": "",
     "id": 6753200417800192
   },
   {
@@ -2117,14 +1686,9 @@
     "standardStatus": "Editor's Draft",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Medium"
     },
     "spec": "css-position-3",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 6190250464378880,
     "uservoiceid": 6263621
   },
@@ -2136,13 +1700,11 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "8"
     },
     "spec": "webmessaging",
     "msdn": "https://msdn.microsoft.com/library/cc197015.aspx",
     "wpd": "https://docs.webplatform.org/wiki/dom/Window/postMessage",
-    "demo": "",
     "id": 4786174115708928
   },
   {
@@ -2152,14 +1714,10 @@
     "summary": "This API can be used to check how much quota an app/origin is using.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Not currently planned",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Not currently planned"
     },
     "spec": "quota-api",
-    "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/apis/quota_management",
-    "demo": "",
     "id": 6218562888794112,
     "uservoiceid": 6508438
   },
@@ -2172,13 +1730,11 @@
     "ieStatus": {
       "text": "Prefixed",
       "iePrefixed": "10",
-      "ieUnprefixed": "",
       "priority": "Medium"
     },
     "spec": "css-regions-1",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/regions/",
     "wpd": "https://docs.webplatform.org/wiki/apis/css-regions",
-    "demo": "",
     "id": 5655612935372800
   },
   {
@@ -2189,13 +1745,11 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10"
     },
     "spec": "html51",
     "msdn": "https://msdn.microsoft.com/library/hh920765",
     "wpd": "https://docs.webplatform.org/wiki/dom/Window/requestAnimationFrame",
-    "demo": "",
     "id": 5233400470306816
   },
   {
@@ -2206,13 +1760,11 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10"
     },
     "spec": "resource-timing",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/resource-timing-api/",
     "wpd": "https://docs.webplatform.org/wiki/apis/resource_timing",
-    "demo": "",
     "id": 5796350423728128
   },
   {
@@ -2222,14 +1774,9 @@
     "summary": "ServiceWorkers (formerly Navigation Controllers) are a new system that provides event-driven scripts that run independent of web pages. They are similar to SharedWorkers except that their lifetime is different and they have access to domain-wide events such as network fetches.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "In Development"
     },
     "spec": "service-workers",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 6561526227927040,
     "uservoiceid": 6263630
   },
@@ -2241,13 +1788,10 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "11"
     },
     "spec": "es6",
     "msdn": "https://msdn.microsoft.com/library/dn251547",
-    "wpd": "",
-    "demo": "",
     "id": 4916191365693440
   },
   {
@@ -2258,30 +1802,20 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Prefixed",
-      "iePrefixed": "10",
-      "ieUnprefixed": ""
+      "iePrefixed": "10"
     },
-    "spec": "",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/streams-API/",
-    "wpd": "",
-    "demo": "",
     "id": 6605041225957376
   },
   {
     "name": "Subpixel font scaling",
     "category": "Graphics",
-    "link": "",
     "summary": "Allow sub-css-pixel font-sizes and thus smooth font scaling.",
     "standardStatus": "De-facto standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "11"
     },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 6259163214643200
   },
   {
@@ -2292,14 +1826,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Low"
     },
     "spec": "svg2",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5760616295825408,
     "uservoiceid": 6263636
   },
@@ -2311,13 +1840,8 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "8"
     },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5197666342404096
   },
   {
@@ -2328,13 +1852,10 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10"
     },
     "spec": "html51",
     "msdn": "https://msdn.microsoft.com/library/bg123962",
-    "wpd": "",
-    "demo": "",
     "id": 6719115557339136
   },
   {
@@ -2351,7 +1872,6 @@
     "spec": "css-transforms-1",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/transforms/",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/css_transforms",
-    "demo": "",
     "id": 6437640580628480
   },
   {
@@ -2362,13 +1882,10 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10"
     },
     "spec": "es6",
     "msdn": "https://msdn.microsoft.com/library/hh869304.aspx",
-    "wpd": "",
-    "demo": "",
     "id": 5135818813341696
   },
   {
@@ -2379,13 +1896,9 @@
     "standardStatus": "Editor's draft",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
       "ieUnprefixed": "Medium"
     },
     "spec": "uievents",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5593215650496512,
     "uservoiceid": 6508637
   },
@@ -2396,14 +1909,9 @@
     "summary": "Expose constructible URL objects that can be manipulated and combined.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "In Development",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "In Development"
     },
     "spec": "whatwg-url",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5675829346435072,
     "uservoiceid": 6263638
   },
@@ -2415,13 +1923,11 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10"
     },
     "spec": "user-timing",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/user-timing-api/",
     "wpd": "https://docs.webplatform.org/wiki/apis/user_timing",
-    "demo": "",
     "id": 5066549580791808
   },
   {
@@ -2431,14 +1937,10 @@
     "summary": "This specification defines an API that provides access to the vibration mechanism of the hosting device. Vibration is a form of tactile feedback. ",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Under Consideration"
     },
     "spec": "vibration",
-    "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/apis/vibration",
-    "demo": "",
     "id": 5698768766763008,
     "uservoiceid": 6263645
   },
@@ -2450,13 +1952,10 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "11"
     },
     "spec": "es6",
     "msdn": "https://msdn.microsoft.com/library/dn251546",
-    "wpd": "",
-    "demo": "",
     "id": 4572868859920384
   },
   {
@@ -2467,14 +1966,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Medium"
     },
     "spec": "web-animations-1",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 4854343836631040,
     "uservoiceid": 6263650
   },
@@ -2486,13 +1980,10 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Prefixed",
-      "iePrefixed": "11",
-      "ieUnprefixed": ""
+      "iePrefixed": "11"
     },
     "spec": "webcryptoapi",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/security/web-Cryptography-API/",
-    "wpd": "",
-    "demo": "",
     "id": 5030265697075200
   },
   {
@@ -2502,14 +1993,9 @@
     "summary": "Defines an API supporting the MIDI protocol, enabling web applications to enumerate and select MIDI input and output devices on the client system and send and receive MIDI messages.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Not currently planned",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Not currently planned"
     },
     "spec": "webmidi",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 4923613069180928,
     "uservoiceid": 6508429
   },
@@ -2521,13 +2007,10 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "14342"
     },
     "spec": "notifications",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/device/web-Notifications-API/",
-    "wpd": "",
-    "demo": "",
     "id": 5064350557536256,
     "uservoiceid": 6263658
   },
@@ -2538,14 +2021,9 @@
     "summary": "Enables web developers to incorporate speech recognition into their web pages.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "In Development"
     },
     "spec": "speech-api",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5908775487668224,
     "uservoiceid": 6263660
   },
@@ -2557,13 +2035,10 @@
     "standardStatus": "Editor's draft",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "14316"
     },
     "spec": "speech-api",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/multimedia/web-speech-api/",
-    "wpd": "",
-    "demo": "",
     "id": 4782875580825600,
     "uservoiceid": 6263662
   },
@@ -2574,14 +2049,9 @@
     "summary": "API exposing an SQLite database",
     "standardStatus": "No public standards discussion",
     "ieStatus": {
-      "text": "Not currently planned",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Not currently planned"
     },
     "spec": "webdatabase",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 6330987952734208,
     "uservoiceid": 6508421
   },
@@ -2593,13 +2063,11 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "8"
     },
     "spec": "webstorage",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/storage/web-and-offline-storage/",
     "wpd": "https://docs.webplatform.org/wiki/apis/web-storage",
-    "demo": "",
     "id": 5345825534246912
   },
   {
@@ -2610,13 +2078,11 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Prefixed",
-      "iePrefixed": "11",
-      "ieUnprefixed": ""
+      "iePrefixed": "11"
     },
     "spec": "webgl",
     "msdn": "https://msdn.microsoft.com/library/bg182648",
     "wpd": "https://docs.webplatform.org/wiki/webgl",
-    "demo": "",
     "id": 6049512976023552
   },
   {
@@ -2627,13 +2093,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Medium"
     },
     "spec": "webgl2",
-    "msdn": "",
-    "wpd": "",
     "demo": "https://www.youtube.com/watch?v=2v6iLpY7j5M",
     "id": 6694359164518400,
     "uservoiceid": 6517037
@@ -2645,14 +2107,8 @@
     "summary": "APNG is an extension of the PNG format, adding support for animated images.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Not currently planned",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Not currently planned"
     },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 6691520493125632,
     "uservoiceid": 6513393
   },
@@ -2663,14 +2119,8 @@
     "summary": "WebP is an image format that provides lossless and lossy compression for images on the web. ",
     "standardStatus": "Public discussion",
     "ieStatus": {
-      "text": "Not currently planned",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Not currently planned"
     },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 6471725441089536,
     "uservoiceid": 6508417
   },
@@ -2682,13 +2132,10 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Preview Release",
-      "iePrefixed": "",
       "ieUnprefixed": "15019"
     },
     "spec": "webrtc",
-    "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/apis/webrtc",
-    "demo": "",
     "id": 6612462929444864,
     "uservoiceid": 6508336
   },
@@ -2700,20 +2147,15 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10547"
     },
     "spec": "ortc",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/realtime-communication/object-rtc-api/",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "impl_status_chrome": "No active development",
     "ff_views": {
       "text": "No public signals",
       "value": 5
     },
-    "shipped_opera_milestone": null,
     "safari_views": {
       "text": "No public signals",
       "value": 5
@@ -2728,13 +2170,11 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10"
     },
     "spec": "html51",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/networking-and-connectivity/websocket/",
     "wpd": "https://docs.webplatform.org/wiki/concepts/protocols/websocket",
-    "demo": "",
     "id": 6555138000945152,
     "opera_views": {
       "text": "Shipped",
@@ -2749,13 +2189,11 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10"
     },
     "spec": "xhr",
     "msdn": "https://msdn.microsoft.com/library/cc304105.aspx",
     "wpd": "https://docs.webplatform.org/wiki/apis/xhr/XMLHttpRequest/timeout",
-    "demo": "",
     "id": 6290890138058752
   },
   {
@@ -2766,14 +2204,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "14362"
     },
-    "spec": "xhr",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null
+    "spec": "xhr"
   },
   {
     "name": "Arrow function (ES6)",
@@ -2783,13 +2216,9 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "spec": "es6",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5047308127305728,
     "uservoiceid": 6512181
   },
@@ -2801,14 +2230,10 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Low"
     },
     "spec": "css-align-3",
     "msdn": "https://msdn.microsoft.com/library/bg124109.aspx#setting_flexbox_alignment_",
-    "wpd": "",
-    "demo": "",
     "id": 6173208034148352,
     "uservoiceid": 6263671
   },
@@ -2819,14 +2244,9 @@
     "summary": "The function allows filtering an CSS input image with a set of filter functions. The used filter functions are the same as for the CSS filter property. The filter() function can be animated as well.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Under Consideration"
     },
     "spec": "filter-effects-1",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5425136400334848,
     "uservoiceid": 6263676
   },
@@ -2837,14 +2257,9 @@
     "summary": "The function allows filtering using SVG Filter elements as the filter function.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Under Consideration"
     },
     "spec": "filter-effects-1",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5822463824887808
   },
   {
@@ -2855,13 +2270,9 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "14342"
     },
     "spec": "es6",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5275456790069248,
     "uservoiceid": 6512273
   },
@@ -2873,14 +2284,10 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Preview Release",
-      "iePrefixed": "",
       "ieUnprefixed": "10532",
       "flag": true
     },
     "spec": "es6",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 4588790303686656,
     "uservoiceid": 6263681
   },
@@ -2892,13 +2299,9 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "spec": "es6",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5937087912083456
   },
   {
@@ -2909,13 +2312,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Preview Release",
-      "iePrefixed": "",
       "ieUnprefixed": "10586"
     },
     "spec": "ambient-light",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5298357018820608,
     "uservoiceid": 6263685
   },
@@ -2927,14 +2326,10 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Low"
     },
     "spec": "battery-status",
-    "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/apis/battery_status",
-    "demo": "",
     "id": 4537134732017664,
     "uservoiceid": 6263689
   },
@@ -2945,14 +2340,9 @@
     "summary": "Provides webapps with scripted access to server-sent notifications.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "In Development"
     },
     "spec": "push-api",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5416033485586432,
     "uservoiceid": 6263693
   },
@@ -2963,14 +2353,9 @@
     "summary": "Subresource Integrity defines a mechanism by which user agents may verify that a fetched resource has been delivered without unexpected manipulation. In a nutshell, metadata inlined into HTML elements allows the browser to determine whether the resource that was downloaded matches the resource the page's author expected to download.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Under Consideration"
     },
     "spec": "sri",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 6183089948590080,
     "uservoiceid": 6263699
   },
@@ -2982,14 +2367,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Low"
     },
     "spec": "css-sizing-3",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5901353784180736,
     "uservoiceid": 6263702
   },
@@ -3001,13 +2381,10 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "9"
     },
     "spec": "css-fonts-3",
     "msdn": "https://msdn.microsoft.com/library/jj127324.aspx",
-    "wpd": "",
-    "demo": "",
     "id": 4598830058176512
   },
   {
@@ -3017,14 +2394,9 @@
     "summary": "Add a textDecoration attribute to canvas 2D contexts, behavior similar to existing \"font\" attribute: It's a DOMString, parsed the same way as corresponding CSS property (text-decoration).",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Under Consideration"
     },
     "spec": "2dcontext",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5663034638860288,
     "uservoiceid": 6263706
   },
@@ -3036,13 +2408,10 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "spec": "es6",
-    "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/concepts/programming/javascript/iterators",
-    "demo": "",
     "id": 4696563918045184
   },
   {
@@ -3053,14 +2422,8 @@
     "standardStatus": "Editor's draft",
     "ieStatus": {
       "text": "Under Consideration",
-      "priority": "low",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "priority": "low"
     },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5391249376804864,
     "uservoiceid": 6263712
   },
@@ -3072,14 +2435,9 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Medium"
     },
     "spec": "css-shapes-1",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5163890719588352,
     "uservoiceid": 6263716
   },
@@ -3091,13 +2449,9 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "spec": "es6",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 6042091272536064
   },
   {
@@ -3107,14 +2461,9 @@
     "summary": "Allow sharing resources between 2 or more WebGL contexts",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Under Consideration"
     },
     "spec": "webgl",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5486563022602240,
     "uservoiceid": 6263719
   },
@@ -3126,14 +2475,9 @@
     "standardStatus": "Editor's draft",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Low"
     },
     "spec": "html51",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 6225984592281600,
     "uservoiceid": 6263729
   },
@@ -3144,14 +2488,9 @@
     "summary": "Observe changes to JS objects.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Not currently planned",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Not currently planned"
     },
     "spec": "es6",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 6147094632988672,
     "uservoiceid": 6263750
   },
@@ -3163,14 +2502,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "High"
     },
     "spec": "shadow-dom",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 4667415417847808,
     "uservoiceid": 6263785
   },
@@ -3182,13 +2516,11 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "spec": "webaudio",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/multimedia/web-Audio/",
     "wpd": "https://docs.webplatform.org/wiki/apis/webaudio",
-    "demo": "",
     "id": 6261718720184320,
     "uservoiceid": 6557946
   },
@@ -3200,14 +2532,10 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "High"
     },
     "spec": "css-images-3",
-    "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/css/properties/object-fit",
-    "demo": "",
     "id": 5302669702856704,
     "uservoiceid": 6263790
   },
@@ -3219,13 +2547,9 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "spec": "css-conditional-3",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 4993981813358592,
     "uservoiceid": 6517589
   },
@@ -3237,13 +2561,9 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10586"
     },
     "spec": "es6",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 4959347197083648,
     "uservoiceid": 6263797
   },
@@ -3254,14 +2574,8 @@
     "summary": "Filter effects are a way of processing an element’s rendering before it is displayed in the document.",
     "standardStatus": "Public discussion",
     "ieStatus": {
-      "text": "Not currently planned",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Not currently planned"
     },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5838406743490560,
     "uservoiceid": 6508326
   },
@@ -3273,13 +2587,9 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10"
     },
     "spec": "hr-time-2",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5349124069130240
   },
   {
@@ -3289,14 +2599,9 @@
     "summary": "Boolean attribute for the <style> element (<style scoped>). When present, its styles only apply to the parent element.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Not currently planned",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Not currently planned"
     },
     "spec": "html51",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5374137958662144,
     "uservoiceid": 6508310
   },
@@ -3308,13 +2613,9 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "spec": "es6",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 4811188005240832,
     "uservoiceid": 6263801
   },
@@ -3326,13 +2627,10 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "spec": "touch-events",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/dom/touch-events/",
-    "wpd": "",
-    "demo": "",
     "id": 6156165603917824,
     "uservoiceid": 6508302
   },
@@ -3344,14 +2642,9 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Low"
     },
     "spec": "html51",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 6416612420747264,
     "uservoiceid": 6263806
   },
@@ -3362,14 +2655,9 @@
     "summary": "Enables writing to files from web applications.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Under Consideration"
     },
     "spec": "file-system",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5963201313243136,
     "uservoiceid": 6263821
   },
@@ -3381,13 +2669,11 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10"
     },
     "spec": "fileapi",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/html5/file-api/filereader/",
     "wpd": "https://docs.webplatform.org/wiki/apis/file/FileReader",
-    "demo": "",
     "id": 5171003185430528
   },
   {
@@ -3397,14 +2683,10 @@
     "summary": "Enables push notifications from the server received as DOM events.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Under Consideration"
     },
     "spec": "eventsource",
-    "msdn": "",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/eventsource_basics",
-    "demo": "",
     "id": 5311740673785856,
     "uservoiceid": 6263825
   },
@@ -3416,13 +2698,11 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10"
     },
     "spec": "webmessaging",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/realtime-communication/message-channels/",
     "wpd": "https://docs.webplatform.org/wiki/apis/web-messaging/MessageChannel",
-    "demo": "",
     "id": 6710044586409984
   },
   {
@@ -3433,20 +2713,14 @@
     "standardStatus": "Editor's draft",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10"
     },
     "spec": "setimmediate",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "impl_status_chrome": "No active development",
     "ff_views": {
       "text": "No public signals",
       "value": 5
     },
-    "shipped_opera_milestone": null,
     "safari_views": {
       "text": "No public signals",
       "value": 5
@@ -3460,13 +2734,10 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "14342"
     },
     "spec": "beacon",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/beacon-API/",
-    "wpd": "",
-    "demo": "",
     "id": 5517433905348608,
     "uservoiceid": 6263834
   },
@@ -3478,14 +2749,10 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "11"
     },
     "spec": "resource-hints",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/prerender-and-prefetch-support/",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
       "text": "Shipped",
@@ -3505,14 +2772,10 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "11"
     },
     "spec": "resource-hints",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/prerender-and-prefetch-support/",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
       "text": "No public signals",
@@ -3532,20 +2795,15 @@
     "standardStatus": "Editor's draft",
     "ieStatus": {
       "text": "Prefixed",
-      "iePrefixed": "10",
-      "ieUnprefixed": ""
+      "iePrefixed": "10"
     },
     "spec": "css-snappoints-1",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5721832506261504,
     "impl_status_chrome": "No active development",
     "ff_views": {
       "text": "No public signals",
       "value": 5
     },
-    "shipped_opera_milestone": null,
     "safari_views": {
       "text": "In Development",
       "value": 2
@@ -3559,14 +2817,10 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "spec": "dom-level-3-xpath",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/dom/xpath/",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
       "text": "Shipped",
@@ -3587,31 +2841,21 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Prefixed",
-      "iePrefixed": "11",
-      "ieUnprefixed": ""
+      "iePrefixed": "11"
     },
     "spec": "screen-orientation",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/device/screen-Orientation-API/",
-    "wpd": "",
-    "demo": "",
     "id": 6191285283061760
   },
   {
     "name": "CSS pointer-events",
     "category": "CSS",
-    "link": "",
     "summary": "Enables control of whether an element can receive input events from a pointing device using an API similar to the existing pointer-events property from SVG.",
     "standardStatus": "De-facto standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "11"
     },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
       "text": "Shipped",
@@ -3631,14 +2875,10 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "11"
     },
     "spec": "webdriver",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/tools/webDriver/",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
       "text": "In development",
@@ -3658,14 +2898,11 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "spec": "svg2",
     "msdn": "https://msdn.microsoft.com/library/dn806280",
     "wpd": "https://docs.webplatform.org/wiki/tutorials/external_content_in_svg#Embedding_arbitrary_XML",
-    "demo": "",
-    "id": null,
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
       "text": "Shipped",
@@ -3686,14 +2923,11 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "spec": "mediaqueries-4",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/media-queries/",
     "wpd": "https://docs.webplatform.org/wiki/css/atrules/%40media",
-    "demo": "",
-    "id": null,
     "ff_views": {
       "text": "No public signals",
       "value": 5
@@ -3713,14 +2947,10 @@
     "standardStatus": "Public Proposal",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "spec": "selection-api",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/html5/selection-API/",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "ff_views": {
       "text": "Shipped",
       "value": 1
@@ -3740,13 +2970,9 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "spec": "es6",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 4873630588600320,
     "safari_views": {
       "text": "In Development",
@@ -3761,13 +2987,9 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "spec": "es6",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5681726336532480,
     "uservoiceid": 6512244
   },
@@ -3775,18 +2997,13 @@
     "name": "Async Functions",
     "category": "JavaScript",
     "link": "https://tc39.github.io/ecmascript-asyncawait",
-    "summary": "",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Preview Release",
-      "iePrefixed": "",
       "ieUnprefixed": "14986",
       "flag": false
     },
     "spec": "es6",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5643236399906816,
     "uservoiceid": 8511262
   },
@@ -3794,35 +3011,24 @@
     "name": "Array.prototype.includes (ES2016)",
     "category": "JavaScript",
     "link": "https://tc39.github.io/Array.prototype.includes",
-    "summary": "",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
-      "ieUnprefixed": "14279",
-      "priority": ""
+      "ieUnprefixed": "14279"
     },
     "spec": "es6",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5964420647747584
   },
   {
     "name": "Exponentiation Operator (ES2016)",
     "category": "JavaScript",
     "link": "https://rwaldron.github.io/exponentiation-operator",
-    "summary": "",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "14342"
     },
-    "spec": "es6",
-    "msdn": "",
-    "wpd": "",
-    "demo": ""
+    "spec": "es6"
   },
   {
     "name": "Shared Memory and Atomics",
@@ -3831,14 +3037,9 @@
     "summary": "Shared memory and atomics for ECMAscript.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "In Development"
     },
     "spec": "es6",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 4570991992766464,
     "uservoiceid": 9788550
   },
@@ -3849,14 +3050,9 @@
     "summary": "ECMAScript proposal for Object.getOwnPropertyDescriptors.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Under Consideration"
     },
-    "spec": "es6",
-    "msdn": "",
-    "wpd": "",
-    "demo": ""
+    "spec": "es6"
   },
   {
     "name": "Karaoke Web Standard",
@@ -3866,15 +3062,9 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "High"
     },
-    "spec": "",
     "msdn": "https://www.youtube.com/watch?v=lD9FAOPBiDk&feature=youtu.be",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "ff_views": {
       "text": "No Public Signals",
       "value": 5
@@ -3898,11 +3088,9 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10547"
     },
     "spec": "svg2",
-    "demo": "",
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
       "text": "Shipped",
@@ -3916,7 +3104,6 @@
       "text": "Shipped",
       "value": 1
     },
-    "id": null,
     "uservoiceid": 6263916
   },
   {
@@ -3927,7 +3114,6 @@
     "standardStatus": "Editor's Draft",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "id": 5126747842412544
@@ -3940,10 +3126,8 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
-    "spec": "",
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
     "ff_views": {
@@ -3953,8 +3137,7 @@
     "safari_views": {
       "text": "Shipped",
       "value": 1
-    },
-    "id": null
+    }
   },
   {
     "name": "WAV Audio Support",
@@ -3964,7 +3147,6 @@
     "standardStatus": "De-facto Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "spec": "html51",
@@ -3977,8 +3159,7 @@
     "safari_views": {
       "text": "No Public Signals",
       "value": 1
-    },
-    "id": null
+    }
   },
   {
     "name": "DOM Event Constructors",
@@ -3988,7 +3169,6 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "spec": "whatwg-dom",
@@ -4001,8 +3181,7 @@
     "safari_views": {
       "text": "Shipped",
       "value": 1
-    },
-    "id": null
+    }
   },
   {
     "name": "Math Built-ins (ES6)",
@@ -4012,7 +3191,6 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "spec": "es6",
@@ -4026,7 +3204,6 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "spec": "es6",
@@ -4039,8 +3216,7 @@
     "safari_views": {
       "text": "No Signals",
       "value": 3
-    },
-    "id": null
+    }
   },
   {
     "name": "String Built-ins (ES6)",
@@ -4050,7 +3226,6 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "spec": "es6",
@@ -4063,8 +3238,7 @@
     "safari_views": {
       "text": "No Signals",
       "value": 3
-    },
-    "id": null
+    }
   },
   {
     "name": "Object Built-ins (ES6)",
@@ -4074,7 +3248,6 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "spec": "es6",
@@ -4093,7 +3266,6 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Preview Release",
-      "iePrefixed": "",
       "ieUnprefixed": "14342",
       "flag": true
     },
@@ -4107,8 +3279,7 @@
     "safari_views": {
       "text": "No Signals",
       "value": 3
-    },
-    "id": null
+    }
   },
   {
     "name": "WeakSet (ES6)",
@@ -4118,7 +3289,6 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "spec": "es6",
@@ -4132,7 +3302,6 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "11"
     },
     "spec": "es6",
@@ -4145,8 +3314,7 @@
     "safari_views": {
       "text": "Shipped",
       "value": 1
-    },
-    "id": null
+    }
   },
   {
     "name": "Classes (ES6)",
@@ -4156,7 +3324,6 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10532",
       "flag": false
     },
@@ -4172,7 +3339,6 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "spec": "es6",
@@ -4190,7 +3356,6 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "spec": "es6",
@@ -4204,8 +3369,6 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Low"
     },
     "spec": "es6",
@@ -4220,8 +3383,7 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "14279",
-      "ieUnprefixed": ""
+      "iePrefixed": "14279"
     },
     "spec": "es6",
     "impl_status_chrome": "Enabled by default",
@@ -4233,8 +3395,7 @@
     "safari_views": {
       "text": "No Signals",
       "value": 3
-    },
-    "id": null
+    }
   },
   {
     "name": "SIMD",
@@ -4244,7 +3405,6 @@
     "standardStatus": "Editor's Draft",
     "ieStatus": {
       "text": "Preview Release",
-      "iePrefixed": "",
       "ieUnprefixed": "10240",
       "flag": true
     },
@@ -4258,8 +3418,7 @@
     "safari_views": {
       "text": "No Signals",
       "value": 3
-    },
-    "id": null
+    }
   },
   {
     "name": "Modules (ES6)",
@@ -4269,7 +3428,6 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Preview Release",
-      "iePrefixed": "",
       "ieUnprefixed": "14342",
       "flag": true
     },
@@ -4285,7 +3443,6 @@
     "standardStatus": "Editor's Draft",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10532",
       "flag": false
     },
@@ -4299,9 +3456,7 @@
     "link": "https://w3c.github.io/clipboard-apis/",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Under Consideration"
     },
     "spec": "clipboard-apis",
     "impl_status_chrome": "Enabled by default",
@@ -4314,7 +3469,6 @@
       "text": "Shipped",
       "value": 1
     },
-    "id": null,
     "uservoiceid": 6515107
   },
   {
@@ -4324,11 +3478,8 @@
     "link": "https://w3c.github.io/manifest/",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "In Development"
     },
-    "spec": "",
     "id": 6488656873259008,
     "uservoiceid": 6512948
   },
@@ -4339,9 +3490,7 @@
     "link": "https://tools.ietf.org/html/rfc7469",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Under Consideration"
     },
     "id": 4669935557017600,
     "uservoiceid": 7027589
@@ -4356,7 +3505,6 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "11"
     },
     "impl_status_chrome": "Enabled by default",
@@ -4368,8 +3516,7 @@
     "safari_views": {
       "text": "No Signals",
       "value": 3
-    },
-    "id": null
+    }
   },
   {
     "name": "ES6 Numeric Literals",
@@ -4379,13 +3526,9 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "spec": "es6",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 4930171014479872
   },
   {
@@ -4396,14 +3539,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Medium"
     },
     "spec": "html51",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5770237022568448,
     "uservoiceid": 6508895
   },
@@ -4415,7 +3553,6 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "14316"
     },
     "impl_status_chrome": "Enabled by default",
@@ -4429,10 +3566,7 @@
       "value": 3
     },
     "spec": "html51",
-    "msdn": "https://msdn.microsoft.com/library/mt668927",
-    "wpd": "",
-    "demo": "",
-    "id": null
+    "msdn": "https://msdn.microsoft.com/library/mt668927"
   },
   {
     "name": "Date-related input types",
@@ -4442,7 +3576,6 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "safari_views": {
@@ -4452,8 +3585,6 @@
     "shipped_opera_milestone": true,
     "spec": "html51",
     "msdn": "https://msdn.microsoft.com/library/dn949189",
-    "wpd": "",
-    "demo": "",
     "id": 6640933999214592,
     "uservoiceid": 6513996
   },
@@ -4465,7 +3596,6 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10532"
     },
     "safari_views": {
@@ -4475,8 +3605,6 @@
     "shipped_opera_milestone": true,
     "spec": "html51",
     "msdn": "https://msdn.microsoft.com/library/mt584201",
-    "wpd": "",
-    "demo": "",
     "id": 6640933999214592,
     "uservoiceid": 6513996
   },
@@ -4488,7 +3616,6 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "impl_status_chrome": "Enabled by default",
@@ -4503,9 +3630,6 @@
     },
     "spec": "html51",
     "msdn": "https://msdn.microsoft.com/library/mt634542",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "uservoiceid": 6514003
   },
   {
@@ -4515,9 +3639,7 @@
     "summary": "A form element for a key pair generator control.  Support here indicates UI for picking keys and some transport to submit them. However, significant interoperability issues exist with the DOM interfaces and protocols for this feature.",
     "standardStatus": "Established Standard",
     "ieStatus": {
-      "text": "Not currently planned",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Not currently planned"
     },
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
@@ -4529,11 +3651,7 @@
       "text": "Shipped",
       "value": 1
     },
-    "spec": "html51",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null
+    "spec": "html51"
   },
   {
     "name": "Media Fragments",
@@ -4542,9 +3660,7 @@
     "summary": "Standardizes a URL fragment syntax for specifying a fragment of a media resource.",
     "standardStatus": "Established Standard",
     "ieStatus": {
-      "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Under Consideration"
     },
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
@@ -4556,11 +3672,6 @@
       "text": "Shipped",
       "value": 1
     },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "uservoiceid": 7214762
   },
   {
@@ -4570,9 +3681,7 @@
     "summary": "XML-based syntax for specifying animations of SVG.",
     "standardStatus": "Established Standard",
     "ieStatus": {
-      "text": "Not currently planned",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Not currently planned"
     },
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
@@ -4584,11 +3693,7 @@
       "text": "Shipped",
       "value": 1
     },
-    "spec": "svg2",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null
+    "spec": "svg2"
   },
   {
     "name": "Hardware Concurrency",
@@ -4597,14 +3702,9 @@
     "summary": "An API for reading the system's total number of logical processors available to the user agent, up to an optional thread limit per origin.",
     "standardStatus": "Public Proposal",
     "ieStatus": {
-      "text": "In Development",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "In Development"
     },
     "spec": "navigatorcores",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 6248386202173440
   },
   {
@@ -4615,14 +3715,9 @@
     "standardStatus": "Editor's draft",
     "ieStatus": {
       "text": "Under Consideration",
-      "priority": "low",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "priority": "low"
     },
     "spec": "web-bluetooth",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "ff_views": {
       "text": "In development",
       "value": 2
@@ -4638,14 +3733,9 @@
     "standardStatus": "Editor's draft",
     "ieStatus": {
       "text": "Under Consideration",
-      "priority": "low",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "priority": "low"
     },
     "spec": "web-nfc",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 6261030015467520
   },
   {
@@ -4655,9 +3745,7 @@
     "summary": "A special type of WebWorker that can commincate across windows/tabs for a site.",
     "standardStatus": "Established Standard",
     "ieStatus": {
-      "text": "Not currently planned",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Not currently planned"
     },
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
@@ -4669,11 +3757,7 @@
       "text": "No Public Signals",
       "value": 3
     },
-    "spec": "workers",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null
+    "spec": "workers"
   },
   {
     "name": "Platform for Privacy Preferences 1.0 (P3P 1.0)",
@@ -4682,9 +3766,7 @@
     "summary": "The Platform for Privacy Preferences Project (P3P) enables web sites to express their privacy practices in a standard format allowing user agents to automate decision-making based on these practices when appropriate.",
     "standardStatus": "Established Standard",
     "ieStatus": {
-      "text": "Deprecated",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Deprecated"
     },
     "impl_status_chrome": "No Public Signals",
     "shipped_opera_milestone": false,
@@ -4695,12 +3777,7 @@
     "safari_views": {
       "text": "No Public Signals",
       "value": 3
-    },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null
+    }
   },
   {
     "name": "WOFF File Format 2.0",
@@ -4710,13 +3787,8 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "14316"
     },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 6718644721549312,
     "uservoiceid": 6510222
   },
@@ -4728,7 +3800,6 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "14342"
     },
     "impl_status_chrome": "Enabled by default",
@@ -4743,8 +3814,6 @@
     },
     "spec": "whatwg-fetch",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/fetch-API/",
-    "wpd": "",
-    "demo": "",
     "id": 6730533392351232,
     "uservoiceid": 6964411
   },
@@ -4756,7 +3825,6 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "impl_status_chrome": "Enabled by default",
@@ -4768,22 +3836,15 @@
     "safari_views": {
       "text": "No Public Signals",
       "value": 3
-    },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null
+    }
   },
   {
     "name": "Motion JPEG (MJPG)",
     "category": "Multimedia",
-    "link": "",
     "summary": "Adds support for the MJPG video format, popular with IP cameras.",
     "standardStatus": "Defacto standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "impl_status_chrome": "Enabled by default",
@@ -4795,12 +3856,7 @@
     "safari_views": {
       "text": "Enabled by default",
       "value": 2
-    },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null
+    }
   },
   {
     "name": "CSS Gradient Midpoints",
@@ -4810,7 +3866,6 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "impl_status_chrome": "Enabled by default",
@@ -4824,10 +3879,7 @@
       "value": 2
     },
     "spec": "css-image-4",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/gradients/#gradient-midpoints",
-    "wpd": "",
-    "demo": "",
-    "id": null
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/gradients/#gradient-midpoints"
   },
   {
     "name": "ARIA Landmark Roles",
@@ -4837,7 +3889,6 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "impl_status_chrome": "Enabled by default",
@@ -4849,12 +3900,7 @@
     "safari_views": {
       "text": "Enabled by default",
       "value": 2
-    },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null
+    }
   },
   {
     "name": "HTML Sections in Accessibility API",
@@ -4864,7 +3910,6 @@
     "standardStatus": "Established Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "14393"
     },
     "impl_status_chrome": "Enabled by default",
@@ -4876,12 +3921,7 @@
     "safari_views": {
       "text": "Enabled by default",
       "value": 2
-    },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null
+    }
   },
   {
     "name": "Accessible Rich Internet Applications (WAI-ARIA) 1.1",
@@ -4890,9 +3930,7 @@
     "summary": "Full support for new WAI-ARIA 1.1 roles, states, and properties which define new accessible user interface elements since WAI-ARIA 1.0. Microsoft Edge currently supports the following ARIA roles: none, article, definition, log, math, note, scrollbar,  application, banner, complementary, contentinfo, form, main, navigation, search; and ARIA properties: aria-atomic, aria-autocomplete, aria-dropeffect, aria-grabbed, aria-label, aria-multiline, aria-orientation, aria-sort, aria-valuetext. Note that WAI-ARIA support is complex and not fully implemented in any browser.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "In Development"
     },
     "impl_status_chrome": "In Development",
     "shipped_opera_milestone": false,
@@ -4903,12 +3941,7 @@
     "safari_views": {
       "text": "In Development",
       "value": 2
-    },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null
+    }
   },
   {
     "name": "Accessible Name and Description: Computation and API Mappings 1.1",
@@ -4918,7 +3951,6 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "14393"
     },
     "impl_status_chrome": "No active development",
@@ -4930,12 +3962,7 @@
     "safari_views": {
       "text": "No Signals",
       "value": 2
-    },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null
+    }
   },
   {
     "name": "CSS Transitions for SVG elements",
@@ -4945,7 +3972,6 @@
     "standardStatus": "Defacto Standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "impl_status_chrome": "Enabled by default",
@@ -4958,11 +3984,7 @@
       "text": "Enabled by default",
       "value": 2
     },
-    "spec": "css-animations-1",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null
+    "spec": "css-animations-1"
   },
   {
     "name": "Upgrade insecure resource requests",
@@ -4971,14 +3993,8 @@
     "summary": "A mechanism which allows authors to instruct a user agent to upgrade a priori insecure resource requests to secure transport before Fetching them.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Under Consideration"
     },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 6534575509471232,
     "uservoiceid": 7314353
   },
@@ -4990,15 +4006,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "High"
     },
     "spec": "css-logical-props-1",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "uservoiceid": 7438435
   },
   {
@@ -5009,7 +4019,6 @@
     "standardStatus": "Defacto standard",
     "ieStatus": {
       "text":  "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10"
     },
     "impl_status_chrome": "Enabled by default",
@@ -5022,12 +4031,7 @@
       "text": "Shipped",
       "value": 1
     },
-    "spec": "",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/f12-devtools-guide/console/",
-    "wpd": "",
-    "demo": "",
-    "id": null,
-    "uservoiceid": null
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/f12-devtools-guide/console/"
   },
   {
     "name": "console.table",
@@ -5036,9 +4040,7 @@
     "summary": "console.table allows the logging of tabular data to a connected developer tool.",
     "standardStatus": "Public discussion",
     "ieStatus": {
-      "text":  "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text":  "Under Consideration"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
@@ -5050,11 +4052,6 @@
       "text": "Shipped",
       "value": 1
     },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "uservoiceid": 6796750
   },
   {
@@ -5065,7 +4062,6 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10565"
     },
     "impl_status_chrome": "Enabled by default",
@@ -5079,10 +4075,6 @@
       "value": 1
     },
     "spec": "css-cascade-3",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "uservoiceid": 6587303
   },
   {
@@ -5093,7 +4085,6 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10565"
     },
     "impl_status_chrome": "Enabled by default",
@@ -5102,12 +4093,7 @@
       "value": 1
     },
     "shipped_opera_milestone": true,
-    "spec": "css-cascade-3",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
-    "uservoiceid": null
+    "spec": "css-cascade-3"
   },
   {
     "name": "showModalDialog",
@@ -5117,7 +4103,6 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Deprecated",
-      "iePrefixed": "",
       "ieUnprefixed": "8"
     },
     "ff_views": {
@@ -5125,11 +4110,7 @@
       "value": 1
     },
     "spec": "html5",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": 5608754573737984,
-    "uservoiceid": null
+    "id": 5608754573737984
   },
   {
     "name": "Backdrop filter",
@@ -5139,8 +4120,6 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text":"Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Low"
     },
     "impl_status_chrome": "In Development",
@@ -5153,11 +4132,6 @@
       "value": 1
     },
     "shipped_opera_milestone": false,
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "uservoiceid": 9160189
   },
   {
@@ -5168,21 +4142,14 @@
     "standardStatus": "Public discussion",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Low"
     },
-    "impl_status_chrome": "",
     "ff_views": {
       "text": "Shipped",
       "value": 1
     },
     "shipped_opera_milestone": false,
     "spec": "html51",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "uservoiceid": 7855248
   },
   {
@@ -5193,13 +4160,8 @@
     "standardStatus": "Defacto standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "14291"
     },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 6362186595172352,
     "uservoiceid": 6508954
   },
@@ -5211,13 +4173,8 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "14316"
     },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 4891189287321600,
     "uservoiceid": 6513488
   },
@@ -5229,8 +4186,6 @@
     "standardStatus": "Defacto standard",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Low"
     },
     "impl_status_chrome": "Enabled by default",
@@ -5243,11 +4198,6 @@
       "value": 3
     },
     "shipped_opera_milestone": true,
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "uservoiceid": 6513488
   },
   {
@@ -5257,9 +4207,7 @@
     "summary": "An open video codec.",
     "standardStatus": "Defacto standard",
     "ieStatus": {
-      "text": "Not currently planned",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Not currently planned"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
@@ -5270,12 +4218,7 @@
       "text": "No Public Signals",
       "value": 3
     },
-    "shipped_opera_milestone": true,
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null
+    "shipped_opera_milestone": true
   },
   {
     "name": "OGG Container",
@@ -5285,8 +4228,6 @@
     "standardStatus": "Defacto standard",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Low"
     },
     "impl_status_chrome": "Enabled by default",
@@ -5299,11 +4240,6 @@
       "value": 3
     },
     "shipped_opera_milestone": true,
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "uservoiceid": 6513488
   },
   {
@@ -5314,13 +4250,8 @@
     "standardStatus": "Defacto standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "14291"
     },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 6362186595172352,
     "uservoiceid": 6508954
   },
@@ -5332,13 +4263,8 @@
     "standardStatus": "Defacto standard",
     "ieStatus": {
       "text": "Preview Release",
-      "iePrefixed": "",
       "ieUnprefixed": "15019"
-    },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": ""
+    }
   },
   {
     "name": "H.264/AVC for RTC",
@@ -5348,13 +4274,8 @@
     "standardStatus": "Defacto standard",
     "ieStatus": {
       "text": "Preview Release",
-      "iePrefixed": "",
       "ieUnprefixed": "15019"
-    },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": ""
+    }
   },
   {
     "name": "RTC Data Channels",
@@ -5364,8 +4285,6 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Low"
     },
     "impl_status_chrome": "Enabled by default",
@@ -5376,11 +4295,7 @@
     "safari_views": {
       "text": "No Public Signals",
       "value": 3
-    },
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": ""
+    }
   },
   {
     "name": "image-rendering",
@@ -5390,14 +4305,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Low"
     },
     "spec": "css-images-3",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5118058116939776,
     "uservoiceid": 7902426
   },
@@ -5409,15 +4319,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Low"
     },
     "spec": "css-images-4",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "uservoiceid": 8471413
   },
   {
@@ -5428,14 +4332,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Medium"
     },
     "spec": "motion-1",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 6190642178818048,
     "uservoiceid": 7804467
   },
@@ -5447,8 +4346,6 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Medium"
     },
     "impl_status_chrome": "Enabled by default",
@@ -5462,10 +4359,6 @@
     },
     "shipped_opera_milestone": true,
     "spec": "css-images-3",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "uservoiceid": 6606738
   },
   {
@@ -5476,14 +4369,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Medium"
     },
     "spec": "css-cascade-3",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 6178222542684160,
     "uservoiceid": 6511510
   },
@@ -5495,8 +4383,6 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Medium"
     },
     "impl_status_chrome": "Enabled by default",
@@ -5509,11 +4395,6 @@
       "value": 1
     },
     "shipped_opera_milestone": true,
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "uservoiceid": 6514497
   },
   {
@@ -5524,8 +4405,6 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Medium"
     },
     "impl_status_chrome": "Enabled by default",
@@ -5538,11 +4417,6 @@
       "value": 1
     },
     "shipped_opera_milestone": true,
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "uservoiceid": 9330957
   },
   {
@@ -5553,8 +4427,6 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Medium"
     },
     "impl_status_chrome": "Enabled by default",
@@ -5568,10 +4440,6 @@
     },
     "shipped_opera_milestone": true,
     "spec": "css-text-3",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "uservoiceid": 6524689
   },
   {
@@ -5582,8 +4450,6 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Low"
     },
     "impl_status_chrome": "No Public Signals",
@@ -5596,11 +4462,6 @@
       "value": 3
     },
     "shipped_opera_milestone": false,
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "uservoiceid": 8977591
   },
   {
@@ -5611,8 +4472,6 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Low"
     },
     "impl_status_chrome": "No Public Signals",
@@ -5625,11 +4484,6 @@
       "value": 3
     },
     "shipped_opera_milestone": false,
-    "spec": "",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "uservoiceid": 7671960
   },
   {
@@ -5640,8 +4494,6 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Low"
     },
     "impl_status_chrome": "No Public Signals",
@@ -5655,10 +4507,6 @@
     },
     "shipped_opera_milestone": false,
     "spec": "html51",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "uservoiceid": 6508881
   },
   {
@@ -5669,9 +4517,7 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
-      "ieUnprefixed": "14316",
-      "priority": ""
+      "ieUnprefixed": "14316"
     },
     "impl_status_chrome": "No Public Signals",
     "ff_views": {
@@ -5685,9 +4531,6 @@
     "shipped_opera_milestone": false,
     "spec": "html51",
     "msdn": "https://msdn.microsoft.com/library/mt706248",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "uservoiceid": 6514206
   },
   {
@@ -5698,11 +4541,8 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
-      "ieUnprefixed": "14316",
-      "priority": ""
-    },
-    "id": null
+      "ieUnprefixed": "14316"
+    }
   },
   {
     "name": "<output> Element",
@@ -5712,9 +4552,7 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
-      "ieUnprefixed": "14316",
-      "priority": ""
+      "ieUnprefixed": "14316"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
@@ -5728,9 +4566,6 @@
     "shipped_opera_milestone": true,
     "spec": "html51",
     "msdn": "https://msdn.microsoft.com/library/mt732268",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "uservoiceid": 6514436
   },
   {
@@ -5741,8 +4576,6 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Medium"
     },
     "impl_status_chrome": "Enabled by default",
@@ -5756,10 +4589,6 @@
     },
     "shipped_opera_milestone": true,
     "spec": "html51",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
     "uservoiceid": 6514423
   },
   {
@@ -5770,11 +4599,8 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Medium"
     },
-    "impl_status_chrome": "",
     "ff_views": {
       "text": "In Development",
       "value": 2
@@ -5784,11 +4610,7 @@
       "value": 3
     },
     "shipped_opera_milestone": false,
-    "spec": "screen-capture",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null
+    "spec": "screen-capture"
   },
   {
     "name": "Form attribute",
@@ -5798,15 +4620,10 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Medium"
     },
     "spec": "html51",
-    "msdn": "",
-    "wpd": "",
     "demo": "https://www.impressivewebs.com/html5-form-attribute/",
-    "id": null,
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
       "text": "Shipped",
@@ -5827,13 +4644,10 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "spec": "es6",
     "msdn": "https://msdn.microsoft.com/library/mt146826.aspx",
-    "wpd": "",
-    "demo": "",
     "id": 6060641169178624
   },
   {
@@ -5844,16 +4658,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Low"
     },
-    "spec": "findtext",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": null,
-    "uservoiceid": null
+    "spec": "findtext"
   },
   {
     "name": "Payment Request API",
@@ -5863,15 +4670,10 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Preview Release",
-      "iePrefixed": "",
       "ieUnprefixed": "15002"
     },
     "spec": "paymentrequest",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": 5639348045217792,
-    "uservoiceid": null
+    "id": 5639348045217792
   },
   {
     "name": "Web Assembly (MVP)",
@@ -5879,13 +4681,8 @@
     "link": "https://webassembly.github.io/ ",
     "summary": "WebAssembly or wasm is a new portable, size- and load-time-efficient format suitable for compilation to the web.",
     "ieStatus": {
-      "text": "In Development",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "In Development"
     },
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5453022515691520,
     "uservoiceid": 11423808
   },
@@ -5897,14 +4694,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "priority": "Low",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "priority": "Low"
     },
     "spec": "css-font-loading-api",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 4594172182921216
   },
     {
@@ -5914,14 +4706,9 @@
     "summary": "The Cache API consists of additional ServiceWorker APIs which allow authors to fully and conveniently manage their content caches for offline use. An origin can have multiple, named Cache objects, whose contents are entirely under the control of Service Worker scripts.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "In Development"
     },
     "spec": "service-workers",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 6461631328419840
   },
   {
@@ -5932,14 +4719,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Medium"
     },
     "spec": "pointerevents",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5712439765106688
   },
   {
@@ -5950,7 +4732,6 @@
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "",
       "ieUnprefixed": "10240"
     },
     "impl_status_chrome": "Enabled by default",
@@ -5963,11 +4744,7 @@
       "text": "No public signals",
       "value": 3
     },
-    "spec": "",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/networking-and-connectivity/HTTP2/",
-    "wpd": "",
-    "demo": "",
-    "id": null
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/networking-and-connectivity/HTTP2/"
   },
   {
     "name": "Encoding Standard",
@@ -5977,14 +4754,9 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": "",
       "priority": "Medium"
     },
     "spec": "whatwg-encoding",
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
     "id": 5714368087982080
   },
   {
@@ -5994,15 +4766,9 @@
     "summary": "This specification provides basic geometric interfaces to represent points, rectangles, quadrilaterals and transformation matrices that can be used by other modules or specifications.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Under Consideration"
     },
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": 6015941766807552,
-    "uservoiceid": null
+    "id": 6015941766807552
   },
   {
     "name": "Background Sync API",
@@ -6011,15 +4777,10 @@
     "summary": "Provides an API for notifying a Service Worker that the user has come back online, or to schedule periodic events to synchronize local data with the server.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "In Development"
     },
     "spec": "bgsync",
-    "msdn": "",
-    "wpd": "",
-    "id": 6170807885627392,
-    "uservoiceid": null
+    "id": 6170807885627392
   },
   {
     "name": "Event Listener \"once\" Option",
@@ -6028,13 +4789,9 @@
     "summary": "Option to mark an event listener to fire only once",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Under Consideration"
     },
     "spec": "oncelisteners",
-    "msdn": "",
-    "wpd": "",
     "id": 5630331130478592,
     "uservoiceid": 17702248
   },
@@ -6045,15 +4802,9 @@
     "summary": "Enable websites to customize media metadata so they can control the notification and lock screen UI. Also, allow them to control media in the page from outside the page, such as platform UIs and media keys.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Under Consideration"
     },
-    "msdn": "",
-    "wpd": "",
-    "demo": "",
-    "id": 5639924124483584,
-    "uservoiceid": null
+    "id": 5639924124483584
   },
   {
     "name": "Passive Event Listeners",
@@ -6062,14 +4813,9 @@
     "summary": "Provides an API to mark event listeners as \"passive\", primarily to allow for scrolling performance improvements",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
-      "iePrefixed": "",
-      "ieUnprefixed": ""
+      "text": "Under Consideration"
     },
     "spec": "passivelisteners",
-    "msdn": "",
-    "wpd": "",
-    "id": 5745543795965952,
-    "uservoiceid": null
+    "id": 5745543795965952
   }
 ]
