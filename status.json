@@ -5973,7 +5973,7 @@
     "name": "Encoding Standard",
     "category": "DOM",
     "link": "https://encoding.spec.whatwg.org/",
-    "summary": "This specificaiton addresses gaps so user agents do not have to reverse engineer encoding implementations.",
+    "summary": "This specification addresses gaps so user agents do not have to reverse engineer encoding implementations.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Under Consideration",
