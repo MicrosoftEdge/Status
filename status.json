@@ -967,9 +967,9 @@
     "summary": "Adds APIs to the canvas 2D context that make it possible to draw a focus ring around a canvas path and notify the operating system of the bounding box of the focused object for accessibility.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Shipped",
       "iePrefixed": "",
-      "ieUnprefixed": ""
+      "ieUnprefixed": "14393"
     },
     "spec": "2dcontext",
     "msdn": "",
