@@ -139,9 +139,6 @@
         "minLength": 1,
         "type": "string"
       },
-      "opera_views": {
-        "$ref": "#/definitions/vendor_views"
-      },
       "shipped_opera_milestone": {
         "type": "boolean"
       },

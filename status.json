@@ -667,11 +667,7 @@
     },
     "spec": "html51",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/networking-and-connectivity/application-cache/",
-    "id": 6192449487634432,
-    "opera_views": {
-      "text": "Shipped",
-      "value": 1
-    }
+    "id": 6192449487634432
   },
   {
     "name": "Audio tracks",
@@ -2127,11 +2123,7 @@
     },
     "spec": "html51",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/networking-and-connectivity/websocket/",
-    "id": 6555138000945152,
-    "opera_views": {
-      "text": "Shipped",
-      "value": 1
-    }
+    "id": 6555138000945152
   },
   {
     "name": "XMLHttpRequest timeout",
@@ -3011,10 +3003,6 @@
       "text": "No public signals",
       "value": 5
     },
-    "opera_views": {
-      "text": "No public signals",
-      "value": 5
-    },
     "safari_views": {
       "text": "No public signals",
       "value": 5
@@ -3035,10 +3023,6 @@
     "spec": "svg2",
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
-      "text": "Shipped",
-      "value": 1
-    },
-    "opera_views": {
       "text": "Shipped",
       "value": 1
     },
