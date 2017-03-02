@@ -1,0 +1,174 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "definitions": {
+    "feature_categories": {
+      "enum": [
+        "Accessibility",
+        "CSS",
+        "DOM",
+        "Device",
+        "File APIs",
+        "Graphics",
+        "JavaScript",
+        "Misc",
+        "Multimedia",
+        "Network / Connectivity",
+        "Offline / Storage",
+        "Performance",
+        "Realtime / Communication",
+        "Security",
+        "User input",
+        "Web Components"
+      ],
+      "type": "string"
+    },
+    "feature_priority": {
+      "enum": [
+        "High",
+        "Low",
+        "Medium"
+      ],
+      "type": "string"
+    },
+    "implementation_statuses": {
+      "enum": [
+        "Behind a flag",
+        "Deprecated",
+        "Enabled by default",
+        "In Development",
+        "No active development",
+        "No public signals",
+        "Not currently planned",
+        "Not Supported",
+        "Prefixed",
+        "Preview Release",
+        "Removed",
+        "Shipped",
+        "Under Consideration"
+      ],
+      "type": "string"
+    },
+    "standard_statuses": {
+      "enum": [
+        "De-facto standard",
+        "Established standard",
+        "Working draft or equivalent",
+        "Editor's draft",
+        "Public discussion",
+        "No public standards discussion"
+      ],
+      "type": "string"
+    },
+    "url": {
+      "format": "uri",
+      "type": "string"
+    },
+    "vendor_views": {
+      "properties": {
+        "additionalProperties": false,
+        "text": {
+          "$ref": "#/definitions/implementation_statuses"
+        },
+        "value": {
+          "maximum": 12,
+          "minimum": 1,
+          "type": "number"
+        }
+      },
+      "required": [
+        "text"
+      ],
+      "type": "object"
+    }
+  },
+  "description": "Schema for Microsoft Edge platform status JSON",
+  "items": {
+    "additionalProperties": false,
+    "type": "object",
+    "properties": {
+      "category": {
+        "$ref": "#/definitions/feature_categories"
+      },
+      "demo": {
+        "$ref": "#/definitions/url"
+      },
+      "ff_views": {
+        "$ref": "#/definitions/vendor_views"
+      },
+      "ff_views_link": {
+        "$ref": "#/definitions/url"
+      },
+      "id": {
+        "type": "number"
+      },
+      "ieStatus": {
+        "additionalProperties": false,
+        "properties": {
+          "flag": {
+            "type": "boolean"
+          },
+          "iePrefixed": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "ieUnprefixed": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "priority": {
+            "$ref": "#/definitions/feature_priority"
+          },
+          "text": {
+            "$ref": "#/definitions/ximplementation_statuses"
+          }
+        },
+        "required": [
+          "text"
+        ]
+      },
+      "impl_status_chrome": {
+        "$ref": "#/definitions/implementation_statuses"
+      },
+      "link": {
+        "$ref": "#/definitions/url"
+      },
+      "msdn": {
+        "$ref": "#/definitions/url"
+      },
+      "name": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "shipped_opera_milestone": {
+        "type": "boolean"
+      },
+      "safari_views": {
+        "$ref": "#/definitions/vendor_views"
+      },
+      "safari_views_link": {
+        "$ref": "#/definitions/url"
+      },
+      "spec": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "standardStatus": {
+        "$ref": "#/definitions/standard_statuses"
+      },
+      "summary": {
+        "minLength": 20,
+        "type": "string"
+      },
+      "uservoiceid": {
+        "type": "number"
+      }
+    }
+  },
+  "required": [
+    "category",
+    "ieStatus",
+    "name",
+    "summary"
+  ],
+  "type": "array"
+}

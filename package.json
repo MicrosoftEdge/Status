@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "is-my-json-valid": "^2.15.0"
+  },
+  "private": true,
+  "scripts": {
+    "test": "node scripts/validate-status-json.js"
+  }
+}
