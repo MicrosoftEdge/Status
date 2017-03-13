@@ -2471,8 +2471,7 @@
     "summary": "CSS properties that control the position and size of replaced content within the content box",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "High"
+      "text": "In Development"
     },
     "spec": "css-images-3",
     "id": 5302669702856704,
