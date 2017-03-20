@@ -4714,7 +4714,7 @@
     "summary": "Option to mark an event listener to fire only once",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "In Development"
     },
     "spec": "oncelisteners",
     "id": 5630331130478592,
@@ -4738,7 +4738,7 @@
     "summary": "Provides an API to mark event listeners as \"passive\", primarily to allow for scrolling performance improvements",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "In Development"
     },
     "spec": "passivelisteners",
     "id": 5745543795965952
