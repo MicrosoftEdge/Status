@@ -870,7 +870,8 @@
     "summary": "Introduces cascading variables as a new primitive value type that is accepted by all CSS properties, and custom properties for defining them.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "15063"
     },
     "id": 6401356696911872,
     "uservoiceid": 6261292
