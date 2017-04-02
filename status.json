@@ -1176,7 +1176,7 @@
     "summary": "This will update our current implementation, from IE10, to support some of the following: the implicit grid, grid-template-* syntax, subgrids, or grid-gap.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "In Development"
     },
     "spec": "css-grid-1",
     "id": 4589636412243968,
