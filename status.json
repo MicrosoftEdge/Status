@@ -2227,9 +2227,9 @@
     "summary": "Destructuring assignment allows extracting data from arrays or objects using a syntax that mirrors array and object literals.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Preview Release",
-      "ieUnprefixed": "10532",
-      "flag": true
+      "text": "Shipped",
+      "ieUnprefixed": "14393",
+      "flag": false
     },
     "spec": "es6",
     "id": 4588790303686656,
@@ -4607,7 +4607,9 @@
     "link": "https://webassembly.github.io/",
     "summary": "WebAssembly or wasm is a new portable, size- and load-time-efficient format suitable for compilation to the web.",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "15063",
+      "flag": true
     },
     "id": 5453022515691520,
     "uservoiceid": 11423808
