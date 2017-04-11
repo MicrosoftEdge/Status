@@ -48,7 +48,7 @@
     "summary": "Support for Virtual Reality applications on the web using head-mounted displays.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "15002"
     },
     "id": 4532810371039232,
@@ -118,7 +118,7 @@
     "summary": "Allows you to define an offset from the border box for your outline",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "15042"
     },
     "safari_views": {
@@ -193,7 +193,7 @@
     "summary": "An interface to allow a web developer to asynchronously query the position of an element with respect to other elements or the global viewport.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "14986"
     },
     "spec": "intersection-observer",
@@ -300,7 +300,7 @@
     "summary": "Support for the Brotli data format as an HTTP content-encoding method.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "14986"
     },
     "uservoiceid": 11364771,
@@ -791,7 +791,7 @@
     "summary": "An evolution of the Content Security Policy specification, allowing developers to create a whitelist of sources of trusted content, and instructing the browser to only execute or render resources from those sources.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "15002"
     },
     "spec": "csp2",
@@ -870,7 +870,7 @@
     "summary": "Introduces cascading variables as a new primitive value type that is accepted by all CSS properties, and custom properties for defining them.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "15063"
     },
     "id": 6401356696911872,
@@ -2081,7 +2081,7 @@
     "summary": "Real-time communication in the browser. See also \"Web RTC - Object RTC API\". At this time, RTC features are supported only on desktop platform.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "15019"
     },
     "spec": "webrtc",
@@ -2932,7 +2932,7 @@
     "link": "https://tc39.github.io/ecmascript-asyncawait",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "14986",
       "flag": false
     },
@@ -4187,7 +4187,7 @@
     "summary": "Support for the VP8 video format in RTC scenarios.",
     "standardStatus": "De-facto standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "15019"
     }
   },
@@ -4198,7 +4198,7 @@
     "summary": "Support for H.264/AVC in RTC scenarios.",
     "standardStatus": "De-facto standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "15019"
     }
   },
@@ -4594,7 +4594,7 @@
     "summary": "A web API to allow merchants (i.e. web sites selling physical or digital goods) to easily accept payments from different payment methods with minimal integration.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "15002"
     },
     "spec": "paymentrequest",
