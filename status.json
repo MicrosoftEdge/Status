@@ -340,7 +340,8 @@
     "standardStatus": "Editor's draft",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "14291"
+      "iePrefixed": "14291",
+      "flag": true
     },
     "spec": "webauthn",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/device/web-authentication/"
