@@ -45,7 +45,7 @@
     "name": "WebVR",
     "category": "Graphics",
     "link": "https://w3c.github.io/webvr/",
-    "summary": "Support for Virtual Reality applications on the web using head-mounted displays.",
+    "summary": "Support for Virtual Reality applications on the web using head-mounted displays. The WebVR 1.1 API is fully supported in Microsoft Edge. Viewing WebVR content requires a Windows Mixed Reality headset, or the Windows Mixed Reality Portal Simulator (accessible via Developer Mode in the Windows 10 Creators Update).",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
