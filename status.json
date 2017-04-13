@@ -3628,7 +3628,8 @@
     "summary": "An API for reading the system's total number of logical processors available to the user agent, up to an optional thread limit per origin.",
     "standardStatus": "Public discussion",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Shipped",
+      "ieUnprefixed": "14986"
     },
     "spec": "navigatorcores",
     "id": 6248386202173440
