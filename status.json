@@ -4746,5 +4746,25 @@
     },
     "spec": "passivelisteners",
     "id": 5745543795965952
+  },
+  {
+    "name": "Cache-Control: Immutable",
+    "category": "Network / Connectivity",
+    "link": "https://tools.ietf.org/html/draft-mcmanus-immutable",
+    "summary": "Allows servers to identify resources that will not be updated during their freshness lifetime, thus, ensuring that a client never needs to revalidate a cached fresh resource to be certain it has not been modified.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Shipped",
+      "ieUnprefixed": "15042"
+    },
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Enabled by default"
+    },
+    "safari_views": {
+      "text": "Preview Release",
+      "value": 1
+    },
+    "uservoiceid": 257854
   }
 ]
