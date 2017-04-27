@@ -3382,7 +3382,8 @@
     "link": "https://w3c.github.io/clipboard-apis/",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "Shipped",
+      "ieUnprefixed": "15002"
     },
     "spec": "clipboard-apis",
     "impl_status_chrome": "Enabled by default",
