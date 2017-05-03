@@ -843,7 +843,8 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Prefixed",
-      "iePrefixed": "10"
+      "iePrefixed": "10",
+      "flag": true
     },
     "spec": "css-deviceadapt-1",
     "msdn": "https://msdn.microsoft.com/library/hh708740",
