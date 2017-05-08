@@ -1802,6 +1802,17 @@
     "id": 5197666342404096
   },
   {
+    "name": "TLS 1.3",
+    "category": "Network / Connectivity",
+    "link": "https://tools.ietf.org/html/draft-ietf-tls-tls13",
+    "summary": "Transport Layer Security (TLS) protocol version 1.3 allows faster and more secure connection compared to TLS 1.2 by reducing round trip number and removing legacy vulnerable cryptography features.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "In Development"
+    },
+    "id": 5712755738804224
+  },
+  {
     "name": "Track element",
     "category": "Multimedia",
     "link": "https://www.w3.org/TR/html5/embedded-content-0.html#the-track-element",
