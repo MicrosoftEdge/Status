@@ -374,8 +374,7 @@
     "summary": "Interactive widget to show/hide content.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "Medium"
+      "text": "In Development"
     },
     "spec": "html51",
     "id": 5348024557502464,
