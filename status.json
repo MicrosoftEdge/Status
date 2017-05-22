@@ -4559,7 +4559,7 @@
     "summary": "Attribute for associating input and submit buttons with a form.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": ""In Development"
+      "text": "In Development"
     },
     "spec": "html51",
     "demo": "https://www.impressivewebs.com/html5-form-attribute/",
