@@ -4732,9 +4732,23 @@
     "ieStatus": {
       "text": "In Development"
     },
-    "spec": "oncelisteners",
+    "spec": "dom",
     "id": 5630331130478592,
     "uservoiceid": 17702248
+  },
+  {
+    "name": "DOM ParentNode methods: prepend, append, and ChildNode methods: before, after, and replaceWith",
+    "category": "DOM",
+    "link": "https://dom.spec.whatwg.org/#childnode",
+    "summary": "Convenience methods for working with DOM Node trees",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "High"
+    },
+    "spec": "dom",
+    "id": 5723067795898368,
+    "uservoiceid": 16036408
   },
   {
     "name": "Media Session",
