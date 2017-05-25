@@ -30,6 +30,10 @@
     "ieStatus": {
       "text": "Under Consideration",
       "priority": "Medium"
+    },
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
     }
   },
   {
