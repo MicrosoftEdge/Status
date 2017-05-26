@@ -1285,7 +1285,7 @@
   {
     "name": "iframe[sandbox] attribute",
     "category": "Misc",
-    "link": "https://www.w3.org/TR/html5/embedded-content-0.html#attr-iframe-sandbox",
+    "link": "https://w3c.github.io/html/semantics-embedded-content.html#element-attrdef-iframe-sandbox",
     "summary": "Method of running external site pages with reduced privileges (i.e. no JavaScript) in iframes (<iframe sandbox=\"allow-same-origin allow-forms\" src=\"...\"></iframe>)",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -1299,7 +1299,7 @@
   {
     "name": "iframe[seamless] attribute",
     "category": "Misc",
-    "link": "https://w3c.github.io/html/semantics.html#seamless-iframe",
+    "link": "https://www.w3.org/TR/2016/WD-html51-20160310/semantics-embedded-content.html#element-attrdef-iframe-seamless",
     "summary": "The seamless attribute is used to embed an <iframe> in the calling page without scrollbars or borders (e.g. seamlessly) and with the parent document's styles applying to the embedded seamless iframe.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -2561,7 +2561,7 @@
   {
     "name": "Scoped Styles",
     "category": "CSS",
-    "link": "https://w3c.github.io/html/semantics.html#element-attrdef-style-scoped",
+    "link": "https://www.w3.org/TR/2016/WD-html51-20160310/document-metadata.html#element-attrdef-style-scoped",
     "summary": "Boolean attribute for the <style> element (<style scoped>). When present, its styles only apply to the parent element.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
