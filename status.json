@@ -4337,8 +4337,7 @@
     "summary": "A viewport relative length unit equal to the larger of vw (viewport width) or vh (viewport height).",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "Medium"
+      "text": "In Development"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
