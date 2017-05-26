@@ -4,5 +4,12 @@
 
 language: node_js
 
+dist: trusty
+
 node_js:
-  - "node"
+  - node
+
+notifications:
+  email:
+    on_failure: always
+    on_success: never

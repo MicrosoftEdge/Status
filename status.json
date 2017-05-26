@@ -22,6 +22,21 @@
     }
   },
   {
+    "name": "Digital Publishing Accessibility API Mappings",
+    "category": "Misc",
+    "link": "https://www.w3.org/TR/dpub-aam-1.0/",
+    "summary": "Defines how user agents map the Digital Publishing WAI-ARIA Module markup to platform accessibility APIs.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Medium"
+    },
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    }
+  },
+  {
     "name": "-webkit-text-stroke",
     "category": "CSS",
     "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke",
@@ -45,10 +60,10 @@
     "name": "WebVR",
     "category": "Graphics",
     "link": "https://w3c.github.io/webvr/",
-    "summary": "Support for Virtual Reality applications on the web using head-mounted displays.",
+    "summary": "Support for Virtual Reality applications on the web using head-mounted displays. The WebVR 1.1 API is fully supported in Microsoft Edge. Viewing WebVR content requires a Windows Mixed Reality headset, or the Windows Mixed Reality Portal Simulator (accessible via Developer Mode in the Windows 10 Creators Update).",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "15002"
     },
     "id": 4532810371039232,
@@ -118,7 +133,7 @@
     "summary": "Allows you to define an offset from the border box for your outline",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "15042"
     },
     "safari_views": {
@@ -193,7 +208,7 @@
     "summary": "An interface to allow a web developer to asynchronously query the position of an element with respect to other elements or the global viewport.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "14986"
     },
     "spec": "intersection-observer",
@@ -300,7 +315,7 @@
     "summary": "Support for the Brotli data format as an HTTP content-encoding method.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "14986"
     },
     "uservoiceid": 11364771,
@@ -309,7 +324,7 @@
   {
     "name": "<datalist> Element",
     "category": "User input",
-    "link": "https://www.w3.org/html/wg/drafts/html/master/semantics.html#the-list-attribute",
+    "link": "https://w3c.github.io/html/sec-forms.html#the-datalist-element",
     "summary": "Shows a list of pre-defined options to suggest to the user when entering an input element.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -340,7 +355,8 @@
     "standardStatus": "Editor's draft",
     "ieStatus": {
       "text": "Shipped",
-      "iePrefixed": "14291"
+      "iePrefixed": "14291",
+      "flag": true
     },
     "spec": "webauthn",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/device/web-authentication/"
@@ -373,8 +389,7 @@
     "summary": "Interactive widget to show/hide content.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "Medium"
+      "text": "In Development"
     },
     "spec": "html51",
     "id": 5348024557502464,
@@ -408,7 +423,7 @@
   {
     "name": "<img srcset>",
     "category": "Graphics",
-    "link": "https://w3c.github.io/html/semantics.html#the-img-element",
+    "link": "https://w3c.github.io/html/semantics-embedded-content.html#element-attrdef-img-srcset",
     "summary": "Enable a responsive images solution by providing the browser multiple resources in varying resolutions for a single image.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -452,7 +467,7 @@
   {
     "name": "<picture> Element",
     "category": "Graphics",
-    "link": "https://w3c.github.io/html/semantics.html#the-picture-element",
+    "link": "https://w3c.github.io/html/semantics-embedded-content.html#the-picture-element",
     "summary": "Enable a responsive images solution by declaring multiple resources for an image using CSS media queries.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -467,7 +482,7 @@
   {
     "name": "<template> Element",
     "category": "Web Components",
-    "link": "https://w3c.github.io/html/semantics.html#the-template-element",
+    "link": "https://w3c.github.io/html/semantics-scripting.html#the-template-element",
     "summary": "HTML template element to allow creating fragment of inert HTML as a prototype for stamping out DOM (often used in Web Components).",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -482,7 +497,7 @@
   {
     "name": "<meter> Element",
     "category": "Misc",
-    "link": "https://www.w3.org/TR/html5/forms.html#the-meter-element",
+    "link": "https://w3c.github.io/html/sec-forms.html#the-meter-element",
     "summary": "The HTML meter element allows representation of a scalar measurement of a known range, or fractional value, i.e. a gauge. Distinct from the progress element.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -506,7 +521,7 @@
   {
     "name": "selectionDirection attribute on text input elements",
     "category": "User input",
-    "link": "https://www.w3.org/TR/html5/forms.html#dom-textarea/input-selectiondirection",
+    "link": "https://w3c.github.io/html/sec-forms.html#dom-selectionapielements-selectiondirection",
     "summary": "Returns the string corresponding to the current selection direction on text input elements: \"forward\", \"backward\", or \"none\".",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -644,7 +659,7 @@
   {
     "name": "a[download] attribute",
     "category": "File APIs",
-    "link": "https://w3c.github.io/html/semantics.html#element-attrdef-links-download",
+    "link": "https://w3c.github.io/html/links.html#links-created-by-a-and-area-elements",
     "summary": "When used on an <a>, this attribute signifies that the resource it points to should be downloaded by the browser rather than navigating to it.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -672,7 +687,7 @@
   {
     "name": "Audio tracks",
     "category": "Multimedia",
-    "link": "https://w3c.github.io/html/semantics.html#audiotracklist-and-videotracklist-objects",
+    "link": "https://w3c.github.io/html/semantics-embedded-content.html#media-resources-with-multiple-media-tracks",
     "summary": "Adds the ability to get information about multiple audio tracks, and switch between them using the AudioTrack.enabled attributes.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -686,7 +701,7 @@
   {
     "name": "Video tracks",
     "category": "Multimedia",
-    "link": "https://w3c.github.io/html/semantics.html#audiotracklist-and-videotracklist-objects",
+    "link": "https://w3c.github.io/html/semantics-embedded-content.html#media-resources-with-multiple-media-tracks",
     "summary": "Adds the ability to get information about multiple video tracks, and switch between them using the VideoTrack.selected attributes.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -791,7 +806,7 @@
     "summary": "An evolution of the Content Security Policy specification, allowing developers to create a whitelist of sources of trusted content, and instructing the browser to only execute or render resources from those sources.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "15002"
     },
     "spec": "csp2",
@@ -842,7 +857,8 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Prefixed",
-      "iePrefixed": "10"
+      "iePrefixed": "10",
+      "flag": true
     },
     "spec": "css-deviceadapt-1",
     "msdn": "https://msdn.microsoft.com/library/hh708740",
@@ -870,7 +886,7 @@
     "summary": "Introduces cascading variables as a new primitive value type that is accepted by all CSS properties, and custom properties for defining them.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "15063"
     },
     "id": 6401356696911872,
@@ -1269,7 +1285,7 @@
   {
     "name": "iframe[sandbox] attribute",
     "category": "Misc",
-    "link": "https://www.w3.org/TR/html5/embedded-content-0.html#attr-iframe-sandbox",
+    "link": "https://w3c.github.io/html/semantics-embedded-content.html#element-attrdef-iframe-sandbox",
     "summary": "Method of running external site pages with reduced privileges (i.e. no JavaScript) in iframes (<iframe sandbox=\"allow-same-origin allow-forms\" src=\"...\"></iframe>)",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -1283,7 +1299,7 @@
   {
     "name": "iframe[seamless] attribute",
     "category": "Misc",
-    "link": "https://w3c.github.io/html/semantics.html#seamless-iframe",
+    "link": "https://www.w3.org/TR/2016/WD-html51-20160310/semantics-embedded-content.html#element-attrdef-iframe-seamless",
     "summary": "The seamless attribute is used to embed an <iframe> in the calling page without scrollbars or borders (e.g. seamlessly) and with the parent document's styles applying to the embedded seamless iframe.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -1800,6 +1816,18 @@
     "id": 5197666342404096
   },
   {
+    "name": "TLS 1.3",
+    "category": "Network / Connectivity",
+    "link": "https://tools.ietf.org/html/draft-ietf-tls-tls13",
+    "summary": "Transport Layer Security (TLS) protocol version 1.3 allows faster and more secure connection compared to TLS 1.2 by reducing round trip number, and removing legacy vulnerable cryptography features.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "In Development"
+    },
+    "id": 5712755738804224,
+    "uservoiceid": 17379247
+  },
+  {
     "name": "Track element",
     "category": "Multimedia",
     "link": "https://www.w3.org/TR/html5/embedded-content-0.html#the-track-element",
@@ -2081,7 +2109,7 @@
     "summary": "Real-time communication in the browser. See also \"Web RTC - Object RTC API\". At this time, RTC features are supported only on desktop platform.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "15019"
     },
     "spec": "webrtc",
@@ -2226,9 +2254,9 @@
     "summary": "Destructuring assignment allows extracting data from arrays or objects using a syntax that mirrors array and object literals.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Preview Release",
-      "ieUnprefixed": "10532",
-      "flag": true
+      "text": "Shipped",
+      "ieUnprefixed": "14393",
+      "flag": false
     },
     "spec": "es6",
     "id": 4588790303686656,
@@ -2411,7 +2439,7 @@
   {
     "name": "inputmode",
     "category": "User input",
-    "link": "https://w3c.github.io/html/semantics.html#input-modalities-the-inputmode-attribute",
+    "link": "https://w3c.github.io/html/sec-forms.html#input-modalities-the-inputmode-attribute",
     "summary": "The inputmode content attribute is an enumerated attribute that specifies what kind of input mechanism would be most helpful for users entering content into the form control.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
@@ -2533,7 +2561,7 @@
   {
     "name": "Scoped Styles",
     "category": "CSS",
-    "link": "https://w3c.github.io/html/semantics.html#element-attrdef-style-scoped",
+    "link": "https://www.w3.org/TR/2016/WD-html51-20160310/document-metadata.html#element-attrdef-style-scoped",
     "summary": "Boolean attribute for the <style> element (<style scoped>). When present, its styles only apply to the parent element.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -2932,7 +2960,7 @@
     "link": "https://tc39.github.io/ecmascript-asyncawait",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "14986",
       "flag": false
     },
@@ -3068,7 +3096,7 @@
     "name": "WAV Audio Support",
     "category": "Multimedia",
     "summary": "Enables PCM WAV audio support in HTML5 Audio.",
-    "link": "https://w3c.github.io/html/semantics.html#the-audio-element",
+    "link": "https://w3c.github.io/html/semantics-embedded-content.html#the-audio-element",
     "standardStatus": "De-facto standard",
     "ieStatus": {
       "text": "Shipped",
@@ -3381,7 +3409,8 @@
     "link": "https://w3c.github.io/clipboard-apis/",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "Shipped",
+      "ieUnprefixed": "15002"
     },
     "spec": "clipboard-apis",
     "impl_status_chrome": "Enabled by default",
@@ -3496,7 +3525,7 @@
   {
     "name": "Date-related input types",
     "category": "User input",
-    "link": "https://w3c.github.io/html/semantics.html#element-statedef-input-date-and-time",
+    "link": "https://w3c.github.io/html/sec-forms.html#date-state-typedate",
     "summary": "Input controls for picking dates via <input type='date'>,<input type='month'>, and <input type='week'>.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -3516,7 +3545,7 @@
   {
     "name": "Time-related input types",
     "category": "User input",
-    "link": "https://w3c.github.io/html/semantics.html#element-statedef-input-time",
+    "link": "https://w3c.github.io/html/sec-forms.html#time-state-typetime",
     "summary": "Input controls for picking times via <input type='time'>, and <input type='datetime-local'>.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -3536,7 +3565,7 @@
   {
     "name": "<main> element",
     "category": "DOM",
-    "link": "https://w3c.github.io/html/semantics.html#the-main-element",
+    "link": "https://w3c.github.io/html/grouping-content.html#the-main-elementt",
     "summary": "Semantic HTML5 element that represents the main content of the document or application.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -3627,7 +3656,8 @@
     "summary": "An API for reading the system's total number of logical processors available to the user agent, up to an optional thread limit per origin.",
     "standardStatus": "Public discussion",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Shipped",
+      "ieUnprefixed": "14986"
     },
     "spec": "navigatorcores",
     "id": 6248386202173440
@@ -4187,7 +4217,7 @@
     "summary": "Support for the VP8 video format in RTC scenarios.",
     "standardStatus": "De-facto standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "15019"
     }
   },
@@ -4198,7 +4228,7 @@
     "summary": "Support for H.264/AVC in RTC scenarios.",
     "standardStatus": "De-facto standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "15019"
     }
   },
@@ -4414,7 +4444,7 @@
   {
     "name": "<menu> Element",
     "category": "Misc",
-    "link": "https://w3c.github.io/html/semantics.html#the-menu-element",
+    "link": "https://w3c.github.io/html/interactive-elements.html#the-menu-element",
     "summary": "An HTML element for toolbars and popup menus.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -4437,7 +4467,7 @@
   {
     "name": "<time> Element",
     "category": "Misc",
-    "link": "https://w3c.github.io/html/semantics.html#the-time-element",
+    "link": "https://w3c.github.io/html/textlevel-semantics.html#the-time-element",
     "summary": "An HTML element for representing dates and times.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -4461,7 +4491,7 @@
   {
     "name": "<data> Element",
     "category": "Misc",
-    "link": "https://w3c.github.io/html/semantics.html#the-data-element",
+    "link": "https://w3c.github.io/html/textlevel-semantics.html#the-data-element",
     "summary": "An HTML element which represents its content in machine-readable and human-readable formats.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -4472,7 +4502,7 @@
   {
     "name": "<output> Element",
     "category": "Misc",
-    "link": "https://w3c.github.io/html/semantics.html#the-output-element",
+    "link": "https://w3c.github.io/html/sec-forms.html#the-output-element",
     "summary": "An HTML element for representing the result of a calculation or user action.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -4496,7 +4526,7 @@
   {
     "name": "ol[reversed] attribute",
     "category": "Misc",
-    "link": "https://w3c.github.io/html/semantics.html#element-attrdef-ol-reversed",
+    "link": "https://w3c.github.io/html/grouping-content.html#element-attrdef-ol-reversed",
     "summary": "A boolean attribute that reverses the order of an ordered list when present.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -4544,8 +4574,7 @@
     "summary": "Attribute for associating input and submit buttons with a form.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "Medium"
+      "text": "In Development"
     },
     "spec": "html51",
     "demo": "https://www.impressivewebs.com/html5-form-attribute/",
@@ -4594,7 +4623,7 @@
     "summary": "A web API to allow merchants (i.e. web sites selling physical or digital goods) to easily accept payments from different payment methods with minimal integration.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "15002"
     },
     "spec": "paymentrequest",
@@ -4606,7 +4635,9 @@
     "link": "https://webassembly.github.io/",
     "summary": "WebAssembly or wasm is a new portable, size- and load-time-efficient format suitable for compilation to the web.",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "15063",
+      "flag": true
     },
     "id": 5453022515691520,
     "uservoiceid": 11423808
@@ -4716,9 +4747,23 @@
     "ieStatus": {
       "text": "In Development"
     },
-    "spec": "oncelisteners",
+    "spec": "dom",
     "id": 5630331130478592,
     "uservoiceid": 17702248
+  },
+  {
+    "name": "DOM ParentNode methods: prepend, append, and ChildNode methods: before, after, and replaceWith",
+    "category": "DOM",
+    "link": "https://dom.spec.whatwg.org/#childnode",
+    "summary": "Convenience methods for working with DOM Node trees",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "High"
+    },
+    "spec": "dom",
+    "id": 5723067795898368,
+    "uservoiceid": 16036408
   },
   {
     "name": "Media Session",
@@ -4742,5 +4787,25 @@
     },
     "spec": "passivelisteners",
     "id": 5745543795965952
+  },
+  {
+    "name": "Cache-Control: Immutable",
+    "category": "Network / Connectivity",
+    "link": "https://tools.ietf.org/html/draft-mcmanus-immutable",
+    "summary": "Allows servers to identify resources that will not be updated during their freshness lifetime, thus, ensuring that a client never needs to revalidate a cached fresh resource to be certain it has not been modified.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Shipped",
+      "ieUnprefixed": "15042"
+    },
+    "impl_status_chrome": "No active development",
+    "ff_views": {
+      "text": "Enabled by default"
+    },
+    "safari_views": {
+      "text": "Preview Release",
+      "value": 1
+    },
+    "uservoiceid": 257854
   }
 ]
