@@ -4708,8 +4708,7 @@
     "summary": "This specification addresses gaps so user agents do not have to reverse engineer encoding implementations.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "Medium"
+      "text": "In Development"
     },
     "spec": "whatwg-encoding",
     "id": 5714368087982080
