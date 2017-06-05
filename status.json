@@ -4805,5 +4805,19 @@
       "value": 1
     },
     "uservoiceid": 257854
+  },
+  {
+    "name": "CSS Selectors Level 4",
+    "category": "CSS",
+    "link": "https://drafts.csswg.org/selectors-4/#overview",
+    "summary": "Extends the selectors with :matches, :has, :not(complex selector), :dir, case insensitive attribute matching and more.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "iePrefixed": "",
+      "ieUnprefixed": ""
+    },
+    "msdn": "",
+    "wpd": ""
   }
 ]
