@@ -4813,7 +4813,7 @@
     "summary": "Extends the selectors with :matches, :has, :not(complex selector), :dir, case insensitive attribute matching and more.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Under Consideration"
     },
     "msdn": ""
   }
