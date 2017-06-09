@@ -1662,7 +1662,8 @@
     "summary": "position: sticky is a new way to position elements and is conceptually similar to position: fixed. The difference is that a stickily positioned element behaves like position: relative within its parent, until a given offset threshold is met.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "16215"
     },
     "spec": "css-position-3",
     "id": 6190250464378880,
@@ -2499,7 +2500,8 @@
     "summary": "CSS properties that control the position and size of replaced content within the content box",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "16215"
     },
     "spec": "css-images-3",
     "id": 5302669702856704,
@@ -2998,7 +3000,8 @@
     "summary": "Shared memory and atomics for ECMAscript.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "16215"
     },
     "spec": "es6",
     "id": 4570991992766464,
@@ -4743,7 +4746,8 @@
     "summary": "Option to mark an event listener to fire only once",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "16215"
     },
     "spec": "dom",
     "id": 5630331130478592,
@@ -4781,7 +4785,8 @@
     "summary": "Provides an API to mark event listeners as \"passive\", primarily to allow for scrolling performance improvements",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "16215"
     },
     "spec": "passivelisteners",
     "id": 5745543795965952
