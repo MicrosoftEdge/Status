@@ -3409,7 +3409,7 @@
     "link": "https://w3c.github.io/clipboard-apis/",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Shipped",
+      "text": "In Development",
       "ieUnprefixed": "15002"
     },
     "spec": "clipboard-apis",
