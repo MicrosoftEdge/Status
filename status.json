@@ -3966,6 +3966,15 @@
       "text": "Under Consideration",
       "priority": "High"
     },
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "safari_views": {
+      "text": "Prefixed",
+      "value": 4
+    },
+    "impl_status_chrome": "Prefixed",
     "spec": "css-logical-props-1",
     "uservoiceid": 7438435
   },
