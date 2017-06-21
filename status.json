@@ -309,6 +309,18 @@
     }
   },
   {
+    "name": "High Resolution Time 3",
+    "category": "Performance",
+    "link": "https://www.w3.org/TR/hr-time-3/",
+    "summary": "Adds performance.timeOrigin, allowing DOMHighResTimeStamps from separate Windows to be interleaved into a single timeline.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Preview Release",
+      "ieUnprefixed": "16226"
+    },
+    "spec": "hr-time-3",
+  },
+  {
     "name": "Brotli Compressed Data Format",
     "category": "Network / Connectivity",
     "link": "https://tools.ietf.org/html/rfc7932",
