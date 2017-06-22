@@ -309,6 +309,18 @@
     }
   },
   {
+    "name": "High Resolution Time 3",
+    "category": "Performance",
+    "link": "https://www.w3.org/TR/hr-time-3/",
+    "summary": "Adds performance.timeOrigin, allowing DOMHighResTimeStamps from separate Windows to be interleaved into a single timeline.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Preview Release",
+      "ieUnprefixed": "16226"
+    },
+    "spec": "hr-time-3"
+  },
+  {
     "name": "Brotli Compressed Data Format",
     "category": "Network / Connectivity",
     "link": "https://tools.ietf.org/html/rfc7932",
@@ -1192,7 +1204,9 @@
     "summary": "This will update our current implementation, from IE10, to support some of the following: the implicit grid, grid-template-* syntax, subgrids, or grid-gap.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "16226",
+      "flag": true
     },
     "spec": "css-grid-1",
     "id": 4589636412243968,
