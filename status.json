@@ -34,6 +34,10 @@
     "safari_views": {
       "text": "Shipped",
       "value": 1
+    },
+    "ff_views": {
+      "text": "Enabled by default",
+      "value": 2
     }
   },
   {
