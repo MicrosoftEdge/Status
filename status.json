@@ -3087,8 +3087,7 @@
     "link": "https://w3c.github.io/webappsec/specs/referrer-policy/",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Shipped",
-      "ieUnprefixed": "10240"
+      "text": "In Development"
     },
     "id": 5126747842412544
   },
