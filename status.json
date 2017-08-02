@@ -4586,6 +4586,26 @@
     "spec": "screen-capture"
   },
   {
+    "name": "Media Capture from Canvas",
+    "category": "Multimedia",
+    "link": "https://w3c.github.io/mediacapture-fromelement",
+    "summary": "Media Capture API can be used to capture Canvas content as MediaStream to be recorded or transmitted to remote peers.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "In Development",
+      "priority": "Medium"
+    },
+    "ff_views": {
+      "text": "In Development",
+      "value": 2
+    },
+    "safari_views": {
+      "text": "No public signals",
+      "value": 3
+    },
+    "id": 4817998447640576
+  },
+  {
     "name": "Form attribute",
     "category": "Misc",
     "link": "https://www.w3.org/TR/html5/forms.html#attr-fae-form",
