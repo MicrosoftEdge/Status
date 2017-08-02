@@ -2342,7 +2342,9 @@
     "summary": "Subresource Integrity defines a mechanism by which user agents may verify that a fetched resource has been delivered without unexpected manipulation. In a nutshell, metadata inlined into HTML elements allows the browser to determine whether the resource that was downloaded matches the resource the page's author expected to download.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "Preview Release",
+      "iePrefixed": "16257",
+      "flag": true
     },
     "spec": "sri",
     "id": 6183089948590080,
