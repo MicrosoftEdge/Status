@@ -4606,6 +4606,26 @@
     "id": 4817998447640576
   },
   {
+    "name": "Media Capture from HTML Media Element",
+    "category": "Multimedia",
+    "link": "https://w3c.github.io/mediacapture-fromelement",
+    "summary": "Media Capture API can be used to capture non-DRM content from mediaelement into another MediaStream.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Low"
+    },
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "safari_views": {
+      "text": "No public signals",
+      "value": 3
+    },
+    "id": 5522768674160640
+  },
+  {
     "name": "Form attribute",
     "category": "Misc",
     "link": "https://www.w3.org/TR/html5/forms.html#attr-fae-form",
