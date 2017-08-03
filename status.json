@@ -2343,7 +2343,7 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Preview Release",
-      "ie": "16257",
+      "iePrefixed": "16257",
       "flag": true
     },
     "spec": "sri",
@@ -4630,9 +4630,9 @@
   {
     "name": "Audio Output Devices API",
     "category": "Multimedia",
-    "link": "https://w3c.github.io/mediacapture-fromelement",
+    "link": "https://w3c.github.io/mediacapture-output/",
     "summary": "The Audio Output Devices API allows a Web application to direct audio output to authorized endpoints other than the user agent default.",
-    "standardStatus": "Editor's Draft",
+    "standardStatus": "Editor's draft",
     "ieStatus": {
       "text": "Under Consideration",
       "priority": "High"
