@@ -6,8 +6,8 @@
     "summary": "As the web enables more powerful apps, features which enable those apps should only be enabled in contexts which meet a specific security level. This also exposes the APIs that identify if you’re in a secure context.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
-      "ieUnprefixed": "16257"
+      "text": "Shipped",
+      "ieUnprefixed": "15063"
     },
     "id": 6021277022158848
   },
