@@ -2342,7 +2342,9 @@
     "summary": "Subresource Integrity defines a mechanism by which user agents may verify that a fetched resource has been delivered without unexpected manipulation. In a nutshell, metadata inlined into HTML elements allows the browser to determine whether the resource that was downloaded matches the resource the page's author expected to download.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "Preview Release",
+      "iePrefixed": "16257",
+      "flag": true
     },
     "spec": "sri",
     "id": 6183089948590080,
@@ -4572,8 +4574,7 @@
     "summary": "Screen Capture API allows a user's display or parts thereof be used as the source of a media stream.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "Medium"
+      "text": "In Development"
     },
     "ff_views": {
       "text": "In Development",
@@ -4585,6 +4586,58 @@
     },
     "shipped_opera_milestone": false,
     "spec": "screen-capture"
+  },
+  {
+    "name": "Media Capture from Canvas",
+    "category": "Multimedia",
+    "link": "https://w3c.github.io/mediacapture-fromelement",
+    "summary": "Media Capture API can be used to capture Canvas content as MediaStream to be recorded or transmitted to remote peers.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "In Development",
+      "priority": "Medium"
+    },
+    "ff_views": {
+      "text": "In Development",
+      "value": 2
+    },
+    "safari_views": {
+      "text": "No public signals",
+      "value": 3
+    },
+    "id": 4817998447640576
+  },
+  {
+    "name": "Media Capture from HTML Media Element",
+    "category": "Multimedia",
+    "link": "https://w3c.github.io/mediacapture-fromelement",
+    "summary": "Media Capture API can be used to capture non-DRM content from mediaelement into another MediaStream.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Low"
+    },
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "safari_views": {
+      "text": "No public signals",
+      "value": 3
+    },
+    "id": 5522768674160640
+  },
+  {
+    "name": "Audio Output Devices API",
+    "category": "Multimedia",
+    "link": "https://w3c.github.io/mediacapture-output/",
+    "summary": "The Audio Output Devices API allows a Web application to direct audio output to authorized endpoints other than the user agent default.",
+    "standardStatus": "Editor's draft",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "High"
+    },
+    "id": 4621603249848320
   },
   {
     "name": "Form attribute",
