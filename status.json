@@ -4733,7 +4733,8 @@
     "summary": "The Cache API consists of additional ServiceWorker APIs which allow authors to fully and conveniently manage their content caches for offline use. An origin can have multiple, named Cache objects, whose contents are entirely under the control of Service Worker scripts.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "16257"
     },
     "spec": "service-workers",
     "id": 6461631328419840
