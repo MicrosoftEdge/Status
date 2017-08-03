@@ -1209,8 +1209,7 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Preview Release",
-      "ieUnprefixed": "16226",
-      "flag": true
+      "ieUnprefixed": "16237"
     },
     "spec": "css-grid-1",
     "id": 4589636412243968,
