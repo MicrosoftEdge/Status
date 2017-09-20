@@ -3521,9 +3521,9 @@
   {
     "name": "<dialog> element for modals",
     "category": "User input",
-    "link": "https://www.w3.org/html/wg/drafts/html/master/semantics.html#the-dialog-element",
+    "link": "https://w3c.github.io/html/interactive-elements.html#the-dialog-element",
     "summary": "An HTML element for modal and non-modal dialog boxes",
-    "standardStatus": "Working draft or equivalent",
+    "standardStatus": "Editor's draft",
     "ieStatus": {
       "text": "Under Consideration",
       "priority": "Medium"
