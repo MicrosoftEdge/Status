@@ -1,5 +1,17 @@
 [
   {
+    "name": "Secure Contexts",
+    "category": "Security",
+    "link": "https://www.w3.org/TR/secure-contexts/",
+    "summary": "As the web enables more powerful apps, features which enable those apps should only be enabled in contexts which meet a specific security level. This also exposes the APIs that identify if you’re in a secure context.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Shipped",
+      "ieUnprefixed": "15063"
+    },
+    "id": 6021277022158848
+  },
+  {
     "name": "Font Variation Properties",
     "category": "CSS",
     "link": "https://drafts.csswg.org/css-fonts-4/#font-variation-props",
@@ -34,6 +46,10 @@
     "safari_views": {
       "text": "Shipped",
       "value": 1
+    },
+    "ff_views": {
+      "text": "Enabled by default",
+      "value": 2
     }
   },
   {
@@ -307,6 +323,18 @@
       "text": "No public signals",
       "value": 2
     }
+  },
+  {
+    "name": "High Resolution Time 3",
+    "category": "Performance",
+    "link": "https://www.w3.org/TR/hr-time-3/",
+    "summary": "Adds performance.timeOrigin, allowing DOMHighResTimeStamps from separate Windows to be interleaved into a single timeline.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Preview Release",
+      "ieUnprefixed": "16226"
+    },
+    "spec": "hr-time-3"
   },
   {
     "name": "Brotli Compressed Data Format",
@@ -1192,7 +1220,8 @@
     "summary": "This will update our current implementation, from IE10, to support some of the following: the implicit grid, grid-template-* syntax, subgrids, or grid-gap.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "16237"
     },
     "spec": "css-grid-1",
     "id": 4589636412243968,
@@ -1662,7 +1691,8 @@
     "summary": "position: sticky is a new way to position elements and is conceptually similar to position: fixed. The difference is that a stickily positioned element behaves like position: relative within its parent, until a given offset threshold is met.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "16215"
     },
     "spec": "css-position-3",
     "id": 6190250464378880,
@@ -2323,7 +2353,9 @@
     "summary": "Subresource Integrity defines a mechanism by which user agents may verify that a fetched resource has been delivered without unexpected manipulation. In a nutshell, metadata inlined into HTML elements allows the browser to determine whether the resource that was downloaded matches the resource the page's author expected to download.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "Preview Release",
+      "iePrefixed": "16257",
+      "flag": true
     },
     "spec": "sri",
     "id": 6183089948590080,
@@ -2499,7 +2531,8 @@
     "summary": "CSS properties that control the position and size of replaced content within the content box",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "16215"
     },
     "spec": "css-images-3",
     "id": 5302669702856704,
@@ -2844,13 +2877,13 @@
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/tools/webDriver/",
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
-      "text": "In Development",
-      "value": 2
+      "text": "Shipped",
+      "value": 1
     },
     "shipped_opera_milestone": true,
     "safari_views": {
-      "text": "In Development",
-      "value": 2
+      "text": "Shipped",
+      "value": 1
     }
   },
   {
@@ -2998,7 +3031,8 @@
     "summary": "Shared memory and atomics for ECMAscript.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "16215"
     },
     "spec": "es6",
     "id": 4570991992766464,
@@ -3066,8 +3100,7 @@
     "link": "https://w3c.github.io/webappsec/specs/referrer-policy/",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Shipped",
-      "ieUnprefixed": "10240"
+      "text": "In Development"
     },
     "id": 5126747842412544
   },
@@ -3409,7 +3442,7 @@
     "link": "https://w3c.github.io/clipboard-apis/",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Shipped",
+      "text": "In Development",
       "ieUnprefixed": "15002"
     },
     "spec": "clipboard-apis",
@@ -3488,9 +3521,9 @@
   {
     "name": "<dialog> element for modals",
     "category": "User input",
-    "link": "https://www.w3.org/html/wg/drafts/html/master/semantics.html#the-dialog-element",
+    "link": "https://w3c.github.io/html/interactive-elements.html#the-dialog-element",
     "summary": "An HTML element for modal and non-modal dialog boxes",
-    "standardStatus": "Working draft or equivalent",
+    "standardStatus": "Editor's draft",
     "ieStatus": {
       "text": "Under Consideration",
       "priority": "Medium"
@@ -4250,7 +4283,8 @@
     "safari_views": {
       "text": "No public signals",
       "value": 3
-    }
+    },
+    "uservoiceid": 17929639
   },
   {
     "name": "image-rendering",
@@ -4337,7 +4371,8 @@
     "summary": "A viewport relative length unit equal to the larger of vw (viewport width) or vh (viewport height).",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "16257"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
@@ -4552,8 +4587,7 @@
     "summary": "Screen Capture API allows a user's display or parts thereof be used as the source of a media stream.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "Medium"
+      "text": "In Development"
     },
     "ff_views": {
       "text": "In Development",
@@ -4567,13 +4601,66 @@
     "spec": "screen-capture"
   },
   {
+    "name": "Media Capture from Canvas",
+    "category": "Multimedia",
+    "link": "https://w3c.github.io/mediacapture-fromelement",
+    "summary": "Media Capture API can be used to capture Canvas content as MediaStream to be recorded or transmitted to remote peers.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Medium"
+    },
+    "ff_views": {
+      "text": "In Development",
+      "value": 2
+    },
+    "safari_views": {
+      "text": "No public signals",
+      "value": 3
+    },
+    "id": 4817998447640576
+  },
+  {
+    "name": "Media Capture from HTML Media Element",
+    "category": "Multimedia",
+    "link": "https://w3c.github.io/mediacapture-fromelement",
+    "summary": "Media Capture API can be used to capture non-DRM content from mediaelement into another MediaStream.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Low"
+    },
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "safari_views": {
+      "text": "No public signals",
+      "value": 3
+    },
+    "id": 5522768674160640
+  },
+  {
+    "name": "Audio Output Devices API",
+    "category": "Multimedia",
+    "link": "https://w3c.github.io/mediacapture-output/",
+    "summary": "The Audio Output Devices API allows a Web application to direct audio output to authorized endpoints other than the user agent default.",
+    "standardStatus": "Editor's draft",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "High"
+    },
+    "id": 4621603249848320
+  },
+  {
     "name": "Form attribute",
     "category": "Misc",
     "link": "https://www.w3.org/TR/html5/forms.html#attr-fae-form",
     "summary": "Attribute for associating input and submit buttons with a form.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "16257"
     },
     "spec": "html51",
     "demo": "https://www.impressivewebs.com/html5-form-attribute/",
@@ -4635,8 +4722,7 @@
     "summary": "WebAssembly or wasm is a new portable, size- and load-time-efficient format suitable for compilation to the web.",
     "ieStatus": {
       "text": "Preview Release",
-      "ieUnprefixed": "15063",
-      "flag": true
+      "ieUnprefixed": "16241"
     },
     "id": 5453022515691520,
     "uservoiceid": 11423808
@@ -4661,7 +4747,8 @@
     "summary": "The Cache API consists of additional ServiceWorker APIs which allow authors to fully and conveniently manage their content caches for offline use. An origin can have multiple, named Cache objects, whose contents are entirely under the control of Service Worker scripts.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "16257"
     },
     "spec": "service-workers",
     "id": 6461631328419840
@@ -4708,8 +4795,7 @@
     "summary": "This specification addresses gaps so user agents do not have to reverse engineer encoding implementations.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "Medium"
+      "text": "In Development"
     },
     "spec": "whatwg-encoding",
     "id": 5714368087982080
@@ -4744,7 +4830,8 @@
     "summary": "Option to mark an event listener to fire only once",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "16215"
     },
     "spec": "dom",
     "id": 5630331130478592,
@@ -4782,7 +4869,8 @@
     "summary": "Provides an API to mark event listeners as \"passive\", primarily to allow for scrolling performance improvements",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "16215"
     },
     "spec": "passivelisteners",
     "id": 5745543795965952
@@ -4806,5 +4894,15 @@
       "value": 1
     },
     "uservoiceid": 257854
+  },
+  {
+    "name": "CSS Selectors Level 4",
+    "category": "CSS",
+    "link": "https://drafts.csswg.org/selectors-4/#overview",
+    "summary": "Extends the selectors with :matches, :has, :not(complex selector), :dir, case insensitive attribute matching and more.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration"
+    }
   }
 ]
