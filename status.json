@@ -12,15 +12,24 @@
     "id": 6021277022158848
   },
   {
-    "name": "Font Variation Properties",
+    "name": "Font Variation Properties with OpenType Variable Font Support",
     "category": "CSS",
     "link": "https://drafts.csswg.org/css-fonts-4/#font-variation-props",
     "summary": "Allows multiple instances of fonts to be defined by interpolating glyph outlines along different axis.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "High"
-    }
+      "text": "In Development"
+    },
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "ff_views": {
+      "text": "In Development",
+      "value": 2
+    },
+    "id": 4708676673732608,
+    "uservoiceid": 19176292
   },
   {
     "name": "SVG Accessibility API Mappings",
