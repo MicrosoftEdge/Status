@@ -2034,13 +2034,13 @@
     "uservoiceid": 6263658
   },
   {
-    "name": "Web Speech API (input)",
+    "name": "Web Speech API (Speech Recognition)",
     "category": "Multimedia",
     "link": "https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html",
     "summary": "Enables web developers to incorporate speech recognition into their web pages.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Under Consideration"
     },
     "spec": "speech-api",
     "id": 5908775487668224,
