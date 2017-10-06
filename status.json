@@ -4217,6 +4217,18 @@
     "shipped_opera_milestone": true
   },
   {
+    "name": "FLAC Audio Codec",
+    "category": "Multimedia",
+    "link": "https://xiph.org/flac/format.html",
+    "summary": "An open codec for audio.",
+    "standardStatus": "De-facto standard",
+    "ieStatus": {
+      "text": "In Preview",
+      "ieUnprefixed": 16215
+    },
+    "id": 5744731434778624
+  },
+  {
     "name": "OGG Container",
     "category": "Multimedia",
     "link": "https://xiph.org/ogg/doc/",
