@@ -1210,29 +1210,18 @@
     "id": 5785905063264256
   },
   {
-    "name": "Grid",
+    "name": "CSS Grid Layout",
     "category": "CSS",
     "link": "https://dev.w3.org/csswg/css3-grid-layout/",
-    "summary": "A two-dimensional grid-based layout system, optimized for user interface design. Please see the 'Grid Update' status item to track an update to our Grid implementation.",
-    "standardStatus": "Working draft or equivalent",
-    "ieStatus": {
-      "text": "Prefixed",
-      "iePrefixed": "10"
-    },
-    "spec": "css-grid-1",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/grid-layout/"
-  },
-  {
-    "name": "Grid Update",
-    "category": "CSS",
-    "link": "https://dev.w3.org/csswg/css3-grid-layout/",
-    "summary": "This will update our current implementation, from IE10, to support some of the following: the implicit grid, grid-template-* syntax, subgrids, or grid-gap.",
+    "summary": "A two-dimensional grid-based layout system, optimized for user interface design.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Preview Release",
+      "iePrefixed": "10",
       "ieUnprefixed": "16237"
     },
     "spec": "css-grid-1",
+    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/grid-layout/",
     "id": 4589636412243968,
     "uservoiceid": 6514853
   },
