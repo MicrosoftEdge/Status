@@ -4182,8 +4182,7 @@
     "summary": "An open codec for audio.",
     "standardStatus": "De-facto standard",
     "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "Low"
+      "text": "In Development"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
@@ -4204,7 +4203,7 @@
     "summary": "An open video codec.",
     "standardStatus": "De-facto standard",
     "ieStatus": {
-      "text": "Not currently planned"
+      "text": "In Development"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
@@ -4224,8 +4223,7 @@
     "summary": "An open multimedia container.",
     "standardStatus": "De-facto standard",
     "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "Low"
+      "text": "In Development"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
