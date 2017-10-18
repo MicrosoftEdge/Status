@@ -4212,7 +4212,7 @@
     "summary": "An open codec for audio.",
     "standardStatus": "De-facto standard",
     "ieStatus": {
-      "text": "In Preview",
+      "text": "Preview Release",
       "ieUnprefixed": "16215"
     },
     "id": 5744731434778624

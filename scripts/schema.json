@@ -119,7 +119,7 @@
             "$ref": "#/definitions/feature_priority"
           },
           "text": {
-            "$ref": "#/definitions/ximplementation_statuses"
+            "$ref": "#/definitions/implementation_statuses"
           }
         },
         "required": [
