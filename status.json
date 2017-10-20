@@ -1800,11 +1800,23 @@
     "summary": "An API for representing binary data in web applications as a Stream object.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Prefixed",
-      "iePrefixed": "10"
+      "text": "Shipped",
+      "ieUnprefixed": "16299"
     },
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/streams-API/",
     "id": 6605041225957376
+  },
+  {
+    "name": "Streams API: WritableStream",
+    "category": "File APIs",
+    "link": "https://streams.spec.whatwg.org/",
+    "summary": "A writable stream represents a destination for data, into which you can write.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Shipped",
+      "ieUnprefixed": "16299"
+    },
+    "id": 5928498656968704
   },
   {
     "name": "Subpixel font scaling",
@@ -1919,10 +1931,24 @@
     "summary": "Expose constructible URL objects that can be manipulated and combined.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Shipped",
+      "ieUnprefixed": "10240"
     },
     "spec": "whatwg-url",
     "id": 5675829346435072,
+    "uservoiceid": 16856668
+  },
+  {
+    "name": "URLSearchParams",
+    "category": "DOM",
+    "link": "https://url.spec.whatwg.org/",
+    "summary": "Allows developers to manipulate the search params of a URL.",
+    "standardStatus": "Editor's draft",
+    "ieStatus": {
+      "text": "In Development"
+    },
+    "spec": "whatwg-url",
+    "id": 5632984866619392,
     "uservoiceid": 6263638
   },
   {
@@ -4755,8 +4781,8 @@
     "summary": "The Cache API consists of additional ServiceWorker APIs which allow authors to fully and conveniently manage their content caches for offline use. An origin can have multiple, named Cache objects, whose contents are entirely under the control of Service Worker scripts.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
-      "ieUnprefixed": "16257"
+      "text": "Shipped",
+      "ieUnprefixed": "16299"
     },
     "spec": "service-workers",
     "id": 6461631328419840
