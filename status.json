@@ -340,8 +340,8 @@
     "summary": "Adds performance.timeOrigin, allowing DOMHighResTimeStamps from separate Windows to be interleaved into a single timeline.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
-      "ieUnprefixed": "16226"
+      "text": "Shipped",
+      "ieUnprefixed": "16299"
     },
     "spec": "hr-time-3"
   },
@@ -3437,9 +3437,8 @@
     "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Preview Release",
-      "ieUnprefixed": "14342",
-      "flag": true
+      "text": "Shipped",
+      "ieUnprefixed": "16299"
     },
     "spec": "es6",
     "id": 5365692190687232,
@@ -4238,8 +4237,8 @@
     "summary": "An open codec for audio.",
     "standardStatus": "De-facto standard",
     "ieStatus": {
-      "text": "Preview Release",
-      "ieUnprefixed": "16215"
+      "text": "Shipped",
+      "ieUnprefixed": "16299"
     },
     "id": 5744731434778624
   },
@@ -4688,13 +4687,13 @@
   },
   {
     "name": "Form attribute",
-    "category": "Misc",
+    "category": "DOM",
     "link": "https://www.w3.org/TR/html5/forms.html#attr-fae-form",
     "summary": "Attribute for associating input and submit buttons with a form.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Preview Release",
-      "ieUnprefixed": "16257"
+      "text": "Shipped",
+      "ieUnprefixed": "16299"
     },
     "spec": "html51",
     "demo": "https://www.impressivewebs.com/html5-form-attribute/",
@@ -4864,8 +4863,8 @@
     "summary": "Option to mark an event listener to fire only once",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
-      "ieUnprefixed": "16215"
+      "text": "Shipped",
+      "ieUnprefixed": "16299"
     },
     "spec": "dom",
     "id": 5630331130478592,
@@ -4878,8 +4877,7 @@
     "summary": "Convenience methods for working with DOM Node trees",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "High"
+      "text": "In Development"
     },
     "spec": "dom",
     "id": 5723067795898368,
