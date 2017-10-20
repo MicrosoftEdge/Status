@@ -1216,9 +1216,9 @@
     "summary": "A two-dimensional grid-based layout system, optimized for user interface design.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "10",
-      "ieUnprefixed": "16237"
+      "ieUnprefixed": "16299"
     },
     "spec": "css-grid-1",
     "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/grid-layout/",
@@ -1689,8 +1689,8 @@
     "summary": "position: sticky is a new way to position elements and is conceptually similar to position: fixed. The difference is that a stickily positioned element behaves like position: relative within its parent, until a given offset threshold is met.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Preview Release",
-      "ieUnprefixed": "16215"
+      "text": "Shipped",
+      "ieUnprefixed": "16299"
     },
     "spec": "css-position-3",
     "id": 6190250464378880,
@@ -2555,8 +2555,8 @@
     "summary": "CSS properties that control the position and size of replaced content within the content box",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Preview Release",
-      "ieUnprefixed": "16215"
+      "text": "Shipped",
+      "ieUnprefixed": "16299"
     },
     "spec": "css-images-3",
     "id": 5302669702856704,
@@ -4405,8 +4405,8 @@
     "summary": "A viewport relative length unit equal to the larger of vw (viewport width) or vh (viewport height).",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
-      "ieUnprefixed": "16257"
+      "text": "Shipped",
+      "ieUnprefixed": "16299"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
