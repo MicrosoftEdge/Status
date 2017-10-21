@@ -1844,6 +1844,19 @@
     "uservoiceid": 6263636
   },
   {
+    "name": "Support dataset property on SVGElement",
+    "category": "DOM",
+    "link": "https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement",
+    "summary": "The dataset IDL attribute provides access to custom data attributes on SVG elements. Its behavior is the same as the corresponding IDL member on the HTMLElement interface.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "In Development"
+    },
+    "spec": "svg2",
+    "id": 5727911176830976,
+    "uservoiceid": 257854
+  },
+  {
     "name": "TLS 1.2",
     "category": "Network / Connectivity",
     "link": "https://tools.ietf.org/html/rfc5246",
