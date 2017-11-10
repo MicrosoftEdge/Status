@@ -1394,10 +1394,6 @@
       "value": 1
     },
     "shipped_opera_milestone": true,
-    "safari_views": {
-      "text": "No public signals",
-      "value": 3
-    },
     "spec": "indexeddb",
     "uservoiceid": 8437039
   },
