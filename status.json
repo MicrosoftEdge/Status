@@ -4140,8 +4140,7 @@
     "summary": "Applies a CSS filter effect to the content behind an element. This is not the element's background but the content that would be drawn behind it.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text":"Under Consideration",
-      "priority": "Low"
+      "text":"In Development"
     },
     "impl_status_chrome": "In Development",
     "ff_views": {
