@@ -64,7 +64,7 @@
   {
     "name": "-webkit-text-stroke",
     "category": "CSS",
-    "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke",
+    "link": "https://developer.mozilla.org/docs/Web/CSS/-webkit-text-stroke",
     "summary": "The -webkit-text-stroke property sets the stroke width and color of an element’s text.",
     "standardStatus": "De-facto standard",
     "ieStatus": {
@@ -79,7 +79,8 @@
       "text": "Enabled by default",
       "value": 2
     },
-    "shipped_opera_milestone": true
+    "shipped_opera_milestone": true,
+    "msdn": "https://developer.mozilla.org/docs/Web/CSS/-webkit-text-stroke"
   },
   {
     "name": "WebVR",
@@ -92,6 +93,7 @@
       "ieUnprefixed": "15002"
     },
     "id": 4532810371039232,
+    "msdn": "https://developer.mozilla.org/docs/Web/API/WebVR_API",
     "uservoiceid": 7119843
   },
   {
@@ -105,6 +107,7 @@
       "priority": "Medium"
     },
     "spec": "requestidlecallback",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Window/requestIdleCallback",
     "id": 5572795866021888
   },
   {
@@ -171,6 +174,7 @@
       "value": 2
     },
     "shipped_opera_milestone": true,
+    "msdn": "https://developer.mozilla.org/docs/Web/CSS/outline-offset",
     "uservoiceid": 6517094
   },
   {
@@ -184,6 +188,7 @@
       "priority": "Low"
     },
     "spec": "frame-timing",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/PerformanceFrameTiming",
     "id": 5558926443544576
   },
   {
@@ -197,6 +202,7 @@
       "priority": "Medium"
     },
     "spec": "performance-timeline-2",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/PerformanceObserver",
     "id": 5945504202489856
   },
   {
@@ -237,6 +243,7 @@
       "ieUnprefixed": "14986"
     },
     "spec": "intersection-observer",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/IntersectionObserver",
     "id": 5695342691483648
   },
   {
@@ -287,6 +294,7 @@
       "ieUnprefixed": "11"
     },
     "spec": "resource-hints",
+    "msdn": "https://developer.mozilla.org/docs/Web/HTTP/Link_prefetching_FAQ",
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
       "text": "Enabled by default",
@@ -309,6 +317,7 @@
       "priority": "Medium"
     },
     "spec": "resource-hints",
+    "msdn": "https://developer.mozilla.org/docs/Web/HTML/Link_types",
     "id": 5560623895150592
   },
   {
@@ -322,6 +331,7 @@
       "ieUnprefixed": "14393"
     },
     "spec": "hr-time-2",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Performance",
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
       "text": "Enabled by default",
@@ -343,6 +353,7 @@
       "text": "Shipped",
       "ieUnprefixed": "16299"
     },
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Performance",
     "spec": "hr-time-3"
   },
   {
@@ -356,6 +367,7 @@
       "ieUnprefixed": "14986"
     },
     "uservoiceid": 11364771,
+    "msdn": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Encoding#Directives",
     "id": 5420797577396224
   },
   {
@@ -369,7 +381,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "html51",
-    "msdn": "https://msdn.microsoft.com/library/hh772925.aspx",
+    "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/datalist",
     "id": 6090950820495360
   },
   {
@@ -382,6 +394,7 @@
       "text": "Under Consideration",
       "priority": "Medium"
     },
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Credential_Management_API",
     "id": 5026422640869376
   },
   {
@@ -395,8 +408,7 @@
       "iePrefixed": "14291",
       "flag": true
     },
-    "spec": "webauthn",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/device/web-authentication/"
+    "spec": "webauthn"
   },
   {
     "name": "FIDO U2F",
@@ -429,6 +441,7 @@
       "text": "In Development"
     },
     "spec": "html51",
+    "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/details",
     "id": 5348024557502464,
     "uservoiceid": 6261266
   },
@@ -443,7 +456,7 @@
     },
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
-    "msdn": "https://msdn.microsoft.com/library/mt574730(v=vs.85).aspx"
+    "msdn": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/webkitdirectory"
   },
   {
     "name": "Directory Upload",
@@ -455,7 +468,8 @@
       "text": "Under Consideration",
       "priority": "Medium"
     },
-    "spec": "file-system-api"
+    "spec": "file-system-api",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/File_and_Directory_Entries_API"
   },
   {
     "name": "<img srcset>",
@@ -472,7 +486,7 @@
       "value": 1
     },
     "spec": "html51",
-    "msdn": "https://msdn.microsoft.com/library/dn955124.aspx",
+    "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/img#attr-srcset",
     "id": 4644337115725824,
     "uservoiceid": 6261267
   },
@@ -497,7 +511,7 @@
     },
     "shipped_opera_milestone": true,
     "spec": "html51",
-    "msdn": "https://blogs.windows.com/msedgedev/2015/10/07/using-extended-srcset-and-the-picture-element-to-tailor-your-image-to-every-device-and-layout/",
+    "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/img#attr-sizes",
     "id": 4644337115725824,
     "uservoiceid": 8204535
   },
@@ -512,7 +526,7 @@
       "ieUnprefixed": "10547"
     },
     "spec": "html51",
-    "msdn": "https://msdn.microsoft.com/library/mt574001(v=vs.85).aspx",
+    "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/picture",
     "id": 5910974510923776,
     "uservoiceid": 6261271
   },
@@ -527,7 +541,7 @@
       "ieUnprefixed": "10547"
     },
     "spec": "html51",
-    "msdn": "https://msdn.microsoft.com/library/mt586693.aspx",
+    "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/template",
     "id": 5207287069147136,
     "uservoiceid": 6261273
   },
@@ -552,7 +566,7 @@
       "value": 1
     },
     "spec": "html51",
-    "msdn": "https://msdn.microsoft.com/library/mt573149.aspx",
+    "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/meter",
     "uservoiceid": 6514198
   },
   {
@@ -576,7 +590,7 @@
       "value": 1
     },
     "spec": "html51",
-    "msdn": "https://msdn.microsoft.com/library/mt587085(v=vs.85).aspx",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement",
     "uservoiceid": 8679412
   },
   {
@@ -600,7 +614,7 @@
       "value": 1
     },
     "spec": "html51",
-    "msdn": "https://msdn.microsoft.com/library/mt629093"
+    "msdn": "https://developer.mozilla.org/docs/Web/Events/invalid"
   },
   {
     "name": "Canvas 2D ellipse",
@@ -622,7 +636,8 @@
       "text": "Preview Release",
       "value": 1
     },
-    "spec": "2dcontext"
+    "spec": "2dcontext",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/ellipse"
   },
   {
     "name": "Canvas 2D path2D",
@@ -645,6 +660,7 @@
       "value": 1
     },
     "spec": "2dcontext2",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Path2D",
     "uservoiceid": 6710770
   },
   {
@@ -668,7 +684,7 @@
       "value": 1
     },
     "spec": "html51",
-    "msdn": "https://msdn.microsoft.com/library/mt574720"
+    "msdn": "https://developer.mozilla.org/docs/Web/CSS/:in-range"
   },
   {
     "name": "CSS Mutability Pseudo-classes",
@@ -691,7 +707,7 @@
       "value": 1
     },
     "spec": "html51",
-    "msdn": "https://msdn.microsoft.com/library/mt574722"
+    "msdn": "https://developer.mozilla.org/docs/Web/CSS/:read-only"
   },
   {
     "name": "a[download] attribute",
@@ -704,6 +720,7 @@
       "ieUnprefixed": "10547"
     },
     "spec": "html51",
+    "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/a#attr-download",
     "id": 6473924464345088,
     "uservoiceid": 6261278
   },
@@ -718,7 +735,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "html51",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/networking-and-connectivity/application-cache/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Window/applicationCache",
     "id": 6192449487634432
   },
   {
@@ -732,7 +749,6 @@
       "ieUnprefixed": "10"
     },
     "spec": "html51",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/html5/video",
     "id": 5748496434987008
   },
   {
@@ -746,7 +762,6 @@
       "ieUnprefixed": "10240"
     },
     "spec": "html51",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/html5/video",
     "id": 5748496434987008,
     "uservoiceid": 6261284
   },
@@ -761,7 +776,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "fileapi",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/html5/file-api/blob/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Blob",
     "id": 5328783104016384
   },
   {
@@ -775,7 +790,7 @@
       "ieUnprefixed": "11"
     },
     "spec": "es6",
-    "msdn": "https://msdn.microsoft.com/library/dn263046",
+    "msdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/let",
     "id": 5891733057437696
   },
   {
@@ -789,7 +804,7 @@
       "ieUnprefixed": "9"
     },
     "spec": "2dcontext",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/graphics/canvas/",
+    "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/canvas",
     "id": 5100084685438976
   },
   {
@@ -803,6 +818,7 @@
       "ieUnprefixed": "14393"
     },
     "spec": "2dcontext",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/drawFocusIfNeeded",
     "id": 6413769152397312,
     "uservoiceid": 6261287
   },
@@ -817,7 +833,7 @@
       "ieUnprefixed": "10532"
     },
     "spec": "compositing-1",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/graphics/canvas/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation",
     "id": 6119881720201216,
     "uservoiceid": 6261290
   },
@@ -832,7 +848,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "csp3",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/security/content-Security-Policy/",
+    "msdn": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy",
     "id": 5205088045891584,
     "uservoiceid": 6511917
   },
@@ -847,6 +863,7 @@
       "ieUnprefixed": "15002"
     },
     "spec": "csp2",
+    "msdn": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy",
     "id": 4957003285790720,
     "uservoiceid": 9163354
   },
@@ -883,7 +900,7 @@
       "text": "Shipped",
       "ieUnprefixed": "9"
     },
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/calc-function/",
+    "msdn": "https://developer.mozilla.org/docs/Web/CSS/calc",
     "id": 5765241438732288
   },
   {
@@ -898,7 +915,7 @@
       "flag": true
     },
     "spec": "css-deviceadapt-1",
-    "msdn": "https://msdn.microsoft.com/library/hh708740",
+    "msdn": "https://developer.mozilla.org/docs/Web/CSS/CSS_Device_Adaptation",
     "id": 4737164243894272
   },
   {
@@ -913,7 +930,7 @@
       "ieUnprefixed": "11"
     },
     "spec": "pointerevents",
-    "msdn": "https://msdn.microsoft.com/library/hh772044.aspx",
+    "msdn": "https://developer.mozilla.org/docs/Web/CSS/touch-action",
     "id": 5912074022551552
   },
   {
@@ -926,6 +943,7 @@
       "text": "Shipped",
       "ieUnprefixed": "15063"
     },
+    "msdn": "https://developer.mozilla.org/docs/Web/CSS/--*",
     "id": 6401356696911872,
     "uservoiceid": 6261292
   },
@@ -981,7 +999,7 @@
       "ieUnprefixed": "11"
     },
     "spec": "orientation-event",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/device/device-orientation-and-motion-events/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/DeviceMotionEvent",
     "id": 5556931766779904
   },
   {
@@ -995,7 +1013,7 @@
       "ieUnprefixed": "11"
     },
     "spec": "orientation-event",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/device/device-orientation-and-motion-events/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/DeviceOrientationEvent",
     "id": 5874690627207168
   },
   {
@@ -1009,7 +1027,7 @@
       "ieUnprefixed": "11"
     },
     "spec": "cssom-view-1",
-    "msdn": "https://msdn.microsoft.com/library/dn255104.aspx",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Window/devicePixelRatio",
     "id": 5269993591668736
   },
   {
@@ -1023,6 +1041,7 @@
       "ieUnprefixed": "9"
     },
     "spec": "uievents",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/KeyboardEvent",
     "id": 4748790720364544
   },
   {
@@ -1036,7 +1055,7 @@
       "ieUnprefixed": "8"
     },
     "spec": "pointerevents",
-    "msdn": "https://msdn.microsoft.com/library/ms536945.aspx",
+    "msdn": "https://developer.mozilla.org/docs/Web/Events/mouseenter",
     "id": 4889528208719872
   },
   {
@@ -1050,7 +1069,7 @@
       "ieUnprefixed": "9"
     },
     "spec": "uievents",
-    "msdn": "https://msdn.microsoft.com/library/ff974352",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/WheelEvent",
     "id": 5388191091654656
   },
   {
@@ -1077,7 +1096,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "encrypted-media",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/multimedia/encrypted-media-extensions/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Encrypted_Media_Extensions_API",
     "id": 6578378068983808
   },
   {
@@ -1105,7 +1124,7 @@
       "ieUnprefixed": "10586"
     },
     "spec": "filter-effects-1",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/filter-effects/",
+    "msdn": "https://developer.mozilla.org/docs/Web/CSS/filter",
     "id": 5822463824887808,
     "uservoiceid": 6261306
   },
@@ -1121,7 +1140,7 @@
       "ieUnprefixed": "11"
     },
     "spec": "css-flexbox-1",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/flexbox/",
+    "msdn": "https://developer.mozilla.org/docs/Learn/CSS/CSS_layout/Flexbox",
     "id": 4837301406400512
   },
   {
@@ -1135,7 +1154,7 @@
       "iePrefixed": "11"
     },
     "spec": "whatwg-fullscreen",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/device/fullscreen-api/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Fullscreen_API",
     "id": 5259513871466496
   },
   {
@@ -1149,7 +1168,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "gamepad",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/dom/gamepad-api/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Gamepad_API",
     "id": 5118776383111168,
     "uservoiceid": 6509110
   },
@@ -1177,7 +1196,7 @@
       "ieUnprefixed": "9"
     },
     "spec": "geolocation-api",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/device/geolocation/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Geolocation",
     "id": 6348855016685568
   },
   {
@@ -1191,7 +1210,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "html-media-capture",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/multimedia/media-Capture-and-Streams/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Media_Streams_API",
     "id": 6067380039974912,
     "uservoiceid": 6573558
   },
@@ -1206,7 +1225,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "css-images-3",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/gradients/",
+    "msdn": "https://developer.mozilla.org/docs/Web/CSS/gradient",
     "id": 5785905063264256
   },
   {
@@ -1221,7 +1240,7 @@
       "ieUnprefixed": "16299"
     },
     "spec": "css-grid-1",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/grid-layout/",
+    "msdn": "https://developer.mozilla.org/docs/Web/CSS/CSS_Grid_Layout",
     "id": 4589636412243968,
     "uservoiceid": 6514853
   },
@@ -1281,7 +1300,7 @@
       "text": "Shipped",
       "ieUnprefixed": "11"
     },
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/security/HSTS/",
+    "msdn": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Strict-Transport-Security",
     "id": 4941480133132288
   },
   {
@@ -1306,7 +1325,7 @@
       "text": "Shipped",
       "ieUnprefixed": "10240"
     },
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/networking-and-connectivity/HTTP2/",
+    "msdn": "https://developer.mozilla.org/docs/Web/HTTP",
     "id": 5152586365665280
   },
   {
@@ -1320,7 +1339,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "html51",
-    "msdn": "https://msdn.microsoft.com/library/hh673561",
+    "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/iframe#attr-sandbox",
     "id": 5715536319086592
   },
   {
@@ -1362,7 +1381,6 @@
       "iePrefixed": "11"
     },
     "spec": "ime-api",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/dom/input-Method-Editor-API/",
     "id": 6366722080636928
   },
   {
@@ -1376,7 +1394,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "indexeddb",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/storage/IndexedDB/",
+    "msdn": "https://developer.mozilla.org/docs/Glossary/IndexedDB",
     "id": 6507459568992256
   },
   {
@@ -1416,7 +1434,8 @@
     "safari_views": {
       "text": "Shipped",
       "value": 1
-    }
+    },
+    "msdn": "https://developer.mozilla.org/docs/Web/API/WebGL_API"
   },
   {
     "name": "Map (ES6)",
@@ -1457,7 +1476,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "cssom-view-1",
-    "msdn": "https://msdn.microsoft.com/library/hh772743",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Window/matchMedia",
     "id": 4677872220372992
   },
   {
@@ -1482,7 +1501,7 @@
       "text": "Shipped",
       "ieUnprefixed": "9"
     },
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/media-queries/",
+    "msdn": "https://developer.mozilla.org/docs/Web/CSS/Media_Queries",
     "id": 5944509615570944
   },
   {
@@ -1496,7 +1515,7 @@
       "ieUnprefixed": "11"
     },
     "spec": "media-source",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/multimedia/media-source-extensions/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Media_Source_Extensions_API",
     "id": 4563797888991232
   },
   {
@@ -1535,7 +1554,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "css-transforms-1",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/transforms/",
+    "msdn": "https://developer.mozilla.org/docs/Web/CSS/transform-style#Values",
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
       "text": "Shipped",
@@ -1602,7 +1621,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "css-multicol-3",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/multi-column-layout/",
+    "msdn": "https://developer.mozilla.org/docs/Web/CSS/CSS_Columns",
     "id": 6526151266664448
   },
   {
@@ -1616,7 +1635,7 @@
       "ieUnprefixed": "11"
     },
     "spec": "whatwg-dom",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/dom/mutation-observers/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/MutationObserver",
     "id": 5021194726146048
   },
   {
@@ -1630,7 +1649,7 @@
       "ieUnprefixed": "9"
     },
     "spec": "navigation-timing-2",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/navigation-Timing-API/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Navigation_timing_API",
     "id": 5584144679567360
   },
   {
@@ -1644,7 +1663,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "page-visibility",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/page-Visibility-API/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Page_Visibility_API",
     "id": 5689697795833856
   },
   {
@@ -1659,7 +1678,7 @@
       "ieUnprefixed": "11"
     },
     "spec": "pointerevents",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/dom/pointer-events/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Pointer_events",
     "id": 4504699138998272
   },
   {
@@ -1674,7 +1693,7 @@
     },
     "shipped_opera_milestone": true,
     "spec": "pointerlock",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/dom/pointer-lock/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Pointer_Lock_API",
     "id": 6753200417800192
   },
   {
@@ -1688,6 +1707,7 @@
       "ieUnprefixed": "16299"
     },
     "spec": "css-position-3",
+    "msdn": "https://developer.mozilla.org/docs/Web/CSS/position#Values",
     "id": 6190250464378880,
     "uservoiceid": 6263621
   },
@@ -1702,7 +1722,7 @@
       "ieUnprefixed": "8"
     },
     "spec": "webmessaging",
-    "msdn": "https://msdn.microsoft.com/library/cc197015.aspx",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Window/postMessage",
     "id": 4786174115708928
   },
   {
@@ -1730,7 +1750,6 @@
       "priority": "Medium"
     },
     "spec": "css-regions-1",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/regions/",
     "id": 5655612935372800
   },
   {
@@ -1744,7 +1763,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "html51",
-    "msdn": "https://msdn.microsoft.com/library/hh920765",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/window/requestAnimationFrame",
     "id": 5233400470306816
   },
   {
@@ -1758,7 +1777,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "resource-timing",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/resource-timing-api/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Resource_Timing_API",
     "id": 5796350423728128
   },
   {
@@ -1785,7 +1804,7 @@
       "ieUnprefixed": "11"
     },
     "spec": "es6",
-    "msdn": "https://msdn.microsoft.com/library/dn251547",
+    "msdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set",
     "id": 4916191365693440
   },
   {
@@ -1798,7 +1817,7 @@
       "text": "Shipped",
       "ieUnprefixed": "16299"
     },
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/streams-API/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Streams_API",
     "id": 6605041225957376
   },
   {
@@ -1811,6 +1830,7 @@
       "text": "Shipped",
       "ieUnprefixed": "16299"
     },
+    "msdn": "https://developer.mozilla.org/docs/Web/API/WritableStream",
     "id": 5928498656968704
   },
   {
@@ -1886,7 +1906,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "html51",
-    "msdn": "https://msdn.microsoft.com/library/bg123962",
+    "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/track",
     "id": 6719115557339136
   },
   {
@@ -1901,7 +1921,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "css-transforms-1",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/transforms/",
+    "msdn": "https://developer.mozilla.org/docs/Web/CSS/CSS_Transforms",
     "id": 6437640580628480
   },
   {
@@ -1915,7 +1935,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "es6",
-    "msdn": "https://msdn.microsoft.com/library/hh869304.aspx",
+    "msdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray",
     "id": 5135818813341696
   },
   {
@@ -1943,6 +1963,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "whatwg-url",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/URL",
     "id": 5675829346435072,
     "uservoiceid": 16856668
   },
@@ -1970,7 +1991,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "user-timing",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/user-timing-api/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Performance",
     "id": 5066549580791808
   },
   {
@@ -2025,7 +2046,7 @@
       "iePrefixed": "11"
     },
     "spec": "webcryptoapi",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/security/web-Cryptography-API/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Web_Crypto_API",
     "id": 5030265697075200
   },
   {
@@ -2052,7 +2073,7 @@
       "ieUnprefixed": "14342"
     },
     "spec": "notifications",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/device/web-Notifications-API/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Notifications_API",
     "id": 5064350557536256,
     "uservoiceid": 6263658
   },
@@ -2080,7 +2101,7 @@
       "ieUnprefixed": "14316"
     },
     "spec": "speech-api",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/multimedia/web-speech-api/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesis",
     "id": 4782875580825600,
     "uservoiceid": 6263662
   },
@@ -2108,7 +2129,7 @@
       "ieUnprefixed": "8"
     },
     "spec": "webstorage",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/storage/web-and-offline-storage/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Web_Storage_API",
     "id": 5345825534246912
   },
   {
@@ -2175,6 +2196,7 @@
       "ieUnprefixed": "15019"
     },
     "spec": "webrtc",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/WebRTC_API",
     "id": 6612462929444864,
     "uservoiceid": 6508336
   },
@@ -2212,7 +2234,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "html51",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/networking-and-connectivity/websocket/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/WebSocket",
     "id": 6555138000945152
   },
   {
@@ -2226,7 +2248,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "xhr",
-    "msdn": "https://msdn.microsoft.com/library/cc304105.aspx",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/timeout",
     "id": 6290890138058752
   },
   {
@@ -2239,7 +2261,8 @@
       "text": "Shipped",
       "ieUnprefixed": "14362"
     },
-    "spec": "xhr"
+    "spec": "xhr",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest#Properties"
   },
   {
     "name": "Arrow function (ES6)",
@@ -2253,6 +2276,7 @@
     },
     "spec": "es6",
     "id": 5047308127305728,
+    "msdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/Arrow_functions",
     "uservoiceid": 6512181
   },
   {
@@ -2306,6 +2330,7 @@
       "ieUnprefixed": "14342"
     },
     "spec": "es6",
+    "msdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/Default_parameters",
     "id": 5275456790069248,
     "uservoiceid": 6512273
   },
@@ -2321,6 +2346,7 @@
       "flag": false
     },
     "spec": "es6",
+    "msdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment",
     "id": 4588790303686656,
     "uservoiceid": 6263681
   },
@@ -2335,6 +2361,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "es6",
+    "msdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/rest_parameters",
     "id": 5937087912083456
   },
   {
@@ -2418,7 +2445,7 @@
       "ieUnprefixed": "9"
     },
     "spec": "css-fonts-3",
-    "msdn": "https://msdn.microsoft.com/library/jj127324.aspx",
+    "msdn": "https://developer.mozilla.org/docs/Web/CSS/font-stretch",
     "id": 4598830058176512
   },
   {
@@ -2445,6 +2472,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "es6",
+    "msdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterable_protocol",
     "id": 4696563918045184
   },
   {
@@ -2552,7 +2580,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "webaudio",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/multimedia/web-Audio/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Web_Audio_API",
     "id": 6261718720184320,
     "uservoiceid": 6557946
   },
@@ -2567,6 +2595,7 @@
       "ieUnprefixed": "16299"
     },
     "spec": "css-images-3",
+    "msdn": "https://developer.mozilla.org/docs/Web/CSS/object-fit",
     "id": 5302669702856704,
     "uservoiceid": 6263790
   },
@@ -2581,6 +2610,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "css-conditional-3",
+    "msdn": "https://developer.mozilla.org/docs/Web/CSS/@supports",
     "id": 4993981813358592,
     "uservoiceid": 6517589
   },
@@ -2595,6 +2625,7 @@
       "ieUnprefixed": "10586"
     },
     "spec": "es6",
+    "msdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Generator",
     "id": 4959347197083648,
     "uservoiceid": 6263797
   },
@@ -2647,6 +2678,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "es6",
+    "msdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
     "id": 4811188005240832,
     "uservoiceid": 6263801
   },
@@ -2661,7 +2693,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "touch-events",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/dom/touch-events/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Touch_events",
     "id": 6156165603917824,
     "uservoiceid": 6508302
   },
@@ -2703,7 +2735,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "fileapi",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/html5/file-api/filereader/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/FileReader",
     "id": 5171003185430528
   },
   {
@@ -2730,7 +2762,7 @@
       "ieUnprefixed": "10"
     },
     "spec": "webmessaging",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/realtime-communication/message-channels/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/MessageEvent",
     "id": 6710044586409984
   },
   {
@@ -2765,7 +2797,7 @@
       "ieUnprefixed": "14342"
     },
     "spec": "beacon",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/beacon-API/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Navigator/sendBeacon",
     "id": 5517433905348608,
     "uservoiceid": 6263834
   },
@@ -2780,7 +2812,7 @@
       "ieUnprefixed": "11"
     },
     "spec": "resource-hints",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/prerender-and-prefetch-support/",
+    "msdn": "https://developer.mozilla.org/docs/Web/HTTP/Link_prefetching_FAQ",
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
       "text": "Shipped",
@@ -2803,7 +2835,6 @@
       "ieUnprefixed": "11"
     },
     "spec": "resource-hints",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/prerender-and-prefetch-support/",
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
       "text": "No public signals",
@@ -2826,6 +2857,7 @@
       "iePrefixed": "10"
     },
     "spec": "css-snappoints-1",
+    "msdn": "https://developer.mozilla.org/docs/Web/CSS/CSS_Scroll_Snap_Points",
     "id": 5721832506261504,
     "impl_status_chrome": "No active development",
     "ff_views": {
@@ -2848,7 +2880,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "dom-level-3-xpath",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/dom/xpath/",
+    "msdn": "https://developer.mozilla.org/docs/Web/XPath",
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
       "text": "Shipped",
@@ -2872,7 +2904,7 @@
       "iePrefixed": "11"
     },
     "spec": "screen-orientation",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/device/screen-Orientation-API/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/ScreenOrientation",
     "id": 6191285283061760
   },
   {
@@ -2893,7 +2925,8 @@
     "safari_views": {
       "text": "Shipped",
       "value": 1
-    }
+    },
+    "msdn": "https://developer.mozilla.org/docs/Web/CSS/pointer-events"
   },
   {
     "name": "WebDriver",
@@ -2929,7 +2962,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "svg2",
-    "msdn": "https://msdn.microsoft.com/library/dn806280",
+    "msdn": "https://developer.mozilla.org/docs/Web/SVG/Element/foreignObject",
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
       "text": "Shipped",
@@ -2953,7 +2986,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "mediaqueries-4",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/media-queries/",
+    "msdn": "https://developer.mozilla.org/docs/Web/CSS/Media_Queries",
     "ff_views": {
       "text": "No public signals",
       "value": 5
@@ -2976,7 +3009,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "selection-api",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/html5/selection-API/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Selection_API",
     "ff_views": {
       "text": "Shipped",
       "value": 1
@@ -3016,6 +3049,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "es6",
+    "msdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise",
     "id": 5681726336532480,
     "uservoiceid": 6512244
   },
@@ -3030,6 +3064,7 @@
       "flag": false
     },
     "spec": "es6",
+    "msdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/async_function",
     "id": 5643236399906816,
     "uservoiceid": 8511262
   },
@@ -3043,6 +3078,7 @@
       "ieUnprefixed": "14279"
     },
     "spec": "es6",
+    "msdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/includes",
     "id": 5964420647747584
   },
   {
@@ -3054,7 +3090,8 @@
       "text": "Shipped",
       "ieUnprefixed": "14342"
     },
-    "spec": "es6"
+    "spec": "es6",
+    "msdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Exponentiation_(**)"
   },
   {
     "name": "Shared Memory and Atomics",
@@ -3155,7 +3192,8 @@
     "safari_views": {
       "text": "Shipped",
       "value": 1
-    }
+    },
+    "msdn": "https://developer.mozilla.org/docs/Web/CSS/resolution#Units"
   },
   {
     "name": "WAV Audio Support",
@@ -3190,6 +3228,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "whatwg-dom",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/CustomEvent",
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
     "ff_views": {
@@ -3212,6 +3251,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "es6",
+    "msdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/",
     "id": 5920790725787648
   },
   {
@@ -3225,6 +3265,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "es6",
+    "msdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number",
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
     "ff_views": {
@@ -3247,6 +3288,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "es6",
+    "msdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String",
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
     "ff_views": {
@@ -3274,6 +3316,7 @@
       "text": "No public signals",
       "value": 3
     },
+    "msdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object",
     "id": 5742083411279872
   },
   {
@@ -3310,6 +3353,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "es6",
+    "msdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
     "id": 5977677567623168
   },
   {
@@ -3323,6 +3367,7 @@
       "ieUnprefixed": "11"
     },
     "spec": "es6",
+    "msdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/proto",
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
     "ff_views": {
@@ -3346,6 +3391,7 @@
       "flag": false
     },
     "spec": "es6",
+    "msdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes",
     "id": 4633745457938432,
     "uservoiceid": 6510201
   },
@@ -3364,6 +3410,7 @@
       "text": "No public signals",
       "value": 3
     },
+    "msdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Spread_operator",
     "id": 6031334694715392
   },
   {
@@ -3377,6 +3424,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "es6",
+    "msdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Template_literals",
     "id": 4743002513735680
   },
   {
@@ -3449,6 +3497,7 @@
       "ieUnprefixed": "16299"
     },
     "spec": "es6",
+    "msdn": "https://developer.mozilla.org/docs/Mozilla/JavaScript_code_modules",
     "id": 5365692190687232,
     "uservoiceid": 6510097
   },
@@ -3464,6 +3513,7 @@
       "flag": false
     },
     "id": 5053365658583040,
+    "msdn": "https://developer.mozilla.org/docs/Games/Tools/asm.js",
     "uservoiceid": 6509389
   },
   {
@@ -3519,7 +3569,6 @@
     "summary": "Provides APIs for string comparison and date/time/number formatting in a locale-aware manner.",
     "link": "https://ecma-international.org/ecma-402/1.0/",
     "spec": "es6",
-    "msdn": "https://msdn.microsoft.com/library/dn342821.aspx",
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
@@ -3584,7 +3633,7 @@
       "value": 3
     },
     "spec": "html51",
-    "msdn": "https://msdn.microsoft.com/library/mt668927"
+    "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/input/color"
   },
   {
     "name": "Date-related input types",
@@ -3602,7 +3651,7 @@
     },
     "shipped_opera_milestone": true,
     "spec": "html51",
-    "msdn": "https://msdn.microsoft.com/library/dn949189",
+    "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/input/date",
     "id": 6640933999214592,
     "uservoiceid": 6513996
   },
@@ -3622,7 +3671,7 @@
     },
     "shipped_opera_milestone": true,
     "spec": "html51",
-    "msdn": "https://msdn.microsoft.com/library/mt584201",
+    "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/input/time",
     "id": 6640933999214592,
     "uservoiceid": 6513996
   },
@@ -3647,7 +3696,7 @@
       "value": 1
     },
     "spec": "html51",
-    "msdn": "https://msdn.microsoft.com/library/mt634542",
+    "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/main",
     "uservoiceid": 6514003
   },
   {
@@ -3724,6 +3773,7 @@
       "ieUnprefixed": "14986"
     },
     "spec": "navigatorcores",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/NavigatorConcurrentHardware",
     "id": 6248386202173440
   },
   {
@@ -3832,7 +3882,7 @@
       "value": 3
     },
     "spec": "whatwg-fetch",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/performance/fetch-API/",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Fetch_API",
     "id": 6730533392351232,
     "uservoiceid": 6964411
   },
@@ -3855,7 +3905,8 @@
     "safari_views": {
       "text": "No public signals",
       "value": 3
-    }
+    },
+    "msdn": "https://developer.mozilla.org/Apps/Fundamentals/Audio_and_video_delivery/Live_streaming_web_audio_and_video#HLS"
   },
   {
     "name": "Motion JPEG (MJPG)",
@@ -3897,8 +3948,7 @@
       "text": "Enabled by default",
       "value": 2
     },
-    "spec": "css-image-4",
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/css/gradients/#gradient-midpoints"
+    "spec": "css-image-4"
   },
   {
     "name": "ARIA Landmark Roles",
@@ -4095,6 +4145,7 @@
       "value": 1
     },
     "spec": "css-cascade-3",
+    "msdn": "https://developer.mozilla.org/docs/Web/CSS/initial",
     "uservoiceid": 6587303
   },
   {
@@ -4113,7 +4164,8 @@
       "value": 1
     },
     "shipped_opera_milestone": true,
-    "spec": "css-cascade-3"
+    "spec": "css-cascade-3",
+    "msdn": "https://developer.mozilla.org/docs/Web/CSS/unset"
   },
   {
     "name": "showModalDialog",
@@ -4182,6 +4234,7 @@
       "ieUnprefixed": "14291"
     },
     "id": 6362186595172352,
+    "msdn": "https://developer.mozilla.org/docs/Web/HTML/Supported_media_formats#WebM",
     "uservoiceid": 6508954
   },
   {
@@ -4248,6 +4301,7 @@
       "text": "Shipped",
       "ieUnprefixed": "16299"
     },
+    "msdn": "https://developer.mozilla.org/docs/Web/HTML/Supported_media_formats#FLAC",
     "id": 5744731434778624
   },
   {
@@ -4425,6 +4479,7 @@
       "value": 1
     },
     "shipped_opera_milestone": true,
+    "msdn": "https://developer.mozilla.org/docs/Web/CSS/length#Viewport-percentage_lengths",
     "uservoiceid": 6514497
   },
   {
@@ -4560,7 +4615,7 @@
     },
     "shipped_opera_milestone": false,
     "spec": "html51",
-    "msdn": "https://msdn.microsoft.com/library/mt706248",
+    "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/time",
     "uservoiceid": 6514206
   },
   {
@@ -4572,7 +4627,8 @@
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "14316"
-    }
+    },
+    "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/data"
   },
   {
     "name": "<output> Element",
@@ -4595,7 +4651,7 @@
     },
     "shipped_opera_milestone": true,
     "spec": "html51",
-    "msdn": "https://msdn.microsoft.com/library/mt732268",
+    "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/output",
     "uservoiceid": 6514436
   },
   {
@@ -4715,6 +4771,7 @@
       "text": "Shipped",
       "value": 1
     },
+    "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/form",
     "uservoiceid": 7327649
   },
   {
@@ -4728,7 +4785,7 @@
       "ieUnprefixed": "10240"
     },
     "spec": "es6",
-    "msdn": "https://msdn.microsoft.com/library/mt146826.aspx",
+    "msdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
     "id": 6060641169178624
   },
   {
@@ -4754,6 +4811,7 @@
       "ieUnprefixed": "15002"
     },
     "spec": "paymentrequest",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/PaymentRequest",
     "id": 5639348045217792
   },
   {
@@ -4766,6 +4824,7 @@
       "ieUnprefixed": "16241"
     },
     "id": 5453022515691520,
+    "msdn": "https://developer.mozilla.org/docs/WebAssembly",
     "uservoiceid": 11423808
   },
   {
@@ -4792,6 +4851,7 @@
       "ieUnprefixed": "16299"
     },
     "spec": "service-workers",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/Cache",
     "id": 6461631328419840
   },
   {
@@ -4827,7 +4887,7 @@
       "text": "No public signals",
       "value": 3
     },
-    "msdn": "https://developer.microsoft.com/microsoft-edge/platform/documentation/dev-guide/networking-and-connectivity/HTTP2/"
+    "msdn": "https://developer.mozilla.org/docs/Web/HTTP"
   },
   {
     "name": "Encoding Standard",
@@ -4839,6 +4899,7 @@
       "text": "In Development"
     },
     "spec": "whatwg-encoding",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/TextEncoder",
     "id": 5714368087982080
   },
   {
@@ -4862,6 +4923,7 @@
       "text": "In Development"
     },
     "spec": "bgsync",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/SyncManager",
     "id": 6170807885627392
   },
   {
@@ -4875,6 +4937,7 @@
       "ieUnprefixed": "16299"
     },
     "spec": "dom",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/EventTarget/addEventListener#Parameters",
     "id": 5630331130478592,
     "uservoiceid": 17702248
   },
@@ -4888,6 +4951,7 @@
       "text": "In Development"
     },
     "spec": "dom",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/ChildNode",
     "id": 5723067795898368,
     "uservoiceid": 16036408
   },
@@ -4900,6 +4964,7 @@
     "ieStatus": {
       "text": "Under Consideration"
     },
+    "msdn": "https://developer.mozilla.org/docs/Web/API/MediaSession",
     "id": 5639924124483584
   },
   {
@@ -4913,6 +4978,7 @@
       "ieUnprefixed": "16215"
     },
     "spec": "passivelisteners",
+    "msdn": "https://developer.mozilla.org/docs/Web/API/EventTarget/addEventListener#Parameters",
     "id": 5745543795965952
   },
   {
@@ -4933,6 +4999,7 @@
       "text": "Preview Release",
       "value": 1
     },
+    "msdn": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Cache-Control",
     "uservoiceid": 257854
   },
   {
