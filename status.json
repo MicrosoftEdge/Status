@@ -79,7 +79,8 @@
       "text": "Enabled by default",
       "value": 2
     },
-    "shipped_opera_milestone": true
+    "shipped_opera_milestone": true,
+    "msdn": "https://developer.mozilla.org/docs/Web/CSS/-webkit-text-stroke"
   },
   {
     "name": "WebVR",
