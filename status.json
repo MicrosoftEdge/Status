@@ -5011,5 +5011,22 @@
     "ieStatus": {
       "text": "Under Consideration"
     }
+  },
+  {
+    "name": "X-Content-Type-Options: nosniff header",
+    "category": "Security",
+    "link": "https://fetch.spec.whatwg.org/#should-response-to-request-be-blocked-due-to-nosniff?",
+    "summary": "A header that servers can supply to ensure that any resource it sends has to be exexcuted using the reported Content-Type, and the browser should not attempt to guess or change the file type.",
+    "standardStatus": "Working draft or equivalent",
+    "ff_views": {
+      "text": "Shipped",
+    },
+    "safari_views": {
+      "text": "Shipped",
+    },
+    "ieStatus": {
+      "text": "Under Consideration"
+    },
+    "impl_status_chrome": "In Development"
   }
 ]
