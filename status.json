@@ -117,7 +117,7 @@
     "summary": "Enable support for CSS transforms on elements and presentational attributes of SVG",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "In Development"
     },
     "safari_views": {
       "text": "Shipped",
