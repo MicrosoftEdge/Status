@@ -32,6 +32,18 @@
     "uservoiceid": 19176292
   },
   {
+    "name": "font-variant longhands",
+    "category": "CSS",
+    "link": "https://drafts.csswg.org/css-fonts/#font-variant-caps-prop",
+    "summary": "Allows authors to utilize longhand properties of font-variant-caps, font-variant-ligatures, font-variant-numeric, font-variant-alternates, font-variant-east-asian, font-variant-position for font selection and adjustments rather than utilizing lower level props such as font-feature-settings.",
+    "standardStatus": "Editor's draft",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Medium"
+    },
+    "id": 5678497057996800
+  },
+  {
     "name": "SVG Accessibility API Mappings",
     "category": "Misc",
     "link": "https://www.w3.org/TR/svg-aam-1.0/",
