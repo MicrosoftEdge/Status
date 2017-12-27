@@ -961,9 +961,9 @@
   {
     "name": "CSS Will Change",
     "category": "CSS",
-    "link": "https://dev.w3.org/csswg/css-will-change/",
+    "link": "https://www.w3.org/TR/css-will-change/",
     "summary": "Adds a will-change CSS property, that can be used to signal that a particular property is likely to be changed in the future, or that an element's content is likely to change.",
-    "standardStatus": "Working draft or equivalent",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration",
       "priority": "Low"
