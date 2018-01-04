@@ -4,6 +4,6 @@
   },
   "private": true,
   "scripts": {
-    "test": "node scripts/validate-status-json.js"
+    "test": "node tests/validate-status-json.js"
   }
 }
