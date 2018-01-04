@@ -4959,7 +4959,8 @@
     "summary": "Convenience methods for working with DOM Node trees",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "17035"
     },
     "spec": "dom",
     "msdn": "https://developer.mozilla.org/docs/Web/API/ChildNode",
