@@ -1985,7 +1985,8 @@
     "summary": "Allows developers to manipulate the search params of a URL.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "17063"
     },
     "spec": "whatwg-url",
     "id": 5632984866619392,
