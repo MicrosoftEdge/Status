@@ -2598,7 +2598,7 @@
     "uservoiceid": 6557946
   },
   {
-    "name": "object-fit and object-position",
+    "name": "object-fit and object-position (images)",
     "category": "CSS",
     "link": "https://dev.w3.org/csswg/css-images-3/#the-object-fit",
     "summary": "CSS properties that control the position and size of replaced content within the content box",
@@ -2611,6 +2611,20 @@
     "msdn": "https://developer.mozilla.org/docs/Web/CSS/object-fit",
     "id": 5302669702856704,
     "uservoiceid": 6263790
+  },
+  {
+    "name": "object-fit and object-position (video/canvas/etc)",
+    "category": "CSS",
+    "link": "https://dev.w3.org/csswg/css-images-3/#the-object-fit",
+    "summary": "CSS properties that control the position and size of replaced content within the content box",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Medium"
+    },
+    "spec": "css-images-3",
+    "msdn": "https://developer.mozilla.org/docs/Web/CSS/object-fit",
+    "uservoiceid": 32011258
   },
   {
     "name": "Conditional Rules",
