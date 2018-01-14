@@ -18,7 +18,8 @@
     "summary": "Allows multiple instances of fonts to be defined by interpolating glyph outlines along different axis.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "17074"
     },
     "safari_views": {
       "text": "Shipped",
@@ -1799,7 +1800,8 @@
     "summary": "ServiceWorkers (formerly Navigation Controllers) are a new system that provides event-driven scripts that run independent of web pages. They are similar to SharedWorkers except that their lifetime is different and they have access to domain-wide events such as network fetches.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "17063"
     },
     "spec": "service-workers",
     "id": 6561526227927040,
@@ -2412,7 +2414,8 @@
     "summary": "Provides webapps with scripted access to server-sent notifications.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "17063"
     },
     "spec": "push-api",
     "id": 5416033485586432,
@@ -2426,8 +2429,7 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Preview Release",
-      "iePrefixed": "16257",
-      "flag": true
+      "ieUnprefixed": "17063"
     },
     "spec": "sri",
     "id": 6183089948590080,
@@ -4228,7 +4230,8 @@
     "summary": "Applies a CSS filter effect to the content behind an element. This is not the element's background but the content that would be drawn behind it.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text":"In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "17063"
     },
     "impl_status_chrome": "In Development",
     "ff_views": {
@@ -4294,7 +4297,8 @@
     "summary": "An open codec for audio.",
     "standardStatus": "De-facto standard",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "17063"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
@@ -4315,7 +4319,8 @@
     "summary": "An open video codec.",
     "standardStatus": "De-facto standard",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "17063"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
