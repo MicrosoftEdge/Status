@@ -288,7 +288,7 @@
     "summary": "A keyword that may be used with \"link\" elements which provides a declarative fetch primitive that initiates an early fetch and separates fetching from resoruce execution.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "priority": "Medium"
     },
     "id": 5757468554559488,
