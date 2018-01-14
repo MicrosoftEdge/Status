@@ -2624,7 +2624,17 @@
     },
     "spec": "css-images-3",
     "msdn": "https://developer.mozilla.org/docs/Web/CSS/object-fit",
-    "uservoiceid": 32011258
+    "uservoiceid": 32011258,
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "shipped_opera_milestone": true,
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    }
   },
   {
     "name": "Conditional Rules",
