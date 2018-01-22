@@ -447,10 +447,11 @@
     "name": "<details>/<summary>",
     "category": "Misc",
     "link": "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-details-element",
-    "summary": "Interactive widget to show/hide content.",
+    "summary": "Interactive widget to show/hide content. NOTE: A first implementation landed in some Preview builds of Edge, but we had to pull it off due to quality issues.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Under Consideration",
+      "priority": "High"
     },
     "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/details",
