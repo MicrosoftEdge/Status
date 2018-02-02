@@ -899,8 +899,7 @@
     "summary": "Allows a server to instruct the user agent to upgrade insecure requests via a Content-Security-Policy header. This directive is meant to make it even easier for a site administrator to move towards using all secure transports, while avoiding having to make massive updates to URLs in their web applications.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "Medium"
+      "text": "In Development"
     }
   },
   {
