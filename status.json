@@ -130,7 +130,8 @@
     "summary": "Enable support for CSS transforms on elements and presentational attributes of SVG",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "17074"
     },
     "safari_views": {
       "text": "Shipped",
