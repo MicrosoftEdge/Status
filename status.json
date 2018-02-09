@@ -18,7 +18,8 @@
     "summary": "Allows multiple instances of fonts to be defined by interpolating glyph outlines along different axis.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "17074"
     },
     "safari_views": {
       "text": "Shipped",
@@ -76,9 +77,9 @@
   {
     "name": "-webkit-text-stroke",
     "category": "CSS",
-    "link": "https://developer.mozilla.org/docs/Web/CSS/-webkit-text-stroke",
+    "link": "https://compat.spec.whatwg.org/#the-webkit-text-stroke",
     "summary": "The -webkit-text-stroke property sets the stroke width and color of an element’s text.",
-    "standardStatus": "De-facto standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "In Development"
     },
@@ -288,7 +289,7 @@
     "summary": "A keyword that may be used with \"link\" elements which provides a declarative fetch primitive that initiates an early fetch and separates fetching from resoruce execution.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "In Development",
       "priority": "Medium"
     },
     "id": 5757468554559488,
@@ -384,14 +385,14 @@
   {
     "name": "<datalist> Element",
     "category": "User input",
-    "link": "https://w3c.github.io/html/sec-forms.html#the-datalist-element",
+    "link": "https://html.spec.whatwg.org/multipage/form-elements.html#the-datalist-element",
     "summary": "Shows a list of pre-defined options to suggest to the user when entering an input element.",
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10"
     },
-    "spec": "html51",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/datalist",
     "id": 6090950820495360
   },
@@ -445,13 +446,14 @@
   {
     "name": "<details>/<summary>",
     "category": "Misc",
-    "link": "https://w3c.github.io/html/interactive-elements.html#the-details-element",
-    "summary": "Interactive widget to show/hide content.",
+    "link": "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-details-element",
+    "summary": "Interactive widget to show/hide content. NOTE: A first implementation landed in some Preview builds of Edge, but we had to pull it off due to quality issues.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Under Consideration",
+      "priority": "High"
     },
-    "spec": "html51",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/details",
     "id": 5348024557502464,
     "uservoiceid": 6261266
@@ -485,9 +487,9 @@
   {
     "name": "<img srcset>",
     "category": "Graphics",
-    "link": "https://w3c.github.io/html/semantics-embedded-content.html#element-attrdef-img-srcset",
+    "link": "https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-srcset",
     "summary": "Enable a responsive images solution by providing the browser multiple resources in varying resolutions for a single image.",
-    "standardStatus": "Working draft or equivalent",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10240"
@@ -496,7 +498,7 @@
       "text": "Shipped",
       "value": 1
     },
-    "spec": "html51",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/img#attr-srcset",
     "id": 4644337115725824,
     "uservoiceid": 6261267
@@ -506,7 +508,7 @@
     "category": "Graphics",
     "link": "https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-srcset",
     "summary": "Extends the current implementation of the srcset attribute by adding support for the width descriptor and the sizes attribute.",
-    "standardStatus": "Working draft or equivalent",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10547"
@@ -521,7 +523,7 @@
       "value": 1
     },
     "shipped_opera_milestone": true,
-    "spec": "html51",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/img#attr-sizes",
     "id": 4644337115725824,
     "uservoiceid": 8204535
@@ -529,14 +531,14 @@
   {
     "name": "<picture> Element",
     "category": "Graphics",
-    "link": "https://w3c.github.io/html/semantics-embedded-content.html#the-picture-element",
+    "link": "https://html.spec.whatwg.org/multipage/embedded-content.html#the-picture-element",
     "summary": "Enable a responsive images solution by declaring multiple resources for an image using CSS media queries.",
-    "standardStatus": "Working draft or equivalent",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10547"
     },
-    "spec": "html51",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/picture",
     "id": 5910974510923776,
     "uservoiceid": 6261271
@@ -544,14 +546,14 @@
   {
     "name": "<template> Element",
     "category": "Web Components",
-    "link": "https://w3c.github.io/html/semantics-scripting.html#the-template-element",
+    "link": "https://html.spec.whatwg.org/multipage/scripting.html#the-template-element",
     "summary": "HTML template element to allow creating fragment of inert HTML as a prototype for stamping out DOM (often used in Web Components).",
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10547"
     },
-    "spec": "html51",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/template",
     "id": 5207287069147136,
     "uservoiceid": 6261273
@@ -559,7 +561,7 @@
   {
     "name": "<meter> Element",
     "category": "Misc",
-    "link": "https://w3c.github.io/html/sec-forms.html#the-meter-element",
+    "link": "https://html.spec.whatwg.org/multipage/form-elements.html#the-meter-element",
     "summary": "The HTML meter element allows representation of a scalar measurement of a known range, or fractional value, i.e. a gauge. Distinct from the progress element.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -576,14 +578,14 @@
       "text": "Shipped",
       "value": 1
     },
-    "spec": "html51",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/meter",
     "uservoiceid": 6514198
   },
   {
     "name": "selectionDirection attribute on text input elements",
     "category": "User input",
-    "link": "https://w3c.github.io/html/sec-forms.html#dom-selectionapielements-selectiondirection",
+    "link": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-textarea/input-selectiondirection",
     "summary": "Returns the string corresponding to the current selection direction on text input elements: \"forward\", \"backward\", or \"none\".",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -600,14 +602,14 @@
       "text": "Shipped",
       "value": 1
     },
-    "spec": "html51",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement",
     "uservoiceid": 8679412
   },
   {
     "name": "oninvalid event handler",
     "category": "User input",
-    "link": "https://www.w3.org/TR/html5/webappapis.html#events",
+    "link": "https://html.spec.whatwg.org/multipage/indices.html#event-invalid",
     "summary": "Provides specified alert text if an input element is invalid.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -624,13 +626,13 @@
       "text": "Shipped",
       "value": 1
     },
-    "spec": "html51",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/Events/invalid"
   },
   {
     "name": "Canvas 2D ellipse",
     "category": "Graphics",
-    "link": "https://www.w3.org/TR/2dcontext/#dom-context-2d-ellipse",
+    "link": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-ellipse",
     "summary": "Provides a method to draw arcs on a 2D canvas drawing surface.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -647,13 +649,13 @@
       "text": "Preview Release",
       "value": 1
     },
-    "spec": "2dcontext",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/ellipse"
   },
   {
-    "name": "Canvas 2D path2D",
+    "name": "Canvas 2D Path2D",
     "category": "Graphics",
-    "link": "https://www.w3.org/TR/2dcontext2/#path2d-objects",
+    "link": "https://html.spec.whatwg.org/multipage/canvas.html#path2d-objects",
     "summary": "Path2D objects can be used to declare paths that are then later used on CanvasRenderingContext2D objects.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -670,14 +672,14 @@
       "text": "Shipped",
       "value": 1
     },
-    "spec": "2dcontext2",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/API/Path2D",
     "uservoiceid": 6710770
   },
   {
     "name": "CSS Range Pseudo-classes",
     "category": "CSS",
-    "link": "https://www.w3.org/TR/html5/disabled-elements.html#selector-in-range",
+    "link": "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-in-range",
     "summary": ":in-range and :out-of-range pseudo-classes to match elements that are candidates for constraint validation, have range limitations, and are/are not suffering from underflow or overflow.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -694,13 +696,13 @@
       "text": "Shipped",
       "value": 1
     },
-    "spec": "html51",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/CSS/:in-range"
   },
   {
     "name": "CSS Mutability Pseudo-classes",
     "category": "CSS",
-    "link": "https://www.w3.org/TR/html5/disabled-elements.html#selector-read-write",
+    "link": "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-read-only",
     "summary": ":read-only and :read-write pseudo-classes to match elements which are considered user-alterable for the purposes of Selectors.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -717,20 +719,20 @@
       "text": "Shipped",
       "value": 1
     },
-    "spec": "html51",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/CSS/:read-only"
   },
   {
     "name": "a[download] attribute",
     "category": "File APIs",
-    "link": "https://w3c.github.io/html/links.html#links-created-by-a-and-area-elements",
+    "link": "https://html.spec.whatwg.org/multipage/links.html#downloading-resources",
     "summary": "When used on an <a>, this attribute signifies that the resource it points to should be downloaded by the browser rather than navigating to it.",
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10547"
     },
-    "spec": "html51",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/a#attr-download",
     "id": 6473924464345088,
     "uservoiceid": 6261278
@@ -738,41 +740,41 @@
   {
     "name": "Application Cache",
     "category": "Network / Connectivity",
-    "link": "https://w3c.github.io/html/browsers.html#offline-web-applications",
+    "link": "https://html.spec.whatwg.org/multipage/offline.html#offline",
     "summary": "Enables web pages to work without the user being connected to the internet",
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10"
     },
-    "spec": "html51",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/API/Window/applicationCache",
     "id": 6192449487634432
   },
   {
     "name": "Audio tracks",
     "category": "Multimedia",
-    "link": "https://w3c.github.io/html/semantics-embedded-content.html#media-resources-with-multiple-media-tracks",
+    "link": "https://html.spec.whatwg.org/multipage/media.html#media-resources-with-multiple-media-tracks",
     "summary": "Adds the ability to get information about multiple audio tracks, and switch between them using the AudioTrack.enabled attributes.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10"
     },
-    "spec": "html51",
+    "spec": "html",
     "id": 5748496434987008
   },
   {
     "name": "Video tracks",
     "category": "Multimedia",
-    "link": "https://w3c.github.io/html/semantics-embedded-content.html#media-resources-with-multiple-media-tracks",
+    "link": "https://html.spec.whatwg.org/multipage/media.html#media-resources-with-multiple-media-tracks",
     "summary": "Adds the ability to get information about multiple video tracks, and switch between them using the VideoTrack.selected attributes.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10240"
     },
-    "spec": "html51",
+    "spec": "html",
     "id": 5748496434987008,
     "uservoiceid": 6261284
   },
@@ -807,28 +809,28 @@
   {
     "name": "Canvas",
     "category": "Graphics",
-    "link": "https://www.w3.org/TR/2dcontext/",
+    "link": "https://html.spec.whatwg.org/multipage/canvas.html#the-canvas-element",
     "summary": "Provides an API to draw 2D graphics",
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "9"
     },
-    "spec": "2dcontext",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/canvas",
     "id": 5100084685438976
   },
   {
     "name": "Canvas focus ring",
     "category": "Graphics",
-    "link": "https://www.w3.org/TR/2dcontext/",
+    "link": "https://html.spec.whatwg.org/multipage/canvas.html#drawing-focus-rings-and-scrolling-paths-into-view",
     "summary": "Adds APIs to the canvas 2D context that make it possible to draw a focus ring around a canvas path and notify the operating system of the bounding box of the focused object for accessibility.",
-    "standardStatus": "Editor's draft",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "14393"
     },
-    "spec": "2dcontext",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/drawFocusIfNeeded",
     "id": 6413769152397312,
     "uservoiceid": 6261287
@@ -836,14 +838,14 @@
   {
     "name": "Compositing and Blending in Canvas 2D",
     "category": "Graphics",
-    "link": "https://dev.w3.org/fxtf/compositing-1/#canvascompositingandblending",
+    "link": "https://html.spec.whatwg.org/multipage/canvas.html#compositing",
     "summary": "The canvas 2d context has the globalCompositeOperation attribute that is used to set the current compositing and blending operator.",
-    "standardStatus": "Working draft or equivalent",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10532"
     },
-    "spec": "compositing-1",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation",
     "id": 6119881720201216,
     "uservoiceid": 6261290
@@ -897,8 +899,7 @@
     "summary": "Allows a server to instruct the user agent to upgrade insecure requests via a Content-Security-Policy header. This directive is meant to make it even easier for a site administrator to move towards using all secure transports, while avoiding having to make massive updates to URLs in their web applications.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "Medium"
+      "text": "In Development"
     }
   },
   {
@@ -961,9 +962,9 @@
   {
     "name": "CSS Will Change",
     "category": "CSS",
-    "link": "https://dev.w3.org/csswg/css-will-change/",
+    "link": "https://www.w3.org/TR/css-will-change/",
     "summary": "Adds a will-change CSS property, that can be used to signal that a particular property is likely to be changed in the future, or that an element's content is likely to change.",
-    "standardStatus": "Working draft or equivalent",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration",
       "priority": "Low"
@@ -988,14 +989,14 @@
   {
     "name": "Custom Elements",
     "category": "Web Components",
-    "link": "https://www.w3.org/TR/custom-elements/",
+    "link": "https://html.spec.whatwg.org/multipage/custom-elements.html#custom-elements",
     "summary": "Method for registering (creating) custom elements in script (often used in Web Components).",
-    "standardStatus": "Working draft or equivalent",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration",
       "priority": "Medium"
     },
-    "spec": "custom-elements",
+    "spec": "html",
     "id": 4696261944934400,
     "uservoiceid": 6261298
   },
@@ -1157,9 +1158,9 @@
   {
     "name": "Fullscreen API",
     "category": "Misc",
-    "link": "https://dvcs.w3.org/hg/fullscreen/raw-file/tip/Overview.html",
+    "link": "https://fullscreen.spec.whatwg.org/",
     "summary": "Programmatically instruct content on the page to be presented in the browser's full screen (kiosk) mode. Starting in 14.14393, this is prefixed in Edge due to compatibility issues. We are working with other browser vendors to coordinate switching to an unprefixed implementation in the future.",
-    "standardStatus": "Working draft or equivalent",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "iePrefixed": "11"
@@ -1342,14 +1343,14 @@
   {
     "name": "iframe[sandbox] attribute",
     "category": "Misc",
-    "link": "https://w3c.github.io/html/semantics-embedded-content.html#element-attrdef-iframe-sandbox",
+    "link": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-sandbox",
     "summary": "Method of running external site pages with reduced privileges (i.e. no JavaScript) in iframes (<iframe sandbox=\"allow-same-origin allow-forms\" src=\"...\"></iframe>)",
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10"
     },
-    "spec": "html51",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/iframe#attr-sandbox",
     "id": 5715536319086592
   },
@@ -1370,14 +1371,14 @@
   {
     "name": "iframe[srcdoc] attribute",
     "category": "Misc",
-    "link": "https://www.w3.org/TR/html5/embedded-content-0.html#attr-iframe-srcdoc",
+    "link": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-srcdoc",
     "summary": "Gives the content of an iframe as a src context to embed (e.g. <iframe seamless srcdoc=\"<b>Hello World</b>\"></iframe>).",
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration",
       "priority": "Low"
     },
-    "spec": "html51",
+    "spec": "html",
     "id": 5222955109842944,
     "uservoiceid": 6261334
   },
@@ -1545,12 +1546,13 @@
   {
     "name": "Microdata",
     "category": "Misc",
-    "link": "https://www.w3.org/TR/microdata/",
+    "link": "https://html.spec.whatwg.org/multipage/microdata.html#microdata",
     "summary": "Microdata is used to nest semantics within existing content on web pages.",
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Not currently planned"
     },
+    "spec": "html",
     "id": 6428569609699328,
     "uservoiceid": 6508451
   },
@@ -1638,7 +1640,7 @@
   {
     "name": "Mutation Observers",
     "category": "DOM",
-    "link": "https://dvcs.w3.org/hg/domcore/raw-file/tip/Overview.html#mutation-observers",
+    "link": "https://dom.spec.whatwg.org/#mutation-observers",
     "summary": "Provides notifications when DOM nodes are rearranged or modified.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -1725,14 +1727,14 @@
   {
     "name": "postMessage",
     "category": "Realtime / Communication",
-    "link": "https://www.w3.org/TR/webmessaging/",
+    "link": "https://html.spec.whatwg.org/multipage/web-messaging.html#web-messaging",
     "summary": "Safely enables cross-origin communication.",
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "8"
     },
-    "spec": "webmessaging",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/API/Window/postMessage",
     "id": 4786174115708928
   },
@@ -1766,14 +1768,14 @@
   {
     "name": "requestAnimationFrame()",
     "category": "Graphics",
-    "link": "https://dvcs.w3.org/hg/webperf/raw-file/default/specs/RequestAnimationFrame/Overview.html",
+    "link": "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#animation-frames",
     "summary": "Offload animation repainting to browser for optimized performance. You should call this method whenever you're ready to update your animation onscreen. This will request that your animation function be called before the browser performs the next repaint.",
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10"
     },
-    "spec": "html51",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/API/window/requestAnimationFrame",
     "id": 5233400470306816
   },
@@ -1798,7 +1800,8 @@
     "summary": "ServiceWorkers (formerly Navigation Controllers) are a new system that provides event-driven scripts that run independent of web pages. They are similar to SharedWorkers except that their lifetime is different and they have access to domain-wide events such as network fetches.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "17063"
     },
     "spec": "service-workers",
     "id": 6561526227927040,
@@ -1819,10 +1822,10 @@
     "id": 4916191365693440
   },
   {
-    "name": "Streams API",
+    "name": "Streams API: ReadableStream",
     "category": "File APIs",
-    "link": "https://streams.spec.whatwg.org/",
-    "summary": "An API for representing binary data in web applications as a Stream object.",
+    "link": "https://streams.spec.whatwg.org/#rs",
+    "summary": "A readable stream represents a source of data, from which you can read.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
@@ -1834,7 +1837,7 @@
   {
     "name": "Streams API: WritableStream",
     "category": "File APIs",
-    "link": "https://streams.spec.whatwg.org/",
+    "link": "https://streams.spec.whatwg.org/#ws",
     "summary": "A writable stream represents a destination for data, into which you can write.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -1909,14 +1912,14 @@
   {
     "name": "Track element",
     "category": "Multimedia",
-    "link": "https://www.w3.org/TR/html5/embedded-content-0.html#the-track-element",
+    "link": "https://html.spec.whatwg.org/multipage/media.html#the-track-element",
     "summary": "Add subtitles, captions, screen reader descriptions, chapters and other types of timed metadata to video and audio. ",
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10"
     },
-    "spec": "html51",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/track",
     "id": 6719115557339136
   },
@@ -1966,9 +1969,9 @@
   {
     "name": "URL API",
     "category": "DOM",
-    "link": "https://url.spec.whatwg.org/",
+    "link": "https://url.spec.whatwg.org/#url-class",
     "summary": "Expose constructible URL objects that can be manipulated and combined.",
-    "standardStatus": "Editor's draft",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10240"
@@ -1981,11 +1984,12 @@
   {
     "name": "URLSearchParams",
     "category": "DOM",
-    "link": "https://url.spec.whatwg.org/",
+    "link": "https://url.spec.whatwg.org/#interface-urlsearchparams",
     "summary": "Allows developers to manipulate the search params of a URL.",
-    "standardStatus": "Editor's draft",
+    "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "17063"
     },
     "spec": "whatwg-url",
     "id": 5632984866619392,
@@ -2076,14 +2080,14 @@
   {
     "name": "Web Notifications",
     "category": "Misc",
-    "link": "https://www.w3.org/TR/notifications/",
+    "link": "https://notifications.spec.whatwg.org/",
     "summary": "An API for displaying simple notifications to the user.",
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "14342"
     },
-    "spec": "notifications",
+    "spec": "whatwg-notifications",
     "msdn": "https://developer.mozilla.org/docs/Web/API/Notifications_API",
     "id": 5064350557536256,
     "uservoiceid": 6263658
@@ -2132,14 +2136,14 @@
   {
     "name": "Web Storage",
     "category": "Offline / Storage",
-    "link": "https://www.w3.org/TR/webstorage/",
+    "link": "https://html.spec.whatwg.org/multipage/webstorage.html#webstorage",
     "summary": "Refers to both localStorage and sessionStorage",
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "8"
     },
-    "spec": "webstorage",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/API/Web_Storage_API",
     "id": 5345825534246912
   },
@@ -2239,21 +2243,21 @@
     "category": "Network / Connectivity",
     "link": "https://html.spec.whatwg.org/multipage/comms.html#network",
     "summary": "The WebSockets JavaScript API provides a simple API for bi-directional communication with web servers. The WebSocket network protocol enables low overhead bi-directional communication with web servers over a persistent TCP connection.",
-    "standardStatus": "Working draft or equivalent",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10"
     },
-    "spec": "html51",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/API/WebSocket",
     "id": 6555138000945152
   },
   {
     "name": "XMLHttpRequest timeout",
     "category": "Network / Connectivity",
-    "link": "https://dvcs.w3.org/hg/xhr/raw-file/tip/Overview.html",
+    "link": "https://xhr.spec.whatwg.org/#the-timeout-attribute",
     "summary": "Exposing the XHR timeout property and sending corresponding events such as ontimeout.",
-    "standardStatus": "Working draft or equivalent",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10"
@@ -2267,7 +2271,7 @@
     "category": "Network / Connectivity",
     "link": "https://xhr.spec.whatwg.org/#the-responseurl-attribute",
     "summary": "Returns the serialized URL of the response (with the exclude fragment flag set) or returns the empty string if the URL is null.",
-    "standardStatus": "Working draft or equivalent",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "14362"
@@ -2410,7 +2414,8 @@
     "summary": "Provides webapps with scripted access to server-sent notifications.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "17063"
     },
     "spec": "push-api",
     "id": 5416033485586432,
@@ -2424,8 +2429,7 @@
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Preview Release",
-      "iePrefixed": "16257",
-      "flag": true
+      "ieUnprefixed": "17063"
     },
     "spec": "sri",
     "id": 6183089948590080,
@@ -2462,13 +2466,13 @@
   {
     "name": "Canvas2D text decoration",
     "category": "Graphics",
-    "link": "https://www.w3.org/TR/2dcontext/#textmetrics",
+    "link": "https://html.spec.whatwg.org/multipage/canvas.html#text-styles",
     "summary": "Add a textDecoration attribute to canvas 2D contexts, behavior similar to existing \"font\" attribute: It's a DOMString, parsed the same way as corresponding CSS property (text-decoration).",
-    "standardStatus": "Editor's draft",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration"
     },
-    "spec": "2dcontext",
+    "spec": "html",
     "id": 5663034638860288,
     "uservoiceid": 6263706
   },
@@ -2542,14 +2546,14 @@
   {
     "name": "inputmode",
     "category": "User input",
-    "link": "https://w3c.github.io/html/sec-forms.html#input-modalities-the-inputmode-attribute",
+    "link": "https://html.spec.whatwg.org/multipage/interaction.html#input-modalities:-the-inputmode-attribute",
     "summary": "The inputmode content attribute is an enumerated attribute that specifies what kind of input mechanism would be most helpful for users entering content into the form control.",
-    "standardStatus": "Editor's draft",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration",
       "priority": "Low"
     },
-    "spec": "html51",
+    "spec": "html",
     "id": 6225984592281600,
     "uservoiceid": 6263729
   },
@@ -2569,14 +2573,14 @@
   {
     "name": "Shadow DOM",
     "category": "Web Components",
-    "link": "https://w3c.github.io/webcomponents/spec/shadow/",
+    "link": "https://dom.spec.whatwg.org/#shadow-trees",
     "summary": "Enables DOM tree encapsulation. Without it, widgets may inadvertently break pages by using conflicting CSS selectors, class or id names, or JavaScript variables (often used in Web Components).",
-    "standardStatus": "Working draft or equivalent",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration",
       "priority": "High"
     },
-    "spec": "shadow-dom",
+    "spec": "dom",
     "id": 4667415417847808,
     "uservoiceid": 6263785
   },
@@ -2596,7 +2600,7 @@
     "uservoiceid": 6557946
   },
   {
-    "name": "object-fit and object-position",
+    "name": "object-fit and object-position (images)",
     "category": "CSS",
     "link": "https://dev.w3.org/csswg/css-images-3/#the-object-fit",
     "summary": "CSS properties that control the position and size of replaced content within the content box",
@@ -2609,6 +2613,30 @@
     "msdn": "https://developer.mozilla.org/docs/Web/CSS/object-fit",
     "id": 5302669702856704,
     "uservoiceid": 6263790
+  },
+  {
+    "name": "object-fit and object-position (video/canvas/etc)",
+    "category": "CSS",
+    "link": "https://dev.w3.org/csswg/css-images-3/#the-object-fit",
+    "summary": "CSS properties that control the position and size of replaced content within the content box",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Medium"
+    },
+    "spec": "css-images-3",
+    "msdn": "https://developer.mozilla.org/docs/Web/CSS/object-fit",
+    "uservoiceid": 32011258,
+    "impl_status_chrome": "Enabled by default",
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "shipped_opera_milestone": true,
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    }
   },
   {
     "name": "Conditional Rules",
@@ -2711,14 +2739,14 @@
   {
     "name": "onerror Exception Parameter (5th Parameter)",
     "category": "DOM",
-    "link": "https://www.w3.org/html/wg/drafts/html/master/webappapis.html#runtime-script-errors",
+    "link": "https://html.spec.whatwg.org/multipage/webappapis.html#runtime-script-errors",
     "summary": "Unhandled exceptions trigger the 'window.onerror' callback (or 'self.onerror' inside Workers) for centralized handling. The 5th parameter will have the exception itself.",
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration",
       "priority": "Low"
     },
-    "spec": "html51",
+    "spec": "html",
     "id": 6416612420747264,
     "uservoiceid": 6263806
   },
@@ -2752,27 +2780,27 @@
   {
     "name": "Server-Sent Events (EventSource)",
     "category": "DOM",
-    "link": "https://www.w3.org/TR/eventsource/",
+    "link": "https://html.spec.whatwg.org/multipage/server-sent-events.html#server-sent-events",
     "summary": "Enables push notifications from the server received as DOM events.",
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration"
     },
-    "spec": "eventsource",
+    "spec": "html",
     "id": 5311740673785856,
     "uservoiceid": 6263825
   },
   {
     "name": "Message Channels",
     "category": "Realtime / Communication",
-    "link": "https://www.w3.org/TR/webmessaging/",
+    "link": "https://html.spec.whatwg.org/multipage/web-messaging.html#channel-messaging",
     "summary": "A messaging system that allows documents to communicate with each other regardless of their source domain, in a way designed to avoid cross-site scripting attacks.",
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10"
     },
-    "spec": "webmessaging",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/API/MessageEvent",
     "id": 6710044586409984
   },
@@ -3177,8 +3205,8 @@
     "name": "Meta Referrer",
     "category": "Security",
     "summary": "Using the referrer metadata attribute, a document can control the behavior of the Referer HTTP header attached to requests that originate from the document.",
-    "link": "https://w3c.github.io/webappsec/specs/referrer-policy/",
-    "standardStatus": "Editor's draft",
+    "link": "https://html.spec.whatwg.org/multipage/semantics.html#meta-referrer",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "In Development"
     },
@@ -3210,13 +3238,13 @@
     "name": "WAV Audio Support",
     "category": "Multimedia",
     "summary": "Enables PCM WAV audio support in HTML5 Audio.",
-    "link": "https://w3c.github.io/html/semantics-embedded-content.html#the-audio-element",
+    "link": "https://html.spec.whatwg.org/multipage/media.html#the-audio-element",
     "standardStatus": "De-facto standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "10240"
     },
-    "spec": "html51",
+    "spec": "html",
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
     "ff_views": {
@@ -3612,21 +3640,21 @@
   {
     "name": "<dialog> element for modals",
     "category": "User input",
-    "link": "https://w3c.github.io/html/interactive-elements.html#the-dialog-element",
+    "link": "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-dialog-element",
     "summary": "An HTML element for modal and non-modal dialog boxes",
-    "standardStatus": "Editor's draft",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Under Consideration",
       "priority": "Medium"
     },
-    "spec": "html51",
+    "spec": "html",
     "id": 5770237022568448,
     "uservoiceid": 6508895
   },
   {
     "name": "Color input type",
     "category": "User input",
-    "link": "https://www.w3.org/TR/html5/forms.html#color-state-(type=color)",
+    "link": "https://html.spec.whatwg.org/multipage/input.html#color-state-(type=color)",
     "summary": "Input controls for picking colors via <input type='color'>.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -3643,13 +3671,13 @@
       "text": "No public signals",
       "value": 3
     },
-    "spec": "html51",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/input/color"
   },
   {
     "name": "Date-related input types",
     "category": "User input",
-    "link": "https://w3c.github.io/html/sec-forms.html#date-state-typedate",
+    "link": "https://html.spec.whatwg.org/multipage/input.html#date-state-(type=date)",
     "summary": "Input controls for picking dates via <input type='date'>,<input type='month'>, and <input type='week'>.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -3661,7 +3689,7 @@
       "value": 1
     },
     "shipped_opera_milestone": true,
-    "spec": "html51",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/input/date",
     "id": 6640933999214592,
     "uservoiceid": 6513996
@@ -3669,7 +3697,7 @@
   {
     "name": "Time-related input types",
     "category": "User input",
-    "link": "https://w3c.github.io/html/sec-forms.html#time-state-typetime",
+    "link": "https://html.spec.whatwg.org/multipage/input.html#time-state-(type=time)",
     "summary": "Input controls for picking times via <input type='time'>, and <input type='datetime-local'>.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -3681,7 +3709,7 @@
       "value": 1
     },
     "shipped_opera_milestone": true,
-    "spec": "html51",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/input/time",
     "id": 6640933999214592,
     "uservoiceid": 6513996
@@ -3689,7 +3717,7 @@
   {
     "name": "<main> element",
     "category": "DOM",
-    "link": "https://w3c.github.io/html/grouping-content.html#the-main-elementt",
+    "link": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-main-element",
     "summary": "Semantic HTML5 element that represents the main content of the document or application.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -3706,7 +3734,7 @@
       "text": "Shipped",
       "value": 1
     },
-    "spec": "html51",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/main",
     "uservoiceid": 6514003
   },
@@ -3776,14 +3804,14 @@
   {
     "name": "Hardware Concurrency",
     "category": "Device",
-    "link": "https://wiki.whatwg.org/wiki/NavigatorCores",
+    "link": "https://html.spec.whatwg.org/multipage/workers.html#navigator.hardwareconcurrency",
     "summary": "An API for reading the system's total number of logical processors available to the user agent, up to an optional thread limit per origin.",
-    "standardStatus": "Public discussion",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "14986"
     },
-    "spec": "navigatorcores",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/API/NavigatorConcurrentHardware",
     "id": 6248386202173440
   },
@@ -3837,7 +3865,7 @@
       "text": "No public signals",
       "value": 3
     },
-    "spec": "workers"
+    "spec": "html"
   },
   {
     "name": "Platform for Privacy Preferences 1.0 (P3P 1.0)",
@@ -4094,9 +4122,9 @@
   {
     "name": "Console Logging APIs",
     "category": "Misc",
-    "link": "https://github.com/DeveloperToolsWG/console-object",
+    "link": "https://console.spec.whatwg.org/",
     "summary": "APIs to log messages to a connected developer tool. Covering console.assert, console.log, console.info, console.warn, console.error, console.debug, console.dir, console.dirxml.",
-    "standardStatus": "De-facto standard",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text":  "Shipped",
       "ieUnprefixed": "10"
@@ -4116,7 +4144,7 @@
   {
     "name": "console.table",
     "category": "Misc",
-    "link": "https://github.com/DeveloperToolsWG/console-object",
+    "link": "https://console.spec.whatwg.org/#table",
     "summary": "console.table allows the logging of tabular data to a connected developer tool.",
     "standardStatus": "Public discussion",
     "ieStatus": {
@@ -4202,7 +4230,8 @@
     "summary": "Applies a CSS filter effect to the content behind an element. This is not the element's background but the content that would be drawn behind it.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text":"In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "17063"
     },
     "impl_status_chrome": "In Development",
     "ff_views": {
@@ -4231,7 +4260,7 @@
       "value": 1
     },
     "shipped_opera_milestone": false,
-    "spec": "html51",
+    "spec": "html",
     "uservoiceid": 7855248
   },
   {
@@ -4268,7 +4297,8 @@
     "summary": "An open codec for audio.",
     "standardStatus": "De-facto standard",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "17063"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
@@ -4289,7 +4319,8 @@
     "summary": "An open video codec.",
     "standardStatus": "De-facto standard",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "17063"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
@@ -4387,9 +4418,10 @@
       "value": 1
     },
     "safari_views": {
-      "text": "No public signals",
-      "value": 3
+      "text": "Shipped",
+      "value": 1
     },
+    "shipped_opera_milestone": true,
     "uservoiceid": 17929639
   },
   {
@@ -4417,6 +4449,7 @@
       "priority": "Low"
     },
     "spec": "css-images-4",
+    "id": 5706155347148800,
     "uservoiceid": 8471413
   },
   {
@@ -4608,7 +4641,7 @@
   {
     "name": "<time> Element",
     "category": "Misc",
-    "link": "https://w3c.github.io/html/textlevel-semantics.html#the-time-element",
+    "link": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-time-element",
     "summary": "An HTML element for representing dates and times.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -4625,14 +4658,14 @@
       "value": 3
     },
     "shipped_opera_milestone": false,
-    "spec": "html51",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/time",
     "uservoiceid": 6514206
   },
   {
     "name": "<data> Element",
     "category": "Misc",
-    "link": "https://w3c.github.io/html/textlevel-semantics.html#the-data-element",
+    "link": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-data-element",
     "summary": "An HTML element which represents its content in machine-readable and human-readable formats.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -4644,7 +4677,7 @@
   {
     "name": "<output> Element",
     "category": "Misc",
-    "link": "https://w3c.github.io/html/sec-forms.html#the-output-element",
+    "link": "https://html.spec.whatwg.org/multipage/form-elements.html#the-output-element",
     "summary": "An HTML element for representing the result of a calculation or user action.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -4661,14 +4694,14 @@
       "value": 1
     },
     "shipped_opera_milestone": true,
-    "spec": "html51",
+    "spec": "html",
     "msdn": "https://developer.mozilla.org/docs/Web/HTML/Element/output",
     "uservoiceid": 6514436
   },
   {
     "name": "ol[reversed] attribute",
     "category": "Misc",
-    "link": "https://w3c.github.io/html/grouping-content.html#element-attrdef-ol-reversed",
+    "link": "https://html.spec.whatwg.org/multipage/grouping-content.html#attr-ol-reversed",
     "summary": "A boolean attribute that reverses the order of an ordered list when present.",
     "standardStatus": "Established standard",
     "ieStatus": {
@@ -4685,7 +4718,7 @@
       "value": 1
     },
     "shipped_opera_milestone": true,
-    "spec": "html51",
+    "spec": "html",
     "uservoiceid": 6514423
   },
   {
@@ -4763,14 +4796,14 @@
   {
     "name": "Form attribute",
     "category": "DOM",
-    "link": "https://www.w3.org/TR/html5/forms.html#attr-fae-form",
+    "link": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fae-form",
     "summary": "Attribute for associating input and submit buttons with a form.",
     "standardStatus": "Established standard",
     "ieStatus": {
       "text": "Shipped",
       "ieUnprefixed": "16299"
     },
-    "spec": "html51",
+    "spec": "html",
     "demo": "https://www.impressivewebs.com/html5-form-attribute/",
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
@@ -4905,7 +4938,7 @@
     "category": "DOM",
     "link": "https://encoding.spec.whatwg.org/",
     "summary": "This specification addresses gaps so user agents do not have to reverse engineer encoding implementations.",
-    "standardStatus": "Working draft or equivalent",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "In Development"
     },
@@ -4959,7 +4992,8 @@
     "summary": "Convenience methods for working with DOM Node trees",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "ieUnprefixed": "17035"
     },
     "spec": "dom",
     "msdn": "https://developer.mozilla.org/docs/Web/API/ChildNode",
