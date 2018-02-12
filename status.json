@@ -5057,5 +5057,18 @@
     "ieStatus": {
       "text": "Under Consideration"
     }
+  },
+  {
+    "name": "Picture-in-Picture",
+    "category": "Multimedia",
+    "link": "https://wicg.github.io/picture-in-picture/",
+    "summary": "An API for allowing websites to create a floating video window always on top of other windows so that users may continue consuming media while they interact with other content sites, or applications on their device.",
+    "standardStatus": "Editor's draft",
+    "ieStatus": {
+      "text": "Under Consideration"
+    },
+    "impl_status_chrome": "In Development",
+    "id": 5729206566649856,
+    "uservoiceid": 33293761
   }
 ]
