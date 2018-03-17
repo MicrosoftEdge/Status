@@ -5070,5 +5070,17 @@
     "impl_status_chrome": "In Development",
     "id": 5729206566649856,
     "uservoiceid": 33293761
+  },
+  {
+    "name": ":focus-visible pseudo-class",
+    "category": "CSS",
+    "link": "https://www.w3.org/TR/selectors-4/#the-focus-visible-pseudo",
+    "summary": "Applies while an element matches the :focus pseudo-class and the user agent (browser, etc) determines via heuristics that the focus should be made evident on the element.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Low"
+    },
+    "uservoiceid": 19594159
   }
 ]
