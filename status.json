@@ -432,9 +432,8 @@
     "ieStatus": {
       "text": "Not currently planned"
     },
-    "impl_status_chrome": "Enabled by default",
     "ff_views": {
-      "text": "In Development",
+      "text": "Behind a flag",
       "value": 2
     },
     "shipped_opera_milestone": true,
