@@ -432,9 +432,8 @@
     "ieStatus": {
       "text": "Not currently planned"
     },
-    "impl_status_chrome": "Enabled by default",
     "ff_views": {
-      "text": "In Development",
+      "text": "Behind a flag",
       "value": 2
     },
     "shipped_opera_milestone": true,
@@ -3748,7 +3747,7 @@
     "ieStatus": {
       "text": "Not currently planned"
     },
-    "impl_status_chrome": "Enabled by default",
+    "impl_status_chrome": "Removed",
     "shipped_opera_milestone": true,
     "ff_views": {
       "text": "Shipped",
@@ -5057,5 +5056,30 @@
     "ieStatus": {
       "text": "Under Consideration"
     }
+  },
+  {
+    "name": "Picture-in-Picture",
+    "category": "Multimedia",
+    "link": "https://wicg.github.io/picture-in-picture/",
+    "summary": "An API for allowing websites to create a floating video window always on top of other windows so that users may continue consuming media while they interact with other content sites, or applications on their device.",
+    "standardStatus": "Editor's draft",
+    "ieStatus": {
+      "text": "Under Consideration"
+    },
+    "impl_status_chrome": "In Development",
+    "id": 5729206566649856,
+    "uservoiceid": 33293761
+  },
+  {
+    "name": ":focus-visible pseudo-class",
+    "category": "CSS",
+    "link": "https://www.w3.org/TR/selectors-4/#the-focus-visible-pseudo",
+    "summary": "Applies while an element matches the :focus pseudo-class and the user agent (browser, etc) determines via heuristics that the focus should be made evident on the element.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Low"
+    },
+    "uservoiceid": 19594159
   }
 ]
