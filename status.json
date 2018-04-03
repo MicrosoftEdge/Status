@@ -5081,5 +5081,21 @@
       "priority": "Low"
     },
     "uservoiceid": 19594159
+  },
+  {
+    "name": "Media Queries: prefers-reduced-motion",
+    "category": "Accessibility",
+    "link": "https://drafts.csswg.org/mediaqueries-5/#prefers-reduced-motion",
+    "summary": "Used to detect if the user has requested the system minimize the amount of animation or motion it uses.",
+    "standardStatus": "Editor’s draft",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Low"
+    },
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "uservoiceid": 19291531
   }
 ]
