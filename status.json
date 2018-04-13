@@ -56,6 +56,17 @@
     }
   },
   {
+    "name": "Same-site cookies",
+    "category": "Security",
+    "link": "https://tools.ietf.org/html/draft-west-first-party-cookies-07",
+    "summary": "Defines a SameSite attribute, allowing a server to specify that cookies should not be sent with cross-site requests.",
+    "standardStatus": "Editor's draft",
+    "ieStatus": {
+      "text": "In Development"
+    }
+    "id": 4672634709082112
+  },
+  {
     "name": "SVG Accessibility API Mappings",
     "category": "Misc",
     "link": "https://www.w3.org/TR/svg-aam-1.0/",
