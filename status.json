@@ -45,6 +45,17 @@
     "id": 5678497057996800
   },
   {
+    "name": "From-Origin header",
+    "category": "Security",
+    "link": "https://github.com/whatwg/fetch/issues/687",
+    "summary": "Allows authors to send a header of a whistelisted set of domains from the server to other origins from loaded or accessing the content",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Medium"
+    },
+  },
+  {
     "name": "SVG Accessibility API Mappings",
     "category": "Misc",
     "link": "https://www.w3.org/TR/svg-aam-1.0/",
