@@ -1825,6 +1825,10 @@
       "text": "Preview Release",
       "ieUnprefixed": "17063"
     },
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },    
     "spec": "service-workers",
     "id": 6561526227927040,
     "uservoiceid": 6263630
