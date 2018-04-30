@@ -3121,8 +3121,7 @@
     "summary": "Registers a callback to be invoked when a promise is settled (whether it is fulfilled or rejected), allowing for cleanup of pending or ongoing actions depending on that promise.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
-      "priority": "High"
+      "text": "In Development"
     },
     "msdn": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/finally",
     "id": 5704570235781120
@@ -3134,8 +3133,7 @@
     "summary": "Adds a function-like import() module loading syntactic form to JavaScript.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
-      "priority": "High"
+      "text": "In Development"
     },
     "msdn": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import",
     "id": 5684934484164608
