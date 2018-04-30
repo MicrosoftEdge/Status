@@ -4911,8 +4911,8 @@
     "link": "https://webassembly.github.io/",
     "summary": "WebAssembly or wasm is a new portable, size- and load-time-efficient format suitable for compilation to the web.",
     "ieStatus": {
-      "text": "Preview Release",
-      "ieUnprefixed": "16241"
+      "text": "Shipped",
+      "ieUnprefixed": "16299"
     },
     "id": 5453022515691520,
     "msdn": "https://developer.mozilla.org/docs/WebAssembly",
