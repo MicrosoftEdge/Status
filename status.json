@@ -3115,6 +3115,19 @@
     "uservoiceid": 6512244
   },
   {
+    "name": "Promise.prototype.finally",
+    "category": "JavaScript",
+    "link": "https://github.com/tc39/proposal-promise-finally",
+    "summary": "Registers a callback to be invoked when a promise is settled (whether it is fulfilled or rejected), allowing for cleanup of pending or ongoing actions depending on that promise.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "In Development",
+      "priority": "High"
+    },
+    "msdn": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/finally",
+    "id": 5704570235781120
+  },
+  {
     "name": "Async Functions",
     "category": "JavaScript",
     "link": "https://tc39.github.io/ecmascript-asyncawait",
