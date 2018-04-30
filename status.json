@@ -18,7 +18,7 @@
     "summary": "Allows multiple instances of fonts to be defined by interpolating glyph outlines along different axis.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "17074"
     },
     "safari_views": {
@@ -152,7 +152,7 @@
     "summary": "Enable support for CSS transforms on elements and presentational attributes of SVG",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "17074"
     },
     "safari_views": {
@@ -1822,7 +1822,7 @@
     "summary": "ServiceWorkers (formerly Navigation Controllers) are a new system that provides event-driven scripts that run independent of web pages. They are similar to SharedWorkers except that their lifetime is different and they have access to domain-wide events such as network fetches.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "17063"
     },
     "spec": "service-workers",
@@ -2010,7 +2010,7 @@
     "summary": "Allows developers to manipulate the search params of a URL.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "17063"
     },
     "spec": "whatwg-url",
@@ -2436,7 +2436,7 @@
     "summary": "Provides webapps with scripted access to server-sent notifications.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "17063"
     },
     "spec": "push-api",
@@ -2450,7 +2450,7 @@
     "summary": "Subresource Integrity defines a mechanism by which user agents may verify that a fetched resource has been delivered without unexpected manipulation. In a nutshell, metadata inlined into HTML elements allows the browser to determine whether the resource that was downloaded matches the resource the page's author expected to download.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "17063"
     },
     "spec": "sri",
@@ -4277,7 +4277,7 @@
     "summary": "Applies a CSS filter effect to the content behind an element. This is not the element's background but the content that would be drawn behind it.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "iePrefixed": "17063"
     },
     "impl_status_chrome": "In Development",
@@ -4344,7 +4344,7 @@
     "summary": "An open codec for audio.",
     "standardStatus": "De-facto standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "17063"
     },
     "impl_status_chrome": "Enabled by default",
@@ -4366,7 +4366,7 @@
     "summary": "An open video codec.",
     "standardStatus": "De-facto standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "17063"
     },
     "impl_status_chrome": "Enabled by default",
@@ -5039,7 +5039,7 @@
     "summary": "Convenience methods for working with DOM Node trees",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "17035"
     },
     "spec": "dom",
@@ -5066,7 +5066,7 @@
     "summary": "Provides an API to mark event listeners as \"passive\", primarily to allow for scrolling performance improvements",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "16215"
     },
     "spec": "passivelisteners",
