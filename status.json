@@ -3128,6 +3128,19 @@
     "id": 5704570235781120
   },
   {
+    "name": "JavaScript module import()",
+    "category": "JavaScript",
+    "link": "https://github.com/tc39/proposal-dynamic-import",
+    "summary": "Adds a function-like import() module loading syntactic form to JavaScript.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "In Development",
+      "priority": "High"
+    },
+    "msdn": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import",
+    "id": 5684934484164608
+  },
+  {
     "name": "Async Functions",
     "category": "JavaScript",
     "link": "https://tc39.github.io/ecmascript-asyncawait",
