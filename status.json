@@ -3175,7 +3175,8 @@
     "summary": "ECMAScript proposal for Object.getOwnPropertyDescriptors.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "Shipped",
+      "ieUnprefixed": "14393"
     },
     "spec": "es6"
   },
