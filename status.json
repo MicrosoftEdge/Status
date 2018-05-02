@@ -921,8 +921,11 @@
     "summary": "Allows a server to instruct the user agent to upgrade insecure requests via a Content-Security-Policy header. This directive is meant to make it even easier for a site administrator to move towards using all secure transports, while avoiding having to make massive updates to URLs in their web applications.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "In Development"
-    }
+      "text": "Shipped",
+      "ieUnprefixed": "17134"
+    },
+    "id": 6534575509471232,
+    "uservoiceid": 7314353
   },
   {
     "name": "CSS calc()",
@@ -4140,18 +4143,6 @@
       "value": 2
     },
     "spec": "css-animations-1"
-  },
-  {
-    "name": "Upgrade insecure resource requests",
-    "category": "Network / Connectivity",
-    "link": "https://w3c.github.io/webappsec/specs/upgrade/",
-    "summary": "A mechanism which allows authors to instruct a user agent to upgrade a priori insecure resource requests to secure transport before Fetching them.",
-    "standardStatus": "Working draft or equivalent",
-    "ieStatus": {
-      "text": "Under Consideration"
-    },
-    "id": 6534575509471232,
-    "uservoiceid": 7314353
   },
   {
     "name": "CSS Logical Properties Level 1",
