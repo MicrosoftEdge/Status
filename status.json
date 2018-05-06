@@ -1400,8 +1400,7 @@
     "summary": "Gives the content of an iframe as a src context to embed (e.g. <iframe seamless srcdoc=\"<b>Hello World</b>\"></iframe>).",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "Low"
+      "text": "In Development"
     },
     "spec": "html",
     "id": 5222955109842944,
