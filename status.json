@@ -3631,7 +3631,7 @@
   {
     "name": "Web Application Manifest",
     "category": "DOM",
-    "summary": "his specification defines a JSON-based manifest, which provides developers with a centralized place to put metadata associated with a web application. On Windows 10, we support submitting web apps with a manifest to the Microsoft Store using packaging tools like PWA Builder or Visual Studio, and are previewing proactive indexing of published PWAs via the Bing crawler.",
+    "summary": "This specification defines a JSON-based manifest, which provides developers with a centralized place to put metadata associated with a web application. On Windows 10, we support submitting web apps with a manifest to the Microsoft Store using packaging tools like PWA Builder or Visual Studio, and are previewing proactive indexing of published PWAs via the Bing crawler.",
     "link": "https://w3c.github.io/manifest/",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
