@@ -426,8 +426,7 @@
     "summary": "Credential Management API describes an imperative API enabling a website to request a user’s credentials from a user agent, and to help the user agent correctly store user credentials for future use.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "Medium"
+      "text": "In Development"
     },
     "msdn": "https://developer.mozilla.org/docs/Web/API/Credential_Management_API",
     "id": 5026422640869376
