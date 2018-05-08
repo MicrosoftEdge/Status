@@ -5157,5 +5157,19 @@
     },
     "id": 4562033294966784,
     "uservoiceid": 15107964
+  },
+  {
+    "name": "Web Share API",
+    "category": "Device",
+    "link": "https://wicg.github.io/web-share/",
+    "summary": "An API for sharing data (text, URLs, images) from the web to an app of the user's choosing.",
+    "standardStatus": "Editor's draft",
+    "spec": "web-share",
+    "ieStatus": {
+      "text": "Not currently planned"
+    },
+    "id": 5668769141620736,
+    "uservoiceid": 31563175,
+    "msdn": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/share"
   }
 ]
