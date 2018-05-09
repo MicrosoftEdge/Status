@@ -5166,7 +5166,8 @@
     "standardStatus": "Editor's draft",
     "spec": "web-share",
     "ieStatus": {
-      "text": "Not currently planned"
+      "text": "Under Consideration",
+      "priority": "Low"
     },
     "id": 5668769141620736,
     "uservoiceid": 31563175,
