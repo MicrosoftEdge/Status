@@ -3458,6 +3458,19 @@
     "id": 5657004848709632
   },
   {
+    "name": "Asynchronous Iterators",
+    "category": "JavaScript",
+    "summary": "Introduces the AsyncIterator interface, an asynchronous iteration statement (for-await-of), and async generator functions.",
+    "link": "https://github.com/tc39/proposal-async-iteration",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "High"
+    },
+    "spec": "es6",
+    "id": 5727385018171392
+  },
+  {
     "name": "__proto__ (ES6)",
     "category": "JavaScript",
     "summary": "Support for legacy prototype manipulation similar to Object.setPrototypeOf.",
