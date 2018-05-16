@@ -3444,6 +3444,20 @@
     "id": 5977677567623168
   },
   {
+    "name": "Object rest/spread properties",
+    "category": "JavaScript",
+    "summary": "Introduces analogous rest properties for object destructuring assignment and spread properties for object literals.",
+    "link": "https://github.com/tc39/proposal-object-rest-spread",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "High"
+    },
+    "spec": "es6",
+    "msdn": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters",
+    "id": 5657004848709632
+  },
+  {
     "name": "__proto__ (ES6)",
     "category": "JavaScript",
     "summary": "Support for legacy prototype manipulation similar to Object.setPrototypeOf.",
