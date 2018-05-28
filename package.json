@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "is-my-json-valid": "^2.17.2"
+    "ajv": "^6.5.0"
   },
   "private": true,
   "scripts": {
