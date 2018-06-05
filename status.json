@@ -5199,5 +5199,19 @@
     "id": 5668769141620736,
     "uservoiceid": 31563175,
     "msdn": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/share"
+  },
+  {
+    "name": "display: contents",
+    "category": "CSS",
+    "link": "https://drafts.csswg.org/css-display/#box-generation",
+    "summary": "\"display: contents\" allows you to control the box generation of an element. The element with \"display: contents\" won't generate any box, but its children and pseudo-elements will still do it as normal. It's like the element has been replaced by its children and pseudo-elements.",
+    "standardStatus": "Editor's draft",
+    "spec": "css-display",
+    "ieStatus": {
+      "text": "Not currently planned"
+    },
+    "id": 5663606012116992,
+    "uservoiceid": 31563175,
+    "msdn": "https://developer.mozilla.org/en-US/docs/Web/CSS/display"
   }
 ]
