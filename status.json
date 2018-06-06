@@ -4533,7 +4533,7 @@
   {
     "name": "CSS image-set()",
     "category": "CSS",
-    "link": "https://drafts.csswg.org/css-images-3/#image-set-notation",
+    "link": "https://drafts.csswg.org/css-images-4/#image-set-notation",
     "summary": "Enables responsive images in CSS by specifiying multiple resolutions of an image that the browser can select from for the given situation.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
