@@ -5213,5 +5213,17 @@
     "id": 5663606012116992,
     "uservoiceid": 10938981,
     "msdn": "https://developer.mozilla.org/en-US/docs/Web/CSS/display"
+  },
+  {
+    "name": "inert attribute",
+    "category": "Accessibility",
+    "link": "https://github.com/WICG/inert",
+    "summary": "The inert attribute would allow web authors to mark parts of the DOM tree as inert: When a node is inert, then the user agent must act as if the node was absent for the purposes of targeting user interaction events, may ignore the node for the purposes of text search user interfaces (commonly known as \"find in page\"), and may prevent the user from selecting text in that node.",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Low"
+    },
+    "id": 5703266176335872,
+    "uservoiceid": 31606522
   }
 ]
