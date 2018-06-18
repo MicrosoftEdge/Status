@@ -4108,12 +4108,13 @@
   },
   {
     "name": "Accessible Rich Internet Applications (WAI-ARIA) 1.1",
-    "category": "Misc",
+    "category": "Accessibility",
     "link": "https://www.w3.org/TR/wai-aria-1.1/",
-    "summary": "Full support for new WAI-ARIA 1.1 roles, states, and properties which define new accessible user interface elements since WAI-ARIA 1.0. Microsoft Edge currently supports the following ARIA roles: none, article, definition, log, math, note, scrollbar,  application, banner, complementary, contentinfo, form, main, navigation, search; and ARIA properties: aria-atomic, aria-autocomplete, aria-dropeffect, aria-grabbed, aria-label, aria-multiline, aria-orientation, aria-sort, aria-valuetext. Note that WAI-ARIA support is complex and not fully implemented in any browser.",
-    "standardStatus": "Working draft or equivalent",
+    "summary": "Support for new WAI-ARIA 1.1 roles, states, and properties which define new accessible user interface elements since WAI-ARIA 1.0.",
+    "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Shipped",
+      "ieUnprefixed": "17029"
     },
     "impl_status_chrome": "In Development",
     "shipped_opera_milestone": false,
@@ -4124,7 +4125,8 @@
     "safari_views": {
       "text": "In Development",
       "value": 2
-    }
+    },
+    "id": 5761503818940416
   },
   {
     "name": "Accessible Name and Description: Computation and API Mappings 1.1",
