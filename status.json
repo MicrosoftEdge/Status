@@ -5226,5 +5226,18 @@
     },
     "id": 5703266176335872,
     "uservoiceid": 31606522
+  },
+  {
+    "name": ":focus-within pseudo-class",
+    "category": "CSS",
+    "link": "https://www.w3.org/TR/selectors-4/#the-focus-within-pseudo",
+    "summary": "The :focus-within pseudo-class applies to elements for which the :focus pseudo class applies. An element also matches :focus-within if one of its descendants in the flat tree (including non-element nodes, such as text nodes) matches the conditions for matching :focus.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Low"
+    },
+    "id": 5363834508279808,
+    "uservoiceid": 11725071
   }
 ]
