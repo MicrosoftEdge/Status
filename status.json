@@ -59,11 +59,11 @@
     "name": "Same-site cookies",
     "category": "Security",
     "link": "https://tools.ietf.org/html/draft-ietf-httpbis-cookie-same-site-00",
-    "summary": "Defines a SameSite attribute, allowing a server to specify that cookies should not be sent with cross-site requests.",
+    "summary": "Defines a SameSite attribute, allowing a server to specify that cookies should not be sent with cross-site requests. NOTE: IE11 on build 16299+ also support this feature if all updates are applied to the OS",
     "standardStatus": "Editor's draft",
     "ieStatus": {
       "text": "Shipped",
-      "ieUnprefixed": "11"
+      "ieUnprefixed": "16299"
     },
     "ff_views": {
       "text": "Shipped",
