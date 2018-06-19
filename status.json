@@ -58,11 +58,16 @@
   {
     "name": "Same-site cookies",
     "category": "Security",
-    "link": "https://tools.ietf.org/html/draft-west-first-party-cookies-07",
+    "link": "https://tools.ietf.org/html/draft-ietf-httpbis-cookie-same-site-00",
     "summary": "Defines a SameSite attribute, allowing a server to specify that cookies should not be sent with cross-site requests.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Shipped",
+      "ieUnprefixed": "11"
+    },
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
     },
     "id": 4672634709082112
   },
