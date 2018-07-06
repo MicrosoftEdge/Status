@@ -3614,7 +3614,7 @@
       "ieUnprefixed": "16299"
     },
     "spec": "es6",
-    "msdn": "https://developer.mozilla.org/docs/Mozilla/JavaScript_code_modules",
+    "msdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/import",
     "id": 5365692190687232,
     "uservoiceid": 6510097
   },
