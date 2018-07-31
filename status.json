@@ -446,6 +446,11 @@
       "text": "Preview Release",
       "iePrefixed": "17682"
     },
+    "impl_status_chrome": "Shipped",
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
     "spec": "webauthn"
   },
   {
