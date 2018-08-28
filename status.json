@@ -5248,5 +5248,53 @@
     },
     "id": 5363834508279808,
     "uservoiceid": 11725071
+  },
+  {
+    "name": "Accelerometer",
+    "category": "Device",
+    "link": "https://w3c.github.io/accelerometer/",
+    "summary": "Provides access to device’s acceleration along its three primary axes.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text": "Under Consideration"
+    },
+    "spec": "accelerometer",
+    "id": 5698781827825664
+  },
+  {
+    "name": "Gyroscope",
+    "category": "Device",
+    "link": "https://w3c.github.io/gyroscope/",
+    "summary": "Provides access to device’s rotation around its three primary axes.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text": "Under Consideration"
+    },
+    "spec": "gyroscope",
+    "id": 5698781827825664
+  },
+  {
+    "name": "Magnetometer",
+    "category": "Device",
+    "link": "https://w3c.github.io/magnetometer/",
+    "summary": "Provides access to magnetic field measurements along the device's three primary axes.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text": "Under Consideration"
+    },
+    "spec": "magnetometer",
+    "id": 5698781827825664
+  },
+  {
+    "name": "Orientation Sensor",
+    "category": "Device",
+    "link": "https://w3c.github.io/orientation-sensor/",
+    "summary": "Provides access to device’s physical orientation in WebGL-compatible quaternion and rotation matrix representations.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text": "Under Consideration"
+    },
+    "spec": "orientation-sensor",
+    "id": 5698781827825664
   }
 ]
