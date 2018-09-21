@@ -161,6 +161,9 @@
       },
       "uservoiceid": {
         "type": "number"
+      },
+      "statusid": {
+        "type": "number"
       }
     }
   },
@@ -168,7 +171,8 @@
     "category",
     "ieStatus",
     "name",
-    "summary"
+    "summary",
+    "statusid"
   ],
   "type": "array"
 }
