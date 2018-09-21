@@ -2328,7 +2328,7 @@
     "summary": "3D rendering via the <canvas> element. ",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Prefixed",
+      "text": "Shipped",
       "iePrefixed": "11"
     },
     "spec": "webgl",
@@ -5466,7 +5466,8 @@
       "text": "Under Consideration",
       "priority": "Low"
     },
-    "uservoiceid": 19594159
+    "uservoiceid": 19594159,
+    "statusid": 315
   },
   {
     "name": "Media Queries: prefers-reduced-motion",
@@ -5482,7 +5483,8 @@
       "text": "Shipped",
       "value": 1
     },
-    "uservoiceid": 19291531
+    "uservoiceid": 19291531,
+    "statusid": 316
   },
   {
     "name": "HTMLCanvasElement toBlob method",
@@ -5504,7 +5506,8 @@
       "value": 1
     },
     "id": 4562033294966784,
-    "uservoiceid": 15107964
+    "uservoiceid": 15107964,
+    "statusid": 317
   },
   {
     "name": "Web Share API",
@@ -5519,6 +5522,7 @@
     },
     "id": 5668769141620736,
     "uservoiceid": 31563175,
+    "statusid": 318,
     "msdn": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/share"
   },
   {
@@ -5533,6 +5537,7 @@
     },
     "id": 5663606012116992,
     "uservoiceid": 10938981,
+    "statusid": 319,
     "msdn": "https://developer.mozilla.org/en-US/docs/Web/CSS/display"
   },
   {
@@ -5545,7 +5550,8 @@
       "priority": "Low"
     },
     "id": 5703266176335872,
-    "uservoiceid": 31606522
+    "uservoiceid": 31606522,
+    "statusid": 320
   },
   {
     "name": ":focus-within pseudo-class",
@@ -5558,7 +5564,8 @@
       "priority": "Low"
     },
     "id": 5363834508279808,
-    "uservoiceid": 11725071
+    "uservoiceid": 11725071,
+    "statusid": 321
   },
   {
     "name": "Accelerometer",
@@ -5570,7 +5577,8 @@
       "text": "Under Consideration"
     },
     "spec": "accelerometer",
-    "id": 5698781827825664
+    "id": 5698781827825664,
+    "statusid": 322
   },
   {
     "name": "Gyroscope",
@@ -5582,7 +5590,8 @@
       "text": "Under Consideration"
     },
     "spec": "gyroscope",
-    "id": 5698781827825664
+    "id": 5698781827825664,
+    "statusid": 323
   },
   {
     "name": "Magnetometer",
@@ -5594,7 +5603,8 @@
       "text": "Under Consideration"
     },
     "spec": "magnetometer",
-    "id": 5698781827825664
+    "id": 5698781827825664,
+    "statusid": 324
   },
   {
     "name": "Orientation Sensor",
@@ -5606,6 +5616,7 @@
       "text": "Under Consideration"
     },
     "spec": "orientation-sensor",
-    "id": 5698781827825664
+    "id": 5698781827825664,
+    "statusid": 325
   }
 ]
