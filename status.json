@@ -19,7 +19,7 @@
     "summary": "Allows multiple instances of fonts to be defined by interpolating glyph outlines along different axis.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "17074"
     },
     "safari_views": {
@@ -46,6 +46,33 @@
     },
     "id": 5678497057996800,
     "statusid": 3
+  },
+  {
+    "name": "From-Origin header",
+    "category": "Security",
+    "link": "https://github.com/whatwg/fetch/issues/687",
+    "summary": "Allows authors to send a header of a whistelisted set of domains from the server to other origins from loaded or accessing the content",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Medium"
+    }
+  },
+  {
+    "name": "Same-site cookies",
+    "category": "Security",
+    "link": "https://tools.ietf.org/html/draft-ietf-httpbis-cookie-same-site-00",
+    "summary": "Defines a SameSite attribute, allowing a server to specify that cookies should not be sent with cross-site requests. NOTE: IE11 on build 16299+ also support this feature if all updates are applied to the OS",
+    "standardStatus": "Editor's draft",
+    "ieStatus": {
+      "text": "Shipped",
+      "ieUnprefixed": "16299"
+    },
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "id": 4672634709082112
   },
   {
     "name": "SVG Accessibility API Mappings",
@@ -138,7 +165,7 @@
     "summary": "Enable support for CSS transforms on elements and presentational attributes of SVG",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "17074"
     },
     "safari_views": {
@@ -429,8 +456,7 @@
     "summary": "Credential Management API describes an imperative API enabling a website to request a user’s credentials from a user agent, and to help the user agent correctly store user credentials for future use.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "Medium"
+      "text": "In Development"
     },
     "msdn": "https://developer.mozilla.org/docs/Web/API/Credential_Management_API",
     "id": 5026422640869376,
@@ -440,12 +466,16 @@
     "name": "Web Authentication API",
     "category": "Security",
     "link": "https://w3c.github.io/webauthn/",
-    "summary": "Web Authentication provides an open, scalable, and interoperable solution to facilitate authentication, which replaces passwords with stronger two-factor credentials.  The implementation in Microsoft Edge is focused on enabling Microsoft Passport with a PIN or Windows Hello to securely authenticate to Microsoft properties and third-party web sites.  As of EdgeHTML 14, the implementation is prefixed and based on the FIDO 2.0 Web APIs. Microsoft is a member of the FIDO Alliance.",
+    "summary": "Web Authentication provides an open, scalable, and interoperable solution to facilitate authentication, which replaces passwords with stronger hardware-bound credentials. The implementation in Microsoft Edge allows users to use Windows Hello (via PIN or biometrics) and external authenticators like FIDO2 Security Keys or FIDO U2F Security Keys, to securely authenticate to websites. This updates our previous implementation to match the updated spec and to be unprefixed and enabled by default.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
+      "text": "Preview Release",
+      "iePrefixed": "17682"
+    },
+    "impl_status_chrome": "Shipped",
+    "ff_views": {
       "text": "Shipped",
-      "iePrefixed": "14291",
-      "flag": true
+      "value": 1
     },
     "spec": "webauthn",
     "statusid": 27
@@ -953,9 +983,11 @@
     "summary": "Allows a server to instruct the user agent to upgrade insecure requests via a Content-Security-Policy header. This directive is meant to make it even easier for a site administrator to move towards using all secure transports, while avoiding having to make massive updates to URLs in their web applications.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Shipped",
+      "ieUnprefixed": "17134"
     },
-    "statusid": 55
+    "id": 6534575509471232,
+    "uservoiceid": 7314353
   },
   {
     "name": "CSS calc()",
@@ -1463,8 +1495,7 @@
     "summary": "Gives the content of an iframe as a src context to embed (e.g. <iframe seamless srcdoc=\"<b>Hello World</b>\"></iframe>).",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "Low"
+      "text": "In Development"
     },
     "spec": "html",
     "id": 5222955109842944,
@@ -1917,7 +1948,7 @@
     "summary": "ServiceWorkers (formerly Navigation Controllers) are a new system that provides event-driven scripts that run independent of web pages. They are similar to SharedWorkers except that their lifetime is different and they have access to domain-wide events such as network fetches.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "17063"
     },
     "spec": "service-workers",
@@ -2025,9 +2056,9 @@
   {
     "name": "TLS 1.3",
     "category": "Network / Connectivity",
-    "link": "https://tools.ietf.org/html/draft-ietf-tls-tls13",
+    "link": "https://tools.ietf.org/html/rfc8446",
     "summary": "Transport Layer Security (TLS) protocol version 1.3 allows faster and more secure connection compared to TLS 1.2 by reducing round trip number, and removing legacy vulnerable cryptography features.",
-    "standardStatus": "Working draft or equivalent",
+    "standardStatus": "Established standard",
     "ieStatus": {
       "text": "In Development"
     },
@@ -2119,7 +2150,7 @@
     "summary": "Allows developers to manipulate the search params of a URL.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "17063"
     },
     "spec": "whatwg-url",
@@ -2341,7 +2372,7 @@
     "summary": "WebP is an image format that provides lossless and lossy compression for images on the web. ",
     "standardStatus": "Public discussion",
     "ieStatus": {
-      "text": "Not currently planned"
+      "text": "In Development"
     },
     "id": 6471725441089536,
     "uservoiceid": 6508417,
@@ -2575,7 +2606,7 @@
     "summary": "Provides webapps with scripted access to server-sent notifications.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "17063"
     },
     "spec": "push-api",
@@ -2590,7 +2621,7 @@
     "summary": "Subresource Integrity defines a mechanism by which user agents may verify that a fetched resource has been delivered without unexpected manipulation. In a nutshell, metadata inlined into HTML elements allows the browser to determine whether the resource that was downloaded matches the resource the page's author expected to download.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "17063"
     },
     "spec": "sri",
@@ -3296,6 +3327,29 @@
     "statusid": 203
   },
   {
+    "name": "Promise.prototype.finally",
+    "category": "JavaScript",
+    "link": "https://github.com/tc39/proposal-promise-finally",
+    "summary": "Registers a callback to be invoked when a promise is settled (whether it is fulfilled or rejected), allowing for cleanup of pending or ongoing actions depending on that promise.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "In Development"
+    },
+    "msdn": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/finally",
+    "id": 5704570235781120
+  },
+  {
+    "name": "JavaScript module import()",
+    "category": "JavaScript",
+    "link": "https://github.com/tc39/proposal-dynamic-import",
+    "summary": "Adds a function-like import() module loading syntactic form to JavaScript. Enables dynamically loading parts of a JavaScript application at runtime.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "In Development"
+    },
+    "id": 5684934484164608
+  },
+  {
     "name": "Async Functions",
     "category": "JavaScript",
     "link": "https://tc39.github.io/ecmascript-asyncawait",
@@ -3360,7 +3414,8 @@
     "summary": "ECMAScript proposal for Object.getOwnPropertyDescriptors.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "Shipped",
+      "ieUnprefixed": "14393"
     },
     "spec": "es6",
     "statusid": 208
@@ -3616,6 +3671,33 @@
     "statusid": 220
   },
   {
+    "name": "Object rest/spread properties",
+    "category": "JavaScript",
+    "summary": "Introduces analogous rest properties for object destructuring assignment and spread properties for object literals.",
+    "link": "https://github.com/tc39/proposal-object-rest-spread",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "High"
+    },
+    "spec": "es6",
+    "msdn": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters",
+    "id": 5657004848709632
+  },
+  {
+    "name": "Asynchronous Iterators",
+    "category": "JavaScript",
+    "summary": "Introduces the AsyncIterator interface, an asynchronous iteration statement (for-await-of), and async generator functions.",
+    "link": "https://github.com/tc39/proposal-async-iteration",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "High"
+    },
+    "spec": "es6",
+    "id": 5727385018171392
+  },
+  {
     "name": "__proto__ (ES6)",
     "category": "JavaScript",
     "summary": "Support for legacy prototype manipulation similar to Object.setPrototypeOf.",
@@ -3763,7 +3845,7 @@
       "ieUnprefixed": "16299"
     },
     "spec": "es6",
-    "msdn": "https://developer.mozilla.org/docs/Mozilla/JavaScript_code_modules",
+    "msdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/import",
     "id": 5365692190687232,
     "uservoiceid": 6510097,
     "statusid": 228
@@ -3811,11 +3893,12 @@
   {
     "name": "Web Application Manifest",
     "category": "DOM",
-    "summary": "This specification defines a JSON-based manifest, which provides developers with a centralized place to put metadata associated with a web application.",
+    "summary": "This specification defines a JSON-based manifest, which provides developers with a centralized place to put metadata associated with a web application. On Windows 10, we support submitting web apps with a manifest to the Microsoft Store using packaging tools like PWA Builder or Visual Studio, and are previewing proactive indexing of published PWAs via the Bing crawler.",
     "link": "https://w3c.github.io/manifest/",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Shipped",
+      "ieUnprefixed": "17134"
     },
     "id": 6488656873259008,
     "uservoiceid": 6512948,
@@ -4287,12 +4370,13 @@
   },
   {
     "name": "Accessible Rich Internet Applications (WAI-ARIA) 1.1",
-    "category": "Misc",
+    "category": "Accessibility",
     "link": "https://www.w3.org/TR/wai-aria-1.1/",
-    "summary": "Full support for new WAI-ARIA 1.1 roles, states, and properties which define new accessible user interface elements since WAI-ARIA 1.0. Microsoft Edge currently supports the following ARIA roles: none, article, definition, log, math, note, scrollbar,  application, banner, complementary, contentinfo, form, main, navigation, search; and ARIA properties: aria-atomic, aria-autocomplete, aria-dropeffect, aria-grabbed, aria-label, aria-multiline, aria-orientation, aria-sort, aria-valuetext. Note that WAI-ARIA support is complex and not fully implemented in any browser.",
-    "standardStatus": "Working draft or equivalent",
+    "summary": "Support for new WAI-ARIA 1.1 roles, states, and properties which define new accessible user interface elements since WAI-ARIA 1.0.",
+    "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Shipped",
+      "ieUnprefixed": "17029"
     },
     "impl_status_chrome": "In Development",
     "shipped_opera_milestone": false,
@@ -4304,7 +4388,7 @@
       "text": "In Development",
       "value": 2
     },
-    "statusid": 255
+    "id": 5761503818940416
   },
   {
     "name": "Accessible Name and Description: Computation and API Mappings 1.1",
@@ -4350,19 +4434,6 @@
     },
     "spec": "css-animations-1",
     "statusid": 257
-  },
-  {
-    "name": "Upgrade insecure resource requests",
-    "category": "Network / Connectivity",
-    "link": "https://w3c.github.io/webappsec/specs/upgrade/",
-    "summary": "A mechanism which allows authors to instruct a user agent to upgrade a priori insecure resource requests to secure transport before Fetching them.",
-    "standardStatus": "Working draft or equivalent",
-    "ieStatus": {
-      "text": "Under Consideration"
-    },
-    "id": 6534575509471232,
-    "uservoiceid": 7314353,
-    "statusid": 258
   },
   {
     "name": "CSS Logical Properties Level 1",
@@ -4494,8 +4565,8 @@
     "summary": "Applies a CSS filter effect to the content behind an element. This is not the element's background but the content that would be drawn behind it.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
-      "ieUnprefixed": "17063"
+      "text": "Shipped",
+      "iePrefixed": "17063"
     },
     "impl_status_chrome": "In Development",
     "ff_views": {
@@ -4532,7 +4603,7 @@
   {
     "name": "WebM Container",
     "category": "Multimedia",
-    "link": "http://aomedia.org/",
+    "link": "https://aomedia.org/",
     "summary": "An open media container format. Supported for adaptive streaming video on devices with VP9 hardware acceleration, may be enabled on any device via an about:flags setting.",
     "standardStatus": "De-facto standard",
     "ieStatus": {
@@ -4565,7 +4636,7 @@
     "summary": "An open codec for audio.",
     "standardStatus": "De-facto standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "17063"
     },
     "impl_status_chrome": "Enabled by default",
@@ -4588,7 +4659,7 @@
     "summary": "An open video codec.",
     "standardStatus": "De-facto standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "17063"
     },
     "impl_status_chrome": "Enabled by default",
@@ -4748,7 +4819,7 @@
   {
     "name": "CSS image-set()",
     "category": "CSS",
-    "link": "https://drafts.csswg.org/css-images-3/#image-set-notation",
+    "link": "https://drafts.csswg.org/css-images-4/#image-set-notation",
     "summary": "Enables responsive images in CSS by specifiying multiple resolutions of an image that the browser can select from for the given situation.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
@@ -5019,7 +5090,8 @@
     "summary": "Screen Capture API allows a user's display or parts thereof be used as the source of a media stream.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Shipped",
+      "ieUnprefixed": "17134"
     },
     "ff_views": {
       "text": "In Development",
@@ -5163,8 +5235,8 @@
     "link": "https://webassembly.github.io/",
     "summary": "WebAssembly or wasm is a new portable, size- and load-time-efficient format suitable for compilation to the web.",
     "ieStatus": {
-      "text": "Preview Release",
-      "ieUnprefixed": "16241"
+      "text": "Shipped",
+      "ieUnprefixed": "16299"
     },
     "id": 5453022515691520,
     "msdn": "https://developer.mozilla.org/docs/WebAssembly",
@@ -5300,7 +5372,7 @@
     "summary": "Convenience methods for working with DOM Node trees",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "17035"
     },
     "spec": "dom",
@@ -5329,7 +5401,7 @@
     "summary": "Provides an API to mark event listeners as \"passive\", primarily to allow for scrolling performance improvements",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Shipped",
       "ieUnprefixed": "16215"
     },
     "spec": "passivelisteners",
@@ -5394,7 +5466,146 @@
       "text": "Under Consideration",
       "priority": "Low"
     },
-    "uservoiceid": 19594159,
-    "statusid": 315
+    "uservoiceid": 19594159
+  },
+  {
+    "name": "Media Queries: prefers-reduced-motion",
+    "category": "Accessibility",
+    "link": "https://drafts.csswg.org/mediaqueries-5/#prefers-reduced-motion",
+    "summary": "Used to detect if the user has requested the system minimize the amount of animation or motion it uses.",
+    "standardStatus": "Editor's draft",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Low"
+    },
+    "safari_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "uservoiceid": 19291531
+  },
+  {
+    "name": "HTMLCanvasElement toBlob method",
+    "category": "Graphics",
+    "link": "https://html.spec.whatwg.org/multipage/canvas.html#dom-canvas-toblob",
+    "summary": "Creates a Blob object representing a file containing the image in the canvas, and invokes a callback with a handle to that object.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text": "Prefixed",
+      "iePrefixed": "10"
+    },
+    "ff_views": {
+      "text": "Shipped",
+      "value": 1
+    },
+    "shipped_opera_milestone": true,
+    "safari_views": {
+      "text": "Preview Release",
+      "value": 1
+    },
+    "id": 4562033294966784,
+    "uservoiceid": 15107964
+  },
+  {
+    "name": "Web Share API",
+    "category": "Device",
+    "link": "https://wicg.github.io/web-share/",
+    "summary": "An API for sharing data (text, URLs, images) from the web to an app of the user's choosing.",
+    "standardStatus": "Editor's draft",
+    "spec": "web-share",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Low"
+    },
+    "id": 5668769141620736,
+    "uservoiceid": 31563175,
+    "msdn": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/share"
+  },
+  {
+    "name": "display: contents",
+    "category": "CSS",
+    "link": "https://drafts.csswg.org/css-display/#box-generation",
+    "summary": "\"display: contents\" allows you to control the box generation of an element. The element with \"display: contents\" won't generate any box, but its children and pseudo-elements will still do it as normal. It's like the element has been replaced by its children and pseudo-elements.",
+    "standardStatus": "Editor's draft",
+    "spec": "css-display",
+    "ieStatus": {
+      "text": "Not currently planned"
+    },
+    "id": 5663606012116992,
+    "uservoiceid": 10938981,
+    "msdn": "https://developer.mozilla.org/en-US/docs/Web/CSS/display"
+  },
+  {
+    "name": "inert attribute",
+    "category": "Accessibility",
+    "link": "https://github.com/WICG/inert",
+    "summary": "The inert attribute would allow web authors to mark parts of the DOM tree as inert: When a node is inert, then the user agent must act as if the node was absent for the purposes of targeting user interaction events, may ignore the node for the purposes of text search user interfaces (commonly known as \"find in page\"), and may prevent the user from selecting text in that node.",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Low"
+    },
+    "id": 5703266176335872,
+    "uservoiceid": 31606522
+  },
+  {
+    "name": ":focus-within pseudo-class",
+    "category": "CSS",
+    "link": "https://www.w3.org/TR/selectors-4/#the-focus-within-pseudo",
+    "summary": "The :focus-within pseudo-class applies to elements for which the :focus pseudo class applies. An element also matches :focus-within if one of its descendants in the flat tree (including non-element nodes, such as text nodes) matches the conditions for matching :focus.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Low"
+    },
+    "id": 5363834508279808,
+    "uservoiceid": 11725071
+  },
+  {
+    "name": "Accelerometer",
+    "category": "Device",
+    "link": "https://w3c.github.io/accelerometer/",
+    "summary": "Provides access to device’s acceleration along its three primary axes.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text": "Under Consideration"
+    },
+    "spec": "accelerometer",
+    "id": 5698781827825664
+  },
+  {
+    "name": "Gyroscope",
+    "category": "Device",
+    "link": "https://w3c.github.io/gyroscope/",
+    "summary": "Provides access to device’s rotation around its three primary axes.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text": "Under Consideration"
+    },
+    "spec": "gyroscope",
+    "id": 5698781827825664
+  },
+  {
+    "name": "Magnetometer",
+    "category": "Device",
+    "link": "https://w3c.github.io/magnetometer/",
+    "summary": "Provides access to magnetic field measurements along the device's three primary axes.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text": "Under Consideration"
+    },
+    "spec": "magnetometer",
+    "id": 5698781827825664
+  },
+  {
+    "name": "Orientation Sensor",
+    "category": "Device",
+    "link": "https://w3c.github.io/orientation-sensor/",
+    "summary": "Provides access to device’s physical orientation in WebGL-compatible quaternion and rotation matrix representations.",
+    "standardStatus": "Established standard",
+    "ieStatus": {
+      "text": "Under Consideration"
+    },
+    "spec": "orientation-sensor",
+    "id": 5698781827825664
   }
 ]
