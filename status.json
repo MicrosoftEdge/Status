@@ -5098,8 +5098,7 @@
     "summary": "Screen Capture API allows a user's display or parts thereof be used as the source of a media stream.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Shipped",
-      "ieUnprefixed": "17134"
+      "text": "In Development"
     },
     "ff_views": {
       "text": "In Development",
