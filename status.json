@@ -2331,7 +2331,7 @@
     "summary": "3D rendering via the <canvas> element. ",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Prefixed",
+      "text": "Shipped",
       "iePrefixed": "11"
     },
     "spec": "webgl",
