@@ -115,6 +115,23 @@
             "minLength": 1,
             "type": "string"
           },
+          "platform": {
+            "$type": "object",
+            "properties": {
+              "desktop": {
+                "type": "boolean"
+              },
+              "mixedreality": {
+                "type": "boolean"
+              },
+              "mobile": {
+                "type": "boolean"
+              },
+              "xbox": {
+                "type": "boolean"
+              }
+            }
+          },
           "priority": {
             "$ref": "#/definitions/feature_priority"
           },

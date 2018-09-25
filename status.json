@@ -5095,11 +5095,14 @@
     "name": "Screen Capture",
     "category": "Realtime / Communication",
     "link": "https://w3c.github.io/mediacapture-screen-share/",
-    "summary": "Screen Capture API allows a user's display or parts thereof be used as the source of a media stream.",
+    "summary": "Screen Capture API allows a user's display or parts thereof be used as the source of a media stream. NOTE: This feature works only on Window 10 Pro and Enterprise editions.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
       "text": "Shipped",
-      "ieUnprefixed": "17134"
+      "ieUnprefixed": "17134",
+      "platform": {
+        "desktop": true
+      }
     },
     "ff_views": {
       "text": "In Development",
