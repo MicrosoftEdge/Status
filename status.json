@@ -1739,8 +1739,9 @@
     "summary": "Specifies the blending mode used for each background layer",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "Low"
+      "text": "Preview Release",
+      "ieUnprefixed": "17763",
+      "flag": true      
     },
     "spec": "compositing-1",
     "id": 5768037999312896,
