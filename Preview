@@ -2375,7 +2375,8 @@
     "summary": "WebP is an image format that provides lossless and lossy compression for images on the web. ",
     "standardStatus": "Public discussion",
     "ieStatus": {
-      "text": "Preview Release"
+      "text": "Shipped",
+      "ieUnprefixed": "17763"
     },
     "id": 6471725441089536,
     "uservoiceid": 6508417,
