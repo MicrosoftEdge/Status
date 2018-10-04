@@ -471,8 +471,8 @@
     "summary": "Web Authentication provides an open, scalable, and interoperable solution to facilitate authentication, which replaces passwords with stronger hardware-bound credentials. The implementation in Microsoft Edge allows users to use Windows Hello (via PIN or biometrics) and external authenticators like FIDO2 Security Keys or FIDO U2F Security Keys, to securely authenticate to websites. This updates our previous implementation to match the updated spec and to be unprefixed and enabled by default.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Preview Release",
-      "iePrefixed": "17682"
+      "text": "Shipped",
+      "ieUnprefixed": "17763"
     },
     "impl_status_chrome": "Shipped",
     "ff_views": {
