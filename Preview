@@ -83,8 +83,8 @@
     "summary": "Defines how user agents map SVG markup to platform accessibility application programming interfaces.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "Medium"
+      "text": "Shipped",
+      "ieUnprefixed": "17763"
     },
     "statusid": 6
   },
