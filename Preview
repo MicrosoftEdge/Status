@@ -83,8 +83,8 @@
     "summary": "Defines how user agents map SVG markup to platform accessibility application programming interfaces.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "Medium"
+      "text": "Shipped",
+      "ieUnprefixed": "17763"
     },
     "statusid": 6
   },
@@ -471,8 +471,8 @@
     "summary": "Web Authentication provides an open, scalable, and interoperable solution to facilitate authentication, which replaces passwords with stronger hardware-bound credentials. The implementation in Microsoft Edge allows users to use Windows Hello (via PIN or biometrics) and external authenticators like FIDO2 Security Keys or FIDO U2F Security Keys, to securely authenticate to websites. This updates our previous implementation to match the updated spec and to be unprefixed and enabled by default.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Preview Release",
-      "iePrefixed": "17682"
+      "text": "Shipped",
+      "ieUnprefixed": "17763"
     },
     "impl_status_chrome": "Shipped",
     "ff_views": {
@@ -1598,7 +1598,8 @@
     "summary": "Allows hiding of portions of a visible elements.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Shipped",
+      "ieUnprefixed": "17763"
     },
     "spec": "css-masking-1",
     "msdn": "https://msdn.microsoft.com/library/ff972267.aspx",
@@ -1738,8 +1739,9 @@
     "summary": "Specifies the blending mode used for each background layer",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "Low"
+      "text": "Preview Release",
+      "ieUnprefixed": "17763",
+      "flag": true      
     },
     "spec": "compositing-1",
     "id": 5768037999312896,
@@ -2375,7 +2377,8 @@
     "summary": "WebP is an image format that provides lossless and lossy compression for images on the web. ",
     "standardStatus": "Public discussion",
     "ieStatus": {
-      "text": "Preview Release"
+      "text": "Shipped",
+      "ieUnprefixed": "17763"
     },
     "id": 6471725441089536,
     "uservoiceid": 6508417,
