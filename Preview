@@ -1598,7 +1598,8 @@
     "summary": "Allows hiding of portions of a visible elements.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Shipped",
+      "ieUnprefixed": "17763"
     },
     "spec": "css-masking-1",
     "msdn": "https://msdn.microsoft.com/library/ff972267.aspx",
