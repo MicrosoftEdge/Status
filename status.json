@@ -1089,8 +1089,7 @@
     "summary": "Method for registering (creating) custom elements in script (often used in Web Components).",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "Medium"
+      "text": "In Development"
     },
     "spec": "html",
     "id": 4696261944934400,
@@ -2787,8 +2786,7 @@
     "summary": "Enables DOM tree encapsulation. Without it, widgets may inadvertently break pages by using conflicting CSS selectors, class or id names, or JavaScript variables (often used in Web Components).",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "High"
+      "text": "In Development"
     },
     "spec": "dom",
     "id": 4667415417847808,
