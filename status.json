@@ -5630,5 +5630,18 @@
     "spec": "orientation-sensor",
     "id": 5698781827825664,
     "statusid": 330
+  },
+  {
+    "name": "Payment Handler API",
+    "link": "https://www.w3.org/TR/payment-handler/",
+    "category": "Misc",
+    "summary": "A web standard way to help payment providers create and grow an ecosystem to simplify handling and processing payments on the web for developers and merchants.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Under Consideration"
+    },
+    "spec": "paymentrequest",
+    "id": "5160285237149696",
+    "statusid": 331
   }
 ]
