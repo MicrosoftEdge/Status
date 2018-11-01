@@ -5643,5 +5643,42 @@
     "spec": "paymentrequest",
     "id": 5160285237149696,
     "statusid": 331
+  },
+  {
+    "name": "CSS Scrollbars",
+    "link": "https://drafts.csswg.org/css-scrollbars-1/",
+    "category": "CSS",
+    "summary": "CSS Scrollbars standardizes the obsolete scrollbar color properties introduced in 2000 by Windows IE 5.5.",
+    "standardStatus": "Working draft or equivalent",
+    "ieStatus": {
+      "text": "Removed",
+      "iePrefixed": "5.5",
+      "platform": {
+        "desktop": true
+      }
+    },
+    "ff_views": {
+      "text": "Behind a flag"
+    },
+    "impl_status_chrome": "Not currently planned",
+    "spec": "css-scrollbars-1",
+    "uservoiceid": 9081910,
+    "statusid": 332
+  },
+  {
+    "name": "WebKit Scrollbars",
+    "category": "CSS",
+    "summary": "The ::-webkit-scrollbar CSS pseudo-element affects the style of the scrollbar of an element.",
+    "standardStatus": "De-facto standard",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Medium"
+    },
+    "ff_views": {
+      "text": "In Development"
+    },
+    "impl_status_chrome": "Shipped",
+    "uservoiceid": 9081910,
+    "statusid": 333
   }
 ]
