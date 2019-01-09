@@ -5663,5 +5663,19 @@
     "impl_status_chrome": "Shipped",
     "uservoiceid": 9081910,
     "statusid": 332
+  },
+  {
+    "name": "Origin-Signed HTTP Exchanges",
+    "link": "https://github.com/WICG/webpackage/",
+    "spec": "web-package-loading",
+    "category": "Network / Connectivity",
+    "summary": "Allows sites to send HTTP request+response pairs (exchanges) that are authoritative for an origin, even when the server itself is not authoritative for that origin.",
+    "standardStatus": "Editor's draft",
+    "ieStatus": {
+      "text": "Under Consideration",
+      "priority": "Low"
+    },
+    "id": 5745285984681984,
+    "statusid": 333
   }
 ]
