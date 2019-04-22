@@ -10,7 +10,7 @@ This repository provides valuable data on the implementation status and future p
 
 ## Contributing
 
-Want to contribute to this project? We'd love to have your help! Take a look at the [Contributing Guidelines](.github/CONTRIBUTING.md) before you dive in. For many features, support data for browsers other than Internet Explorer and Microsoft Edge comes from the [Chromium Dashboard](https://www.chromestatus.com) and bugs against that data can be filed on [Chromium Dashboard Github page](https://github.com/GoogleChrome/chromium-dashboard/issues).
+Want to contribute to this project? We'd love to have your help! Take a look at the [Contributing Guidelines](.github/CONTRIBUTING.md) before you dive in. For many features, support data for browsers other than Internet Explorer and Microsoft Edge comes from the [Chromium Dashboard](https://www.chromestatus.com) and bugs against that data can be filed on [Chromium Dashboard GitHub page](https://github.com/GoogleChrome/chromium-dashboard/issues).
 
 When adding a new feature, add it to the very end and increment your new status item's `"statusid"` value by 1 (eg: If the status item's `statusid` before yours is 350, make your `statusid` value 351).
 
