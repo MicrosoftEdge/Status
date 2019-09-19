@@ -1398,8 +1398,7 @@
     "summary": "Import HTML documents into other HTML documents (often used in Web Components).",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
-      "priority": "Low"
+      "text": "Not currently planned"
     },
     "spec": "html-imports",
     "id": 5144752345317376,
