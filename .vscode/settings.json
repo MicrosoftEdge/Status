@@ -1,0 +1,8 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": [ "/status.json" ],
+      "url": "/scripts/schema.json"
+    }
+  ]
+}
