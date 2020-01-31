@@ -14,7 +14,7 @@ Want to contribute to this project? We'd love to have your help! Take a look at 
 
 When adding a new feature, add it to the very end and increment your new status item's `"statusid"` value by 1 (eg: If the status item's `statusid` before yours is 350, make your `statusid` value 351).
 
-Note that this GitHub project is *not* for making feature requests for or reporting bugs in Internet Explorer or Microsoft Edge. Browser feedback can be provided through the [issue tracker](https://developer.microsoft.com/microsoft-edge/platform/issues/) and on [UserVoice](https://wpdev.uservoice.com/forums/257854-microsoft-edge-developer).
+Note that this GitHub project is *not* for making feature requests for or reporting bugs in Internet Explorer or Microsoft Edge. Browser feedback can be provided through the built in `Help and feedback > Send feedback` menu or `alt + shift + i`.
 
 
 ## Additional Attributions
