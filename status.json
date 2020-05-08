@@ -5676,5 +5676,16 @@
     },
     "id": 5745285984681984,
     "statusid": 333
+  },
+  {
+    "category": "JavaScript",
+    "ieStatus": {
+      "text": "Under Consideration"
+    },
+    "name": "ES Module Attributes",
+    "summary": "An inline syntax for module import statements to pass on more information alongside the module specifier.",
+    "spec": "https://github.com/tc39/proposal-module-attributes",
+    "standardStatus": "Public discussion",
+    "statusid": 334
   }
 ]
