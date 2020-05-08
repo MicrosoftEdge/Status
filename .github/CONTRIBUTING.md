@@ -14,7 +14,7 @@ Over time, it's expected (and desired!) that features will become fully interope
 ## Updating Features
 Feature data on status.microsoftedge.com is merged from both status.json and also the [Chromium Dashboard](https://github.com/GoogleChrome/chromium-dashboard). While it is possible to override data from the Chromium Dashboard, it is preferred that this data be updated upstream in the Chromium Dashboard project. This allows both sites to reflect accurate information.
 
-When requesting to change the implementation status of a browser or the standardization status, please include a citation in your pull request to where the change in status can be validated. Microsoft believes the W3C is the best place for developing interoperable open web standards. Therefore, please use W3C specifications in pull requests, when available.
+When requesting to change the implementation status of a browser or the standardization status, please include a citation in your pull request to where the change in status can be validated. Microsoft believes that standards organizations (such as the W3C) are the best place for developing interoperable open web standards. Therefore, please reference standards specifications in pull requests, when available.
 
 ## Reporting bugs in the website 
 Bugs happen so if you find one please open an issue. 
