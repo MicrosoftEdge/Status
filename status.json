@@ -41,7 +41,7 @@
     "summary": "Allows authors to utilize longhand properties of font-variant-caps, font-variant-ligatures, font-variant-numeric, font-variant-alternates, font-variant-east-asian, font-variant-position for font selection and adjustments rather than utilizing lower level props such as font-feature-settings.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Medium"
     },
     "id": 5678497057996800,
@@ -54,7 +54,7 @@
     "summary": "Allows authors to send a header of a whistelisted set of domains from the server to other origins from loaded or accessing the content",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Medium"
     },
     "statusid": 4
@@ -152,7 +152,7 @@
     "summary": "Allows developers to cooperatively schedule background tasks to avoid introducing delays with high priority tasks in the same event loop.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Medium"
     },
     "spec": "requestidlecallback",
@@ -190,7 +190,7 @@
     "summary": "Allows one to specify whether or not an element is resizable by the user, and if so, along which axis/axes",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Low"
     },
     "safari_views": {
@@ -237,7 +237,7 @@
     "summary": "An interface for web applications to access runtime performance information of the browser event loop.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Low"
     },
     "spec": "frame-timing",
@@ -252,7 +252,7 @@
     "summary": "An interface to observe the performance timeline (https://w3c.github.io/performance-timeline) and receive notifications of new performance entries as they are recorded.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Medium"
     },
     "spec": "performance-timeline-2",
@@ -267,7 +267,7 @@
     "summary": "A primitive for isolating style, layout, and paint. This will allow web developers to opt into the various aspects of the pipeline, allowing for UA optimizations.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Low"
     },
     "id": 6522186978295808,
@@ -280,7 +280,7 @@
     "summary": "Allows the author to set the size and depth at which it sinks into the surrounding text.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Low"
     },
     "safari_views": {
@@ -311,7 +311,7 @@
     "summary": "Allows a web developer to attach an observer to an element and a callback will be fired when that element is resized",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Low"
     },
     "id": 5705346022637568,
@@ -324,7 +324,7 @@
     "summary": "Enables the server to communicate request-response cycle metrics to the user agent, and provides a JavaScript interface to enable applications to access and act on those metrics.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Low"
     },
     "spec": "server-timing",
@@ -337,7 +337,7 @@
     "summary": "A keyword that may be used with \"link\" elements which provides a declarative fetch primitive that initiates an early fetch and separates fetching from resoruce execution.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development",
+      "text": "Not Supported",
       "priority": "Medium"
     },
     "id": 5757468554559488,
@@ -375,7 +375,7 @@
     "summary": "A link relation type used to indicate an origin that will be used to fetch required resources, so the browser can open a connection early for resouces that will be required later in the loading process.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Medium"
     },
     "spec": "resource-hints",
@@ -458,7 +458,7 @@
     "summary": "Credential Management API describes an imperative API enabling a website to request a user’s credentials from a user agent, and to help the user agent correctly store user credentials for future use.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Partial Support (WebAuthn only)"
     },
     "msdn": "https://developer.mozilla.org/docs/Web/API/Credential_Management_API",
     "id": 5026422640869376,
@@ -510,7 +510,7 @@
     "summary": "Interactive widget to show/hide content. NOTE: A first implementation landed in some Preview builds of Edge, but we had to pull it off due to quality issues.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "High"
     },
     "spec": "html",
@@ -540,7 +540,7 @@
     "summary": "Enable directory uploading by allowing a developer to read directory contents (files and sub-directories) asynchronously and be able to identify the directory structure.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Partial Support (webkitdirectory attribute https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/webkitdirectory)",
       "priority": "Medium"
     },
     "spec": "file-system-api",
@@ -972,7 +972,7 @@
     "summary": "Allows script loaded via a CSP2 nonce-based or hash-based whitelist to load other script, enabling developers and site administrators to reduce their reliance on whitelists and to tighten CSP implementations.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Medium"
     },
     "id": 5633814718054400,
@@ -1060,7 +1060,7 @@
     "summary": "Adds a will-change CSS property, that can be used to signal that a particular property is likely to be changed in the future, or that an element's content is likely to change.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Low"
     },
     "spec": "css-will-change-1",
@@ -1075,7 +1075,7 @@
     "summary": "Adds an optional argument to existing scroll APIs that specifies whether scrolling should be smooth. Also adds a CSS property for this.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "Not Supported"
     },
     "spec": "cssom-view-1",
     "id": 5812155903377408,
@@ -1089,7 +1089,7 @@
     "summary": "Method for registering (creating) custom elements in script (often used in Web Components).",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Not Supported"
     },
     "spec": "html",
     "id": 4696261944934400,
@@ -1193,7 +1193,7 @@
     "summary": "Allows dragging and dropping entire folders using HTML5 Drag and Drop. Extends the DataTransferItem with a method to get a FileEntry/DirectoryEntry.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Not Supported"
     },
     "id": 5733953138851840,
     "uservoiceid": 6261304,
@@ -1300,7 +1300,7 @@
     "summary": "CSS properties helpful for printed publication.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "Not Supported"
     },
     "spec": "css-gcpm-3",
     "id": 5400251359821824,
@@ -1377,7 +1377,7 @@
     "summary": "An addendum to HTML5 forms extending the abilities of configuring HTTP requests through HTML markup.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "Not Supported"
     },
     "uservoiceid": 8157372,
     "impl_status_chrome": "No active development",
@@ -1398,7 +1398,7 @@
     "summary": "Import HTML documents into other HTML documents (often used in Web Components).",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Not currently planned"
+      "text": "Not Supported"
     },
     "spec": "html-imports",
     "id": 5144752345317376,
@@ -1412,7 +1412,7 @@
     "summary": "Header for proactive content negotiation; just as the Accept header allowed clients to indicate what formats they prefer, Client Hints allow clients to indicate a list of device and agent specific preferences.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "Not Supported"
     },
     "id": 5504430086553600,
     "uservoiceid": 6261321,
@@ -1481,7 +1481,7 @@
     "summary": "The seamless attribute is used to embed an <iframe> in the calling page without scrollbars or borders (e.g. seamlessly) and with the parent document's styles applying to the embedded seamless iframe.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Low"
     },
     "spec": "html51",
@@ -1496,7 +1496,7 @@
     "summary": "Gives the content of an iframe as a src context to embed (e.g. <iframe seamless srcdoc=\"<b>Hello World</b>\"></iframe>).",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Not Supported"
     },
     "spec": "html",
     "id": 5222955109842944,
@@ -1539,7 +1539,7 @@
     "summary": "Extends the existing IndexedDB implementation with support for compound keys, indexed array values, and multiEntry.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "Not Supported"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
@@ -1669,7 +1669,7 @@
     "summary": "Encode audio and video streams in the browser.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "Not Supported"
     },
     "spec": "mediastream-recording",
     "id": 5929649028726784,
@@ -1722,7 +1722,7 @@
     "summary": "Provides a way to blend an HTML or SVG element with its backdrop",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Low"
     },
     "spec": "compositing-1",
@@ -1737,7 +1737,7 @@
     "summary": "Specifies the blending mode used for each background layer",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Not Supported",
       "ieUnprefixed": "17763",
       "flag": true
     },
@@ -2021,7 +2021,7 @@
     "summary": "Implement the new SVG2 features.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Partial Support",
       "priority": "Low"
     },
     "spec": "svg2",
@@ -2036,7 +2036,7 @@
     "summary": "The dataset IDL attribute provides access to custom data attributes on SVG elements. Its behavior is the same as the corresponding IDL member on the HTMLElement interface.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Not Supported"
     },
     "spec": "svg2",
     "id": 5727911176830976,
@@ -2063,7 +2063,7 @@
     "summary": "Transport Layer Security (TLS) protocol version 1.3 allows faster and more secure connection compared to TLS 1.2 by reducing round trip number, and removing legacy vulnerable cryptography features.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Provided-by-underlying-OS (Non-public target Win10 20H2)"
     },
     "id": 5712755738804224,
     "uservoiceid": 17379247,
@@ -2122,7 +2122,7 @@
     "summary": "Identify the physical key being pressed; Query key from layout.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "ieUnprefixed": "Medium"
     },
     "spec": "uievents",
@@ -2183,7 +2183,7 @@
     "summary": "This specification defines an API that provides access to the vibration mechanism of the hosting device. Vibration is a form of tactile feedback. ",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "Not Supported"
     },
     "spec": "vibration",
     "id": 5698768766763008,
@@ -2212,7 +2212,7 @@
     "summary": "A unified model for supporting animation and synchronization on the Web platform.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Medium"
     },
     "spec": "web-animations-1",
@@ -2272,7 +2272,7 @@
     "summary": "Enables web developers to incorporate speech recognition into their web pages.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "Not Supported"
     },
     "spec": "speech-api",
     "id": 5908775487668224,
@@ -2346,7 +2346,7 @@
     "summary": "An update to WebGL, based on OpenGL ES 3.0",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Medium"
     },
     "spec": "webgl2",
@@ -2505,7 +2505,7 @@
     "summary": "The function allows filtering an CSS input image with a set of filter functions. The used filter functions are the same as for the CSS filter property. The filter() function can be animated as well.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "Not Supported"
     },
     "spec": "filter-effects-1",
     "id": 5425136400334848,
@@ -2519,7 +2519,7 @@
     "summary": "The function allows filtering using SVG Filter elements as the filter function.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "Not Supported"
     },
     "spec": "filter-effects-1",
     "id": 5822463824887808,
@@ -2580,7 +2580,7 @@
     "summary": "Ambient Light Event API which is a handy way to make a web page or web app aware of any change in light intensity.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Not Supported",
       "ieUnprefixed": "10586"
     },
     "spec": "ambient-light",
@@ -2595,7 +2595,7 @@
     "summary": "Allows access to see the battery level of the device's battery",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Low"
     },
     "spec": "battery-status",
@@ -2670,7 +2670,7 @@
     "summary": "Add a textDecoration attribute to canvas 2D contexts, behavior similar to existing \"font\" attribute: It's a DOMString, parsed the same way as corresponding CSS property (text-decoration).",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "Not Supported"
     },
     "spec": "html",
     "id": 5663034638860288,
@@ -2699,7 +2699,7 @@
     "summary": "This specification defines an interface to store and retrieve error data related to the previous navigations of a document.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Low"
     },
     "id": 5391249376804864,
@@ -2713,7 +2713,7 @@
     "summary": "Define arbitrary shapes inside and around which inline content can flow.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Medium"
     },
     "spec": "css-shapes-1",
@@ -2756,7 +2756,7 @@
     "summary": "The inputmode content attribute is an enumerated attribute that specifies what kind of input mechanism would be most helpful for users entering content into the form control.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Low"
     },
     "spec": "html",
@@ -2785,7 +2785,7 @@
     "summary": "Enables DOM tree encapsulation. Without it, widgets may inadvertently break pages by using conflicting CSS selectors, class or id names, or JavaScript variables (often used in Web Components).",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Not Supported"
     },
     "spec": "dom",
     "id": 4667415417847808,
@@ -2831,7 +2831,7 @@
     "summary": "CSS properties that control the position and size of replaced content within the content box",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Medium"
     },
     "spec": "css-images-3",
@@ -2976,7 +2976,7 @@
     "summary": "Enables writing to files from web applications.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "Not Supported"
     },
     "spec": "file-system",
     "id": 5963201313243136,
@@ -3336,7 +3336,7 @@
     "summary": "Registers a callback to be invoked when a promise is settled (whether it is fulfilled or rejected), allowing for cleanup of pending or ongoing actions depending on that promise.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Supported"
     },
     "msdn": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/finally",
     "id": 5704570235781120,
@@ -3404,7 +3404,7 @@
     "summary": "Shared memory and atomics for ECMAscript.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Not Supported",
       "ieUnprefixed": "16215"
     },
     "spec": "es6",
@@ -3432,7 +3432,7 @@
     "summary": "Provides semantic language processing for two-way communication with a remote host. This new interface creates a system-to-system forced sonic recognition on the receiving party.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "High"
     },
     "msdn": "https://www.youtube.com/watch?v=lD9FAOPBiDk&feature=youtu.be",
@@ -3478,7 +3478,7 @@
     "link": "https://html.spec.whatwg.org/multipage/semantics.html#meta-referrer",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Partial Support (Only `never`, `always`, `origin`, `default` tokens are supported for navigation)"
     },
     "id": 5126747842412544,
     "statusid": 215
@@ -3643,7 +3643,7 @@
     "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Not Supported",
       "ieUnprefixed": "14342",
       "flag": true
     },
@@ -3682,7 +3682,7 @@
     "link": "https://github.com/tc39/proposal-object-rest-spread",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "High"
     },
     "spec": "es6",
@@ -3697,7 +3697,7 @@
     "link": "https://github.com/tc39/proposal-async-iteration",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "High"
     },
     "spec": "es6",
@@ -3786,7 +3786,7 @@
     "link": "https://ecma-international.org/ecma-262/6.0/index.html",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Low"
     },
     "spec": "es6",
@@ -3824,7 +3824,7 @@
     "link": "https://github.com/johnmccutchan/ecmascript_simd/",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Preview Release",
+      "text": "Not Supported",
       "ieUnprefixed": "10240",
       "flag": true
     },
@@ -3968,7 +3968,7 @@
     "summary": "An HTML element for modal and non-modal dialog boxes",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Medium"
     },
     "spec": "html",
@@ -4096,7 +4096,7 @@
     "summary": "Standardizes a URL fragment syntax for specifying a fragment of a media resource.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "Partial Support"
     },
     "impl_status_chrome": "Enabled by default",
     "shipped_opera_milestone": true,
@@ -4155,7 +4155,7 @@
     "summary": "An API for communicating with Bluetooth Low Energy devices as a GATT Client.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Low"
     },
     "spec": "web-bluetooth",
@@ -4174,7 +4174,7 @@
     "summary": "Enables NFC (near field communications) wireless communication between two devices at close proximity, usually less than a few centimeters",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Low"
     },
     "spec": "web-nfc",
@@ -4450,7 +4450,7 @@
     "summary": "Introduces logical properties and values that provide the author with the ability to control layout through logical, rather than physical, direction and dimension mappings.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "High"
     },
     "spec": "css-logical-props-1",
@@ -4596,7 +4596,7 @@
     "summary": "Adding support for international email addresses that use UTF-8 characters (e.g. 伊昭傑@郵件.商務, राम@मोहन.ईन्फो)",
     "standardStatus": "Public discussion",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Low"
     },
     "ff_views": {
@@ -4703,7 +4703,7 @@
     "summary": "An open multimedia container.",
     "standardStatus": "De-facto standard",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Supported"
     },
     "impl_status_chrome": "Enabled by default",
     "ff_views": {
@@ -4763,7 +4763,7 @@
     "summary": "Data channels allow a web application to send and receive generic application data peer-to-peer.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Low"
     },
     "impl_status_chrome": "Enabled by default",
@@ -4786,7 +4786,7 @@
     "summary": "Provides a hint to the browser on which scaling algorithm should be used.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Low"
     },
     "spec": "css-images-3",
@@ -4816,7 +4816,7 @@
     "summary": "Motion paths allow authors to animate any graphical object along an author specified path.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Medium"
     },
     "spec": "motion-1",
@@ -4831,7 +4831,7 @@
     "summary": "Enables responsive images in CSS by specifiying multiple resolutions of an image that the browser can select from for the given situation.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Medium"
     },
     "impl_status_chrome": "Enabled by default",
@@ -4855,7 +4855,7 @@
     "summary": "The all property is a shorthand that resets all CSS properties except direction and unicode-bidi",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Medium"
     },
     "spec": "css-cascade-3",
@@ -4894,7 +4894,7 @@
     "summary": "The :scope pseudo-class represents any element that is in the contextual reference element set.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Medium"
     },
     "impl_status_chrome": "Enabled by default",
@@ -4917,7 +4917,7 @@
     "summary": "The tab-size property sets the size used to render tab characters in situations where white space is preserved",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Medium"
     },
     "impl_status_chrome": "Enabled by default",
@@ -4941,7 +4941,7 @@
     "summary": "The relational pseudo-class, :has(), is a functional pseudo-class taking a relative selector list as an argument. Similar to jQuery’s :has() selector.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Low"
     },
     "impl_status_chrome": "No public signals",
@@ -4964,7 +4964,7 @@
     "summary": "Support the attr() function as a component value in properties applied to an element. Currently, attr() is only supported in the content property applied to pseudo-elements.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Low"
     },
     "impl_status_chrome": "No public signals",
@@ -4987,7 +4987,7 @@
     "summary": "An HTML element for toolbars and popup menus.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Low"
     },
     "impl_status_chrome": "No public signals",
@@ -5074,7 +5074,7 @@
     "summary": "A boolean attribute that reverses the order of an ordered list when present.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Medium"
     },
     "impl_status_chrome": "Enabled by default",
@@ -5123,7 +5123,7 @@
     "summary": "Media Capture API can be used to capture Canvas content as MediaStream to be recorded or transmitted to remote peers.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Medium"
     },
     "ff_views": {
@@ -5144,7 +5144,7 @@
     "summary": "Media Capture API can be used to capture non-DRM content from mediaelement into another MediaStream.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Low"
     },
     "ff_views": {
@@ -5165,7 +5165,7 @@
     "summary": "The Audio Output Devices API allows a Web application to direct audio output to authorized endpoints other than the user agent default.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Supported",
       "priority": "High"
     },
     "id": 4621603249848320,
@@ -5219,7 +5219,7 @@
     "summary": "Provides an API for finding ranges of text in a document, with a variety of selection criteria. Similar to a user-agent's find-on-page or page-search capability.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Low"
     },
     "spec": "findtext",
@@ -5261,7 +5261,7 @@
     "summary": "This CSS module describes events and interfaces used for dynamically loading font resources.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Low"
     },
     "spec": "css-font-loading-api",
@@ -5290,7 +5290,7 @@
     "summary": "Adds additional direction-specific values for the CSS touch-action property for pan-up, pan-down, pan-left, pan-right have been added to the specification. ",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Medium"
     },
     "spec": "pointerevents",
@@ -5327,7 +5327,7 @@
     "summary": "This specification addresses gaps so user agents do not have to reverse engineer encoding implementations.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Not Supported"
     },
     "spec": "whatwg-encoding",
     "msdn": "https://developer.mozilla.org/docs/Web/API/TextEncoder",
@@ -5353,7 +5353,7 @@
     "summary": "Provides an API for notifying a Service Worker that the user has come back online, or to schedule periodic events to synchronize local data with the server.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "In Development"
+      "text": "Not Supported"
     },
     "spec": "bgsync",
     "msdn": "https://developer.mozilla.org/docs/Web/API/SyncManager",
@@ -5399,7 +5399,7 @@
     "summary": "Enable websites to customize media metadata so they can control the notification and lock screen UI. Also, allow them to control media in the page from outside the page, such as platform UIs and media keys.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "Not Supported"
     },
     "msdn": "https://developer.mozilla.org/docs/Web/API/MediaSession",
     "id": 5639924124483584,
@@ -5449,7 +5449,7 @@
     "summary": "Extends the selectors with :matches, :has, :not(complex selector), :dir, case insensitive attribute matching and more.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "Not Supported"
     },
     "statusid": 318
   },
@@ -5460,7 +5460,7 @@
     "summary": "An API for allowing websites to create a floating video window always on top of other windows so that users may continue consuming media while they interact with other content sites, or applications on their device.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "Not Supported"
     },
     "impl_status_chrome": "In Development",
     "id": 5729206566649856,
@@ -5474,7 +5474,7 @@
     "summary": "Applies while an element matches the :focus pseudo-class and the user agent (browser, etc) determines via heuristics that the focus should be made evident on the element.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Low"
     },
     "uservoiceid": 19594159,
@@ -5487,7 +5487,7 @@
     "summary": "Used to detect if the user has requested the system minimize the amount of animation or motion it uses.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Low"
     },
     "safari_views": {
@@ -5532,7 +5532,7 @@
     "standardStatus": "Editor's draft",
     "spec": "web-share",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Low"
     },
     "id": 5668769141620736,
@@ -5561,7 +5561,7 @@
     "link": "https://github.com/WICG/inert",
     "summary": "The inert attribute would allow web authors to mark parts of the DOM tree as inert: When a node is inert, then the user agent must act as if the node was absent for the purposes of targeting user interaction events, may ignore the node for the purposes of text search user interfaces (commonly known as \"find in page\"), and may prevent the user from selecting text in that node.",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Low"
     },
     "id": 5703266176335872,
@@ -5575,7 +5575,7 @@
     "summary": "The :focus-within pseudo-class applies to elements for which the :focus pseudo class applies. An element also matches :focus-within if one of its descendants in the flat tree (including non-element nodes, such as text nodes) matches the conditions for matching :focus.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "High"
     },
     "id": 5363834508279808,
@@ -5589,7 +5589,7 @@
     "summary": "Provides access to device’s acceleration along its three primary axes.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "Not Supported"
     },
     "spec": "accelerometer",
     "id": 5698781827825664,
@@ -5602,7 +5602,7 @@
     "summary": "Provides access to device’s rotation around its three primary axes.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "Not Supported"
     },
     "spec": "gyroscope",
     "id": 5698781827825664,
@@ -5615,7 +5615,7 @@
     "summary": "Provides access to magnetic field measurements along the device's three primary axes.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "Not Supported"
     },
     "spec": "magnetometer",
     "id": 5698781827825664,
@@ -5628,7 +5628,7 @@
     "summary": "Provides access to device’s physical orientation in WebGL-compatible quaternion and rotation matrix representations.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "Not Supported (DeviceOrientation is supported https://developer.mozilla.org/en-US/docs/Web/API/Detecting_device_orientation#DeviceOrientationEvent)"
     },
     "spec": "orientation-sensor",
     "id": 5698781827825664,
@@ -5641,7 +5641,7 @@
     "summary": "A web standard way to help payment providers create and grow an ecosystem to simplify handling and processing payments on the web for developers and merchants.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Under Consideration"
+      "text": "Not Supported"
     },
     "spec": "paymentrequest",
     "id": 5160285237149696,
@@ -5671,7 +5671,7 @@
     "summary": "Allows sites to send HTTP request+response pairs (exchanges) that are authoritative for an origin, even when the server itself is not authoritative for that origin.",
     "standardStatus": "Editor's draft",
     "ieStatus": {
-      "text": "Under Consideration",
+      "text": "Not Supported",
       "priority": "Low"
     },
     "id": 5745285984681984,
