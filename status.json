@@ -2272,10 +2272,9 @@
     "summary": "Enables web developers to incorporate speech recognition into their web pages.",
     "standardStatus": "Working draft or equivalent",
     "ieStatus": {
-      "text": "Not Supported"
+      "text": "In Development (Windows & Mac backend services)"
     },
     "spec": "speech-api",
-    "id": 5908775487668224,
     "uservoiceid": 6263660,
     "statusid": 142
   },
@@ -5687,5 +5686,165 @@
     "spec": "https://github.com/tc39/proposal-module-attributes",
     "standardStatus": "Public discussion",
     "statusid": 334
+  },
+  {
+    "name": "URL Protocol Handler Registration for PWAs",
+    "category": "Misc",
+    "ieStatus": { "text" : "In Development" },
+    "summary": "Enable web applications to register themselves as handlers of custom URL protocols/schemes using their installation manifest.",
+    "statusid": 335,
+    "id": 6021277022158848
+  },
+  {
+    "name": "Run PWA on OS Login",
+    "category": "Misc",
+    "ieStatus": { "text" : "In Development" },
+    "summary": "Provides a mechanism for a Progressive Web Application (PWA) to be configured at install time with the option to be launched automatically when a user logs in to its OS session.",
+    "statusid": 336,
+    "id": 5534549008187392
+  },
+  {
+    "name": "Version History",
+    "category": "Misc",
+    "ieStatus": { "text" : "In Development" },
+    "summary": "Provide version information about the current manifest.json including URLs to provide information about the newest updates. The browser will, when available, advertise and display the new ‘changelogs’ when a user clicks the relevant UI.",
+    "statusid": 337,
+    "id": 6644911535292416
+  },
+  {
+    "name": "Window Controls Overlay for Installed Desktop Web Apps",
+    "category": "Misc",
+    "ieStatus": { "text" : "In Development" },
+    "summary": "The app's client area is extended to cover the entire window--including the title bar area--and the window control buttons (close, maximize/restore, minimize) are overlaid on top of the client area. The web app developer is responsible for drawing and input-handling for the entire window except for the window controls overlay.",
+    "statusid": 338,
+    "id": 5741247866077184
+  },
+  {
+    "name": "EditContext API",
+    "category": "User input",
+    "ieStatus": { "text" : "In Development" },
+    "summary": "Simplifies the process of integrating a web app with advanced text input methods such as VK shape-writing, Handwriting panels, speech recognition, IME Compositions etc., improves accessibility and performance, and unlocks new capabilities for web-based editors.",
+    "statusid": 339,
+    "id": 5041440373604352
+  },
+  {
+    "name": "App shortcuts",
+    "category": "Misc",
+    "ieStatus": { "text" : "In Development" },
+    "summary": "Lets a web application register shortcuts for common tasks. These would typically be added to the app launcher icon (for a progressive web app) enabling the user to quickly run key tasks.",
+    "statusid": 340,
+    "id": 5706099464339456
+  },
+  {
+    "name": "MediaCapabilities: query HDR with decodingInfo()",
+    "category": "Multimedia",
+    "ieStatus": { "text" : "In Development" },
+    "summary": "Provides APIs for websites to detect whether HDR formats, i.e. Dolby Vision, HDR10(+), and HLG, can be decoded and rendered by the browser.",
+    "statusid": 341,
+    "id": 6640863931269120
+  },
+  {
+    "name": "MediaCapabilities: query spatial audio with decodingInfo()",
+    "category": "Multimedia",
+    "ieStatus": { "text" : "In Development" },
+    "summary": "Adds APIs for detecting whether spatial audio formats, i.e., Dolby Atmos and DST:X, can be rendered.",
+    "statusid": 342,
+    "id": 5463541354070016
+  },
+  {
+    "name": "Forced colors mode",
+    "category": "CSS",
+    "ieStatus": { "text" : "Shipped" },
+    "summary": "Adds the 'forced-colors' and 'forced-color-adjust' media features, which is used to detect if the user agent has enabled a forced colors mode where it enforces a user-chosen limited color palette on the page.",
+    "statusid": 343,
+    "id": 5757293075365888
+  },
+  {
+    "name": "New System Color Keywords",
+    "category": "CSS",
+    "ieStatus": { "text" : "Shipped" },
+    "summary": "Give users the ability to customize their sites with the relevant system colors when in forced colors mode. The keywords being added are ActiveText, Field, and FieldText.",
+    "statusid": 344,
+    "id": 4892451430989824
+  },
+  {
+    "name": "Storage Access API",
+    "category": "Offline / Storage",
+    "ieStatus": { "text" : "In Development" },
+    "summary": "The Storage Access API allows access to first-party storage in a third-party context when a user has provided a direct intent to allow storage that would otherwise be blocked by the browser’s current configuration.",
+    "statusid": 345,
+    "id": 5612590694662144
+  },
+  {
+    "name": "VirtualKeyboard API",
+    "category": "User input",
+    "ieStatus": { "text" : "In Development" },
+    "summary": "Provide authors with more control over when the virtual keyboard is shown or hidden. It also fires events with the size of the virtual keyboard when it occludes content in the page.",
+    "statusid": 346,
+    "id": 5680057076940800
+  },
+  {
+    "name": "Delegated ink trail",
+    "category": "User input",
+    "ieStatus": { "text" : "In Development" },
+    "summary": "Enable web applications to describe the last input pointer with sufficient detail so that the browser can present the segments of the ink trail for input that has been delivered, but not yet rendered (the pointer trail).",
+    "statusid": 347,
+    "id": 5961434129235968
+  },
+  {
+    "name": "Window Segments Enumeration API",
+    "category": "Misc",
+    "ieStatus": { "text" : "In Development" },
+    "summary": "API that describes the logical segments of a window’s viewport. Adds a new JavaScript API to enable web developers to target a new class of foldable devices.",
+    "statusid": 348,
+    "id": 5170498990243840
+  },
+  {
+    "name": "DualScreen/Foldables CSS additions",
+    "category": "CSS",
+    "ieStatus": { "text" : "In Development" },
+    "summary": "Add new CSS media feature and environment variables to enable web developers to target a new class of foldable devices with responsive layouts.",
+    "statusid": 349,
+    "id": 5310356412956672
+  },
+  {
+    "name": "Cookies default to SameSite=Lax",
+    "category": "Network / Connectivity",
+    "ieStatus": { "text" : "In Development" },
+    "summary": "Treat cookies as SameSite=Lax by default if no SameSite attribute is specified. Developers are still able to opt-in to the status quo of unrestricted use by explicitly asserting SameSite=None. See: https://docs.microsoft.com/en-us/microsoft-edge/web-platform/site-impacting-changes for more information.",
+    "statusid": 350,
+    "id": 5088147346030592
+  },
+  {
+    "name": "AV1 Decoder",
+    "category": "Multimedia",
+    "ieStatus": { "text" : "In Development" },
+    "summary": "AV1 is a next generation codec developed by the Alliance for Open Media. AV1 improves compression efficiency over the VP9 video codec.",
+    "statusid": 351,
+    "id": 5729898442260480
+  },
+  {
+    "name": "WebGPU",
+    "category": "Graphics",
+    "ieStatus": { "text" : "In Development" },
+    "summary": "The WebGPU API is the successor to the WebGL and WebGL 2 graphics APIs for the Web. It will provide modern features such as “GPU compute” as well as lower overhead access to GPU hardware and better, more predictable performance.",
+    "statusid": 352,
+    "id": 6213121689518080
+  },
+  {
+    "name": "WebXR Device API",
+    "category": "Device",
+    "ieStatus": { "text" : "In Development" },
+    "summary": "Provides access to input and output capabilities commonly associated with Virtual Reality (VR) and Augmented Reality (AR).",
+    "statusid": 353,
+    "id": 5680169905815552
+  },
+  {
+    "name": "WebXR Gamepads Module - Level 1",
+    "category": "Device",
+    "ieStatus": { "text" : "In Development" },
+    "summary": "The WebXR Gamepad Module defines how the Gamepad API integrates with WebXR to communicate the state of various physical inputs (such as buttons, touch pads, and triggers) of an XRInputSource.",
+    "statusid": 354,
+    "id": 5659025263820800
   }
 ]
