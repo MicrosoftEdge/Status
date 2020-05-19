@@ -150,6 +150,17 @@
           "text"
         ]
       },
+      "edgechromiumoverride": {
+        "additionalProperties": false,
+        "properties": {
+          "status_text": {
+            "$ref": "#/definitions/implementation_statuses"
+          },
+          "supported_buildnum": {
+            "type": "number"
+          }
+        }
+      },
       "impl_status_chrome": {
         "$ref": "#/definitions/implementation_statuses"
       },
