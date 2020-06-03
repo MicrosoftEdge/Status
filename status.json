@@ -5849,5 +5849,13 @@
     "summary": "The WebXR Gamepad Module defines how the Gamepad API integrates with WebXR to communicate the state of various physical inputs (such as buttons, touch pads, and triggers) of an XRInputSource.",
     "statusid": 354,
     "id": 5659025263820800
+  },
+  {
+    "name": "Client-side video editing (MediaBlob)",
+    "category": "Multimedia",
+    "ieStatus": { "text" : "Not Supported" },
+    "summary": "The WebXR Gamepad Module defines how the Gamepad API integrates with WebXR to communicate the state of various physical inputs (such as buttons, touch pads, and triggers) of an XRInputSource.",
+    "statusid": 355,
+    "id": 5649171363135488
   }
 ]
