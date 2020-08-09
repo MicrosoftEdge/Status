@@ -18,5 +18,6 @@ if (!validate(statusData)) {
   console.error(validate.errors);
   process.exit(1);
 } else {
+  console.log("status.json validated - no errors.");
   process.exit(0);
 }
