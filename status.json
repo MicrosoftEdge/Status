@@ -2944,8 +2944,9 @@
     "summary": "Touchscreen input API, originally introduced by Apple on iOS. Support is currently limited to only devices with a touchscreen (can be overridden in about:flags). See Pointer Events for touch, pen, and mouse input across all device types.",
     "standardStatus": "Established standard",
     "ieStatus": {
-      "text": "Shipped",
-      "ieUnprefixed": "10240"
+      "text": "Preview Release",
+      "ieUnprefixed": "10240",
+      "flag": true
     },
     "spec": "touch-events",
     "msdn": "https://developer.mozilla.org/docs/Web/API/Touch_events",
