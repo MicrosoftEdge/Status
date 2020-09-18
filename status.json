@@ -5857,5 +5857,13 @@
     "summary": "MediaBlob is a high-level API that enables video editing in the browser.",
     "statusid": 355,
     "id": 5649171363135488
+  },
+  {
+    "name": "Forced colors mode styling",
+    "category": "Accessibility",
+    "ieStatus": { "text" : "Not Supported" },
+    "summary": "The forced-colors media feature, the forced-color-adjust CSS property, and new CSS system colors enable web developers to adjust their styles for modes like Windows high contrast. Forced color modes automatically apply the user's chosen color scheme to web content to increase legibility.",
+    "statusid": 356,
+    "id": 5757293075365888
   }
 ]
