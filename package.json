@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "ajv": "^6.5.4"
+    "ajv": "^6.12.3"
   },
   "private": true,
   "scripts": {
