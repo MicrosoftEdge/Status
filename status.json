@@ -5814,7 +5814,7 @@
     "name": "Cookies default to SameSite=Lax",
     "category": "Network / Connectivity",
     "ieStatus": { "text" : "Not Supported" },
-    "summary": "Treat cookies as SameSite=Lax by default if no SameSite attribute is specified. Developers are still able to opt-in to the status quo of unrestricted use by explicitly asserting SameSite=None. See: https://docs.microsoft.com/en-us/microsoft-edge/web-platform/site-impacting-changes for more information.",
+    "summary": "Treat cookies as SameSite=Lax by default if no SameSite attribute is specified. Developers are still able to opt-in to the status quo of unrestricted use by explicitly asserting SameSite=None. See: https://learn.microsoft.com/microsoft-edge/web-platform/site-impacting-changes for more information.",
     "statusid": 350,
     "id": 5088147346030592
   },
